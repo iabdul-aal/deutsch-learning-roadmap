@@ -1,10 +1,30 @@
-export const RESOURCES_DATA = {
-  title: "Multi-Language Curated Resource Database",
-  description: "Independent multi-lingual research across Arabic, English, and German ecosystems with specialized direct deep-links to exact course modules.",
+export interface ResourceItem {
+  id: string;
+  title: string;
+  creator: string;
+  language: string;
+  skill: string;
+  level: string;
+  duration: string;
+  priority: 'CORE' | 'HIGH VALUE' | 'REFERENCE';
+  whySelected: string;
+  sourceCommunity: string;
+  link: string;
+}
+
+export interface ResourceDatabase {
+  title: string;
+  description: string;
+  resources: ResourceItem[];
+}
+
+export const RESOURCES_DATA: ResourceDatabase = {
+  title: "Multi-Language Curated Resource Database (6 Hats Evaluated)",
+  description: "Independent multi-lingual research across Arabic, English, and German ecosystems evaluated via the 6 Thinking Hats method for Goethe A1 & FAU Erlangen university prep.",
   resources: [
     {
       id: "res-hend-site",
-      title: "Deutsch mit Hend Platform - Course A1",
+      title: "Deutsch mit Hend Platform - Course A1 (arabic backbone)",
       creator: "Deutsch mit Hend",
       language: "Arabic / German",
       skill: "Core A1 Full Curriculum",
