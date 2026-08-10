@@ -1,76 +1,109 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useApp } from '../context/AppContext';
-import { CURRICULUM_DATA } from '../data/tracks/german-a1-ar/curriculum';
 import { 
   Play, CheckCircle2, Circle, Compass, 
-  AlertTriangle, ExternalLink, PenTool, BookOpen 
+  AlertTriangle, ExternalLink, PenTool, BookOpen, Clock, Flame
 } from 'lucide-react';
+import { PomodoroTimerModal } from './PomodoroTimerModal';
 
 export const TodayDashboard: React.FC = () => {
   const { 
     mode, setActiveView, completedTasks, toggleTask, 
-    weakTopics 
+    weakTopics, activeCurriculumData 
   } = useApp();
 
-  const currentDayNumber = 17; // Week 3 Day 17
-  const currentWeekNumber = 3;
+  const [selectedDayNum, setSelectedDayNum] = useState<number>(1);
+  const [pomodoroOpen, setPomodoroOpen] = useState<boolean>(false);
 
-  let todayData: any = null;
-  if (CURRICULUM_DATA && CURRICULUM_DATA.weeks) {
-    CURRICULUM_DATA.weeks.forEach((w) => {
-      if (w.days) {
-        w.days.forEach((d) => {
-          if (d.dayNumber === currentDayNumber) todayData = d;
-        });
-      }
-    });
-  }
+  const weeksList = activeCurriculumData?.weeks || [];
+  const allDaysList = weeksList.flatMap((w: any) => w.days || []);
 
-  if (!todayData && CURRICULUM_DATA?.weeks?.[0]?.days?.[0]) {
-    todayData = CURRICULUM_DATA.weeks[0].days[0];
-  }
+  const currentDayData = allDaysList.find((d: any) => d.dayNumber === selectedDayNum) || allDaysList[0] || {
+    dayNumber: 1,
+    weekNumber: 1,
+    title: "Introduction to German Learning Path",
+    objective: "Establish basic daily routine and core phonetic rules.",
+    standardTasks: []
+  };
 
   const tasksList = mode === 'intensive' 
-    ? [...(todayData?.standardTasks || []), ...(todayData?.intensiveTasks || [])]
-    : (todayData?.standardTasks || []);
+    ? [...(currentDayData?.standardTasks || []), ...(currentDayData?.intensiveTasks || [])]
+    : (currentDayData?.standardTasks || []);
 
-  const completedTodayCount = tasksList.filter((_, idx) => completedTasks[`day-${currentDayNumber}-task-${idx}`]).length;
+  const completedTodayCount = tasksList.filter((_: any, idx: number) => completedTasks[`day-${currentDayData.dayNumber}-task-${idx}`]).length;
   const todayProgressPercent = Math.round((completedTodayCount / (tasksList.length || 1)) * 100);
 
-  const nextTaskIndex = tasksList.findIndex((_, idx) => !completedTasks[`day-${currentDayNumber}-task-${idx}`]);
+  const nextTaskIndex = tasksList.findIndex((_: any, idx: number) => !completedTasks[`day-${currentDayData.dayNumber}-task-${idx}`]);
   const nextTask = nextTaskIndex !== -1 ? tasksList[nextTaskIndex] : null;
 
   return (
     <div className="space-y-5 animate-fadeIn">
       
-      {/* Command Center Status Banner - Optimized for Xiaomi Note 10S (393px) */}
-      <div className="paper-card p-4 sm:p-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-        <div className="space-y-2 w-full min-w-0">
-          <div className="flex flex-wrap items-center gap-2">
-            <span className="px-2.5 py-1 rounded bg-amber-100 text-amber-900 border border-amber-300 text-[10px] sm:text-[11px] font-black uppercase whitespace-nowrap">
-              Day {currentDayNumber} of 56 | Week {currentWeekNumber}
-            </span>
-            <span className="text-stone-500 text-[11px] font-mono">Mode: {mode === 'intensive' ? 'Intensive (~5h/d)' : 'Standard (~3h/d)'}</span>
+      {/* Command Center Status Banner & Interactive Day Picker */}
+      <div className="paper-card p-4 sm:p-6 space-y-4">
+        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+          <div className="space-y-2 w-full min-w-0">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="px-2.5 py-1 rounded bg-amber-100 text-amber-900 border border-amber-300 text-[10px] sm:text-[11px] font-black uppercase whitespace-nowrap">
+                Selected: Day {currentDayData.dayNumber} (Week {currentDayData.weekNumber || 1})
+              </span>
+              <span className="text-stone-500 text-[11px] font-mono">Mode: {mode === 'intensive' ? 'Intensive (~5h/d)' : 'Standard (~3h/d)'}</span>
+            </div>
+
+            <h1 className="text-lg sm:text-2xl font-extrabold text-stone-900 leading-tight">
+              Daily Study Command Center
+            </h1>
+            
+            <p className="text-xs text-stone-600 max-w-2xl leading-normal">
+              Target Focus: <strong className="text-amber-800">{currentDayData?.title}</strong> - {currentDayData?.objective}
+            </p>
           </div>
 
-          <h1 className="text-lg sm:text-2xl font-extrabold text-stone-900 leading-tight">
-            Daily Study Command Center
-          </h1>
-          
-          <p className="text-xs text-stone-600 max-w-2xl leading-normal">
-            Target Focus: <strong className="text-amber-800">{todayData?.title}</strong> - {todayData?.objective}
-          </p>
+          {/* Action & Pomodoro Buttons */}
+          <div className="w-full md:w-auto shrink-0 flex flex-wrap sm:flex-nowrap items-center gap-2">
+            <button
+              onClick={() => setPomodoroOpen(true)}
+              className="px-4 py-2.5 rounded bg-stone-900 hover:bg-amber-600 text-white font-extrabold text-xs transition-all flex items-center justify-center gap-1.5 shadow-xs min-h-[42px]"
+            >
+              <Flame className="w-4 h-4 text-amber-400" />
+              <span>Pomodoro Timer</span>
+            </button>
+
+            <button
+              onClick={() => setActiveView('curriculum')}
+              className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-5 py-2.5 rounded bg-amber-500 hover:bg-amber-400 text-stone-950 font-black text-xs transition-all shadow-xs min-h-[42px] active:scale-[0.98]"
+            >
+              <Play className="w-4 h-4 fill-stone-950" />
+              <span>{nextTask ? "Continue Learning" : "Review Roadmap"}</span>
+            </button>
+          </div>
         </div>
 
-        {/* Action Button */}
-        <div className="w-full md:w-auto shrink-0">
-          <button
-            onClick={() => setActiveView('curriculum')}
-            className="w-full md:w-auto flex items-center justify-center gap-2 px-5 py-2.5 rounded bg-amber-500 hover:bg-amber-400 text-stone-950 font-black text-xs transition-all shadow-sm active:scale-[0.98]"
-          >
-            <Play className="w-4 h-4 fill-stone-950" />
-            <span>{nextTask ? "Continue Learning" : "Review Tasks"}</span>
-          </button>
+        {/* Dynamic Day Selection Pill Bar */}
+        <div className="pt-2 border-t border-stone-200 space-y-2">
+          <div className="flex items-center justify-between text-[11px] font-bold text-stone-500">
+            <span>Select Target Day to Practice:</span>
+            <span>Showing Day {selectedDayNum} of {allDaysList.length || 56}</span>
+          </div>
+
+          <div className="flex items-center gap-1.5 overflow-x-auto pb-2 scrollbar-none text-xs">
+            {allDaysList.map((d: any) => {
+              const isSelected = d.dayNumber === selectedDayNum;
+              return (
+                <button
+                  key={d.dayNumber}
+                  onClick={() => setSelectedDayNum(d.dayNumber)}
+                  className={`px-3 py-1.5 rounded font-mono font-bold text-xs shrink-0 transition-all border ${
+                    isSelected
+                      ? 'bg-amber-500 text-stone-950 border-amber-500 font-black shadow-xs'
+                      : 'bg-stone-50 hover:bg-stone-200 text-stone-700 border-stone-300'
+                  }`}
+                >
+                  Day {d.dayNumber}
+                </button>
+              );
+            })}
+          </div>
         </div>
       </div>
 
@@ -93,12 +126,12 @@ export const TodayDashboard: React.FC = () => {
         </div>
       )}
 
-      {/* Task Execution Table */}
+      {/* Task Execution Table for Selected Day */}
       <div className="paper-card p-4 sm:p-6 space-y-4">
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between border-b border-stone-200 pb-3 gap-2">
           <div>
             <h3 className="text-xs sm:text-sm font-extrabold text-stone-900 uppercase tracking-wider">
-              Today's Actionable Schedule (Day {currentDayNumber})
+              Actionable Schedule for Day {currentDayData.dayNumber} ({currentDayData.title})
             </h3>
             <p className="text-[11px] text-stone-500 mt-0.5">
               Check off tasks as you complete them to record progress in your local study state.
@@ -112,13 +145,13 @@ export const TodayDashboard: React.FC = () => {
         {/* Actionable Tasks List */}
         <div className="space-y-2">
           {tasksList.map((task: any, idx: number) => {
-            const taskId = `day-${currentDayNumber}-task-${idx}`;
+            const taskId = `day-${currentDayData.dayNumber}-task-${idx}`;
             const isDone = Boolean(completedTasks[taskId]);
 
             return (
               <div
                 key={taskId}
-                onClick={() => toggleTask(taskId, currentDayNumber)}
+                onClick={() => toggleTask(taskId, currentDayData.dayNumber)}
                 className={`p-3 sm:p-3.5 rounded border flex items-start gap-3 transition-all cursor-pointer ${
                   isDone 
                     ? 'bg-stone-50 border-stone-200 opacity-60' 
@@ -176,7 +209,7 @@ export const TodayDashboard: React.FC = () => {
             <span className="text-xs font-extrabold uppercase">Germany Survival Workbench</span>
             <Compass className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
           </div>
-          <h4 className="text-sm font-bold text-stone-900">7 Real-World Practical Domains</h4>
+          <h4 className="text-sm font-bold text-stone-900">Practical Scenarios & Dialogues</h4>
           <p className="text-xs text-stone-600">Airport Arrival, University Registration, Landlords, DB Trains & Emergency 112.</p>
         </div>
 
@@ -188,7 +221,7 @@ export const TodayDashboard: React.FC = () => {
             <span className="text-xs font-extrabold uppercase">Vocabulary Flashcards</span>
             <BookOpen className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
           </div>
-          <h4 className="text-sm font-bold text-stone-900">500+ A1 Core Words & Articles</h4>
+          <h4 className="text-sm font-bold text-stone-900">Vocabulary Decks & Articles</h4>
           <p className="text-xs text-stone-600">Color-coded articles (Der = Blue, Die = Red, Das = Green) with audio TTS.</p>
         </div>
 
@@ -197,13 +230,18 @@ export const TodayDashboard: React.FC = () => {
           className="paper-interactive p-4 sm:p-5 cursor-pointer space-y-2 group"
         >
           <div className="flex items-center justify-between text-amber-700">
-            <span className="text-xs font-extrabold uppercase">18 Grammar Modules</span>
+            <span className="text-xs font-extrabold uppercase">Grammar Modules</span>
             <PenTool className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
           </div>
           <h4 className="text-sm font-bold text-stone-900">Interactive Rules & Quizzes</h4>
-          <p className="text-xs text-stone-600">Sentence V2, Accusative, Dative, Modal verbs, Separable verbs & Perfekt.</p>
+          <p className="text-xs text-stone-600">Sentence structure formulas, explanations, and automated weak topic tagging.</p>
         </div>
       </div>
+
+      {/* Pomodoro Timer Modal */}
+      {pomodoroOpen && (
+        <PomodoroTimerModal onClose={() => setPomodoroOpen(false)} />
+      )}
     </div>
   );
 };
