@@ -1,0 +1,27 @@
+{
+  "name": "standalone_sync",
+  "description": "Workflow synchronizing standalone.html and index.html direct file:// fallbacks.",
+  "stages": [
+    {
+      "id": "validate_inputs",
+      "name": "Validate Input Schemas & Config",
+      "type": "VALIDATION",
+      "node": "ValidateInputsNode",
+      "dependencies": []
+    },
+    {
+      "id": "sync_standalone",
+      "name": "Synchronize Self-Contained Standalone HTML Bundle",
+      "type": "SYNC",
+      "node": "SyncStandaloneNode",
+      "dependencies": ["validate_inputs"]
+    },
+    {
+      "id": "generate_report",
+      "name": "Generate Execution & Quality Gate Provenance Report",
+      "type": "REPORT",
+      "node": "GenerateReportNode",
+      "dependencies": ["sync_standalone"]
+    }
+  ]
+}
