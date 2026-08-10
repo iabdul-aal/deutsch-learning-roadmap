@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VocabularyDataSchema",
+  "type": "object",
+  "required": ["title", "categories", "words"],
+  "properties": {
+    "title": { "type": "string" },
+    "categories": { "type": "array", "items": { "type": "string" } },
+    "words": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "german", "english", "arabic", "category"],
+        "properties": {
+          "id": { "type": "string" },
+          "german": { "type": "string" },
+          "article": { "type": "string", "enum": ["der", "die", "das", ""] },
+          "plural": { "type": "string" },
+          "english": { "type": "string" },
+          "arabic": { "type": "string" },
+          "category": { "type": "string" },
+          "example": { "type": "string" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "full_build_pipeline",
+  "description": "Complete end-to-end data audit, quality gate validation, Vite production compilation, standalone synchronization, and provenance reporting pipeline.",
+  "stages": [
+    {
+      "id": "validate_inputs",
+      "name": "Validate Input Schemas & Config",
+      "type": "VALIDATION",
+      "node": "ValidateInputsNode",
+      "dependencies": [],
+      "retryPolicy": { "maxRetries": 1, "backoffMs": 500 }
+    },
+    {
+      "id": "audit_curriculum",
+      "name": "Audit 56-Day Curriculum & Hend/Piece of German Links",
+      "type": "AUDIT",
+      "node": "AuditCurriculumNode",
+      "dependencies": ["validate_inputs"]
+    },
+    {
+      "id": "audit_vocabulary",
+      "name": "Audit SRS Vocabulary & Article Color Coding",
+      "type": "AUDIT",
+      "node": "AuditVocabularyNode",
+      "dependencies": ["validate_inputs"]
+    },
+    {
+      "id": "audit_survival",
+      "name": "Audit Germany Survival Phrasebook (7 Domains)",
+      "type": "AUDIT",
+      "node": "AuditSurvivalNode",
+      "dependencies": ["validate_inputs"]
+    },
+    {
+      "id": "audit_grammar",
+      "name": "Audit 18 Core A1 Grammar Modules",
+      "type": "AUDIT",
+      "node": "AuditGrammarNode",
+      "dependencies": ["validate_inputs"]
+    },
+    {
+      "id": "build_dist",
+      "name": "Vite Production Compilation (dist/)",
+      "type": "BUILD",
+      "node": "BuildDistNode",
+      "dependencies": ["audit_curriculum", "audit_vocabulary", "audit_survival", "audit_grammar"]
+    },
+    {
+      "id": "sync_standalone",
+      "name": "Synchronize Self-Contained Standalone HTML Bundle",
+      "type": "SYNC",
+      "node": "SyncStandaloneNode",
+      "dependencies": ["build_dist"]
+    },
+    {
+      "id": "generate_report",
+      "name": "Generate Execution & Quality Gate Provenance Report",
+      "type": "REPORT",
+      "node": "GenerateReportNode",
+      "dependencies": ["sync_standalone"]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "runId": "run_1786355121449_gsha25",
+    "stageId": "generate_report",
+    "name": "provenance_report",
+    "filePath": "artifacts\\run_run_1786355121449_gsha25_report.md",
+    "type": "REPORT_ARTIFACT",
+    "hash": "2013f89c11f64c0f",
+    "timestamp": "2026-08-10T09:45:21.452Z"
+  }
+]

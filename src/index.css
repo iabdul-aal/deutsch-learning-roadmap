@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root {
+    @apply bg-[#FBF9F5] text-stone-900 font-sans antialiased selection:bg-amber-400 selection:text-stone-950 min-h-screen;
+    background-color: #FBF9F5 !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-tight font-extrabold text-stone-900;
+  }
+}
+
+/* Custom Editorial Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F3EFE6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D6D3D1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A8A29E;
+}
+
+/* Hide scrollbar for category bars */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Fresh Editorial Paper Surfaces & Crisp Borders */
+.paper-card {
+  @apply bg-white border border-stone-200 rounded-lg shadow-sm;
+}
+
+.paper-interactive {
+  @apply paper-card hover:border-stone-400 hover:shadow-md transition-all duration-150;
+}
+
+/* Custom Arabic Typography Utility */
+.font-arabic {
+  font-family: 'Cairo', system-ui, sans-serif;
+  line-height: 1.65;
+}
+
+/* Editorial German Accent Header Bar */
+.german-flag-editorial {
+  background: linear-gradient(90deg, #1C1917 33.3%, #DC2626 33.3%, #DC2626 66.6%, #D97706 66.6%);
+  height: 4px;
+}

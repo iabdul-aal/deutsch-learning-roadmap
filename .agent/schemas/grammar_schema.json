@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GrammarDataSchema",
+  "type": "object",
+  "required": ["title", "modules"],
+  "properties": {
+    "title": { "type": "string" },
+    "modules": {
+      "type": "array",
+      "minItems": 18,
+      "maxItems": 18,
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "summary", "explanation", "examples"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "summary": { "type": "string" },
+          "explanation": { "type": "string" },
+          "formula": { "type": "string" },
+          "examples": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["german", "arabic"],
+              "properties": {
+                "german": { "type": "string" },
+                "arabic": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

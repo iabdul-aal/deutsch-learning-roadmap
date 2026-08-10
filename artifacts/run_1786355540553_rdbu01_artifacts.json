@@ -1,0 +1,11 @@
+[
+  {
+    "runId": "run_1786355540553_rdbu01",
+    "stageId": "generate_report",
+    "name": "provenance_report",
+    "filePath": "artifacts\\run_run_1786355540553_rdbu01_report.md",
+    "type": "REPORT_ARTIFACT",
+    "hash": "a90015c9d0dc0519",
+    "timestamp": "2026-08-10T09:52:20.560Z"
+  }
+]
