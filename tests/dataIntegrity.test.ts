@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { SchemaValidator } from '../src/pipeline/validators/SchemaValidator.js';
+import { SchemaValidator } from '../src/pipeline/validators/SchemaValidator.ts';
 
 test('Data Integrity: 56-Day Curriculum Schema', () => {
   const result = SchemaValidator.validateCurriculum();

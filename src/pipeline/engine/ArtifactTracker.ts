@@ -1,17 +1,25 @@
 import fs from 'fs';
 import path from 'path';
-import { StateManager } from './StateManager.js';
+import { StateManager } from './StateManager.ts';
 
 const ARTIFACTS_DIR = path.resolve(process.cwd(), 'artifacts');
 
+export interface ArtifactRecordOptions {
+  runId: string;
+  stageId: string;
+  name: string;
+  filePath: string;
+  type: string;
+}
+
 export class ArtifactTracker {
-  static ensureArtifactsDir() {
+  static ensureArtifactsDir(): void {
     if (!fs.existsSync(ARTIFACTS_DIR)) {
       fs.mkdirSync(ARTIFACTS_DIR, { recursive: true });
     }
   }
 
-  static recordArtifact({ runId, stageId, name, filePath, type }) {
+  static recordArtifact({ runId, stageId, name, filePath, type }: ArtifactRecordOptions) {
     this.ensureArtifactsDir();
     const hash = fs.existsSync(filePath) ? StateManager.computeFileHash(filePath) : null;
     const metadata = {
@@ -25,7 +33,7 @@ export class ArtifactTracker {
     };
 
     const recordFile = path.join(ARTIFACTS_DIR, `${runId}_artifacts.json`);
-    let records = [];
+    let records: any[] = [];
     if (fs.existsSync(recordFile)) {
       try {
         records = JSON.parse(fs.readFileSync(recordFile, 'utf-8'));

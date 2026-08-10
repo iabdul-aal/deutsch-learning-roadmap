@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, ReactNode } from 'react';
 import { AppProvider, useApp } from './context/AppContext';
 import { Sidebar } from './components/Sidebar';
 import { TodayDashboard } from './components/TodayDashboard';
@@ -13,21 +13,30 @@ import { ResourceDatabaseView } from './components/ResourceDatabaseView';
 import { MobileAppsView } from './components/MobileAppsView';
 import { QuickTimerModal } from './components/QuickTimerModal';
 
-class ErrorBoundary extends Component {
-  constructor(props) {
+interface ErrorBoundaryProps {
+  children: ReactNode;
+}
+
+interface ErrorBoundaryState {
+  hasError: boolean;
+  error: Error | null;
+}
+
+class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
+  constructor(props: ErrorBoundaryProps) {
     super(props);
     this.state = { hasError: false, error: null };
   }
 
-  static getDerivedStateFromError(error) {
+  static getDerivedStateFromError(error: Error): ErrorBoundaryState {
     return { hasError: true, error };
   }
 
-  componentDidCatch(error, errorInfo) {
+  componentDidCatch(error: Error, errorInfo: React.ErrorInfo): void {
     console.error("ErrorBoundary caught an error:", error, errorInfo);
   }
 
-  render() {
+  render(): ReactNode {
     if (this.state.hasError) {
       return (
         <div className="min-h-screen bg-[#FBF9F5] text-stone-900 flex items-center justify-center p-6">
@@ -49,11 +58,11 @@ class ErrorBoundary extends Component {
   }
 }
 
-const WorkspaceContent = () => {
+const WorkspaceContent: React.FC = () => {
   const { activeView } = useApp();
-  const [isTimerOpen, setIsTimerOpen] = React.useState(false);
+  const [isTimerOpen, setIsTimerOpen] = React.useState<boolean>(false);
 
-  const renderView = () => {
+  const renderView = (): ReactNode => {
     switch (activeView) {
       case 'dashboard': return <TodayDashboard />;
       case 'curriculum': return <CurriculumView />;
@@ -88,7 +97,7 @@ const WorkspaceContent = () => {
   );
 };
 
-export default function App() {
+export default function App(): ReactNode {
   return (
     <ErrorBoundary>
       <AppProvider>

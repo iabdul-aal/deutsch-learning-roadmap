@@ -1,15 +1,15 @@
 import { execSync } from 'child_process';
-import { QualityGates } from '../validators/QualityGates.js';
-import { ArtifactTracker } from '../engine/ArtifactTracker.js';
+import { QualityGates } from '../validators/QualityGates.ts';
+import { ArtifactTracker } from '../engine/ArtifactTracker.ts';
 import path from 'path';
 import fs from 'fs';
 
 export class BuildDistNode {
-  static async execute({ runId, context }) {
+  static async execute({ runId, context }: { runId: string; context?: any }) {
     console.log("  [NODE] Executing BuildDistNode (vite build)...");
     try {
       execSync('npm run build', { cwd: process.cwd(), stdio: 'pipe' });
-    } catch (e) {
+    } catch (e: any) {
       throw new Error(`Vite build compilation failed: ${e.message}`);
     }
 
@@ -32,7 +32,7 @@ export class BuildDistNode {
 }
 
 export class SyncStandaloneNode {
-  static async execute({ runId, context }) {
+  static async execute({ runId, context }: { runId: string; context?: any }) {
     console.log("  [NODE] Executing SyncStandaloneNode...");
     const gate = QualityGates.evaluateGate3_StandaloneSync();
     if (!gate.passed) {
@@ -53,7 +53,7 @@ export class SyncStandaloneNode {
 }
 
 export class GenerateReportNode {
-  static async execute({ runId, context }) {
+  static async execute({ runId, context }: { runId: string; context?: any }) {
     console.log("  [NODE] Executing GenerateReportNode...");
     const reportDir = path.resolve(process.cwd(), 'artifacts');
     if (!fs.existsSync(reportDir)) fs.mkdirSync(reportDir, { recursive: true });

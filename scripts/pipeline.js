@@ -1,6 +1,6 @@
-import { WorkflowEngine } from '../src/pipeline/engine/WorkflowEngine.js';
-import { StateManager } from '../src/pipeline/engine/StateManager.js';
-import { QualityGates } from '../src/pipeline/validators/QualityGates.js';
+import { WorkflowEngine } from '../src/pipeline/engine/WorkflowEngine.ts';
+import { StateManager } from '../src/pipeline/engine/StateManager.ts';
+import { QualityGates } from '../src/pipeline/validators/QualityGates.ts';
 import path from 'path';
 import fs from 'fs';
 

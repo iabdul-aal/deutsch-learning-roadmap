@@ -1,7 +1,7 @@
-import { SchemaValidator } from '../validators/SchemaValidator.js';
+import { SchemaValidator } from '../validators/SchemaValidator.ts';
 
 export class AuditCurriculumNode {
-  static async execute({ runId, context }) {
+  static async execute({ runId, context }: { runId?: string; context?: any }) {
     console.log("  [NODE] Executing AuditCurriculumNode...");
     const res = SchemaValidator.validateCurriculum();
     if (!res.valid) throw new Error(res.errors.join('; '));
@@ -10,7 +10,7 @@ export class AuditCurriculumNode {
 }
 
 export class AuditVocabularyNode {
-  static async execute({ runId, context }) {
+  static async execute({ runId, context }: { runId?: string; context?: any }) {
     console.log("  [NODE] Executing AuditVocabularyNode...");
     const res = SchemaValidator.validateVocabulary();
     if (!res.valid) throw new Error(res.errors.join('; '));
@@ -19,7 +19,7 @@ export class AuditVocabularyNode {
 }
 
 export class AuditSurvivalNode {
-  static async execute({ runId, context }) {
+  static async execute({ runId, context }: { runId?: string; context?: any }) {
     console.log("  [NODE] Executing AuditSurvivalNode...");
     const res = SchemaValidator.validateSurvival();
     if (!res.valid) throw new Error(res.errors.join('; '));
@@ -28,7 +28,7 @@ export class AuditSurvivalNode {
 }
 
 export class AuditGrammarNode {
-  static async execute({ runId, context }) {
+  static async execute({ runId, context }: { runId?: string; context?: any }) {
     console.log("  [NODE] Executing AuditGrammarNode...");
     const res = SchemaValidator.validateGrammar();
     if (!res.valid) throw new Error(res.errors.join('; '));

@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { WorkflowEngine } from '../src/pipeline/engine/WorkflowEngine.js';
-import { StateManager } from '../src/pipeline/engine/StateManager.js';
+import { WorkflowEngine } from '../src/pipeline/engine/WorkflowEngine.ts';
+import { StateManager } from '../src/pipeline/engine/StateManager.ts';
 
 test('Workflow Engine: Run data_integrity_audit workflow', async () => {
   const result = await WorkflowEngine.runWorkflow('data_integrity_audit');

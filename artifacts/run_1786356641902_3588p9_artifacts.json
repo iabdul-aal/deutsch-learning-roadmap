@@ -1,0 +1,11 @@
+[
+  {
+    "runId": "run_1786356641902_3588p9",
+    "stageId": "generate_report",
+    "name": "provenance_report",
+    "filePath": "artifacts\\run_run_1786356641902_3588p9_report.md",
+    "type": "REPORT_ARTIFACT",
+    "hash": "18ecfe40a52d4d97",
+    "timestamp": "2026-08-10T10:10:41.906Z"
+  }
+]

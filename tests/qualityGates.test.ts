@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { QualityGates } from '../src/pipeline/validators/QualityGates.js';
+import { QualityGates } from '../src/pipeline/validators/QualityGates.ts';
 
 test('Quality Gate 1: Data Integrity Gate', () => {
   const gate = QualityGates.evaluateGate1_DataIntegrity();
