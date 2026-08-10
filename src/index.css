@@ -2,62 +2,151 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background: #fcfbfa;
+  --foreground: #262320;
+  --surface: #f4f1ea;
+  --card: #faf8f3;
+  --card-foreground: #262320;
+  --primary: #b68c61;
+  --primary-foreground: #fcfbfa;
+  --secondary: #eeeae2;
+  --secondary-foreground: #262320;
+  --muted: #f4f1ea;
+  --muted-foreground: #6e675e;
+  --accent: #855f39;
+  --accent-strong: #634527;
+  --accent-foreground: #fcfbfa;
+  --destructive: #b91c1c;
+  --destructive-foreground: #fcfbfa;
+  --border: #e5e1d8;
+  --input: #e5e1d8;
+  --ring: #b68c61;
+  --radius: 0.375rem;
+}
+
 @layer base {
   html, body, #root {
-    @apply bg-[#FBF9F5] text-stone-900 font-sans antialiased selection:bg-amber-400 selection:text-stone-950 min-h-screen;
-    background-color: #FBF9F5 !important;
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    @apply tracking-tight font-extrabold text-stone-900;
+  ::selection {
+    background: #e8ded1;
+    color: var(--foreground);
   }
 }
 
-/* Custom Editorial Scrollbar */
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+@layer utilities {
+  .dir-rtl {
+    direction: rtl;
+    text-align: right;
+  }
+
+  .font-arabic {
+    font-family: 'Cairo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .german-flag-editorial {
+    height: 4px;
+    background: linear-gradient(to right, #111111 0%, #111111 33.3%, #DD0000 33.3%, #DD0000 66.6%, #FFCC00 66.6%, #FFCC00 100%);
+  }
 }
 
-::-webkit-scrollbar-track {
-  background: #F3EFE6;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #D6D3D1;
-  border-radius: 3px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #A8A29E;
-}
-
-/* Hide scrollbar for category bars */
-.scrollbar-none::-webkit-scrollbar {
-  display: none;
-}
-.scrollbar-none {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-/* Fresh Editorial Paper Surfaces & Crisp Borders */
+/* Custom Editorial Paper Components (Derived from D:\iabdul-aal.github.io) */
 .paper-card {
-  @apply bg-white border border-stone-200 rounded-lg shadow-sm;
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--card-foreground);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+  transition: all 0.2s ease-in-out;
+}
+
+.paper-card:hover {
+  border-color: #d6cfc0;
 }
 
 .paper-interactive {
-  @apply paper-card hover:border-stone-400 hover:shadow-md transition-all duration-150;
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--card-foreground);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+  transition: all 0.2s ease-in-out;
 }
 
-/* Custom Arabic Typography Utility */
-.font-arabic {
-  font-family: 'Cairo', system-ui, sans-serif;
-  line-height: 1.65;
+.paper-interactive:hover {
+  border-color: var(--accent);
+  box-shadow: 0 4px 12px -2px rgba(133, 95, 57, 0.08);
+  transform: translateY(-1px);
 }
 
-/* Editorial German Accent Header Bar */
-.german-flag-editorial {
-  background: linear-gradient(90deg, #1C1917 33.3%, #DC2626 33.3%, #DC2626 66.6%, #D97706 66.6%);
-  height: 4px;
+.btn-primary {
+  cursor: pointer;
+  display: inline-flex;
+  items-center: center;
+  justify-content: center;
+  gap: 0.375rem;
+  border-radius: var(--radius);
+  background-color: var(--accent);
+  padding: 0.375rem 0.875rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent-foreground);
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-strong);
+}
+
+.btn-secondary {
+  cursor: pointer;
+  display: inline-flex;
+  items-center: center;
+  justify-content: center;
+  gap: 0.375rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background-color: var(--card);
+  padding: 0.375rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--foreground);
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-secondary:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.badge-primary {
+  display: inline-block;
+  border-radius: var(--radius);
+  background-color: rgba(133, 95, 57, 0.1);
+  color: var(--accent);
+  border: 1px solid rgba(133, 95, 57, 0.2);
+  padding: 0.125rem 0.375rem;
+  font-size: 0.625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.badge-secondary {
+  display: inline-block;
+  border-radius: var(--radius);
+  background-color: var(--secondary);
+  color: var(--muted-foreground);
+  padding: 0.125rem 0.375rem;
+  font-size: 0.625rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
