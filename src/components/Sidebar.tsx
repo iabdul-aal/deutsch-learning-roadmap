@@ -4,10 +4,14 @@ import { AVAILABLE_TRACKS, CURRENT_TRACK_ID } from '../config/activeLanguageTrac
 import { 
   Flame, Clock, CheckCircle2, LayoutDashboard, Calendar, 
   Compass, Volume2, BookOpen, FileText, Mic, Bookmark, 
-  Smartphone, RotateCcw, ChevronDown, Menu, X, Globe 
+  Smartphone, RotateCcw, ChevronDown, Menu, X, Globe, Layers
 } from 'lucide-react';
 
-export const Sidebar = ({ onOpenTimer }) => {
+interface SidebarProps {
+  onOpenTimer: () => void;
+}
+
+export const Sidebar: React.FC<SidebarProps> = ({ onOpenTimer }) => {
   const { 
     mode, setMode, activeView, setActiveView, 
     streakDays, completedTasks, resetProgress 
@@ -15,9 +19,12 @@ export const Sidebar = ({ onOpenTimer }) => {
 
   const [trackDropdownOpen, setTrackDropdownOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [selectedTrackId, setSelectedTrackId] = useState(CURRENT_TRACK_ID);
 
   const completedCount = Object.values(completedTasks).filter(Boolean).length;
   const progressPercent = Math.min(100, Math.round((completedCount / 392) * 100));
+
+  const currentTrack = AVAILABLE_TRACKS.find(t => t.id === selectedTrackId) || AVAILABLE_TRACKS[0];
 
   const navItems = [
     { id: 'dashboard', label: 'Command Center', icon: LayoutDashboard },
@@ -32,7 +39,7 @@ export const Sidebar = ({ onOpenTimer }) => {
     { id: 'mobile_apps', label: 'Companion Apps', icon: Smartphone }
   ];
 
-  const handleNavClick = (id) => {
+  const handleNavClick = (id: string) => {
     setActiveView(id);
     setMobileMenuOpen(false);
   };
@@ -43,12 +50,12 @@ export const Sidebar = ({ onOpenTimer }) => {
       <header className="md:hidden sticky top-0 z-50 bg-white border-b border-stone-200 p-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Globe className="w-5 h-5 text-amber-700" />
-          <span className="font-extrabold text-stone-900 text-sm">DEUTSCH SURVIVAL A1</span>
+          <span className="font-extrabold text-stone-900 text-sm tracking-tight">DEUTSCH SURVIVAL {currentTrack.level}</span>
         </div>
 
         <button 
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="p-1.5 rounded bg-stone-100 text-stone-700 border border-stone-300"
+          className="p-1.5 rounded bg-stone-100 text-stone-700 border border-stone-300 min-h-[38px] min-w-[38px] flex items-center justify-center"
         >
           {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
         </button>
@@ -72,39 +79,55 @@ export const Sidebar = ({ onOpenTimer }) => {
               <Globe className="w-6 h-6 text-amber-700 shrink-0" />
               <div>
                 <span className="font-black text-stone-900 tracking-tight text-sm block">
-                  DEUTSCH SURVIVAL <span className="text-amber-600">A1</span>
+                  DEUTSCH SURVIVAL <span className="text-amber-600">{currentTrack.level}</span>
                 </span>
                 <span className="text-[10px] text-stone-400 font-mono font-bold block uppercase tracking-wider">
-                  8-WEEK GERMANY PREP
+                  GERMANY ROADMAP PLATFORM
                 </span>
               </div>
             </div>
 
-            {/* Track Selector Dropdown */}
+            {/* Level & Track Selector Dropdown (A1, A2, B1) */}
             <div className="relative pt-1">
               <button 
                 onClick={() => setTrackDropdownOpen(!trackDropdownOpen)}
-                className="w-full flex items-center justify-between px-2.5 py-1.5 rounded bg-stone-100 hover:bg-stone-200 text-stone-700 border border-stone-300 text-xs font-bold transition-all"
+                className="w-full flex items-center justify-between px-2.5 py-1.5 rounded bg-stone-100 hover:bg-stone-200 text-stone-800 border border-stone-300 text-xs font-extrabold transition-all"
               >
-                <span>{AVAILABLE_TRACKS.find(t => t.id === CURRENT_TRACK_ID)?.name}</span>
-                <ChevronDown className="w-3.5 h-3.5 text-stone-500" />
+                <div className="flex items-center gap-1.5 truncate">
+                  <Layers className="w-3.5 h-3.5 text-amber-700 shrink-0" />
+                  <span className="truncate">{currentTrack.name}</span>
+                </div>
+                <ChevronDown className="w-3.5 h-3.5 text-stone-500 shrink-0" />
               </button>
 
               {trackDropdownOpen && (
                 <div className="absolute left-0 mt-1 w-full bg-white border border-stone-300 rounded-lg shadow-xl z-50 p-2 text-xs">
                   <div className="p-1 font-bold text-stone-500 border-b border-stone-200 text-[10px] uppercase">
-                    Available Tracks
+                    Select Target Level Roadmap
                   </div>
                   {AVAILABLE_TRACKS.map((track) => (
-                    <div 
+                    <button
                       key={track.id}
-                      className={`p-2 rounded my-1 transition-all ${track.active ? 'bg-amber-50 border border-amber-300 text-amber-900 font-bold' : 'text-stone-400 opacity-60'}`}
+                      onClick={() => {
+                        setSelectedTrackId(track.id);
+                        setTrackDropdownOpen(false);
+                      }}
+                      className={`w-full text-left p-2 rounded my-1 transition-all ${
+                        selectedTrackId === track.id
+                          ? 'bg-amber-50 border border-amber-300 text-amber-950 font-black' 
+                          : 'hover:bg-stone-100 text-stone-700 font-bold'
+                      }`}
                     >
                       <div className="flex items-center justify-between text-[11px]">
                         <span>{track.name}</span>
-                        {track.active && <span className="px-1.5 py-0.2 rounded bg-amber-500 text-white font-black text-[9px]">ACTIVE</span>}
+                        <span className={`px-1.5 py-0.2 rounded font-black text-[9px] ${
+                          track.level === 'A1' ? 'bg-amber-500 text-stone-950' :
+                          track.level === 'A2' ? 'bg-indigo-600 text-white' : 'bg-emerald-600 text-white'
+                        }`}>
+                          {track.level}
+                        </span>
                       </div>
-                    </div>
+                    </button>
                   ))}
                 </div>
               )}
@@ -130,7 +153,7 @@ export const Sidebar = ({ onOpenTimer }) => {
           {/* Navigation Links List */}
           <nav className="p-3 space-y-1">
             <div className="text-[10px] font-black text-stone-400 uppercase tracking-widest px-2 pb-1">
-              Workspace Views
+              Workspace Views ({currentTrack.level})
             </div>
 
             {navItems.map((item) => {
@@ -161,7 +184,7 @@ export const Sidebar = ({ onOpenTimer }) => {
           {/* Progress Tracker */}
           <div className="space-y-1.5">
             <div className="flex items-center justify-between text-xs font-bold text-stone-700">
-              <span>Overall Progress</span>
+              <span>{currentTrack.level} Progress</span>
               <span className="font-mono text-amber-900">{progressPercent}%</span>
             </div>
             <div className="w-full bg-stone-200 h-1.5 rounded-full overflow-hidden">
