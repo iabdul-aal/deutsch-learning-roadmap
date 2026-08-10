@@ -54,6 +54,20 @@ export const MOBILE_APPS_DATA: MobileAppsData = {
       tags: ["Story", "Video", "Official DW", "Free"]
     },
     {
+      id: "app-langenscheidt",
+      name: "Langenscheidt German-Arabic Dictionary",
+      category: "German-Arabic Dictionary",
+      platform: "Android / iOS / Web",
+      rating: "4.9 / 5.0",
+      freeTrial: true,
+      offline: true,
+      bestFor: "Official German-Arabic Word Translations & Audio Pronunciation",
+      description: "The gold-standard German-Arabic dictionary by Langenscheidt. Provides accurate Arabic translations, example sentences, and audio clips.",
+      recommendedUse: "Reference: Look up unknown noun genders (Der/Die/Das) and Arabic translations.",
+      storeUrl: "https://de.langenscheidt.com/deutsch-arabisch/",
+      tags: ["Dictionary", "Arabic-German", "Langenscheidt", "Official"]
+    },
+    {
       id: "app-seedlang",
       name: "Seedlang German",
       category: "Pronunciation & Native Video Drills",
@@ -66,20 +80,6 @@ export const MOBILE_APPS_DATA: MobileAppsData = {
       recommendedUse: "3x per week: 15 min video trivia & listening comprehension drills.",
       storeUrl: "https://seedlang.com/",
       tags: ["Video", "Pronunciation", "Easy German", "Interactive"]
-    },
-    {
-      id: "app-dict-cc",
-      name: "Dict.cc Offline Dictionary",
-      category: "Dictionary & Audio",
-      platform: "Android / iOS",
-      rating: "4.7 / 5.0",
-      freeTrial: true,
-      offline: true,
-      bestFor: "Instant Offline Word Search & Native Speaker Audio Clips",
-      description: "Comprehensive multilingual dictionary with offline database support for German-Arabic and German-English.",
-      recommendedUse: "Reference: Look up unknown noun genders (Der/Die/Das) and audio pronunciation.",
-      storeUrl: "https://www.dict.cc/",
-      tags: ["Dictionary", "Offline", "Arabic-German", "Essential"]
     },
     {
       id: "app-duolingo",

@@ -1,0 +1,29 @@
+[
+  {
+    "runId": "run_1786359160496_xqryd3",
+    "stageId": "build_dist",
+    "name": "production_dist_index",
+    "filePath": "dist\\index.html",
+    "type": "BUILD_ARTIFACT",
+    "hash": "5d2a6a9a693c3d4c",
+    "timestamp": "2026-08-10T10:52:42.515Z"
+  },
+  {
+    "runId": "run_1786359160496_xqryd3",
+    "stageId": "sync_standalone",
+    "name": "standalone_html_bundle",
+    "filePath": "standalone.html",
+    "type": "STANDALONE_ARTIFACT",
+    "hash": "df49151ea8938535",
+    "timestamp": "2026-08-10T10:52:42.516Z"
+  },
+  {
+    "runId": "run_1786359160496_xqryd3",
+    "stageId": "generate_report",
+    "name": "provenance_report",
+    "filePath": "artifacts\\run_run_1786359160496_xqryd3_report.md",
+    "type": "REPORT_ARTIFACT",
+    "hash": "15fe6100ed25007f",
+    "timestamp": "2026-08-10T10:52:42.517Z"
+  }
+]
