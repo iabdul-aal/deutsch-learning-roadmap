@@ -1,0 +1,11 @@
+[
+  {
+    "runId": "run_1786358489849_zh5asb",
+    "stageId": "generate_report",
+    "name": "provenance_report",
+    "filePath": "artifacts\\run_run_1786358489849_zh5asb_report.md",
+    "type": "REPORT_ARTIFACT",
+    "hash": "1680cd09764ccc30",
+    "timestamp": "2026-08-10T10:41:29.852Z"
+  }
+]
