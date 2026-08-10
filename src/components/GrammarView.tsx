@@ -1,35 +1,45 @@
 import React, { useState } from 'react';
 import { useApp } from '../context/AppContext';
 import { GRAMMAR_DATA } from '../data/tracks/german-a1-ar/grammar';
+import { GRAMMAR_DATA_A2 } from '../data/tracks/german-a2-ar/grammar';
+import { GRAMMAR_DATA_B1 } from '../data/tracks/german-b1-ar/grammar';
 import { 
   FileText, CheckCircle2, ChevronRight, HelpCircle
 } from 'lucide-react';
 
-export const GrammarView = () => {
-  const { grammarStatus, toggleGrammarStatus, addWeakTopic } = useApp();
-  const modules = GRAMMAR_DATA?.modules || [];
+export const GrammarView: React.FC = () => {
+  const { grammarStatus, toggleGrammarStatus, addWeakTopic, currentTrackId } = useApp();
+
+  const getGrammarDataset = () => {
+    if (currentTrackId === 'german-a2-ar') return GRAMMAR_DATA_A2;
+    if (currentTrackId === 'german-b1-ar') return GRAMMAR_DATA_B1;
+    return GRAMMAR_DATA;
+  };
+
+  const grammarDataset = getGrammarDataset();
+  const modules = grammarDataset?.modules || [];
   const [selectedModuleId, setSelectedModuleId] = useState(modules[0]?.id || 'g1_sentence_v2');
 
-  const [activeQuizAnswers, setActiveQuizAnswers] = useState({});
+  const [activeQuizAnswers, setActiveQuizAnswers] = useState<Record<number, number>>({});
   const [quizSubmitted, setQuizSubmitted] = useState(false);
 
-  const activeModule = modules.find((m) => m.id === selectedModuleId) || modules[0];
+  const activeModule = modules.find((m: any) => m.id === selectedModuleId) || modules[0];
   const isModuleMastered = Boolean(grammarStatus[activeModule?.id]);
 
-  const handleQuizAnswer = (qIdx, optIdx) => {
+  const handleQuizAnswer = (qIdx: number, optIdx: number) => {
     setActiveQuizAnswers((prev) => ({ ...prev, [qIdx]: optIdx }));
   };
 
   const submitQuiz = () => {
     setQuizSubmitted(true);
     let wrongCount = 0;
-    activeModule?.miniQuiz?.questions?.forEach((q, idx) => {
+    activeModule?.miniQuiz?.questions?.forEach((q: any, idx: number) => {
       if (activeQuizAnswers[idx] !== q.correct) {
         wrongCount++;
       }
     });
 
-    if (wrongCount > 0) {
+    if (wrongCount > 0 && activeModule?.id) {
       addWeakTopic(activeModule.id);
     }
   };
@@ -38,35 +48,35 @@ export const GrammarView = () => {
     <div className="space-y-6 animate-fadeIn">
       
       {/* Header */}
-      <div className="paper-card p-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+      <div className="paper-card p-4 sm:p-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
         <div>
-          <span className="text-[10px] font-bold text-amber-700 uppercase tracking-wider">
-            18 CORE A1 GRAMMAR MODULES
+          <span className="text-[10px] font-bold text-amber-700 uppercase tracking-wider block mb-1">
+            GRAMMAR RULEBOOK WORKSPACE
           </span>
-          <h2 className="text-lg font-extrabold text-stone-900 mt-0.5">
-            German Grammar Rulebook & Interactive Quiz Arena
+          <h2 className="text-lg sm:text-xl font-extrabold text-stone-900 leading-tight">
+            {grammarDataset?.title || 'German Grammar Rulebook & Interactive Quiz Arena'}
           </h2>
-          <p className="text-xs text-stone-600">
-            Formulas, Arabic explanations, side-by-side examples, and automated weak topic tagging.
+          <p className="text-xs text-stone-600 mt-1">
+            {grammarDataset?.description || 'Formulas, Arabic explanations, side-by-side examples, and automated weak topic tagging.'}
           </p>
         </div>
 
-        <span className="px-3 py-1 rounded bg-stone-100 border border-stone-300 text-amber-900 font-mono text-xs font-bold">
-          Mastered: {Object.values(grammarStatus).filter(Boolean).length} / 18 Modules
+        <span className="px-3 py-1 rounded bg-stone-100 border border-stone-300 text-amber-900 font-mono text-xs font-bold shrink-0">
+          Mastered: {Object.values(grammarStatus).filter(Boolean).length} / {modules.length} Modules
         </span>
       </div>
 
       {/* 2-Column Split Pane */}
       <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
         
-        {/* Left Column: 18 Modules List */}
+        {/* Left Column: Modules List */}
         <div className="md:col-span-4 space-y-1.5">
           <div className="text-[10px] font-bold text-stone-500 uppercase tracking-wider px-1 mb-2">
-            A1 Grammar Modules
+            Grammar Modules ({modules.length})
           </div>
 
           <div className="space-y-1">
-            {modules.map((mod, idx) => {
+            {modules.map((mod: any, idx: number) => {
               const isSelected = mod.id === selectedModuleId;
               const isMastered = Boolean(grammarStatus[mod.id]);
 
@@ -84,9 +94,9 @@ export const GrammarView = () => {
                       : 'bg-white border-stone-200 hover:border-stone-400 text-stone-700'
                   }`}
                 >
-                  <div className="flex items-center gap-2">
-                    <span className="text-[10px] font-mono text-stone-500">#{idx + 1}</span>
-                    <span className="line-clamp-1">{mod.title}</span>
+                  <div className="flex items-center gap-2 min-w-0 pr-2">
+                    <span className="text-[10px] font-mono text-stone-500 shrink-0">#{idx + 1}</span>
+                    <span className="truncate">{mod.title}</span>
                   </div>
 
                   <div className="flex items-center gap-1.5 shrink-0">
@@ -100,36 +110,36 @@ export const GrammarView = () => {
         </div>
 
         {/* Right Column: Active Module Rulebook & Quiz Arena */}
-        <div className="md:col-span-8 space-y-5">
+        <div className="md:col-span-8 space-y-5 min-w-0">
           
           {/* Module Rulebook Card */}
-          <div className="paper-card p-6 space-y-4">
+          <div className="paper-card p-4 sm:p-6 space-y-4 min-w-0">
             
             {/* Title & Mastery Toggle */}
-            <div className="flex items-center justify-between border-b border-stone-200 pb-4">
-              <div>
+            <div className="flex items-center justify-between border-b border-stone-200 pb-4 gap-3">
+              <div className="min-w-0">
                 <span className="text-[10px] font-black uppercase text-amber-700">GRAMMAR MODULE</span>
-                <h3 className="text-xl font-extrabold text-stone-900">{activeModule?.title}</h3>
+                <h3 className="text-lg sm:text-xl font-extrabold text-stone-900 leading-tight truncate">{activeModule?.title}</h3>
               </div>
 
               <button
                 onClick={() => toggleGrammarStatus(activeModule.id)}
-                className={`flex items-center gap-1.5 px-3 py-1.5 rounded text-xs font-bold transition-all border ${
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded text-xs font-bold transition-all border shrink-0 ${
                   isModuleMastered
                     ? 'bg-emerald-100 text-emerald-900 border-emerald-300'
                     : 'bg-stone-100 text-stone-700 border-stone-300 hover:border-amber-500'
                 }`}
               >
                 <CheckCircle2 className="w-4 h-4" />
-                <span>{isModuleMastered ? 'Mastered [Done]' : 'Mark Mastered'}</span>
+                <span>{isModuleMastered ? 'Done' : 'Mark Mastered'}</span>
               </button>
             </div>
 
             {/* Formula Box */}
-            {activeModule?.formula && (
+            {(activeModule?.formula || activeModule?.ruleFormula) && (
               <div className="p-3.5 rounded bg-amber-50 border border-amber-300 text-amber-950 font-mono text-xs space-y-1">
-                <span className="text-[10px] font-bold uppercase text-amber-800 block">Standard Formula Rule:</span>
-                <p className="font-extrabold text-sm">{activeModule.formula}</p>
+                <span className="text-[10px] font-bold uppercase text-amber-800 block">Rule Formula:</span>
+                <p className="font-extrabold text-sm break-words">{activeModule.formula || activeModule.ruleFormula}</p>
               </div>
             )}
 
@@ -137,7 +147,7 @@ export const GrammarView = () => {
             <div className="space-y-2">
               <h4 className="text-xs font-bold text-stone-500 uppercase tracking-wider">Arabic Conceptual Explanation</h4>
               <div className="p-4 rounded bg-stone-50 border border-stone-200 font-arabic text-sm text-stone-800 leading-relaxed text-right dir-rtl">
-                {activeModule?.explanation}
+                {activeModule?.explanation || activeModule?.arabicExplanation}
               </div>
             </div>
 
@@ -145,7 +155,7 @@ export const GrammarView = () => {
             <div className="space-y-2 pt-2">
               <h4 className="text-xs font-bold text-stone-500 uppercase tracking-wider">German vs Arabic Examples</h4>
               <div className="space-y-2">
-                {activeModule?.examples?.map((ex, i) => (
+                {activeModule?.examples?.map((ex: any, i: number) => (
                   <div key={i} className="p-3 rounded bg-stone-50 border border-stone-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-xs">
                     <span className="font-bold text-stone-900 text-sm">{ex.german}</span>
                     <span className="font-arabic text-amber-900 font-bold dir-rtl">{ex.arabic}</span>
@@ -157,23 +167,23 @@ export const GrammarView = () => {
 
           {/* Mini-Quiz Arena */}
           {activeModule?.miniQuiz && (
-            <div className="paper-card p-6 space-y-4">
+            <div className="paper-card p-4 sm:p-6 space-y-4">
               <div className="flex items-center gap-2 text-indigo-700 border-b border-stone-200 pb-3">
-                <HelpCircle className="w-5 h-5" />
+                <HelpCircle className="w-5 h-5 shrink-0" />
                 <h4 className="text-sm font-extrabold text-stone-900 uppercase tracking-wider">
                   Mini-Quiz Arena: Test Your Understanding
                 </h4>
               </div>
 
               <div className="space-y-4">
-                {activeModule.miniQuiz.questions.map((q, qIdx) => (
+                {activeModule.miniQuiz.questions.map((q: any, qIdx: number) => (
                   <div key={qIdx} className="space-y-2 text-xs">
                     <p className="font-bold text-stone-800">
                       {qIdx + 1}. {q.prompt}
                     </p>
 
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
-                      {q.options.map((opt, optIdx) => {
+                      {q.options.map((opt: any, optIdx: number) => {
                         const isSelected = activeQuizAnswers[qIdx] === optIdx;
                         const isCorrect = q.correct === optIdx;
 

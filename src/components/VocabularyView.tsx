@@ -1,25 +1,35 @@
 import React, { useState } from 'react';
 import { useApp } from '../context/AppContext';
 import { VOCABULARY_DATA } from '../data/tracks/german-a1-ar/vocabulary';
+import { VOCABULARY_DATA_A2 } from '../data/tracks/german-a2-ar/vocabulary';
+import { VOCABULARY_DATA_B1 } from '../data/tracks/german-b1-ar/vocabulary';
 import { playGermanTTS } from '../utils/audio';
 import { 
   BookOpen, Volume2, Search, ChevronRight, ChevronLeft, 
-  CheckCircle2, RotateCcw, Snail, Gauge
+  CheckCircle2, Snail, Gauge
 } from 'lucide-react';
 
 export const VocabularyView: React.FC = () => {
-  const { vocabStatus, updateVocabStatus } = useApp();
-  const words = VOCABULARY_DATA?.words || [];
-  const categories = (VOCABULARY_DATA?.categories || []).filter(c => c !== 'All');
+  const { vocabStatus, updateVocabStatus, currentTrackId } = useApp();
+
+  const getVocabDataset = () => {
+    if (currentTrackId === 'german-a2-ar') return VOCABULARY_DATA_A2;
+    if (currentTrackId === 'german-b1-ar') return VOCABULARY_DATA_B1;
+    return VOCABULARY_DATA;
+  };
+
+  const vocabDataset = getVocabDataset();
+  const words = vocabDataset?.words || [];
+  const categories = (vocabDataset?.categories || []).filter(c => c !== 'All');
 
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [viewMode, setViewMode] = useState<'flashcards' | 'list'>('flashcards');
   const [cardIndex, setCardIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
-  const [audioSpeed, setAudioSpeed] = useState<number>(0.85); // 0.85 = normal, 0.6 = slow
+  const [audioSpeed, setAudioSpeed] = useState<number>(0.85);
 
-  const filteredWords = words.filter((w) => {
+  const filteredWords = words.filter((w: any) => {
     const matchesCat = selectedCategory === 'All' || w.category === selectedCategory;
     const matchesQuery = !searchQuery || 
       w.german.toLowerCase().includes(searchQuery.toLowerCase()) || 
@@ -55,10 +65,10 @@ export const VocabularyView: React.FC = () => {
             VOCABULARY SRS WORKSPACE
           </span>
           <h2 className="text-xl font-black text-stone-900">
-            High-Frequency A1 Vocabulary & Article Color Coding
+            {vocabDataset?.title || 'High-Frequency German Vocabulary SRS Deck'}
           </h2>
           <p className="text-xs text-stone-600 mt-1">
-            Article Legend: <strong className="text-sky-700">Der = Blue</strong>  |  <strong className="text-rose-700">Die = Red</strong>  |  <strong className="text-emerald-700">Das = Green</strong>
+            {vocabDataset?.description || 'Article Legend: Der = Blue | Die = Red | Das = Green'}
           </p>
         </div>
 
@@ -118,8 +128,8 @@ export const VocabularyView: React.FC = () => {
               </span>
             </button>
 
-            {categories.map((cat) => {
-              const catCount = words.filter(w => w.category === cat).length;
+            {categories.map((cat: string) => {
+              const catCount = words.filter((w: any) => w.category === cat).length;
               const isActive = selectedCategory === cat;
 
               return (
@@ -211,7 +221,7 @@ export const VocabularyView: React.FC = () => {
                   {/* Card Navigation & Audio Speed Footer */}
                   <div className="flex flex-col sm:flex-row items-center justify-between border-t border-stone-200 pt-4 gap-3 text-xs">
                     
-                    {/* Audio Controls with Speed Toggle */}
+                    {/* Audio Controls */}
                     <div className="flex items-center gap-2">
                       <button
                         onClick={() => playGermanTTS(`${currentCard.article || ''} ${currentCard.german}`, audioSpeed)}
@@ -227,7 +237,6 @@ export const VocabularyView: React.FC = () => {
                             ? 'bg-amber-100 text-amber-900 border-amber-400' 
                             : 'bg-stone-100 text-stone-700 border-stone-300 hover:bg-stone-200'
                         }`}
-                        title="Toggle audio playback speed"
                       >
                         {audioSpeed === 0.6 ? <Snail className="w-3.5 h-3.5 text-amber-700" /> : <Gauge className="w-3.5 h-3.5" />}
                         <span>{audioSpeed === 0.6 ? '0.6x Slow' : '1.0x'}</span>
@@ -279,7 +288,7 @@ export const VocabularyView: React.FC = () => {
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-stone-200 font-medium">
-                  {filteredWords.map((item) => {
+                  {filteredWords.map((item: any) => {
                     const isMastered = vocabStatus[item.id] === 'mastered';
                     return (
                       <tr key={item.id} className="hover:bg-stone-50/70">

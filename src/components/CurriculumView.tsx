@@ -1,36 +1,39 @@
 import React, { useState } from 'react';
 import { useApp } from '../context/AppContext';
-import { CURRICULUM_DATA } from '../data/tracks/german-a1-ar/curriculum';
 import { 
   Calendar, ChevronRight, CheckCircle2, Circle, 
   Search 
 } from 'lucide-react';
 
-export const CurriculumView = () => {
-  const { mode, completedTasks, toggleTask, markDayComplete, completedDays } = useApp();
+export const CurriculumView: React.FC = () => {
+  const { mode, completedTasks, toggleTask, markDayComplete, completedDays, activeCurriculumData } = useApp();
   const [selectedWeekNum, setSelectedWeekNum] = useState(1);
   const [searchQuery, setSearchQuery] = useState('');
 
-  const activeWeek = (CURRICULUM_DATA?.weeks || []).find((w) => w.weekNumber === selectedWeekNum) || CURRICULUM_DATA?.weeks?.[0];
+  const weeksList = activeCurriculumData?.weeks || [];
+  const activeWeek = weeksList.find((w: any) => w.weekNumber === selectedWeekNum) || weeksList[0];
 
-  const filteredDays = (activeWeek?.days || []).filter((day) => {
+  const filteredDays = (activeWeek?.days || []).filter((day: any) => {
     if (!searchQuery) return true;
     const q = searchQuery.toLowerCase();
-    return day.title.toLowerCase().includes(q) || day.objective.toLowerCase().includes(q);
+    return day.title.toLowerCase().includes(q) || (day.objective || '').toLowerCase().includes(q);
   });
 
   return (
     <div className="space-y-6 animate-fadeIn">
       
       {/* Header & Filter Bar */}
-      <div className="paper-card p-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+      <div className="paper-card p-4 sm:p-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
         <div>
-          <h2 className="text-lg font-extrabold text-stone-900 flex items-center gap-2">
-            <Calendar className="w-5 h-5 text-amber-700" />
-            <span>56-Day Master Curriculum Matrix</span>
+          <span className="text-[10px] font-bold text-amber-700 uppercase tracking-widest block mb-1">
+            ROADMAP CURRICULUM MATRIX
+          </span>
+          <h2 className="text-lg sm:text-xl font-extrabold text-stone-900 flex items-center gap-2">
+            <Calendar className="w-5 h-5 text-amber-700 shrink-0" />
+            <span>{activeCurriculumData?.title || '56-Day Master Curriculum Matrix'}</span>
           </h2>
-          <p className="text-xs text-stone-600 mt-0.5">
-            Primary Backbone: <strong className="text-amber-800">Deutsch mit Hend (Arabic)</strong>  |  Exam Alignment: <strong className="text-stone-900">Goethe-Zertifikat A1 & FAU Erlangen</strong>.
+          <p className="text-xs text-stone-600 mt-1">
+            {activeCurriculumData?.description || 'Primary Backbone: Deutsch mit Hend (Arabic) | Exam Alignment: Goethe-Zertifikat.'}
           </p>
         </div>
 
@@ -50,14 +53,14 @@ export const CurriculumView = () => {
       {/* 2-Column Split-Pane Composition */}
       <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
         
-        {/* Left Navigation Sidebar: 8 Weeks */}
+        {/* Left Navigation Sidebar: Weeks */}
         <div className="md:col-span-4 space-y-2">
           <div className="text-[10px] font-bold text-stone-500 uppercase tracking-wider px-1">
-            Select Week (1 to 8)
+            Select Week (1 to {weeksList.length || 8})
           </div>
 
           <div className="space-y-2">
-            {(CURRICULUM_DATA?.weeks || []).map((week) => {
+            {weeksList.map((week: any) => {
               const isSelected = selectedWeekNum === week.weekNumber;
 
               return (
@@ -70,11 +73,11 @@ export const CurriculumView = () => {
                       : 'bg-white border-stone-200 hover:border-stone-300 text-stone-700'
                   }`}
                 >
-                  <div className="space-y-0.5">
+                  <div className="space-y-0.5 min-w-0 pr-2">
                     <span className="text-[10px] uppercase font-extrabold text-stone-500 block">
                       WEEK {week.weekNumber}
                     </span>
-                    <span className="text-xs line-clamp-1">{week.title}</span>
+                    <span className="text-xs line-clamp-1 truncate">{week.title}</span>
                   </div>
                   <ChevronRight className={`w-4 h-4 shrink-0 ${isSelected ? 'text-stone-950' : 'text-stone-400'}`} />
                 </button>
@@ -83,31 +86,31 @@ export const CurriculumView = () => {
           </div>
         </div>
 
-        {/* Right Content Pane: 7 Days Matrix */}
-        <div className="md:col-span-8 space-y-4">
+        {/* Right Content Pane: Days Matrix */}
+        <div className="md:col-span-8 space-y-4 min-w-0">
           <div className="paper-card p-4 space-y-1">
             <span className="text-[10px] font-extrabold text-amber-700 uppercase">WEEK {activeWeek?.weekNumber} OVERVIEW</span>
-            <h3 className="text-base font-extrabold text-stone-900">{activeWeek?.title}</h3>
-            <p className="text-xs text-stone-600">{activeWeek?.objective}</p>
+            <h3 className="text-base font-extrabold text-stone-900 leading-tight">{activeWeek?.title}</h3>
+            {activeWeek?.objective && <p className="text-xs text-stone-600">{activeWeek.objective}</p>}
           </div>
 
-          {/* Days Accordion Cards */}
+          {/* Days Cards */}
           <div className="space-y-4">
-            {filteredDays.map((day) => {
+            {filteredDays.map((day: any) => {
               const isDayDone = Boolean(completedDays?.includes(day.dayNumber));
               const dayTasks = mode === 'intensive'
                 ? [...(day.standardTasks || []), ...(day.intensiveTasks || [])]
                 : (day.standardTasks || []);
 
               return (
-                <div key={day.dayNumber} className="paper-card p-5 space-y-3">
+                <div key={day.dayNumber} className="paper-card p-4 sm:p-5 space-y-3 min-w-0">
                   <div className="flex items-start justify-between gap-3 border-b border-stone-200 pb-3">
-                    <div>
+                    <div className="min-w-0">
                       <span className="text-[10px] font-mono font-bold text-stone-500 uppercase">
-                        DAY {day.dayNumber} OF 56  |  {day.focusSkill}
+                        DAY {day.dayNumber}  |  {day.focusSkill || 'Core Skill'}
                       </span>
-                      <h4 className="text-sm font-extrabold text-stone-900">{day.title}</h4>
-                      <p className="text-xs text-stone-600">{day.objective}</p>
+                      <h4 className="text-sm font-extrabold text-stone-900 leading-snug">{day.title}</h4>
+                      <p className="text-xs text-stone-600 mt-0.5">{day.objective}</p>
                     </div>
 
                     <button
@@ -119,13 +122,13 @@ export const CurriculumView = () => {
                       }`}
                     >
                       <CheckCircle2 className="w-3.5 h-3.5" />
-                      <span>{isDayDone ? 'Day Complete [Done]' : 'Mark Complete'}</span>
+                      <span>{isDayDone ? 'Done' : 'Mark Complete'}</span>
                     </button>
                   </div>
 
                   {/* Tasks Sub-List */}
                   <div className="space-y-1.5">
-                    {dayTasks.map((t, tIdx) => {
+                    {dayTasks.map((t: any, tIdx: number) => {
                       const taskId = `day-${day.dayNumber}-task-${tIdx}`;
                       const isDone = Boolean(completedTasks[taskId]);
 
@@ -137,9 +140,9 @@ export const CurriculumView = () => {
                             isDone ? 'bg-stone-50 opacity-60' : 'bg-white hover:bg-stone-50'
                           }`}
                         >
-                          <div className="flex items-center gap-2">
-                            {isDone ? <CheckCircle2 className="w-4 h-4 text-emerald-600" /> : <Circle className="w-4 h-4 text-stone-400" />}
-                            <span className={isDone ? 'line-through text-stone-400' : 'text-stone-800'}>{t.title}</span>
+                          <div className="flex items-center gap-2 min-w-0 pr-2">
+                            {isDone ? <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" /> : <Circle className="w-4 h-4 text-stone-400 shrink-0" />}
+                            <span className={`truncate ${isDone ? 'line-through text-stone-400' : 'text-stone-800'}`}>{t.title}</span>
                           </div>
                           {t.duration && <span className="text-[11px] font-mono text-stone-500 shrink-0">{t.duration}</span>}
                         </div>

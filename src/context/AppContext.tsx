@@ -1,9 +1,12 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { CURRICULUM_DATA } from '../data/tracks/german-a1-ar/curriculum';
+import { CURRICULUM_DATA_A2 } from '../data/tracks/german-a2-ar/curriculum';
+import { CURRICULUM_DATA_B1 } from '../data/tracks/german-b1-ar/curriculum';
 
 export interface AppState {
   mode: 'standard' | 'intensive';
   activeView: string;
+  currentTrackId: string;
   completedTasks: Record<string, boolean>;
   completedDays: number[];
   vocabStatus: Record<string, string>;
@@ -29,8 +32,10 @@ export interface AppContextType extends AppState {
   speakingMinutes: number;
   writingTasksCompleted: number;
   autoMetrics: AutoMetrics;
+  activeCurriculumData: any;
   setMode: (mode: 'standard' | 'intensive') => void;
   setActiveView: (view: string) => void;
+  setTrackId: (trackId: string) => void;
   toggleTask: (taskId: string, dayNumber: number) => void;
   markDayComplete: (dayNumber: number) => void;
   updateVocabStatus: (wordId: string, status: string) => void;
@@ -47,6 +52,7 @@ export interface AppContextType extends AppState {
 const defaultState: AppState = {
   mode: 'standard',
   activeView: 'dashboard',
+  currentTrackId: 'german-a1-ar',
   completedTasks: {},
   completedDays: [],
   vocabStatus: {},
@@ -84,19 +90,27 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     }
   }, [state]);
 
+  const getActiveCurriculumData = () => {
+    if (state.currentTrackId === 'german-a2-ar') return CURRICULUM_DATA_A2;
+    if (state.currentTrackId === 'german-b1-ar') return CURRICULUM_DATA_B1;
+    return CURRICULUM_DATA;
+  };
+
+  const activeCurriculumData = getActiveCurriculumData();
+
   const computeAutoMetrics = (): AutoMetrics => {
     let autoListeningMins = 0;
     let autoSpeakingMins = 0;
     let autoWritingCount = 0;
 
-    if (!CURRICULUM_DATA?.weeks) {
+    if (!activeCurriculumData?.weeks) {
       return { autoListeningMins, autoSpeakingMins, autoWritingCount };
     }
 
-    CURRICULUM_DATA.weeks.forEach((week) => {
-      (week.days || []).forEach((day) => {
+    activeCurriculumData.weeks.forEach((week: any) => {
+      (week.days || []).forEach((day: any) => {
         const allDayTasks = [...(day.standardTasks || []), ...(day.intensiveTasks || [])];
-        allDayTasks.forEach((task, idx) => {
+        allDayTasks.forEach((task: any, idx: number) => {
           const taskId = `day-${day.dayNumber}-task-${idx}`;
           if (state.completedTasks[taskId]) {
             const match = (task.duration || '').match(/(\d+)/);
@@ -131,6 +145,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
 
   const setMode = (mode: 'standard' | 'intensive') => setState((prev) => ({ ...prev, mode }));
   const setActiveView = (activeView: string) => setState((prev) => ({ ...prev, activeView }));
+  const setTrackId = (currentTrackId: string) => setState((prev) => ({ ...prev, currentTrackId }));
 
   const toggleTask = (taskId: string, dayNumber: number) => {
     setState((prev) => {
@@ -210,8 +225,10 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
         speakingMinutes: totalSpeakingMinutes,
         writingTasksCompleted: totalWritingTasksCompleted,
         autoMetrics,
+        activeCurriculumData,
         setMode,
         setActiveView,
+        setTrackId,
         toggleTask,
         markDayComplete,
         updateVocabStatus,

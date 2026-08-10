@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useApp } from '../context/AppContext';
-import { AVAILABLE_TRACKS, CURRENT_TRACK_ID } from '../config/activeLanguageTrack';
+import { AVAILABLE_TRACKS } from '../config/activeLanguageTrack';
 import { 
   Flame, Clock, CheckCircle2, LayoutDashboard, Calendar, 
   Compass, Volume2, BookOpen, FileText, Mic, Bookmark, 
@@ -14,17 +14,17 @@ interface SidebarProps {
 export const Sidebar: React.FC<SidebarProps> = ({ onOpenTimer }) => {
   const { 
     mode, setMode, activeView, setActiveView, 
+    currentTrackId, setTrackId,
     streakDays, completedTasks, resetProgress 
   } = useApp();
 
   const [trackDropdownOpen, setTrackDropdownOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [selectedTrackId, setSelectedTrackId] = useState(CURRENT_TRACK_ID);
 
   const completedCount = Object.values(completedTasks).filter(Boolean).length;
   const progressPercent = Math.min(100, Math.round((completedCount / 392) * 100));
 
-  const currentTrack = AVAILABLE_TRACKS.find(t => t.id === selectedTrackId) || AVAILABLE_TRACKS[0];
+  const currentTrack = AVAILABLE_TRACKS.find(t => t.id === currentTrackId) || AVAILABLE_TRACKS[0];
 
   const navItems = [
     { id: 'dashboard', label: 'Command Center', icon: LayoutDashboard },
@@ -109,11 +109,11 @@ export const Sidebar: React.FC<SidebarProps> = ({ onOpenTimer }) => {
                     <button
                       key={track.id}
                       onClick={() => {
-                        setSelectedTrackId(track.id);
+                        setTrackId(track.id);
                         setTrackDropdownOpen(false);
                       }}
                       className={`w-full text-left p-2 rounded my-1 transition-all ${
-                        selectedTrackId === track.id
+                        currentTrackId === track.id
                           ? 'bg-amber-50 border border-amber-300 text-amber-950 font-black' 
                           : 'hover:bg-stone-100 text-stone-700 font-bold'
                       }`}
