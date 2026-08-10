@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useApp } from '../context/AppContext';
 import { 
   Play, CheckCircle2, Circle, Compass, 
-  AlertTriangle, ExternalLink, PenTool, BookOpen, Clock, Flame
+  AlertTriangle, ExternalLink, PenTool, BookOpen, Flame, Sparkles, ArrowRight
 } from 'lucide-react';
 import { PomodoroTimerModal } from './PomodoroTimerModal';
 
@@ -37,33 +37,35 @@ export const TodayDashboard: React.FC = () => {
   const nextTask = nextTaskIndex !== -1 ? tasksList[nextTaskIndex] : null;
 
   return (
-    <div className="space-y-5 animate-fadeIn">
+    <div className="space-y-6 animate-fadeIn">
       
-      {/* Command Center Status Banner & Interactive Day Picker */}
-      <div className="paper-card p-4 sm:p-6 space-y-4">
+      {/* Friendly Hero Study Hub Header */}
+      <div className="paper-card p-5 sm:p-6 space-y-4 bg-gradient-to-r from-amber-50/60 via-white to-stone-50">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
           <div className="space-y-2 w-full min-w-0">
             <div className="flex flex-wrap items-center gap-2">
-              <span className="px-2.5 py-1 rounded bg-amber-100 text-amber-900 border border-amber-300 text-[10px] sm:text-[11px] font-black uppercase whitespace-nowrap">
-                Selected: Day {currentDayData.dayNumber} (Week {currentDayData.weekNumber || 1})
+              <span className="px-3 py-1 rounded-full bg-amber-500 text-stone-950 font-black text-xs uppercase tracking-wider shadow-2xs">
+                Day {currentDayData.dayNumber} of {allDaysList.length || 56}
               </span>
-              <span className="text-stone-500 text-[11px] font-mono">Mode: {mode === 'intensive' ? 'Intensive (~5h/d)' : 'Standard (~3h/d)'}</span>
+              <span className="text-stone-500 text-xs font-mono font-bold">
+                Week {currentDayData.weekNumber || 1}  •  Pace: {mode === 'intensive' ? 'Intensive (~5h/d)' : 'Standard (~3h/d)'}
+              </span>
             </div>
 
-            <h1 className="text-lg sm:text-2xl font-extrabold text-stone-900 leading-tight">
-              Daily Study Command Center
+            <h1 className="text-xl sm:text-3xl font-black text-stone-900 leading-tight">
+              Daily Study Hub
             </h1>
             
-            <p className="text-xs text-stone-600 max-w-2xl leading-normal">
-              Target Focus: <strong className="text-amber-800">{currentDayData?.title}</strong> - {currentDayData?.objective}
+            <p className="text-xs sm:text-sm text-stone-700 max-w-2xl leading-relaxed">
+              Today's Goal: <strong className="text-amber-900 font-extrabold">{currentDayData?.title}</strong> — {currentDayData?.objective}
             </p>
           </div>
 
-          {/* Action & Pomodoro Buttons */}
+          {/* Quick Actions */}
           <div className="w-full md:w-auto shrink-0 flex flex-wrap sm:flex-nowrap items-center gap-2">
             <button
               onClick={() => setPomodoroOpen(true)}
-              className="px-4 py-2.5 rounded bg-stone-900 hover:bg-amber-600 text-white font-extrabold text-xs transition-all flex items-center justify-center gap-1.5 shadow-xs min-h-[42px]"
+              className="px-4 py-2.5 rounded-lg bg-stone-900 hover:bg-amber-600 text-white font-extrabold text-xs transition-all flex items-center justify-center gap-1.5 shadow-xs min-h-[42px]"
             >
               <Flame className="w-4 h-4 text-amber-400" />
               <span>Pomodoro Timer</span>
@@ -71,32 +73,32 @@ export const TodayDashboard: React.FC = () => {
 
             <button
               onClick={() => setActiveView('curriculum')}
-              className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-5 py-2.5 rounded bg-amber-500 hover:bg-amber-400 text-stone-950 font-black text-xs transition-all shadow-xs min-h-[42px] active:scale-[0.98]"
+              className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-stone-950 font-black text-xs transition-all shadow-xs min-h-[42px] active:scale-[0.98]"
             >
               <Play className="w-4 h-4 fill-stone-950" />
-              <span>{nextTask ? "Continue Learning" : "Review Roadmap"}</span>
+              <span>{nextTask ? "Start Lesson" : "View Full Roadmap"}</span>
             </button>
           </div>
         </div>
 
-        {/* Dynamic Day Selection Pill Bar */}
-        <div className="pt-2 border-t border-stone-200 space-y-2">
-          <div className="flex items-center justify-between text-[11px] font-bold text-stone-500">
-            <span>Select Target Day to Practice:</span>
-            <span>Showing Day {selectedDayNum} of {allDaysList.length || 56}</span>
+        {/* Easy Day Switcher */}
+        <div className="pt-3 border-t border-stone-200 space-y-2">
+          <div className="flex items-center justify-between text-xs font-bold text-stone-600">
+            <span>Pick Any Day to Study:</span>
+            <span className="font-mono text-amber-900">Day {selectedDayNum} / {allDaysList.length || 56}</span>
           </div>
 
-          <div className="flex items-center gap-1.5 overflow-x-auto pb-2 scrollbar-none text-xs">
+          <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none text-xs">
             {allDaysList.map((d: any) => {
               const isSelected = d.dayNumber === selectedDayNum;
               return (
                 <button
                   key={d.dayNumber}
                   onClick={() => setSelectedDayNum(d.dayNumber)}
-                  className={`px-3 py-1.5 rounded font-mono font-bold text-xs shrink-0 transition-all border ${
+                  className={`px-3 py-1.5 rounded-lg font-mono font-bold text-xs shrink-0 transition-all ${
                     isSelected
-                      ? 'bg-amber-500 text-stone-950 border-amber-500 font-black shadow-xs'
-                      : 'bg-stone-50 hover:bg-stone-200 text-stone-700 border-stone-300'
+                      ? 'bg-amber-500 text-stone-950 font-black shadow-xs'
+                      : 'bg-white hover:bg-stone-100 text-stone-700 border border-stone-200'
                   }`}
                 >
                   Day {d.dayNumber}
@@ -109,41 +111,41 @@ export const TodayDashboard: React.FC = () => {
 
       {/* Weak Topics Alert Banner */}
       {weakTopics.length > 0 && (
-        <div className="p-4 rounded-lg bg-amber-50 border border-amber-300 text-amber-900 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">
+        <div className="p-4 rounded-xl bg-amber-50 border border-amber-300 text-amber-950 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs shadow-2xs">
           <div className="flex items-center gap-2.5">
             <AlertTriangle className="w-5 h-5 text-amber-700 shrink-0" />
             <div>
-              <span className="font-extrabold text-amber-950 block">Targeted Review Queue</span>
-              <span className="text-stone-700">Flagged weak topics requiring review: {weakTopics.join(', ')}.</span>
+              <span className="font-extrabold text-amber-950 block">Targeted Review Recommendation</span>
+              <span className="text-stone-700">Flagged topics needing practice: {weakTopics.join(', ')}.</span>
             </div>
           </div>
           <button
             onClick={() => setActiveView('grammar')}
-            className="w-full sm:w-auto px-3.5 py-1.5 rounded bg-amber-600 text-white font-extrabold text-xs shrink-0 hover:bg-amber-700"
+            className="w-full sm:w-auto px-4 py-2 rounded-lg bg-amber-600 text-white font-extrabold text-xs shrink-0 hover:bg-amber-700 shadow-2xs"
           >
-            Review Weak Topics Now
+            Review Now
           </button>
         </div>
       )}
 
-      {/* Task Execution Table for Selected Day */}
-      <div className="paper-card p-4 sm:p-6 space-y-4">
+      {/* Today's Step-by-Step Lesson Plan */}
+      <div className="paper-card p-5 sm:p-6 space-y-4">
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between border-b border-stone-200 pb-3 gap-2">
           <div>
-            <h3 className="text-xs sm:text-sm font-extrabold text-stone-900 uppercase tracking-wider">
-              Actionable Schedule for Day {currentDayData.dayNumber} ({currentDayData.title})
+            <h3 className="text-sm sm:text-base font-black text-stone-900">
+              Today's Step-by-Step Schedule (Day {currentDayData.dayNumber})
             </h3>
-            <p className="text-[11px] text-stone-500 mt-0.5">
-              Check off tasks as you complete them to record progress in your local study state.
+            <p className="text-xs text-stone-500 mt-0.5">
+              Click off items as you complete them to automatically track your daily progress.
             </p>
           </div>
-          <span className="px-3 py-1 rounded bg-stone-100 text-amber-900 text-xs font-mono font-bold border border-stone-300 shrink-0">
-            {completedTodayCount} / {tasksList.length} Tasks ({todayProgressPercent}%)
+          <span className="px-3 py-1 rounded-full bg-amber-100 text-amber-950 text-xs font-mono font-black border border-amber-300 shrink-0">
+            {completedTodayCount} / {tasksList.length} Completed ({todayProgressPercent}%)
           </span>
         </div>
 
-        {/* Actionable Tasks List */}
-        <div className="space-y-2">
+        {/* Actionable Step Cards */}
+        <div className="space-y-2.5">
           {tasksList.map((task: any, idx: number) => {
             const taskId = `day-${currentDayData.dayNumber}-task-${idx}`;
             const isDone = Boolean(completedTasks[taskId]);
@@ -152,32 +154,32 @@ export const TodayDashboard: React.FC = () => {
               <div
                 key={taskId}
                 onClick={() => toggleTask(taskId, currentDayData.dayNumber)}
-                className={`p-3 sm:p-3.5 rounded border flex items-start gap-3 transition-all cursor-pointer ${
+                className={`p-3.5 sm:p-4 rounded-xl border flex items-start gap-3.5 transition-all cursor-pointer ${
                   isDone 
                     ? 'bg-stone-50 border-stone-200 opacity-60' 
-                    : 'bg-white hover:bg-stone-50 border-stone-200'
+                    : 'bg-white hover:bg-amber-50/40 border-stone-200 shadow-2xs'
                 }`}
               >
                 <button className="mt-0.5 shrink-0 min-h-[24px] min-w-[24px] flex items-center justify-center">
                   {isDone ? (
-                    <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                    <CheckCircle2 className="w-5 h-5 text-emerald-600" />
                   ) : (
-                    <Circle className="w-4 h-4 text-stone-400" />
+                    <Circle className="w-5 h-5 text-stone-400" />
                   )}
                 </button>
 
                 <div className="flex-1 space-y-1 min-w-0">
                   <div className="flex flex-wrap items-center gap-2 text-[10px]">
-                    <span className={`px-2 py-0.5 rounded font-black uppercase ${
-                      task.resourceType === 'PRIMARY' ? 'bg-amber-100 text-amber-900 border border-amber-300' :
-                      task.resourceType === 'SECONDARY' ? 'bg-indigo-100 text-indigo-900 border border-indigo-300' :
+                    <span className={`px-2.5 py-0.5 rounded font-black uppercase tracking-wider ${
+                      task.resourceType === 'PRIMARY' ? 'bg-amber-100 text-amber-950 border border-amber-300' :
+                      task.resourceType === 'SECONDARY' ? 'bg-indigo-100 text-indigo-950 border border-indigo-300' :
                       'bg-stone-100 text-stone-700'
                     }`}>
-                      {task.type} {task.resourceType ? `| ${task.resourceType}` : ''}
+                      Step {idx + 1}: {task.type}
                     </span>
-                    {task.duration && <span className="text-stone-500 font-mono">Duration: {task.duration}</span>}
+                    {task.duration && <span className="text-stone-500 font-mono font-bold">⏱️ {task.duration}</span>}
                   </div>
-                  <h4 className={`text-xs font-bold leading-snug ${isDone ? 'line-through text-stone-400' : 'text-stone-800'}`}>
+                  <h4 className={`text-xs sm:text-sm font-bold leading-snug ${isDone ? 'line-through text-stone-400' : 'text-stone-900'}`}>
                     {task.title}
                   </h4>
                 </div>
@@ -188,9 +190,9 @@ export const TodayDashboard: React.FC = () => {
                     target="_blank"
                     rel="noreferrer"
                     onClick={(e) => e.stopPropagation()}
-                    className="px-2.5 py-1 rounded bg-stone-100 hover:bg-amber-500 hover:text-stone-950 text-amber-900 text-[11px] font-bold border border-stone-300 transition-all shrink-0 flex items-center gap-1 min-h-[32px]"
+                    className="px-3 py-1.5 rounded-lg bg-stone-100 hover:bg-amber-500 hover:text-stone-950 text-stone-800 text-xs font-extrabold border border-stone-300 transition-all shrink-0 flex items-center gap-1 min-h-[36px]"
                   >
-                    <span>Link</span> <ExternalLink className="w-3 h-3" />
+                    <span>Open</span> <ExternalLink className="w-3.5 h-3.5" />
                   </a>
                 )}
               </div>
@@ -199,41 +201,41 @@ export const TodayDashboard: React.FC = () => {
         </div>
       </div>
 
-      {/* Modular Workbench Links Grid */}
+      {/* Quick Launch Learning Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         <div 
           onClick={() => setActiveView('survival')}
-          className="paper-interactive p-4 sm:p-5 cursor-pointer space-y-2 group"
+          className="paper-interactive p-5 cursor-pointer space-y-2 group rounded-xl"
         >
           <div className="flex items-center justify-between text-indigo-700">
-            <span className="text-xs font-extrabold uppercase">Germany Survival Workbench</span>
-            <Compass className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+            <span className="text-xs font-black uppercase tracking-wider">Germany Survival Guide</span>
+            <Compass className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </div>
-          <h4 className="text-sm font-bold text-stone-900">Practical Scenarios & Dialogues</h4>
-          <p className="text-xs text-stone-600">Airport Arrival, University Registration, Landlords, DB Trains & Emergency 112.</p>
+          <h4 className="text-sm font-black text-stone-900">Real-World Scenarios</h4>
+          <p className="text-xs text-stone-600">Airport, University, Landlords, DB Trains & Emergency phrases.</p>
         </div>
 
         <div 
           onClick={() => setActiveView('vocabulary')}
-          className="paper-interactive p-4 sm:p-5 cursor-pointer space-y-2 group"
+          className="paper-interactive p-5 cursor-pointer space-y-2 group rounded-xl"
         >
           <div className="flex items-center justify-between text-emerald-700">
-            <span className="text-xs font-extrabold uppercase">Vocabulary Flashcards</span>
-            <BookOpen className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+            <span className="text-xs font-black uppercase tracking-wider">Smart Word Cards</span>
+            <BookOpen className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </div>
-          <h4 className="text-sm font-bold text-stone-900">Vocabulary Decks & Articles</h4>
-          <p className="text-xs text-stone-600">Color-coded articles (Der = Blue, Die = Red, Das = Green) with audio TTS.</p>
+          <h4 className="text-sm font-black text-stone-900">Vocabulary Flashcards</h4>
+          <p className="text-xs text-stone-600">Color-coded articles (Der = Blue, Die = Red, Das = Green) + audio.</p>
         </div>
 
         <div 
           onClick={() => setActiveView('grammar')}
-          className="paper-interactive p-4 sm:p-5 cursor-pointer space-y-2 group"
+          className="paper-interactive p-5 cursor-pointer space-y-2 group rounded-xl"
         >
           <div className="flex items-center justify-between text-amber-700">
-            <span className="text-xs font-extrabold uppercase">Grammar Modules</span>
-            <PenTool className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+            <span className="text-xs font-black uppercase tracking-wider">Grammar Made Simple</span>
+            <PenTool className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </div>
-          <h4 className="text-sm font-bold text-stone-900">Interactive Rules & Quizzes</h4>
+          <h4 className="text-sm font-black text-stone-900">Rules & Practice Quizzes</h4>
           <p className="text-xs text-stone-600">Sentence structure formulas, explanations, and automated weak topic tagging.</p>
         </div>
       </div>
