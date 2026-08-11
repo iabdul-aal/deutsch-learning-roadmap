@@ -14,6 +14,7 @@ export default defineConfig({
   },
 
   build: {
+    modulePreload: false,
     // Raise the warning threshold — our data layer is intentionally large (vocab DB)
     chunkSizeWarningLimit: 700,
 
