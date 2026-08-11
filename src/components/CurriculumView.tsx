@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { useApp } from '../context/AppContext';
 import {
-  CONTENT_DB, rankContent, ContentSource, SkillType,
+  CONTENT_DB, rankContent, ContentSource, SkillType, getYouTubeEmbedUrl,
 } from '../data/contentRanking';
 import {
   MapPin, CheckCircle2, Circle, ChevronRight, ChevronDown,
@@ -419,7 +419,7 @@ export const CurriculumView: React.FC = () => {
               Your German Roadmap
             </h2>
             <p className="text-xs text-stone-500 mt-1 max-w-lg">
-              {activeCurriculumData?.description || 'Backbone: Deutsch mit Hend (Arabic) · DW Nicos Weg · Easy German. Goethe-aligned.'}
+              {(activeCurriculumData as any)?.description || 'Backbone: Deutsch mit Hend (Arabic) · DW Nicos Weg · Easy German. Goethe-aligned.'}
             </p>
           </div>
 

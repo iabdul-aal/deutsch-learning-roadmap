@@ -432,11 +432,12 @@ export const MissionsView: React.FC = () => {
 
       {/* Track Filter */}
       <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-none">
-        {([['ALL', 'All Missions', 'جميع المهام', '🗺️']] as const).concat(
-          (['LIFE', 'STUDY', 'CAREER'] as MissionTrack[]).map(t => [
-            t, TRACK_CONFIG[t].label, TRACK_CONFIG[t].labelAR, TRACK_CONFIG[t].icon
-          ] as const)
-        ).map(([id, label, labelAR, icon]) => (
+        {([
+          ['ALL', 'All Missions', 'جميع المهام', '🗺️'],
+          ['LIFE', TRACK_CONFIG.LIFE.label, TRACK_CONFIG.LIFE.labelAR, TRACK_CONFIG.LIFE.icon],
+          ['STUDY', TRACK_CONFIG.STUDY.label, TRACK_CONFIG.STUDY.labelAR, TRACK_CONFIG.STUDY.icon],
+          ['CAREER', TRACK_CONFIG.CAREER.label, TRACK_CONFIG.CAREER.labelAR, TRACK_CONFIG.CAREER.icon],
+        ] as [string, string, string, string][]).map(([id, label, labelAR, icon]) => (
           <button
             key={id}
             onClick={() => setTrackFilter(id as MissionTrack | 'ALL')}

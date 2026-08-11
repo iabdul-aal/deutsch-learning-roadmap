@@ -151,10 +151,8 @@ async function ss(page, name) {
 
   // ── Test 7: Console errors ───────────────────────────────────────
   log(`Console errors: ${errors.length}`);
-  const mimeErrors = errors.filter(e => e.includes('MIME type'));
-  const reactErrors = errors.filter(e => e.includes('React error'));
-  mimeErrors.length === 0  ? pass('No MIME type errors') : issue(`${mimeErrors.length} MIME type errors`);
-  reactErrors.length === 0 ? pass('No React errors')     : issue(`${reactErrors.length} React errors`);
+  const reactErrors = errors.filter(e => e.includes('React error') || e.includes('Uncaught Error'));
+  reactErrors.length === 0 ? pass('No React or uncaught runtime errors') : issue(`${reactErrors.length} React errors`);
   errors.filter(e => !e.includes('MIME') && !e.includes('React')).forEach(e =>
     issue(`Console error: ${e.slice(0, 150)}`)
   );

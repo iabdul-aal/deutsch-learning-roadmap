@@ -18,7 +18,7 @@ export const GermanySurvivalView: React.FC = () => {
   };
 
   const survivalDataset = getSurvivalDataset();
-  const categories = survivalDataset?.categories || survivalDataset?.domains || [];
+  const categories = (survivalDataset as any)?.categories || (survivalDataset as any)?.domains || [];
   const defaultCatId = categories[0]?.id || 'arrival';
   const [activeCategory, setActiveCategory] = useState(defaultCatId);
   const [searchQuery, setSearchQuery] = useState('');

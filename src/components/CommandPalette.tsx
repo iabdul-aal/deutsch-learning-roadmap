@@ -51,12 +51,12 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({ isOpen, onClose 
     .slice(0, 4);
 
   const matchedGrammar = (GRAMMAR_DATA?.modules || [])
-    .filter(m => query && (m.title.toLowerCase().includes(query.toLowerCase()) || m.arabicTitle.includes(query)))
+    .filter((m: any) => query && (m.title.toLowerCase().includes(query.toLowerCase()) || (m.arabicTitle || m.summary || '').includes(query)))
     .slice(0, 4);
 
-  const matchedSurvival = (SURVIVAL_DATA?.domains || [])
-    .flatMap(d => d.phrases)
-    .filter(p => query && (p.german.toLowerCase().includes(query.toLowerCase()) || p.arabic.includes(query)))
+  const matchedSurvival = (((SURVIVAL_DATA as any).categories || (SURVIVAL_DATA as any).domains || []) as any[])
+    .flatMap((d: any) => d.phrases || [])
+    .filter((p: any) => query && (p.german.toLowerCase().includes(query.toLowerCase()) || (p.arabic || '').includes(query)))
     .slice(0, 4);
 
   const handleNavigate = (viewName: any) => {
@@ -163,7 +163,7 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({ isOpen, onClose 
                   className="p-2 rounded hover:bg-amber-50 cursor-pointer flex items-center justify-between"
                 >
                   <span className="font-bold text-stone-800">Day {d.dayNumber}: {d.title}</span>
-                  <span className="text-[10px] text-stone-400 font-mono">Week {d.weekNumber}</span>
+                  <span className="text-[10px] text-stone-400 font-mono">Week {Math.ceil(d.dayNumber / 7)}</span>
                 </div>
               ))}
             </div>
@@ -194,14 +194,14 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({ isOpen, onClose 
               <div className="px-2 py-1 text-[10px] font-black uppercase text-indigo-700 tracking-wider">
                 Grammar Modules
               </div>
-              {matchedGrammar.map(g => (
+              {matchedGrammar.map((g: any) => (
                 <div
                   key={`gram-${g.id}`}
                   onClick={() => handleNavigate('grammar')}
                   className="p-2 rounded hover:bg-indigo-50 cursor-pointer flex items-center justify-between"
                 >
                   <span className="font-bold text-stone-900">Module #{g.id}: {g.title}</span>
-                  <span className="font-arabic text-stone-600">{g.arabicTitle}</span>
+                  <span className="font-arabic text-stone-600">{g.titleAR || g.arabicTitle || g.summary || ''}</span>
                 </div>
               ))}
             </div>

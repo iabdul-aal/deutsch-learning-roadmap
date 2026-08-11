@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Clock, Play, Pause, RotateCcw, X, Volume2 } from 'lucide-react';
 
-export const QuickTimerModal = ({ isOpen, onClose }) => {
+interface QuickTimerModalProps {
+  isOpen?: boolean;
+  onClose: () => void;
+}
+
+export const QuickTimerModal: React.FC<QuickTimerModalProps> = ({ isOpen = true, onClose }) => {
   const [secondsLeft, setSecondsLeft] = useState(1500); // 25 mins
   const [isRunning, setIsRunning] = useState(false);
 
