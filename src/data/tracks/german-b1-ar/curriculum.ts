@@ -18,15 +18,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Genitive Case (des/der + N-Deklination) - part 1",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=g9o6q5x8sRk" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=kGg16h3Qh2o" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=g-Z1_t_a-k0" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -38,15 +38,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Genitive Case (des/der + N-Deklination) - part 2",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=D6s2Q1h7D-M" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=kYJ74G30s6w" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=w0J4-t315pQ" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -58,15 +58,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Genitive Case (des/der + N-Deklination) - part 3",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://de.langenscheidt.com/deutsch-arabisch/" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://ankiweb.net/shared/info/2047595496" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -78,15 +78,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Genitive Case (des/der + N-Deklination) - part 4",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=kGg16h3Qh2o" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -98,15 +98,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Genitive Case (des/der + N-Deklination) - part 5",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=11Xg_o2-24k" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=kYJ74G30s6w" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=w0J4-t315pQ" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -118,15 +118,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Genitive Case (des/der + N-Deklination) - part 6",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -138,16 +138,16 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Assess progress",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
-            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=kGg16h3Qh2o" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         }
@@ -167,15 +167,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Relative Clauses (Relativsätze) - part 1",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=11Xg_o2-24k" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=kYJ74G30s6w" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=w0J4-t315pQ" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -187,15 +187,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Relative Clauses (Relativsätze) - part 2",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -207,15 +207,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Relative Clauses (Relativsätze) - part 3",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=g9o6q5x8sRk" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -227,15 +227,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Relative Clauses (Relativsätze) - part 4",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=J9c1d-15u4I" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=D6s2Q1h7D-M" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=kYJ74G30s6w" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -247,15 +247,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Relative Clauses (Relativsätze) - part 5",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://de.langenscheidt.com/deutsch-arabisch/" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -267,15 +267,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Relative Clauses (Relativsätze) - part 6",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=A_c1V5h5a_k" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=g9o6q5x8sRk" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -287,16 +287,16 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Assess progress",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
-            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=Xn72-Zp9yYk" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=D6s2Q1h7D-M" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=kYJ74G30s6w" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         }
@@ -316,15 +316,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 1",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://de.langenscheidt.com/deutsch-arabisch/" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -336,15 +336,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 2",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=A_c1V5h5a_k" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=g9o6q5x8sRk" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -356,15 +356,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 3",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=Xn72-Zp9yYk" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=11Xg_o2-24k" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=D6s2Q1h7D-M" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -376,15 +376,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 4",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://lingua.com/german/reading/" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://de.langenscheidt.com/deutsch-arabisch/" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -396,15 +396,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 5",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=g9o6q5x8sRk" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -416,15 +416,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 6",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=g-Z1_t_a-k0" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=J9c1d-15u4I" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=11Xg_o2-24k" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=D6s2Q1h7D-M" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -436,16 +436,16 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Assess progress",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
-            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://de.langenscheidt.com/deutsch-arabisch/" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         }
@@ -465,15 +465,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Reported Speech (Konjunktiv I) + Indirect Questions - part 1",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=g9o6q5x8sRk" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -485,15 +485,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Reported Speech (Konjunktiv I) + Indirect Questions - part 2",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=g-Z1_t_a-k0" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=J9c1d-15u4I" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=11Xg_o2-24k" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=D6s2Q1h7D-M" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -505,15 +505,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Reported Speech (Konjunktiv I) + Indirect Questions - part 3",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://de.langenscheidt.com/deutsch-arabisch/" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -525,15 +525,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Reported Speech (Konjunktiv I) + Indirect Questions - part 4",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=A_c1V5h5a_k" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -545,15 +545,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Reported Speech (Konjunktiv I) + Indirect Questions - part 5",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=kGg16h3Qh2o" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=Xn72-Zp9yYk" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=J9c1d-15u4I" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=11Xg_o2-24k" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -565,15 +565,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Reported Speech (Konjunktiv I) + Indirect Questions - part 6",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=w0J4-t315pQ" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://lingua.com/german/reading/" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -585,16 +585,16 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Assess progress",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
-            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=A_c1V5h5a_k" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         }
@@ -614,15 +614,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Complex Connectors - part 1",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=kGg16h3Qh2o" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=Xn72-Zp9yYk" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=J9c1d-15u4I" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=11Xg_o2-24k" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -634,15 +634,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Complex Connectors - part 2",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=w0J4-t315pQ" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://lingua.com/german/reading/" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -654,15 +654,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Complex Connectors - part 3",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=A_c1V5h5a_k" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -674,15 +674,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Complex Connectors - part 4",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=g-Z1_t_a-k0" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=Xn72-Zp9yYk" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=J9c1d-15u4I" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -694,15 +694,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Complex Connectors - part 5",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=kYJ74G30s6w" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://lingua.com/german/reading/" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -714,15 +714,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Complex Connectors - part 6",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=A_c1V5h5a_k" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -734,16 +734,16 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Assess progress",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
-            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=g-Z1_t_a-k0" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=Xn72-Zp9yYk" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=J9c1d-15u4I" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         }
@@ -763,15 +763,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Advanced Prepositions - part 1",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=kYJ74G30s6w" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://lingua.com/german/reading/" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -783,15 +783,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Advanced Prepositions - part 2",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=A_c1V5h5a_k" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -803,15 +803,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Advanced Prepositions - part 3",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=kGg16h3Qh2o" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=g-Z1_t_a-k0" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=Xn72-Zp9yYk" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -823,15 +823,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Advanced Prepositions - part 4",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=w0J4-t315pQ" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://lingua.com/german/reading/" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -843,15 +843,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Advanced Prepositions - part 5",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -863,15 +863,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Advanced Prepositions - part 6",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=g9o6q5x8sRk" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=kGg16h3Qh2o" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=g-Z1_t_a-k0" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -883,16 +883,16 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Assess progress",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
-            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=D6s2Q1h7D-M" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=w0J4-t315pQ" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://lingua.com/german/reading/" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         }
@@ -912,15 +912,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master German for University and Professional Contexts - part 1",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -932,15 +932,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master German for University and Professional Contexts - part 2",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=g9o6q5x8sRk" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=kGg16h3Qh2o" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=g-Z1_t_a-k0" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -952,15 +952,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master German for University and Professional Contexts - part 3",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=D6s2Q1h7D-M" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=kYJ74G30s6w" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=w0J4-t315pQ" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -972,15 +972,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master German for University and Professional Contexts - part 4",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://de.langenscheidt.com/deutsch-arabisch/" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://ankiweb.net/shared/info/2047595496" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -992,15 +992,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master German for University and Professional Contexts - part 5",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=kGg16h3Qh2o" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -1012,15 +1012,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master German for University and Professional Contexts - part 6",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=11Xg_o2-24k" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=kYJ74G30s6w" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=w0J4-t315pQ" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -1032,16 +1032,16 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Assess progress",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
-            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://ankiweb.net/shared/info/2047595496" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         }
@@ -1061,15 +1061,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Goethe B1 Zertifikat Full Exam Prep - part 1",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=kGg16h3Qh2o" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -1081,15 +1081,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Goethe B1 Zertifikat Full Exam Prep - part 2",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=11Xg_o2-24k" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=kYJ74G30s6w" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=w0J4-t315pQ" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -1101,15 +1101,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Goethe B1 Zertifikat Full Exam Prep - part 3",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -1121,15 +1121,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Goethe B1 Zertifikat Full Exam Prep - part 4",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=g9o6q5x8sRk" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -1141,15 +1141,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Goethe B1 Zertifikat Full Exam Prep - part 5",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=J9c1d-15u4I" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=D6s2Q1h7D-M" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=kYJ74G30s6w" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -1161,15 +1161,15 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Master Goethe B1 Zertifikat Full Exam Prep - part 6",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://de.langenscheidt.com/deutsch-arabisch/" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -1181,16 +1181,16 @@ export const CURRICULUM_DATA_B1 = {
           objective: "Assess progress",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@EasyGerman" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
-            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html" }
+            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
+            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=A_c1V5h5a_k" },
+            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@DeutschmitMarija" }
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=g9o6q5x8sRk" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" },
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         }
