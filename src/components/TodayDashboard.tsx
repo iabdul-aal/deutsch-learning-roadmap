@@ -1,60 +1,43 @@
 /**
- * TodayDashboard.tsx — The German Learning OS
+ * TodayDashboard.tsx - The German Learning OS
  *
- * Philosophy (Master Directive):
- *   This is NOT a course viewer or content library.
- *   This is the intelligence layer that answers:
- *   "Given who I am and what I want, what is the single best
- *    thing I should do RIGHT NOW to learn German?"
+ * Answers one question: "What should I do RIGHT NOW?"
  *
  * Layout:
- *   1. Next Best Action — ONE priority action, fully justified
- *   2. Today's Stack — 3-5 sequenced activities for the day
- *   3. Skill Radar — live mastery bars
- *   4. Goal Tracker — pace estimate, target CEFR
- *   5. Method Notes — WHY this sequence (pedagogical reasoning)
+ *   1. Next Best Action - one priority action, resource-justified
+ *   2. Today's Stack - time-budgeted activity sequence
+ *   3. Skill Mastery - live progress bars
+ *   4. Goal Tracker - pace estimate, stat cards
+ *   5. Resource Preview - top ranked resources for current level
  */
 
 import React, { useMemo, useState, useCallback } from 'react';
 import {
   Zap, Brain, Headphones, Mic, PenLine, BookOpen, Star,
   ArrowRight, Clock, BarChart2, Target, ChevronDown, ChevronUp,
-  Play, ExternalLink, RefreshCw, Flame, TrendingUp, CheckCircle2,
+  Play, ExternalLink, Flame, TrendingUp, CheckCircle2,
   Info, Youtube, FileText, Globe, Dumbbell,
 } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 import { selectResourcesForSkill, CONTENT_DB } from '../data/contentRanking';
 import type { ContentSource, SkillType } from '../data/contentRanking';
-import { masteryToCEFR, getSkillGaps } from '../engine/learnerModel';
-import { generateRoadmap } from '../engine/roadmap';
-import type { NextAction, SkillKey, CEFRLevel, GoalTrack } from '../types/learner';
+import { masteryToCEFR } from '../engine/learnerModel';
+import type { NextAction, SkillKey, GoalTrack } from '../types/learner';
 
-// ── Constants ─────────────────────────────────────────────────────
+// ── Skill metadata ────────────────────────────────────────────────
 
-const SKILL_LABELS: Record<SkillKey, { en: string; ar: string; icon: React.ReactNode; color: string }> = {
-  HOEREN:          { en: 'Listening',    ar: 'الاستماع', icon: <Headphones className="w-3.5 h-3.5" />, color: 'text-blue-600 bg-blue-50' },
-  SPRECHEN:        { en: 'Speaking',     ar: 'التحدث',   icon: <Mic className="w-3.5 h-3.5" />,        color: 'text-rose-600 bg-rose-50' },
-  LESEN:           { en: 'Reading',      ar: 'القراءة',  icon: <BookOpen className="w-3.5 h-3.5" />,   color: 'text-emerald-600 bg-emerald-50' },
-  SCHREIBEN:       { en: 'Writing',      ar: 'الكتابة',  icon: <PenLine className="w-3.5 h-3.5" />,    color: 'text-purple-600 bg-purple-50' },
-  GRAMMATIK:       { en: 'Grammar',      ar: 'القواعد',  icon: <Brain className="w-3.5 h-3.5" />,      color: 'text-amber-700 bg-amber-50' },
-  WORTSCHATZ:      { en: 'Vocabulary',   ar: 'المفردات', icon: <Star className="w-3.5 h-3.5" />,       color: 'text-indigo-600 bg-indigo-50' },
-  AUSSPRACHE:      { en: 'Pronunciation',ar: 'النطق',    icon: <Mic className="w-3.5 h-3.5" />,        color: 'text-cyan-600 bg-cyan-50' },
-  KULTURKOMPETENZ: { en: 'Culture',      ar: 'الثقافة',  icon: <Globe className="w-3.5 h-3.5" />,      color: 'text-stone-600 bg-stone-100' },
+const SKILL_META: Record<SkillKey, { label: string; icon: React.ReactNode; color: string }> = {
+  HOEREN:          { label: 'Listening',     icon: <Headphones className="w-3.5 h-3.5" />, color: 'text-blue-600 bg-blue-50' },
+  SPRECHEN:        { label: 'Speaking',      icon: <Mic className="w-3.5 h-3.5" />,        color: 'text-rose-600 bg-rose-50' },
+  LESEN:           { label: 'Reading',       icon: <BookOpen className="w-3.5 h-3.5" />,   color: 'text-emerald-600 bg-emerald-50' },
+  SCHREIBEN:       { label: 'Writing',       icon: <PenLine className="w-3.5 h-3.5" />,    color: 'text-purple-600 bg-purple-50' },
+  GRAMMATIK:       { label: 'Grammar',       icon: <Brain className="w-3.5 h-3.5" />,      color: 'text-amber-700 bg-amber-50' },
+  WORTSCHATZ:      { label: 'Vocabulary',    icon: <Star className="w-3.5 h-3.5" />,       color: 'text-indigo-600 bg-indigo-50' },
+  AUSSPRACHE:      { label: 'Pronunciation', icon: <Mic className="w-3.5 h-3.5" />,        color: 'text-cyan-600 bg-cyan-50' },
+  KULTURKOMPETENZ: { label: 'Culture',       icon: <Globe className="w-3.5 h-3.5" />,      color: 'text-stone-600 bg-stone-100' },
 };
 
-const ACTION_ICONS: Record<string, React.ReactNode> = {
-  SRS_REVIEW:       <Brain className="w-5 h-5" />,
-  GRAMMAR_CONCEPT:  <Brain className="w-5 h-5" />,
-  LISTENING:        <Headphones className="w-5 h-5" />,
-  SPEAKING:         <Mic className="w-5 h-5" />,
-  READING:          <BookOpen className="w-5 h-5" />,
-  WRITING:          <PenLine className="w-5 h-5" />,
-  VOCABULARY_STUDY: <Star className="w-5 h-5" />,
-  MISSION:          <Dumbbell className="w-5 h-5" />,
-  ASSESSMENT:       <BarChart2 className="w-5 h-5" />,
-};
-
-const ACTION_TYPE_TO_SKILL_TYPE: Partial<Record<string, SkillType>> = {
+const ACTION_TO_SKILL_TYPE: Partial<Record<string, SkillType>> = {
   LISTENING:        'HOEREN',
   SPEAKING:         'SPRECHEN',
   READING:          'LESEN',
@@ -68,113 +51,126 @@ const CEFR_TO_CONTENT_LEVEL: Record<string, 'A1' | 'A2' | 'B1' | 'ALL'> = {
   A1: 'A1', A2: 'A2', B1: 'B1', B2: 'B1', C1: 'B1', C2: 'B1',
 };
 
-const CEFR_ORDER: CEFRLevel[] = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+const GOAL_LABELS: Record<GoalTrack, string> = {
+  TRAVEL:          'Travel',
+  LIFE_IN_GERMANY: 'Live in Germany',
+  STUDY:           'University',
+  CAREER:          'Career',
+  PROFESSIONAL:    'Professional',
+};
 
 // ── Helpers ───────────────────────────────────────────────────────
 
-function weeksToTarget(
-  currentMastery: number,
-  targetMastery: number,
-  dailyMinutes: number,
-): number {
-  const masteryPerHour = 1.5;
-  const hoursNeeded = (targetMastery - currentMastery) / masteryPerHour;
-  const hoursPerWeek = (dailyMinutes * 7) / 60;
-  return Math.ceil(hoursNeeded / hoursPerWeek);
+function safeAvg(values: number[]): number {
+  if (values.length === 0) return 0;
+  const sum = values.reduce((a, b) => a + (Number.isFinite(b) ? b : 0), 0);
+  return Math.round(sum / values.length);
 }
 
-function getResourceTypeIcon(source: ContentSource): React.ReactNode {
-  if (source.type === 'VIDEO') return <Youtube className="w-4 h-4 text-rose-500" />;
-  if (source.type === 'PDF') return <FileText className="w-4 h-4 text-blue-500" />;
+function weeksToTarget(currentMastery: number, targetMastery: number, dailyMinutes: number): number {
+  const effectiveMinutes = Math.max(dailyMinutes, 5);
+  const masteryPerHour = 1.5;
+  const hoursNeeded = Math.max(0, (targetMastery - currentMastery)) / masteryPerHour;
+  const hoursPerWeek = (effectiveMinutes * 7) / 60;
+  return Math.ceil(hoursNeeded / Math.max(hoursPerWeek, 0.1));
+}
+
+function resourceUrl(source: ContentSource): string {
+  return source.type === 'VIDEO'
+    ? `https://www.youtube.com/watch?v=${source.resourceId}`
+    : source.resourceId;
+}
+
+function ResourceTypeIcon({ source }: { source: ContentSource }): React.ReactElement {
+  if (source.type === 'VIDEO')       return <Youtube className="w-4 h-4 text-rose-500" />;
+  if (source.type === 'PDF')         return <FileText className="w-4 h-4 text-blue-500" />;
   if (source.type === 'INTERACTIVE') return <Globe className="w-4 h-4 text-emerald-500" />;
   return <Globe className="w-4 h-4 text-stone-400" />;
 }
 
-function buildYouTubeUrl(videoId: string): string {
-  return `https://www.youtube.com/watch?v=${videoId}`;
-}
+// ── Next Best Action Card ─────────────────────────────────────────
 
-// ── Sub-components ────────────────────────────────────────────────
-
-/** The central "Next Best Action" card — biggest piece of UI real estate */
 const NextBestActionCard: React.FC<{
   action: NextAction;
   resource: ContentSource | null;
   onStart: () => void;
 }> = ({ action, resource, onStart }) => {
   const [showReason, setShowReason] = useState(false);
-  const skillLabel = action.skill ? SKILL_LABELS[action.skill] : null;
+  const skillMeta = action.skill ? SKILL_META[action.skill] : null;
 
   return (
     <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-stone-950 to-stone-900 p-6 shadow-2xl border border-stone-800">
-      {/* Amber glow accent */}
       <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/10 rounded-full -translate-y-1/2 translate-x-1/2 pointer-events-none" />
 
       <div className="relative space-y-5">
-        {/* Label */}
+        {/* Labels row */}
         <div className="flex items-center gap-2">
-          <div className="flex items-center gap-1.5 bg-amber-500 text-stone-950 text-[10px] font-black px-3 py-1 rounded-full">
+          <div className="flex items-center gap-1.5 bg-amber-500 text-stone-950 text-[10px] font-black px-3 py-1 rounded-full uppercase tracking-wide">
             <Zap className="w-3 h-3" />
-            NEXT BEST ACTION
+            Next Best Action
           </div>
-          {skillLabel && (
-            <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${skillLabel.color}`}>
-              {skillLabel.en}
+          {skillMeta && (
+            <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${skillMeta.color}`}>
+              {skillMeta.label}
             </span>
           )}
           <span className="text-[10px] text-stone-500 font-mono ml-auto">
-            ~{action.estimatedMinutes} min
+            {action.estimatedMinutes} min
           </span>
         </div>
 
-        {/* Action title */}
+        {/* Title + description */}
         <div>
           <h2 className="text-2xl font-black text-white leading-tight">{action.title}</h2>
           <p className="text-sm text-stone-400 mt-1 leading-relaxed">{action.description}</p>
         </div>
 
-        {/* Resource recommendation */}
+        {/* Resource card */}
         {resource && (
           <div className="bg-stone-800/60 border border-stone-700 rounded-2xl p-4 space-y-2">
-            <div className="flex items-start gap-2">
-              {getResourceTypeIcon(resource)}
+            <div className="flex items-start gap-3">
+              <ResourceTypeIcon source={resource} />
               <div className="flex-1 min-w-0">
-                <p className="text-sm font-bold text-white">{resource.title}</p>
-                <p className="text-[11px] text-stone-400">{resource.channelOrAuthor}</p>
-                {resource.titleAR && (
-                  <p className="text-[11px] text-stone-500 mt-0.5" dir="rtl">{resource.titleAR}</p>
-                )}
+                <p className="text-sm font-bold text-white leading-snug">{resource.title}</p>
+                <p className="text-[11px] text-stone-400 mt-0.5">{resource.channelOrAuthor}</p>
               </div>
-              <div className="flex items-center gap-1 shrink-0">
+              <div className="flex items-center gap-1.5 shrink-0">
                 {resource.language === 'AR' && (
                   <span className="text-[10px] bg-emerald-900/50 text-emerald-400 border border-emerald-800 px-1.5 py-0.5 rounded font-bold">
-                    عربي
+                    AR
                   </span>
                 )}
                 <span className="text-[10px] text-stone-500 font-mono">{resource.durationMin}m</span>
               </div>
             </div>
 
-            {/* Why this resource */}
             <button
               onClick={() => setShowReason(r => !r)}
-              className="flex items-center gap-1.5 text-[11px] text-amber-500 hover:text-amber-400 font-bold transition-colors"
+              className="flex items-center gap-1.5 text-[11px] text-amber-400 hover:text-amber-300 font-bold transition-colors"
             >
               <Info className="w-3 h-3" />
               Why this resource?
               {showReason ? <ChevronUp className="w-3 h-3" /> : <ChevronDown className="w-3 h-3" />}
             </button>
+
             {showReason && (
-              <div className="bg-stone-900/50 rounded-xl p-3 text-[11px] text-stone-400 leading-relaxed animate-fadeIn">
-                Ranked #{resource.rankScore !== undefined ? Math.round(100 - resource.rankScore) + 1 : '?'} for {action.skill?.toLowerCase() ?? 'this skill'} at your level.
-                {resource.language === 'AR' && ' Arabic-first instruction reduces cognitive load by 30%.'}
-                {resource.viewsApprox && ` ${(resource.viewsApprox / 1000).toFixed(0)}K+ learners use this resource.`}
+              <div className="bg-stone-900/50 rounded-xl p-3 text-[11px] text-stone-400 leading-relaxed">
+                {resource.language === 'AR'
+                  ? 'Arabic-first instruction reduces cognitive load and accelerates understanding.'
+                  : resource.channelOrAuthor.includes('DW') || resource.channelOrAuthor.includes('Deutsche Welle')
+                    ? 'Deutsche Welle is an official, CEFR-verified public broadcaster resource.'
+                    : 'Top-ranked by view count, community recommendations, and content quality.'
+                }
+                {resource.viewsApprox
+                  ? ` ${(resource.viewsApprox / 1000).toFixed(0)}K+ learners use this resource.`
+                  : ''
+                }
               </div>
             )}
           </div>
         )}
 
-        {/* CTA */}
+        {/* CTA row */}
         <div className="flex items-center gap-3">
           <button
             onClick={onStart}
@@ -183,9 +179,9 @@ const NextBestActionCard: React.FC<{
             <Play className="w-4 h-4 fill-current" />
             Start Now
           </button>
-          {resource?.type === 'VIDEO' && (
+          {resource && (
             <a
-              href={buildYouTubeUrl(resource.resourceId)}
+              href={resourceUrl(resource)}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 px-4 py-3.5 rounded-2xl border border-stone-700 text-stone-300 hover:text-white hover:border-stone-500 text-sm font-bold transition-all"
@@ -196,20 +192,17 @@ const NextBestActionCard: React.FC<{
           )}
         </div>
 
-        {/* Pedagogical reason */}
-        <button
-          onClick={() => setShowReason(r => !r)}
-          className="flex items-center gap-1.5 text-[11px] text-stone-500 hover:text-stone-300 transition-colors"
-        >
-          <Info className="w-3 h-3" />
-          <span>{action.reason}</span>
-        </button>
+        {/* Reason footnote */}
+        {action.reason && (
+          <p className="text-[11px] text-stone-600 leading-relaxed">{action.reason}</p>
+        )}
       </div>
     </div>
   );
 };
 
-/** One item in the Today's Stack list */
+// ── Stack Item ────────────────────────────────────────────────────
+
 const StackItem: React.FC<{
   index: number;
   action: NextAction;
@@ -217,33 +210,30 @@ const StackItem: React.FC<{
   isActive: boolean;
   isDone: boolean;
   onDone: () => void;
-  setActiveView: (view: string) => void;
-}> = ({ index, action, resource, isActive, isDone, onDone, setActiveView }) => {
-  const skillLabel = action.skill ? SKILL_LABELS[action.skill] : null;
+  onNavigate: (view: string) => void;
+}> = ({ index, action, resource, isActive, isDone, onDone, onNavigate }) => {
+  const skillMeta = action.skill ? SKILL_META[action.skill] : null;
   const [expanded, setExpanded] = useState(false);
 
   const handleStart = useCallback(() => {
-    if (action.type === 'SRS_REVIEW' || action.type === 'VOCABULARY_STUDY') {
-      setActiveView('vocabulary');
-    } else if (action.type === 'GRAMMAR_CONCEPT') {
-      setActiveView('grammar');
-    } else if (action.type === 'MISSION') {
-      setActiveView('missions');
-    }
-  }, [action.type, setActiveView]);
+    if (action.type === 'SRS_REVIEW' || action.type === 'VOCABULARY_STUDY') onNavigate('vocabulary');
+    else if (action.type === 'GRAMMAR_CONCEPT') onNavigate('grammar');
+    else if (action.type === 'MISSION') onNavigate('missions');
+    else if (action.type === 'ASSESSMENT') onNavigate('assessments');
+  }, [action.type, onNavigate]);
 
   return (
     <div className={`rounded-2xl border transition-all duration-200 overflow-hidden ${
-      isDone ? 'border-stone-100 bg-stone-50 opacity-60' :
-      isActive ? 'border-amber-300 bg-amber-50 shadow-md' :
-      'border-stone-200 bg-white hover:border-stone-300'
+      isDone    ? 'border-stone-100 bg-stone-50 opacity-60' :
+      isActive  ? 'border-amber-300 bg-amber-50 shadow-sm' :
+                  'border-stone-200 bg-white hover:border-stone-300'
     }`}>
       <div className="flex items-center gap-3 p-3.5">
-        {/* Step number / check */}
+        {/* Step bubble */}
         <div className={`w-8 h-8 rounded-xl flex items-center justify-center shrink-0 text-xs font-black ${
-          isDone ? 'bg-emerald-500 text-white' :
+          isDone   ? 'bg-emerald-500 text-white' :
           isActive ? 'bg-amber-500 text-stone-950' :
-          'bg-stone-100 text-stone-500'
+                     'bg-stone-100 text-stone-500'
         }`}>
           {isDone ? <CheckCircle2 className="w-4 h-4" /> : index + 1}
         </div>
@@ -251,27 +241,28 @@ const StackItem: React.FC<{
         {/* Content */}
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2">
-            <p className={`text-sm font-bold ${isDone ? 'text-stone-400 line-through' : 'text-stone-900'}`}>
+            <p className={`text-sm font-bold leading-snug ${isDone ? 'text-stone-400 line-through' : 'text-stone-900'}`}>
               {action.title}
             </p>
-            {skillLabel && (
-              <span className={`hidden sm:inline text-[10px] font-bold px-1.5 py-0.5 rounded-full ${skillLabel.color}`}>
-                {skillLabel.en}
+            {skillMeta && (
+              <span className={`hidden sm:inline text-[10px] font-bold px-1.5 py-0.5 rounded-full ${skillMeta.color}`}>
+                {skillMeta.label}
               </span>
             )}
           </div>
           {resource && (
-            <p className="text-[11px] text-stone-400 truncate">{resource.title}</p>
+            <p className="text-[11px] text-stone-400 truncate mt-0.5">{resource.channelOrAuthor}</p>
           )}
         </div>
 
-        {/* Meta + actions */}
-        <div className="flex items-center gap-2 shrink-0">
+        {/* Right controls */}
+        <div className="flex items-center gap-1.5 shrink-0">
           <span className="text-[10px] text-stone-400 font-mono">{action.estimatedMinutes}m</span>
           {!isDone && (
             <button
               onClick={() => setExpanded(e => !e)}
-              className="p-1 rounded-lg hover:bg-stone-100 text-stone-400"
+              className="p-1 rounded-lg hover:bg-stone-100 text-stone-400 transition-colors"
+              aria-label={expanded ? 'Collapse' : 'Expand'}
             >
               {expanded ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
             </button>
@@ -279,24 +270,28 @@ const StackItem: React.FC<{
           <button
             onClick={onDone}
             className={`w-7 h-7 rounded-lg flex items-center justify-center transition-all ${
-              isDone ? 'bg-emerald-100 text-emerald-600' : 'bg-stone-100 hover:bg-emerald-100 hover:text-emerald-700 text-stone-400'
+              isDone
+                ? 'bg-emerald-100 text-emerald-600'
+                : 'bg-stone-100 hover:bg-emerald-100 hover:text-emerald-700 text-stone-400'
             }`}
-            aria-label={isDone ? 'Completed' : 'Mark as done'}
+            aria-label={isDone ? 'Mark incomplete' : 'Mark done'}
           >
             <CheckCircle2 className="w-3.5 h-3.5" />
           </button>
         </div>
       </div>
 
-      {/* Expanded details */}
+      {/* Expanded drawer */}
       {expanded && !isDone && (
-        <div className="border-t border-stone-100 bg-stone-50 p-3.5 space-y-3 animate-fadeIn">
-          <p className="text-xs text-stone-600">{action.description}</p>
+        <div className="border-t border-stone-100 bg-stone-50 p-3.5 space-y-3">
+          <p className="text-xs text-stone-600 leading-relaxed">{action.description}</p>
           {resource && (
             <div className="flex items-center gap-2">
-              {getResourceTypeIcon(resource)}
+              <ResourceTypeIcon source={resource} />
               <span className="text-xs font-bold text-stone-700">{resource.channelOrAuthor}</span>
-              {resource.language === 'AR' && <span className="text-[10px] bg-emerald-100 text-emerald-700 px-1.5 py-0.5 rounded font-bold">عربي</span>}
+              {resource.language === 'AR' && (
+                <span className="text-[10px] bg-emerald-100 text-emerald-700 px-1.5 py-0.5 rounded font-bold">AR</span>
+              )}
             </div>
           )}
           <div className="flex gap-2">
@@ -304,30 +299,36 @@ const StackItem: React.FC<{
               onClick={handleStart}
               className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-amber-500 text-stone-950 text-xs font-black hover:bg-amber-400 transition-all"
             >
-              <Play className="w-3 h-3 fill-current" /> Start
+              <Play className="w-3 h-3 fill-current" />
+              Start
             </button>
-            {resource?.type === 'VIDEO' && (
+            {resource && (
               <a
-                href={buildYouTubeUrl(resource.resourceId)}
+                href={resourceUrl(resource)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-1.5 px-3 py-2 rounded-xl border border-stone-200 text-stone-600 text-xs font-bold hover:bg-white transition-all"
               >
-                <Youtube className="w-3 h-3 text-rose-500" /> Watch on YouTube
+                <ExternalLink className="w-3 h-3" />
+                Open Resource
               </a>
             )}
           </div>
-          <p className="text-[10px] text-stone-400 italic">{action.reason}</p>
+          {action.reason && (
+            <p className="text-[10px] text-stone-400 italic leading-relaxed">{action.reason}</p>
+          )}
         </div>
       )}
     </div>
   );
 };
 
-/** Skill mastery bar row */
+// ── Skill Bar ────────────────────────────────────────────────────
+
 const SkillBar: React.FC<{ skill: SkillKey; mastery: number }> = ({ skill, mastery }) => {
-  const meta = SKILL_LABELS[skill];
-  const cefr = masteryToCEFR(mastery);
+  const meta = SKILL_META[skill];
+  const safeMastery = Number.isFinite(mastery) ? mastery : 0;
+  const cefr = masteryToCEFR(safeMastery);
 
   return (
     <div className="flex items-center gap-3">
@@ -335,17 +336,17 @@ const SkillBar: React.FC<{ skill: SkillKey; mastery: number }> = ({ skill, maste
         {meta.icon}
       </div>
       <div className="flex-1 min-w-0">
-        <div className="flex items-center justify-between mb-0.5">
-          <span className="text-xs font-bold text-stone-700">{meta.en}</span>
+        <div className="flex items-center justify-between mb-1">
+          <span className="text-xs font-bold text-stone-700">{meta.label}</span>
           <div className="flex items-center gap-1.5">
-            <span className="text-[10px] font-black text-stone-400">{Math.round(mastery)}%</span>
+            <span className="text-[10px] font-black text-stone-400">{Math.round(safeMastery)}%</span>
             <span className="text-[10px] font-black bg-amber-100 text-amber-800 px-1.5 py-px rounded-full">{cefr}</span>
           </div>
         </div>
         <div className="h-1.5 bg-stone-100 rounded-full overflow-hidden">
           <div
             className="h-full rounded-full transition-all duration-700 bg-gradient-to-r from-amber-400 to-amber-600"
-            style={{ width: `${Math.max(2, mastery)}%` }}
+            style={{ width: `${Math.max(2, safeMastery)}%` }}
           />
         </div>
       </div>
@@ -353,67 +354,63 @@ const SkillBar: React.FC<{ skill: SkillKey; mastery: number }> = ({ skill, maste
   );
 };
 
-// ── MAIN DASHBOARD ────────────────────────────────────────────────
+// ── Main Dashboard ────────────────────────────────────────────────
 
 export const TodayDashboard: React.FC = () => {
   const {
-    learnerModel, nextActions, setActiveView, userName,
-    addStudyMinutes, srsStats,
+    learnerModel,
+    nextActions,
+    setActiveView,
+    userName,
+    addStudyMinutes,
+    srsStats,
   } = useApp();
 
   const [doneSet, setDoneSet] = useState<Set<number>>(new Set());
   const [sessionStarted, setSessionStarted] = useState(false);
 
   const { skillMastery, goalProfile, cefrEstimate } = learnerModel;
-  const goal = goalProfile.track;
-  const currentCEFR = cefrEstimate.overall;
-  const targetCEFR = goalProfile.targetCEFR;
+  const currentCEFR = cefrEstimate?.overall ?? 'A1';
+  const targetCEFR  = goalProfile?.targetCEFR ?? 'B1';
+  const goal        = goalProfile?.track ?? 'LIFE_IN_GERMANY';
 
-  // ── Resource matching for each action ──────────────────────────
   const contentLevel = CEFR_TO_CONTENT_LEVEL[currentCEFR] ?? 'A1';
+  const dailyMinutes = Math.max(15, Math.round(((goalProfile?.weeklyHours ?? 3.5) * 60) / 7));
 
-  const actionResources = useMemo(() => {
-    return nextActions.map(action => {
-      const skillType = ACTION_TYPE_TO_SKILL_TYPE[action.type];
-      if (!skillType) return null;
-      const { primary } = selectResourcesForSkill(CONTENT_DB, skillType, contentLevel, 'arabic');
-      return primary ?? null;
-    });
-  }, [nextActions, contentLevel]);
+  // Map each action to its best resource
+  const actionResources = useMemo(() =>
+    nextActions.map(action => {
+      const st = ACTION_TO_SKILL_TYPE[action.type];
+      if (!st) return null;
+      return selectResourcesForSkill(CONTENT_DB, st, contentLevel, 'arabic').primary ?? null;
+    }),
+    [nextActions, contentLevel],
+  );
 
-  // ── Session budget ─────────────────────────────────────────────
-  const dailyMinutes = Math.round((goalProfile.weeklyHours * 60) / 7);
+  // Budget today's stack to fit daily time allocation
   const stackActions = useMemo(() => {
-    let budget = Math.min(dailyMinutes || 45, 120);
-    const selected: typeof nextActions = [];
+    let budget = Math.min(dailyMinutes, 120);
+    const out: typeof nextActions = [];
     for (const action of nextActions) {
       if (budget <= 0) break;
-      selected.push(action);
+      out.push(action);
       budget -= action.estimatedMinutes;
     }
-    return selected;
+    return out;
   }, [nextActions, dailyMinutes]);
 
-  // ── Goal pace estimate ─────────────────────────────────────────
+  // Pace estimate: how long to reach target CEFR
   const paceEstimate = useMemo(() => {
-    const targetMastery = { A1: 20, A2: 40, B1: 60, B2: 80, C1: 95, C2: 100 }[targetCEFR] ?? 60;
-    const avgMastery = Object.values(skillMastery).reduce((a, b) => a + b, 0) / 8;
-    if (avgMastery >= targetMastery) return 'Goal achieved! 🎉';
-    const weeks = weeksToTarget(avgMastery, targetMastery, dailyMinutes || 30);
+    const masteryTarget = { A1: 20, A2: 40, B1: 60, B2: 80, C1: 95, C2: 100 }[targetCEFR] ?? 60;
+    const vals = Object.values(skillMastery ?? {}).filter(Number.isFinite) as number[];
+    const avg  = vals.length > 0 ? vals.reduce((a, b) => a + b, 0) / vals.length : 0;
+    if (avg >= masteryTarget) return 'Goal achieved';
+    const weeks  = weeksToTarget(avg, masteryTarget, dailyMinutes);
     const months = Math.ceil(weeks / 4);
-    return months <= 1 ? `~${weeks} weeks` : `~${months} months`;
+    return months <= 1 ? `${weeks} weeks` : `${months} months`;
   }, [skillMastery, targetCEFR, dailyMinutes]);
 
-  // ── Goal label ─────────────────────────────────────────────────
-  const goalLabel: Record<GoalTrack, { en: string; ar: string }> = {
-    TRAVEL:         { en: 'Travel',         ar: 'السفر' },
-    LIFE_IN_GERMANY:{ en: 'Live in Germany', ar: 'العيش في ألمانيا' },
-    STUDY:          { en: 'University',      ar: 'الدراسة الجامعية' },
-    CAREER:         { en: 'Career',          ar: 'العمل المهني' },
-    PROFESSIONAL:   { en: 'Professional',    ar: 'الاحتراف' },
-  };
-
-  const primaryAction = nextActions[0] ?? null;
+  const primaryAction   = nextActions[0] ?? null;
   const primaryResource = actionResources[0] ?? null;
 
   const totalDoneMinutes = stackActions
@@ -423,59 +420,56 @@ export const TodayDashboard: React.FC = () => {
   const handleMarkDone = useCallback((index: number) => {
     setDoneSet(prev => {
       const next = new Set(prev);
-      if (next.has(index)) next.delete(index);
-      else {
+      if (next.has(index)) {
+        next.delete(index);
+      } else {
         next.add(index);
         const action = stackActions[index];
-        if (action?.skill) {
-          addStudyMinutes(action.skill, action.estimatedMinutes ?? 5);
-        }
+        if (action?.skill) addStudyMinutes(action.skill, action.estimatedMinutes ?? 5);
       }
       return next;
     });
   }, [stackActions, addStudyMinutes]);
 
-  const today = new Date().toLocaleDateString('ar-SA', { weekday: 'long', month: 'long', day: 'numeric' });
-  const todayEN = new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric' });
+  const todayLabel = new Date().toLocaleDateString('en-US', {
+    weekday: 'long', month: 'short', day: 'numeric',
+  });
 
-  // ── Skill list (core 6 only) ───────────────────────────────────
   const coreSkills: SkillKey[] = ['GRAMMATIK', 'WORTSCHATZ', 'HOEREN', 'SPRECHEN', 'LESEN', 'SCHREIBEN'];
-
-  const avgMastery = Math.round(
-    coreSkills.reduce((s, k) => s + skillMastery[k], 0) / coreSkills.length
-  );
+  const avgMastery = safeAvg(coreSkills.map(k => skillMastery?.[k] ?? 0));
+  const dueCount   = srsStats?.due ?? 0;
 
   return (
-    <div className="space-y-5 animate-fadeIn max-w-3xl mx-auto" id="main-content">
+    <div className="space-y-5 max-w-3xl mx-auto" id="learning-os-main">
 
-      {/* ── Header ── */}
-      <div className="flex items-end justify-between">
+      {/* Header */}
+      <div className="flex items-end justify-between gap-4">
         <div>
-          <p className="text-[11px] font-black text-amber-700 uppercase tracking-widest">{todayEN}</p>
-          <h1 className="text-2xl font-black text-stone-900">
-            {userName ? `مرحباً، ${userName}` : 'Learning OS'}
+          <p className="text-[11px] font-black text-amber-700 uppercase tracking-widest">{todayLabel}</p>
+          <h1 className="text-2xl font-black text-stone-900 mt-0.5">
+            {userName ? `Hi, ${userName}` : 'Learning OS'}
           </h1>
-          <p className="text-xs text-stone-400" dir="rtl">{today}</p>
+          <p className="text-xs text-stone-400 mt-0.5">Your personalized German study session</p>
         </div>
-        <div className="flex items-center gap-2">
-          {learnerModel.studyStreak > 1 && (
+        <div className="flex items-center gap-2 shrink-0">
+          {(learnerModel.studyStreak ?? 0) >= 1 && (
             <div className="flex items-center gap-1 bg-orange-50 border border-orange-200 rounded-xl px-3 py-1.5">
               <Flame className="w-4 h-4 text-orange-500" />
               <span className="text-sm font-black text-orange-700">{learnerModel.studyStreak}</span>
             </div>
           )}
           <div className="text-center bg-amber-50 border border-amber-200 rounded-xl px-3 py-1.5">
-            <div className="text-lg font-black text-amber-900">{currentCEFR}</div>
-            <div className="text-[10px] text-amber-600 font-bold">CURRENT</div>
+            <div className="text-lg font-black text-amber-900 leading-none">{currentCEFR}</div>
+            <div className="text-[9px] text-amber-600 font-bold mt-0.5 uppercase">Current</div>
           </div>
           <div className="text-center bg-stone-100 border border-stone-200 rounded-xl px-3 py-1.5">
-            <div className="text-lg font-black text-stone-600">{targetCEFR}</div>
-            <div className="text-[10px] text-stone-400 font-bold">TARGET</div>
+            <div className="text-lg font-black text-stone-600 leading-none">{targetCEFR}</div>
+            <div className="text-[9px] text-stone-400 font-bold mt-0.5 uppercase">Target</div>
           </div>
         </div>
       </div>
 
-      {/* ── NEXT BEST ACTION ── */}
+      {/* Next Best Action */}
       {primaryAction ? (
         <NextBestActionCard
           action={primaryAction}
@@ -488,21 +482,33 @@ export const TodayDashboard: React.FC = () => {
           }}
         />
       ) : (
-        <div className="rounded-3xl bg-gradient-to-br from-emerald-900 to-stone-900 p-6 text-center space-y-2">
-          <div className="text-4xl">🎉</div>
-          <h2 className="text-xl font-black text-white">All caught up!</h2>
-          <p className="text-sm text-stone-400">Great work. Come back tomorrow for your next session.</p>
-          <p className="text-sm text-stone-500" dir="rtl">عمل رائع! عد غداً للجلسة التالية.</p>
+        <div className="rounded-3xl bg-gradient-to-br from-emerald-900 to-stone-900 p-8 text-center space-y-3 border border-emerald-800">
+          <div className="w-12 h-12 bg-emerald-500/20 rounded-2xl flex items-center justify-center mx-auto">
+            <CheckCircle2 className="w-6 h-6 text-emerald-400" />
+          </div>
+          <h2 className="text-xl font-black text-white">All caught up</h2>
+          <p className="text-sm text-stone-400 leading-relaxed">
+            No actions due right now. Come back tomorrow or add new vocabulary to start an SRS session.
+          </p>
+          <button
+            onClick={() => setActiveView('vocabulary')}
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-sm font-bold transition-all"
+          >
+            <Star className="w-4 h-4" />
+            Add Vocabulary
+          </button>
         </div>
       )}
 
-      {/* ── TODAY'S STACK ── */}
+      {/* Today's Stack */}
       <div className="space-y-3">
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-sm font-black text-stone-900">Today's Study Stack</h2>
-            <p className="text-[11px] text-stone-400" dir="rtl">
-              جلسة اليوم · {stackActions.reduce((s, a) => s + a.estimatedMinutes, 0)} دقيقة
+            <p className="text-[11px] text-stone-400 mt-0.5">
+              {stackActions.length > 0
+                ? `${stackActions.reduce((s, a) => s + a.estimatedMinutes, 0)} min total`
+                : 'No activities scheduled'}
             </p>
           </div>
           {totalDoneMinutes > 0 && (
@@ -513,57 +519,55 @@ export const TodayDashboard: React.FC = () => {
           )}
         </div>
 
-        {/* Progress bar across stack */}
-        {stackActions.length > 0 && (
-          <div className="h-1.5 bg-stone-100 rounded-full overflow-hidden">
-            <div
-              className="h-full bg-emerald-500 rounded-full transition-all duration-500"
-              style={{ width: `${(doneSet.size / stackActions.length) * 100}%` }}
-            />
+        {stackActions.length > 0 ? (
+          <>
+            <div className="h-1.5 bg-stone-100 rounded-full overflow-hidden">
+              <div
+                className="h-full bg-emerald-500 rounded-full transition-all duration-500"
+                style={{ width: `${doneSet.size === 0 ? 0 : (doneSet.size / stackActions.length) * 100}%` }}
+              />
+            </div>
+            <div className="space-y-2">
+              {stackActions.map((action, i) => (
+                <StackItem
+                  key={`${action.type}-${i}`}
+                  index={i}
+                  action={action}
+                  resource={actionResources[i] ?? null}
+                  isActive={i === 0 && !doneSet.has(0)}
+                  isDone={doneSet.has(i)}
+                  onDone={() => handleMarkDone(i)}
+                  onNavigate={setActiveView}
+                />
+              ))}
+            </div>
+          </>
+        ) : (
+          <div className="rounded-2xl border border-dashed border-stone-200 p-6 text-center">
+            <p className="text-sm text-stone-400">Complete the onboarding diagnostic to generate your first study plan.</p>
           </div>
         )}
 
-        <div className="space-y-2">
-          {stackActions.map((action, i) => (
-            <StackItem
-              key={`${action.type}-${i}`}
-              index={i}
-              action={action}
-              resource={actionResources[i] ?? null}
-              isActive={i === 0 && !doneSet.has(0)}
-              isDone={doneSet.has(i)}
-              onDone={() => handleMarkDone(i)}
-              setActiveView={setActiveView}
-            />
-          ))}
-        </div>
-
         {/* Method note */}
-        <div className="bg-stone-50 border border-stone-200 rounded-2xl p-4">
+        <div className="bg-stone-50 border border-stone-100 rounded-2xl p-4">
           <div className="flex items-start gap-2">
-            <Info className="w-4 h-4 text-stone-400 shrink-0 mt-0.5" />
-            <div className="space-y-1">
-              <p className="text-[11px] font-bold text-stone-700">Why this sequence?</p>
+            <Info className="w-3.5 h-3.5 text-stone-400 shrink-0 mt-0.5" />
+            <div>
+              <p className="text-[11px] font-bold text-stone-600 mb-1">Why this sequence?</p>
               <p className="text-[11px] text-stone-500 leading-relaxed">
-                Input first (listening/reading) → Grammar (structured knowledge) → Output (speaking/writing).
-                This mirrors natural language acquisition: comprehension before production.
-                SRS reviews are always first because delayed review causes forgetting.
-              </p>
-              <p className="text-[11px] text-stone-400 leading-relaxed" dir="rtl">
-                الاستماع/القراءة أولاً ← القواعد ← الإنتاج (تحدث/كتابة). هذا يعكس اكتساب اللغة الطبيعي.
+                Input first (listening, reading), then grammar, then output (speaking, writing).
+                This mirrors natural language acquisition. SRS reviews always come first because
+                delayed review causes forgetting.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      {/* ── SKILL RADAR ── */}
+      {/* Skill Mastery */}
       <div className="paper-card p-5 space-y-4">
         <div className="flex items-center justify-between">
-          <div>
-            <h2 className="text-sm font-black text-stone-900">Skill Mastery</h2>
-            <p className="text-[11px] text-stone-400" dir="rtl">المهارات اللغوية</p>
-          </div>
+          <h2 className="text-sm font-black text-stone-900">Skill Mastery</h2>
           <div className="text-right">
             <div className="text-xl font-black text-stone-900">{avgMastery}%</div>
             <div className="text-[10px] text-stone-400">Overall avg</div>
@@ -571,49 +575,45 @@ export const TodayDashboard: React.FC = () => {
         </div>
         <div className="space-y-3">
           {coreSkills.map(skill => (
-            <SkillBar key={skill} skill={skill} mastery={skillMastery[skill]} />
+            <SkillBar key={skill} skill={skill} mastery={skillMastery?.[skill] ?? 0} />
           ))}
         </div>
         <button
           onClick={() => setActiveView('trackers')}
-          className="flex items-center gap-1.5 text-xs text-amber-700 hover:text-amber-600 font-bold"
+          className="flex items-center gap-1.5 text-xs text-amber-700 hover:text-amber-600 font-bold transition-colors"
         >
           <TrendingUp className="w-3.5 h-3.5" />
-          View detailed skill analytics
+          View detailed analytics
           <ArrowRight className="w-3 h-3" />
         </button>
       </div>
 
-      {/* ── GOAL TRACKER ── */}
+      {/* Goal Stats */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
         {[
           {
             label: 'Goal',
-            labelAR: 'الهدف',
-            value: goalLabel[goal]?.en ?? 'Learn German',
+            value: GOAL_LABELS[goal] ?? 'Learn German',
             icon: <Target className="w-4 h-4 text-amber-600" />,
             bg: 'bg-amber-50 border-amber-200',
           },
           {
             label: 'Est. Time',
-            labelAR: 'الوقت المتوقع',
             value: paceEstimate,
             icon: <Clock className="w-4 h-4 text-blue-600" />,
             bg: 'bg-blue-50 border-blue-200',
           },
           {
             label: 'Daily Budget',
-            labelAR: 'ميزانية يومية',
-            value: `${dailyMinutes || 30} min`,
+            value: `${dailyMinutes} min`,
             icon: <Zap className="w-4 h-4 text-emerald-600" />,
             bg: 'bg-emerald-50 border-emerald-200',
           },
           {
             label: 'SRS Due',
-            labelAR: 'بطاقات للمراجعة',
-            value: `${srsStats.due} cards`,
+            value: dueCount === 0 ? 'All clear' : `${dueCount} card${dueCount === 1 ? '' : 's'}`,
             icon: <Brain className="w-4 h-4 text-purple-600" />,
-            bg: 'bg-purple-50 border-purple-200',
+            bg: dueCount > 0 ? 'bg-purple-50 border-purple-200' : 'bg-stone-50 border-stone-200',
           },
         ].map(item => (
           <div key={item.label} className={`rounded-2xl border p-3 space-y-1 ${item.bg}`}>
@@ -621,21 +621,20 @@ export const TodayDashboard: React.FC = () => {
               {item.icon}
               <span className="text-[10px] font-black text-stone-500 uppercase tracking-wide">{item.label}</span>
             </div>
-            <div className="text-sm font-black text-stone-900">{item.value}</div>
-            <div className="text-[10px] text-stone-400" dir="rtl">{item.labelAR}</div>
+            <div className="text-sm font-black text-stone-900 leading-snug">{item.value}</div>
           </div>
         ))}
       </div>
 
-      {/* ── QUICK NAV ── */}
+      {/* Quick Nav */}
       <div className="grid grid-cols-3 sm:grid-cols-6 gap-2">
         {([
-          { view: 'vocabulary', label: 'SRS Cards', labelAR: 'المفردات', icon: <Brain className="w-4 h-4" /> },
-          { view: 'grammar',    label: 'Grammar',   labelAR: 'القواعد',  icon: <BookOpen className="w-4 h-4" /> },
-          { view: 'resources',  label: 'Resources', labelAR: 'الموارد',  icon: <Youtube className="w-4 h-4" /> },
-          { view: 'missions',   label: 'Practice',  labelAR: 'التدريب',  icon: <Dumbbell className="w-4 h-4" /> },
-          { view: 'curriculum', label: 'Roadmap',   labelAR: 'خارطة',    icon: <Target className="w-4 h-4" /> },
-          { view: 'trackers',   label: 'Progress',  labelAR: 'التقدم',   icon: <BarChart2 className="w-4 h-4" /> },
+          { view: 'vocabulary', label: 'SRS Cards',  icon: <Brain className="w-4 h-4" /> },
+          { view: 'grammar',    label: 'Grammar',    icon: <BookOpen className="w-4 h-4" /> },
+          { view: 'resources',  label: 'Resources',  icon: <Youtube className="w-4 h-4" /> },
+          { view: 'missions',   label: 'Practice',   icon: <Dumbbell className="w-4 h-4" /> },
+          { view: 'curriculum', label: 'Roadmap',    icon: <Target className="w-4 h-4" /> },
+          { view: 'trackers',   label: 'Progress',   icon: <BarChart2 className="w-4 h-4" /> },
         ] as const).map(item => (
           <button
             key={item.view}
@@ -643,51 +642,49 @@ export const TodayDashboard: React.FC = () => {
             className="flex flex-col items-center gap-1.5 p-3 rounded-2xl bg-white border border-stone-200 hover:border-amber-300 hover:bg-amber-50 transition-all text-stone-600 hover:text-amber-800"
           >
             {item.icon}
-            <span className="text-[10px] font-bold">{item.label}</span>
+            <span className="text-[10px] font-bold leading-none">{item.label}</span>
           </button>
         ))}
       </div>
 
-      {/* ── RESOURCE HUB PREVIEW ── */}
+      {/* Resource Preview */}
       <div className="paper-card p-5 space-y-3">
         <div className="flex items-center justify-between">
-          <h2 className="text-sm font-black text-stone-900">Top Resources for Your Level</h2>
+          <h2 className="text-sm font-black text-stone-900">Top Resources for {currentCEFR}</h2>
           <button
             onClick={() => setActiveView('resources')}
-            className="text-xs text-amber-700 hover:text-amber-600 font-bold flex items-center gap-1"
+            className="text-xs text-amber-700 hover:text-amber-600 font-bold flex items-center gap-1 transition-colors"
           >
             See all <ArrowRight className="w-3 h-3" />
           </button>
         </div>
-        {(() => {
-          const skills: SkillType[] = ['GRAMMATIK', 'HOEREN', 'SPRECHEN'];
-          return skills.map(st => {
-            const { primary } = selectResourcesForSkill(CONTENT_DB, st, contentLevel, 'arabic');
-            if (!primary) return null;
-            return (
-              <div key={st} className="flex items-center gap-3 p-3 rounded-xl bg-stone-50 border border-stone-100">
-                {getResourceTypeIcon(primary)}
-                <div className="flex-1 min-w-0">
-                  <p className="text-xs font-bold text-stone-800 truncate">{primary.title}</p>
-                  <p className="text-[10px] text-stone-400">{primary.channelOrAuthor} · {primary.durationMin}m</p>
-                </div>
-                <div className="flex items-center gap-1.5 shrink-0">
-                  {primary.language === 'AR' && (
-                    <span className="text-[9px] bg-emerald-100 text-emerald-700 px-1.5 py-0.5 rounded font-bold">عربي</span>
-                  )}
-                  <a
-                    href={primary.type === 'VIDEO' ? buildYouTubeUrl(primary.resourceId) : primary.resourceId}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-1.5 rounded-lg bg-white border border-stone-200 text-stone-500 hover:text-amber-700 transition-colors"
-                  >
-                    <ExternalLink className="w-3 h-3" />
-                  </a>
-                </div>
+        {(['GRAMMATIK', 'HOEREN', 'SPRECHEN'] as SkillType[]).map(st => {
+          const { primary } = selectResourcesForSkill(CONTENT_DB, st, contentLevel, 'arabic');
+          if (!primary) return null;
+          return (
+            <div key={st} className="flex items-center gap-3 p-3 rounded-xl bg-stone-50 border border-stone-100">
+              <ResourceTypeIcon source={primary} />
+              <div className="flex-1 min-w-0">
+                <p className="text-xs font-bold text-stone-800 truncate">{primary.title}</p>
+                <p className="text-[10px] text-stone-400">{primary.channelOrAuthor} · {primary.durationMin}m</p>
               </div>
-            );
-          });
-        })()}
+              <div className="flex items-center gap-1.5 shrink-0">
+                {primary.language === 'AR' && (
+                  <span className="text-[9px] bg-emerald-100 text-emerald-700 px-1.5 py-0.5 rounded font-bold">AR</span>
+                )}
+                <a
+                  href={resourceUrl(primary)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-1.5 rounded-lg bg-white border border-stone-200 text-stone-500 hover:text-amber-700 transition-colors"
+                  aria-label={`Open ${primary.title}`}
+                >
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+              </div>
+            </div>
+          );
+        })}
       </div>
 
     </div>
