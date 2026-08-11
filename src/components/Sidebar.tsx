@@ -80,7 +80,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ onOpenTimer }) => {
           >
             <div className="flex items-center gap-2 min-w-0">
               <Sparkles className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-              <span className="truncate text-xs">{currentTrack.name}</span>
+              <span className="truncate text-xs font-bold text-white">{currentTrack.shortName || currentTrack.name}</span>
             </div>
             <ChevronDown className={`w-3.5 h-3.5 text-white/40 shrink-0 transition-transform ${trackDropdownOpen ? 'rotate-180' : ''}`} />
           </button>
