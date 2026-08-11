@@ -126,6 +126,20 @@ async function ss(page, name) {
     pass(`Sidebar nav to ${link.text} works`);
   }
 
+  // ── Test 4b: Sidebar Timer Modal ─────────────────────────────────
+  log('Test 4b: Sidebar Timer Modal');
+  const timerBtn = page.locator('button:has-text("Timer")').first();
+  if (await timerBtn.isVisible().catch(() => false)) {
+    await timerBtn.click();
+    await page.waitForTimeout(300);
+    const modalVisible = await page.locator('text=Study Session Timer').isVisible().catch(() => false);
+    modalVisible ? pass('Sidebar Timer button opens Study Session Timer modal') : issue('Timer modal did not render');
+    await page.locator('button[aria-label="Close timer"]').first().click().catch(() => {});
+    await page.waitForTimeout(200);
+  } else {
+    issue('Sidebar Timer button not visible');
+  }
+
   // ── Test 5: Mobile (375px) ───────────────────────────────────────
   log('Test 5: Mobile layout');
   await page.setViewportSize({ width: 375, height: 812 });

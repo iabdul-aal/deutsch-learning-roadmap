@@ -182,7 +182,10 @@ export const Sidebar: React.FC<SidebarProps> = ({ onOpenTimer }) => {
 
           {/* Timer button */}
           <button
-            onClick={onOpenTimer}
+            onClick={() => {
+              onOpenTimer();
+              setMobileMenuOpen(false);
+            }}
             className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-white/10 hover:bg-amber-500 hover:text-stone-950 text-white/70 text-[11px] font-bold transition-all"
           >
             <Clock className="w-3.5 h-3.5" />
