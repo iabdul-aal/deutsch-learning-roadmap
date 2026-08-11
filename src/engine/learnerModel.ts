@@ -141,7 +141,7 @@ export function computeNextActions(learner: LearnerModel): NextAction[] {
       title: `Strengthen Your ${weakest.charAt(0) + weakest.slice(1).toLowerCase()}`,
       titleAR: `تقوية مهارة ${getArabicSkillName(weakest)}`,
       description: `Your ${weakest.toLowerCase()} is your current bottleneck at ${weakestMastery}% mastery.`,
-      reason: `Weakest skill (${weakestMastery}% mastery) — improving this unlocks your overall CEFR level.`,
+      reason: `Weakest skill (${weakestMastery}% mastery) - improving this unlocks your overall CEFR level.`,
       estimatedMinutes: 20,
       skill: weakest,
     });

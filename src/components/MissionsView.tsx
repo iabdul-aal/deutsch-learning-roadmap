@@ -4,6 +4,7 @@ import {
   MISSIONS, getMissionsForLevel, getMissionsByTrack,
   type Mission, type MissionTrack, type MissionDialog
 } from '../data/missions';
+import { getYouTubeEmbedUrl } from '../data/contentRanking';
 import {
   Trophy, Lock, Play, CheckCircle2, Clock, Globe,
   ChevronRight, ChevronDown, BookOpen, Volume2, PenLine,
@@ -134,7 +135,7 @@ const MissionDetail: React.FC<{ mission: Mission; onBack: () => void }> = ({ mis
           <p className="text-[10px] font-black text-stone-400 uppercase tracking-wider mb-2">Support Video</p>
           <div className="rounded-xl overflow-hidden bg-black aspect-video">
             <iframe
-              src={`https://www.youtube.com/embed/${mission.videoId}?rel=0&modestbranding=1`}
+              src={getYouTubeEmbedUrl(mission.videoId)}
               className="w-full h-full"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen

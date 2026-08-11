@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Play, Pause, ExternalLink, Maximize2, X, Volume2, CheckCircle2 } from 'lucide-react';
+import { getYouTubeEmbedUrl, getYouTubeWatchUrl } from '../data/contentRanking';
 
 interface YouTubePlayerProps {
   videoId: string;
@@ -44,7 +45,7 @@ export const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
     return () => window.removeEventListener('message', handleMessage);
   }, [onComplete]);
 
-  const embedUrl = `https://www.youtube.com/embed/${videoId}?enablejsapi=1&rel=0&modestbranding=1&color=white${autoplay ? '&autoplay=1' : ''}`;
+  const embedUrl = getYouTubeEmbedUrl(videoId, autoplay);
 
   const player = (
     <div className={`relative w-full bg-black rounded-xl overflow-hidden ${className}`} style={{ aspectRatio: '16/9' }}>
@@ -98,7 +99,7 @@ export const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
             <Maximize2 className="w-3.5 h-3.5" />
           </button>
           <a
-            href={`https://www.youtube.com/watch?v=${videoId}`}
+            href={getYouTubeWatchUrl(videoId)}
             target="_blank"
             rel="noreferrer"
             className="p-1.5 text-stone-400 hover:text-stone-700 hover:bg-stone-100 rounded-lg transition-colors"

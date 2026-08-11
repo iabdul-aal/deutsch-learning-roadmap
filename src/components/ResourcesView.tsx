@@ -2,7 +2,8 @@ import React, { useState, useMemo } from 'react';
 import { useApp } from '../context/AppContext';
 import {
   CONTENT_DB, rankContent, type ContentSource,
-  type SkillType, type CEFRLevel, type ContentTier, type ContentLang
+  type SkillType, type CEFRLevel, type ContentTier, type ContentLang,
+  getYouTubeEmbedUrl, getYouTubeWatchUrl
 } from '../data/contentRanking';
 import {
   Volume2, Mic, BookOpen, PenLine, Brain, BookMarked,
@@ -46,21 +47,14 @@ function getRankColor(score: number): string {
 
 function getEmbedUrl(source: ContentSource): string | null {
   if (source.type === 'VIDEO') {
-    if (source.resourceId.startsWith('videoseries')) {
-      return `https://www.youtube.com/embed/${source.resourceId}&rel=0&modestbranding=1`;
-    }
-    return `https://www.youtube.com/embed/${source.resourceId}?rel=0&modestbranding=1`;
+    return getYouTubeEmbedUrl(source.resourceId);
   }
   return null;
 }
 
 function getExternalUrl(source: ContentSource): string {
   if (source.type === 'VIDEO') {
-    if (source.resourceId.startsWith('videoseries')) {
-      const listId = source.resourceId.replace('videoseries?list=', '');
-      return `https://www.youtube.com/playlist?list=${listId}`;
-    }
-    return `https://www.youtube.com/watch?v=${source.resourceId}`;
+    return getYouTubeWatchUrl(source.resourceId);
   }
   return source.resourceId; // PDF / interactive URL
 }

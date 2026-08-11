@@ -75,7 +75,7 @@ const SHEHATA_GRAMMAR = 'videoseries?list=PLgBEJBaKMFqO7E4JW1q9M9YIJVH7LG5yN';
 const EmbeddedPlayer: React.FC<{ videoId: string; title: string }> = ({ videoId, title }) => (
   <div className="rounded-xl overflow-hidden bg-black aspect-video mt-3">
     <iframe
-      src={`https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1&color=white`}
+      src={getYouTubeEmbedUrl(videoId)}
       className="w-full h-full"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen

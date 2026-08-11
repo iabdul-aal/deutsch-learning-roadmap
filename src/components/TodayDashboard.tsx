@@ -19,7 +19,7 @@ import {
   Info, Youtube, FileText, Globe, Dumbbell,
 } from 'lucide-react';
 import { useApp } from '../context/AppContext';
-import { selectResourcesForSkill, CONTENT_DB } from '../data/contentRanking';
+import { selectResourcesForSkill, CONTENT_DB, getYouTubeWatchUrl } from '../data/contentRanking';
 import type { ContentSource, SkillType } from '../data/contentRanking';
 import { masteryToCEFR } from '../engine/learnerModel';
 import type { NextAction, SkillKey, GoalTrack } from '../types/learner';
@@ -77,7 +77,7 @@ function weeksToTarget(currentMastery: number, targetMastery: number, dailyMinut
 
 function resourceUrl(source: ContentSource): string {
   return source.type === 'VIDEO'
-    ? `https://www.youtube.com/watch?v=${source.resourceId}`
+    ? getYouTubeWatchUrl(source.resourceId)
     : source.resourceId;
 }
 

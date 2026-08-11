@@ -110,6 +110,42 @@ export function selectResourcesForSkill(
   return { primary, secondary };
 }
 
+/**
+ * YouTube URL Helpers
+ * Safely format Watch URLs and Embed URLs for both single videos and playlists.
+ */
+export function getYouTubeWatchUrl(resourceId: string): string {
+  if (!resourceId) return '#';
+  if (resourceId.startsWith('http://') || resourceId.startsWith('https://')) {
+    return resourceId;
+  }
+  if (resourceId.startsWith('videoseries?list=')) {
+    const listId = resourceId.replace('videoseries?list=', '');
+    return `https://www.youtube.com/playlist?list=${listId}`;
+  }
+  if (resourceId.startsWith('PL')) {
+    return `https://www.youtube.com/playlist?list=${resourceId}`;
+  }
+  return `https://www.youtube.com/watch?v=${resourceId}`;
+}
+
+export function getYouTubeEmbedUrl(resourceId: string, autoplay = false): string {
+  if (!resourceId) return '';
+  if (resourceId.startsWith('http://') || resourceId.startsWith('https://')) {
+    return resourceId;
+  }
+  let base: string;
+  if (resourceId.startsWith('videoseries?list=')) {
+    base = `https://www.youtube.com/embed/${resourceId}`;
+  } else if (resourceId.startsWith('PL')) {
+    base = `https://www.youtube.com/embed/videoseries?list=${resourceId}`;
+  } else {
+    base = `https://www.youtube.com/embed/${resourceId}`;
+  }
+  const sep = base.includes('?') ? '&' : '?';
+  return `${base}${sep}rel=0&modestbranding=1${autoplay ? '&autoplay=1' : ''}`;
+}
+
 // ══════════════════════════════════════════════════════════════
 // MASTER CONTENT DATABASE
 // All entries are verified and research-backed
