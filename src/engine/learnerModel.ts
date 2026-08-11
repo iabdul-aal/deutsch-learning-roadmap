@@ -2,7 +2,7 @@
  * ══════════════════════════════════════════════════════════
  * LEARNER MODEL ENGINE
  * CEFR estimation, skill gap analysis, mastery computation.
- * Pure TypeScript — no React.
+ * Pure TypeScript - no React.
  * ══════════════════════════════════════════════════════════
  */
 
@@ -210,10 +210,10 @@ export function getTopErrors(learner: LearnerModel, limit = 5): Array<[ErrorType
     .slice(0, limit) as Array<[ErrorType, number]>;
 }
 
-/** Update mastery score based on a quiz result (0–100) */
+/** Update mastery score based on a quiz result (0-100) */
 export function updateSkillMastery(
   current: number,
-  score: number,  // 0–100
+  score: number,  // 0-100
   weight = 0.3    // how much this review affects the mastery score
 ): number {
   const updated = current * (1 - weight) + score * weight;

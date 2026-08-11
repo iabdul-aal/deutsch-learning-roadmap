@@ -719,7 +719,7 @@ export const OnboardingFlow: React.FC = () => {
       coreSkills.forEach(skill => updateSkillScore(skill, base));
     }
 
-    // Call directly — React batches this with the previous state updates
+    // Call directly - React batches this with the previous state updates
     setHasSeenWelcome(true);
   }, [setUserName, setHasSeenWelcome, setGoalProfile, updateSkillScore]);
 

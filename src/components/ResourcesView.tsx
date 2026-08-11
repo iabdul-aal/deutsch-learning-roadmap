@@ -347,7 +347,7 @@ export const ResourcesView: React.FC = () => {
             <Award className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
             <div className="text-xs text-stone-700 space-y-1">
               <p className="font-bold text-stone-900">How the Ranking Works</p>
-              <p>Each resource is scored 0–100. Verified channels include: <strong>Deutsch mit Hend</strong> (primary Arabic channel), <strong>Shehata Deutsch</strong> (certified Goethe examiner), <strong>DW Nicos Weg</strong> (18M+ views), <strong>Easy German</strong>, <strong>Taleek</strong>, <strong>lingoni GERMAN</strong>, <strong>Learn German with Anja</strong>, and <strong>Goethe Institut</strong> official PDFs. Community data sourced from Reddit r/German, r/languagelearning, and Medium articles.</p>
+              <p>Each resource is scored 0-100. Verified channels include: <strong>Deutsch mit Hend</strong> (primary Arabic channel), <strong>Shehata Deutsch</strong> (certified Goethe examiner), <strong>DW Nicos Weg</strong> (18M+ views), <strong>Easy German</strong>, <strong>Taleek</strong>, <strong>lingoni GERMAN</strong>, <strong>Learn German with Anja</strong>, and <strong>Goethe Institut</strong> official PDFs. Community data sourced from Reddit r/German, r/languagelearning, and Medium articles.</p>
             </div>
           </div>
         </div>
@@ -412,7 +412,7 @@ export const ResourcesView: React.FC = () => {
       <div className="paper-card p-4 space-y-3">
         <h3 className="text-sm font-black text-stone-900 flex items-center gap-2">
           <Trophy className="w-4 h-4 text-amber-600" />
-          Official Exam Resources — Goethe-Zertifikat {level}
+          Official Exam Resources - Goethe-Zertifikat {level}
         </h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {CONTENT_DB

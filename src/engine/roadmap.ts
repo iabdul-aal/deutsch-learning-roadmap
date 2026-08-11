@@ -1,7 +1,7 @@
 /**
  * ══════════════════════════════════════════════════════════
  * ROADMAP GENERATION ENGINE
- * Pure TypeScript — no React, no UI.
+ * Pure TypeScript - no React, no UI.
  *
  * Takes: learner goal + current level + time budget
  * Returns: personalized phase sequence with best resources
@@ -36,7 +36,7 @@ export interface RoadmapInput {
 export interface PhaseResource {
   role: 'primary' | 'secondary' | 'reference' | 'tool';
   source: ContentSource;
-  why: string;          // justification — WHY this resource
+  why: string;          // justification - WHY this resource
   usageInstruction: string; // HOW to use it
   estimatedMinutes: number;
 }
@@ -104,8 +104,8 @@ const CEFR_ORDER: CEFRLevel[] = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 function cefrIndex(l: CEFRLevel): number { return CEFR_ORDER.indexOf(l); }
 
 function getPaceLabel(dailyMin: number): string {
-  if (dailyMin < 25) return 'Casual (15–20 min/day)';
-  if (dailyMin < 45) return 'Regular (30–40 min/day)';
+  if (dailyMin < 25) return 'Casual (15-20 min/day)';
+  if (dailyMin < 45) return 'Regular (30-40 min/day)';
   if (dailyMin < 80) return 'Intensive (60 min/day)';
   return 'Immersive (90+ min/day)';
 }
@@ -145,8 +145,8 @@ interface PhaseTemplate {
 const PHASE_TEMPLATES: PhaseTemplate[] = [
   {
     cefr: 'A1',
-    title: 'Foundation — Survival German',
-    titleAR: 'المرحلة الأولى — الألمانية للبقاء',
+    title: 'Foundation - Survival German',
+    titleAR: 'المرحلة الأولى - الألمانية للبقاء',
     milestoneTemplate: () =>
       'Introduce yourself, handle basic interactions, understand slow simple German speech.',
     milestoneTemplateAR: () =>
@@ -160,7 +160,7 @@ const PHASE_TEMPLATES: PhaseTemplate[] = [
       { skill: 'GRAMMATIK', activityType: 'grammar',    durationMin: 15, description: 'One grammar concept with Arabic explanation', descriptionAR: 'قاعدة واحدة مع شرح بالعربية' },
       { skill: 'WORTSCHATZ',activityType: 'vocabulary', durationMin: 10, description: 'SRS vocabulary review or 10 new words', descriptionAR: 'مراجعة المفردات أو تعلم 10 كلمات جديدة' },
       { skill: 'SPRECHEN',  activityType: 'output',     durationMin: 10, description: 'Shadowing: repeat after native speaker audio', descriptionAR: 'تقليد الصوت: كرر بعد المتحدث الأصلي' },
-      { skill: 'SCHREIBEN', activityType: 'output',     durationMin: 10, description: 'Write 3–5 sentences using today\'s grammar', descriptionAR: 'اكتب 3-5 جمل باستخدام قاعدة اليوم' },
+      { skill: 'SCHREIBEN', activityType: 'output',     durationMin: 10, description: 'Write 3-5 sentences using today\'s grammar', descriptionAR: 'اكتب 3-5 جمل باستخدام قاعدة اليوم' },
     ],
     auxiliaryTools: [
       { name: 'SRS Vocabulary Tracker', nameAR: 'بطاقات المفردات', purpose: 'Track and schedule vocabulary reviews', isBuiltIn: true, buildinView: 'vocabulary' },
@@ -171,8 +171,8 @@ const PHASE_TEMPLATES: PhaseTemplate[] = [
   },
   {
     cefr: 'A2',
-    title: 'Elementary — Daily Life German',
-    titleAR: 'المرحلة الثانية — ألمانية الحياة اليومية',
+    title: 'Elementary - Daily Life German',
+    titleAR: 'المرحلة الثانية - ألمانية الحياة اليومية',
     milestoneTemplate: () =>
       'Handle everyday situations: shopping, appointments, directions, simple conversations.',
     milestoneTemplateAR: () =>
@@ -197,8 +197,8 @@ const PHASE_TEMPLATES: PhaseTemplate[] = [
   },
   {
     cefr: 'B1',
-    title: 'Intermediate — Independent Communication',
-    titleAR: 'المرحلة الثالثة — التواصل المستقل',
+    title: 'Intermediate - Independent Communication',
+    titleAR: 'المرحلة الثالثة - التواصل المستقل',
     milestoneTemplate: (goal: GoalTrack) => {
       if (goal === 'STUDY') return 'Follow university lectures, write academic emails, discuss topics in your field.';
       if (goal === 'CAREER') return 'Participate in meetings, write professional emails, handle work situations.';
@@ -212,7 +212,7 @@ const PHASE_TEMPLATES: PhaseTemplate[] = [
     methodNote:
       'B1 requires massive comprehensible input: podcasts, YouTube, news. ' +
       'Output becomes critical: speaking with natives, writing regularly. ' +
-      'Grammar at this level is about refinement, not new rules — use errors as a learning signal.',
+      'Grammar at this level is about refinement, not new rules - use errors as a learning signal.',
     weeklyFocusSkills: ['SPRECHEN', 'SCHREIBEN', 'HOEREN'],
     weeklyTemplate: [
       { skill: 'HOEREN',    activityType: 'input',      durationMin: 25, description: 'Authentic German podcast/YouTube (no subtitles)', descriptionAR: 'بودكاست/يوتيوب ألماني أصيل (بدون ترجمة)' },
@@ -222,8 +222,8 @@ const PHASE_TEMPLATES: PhaseTemplate[] = [
       { skill: 'WORTSCHATZ',activityType: 'vocabulary', durationMin: 10, description: 'SRS review + topic-based vocabulary expansion', descriptionAR: 'مراجعة SRS + توسيع المفردات الموضوعية' },
     ],
     auxiliaryTools: [
-      { name: 'italki Tutors', nameAR: 'معلمو إيتالكي', purpose: 'Paid tutors for structured speaking practice (budget: $5–15/hr)', url: 'https://italki.com', isBuiltIn: false },
-      { name: 'SRS Vocabulary Tracker', nameAR: 'بطاقات المفردات', purpose: 'Daily SRS reviews — critical at B1+', isBuiltIn: true, buildinView: 'vocabulary' },
+      { name: 'italki Tutors', nameAR: 'معلمو إيتالكي', purpose: 'Paid tutors for structured speaking practice (budget: $5-15/hr)', url: 'https://italki.com', isBuiltIn: false },
+      { name: 'SRS Vocabulary Tracker', nameAR: 'بطاقات المفردات', purpose: 'Daily SRS reviews - critical at B1+', isBuiltIn: true, buildinView: 'vocabulary' },
       { name: 'Easy German Podcast', nameAR: 'بودكاست ألمانية سهلة', purpose: 'Native-speed German with subtitles + community', url: 'https://www.easygerman.org', isBuiltIn: false },
       { name: 'Goethe B1 Preparation', nameAR: 'تحضير Goethe B1', purpose: 'Official exam materials from Goethe Institut', url: 'https://www.goethe.de/en/spr/kup/prf/prf/gb1.html', isBuiltIn: false },
     ],
@@ -267,7 +267,7 @@ function selectPhaseResources(
       resources.push({
         role: 'primary',
         source: primary,
-        why: `Highest-ranked ${skill.toLowerCase()} resource for ${cefr} Arabic learners (score: ${primary.rankScore ?? '—'}/100). ${
+        why: `Highest-ranked ${skill.toLowerCase()} resource for ${cefr} Arabic learners (score: ${primary.rankScore ?? '-'}/100). ${
           primary.language === 'AR'
             ? 'Arabic-first instruction reduces cognitive load.'
             : primary.channelOrAuthor.includes('DW')
@@ -285,7 +285,7 @@ function selectPhaseResources(
         resources.push({
           role: 'secondary',
           source: sec,
-          why: `Strong alternative for ${skill.toLowerCase()} — use when you want a different angle or have already mastered the primary.`,
+          why: `Strong alternative for ${skill.toLowerCase()} - use when you want a different angle or have already mastered the primary.`,
           usageInstruction: 'Use as a complement to the primary resource, not a replacement.',
           estimatedMinutes: sec.durationMin ?? 15,
         });

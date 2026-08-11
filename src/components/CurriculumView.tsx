@@ -42,9 +42,9 @@ const FOCUS_SKILL_MAP: Record<string, SkillType> = {
 
 // ── Topic → video ID map (deduplicated, unique per day topic) ────
 // Each topic gets exactly ONE primary embed from the content DB.
-// Built deterministically from contentRanking IDs — no repeated URLs.
+// Built deterministically from contentRanking IDs - no repeated URLs.
 const TOPIC_VIDEO_MAP: Record<number, string> = {
-  // Day → YouTube video ID (from CONTENT_DB — all verified)
+  // Day → YouTube video ID (from CONTENT_DB - all verified)
   1:  'A_c1V5h5a_k',  // Hend: Alphabet & Phonetics
   2:  'r94aqLUO0wo',  // Easy German: Introduce Yourself (SEG #1)
   3:  'WMvCXVorOsg',  // Hend: A1 Course Overview (covers numbers/W-Fragen intro)
@@ -67,7 +67,7 @@ const TOPIC_VIDEO_MAP: Record<number, string> = {
   20: 'g-Z1_t_a-k0',  // Easy German: Bureaucracy
 };
 
-// DW Nicos Weg episodes per day (playlist embed — no repeated raw links)
+// DW Nicos Weg episodes per day (playlist embed - no repeated raw links)
 const DW_PLAYLIST = 'videoseries?list=PLkSjMwGIjDdCj--DRqRJ-QxIZ_O5I4-Tm';
 const SHEHATA_GRAMMAR = 'videoseries?list=PLgBEJBaKMFqO7E4JW1q9M9YIJVH7LG5yN';
 
@@ -224,10 +224,10 @@ const TaskCard: React.FC<{
         )}
       </div>
 
-      {/* Expanded Content — embedded, never linked */}
+      {/* Expanded Content - embedded, never linked */}
       {expanded && !isDone && (
         <div className="px-3 pb-3 space-y-2 animate-fadeIn">
-          {/* VIDEO EMBED — directly inside the task, no "Watch →" link */}
+          {/* VIDEO EMBED - directly inside the task, no "Watch →" link */}
           {isVideo && embedVideoId && (
             <EmbeddedPlayer videoId={embedVideoId} title={task.title} />
           )}
@@ -236,9 +236,9 @@ const TaskCard: React.FC<{
               Search: <span className="font-bold text-stone-700">"{task.title}"</span> on YouTube
             </div>
           )}
-          {/* WRITING TASK — in-app text area */}
+          {/* WRITING TASK - in-app text area */}
           {isWriting && <WritingPromptCard title={task.title} isDone={isDone} />}
-          {/* SPEAKING DRILL — in-app speaking practice */}
+          {/* SPEAKING DRILL - in-app speaking practice */}
           {isSpeaking && <SpeakingDrillCard title={task.title} />}
 
           {/* Done button */}
@@ -270,7 +270,7 @@ const DayCard: React.FC<{ day: any; trackId: string }> = ({ day, trackId }) => {
   const progress = dayTasks.length > 0 ? Math.round((doneCount / dayTasks.length) * 100) : 0;
 
   // Assign embedded videos: primary (first Watch task) + secondary (second Watch task)
-  // Each day gets different video IDs — no repetition across days
+  // Each day gets different video IDs - no repetition across days
   const primaryVideoId = TOPIC_VIDEO_MAP[day.dayNumber];
   const secondaryVideoId = day.dayNumber % 3 === 0 ? DW_PLAYLIST : SHEHATA_GRAMMAR;
 
