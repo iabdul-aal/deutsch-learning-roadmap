@@ -1,11 +1,21 @@
 import React, { useState } from 'react';
 import { useApp } from '../context/AppContext';
 import { ASSESSMENTS_DATA } from '../data/tracks/german-a1-ar/assessments';
-import { CheckCircle2, AlertTriangle, HelpCircle } from 'lucide-react';
+import { ASSESSMENTS_DATA_A2 } from '../data/tracks/german-a2-ar/assessments';
+import { ASSESSMENTS_DATA_B1 } from '../data/tracks/german-b1-ar/assessments';
+import { CheckCircle2, AlertTriangle, HelpCircle, Trophy } from 'lucide-react';
+
+// Dynamically resolve assessments data based on active track
+function getAssessmentsForTrack(trackId: string) {
+  if (trackId === 'german-a2-ar') return ASSESSMENTS_DATA_A2;
+  if (trackId === 'german-b1-ar') return ASSESSMENTS_DATA_B1;
+  return ASSESSMENTS_DATA;
+}
 
 export const WeeklyAssessmentsView: React.FC = () => {
-  const { addWeakTopic } = useApp();
-  const tests = ASSESSMENTS_DATA?.assessments || [];
+  const { addWeakTopic, currentTrackId, setActiveView } = useApp();
+  const trackAssessments = getAssessmentsForTrack(currentTrackId);
+  const tests = trackAssessments?.assessments || [];
   const [selectedWeekNum, setSelectedWeekNum] = useState(1);
   const [userAnswers, setUserAnswers] = useState<Record<number, number>>({});
   const [testResult, setTestResult] = useState<{ score: number; total: number; percent: number; flaggedTopics: string[] } | null>(null);
@@ -155,19 +165,46 @@ export const WeeklyAssessmentsView: React.FC = () => {
             Submit Test & Grade Performance
           </button>
         ) : (
-          <div className="p-4 rounded bg-stone-50 border border-stone-200 space-y-2 text-center w-full min-w-0">
-            <h4 className="text-sm font-extrabold text-stone-900">Test Evaluation Complete!</h4>
+          <div className={`p-4 rounded-xl border space-y-3 text-center w-full min-w-0 ${
+            testResult.percent >= 80
+              ? 'bg-emerald-50 border-emerald-300'
+              : testResult.percent >= 60
+              ? 'bg-amber-50 border-amber-300'
+              : 'bg-rose-50 border-rose-200'
+          }`}>
+            <div className="text-2xl">{testResult.percent >= 80 ? '🎉' : testResult.percent >= 60 ? '💪' : '📚'}</div>
+            <h4 className="text-sm font-extrabold text-stone-900">
+              Score: {testResult.score}/{testResult.total} ({testResult.percent}%)
+            </h4>
+            <p className="text-xs text-stone-600">
+              {testResult.percent >= 80
+                ? 'Excellent! You have mastered this week\'s material.'
+                : testResult.percent >= 60
+                ? 'Good effort! Review the flagged topics below.'
+                : 'Keep practicing — focus on the grammar concepts below.'}
+            </p>
             {testResult.flaggedTopics.length > 0 && (
-              <p className="text-xs text-amber-800 font-bold">
-                Alert: Added weak topics to your Targeted Review queue: {testResult.flaggedTopics.join(', ')}
-              </p>
+              <div className="text-xs text-amber-800 bg-amber-50 border border-amber-200 rounded-lg p-2.5 text-left space-y-1">
+                <p className="font-bold">⚠️ Weak topics flagged for review:</p>
+                <p className="text-stone-700">{testResult.flaggedTopics.join(' · ')}</p>
+              </div>
             )}
-            <button
-              onClick={() => { setTestResult(null); setUserAnswers({}); }}
-              className="px-4 py-2 rounded bg-stone-200 hover:bg-stone-300 text-stone-800 font-bold text-xs transition-all"
-            >
-              Retake Test
-            </button>
+            <div className="flex gap-2 justify-center flex-wrap">
+              <button
+                onClick={() => { setTestResult(null); setUserAnswers({}); }}
+                className="px-4 py-2 rounded-xl bg-stone-200 hover:bg-stone-300 text-stone-800 font-bold text-xs transition-all"
+              >
+                Retake Test
+              </button>
+              {testResult.flaggedTopics.length > 0 && (
+                <button
+                  onClick={() => setActiveView('grammar')}
+                  className="px-4 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold text-xs transition-all"
+                >
+                  Review Grammar Now →
+                </button>
+              )}
+            </div>
           </div>
         )}
       </div>

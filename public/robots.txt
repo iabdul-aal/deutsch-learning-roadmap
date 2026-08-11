@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Main entry point
+Sitemap: https://iabdul-aal.me/german/sitemap.xml
+
+# Disallow internal/build artifacts
+Disallow: /dist/
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /.git/
+Disallow: /.agent/

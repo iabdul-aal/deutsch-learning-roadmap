@@ -1,15 +1,66 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" class="light">
+<html lang="ar-de" dir="ltr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇩🇪</text></svg>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Deutsch Survival A1 | 8-Week German Learning Platform</title>
-    <!-- Google Fonts: Inter & Cairo -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- Fallback Redirect if opened directly as file:// -->
+
+    <!-- Primary SEO -->
+    <title>Deutsch mit Arabisch | منصة تعلم الألمانية للناطقين بالعربية</title>
+    <meta name="description" content="تعلم الألمانية من الصفر حتى B1 باللغة العربية. منهج 8 أسابيع مبني على Goethe-Zertifikat، مع مقاطع فيديو مضمنة، بطاقات تكرار متباعد، وسيناريوهات حياتية حقيقية." />
+    <meta name="keywords" content="تعلم الألمانية، الألمانية للعرب، Deutsch für Araber, German for Arabic speakers, A1 Deutsch, Goethe Zertifikat" />
+    <meta name="author" content="Deutsch Survival Platform" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://iabdul-aal.me/german/" />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://iabdul-aal.me/german/" />
+    <meta property="og:title" content="Deutsch mit Arabisch | تعلم الألمانية بالعربية" />
+    <meta property="og:description" content="منصة ذكية لتعلم الألمانية للناطقين بالعربية — منهج 8 أسابيع، فيديوهات مضمنة، SRS، ومهام حياتية." />
+    <meta property="og:image" content="https://iabdul-aal.me/german/og-preview.png" />
+    <meta property="og:locale" content="ar_AE" />
+    <meta property="og:locale:alternate" content="de_DE" />
+    <meta property="og:locale:alternate" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Deutsch mit Arabisch | تعلم الألمانية" />
+    <meta name="twitter:description" content="منصة ذكية لتعلم الألمانية للناطقين بالعربية" />
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#f59e0b" />
+    <meta name="color-scheme" content="light" />
+
+    <!-- Favicon (German flag emoji SVG) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇩🇪</text></svg>" />
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇩🇪</text></svg>" />
+
+    <!-- Google Fonts: Inter (Latin) + Cairo (Arabic) + JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Performance: preload critical chunk -->
+    <link rel="modulepreload" href="/src/main.tsx" />
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "Deutsch mit Arabisch",
+      "description": "Arabic-first German language learning platform",
+      "url": "https://iabdul-aal.me/german/",
+      "inLanguage": ["ar", "de", "en"],
+      "educationalLevel": "Beginner to Intermediate",
+      "teaches": "German Language (Deutsch)"
+    }
+    </script>
+
+    <!-- file:// redirect (standalone mode) -->
     <script>
       if (window.location.protocol === 'file:') {
         window.location.href = './standalone.html';
@@ -17,6 +68,14 @@
     </script>
   </head>
   <body class="bg-[#FBF9F5] text-stone-900 font-sans antialiased min-h-screen selection:bg-amber-400 selection:text-stone-950">
+    <!-- Skip to main content (accessibility) -->
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[9999] focus:bg-amber-500 focus:text-stone-950 focus:px-4 focus:py-2 focus:rounded-lg focus:font-bold focus:text-sm focus:shadow-lg"
+    >
+      Skip to main content
+    </a>
+
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

@@ -4,9 +4,53 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './', // Uses relative paths for seamless hosting under iabdul-aa.me/german/ or subfolders
+
+  // Relative paths — works under any subdirectory hosting (e.g. /german/)
+  base: './',
+
   server: {
     port: 3000,
-    open: true
-  }
+    open: true,
+  },
+
+  build: {
+    // Raise the warning threshold — our data layer is intentionally large (vocab DB)
+    chunkSizeWarningLimit: 700,
+
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // React core — changes rarely, long-lived CDN cache
+          'vendor-react': ['react', 'react-dom'],
+
+          // Icon library — large but stable
+          'vendor-icons': ['lucide-react'],
+
+          // Data layer — curriculum + content DB + vocabulary (the large files)
+          'data-content': [
+            './src/data/contentRanking.ts',
+            './src/data/tracks/german-a1-ar/curriculum.ts',
+            './src/data/vocabulary/a1-core.ts',
+          ],
+
+          // Engine — pure logic, no UI deps
+          'engine': [
+            './src/engine/srs.ts',
+            './src/engine/learnerModel.ts',
+          ],
+        },
+      },
+    },
+  },
+
+  // Path aliases for cleaner imports
+  resolve: {
+    alias: {
+      '@': '/src',
+      '@data': '/src/data',
+      '@components': '/src/components',
+      '@engine': '/src/engine',
+      '@types': '/src/types',
+    },
+  },
 })

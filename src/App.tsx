@@ -9,10 +9,12 @@ import { VocabularyView } from './components/VocabularyView';
 import { GrammarView } from './components/GrammarView';
 import { SkillsTrackersView } from './components/SkillsTrackersView';
 import { WeeklyAssessmentsView } from './components/WeeklyAssessmentsView';
-import { ResourceDatabaseView } from './components/ResourceDatabaseView';
+import { ResourcesView } from './components/ResourcesView';
+import { MissionsView } from './components/MissionsView';
 import { MobileAppsView } from './components/MobileAppsView';
 import { QuickTimerModal } from './components/QuickTimerModal';
 import { CommandPalette } from './components/CommandPalette';
+import { OnboardingFlow } from './components/OnboardingFlow';
 import { Search, Command } from 'lucide-react';
 
 interface ErrorBoundaryProps {
@@ -64,10 +66,54 @@ class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoundarySta
   }
 }
 
+/**
+ * Per-view boundary: isolates individual view crashes.
+ * A crash in GrammarView won't kill the Sidebar or other views.
+ */
+interface ViewBoundaryState { hasError: boolean }
+class ViewErrorBoundary extends React.Component<ErrorBoundaryProps, ViewBoundaryState> {
+  constructor(props: ErrorBoundaryProps) {
+    super(props);
+    this.state = { hasError: false };
+  }
+
+  static getDerivedStateFromError(): ViewBoundaryState {
+    return { hasError: true };
+  }
+
+  componentDidCatch(error: Error, info: React.ErrorInfo) {
+    console.error('[ViewErrorBoundary]', error, info.componentStack);
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div className="paper-card p-6 text-center space-y-3 my-4">
+          <div className="text-3xl">⚠️</div>
+          <h3 className="text-sm font-black text-rose-700">This view encountered an error</h3>
+          <p className="text-xs text-stone-500">The rest of the app is unaffected.</p>
+          <button
+            onClick={() => this.setState({ hasError: false })}
+            className="btn-amber text-xs"
+          >
+            Try Again
+          </button>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
+
 const MainAppContent: React.FC = () => {
-  const { activeView } = useApp();
+  const { activeView, learnerModel, hasSeenWelcome } = useApp();
   const [timerModalOpen, setTimerModalOpen] = useState(false);
   const [commandPaletteOpen, setCommandPaletteOpen] = useState(false);
+
+  // Show onboarding until the learner completes Fast Start or Diagnostic
+  if (!hasSeenWelcome) {
+    return <OnboardingFlow />;
+  }
 
   useEffect(() => {
     const handleCustomOpen = () => setCommandPaletteOpen(true);
@@ -94,13 +140,23 @@ const MainAppContent: React.FC = () => {
       case 'assessments':
         return <WeeklyAssessmentsView />;
       case 'resources':
-        return <ResourceDatabaseView />;
+        return <ResourcesView />;
+      case 'missions':
+        return <MissionsView />;
       case 'mobile_apps':
         return <MobileAppsView />;
       default:
         return <TodayDashboard />;
     }
   };
+
+  // Wrap each view in its own boundary so a single broken view
+  // never kills the sidebar or the rest of the app.
+  const wrappedView = (
+    <ViewErrorBoundary key={activeView}>
+      {renderView()}
+    </ViewErrorBoundary>
+  );
 
   return (
     <div className="min-h-screen bg-[#FBF9F5] text-stone-900 font-sans flex flex-col md:flex-row antialiased selection:bg-amber-400 selection:text-stone-950">
@@ -109,12 +165,20 @@ const MainAppContent: React.FC = () => {
       <Sidebar onOpenTimer={() => setTimerModalOpen(true)} />
 
       {/* Main Workspace Column */}
-      <main className="flex-1 min-w-0 p-4 sm:p-6 lg:p-8 space-y-6 max-w-7xl">
+      <main
+        id="main-content"
+        className="flex-1 min-w-0 p-4 sm:p-6 lg:p-8 space-y-6 max-w-7xl"
+        aria-label="Main content"
+      >
         
         {/* Top Vercel/Lovable-Style Command Bar Header */}
         <div className="hidden sm:flex items-center justify-between p-3 rounded-lg bg-white border border-stone-200 shadow-2xs">
           <div className="flex items-center gap-2 text-xs text-stone-500 font-medium">
-            <span className="font-bold text-stone-900">Deutsch Survival A1</span>
+            <span className="font-bold text-stone-900">Deutsch Learning OS</span>
+            <span>/</span>
+            <span className="text-amber-600 font-black uppercase text-[11px] tracking-wide">
+              {learnerModel.cefrEstimate.overall}
+            </span>
             <span>/</span>
             <span className="capitalize text-amber-800 font-extrabold">{activeView.replace('_', ' ')}</span>
           </div>
@@ -134,7 +198,7 @@ const MainAppContent: React.FC = () => {
         </div>
 
         {/* Dynamic View Component */}
-        {renderView()}
+        {wrappedView}
       </main>
 
       {/* Quick Timer Modal */}
