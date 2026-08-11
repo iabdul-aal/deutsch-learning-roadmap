@@ -15,8 +15,8 @@ export const CURRICULUM_DATA = {
           focusSkill: "Pronunciation & Greetings",
           objective: "Master German letter sounds, Ä/Ö/Ü, ß, and overcome the P vs B, V vs F pronunciation trap.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 1 - German Alphabet & Phonetics", duration: "35 min", resourceType: "PRIMARY", link: "https://deutsch-mit-hend.com/home/course/%D8%AF%D9%88%D8%B1%D8%A9-a1/20" },
-            { type: "Read", title: "Deutsch Survival A1: Day 1 Pronunciation Notes & Letter Rules", duration: "25 min", resourceType: "SECONDARY", link: "https://deutsch-mit-hend.com/home/course/%D8%AF%D9%88%D8%B1%D8%A9-a1/20" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 1 - German Alphabet & Phonetics", duration: "35 min", resourceType: "PRIMARY", link: "https://www.youtube.com/playlist?list=PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu" },
+            { type: "Read", title: "Deutsch Survival A1: Day 1 Pronunciation Notes & Letter Rules", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/playlist?list=PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu" },
             { type: "Watch", title: "Learn German with Anja: German Alphabet & Umlauts Made Easy", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/@LearnGermanwithAnja" },
             { type: "Memorize", title: "Learn 15 basic greeting words (Hallo, Guten Tag, Tschüss, Auf Wiedersehen, Bitte, Danke)", duration: "30 min", resourceType: "VOCAB" },
             { type: "Listen", title: "Super Easy German #1: How Germans greet each other", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/playlist?list=PL39361B7B2B15E9E0" },
@@ -37,7 +37,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Grammar & Conversation",
           objective: "State your name, origin, profession, and residence using 'heißen', 'kommen', 'wohnen', 'sein'.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 2 - Self Introduction & Personal Pronouns", duration: "40 min", resourceType: "PRIMARY", link: "https://deutsch-mit-hend.com/home/course/%D8%AF%D9%88%D8%B1%D8%A9-a1/20" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 2 - Self Introduction & Personal Pronouns", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/playlist?list=PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu" },
             { type: "Watch", title: "DW Nicos Weg: Episode 1 & 2 - Hallo Nico! (Ich heiße Nico)", duration: "25 min", resourceType: "SECONDARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
             { type: "Watch", title: "YourGermanTeacher: Present Tense Regular Verbs & Pronouns", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/playlist?list=PLv6t6Xv-gDJzg_8G4N19L7G0E7y8J2f3Z" },
             { type: "Memorize", title: "15 key words: Name, Herkunft, Wohnort, Land, Stadt, Beruf, Deutsch, Arabisch", duration: "30 min", resourceType: "VOCAB" },
@@ -59,7 +59,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Speaking & Listening",
           objective: "Count to 100, ask phone numbers, age, and use W-Fragen (Wer, Was, Wo, Woher, Wie).",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 3 - Numbers & W-Fragen", duration: "35 min", resourceType: "PRIMARY", link: "https://deutsch-mit-hend.com/home/course/%D8%AF%D9%88%D8%B1%D8%A9-a1/20" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 3 - Numbers & W-Fragen", duration: "35 min", resourceType: "PRIMARY", link: "https://www.youtube.com/playlist?list=PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu" },
             { type: "Watch", title: "DW Nicos Weg: Episode 3 & 4 - Wie ist deine Telefonnummer?", duration: "25 min", resourceType: "SECONDARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
             { type: "Memorize", title: "Numbers 0 to 100 + Question words (Wer, Wie, Wo, Woher, Was, Wann)", duration: "35 min", resourceType: "VOCAB" },
             { type: "Listen", title: "Super Easy German #5: Numbers in German street interviews", duration: "20 min", resourceType: "LISTENING" },
@@ -80,8 +80,8 @@ export const CURRICULUM_DATA = {
           focusSkill: "Grammar Core",
           objective: "Understand grammatical gender in German (der/die/das), indefinite articles (ein/eine), and basic rules.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 4 - Articles & Noun Gender", duration: "45 min", resourceType: "PRIMARY", link: "https://deutsch-mit-hend.com/home/course/%D8%AF%D9%88%D8%B1%D8%A9-a1/20" },
-            { type: "Read", title: "Deutsch Survival A1: Gender memory tricks & noun endings (-ung, -heit, -keit)", duration: "25 min", resourceType: "SECONDARY", link: "https://deutsch-mit-hend.com/home/course/%D8%AF%D9%88%D8%B1%D8%A9-a1/20" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 4 - Articles & Noun Gender", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/playlist?list=PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu" },
+            { type: "Read", title: "Deutsch Survival A1: Gender memory tricks & noun endings (-ung, -heit, -keit)", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/playlist?list=PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu" },
             { type: "Watch", title: "YourGermanTeacher: How to know Der, Die, Das", duration: "25 min", resourceType: "SUPPLEMENTARY" },
             { type: "Memorize", title: "20 core household & classroom nouns with their articles color-coded", duration: "35 min", resourceType: "VOCAB" },
             { type: "Quiz", title: "Complete Day 4 Gender & Article Quiz", duration: "20 min", resourceType: "QUIZ" }
@@ -100,7 +100,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Grammar & Speaking",
           objective: "Differentiate negation of nouns with 'kein/keine' versus verbs/adjectives/names with 'nicht'.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 5 - Negation (nicht vs kein)", duration: "40 min", resourceType: "PRIMARY", link: "https://deutsch-mit-hend.com/home/course/%D8%AF%D9%88%D8%B1%D8%A9-a1/20" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 5 - Negation (nicht vs kein)", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/playlist?list=PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu" },
             { type: "Watch", title: "DW Nicos Weg: Episode 5 & 6 - Ist das dein Koffer?", duration: "25 min", resourceType: "SECONDARY" },
             { type: "Memorize", title: "15 opposites & negation vocabulary (gut/schlecht, groß/klein, kein Geld, nicht müde)", duration: "30 min", resourceType: "VOCAB" },
             { type: "Listen", title: "Easy German: 'Nein' & polite refusal phrases", duration: "20 min", resourceType: "LISTENING" },
@@ -121,7 +121,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Vocabulary & Reading",
           objective: "Learn German plural rules (-e, -er, -en, -s, Umlaut) and family member vocabulary.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 6 - Plurals & Family Members", duration: "40 min", resourceType: "PRIMARY", link: "https://deutsch-mit-hend.com/home/course/%D8%AF%D9%88%D8%B1%D8%A9-a1/20" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 6 - Plurals & Family Members", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/playlist?list=PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu" },
             { type: "Watch", title: "Learn German with Anja: Family Tree & Plural Nouns", duration: "25 min", resourceType: "SUPPLEMENTARY" },
             { type: "Memorize", title: "20 family words (Vater, Mutter, Eltern, Bruder, Schwester, Kind, Sohn, Tochter...)", duration: "35 min", resourceType: "VOCAB" },
             { type: "Read", title: "Deutsch Survival Platform A1 Short Story #1: Meine Familie", duration: "25 min", resourceType: "READING" },
@@ -168,7 +168,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Grammar Core",
           objective: "Understand direct objects and how masculine articles change in Accusative (der → den, ein → einen).",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 7 - Accusative Case Explained", duration: "45 min", resourceType: "PRIMARY", link: "https://deutsch-mit-hend.com/home/course/%D8%AF%D9%88%D8%B1%D8%A9-a1/20" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 7 - Accusative Case Explained", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/playlist?list=PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu" },
             { type: "Read", title: "Deutsch Survival A1: Accusative rules & sentence diagrams", duration: "25 min", resourceType: "SECONDARY" },
             { type: "Watch", title: "YourGermanTeacher: Accusative Case - Never make a mistake again!", duration: "25 min", resourceType: "SUPPLEMENTARY" },
             { type: "Memorize", title: "15 common transitive verbs requiring Accusative (haben, brauchen, kaufen, suchen, trinken, essen...)", duration: "35 min", resourceType: "VOCAB" },

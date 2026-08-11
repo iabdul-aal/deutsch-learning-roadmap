@@ -485,7 +485,7 @@ export const CONTENT_DB: ContentSource[] = [
   {
     id: 'goethe_a2_exam_page',
     type: 'INTERACTIVE', tier: 'PRIMARY',
-    resourceId: 'https://www.goethe.de/en/spr/kup/prf/prf/ga2/ueb.html',
+    resourceId: 'https://www.goethe.de/en/spr/kup/prf/prf.html',
     title: 'Goethe-Zertifikat A2 - Official Exam Training Portal',
     channelOrAuthor: 'Goethe Institut',
     level: 'A2', skills: ['LESEN', 'HOEREN', 'SCHREIBEN', 'SPRECHEN'],
@@ -775,7 +775,7 @@ export const CONTENT_DB: ContentSource[] = [
   {
     id: 'goethe_a2_pdf_modellsatz',
     type: 'PDF', tier: 'PRIMARY',
-    resourceId: 'https://www.goethe.de/pro/relaunch/prf/de/Goethe-Zertifikat_A2_Modellsatz.pdf',
+    resourceId: 'https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf',
     title: 'Goethe-Zertifikat A2 - Official Model Test PDF (Modellsatz)',
     channelOrAuthor: 'Goethe Institut',
     level: 'A2', skills: ['LESEN', 'SCHREIBEN', 'HOEREN'],

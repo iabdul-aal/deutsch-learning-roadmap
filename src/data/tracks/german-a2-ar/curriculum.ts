@@ -410,7 +410,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Goethe A2 Practice Material",
               "duration": "60 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.goethe.de/en/spr/kup/prf/prf/ga2/ueb.html"
+              "link": "https://www.goethe.de/en/spr/kup/prf/prf.html"
             }
           ],
           "intensiveTasks": [
@@ -850,7 +850,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Goethe A2 Practice Material",
               "duration": "60 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.goethe.de/en/spr/kup/prf/prf/ga2/ueb.html"
+              "link": "https://www.goethe.de/en/spr/kup/prf/prf.html"
             }
           ],
           "intensiveTasks": [
@@ -1290,7 +1290,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Goethe A2 Practice Material",
               "duration": "60 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.goethe.de/en/spr/kup/prf/prf/ga2/ueb.html"
+              "link": "https://www.goethe.de/en/spr/kup/prf/prf.html"
             }
           ],
           "intensiveTasks": [
@@ -1730,7 +1730,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Goethe A2 Practice Material",
               "duration": "60 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.goethe.de/en/spr/kup/prf/prf/ga2/ueb.html"
+              "link": "https://www.goethe.de/en/spr/kup/prf/prf.html"
             }
           ],
           "intensiveTasks": [
@@ -2170,7 +2170,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Goethe A2 Practice Material",
               "duration": "60 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.goethe.de/en/spr/kup/prf/prf/ga2/ueb.html"
+              "link": "https://www.goethe.de/en/spr/kup/prf/prf.html"
             }
           ],
           "intensiveTasks": [
@@ -2610,7 +2610,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Goethe A2 Practice Material",
               "duration": "60 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.goethe.de/en/spr/kup/prf/prf/ga2/ueb.html"
+              "link": "https://www.goethe.de/en/spr/kup/prf/prf.html"
             }
           ],
           "intensiveTasks": [
@@ -3050,7 +3050,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Goethe A2 Practice Material",
               "duration": "60 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.goethe.de/en/spr/kup/prf/prf/ga2/ueb.html"
+              "link": "https://www.goethe.de/en/spr/kup/prf/prf.html"
             }
           ],
           "intensiveTasks": [
@@ -3342,7 +3342,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Goethe A2 Mock Exam Complete",
               "duration": "90 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.goethe.de/en/spr/kup/prf/prf/ga2/ueb.html"
+              "link": "https://www.goethe.de/en/spr/kup/prf/prf.html"
             }
           ],
           "intensiveTasks": [
@@ -3371,7 +3371,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Goethe A2 Mock Exam Complete",
               "duration": "90 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.goethe.de/en/spr/kup/prf/prf/ga2/ueb.html"
+              "link": "https://www.goethe.de/en/spr/kup/prf/prf.html"
             }
           ],
           "intensiveTasks": [
@@ -3400,7 +3400,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Goethe A2 Mock Exam Complete",
               "duration": "90 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.goethe.de/en/spr/kup/prf/prf/ga2/ueb.html"
+              "link": "https://www.goethe.de/en/spr/kup/prf/prf.html"
             }
           ],
           "intensiveTasks": [

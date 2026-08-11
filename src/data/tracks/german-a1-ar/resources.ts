@@ -33,7 +33,7 @@ export const RESOURCES_DATA: ResourceDatabase = {
       priority: "CORE",
       whySelected: "Primary core curriculum designed specifically for Arabic speakers. Explains complex German grammar logic using clear Arabic analogies, video lessons, vocabulary, and Goethe/telc exam notes.",
       sourceCommunity: "Arabic Ecosystem",
-      link: "https://deutsch-mit-hend.com/home/course/%D8%AF%D9%88%D8%B1%D8%A9-a1/20"
+      link: "https://www.youtube.com/playlist?list=PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu"
     },
     {
       id: "res-goethe-a1-official",
