@@ -223,25 +223,32 @@ const NavRow: React.FC<{
   <div className="flex gap-3 pt-2">
     <button
       onClick={onBack}
-      className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl border border-stone-200 text-stone-600 text-sm font-bold hover:bg-stone-50 transition-colors"
+      className="px-4 py-2.5 rounded-xl border border-stone-200 text-stone-600 text-sm font-bold hover:bg-stone-50 transition-colors"
     >
-      <ArrowLeft className="w-4 h-4" />
       Back
     </button>
     <button
       onClick={onNext}
       disabled={!canProceed}
-      className={`flex-1 flex items-center justify-center gap-2 py-3 rounded-xl font-black text-sm transition-all ${
+      className={`flex-1 py-3 rounded-xl font-black text-sm transition-all ${
         canProceed
           ? 'bg-amber-500 hover:bg-amber-600 text-stone-950 shadow-sm'
           : 'bg-stone-100 text-stone-400 cursor-not-allowed'
       }`}
     >
       {isLast ? 'Build My Roadmap' : 'Continue'}
-      {!isLast && <ArrowRight className="w-4 h-4" />}
     </button>
   </div>
 );
+
+// ── Level options (unique id prevents dual-selection on shared CEFR) ────
+
+const LEVEL_OPTIONS: { id: string; level: CEFRLevel; label: string; sublabel: string }[] = [
+  { id: 'a1_zero',  level: 'A1', label: 'Complete beginner',           sublabel: 'I know zero or almost no German' },
+  { id: 'a1_basic', level: 'A1', label: 'I know a few basics',         sublabel: 'Numbers, greetings, a few phrases' },
+  { id: 'a2',       level: 'A2', label: 'Elementary - A1 complete',    sublabel: 'I can introduce myself and handle simple situations' },
+  { id: 'b1',       level: 'B1', label: 'Pre-intermediate - A2 done',  sublabel: 'I can handle most everyday conversations' },
+];
 
 // ── Fast Start Flow ───────────────────────────────────────────────
 
@@ -250,7 +257,7 @@ const FastStartFlow: React.FC<{
   onBack: () => void;
 }> = ({ onComplete, onBack }) => {
   const [step, setStep] = useState(0);
-  const [data, setData] = useState<Partial<FastStartData>>({});
+  const [data, setData] = useState<Partial<FastStartData> & { levelId?: string }>({});
 
   const steps = [
     {
@@ -296,26 +303,18 @@ const FastStartFlow: React.FC<{
       title: 'What is your current German level?',
       content: (
         <div className="space-y-2">
-          {([
-            { level: 'A1', label: 'Complete beginner',         sublabel: 'I know zero or almost no German' },
-            { level: 'A1', label: 'I know a few basics',       sublabel: 'Numbers, greetings, a few phrases' },
-            { level: 'A2', label: 'Elementary - A1 complete',  sublabel: 'I can introduce myself and handle simple situations' },
-            { level: 'B1', label: 'Pre-intermediate - A2 done', sublabel: 'I can handle most everyday conversations' },
-          ] as { level: CEFRLevel; label: string; sublabel: string }[]).map((opt, i) => (
+          {LEVEL_OPTIONS.map(opt => (
             <OptionCard
-              key={i}
-              selected={
-                data.currentLevel === opt.level &&
-                ((i === 0 && !data.goal) || true)
-              }
-              onClick={() => setData(d => ({ ...d, currentLevel: opt.level }))}
+              key={opt.id}
+              selected={data.levelId === opt.id}
+              onClick={() => setData(d => ({ ...d, levelId: opt.id, currentLevel: opt.level }))}
               label={`${opt.level} - ${opt.label}`}
               sublabel={opt.sublabel}
             />
           ))}
         </div>
       ),
-      canProceed: !!data.currentLevel,
+      canProceed: !!data.levelId,
     },
     {
       title: 'How much time can you study each day?',
@@ -720,7 +719,8 @@ export const OnboardingFlow: React.FC = () => {
       coreSkills.forEach(skill => updateSkillScore(skill, base));
     }
 
-    setTimeout(() => setHasSeenWelcome(true), 80);
+    // Call directly — React batches this with the previous state updates
+    setHasSeenWelcome(true);
   }, [setUserName, setHasSeenWelcome, setGoalProfile, updateSkillScore]);
 
   const handleFastComplete = useCallback((d: FastStartData) => {

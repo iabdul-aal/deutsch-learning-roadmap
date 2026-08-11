@@ -1,0 +1,23 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]: DE
+      - heading "German Learning OS" [level=1] [ref=e9]
+      - paragraph [ref=e10]: Method - Roadmap - Best Resources - Practice - Progress
+    - generic [ref=e11]:
+      - button "Fast Start 60 seconds Choose your goal and level - get an instant roadmap" [ref=e12] [cursor=pointer]:
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - heading "Fast Start" [level=3] [ref=e19]
+            - generic [ref=e20]: 60 seconds
+          - paragraph [ref=e21]: Choose your goal and level - get an instant roadmap
+      - button "Full Diagnostic 15 min Placement test + skill assessment - deep personalization Recommended - produces a significantly more accurate roadmap" [ref=e24] [cursor=pointer]:
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - heading "Full Diagnostic" [level=3] [ref=e32]
+            - generic [ref=e33]: 15 min
+          - paragraph [ref=e34]: Placement test + skill assessment - deep personalization
+        - paragraph [ref=e40]: Recommended - produces a significantly more accurate roadmap
+    - paragraph [ref=e41]: No account required - all data stays on your device - free forever

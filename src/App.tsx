@@ -17,46 +17,36 @@ import { CommandPalette } from './components/CommandPalette';
 import { OnboardingFlow } from './components/OnboardingFlow';
 import { Search, Command } from 'lucide-react';
 
-interface ErrorBoundaryProps {
-  children: React.ReactNode;
-}
+// ── Error Boundaries ──────────────────────────────────────────────
 
-interface ErrorBoundaryState {
-  hasError: boolean;
-  error: Error | null;
-}
+interface BoundaryProps { children: React.ReactNode }
+interface BoundaryState { hasError: boolean; error: Error | null }
 
-class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoundaryState> {
-  constructor(props: ErrorBoundaryProps) {
+class ErrorBoundary extends React.Component<BoundaryProps, BoundaryState> {
+  constructor(props: BoundaryProps) {
     super(props);
     this.state = { hasError: false, error: null };
   }
-
-  static getDerivedStateFromError(error: Error): ErrorBoundaryState {
+  static getDerivedStateFromError(error: Error): BoundaryState {
     return { hasError: true, error };
   }
-
-  componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
-    console.error("Platform Error Caught:", error, errorInfo);
+  componentDidCatch(error: Error, info: React.ErrorInfo) {
+    console.error('Platform Error Caught:', error, info);
   }
-
   render() {
     if (this.state.hasError) {
       return (
-        <div className="min-h-screen bg-[#FBF9F5] text-stone-900 flex items-center justify-center p-6 text-center font-sans">
+        <div className="min-h-screen bg-[#FBF9F5] flex items-center justify-center p-6 text-center font-sans">
           <div className="paper-card p-8 max-w-lg space-y-4 shadow-md">
             <h2 className="text-xl font-black text-rose-700">Platform Recovered from Unexpected State</h2>
             <p className="text-xs text-stone-600">
               An unexpected error occurred. Click below to clear local state and reload cleanly.
             </p>
             <button
-              onClick={() => {
-                localStorage.clear();
-                window.location.reload();
-              }}
-              className="px-4 py-2 rounded bg-amber-500 hover:bg-amber-400 text-stone-950 font-black text-xs transition-all shadow-xs"
+              onClick={() => { localStorage.clear(); window.location.reload(); }}
+              className="px-4 py-2 rounded bg-amber-500 hover:bg-amber-400 text-stone-950 font-black text-xs transition-all"
             >
-              Reset Application State & Reload
+              Reset and Reload
             </button>
           </div>
         </div>
@@ -66,30 +56,21 @@ class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoundarySta
   }
 }
 
-/**
- * Per-view boundary: isolates individual view crashes.
- * A crash in GrammarView won't kill the Sidebar or other views.
- */
-interface ViewBoundaryState { hasError: boolean }
-class ViewErrorBoundary extends React.Component<ErrorBoundaryProps, ViewBoundaryState> {
-  constructor(props: ErrorBoundaryProps) {
+class ViewErrorBoundary extends React.Component<BoundaryProps, { hasError: boolean }> {
+  constructor(props: BoundaryProps) {
     super(props);
     this.state = { hasError: false };
   }
-
-  static getDerivedStateFromError(): ViewBoundaryState {
+  static getDerivedStateFromError(): { hasError: boolean } {
     return { hasError: true };
   }
-
   componentDidCatch(error: Error, info: React.ErrorInfo) {
     console.error('[ViewErrorBoundary]', error, info.componentStack);
   }
-
   render() {
     if (this.state.hasError) {
       return (
         <div className="paper-card p-6 text-center space-y-3 my-4">
-          <div className="text-3xl">⚠️</div>
           <h3 className="text-sm font-black text-rose-700">This view encountered an error</h3>
           <p className="text-xs text-stone-500">The rest of the app is unaffected.</p>
           <button
@@ -105,108 +86,86 @@ class ViewErrorBoundary extends React.Component<ErrorBoundaryProps, ViewBoundary
   }
 }
 
-const MainAppContent: React.FC = () => {
-  const { activeView, learnerModel, hasSeenWelcome } = useApp();
-  const [timerModalOpen, setTimerModalOpen] = useState(false);
+// ── App Shell (only rendered after onboarding) ────────────────────
+
+/**
+ * AppShell is a SEPARATE component from the onboarding gate.
+ * This ensures all hooks are called unconditionally — no early
+ * returns before useEffect/useState calls.
+ */
+const AppShell: React.FC = () => {
+  const { activeView, learnerModel } = useApp();
+  const [timerModalOpen, setTimerModalOpen]       = useState(false);
   const [commandPaletteOpen, setCommandPaletteOpen] = useState(false);
 
-  // Show onboarding until the learner completes Fast Start or Diagnostic
-  if (!hasSeenWelcome) {
-    return <OnboardingFlow />;
-  }
-
   useEffect(() => {
-    const handleCustomOpen = () => setCommandPaletteOpen(true);
-    window.addEventListener('open-command-palette', handleCustomOpen);
-    return () => window.removeEventListener('open-command-palette', handleCustomOpen);
+    const open = () => setCommandPaletteOpen(true);
+    window.addEventListener('open-command-palette', open);
+    return () => window.removeEventListener('open-command-palette', open);
   }, []);
 
   const renderView = () => {
     switch (activeView) {
-      case 'dashboard':
-        return <TodayDashboard />;
-      case 'curriculum':
-        return <CurriculumView />;
-      case 'survival':
-        return <GermanySurvivalView />;
-      case 'pronunciation':
-        return <PronunciationView />;
-      case 'vocabulary':
-        return <VocabularyView />;
-      case 'grammar':
-        return <GrammarView />;
-      case 'trackers':
-        return <SkillsTrackersView />;
-      case 'assessments':
-        return <WeeklyAssessmentsView />;
-      case 'resources':
-        return <ResourcesView />;
-      case 'missions':
-        return <MissionsView />;
-      case 'mobile_apps':
-        return <MobileAppsView />;
-      default:
-        return <TodayDashboard />;
+      case 'dashboard':    return <TodayDashboard />;
+      case 'curriculum':   return <CurriculumView />;
+      case 'survival':     return <GermanySurvivalView />;
+      case 'pronunciation':return <PronunciationView />;
+      case 'vocabulary':   return <VocabularyView />;
+      case 'grammar':      return <GrammarView />;
+      case 'trackers':     return <SkillsTrackersView />;
+      case 'assessments':  return <WeeklyAssessmentsView />;
+      case 'resources':    return <ResourcesView />;
+      case 'missions':     return <MissionsView />;
+      case 'mobile_apps':  return <MobileAppsView />;
+      default:             return <TodayDashboard />;
     }
   };
 
-  // Wrap each view in its own boundary so a single broken view
-  // never kills the sidebar or the rest of the app.
-  const wrappedView = (
-    <ViewErrorBoundary key={activeView}>
-      {renderView()}
-    </ViewErrorBoundary>
-  );
-
   return (
     <div className="min-h-screen bg-[#FBF9F5] text-stone-900 font-sans flex flex-col md:flex-row antialiased selection:bg-amber-400 selection:text-stone-950">
-      
-      {/* Sidebar Navigation */}
       <Sidebar onOpenTimer={() => setTimerModalOpen(true)} />
 
-      {/* Main Workspace Column */}
       <main
         id="main-content"
         className="flex-1 min-w-0 p-4 sm:p-6 lg:p-8 space-y-6 max-w-7xl"
         aria-label="Main content"
       >
-        
-        {/* Top Vercel/Lovable-Style Command Bar Header */}
-        <div className="hidden sm:flex items-center justify-between p-3 rounded-lg bg-white border border-stone-200 shadow-2xs">
+        {/* Command bar header */}
+        <div className="hidden sm:flex items-center justify-between p-3 rounded-lg bg-white border border-stone-200 shadow-sm">
           <div className="flex items-center gap-2 text-xs text-stone-500 font-medium">
             <span className="font-bold text-stone-900">Deutsch Learning OS</span>
             <span>/</span>
             <span className="text-amber-600 font-black uppercase text-[11px] tracking-wide">
-              {learnerModel.cefrEstimate.overall}
+              {learnerModel.cefrEstimate?.overall ?? 'A1'}
             </span>
             <span>/</span>
-            <span className="capitalize text-amber-800 font-extrabold">{activeView.replace('_', ' ')}</span>
+            <span className="capitalize text-amber-800 font-bold">
+              {activeView.replace(/_/g, ' ')}
+            </span>
           </div>
 
           <button
             onClick={() => setCommandPaletteOpen(true)}
             className="flex items-center gap-3 px-3 py-1.5 rounded-md bg-stone-100 hover:bg-stone-200 text-stone-600 border border-stone-300 text-xs transition-all"
           >
-            <div className="flex items-center gap-1.5">
-              <Search className="w-3.5 h-3.5 text-stone-400" />
-              <span>Search or jump to...</span>
-            </div>
-            <kbd className="px-1.5 py-0.5 rounded bg-white text-stone-500 text-[10px] font-mono border border-stone-300 shadow-2xs flex items-center gap-0.5">
+            <Search className="w-3.5 h-3.5 text-stone-400" />
+            <span>Search or jump to...</span>
+            <kbd className="px-1.5 py-0.5 rounded bg-white text-stone-500 text-[10px] font-mono border border-stone-300 flex items-center gap-0.5">
               <Command className="w-3 h-3" /> K
             </kbd>
           </button>
         </div>
 
-        {/* Dynamic View Component */}
-        {wrappedView}
+        {/* Dynamic view */}
+        <ViewErrorBoundary key={activeView}>
+          {renderView()}
+        </ViewErrorBoundary>
       </main>
 
-      {/* Quick Timer Modal */}
       {timerModalOpen && (
         <QuickTimerModal onClose={() => setTimerModalOpen(false)} />
       )}
 
-      {/* Vercel/Lovable-Style Cmd+K Command Palette */}
       <CommandPalette
         isOpen={commandPaletteOpen}
         onClose={() => setCommandPaletteOpen(false)}
@@ -214,6 +173,28 @@ const MainAppContent: React.FC = () => {
     </div>
   );
 };
+
+// ── Routing gate — no hooks before any return ─────────────────────
+
+/**
+ * MainAppContent owns the onboarding gate.
+ * It reads hasSeenWelcome FIRST, then conditionally renders
+ * either OnboardingFlow or AppShell.
+ *
+ * CRITICAL: All hooks (useState, useEffect) are in the child
+ * components, not here — so there are no Rules-of-Hooks violations.
+ */
+const MainAppContent: React.FC = () => {
+  const { hasSeenWelcome } = useApp();
+
+  if (!hasSeenWelcome) {
+    return <OnboardingFlow />;
+  }
+
+  return <AppShell />;
+};
+
+// ── Root ──────────────────────────────────────────────────────────
 
 export function App() {
   return (

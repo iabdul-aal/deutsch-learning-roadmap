@@ -5,8 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
 
-  // Relative paths — works under any subdirectory hosting (e.g. /german/)
-  base: './',
+  // Absolute path for GitHub Pages — repo is served at /deutsch-learning-roadmap/
+  base: '/deutsch-learning-roadmap/',
 
   server: {
     port: 3000,
