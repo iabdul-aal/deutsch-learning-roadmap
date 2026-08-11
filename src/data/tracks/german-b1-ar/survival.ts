@@ -1,10 +1,10 @@
 export const SURVIVAL_DATA_B1 = {
-  title: "Germany B1 Academic & Immigration Scenarios",
+  title: "Germany B1 Academic and Immigration Scenarios",
   description: "Advanced B1 phrasebook for Foreigners' Registration Office (Ausländerbehörde), University Enrolment, and Apartment Rental Contracts.",
   domains: [
     {
       id: "b1-dom-visa",
-      name: "Ausländerbehörde & Visa Extension",
+      name: "Ausländerbehörde and Visa Extension",
       arabicName: "مكتب الأجانب وتمديد الإقامة في ألمانيا",
       count: 4,
       phrases: [

@@ -1,7 +1,7 @@
 export const VOCABULARY_DATA_B1 = {
-  title: "High-Frequency German B1 Academic & Professional SRS Deck",
+  title: "High-Frequency German B1 Academic and Professional SRS Deck",
   description: "Color-coded German B1 vocabulary tailored for Goethe B1, telc B1, and university admission candidates.",
-  categories: ["All", "Academic & University", "Ausländerbehörde & Visas", "Konjunktiv & Connectors", "Workplace & Economy"],
+  categories: ["All", "Academic and University", "Ausländerbehörde and Visas", "Konjunktiv and Connectors", "Workplace and Economy"],
   words: [
     {
       id: "v-b1-1",
@@ -10,7 +10,7 @@ export const VOCABULARY_DATA_B1 = {
       plural: "Zulassungen",
       arabic: "قبول جامعي رسمي",
       english: "university admission",
-      category: "Academic & University",
+      category: "Academic and University",
       example: "Ich habe den Zulassungsbescheid von der Universität erhalten."
     },
     {
@@ -20,7 +20,7 @@ export const VOCABULARY_DATA_B1 = {
       plural: "Immatrikulationen",
       arabic: "تسجيل قيد دراسي في الجامعة",
       english: "university enrollment / matriculation",
-      category: "Academic & University",
+      category: "Academic and University",
       example: "Die Immatrikulation endet Ende September."
     },
     {
@@ -30,7 +30,7 @@ export const VOCABULARY_DATA_B1 = {
       plural: "Aufenthaltstitel",
       arabic: "تصريح / إقامة رسمية في ألمانيا",
       english: "residence permit",
-      category: "Ausländerbehörde & Visas",
+      category: "Ausländerbehörde and Visas",
       example: "Ich muss meinen Aufenthaltstitel bei der Ausländerbehörde verlängern."
     },
     {
@@ -40,7 +40,7 @@ export const VOCABULARY_DATA_B1 = {
       plural: "Krankenversicherungen",
       arabic: "تأمين صحي",
       english: "health insurance",
-      category: "Ausländerbehörde & Visas",
+      category: "Ausländerbehörde and Visas",
       example: "Ohne Krankenversicherung kann man sich nicht immatrikulieren."
     }
   ]

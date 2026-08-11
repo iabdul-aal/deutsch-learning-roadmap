@@ -47,7 +47,7 @@ export const safeStorage = {
       return true;
     } catch (err) {
       if (err instanceof DOMException && err.name === 'QuotaExceededError') {
-        console.warn('[storage] Quota exceeded — clearing oldest entry for key:', key);
+        console.warn('[storage] Quota exceeded - clearing oldest entry for key:', key);
         // Attempt to free space by removing the item first, then retry
         try {
           localStorage.removeItem(key);

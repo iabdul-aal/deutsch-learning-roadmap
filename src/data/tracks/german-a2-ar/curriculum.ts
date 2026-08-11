@@ -14,8 +14,8 @@ export const CURRICULUM_DATA_A2 = {
           "dayNumber": 1,
           "weekNumber": 1,
           "title": "Day 1 - Subordinate Clauses",
-          "focusSkill": "Grammar & Sentence Structure",
-          "objective": "Practice grammar & sentence structure for A2 level.",
+          "focusSkill": "Grammar and Sentence Structure",
+          "objective": "Practice grammar and sentence structure for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -74,8 +74,8 @@ export const CURRICULUM_DATA_A2 = {
           "dayNumber": 2,
           "weekNumber": 1,
           "title": "Day 2 - Subordinate Clauses",
-          "focusSkill": "Grammar & Sentence Structure",
-          "objective": "Practice grammar & sentence structure for A2 level.",
+          "focusSkill": "Grammar and Sentence Structure",
+          "objective": "Practice grammar and sentence structure for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -134,8 +134,8 @@ export const CURRICULUM_DATA_A2 = {
           "dayNumber": 3,
           "weekNumber": 1,
           "title": "Day 3 - Subordinate Clauses",
-          "focusSkill": "Grammar & Sentence Structure",
-          "objective": "Practice grammar & sentence structure for A2 level.",
+          "focusSkill": "Grammar and Sentence Structure",
+          "objective": "Practice grammar and sentence structure for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -194,8 +194,8 @@ export const CURRICULUM_DATA_A2 = {
           "dayNumber": 4,
           "weekNumber": 1,
           "title": "Day 4 - Subordinate Clauses",
-          "focusSkill": "Grammar & Sentence Structure",
-          "objective": "Practice grammar & sentence structure for A2 level.",
+          "focusSkill": "Grammar and Sentence Structure",
+          "objective": "Practice grammar and sentence structure for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -254,8 +254,8 @@ export const CURRICULUM_DATA_A2 = {
           "dayNumber": 5,
           "weekNumber": 1,
           "title": "Day 5 - Subordinate Clauses",
-          "focusSkill": "Grammar & Sentence Structure",
-          "objective": "Practice grammar & sentence structure for A2 level.",
+          "focusSkill": "Grammar and Sentence Structure",
+          "objective": "Practice grammar and sentence structure for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -314,8 +314,8 @@ export const CURRICULUM_DATA_A2 = {
           "dayNumber": 6,
           "weekNumber": 1,
           "title": "Day 6 - Subordinate Clauses",
-          "focusSkill": "Grammar & Sentence Structure",
-          "objective": "Practice grammar & sentence structure for A2 level.",
+          "focusSkill": "Grammar and Sentence Structure",
+          "objective": "Practice grammar and sentence structure for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -373,7 +373,7 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 7,
           "weekNumber": 1,
-          "title": "Week 1 Revision & Mock Assessment",
+          "title": "Week 1 Revision and Mock Assessment",
           "focusSkill": "Revision",
           "objective": "Practice revision for A2 level.",
           "standardTasks": [
@@ -446,16 +446,16 @@ export const CURRICULUM_DATA_A2 = {
     },
     {
       "weekNumber": 2,
-      "title": "Week 2: Reflexive Verbs & Personal Care Routines",
+      "title": "Week 2: Reflexive Verbs and Personal Care Routines",
       "objective": "Learn to describe daily routines using reflexive verbs.",
-      "summary": "This week focuses on reflexive verbs & personal care routines.",
+      "summary": "This week focuses on reflexive verbs and personal care routines.",
       "days": [
         {
           "dayNumber": 8,
           "weekNumber": 2,
-          "title": "Day 1 - Reflexive Verbs & Personal Care Routines",
-          "focusSkill": "Daily Life & Routine",
-          "objective": "Practice daily life & routine for A2 level.",
+          "title": "Day 1 - Reflexive Verbs and Personal Care Routines",
+          "focusSkill": "Daily Life and Routine",
+          "objective": "Practice daily life and routine for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -513,9 +513,9 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 9,
           "weekNumber": 2,
-          "title": "Day 2 - Reflexive Verbs & Personal Care Routines",
-          "focusSkill": "Daily Life & Routine",
-          "objective": "Practice daily life & routine for A2 level.",
+          "title": "Day 2 - Reflexive Verbs and Personal Care Routines",
+          "focusSkill": "Daily Life and Routine",
+          "objective": "Practice daily life and routine for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -573,9 +573,9 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 10,
           "weekNumber": 2,
-          "title": "Day 3 - Reflexive Verbs & Personal Care Routines",
-          "focusSkill": "Daily Life & Routine",
-          "objective": "Practice daily life & routine for A2 level.",
+          "title": "Day 3 - Reflexive Verbs and Personal Care Routines",
+          "focusSkill": "Daily Life and Routine",
+          "objective": "Practice daily life and routine for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -633,9 +633,9 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 11,
           "weekNumber": 2,
-          "title": "Day 4 - Reflexive Verbs & Personal Care Routines",
-          "focusSkill": "Daily Life & Routine",
-          "objective": "Practice daily life & routine for A2 level.",
+          "title": "Day 4 - Reflexive Verbs and Personal Care Routines",
+          "focusSkill": "Daily Life and Routine",
+          "objective": "Practice daily life and routine for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -693,9 +693,9 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 12,
           "weekNumber": 2,
-          "title": "Day 5 - Reflexive Verbs & Personal Care Routines",
-          "focusSkill": "Daily Life & Routine",
-          "objective": "Practice daily life & routine for A2 level.",
+          "title": "Day 5 - Reflexive Verbs and Personal Care Routines",
+          "focusSkill": "Daily Life and Routine",
+          "objective": "Practice daily life and routine for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -753,9 +753,9 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 13,
           "weekNumber": 2,
-          "title": "Day 6 - Reflexive Verbs & Personal Care Routines",
-          "focusSkill": "Daily Life & Routine",
-          "objective": "Practice daily life & routine for A2 level.",
+          "title": "Day 6 - Reflexive Verbs and Personal Care Routines",
+          "focusSkill": "Daily Life and Routine",
+          "objective": "Practice daily life and routine for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -813,7 +813,7 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 14,
           "weekNumber": 2,
-          "title": "Week 2 Revision & Mock Assessment",
+          "title": "Week 2 Revision and Mock Assessment",
           "focusSkill": "Revision",
           "objective": "Practice revision for A2 level.",
           "standardTasks": [
@@ -886,16 +886,16 @@ export const CURRICULUM_DATA_A2 = {
     },
     {
       "weekNumber": 3,
-      "title": "Week 3: Comparative & Superlative + Adjective Endings",
+      "title": "Week 3: Comparative and Superlative + Adjective Endings",
       "objective": "Compare things and people, and use correct adjective endings.",
-      "summary": "This week focuses on comparative & superlative + adjective endings.",
+      "summary": "This week focuses on comparative and superlative + adjective endings.",
       "days": [
         {
           "dayNumber": 15,
           "weekNumber": 3,
-          "title": "Day 1 - Comparative & Superlative + Adjective Endings",
-          "focusSkill": "Describing & Comparing",
-          "objective": "Practice describing & comparing for A2 level.",
+          "title": "Day 1 - Comparative and Superlative + Adjective Endings",
+          "focusSkill": "Describing and Comparing",
+          "objective": "Practice describing and comparing for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -953,9 +953,9 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 16,
           "weekNumber": 3,
-          "title": "Day 2 - Comparative & Superlative + Adjective Endings",
-          "focusSkill": "Describing & Comparing",
-          "objective": "Practice describing & comparing for A2 level.",
+          "title": "Day 2 - Comparative and Superlative + Adjective Endings",
+          "focusSkill": "Describing and Comparing",
+          "objective": "Practice describing and comparing for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -1013,9 +1013,9 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 17,
           "weekNumber": 3,
-          "title": "Day 3 - Comparative & Superlative + Adjective Endings",
-          "focusSkill": "Describing & Comparing",
-          "objective": "Practice describing & comparing for A2 level.",
+          "title": "Day 3 - Comparative and Superlative + Adjective Endings",
+          "focusSkill": "Describing and Comparing",
+          "objective": "Practice describing and comparing for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -1073,9 +1073,9 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 18,
           "weekNumber": 3,
-          "title": "Day 4 - Comparative & Superlative + Adjective Endings",
-          "focusSkill": "Describing & Comparing",
-          "objective": "Practice describing & comparing for A2 level.",
+          "title": "Day 4 - Comparative and Superlative + Adjective Endings",
+          "focusSkill": "Describing and Comparing",
+          "objective": "Practice describing and comparing for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -1133,9 +1133,9 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 19,
           "weekNumber": 3,
-          "title": "Day 5 - Comparative & Superlative + Adjective Endings",
-          "focusSkill": "Describing & Comparing",
-          "objective": "Practice describing & comparing for A2 level.",
+          "title": "Day 5 - Comparative and Superlative + Adjective Endings",
+          "focusSkill": "Describing and Comparing",
+          "objective": "Practice describing and comparing for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -1193,9 +1193,9 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 20,
           "weekNumber": 3,
-          "title": "Day 6 - Comparative & Superlative + Adjective Endings",
-          "focusSkill": "Describing & Comparing",
-          "objective": "Practice describing & comparing for A2 level.",
+          "title": "Day 6 - Comparative and Superlative + Adjective Endings",
+          "focusSkill": "Describing and Comparing",
+          "objective": "Practice describing and comparing for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -1253,7 +1253,7 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 21,
           "weekNumber": 3,
-          "title": "Week 3 Revision & Mock Assessment",
+          "title": "Week 3 Revision and Mock Assessment",
           "focusSkill": "Revision",
           "objective": "Practice revision for A2 level.",
           "standardTasks": [
@@ -1326,9 +1326,9 @@ export const CURRICULUM_DATA_A2 = {
     },
     {
       "weekNumber": 4,
-      "title": "Week 4: Perfekt (Past Tense) & Regular/Irregular Verbs",
+      "title": "Week 4: Perfekt (Past Tense) and Regular/Irregular Verbs",
       "objective": "Talk about the past using Perfekt with haben and sein.",
-      "summary": "This week focuses on perfekt (past tense) & regular/irregular verbs.",
+      "summary": "This week focuses on perfekt (past tense) and regular/irregular verbs.",
       "days": [
         {
           "dayNumber": 22,
@@ -1693,7 +1693,7 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 28,
           "weekNumber": 4,
-          "title": "Week 4 Revision & Mock Assessment",
+          "title": "Week 4 Revision and Mock Assessment",
           "focusSkill": "Revision",
           "objective": "Practice revision for A2 level.",
           "standardTasks": [
@@ -1774,8 +1774,8 @@ export const CURRICULUM_DATA_A2 = {
           "dayNumber": 29,
           "weekNumber": 5,
           "title": "Day 1 - Konjunktiv II",
-          "focusSkill": "Politeness & Conditionals",
-          "objective": "Practice politeness & conditionals for A2 level.",
+          "focusSkill": "Politeness and Conditionals",
+          "objective": "Practice politeness and conditionals for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -1834,8 +1834,8 @@ export const CURRICULUM_DATA_A2 = {
           "dayNumber": 30,
           "weekNumber": 5,
           "title": "Day 2 - Konjunktiv II",
-          "focusSkill": "Politeness & Conditionals",
-          "objective": "Practice politeness & conditionals for A2 level.",
+          "focusSkill": "Politeness and Conditionals",
+          "objective": "Practice politeness and conditionals for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -1894,8 +1894,8 @@ export const CURRICULUM_DATA_A2 = {
           "dayNumber": 31,
           "weekNumber": 5,
           "title": "Day 3 - Konjunktiv II",
-          "focusSkill": "Politeness & Conditionals",
-          "objective": "Practice politeness & conditionals for A2 level.",
+          "focusSkill": "Politeness and Conditionals",
+          "objective": "Practice politeness and conditionals for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -1954,8 +1954,8 @@ export const CURRICULUM_DATA_A2 = {
           "dayNumber": 32,
           "weekNumber": 5,
           "title": "Day 4 - Konjunktiv II",
-          "focusSkill": "Politeness & Conditionals",
-          "objective": "Practice politeness & conditionals for A2 level.",
+          "focusSkill": "Politeness and Conditionals",
+          "objective": "Practice politeness and conditionals for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -2014,8 +2014,8 @@ export const CURRICULUM_DATA_A2 = {
           "dayNumber": 33,
           "weekNumber": 5,
           "title": "Day 5 - Konjunktiv II",
-          "focusSkill": "Politeness & Conditionals",
-          "objective": "Practice politeness & conditionals for A2 level.",
+          "focusSkill": "Politeness and Conditionals",
+          "objective": "Practice politeness and conditionals for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -2074,8 +2074,8 @@ export const CURRICULUM_DATA_A2 = {
           "dayNumber": 34,
           "weekNumber": 5,
           "title": "Day 6 - Konjunktiv II",
-          "focusSkill": "Politeness & Conditionals",
-          "objective": "Practice politeness & conditionals for A2 level.",
+          "focusSkill": "Politeness and Conditionals",
+          "objective": "Practice politeness and conditionals for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -2133,7 +2133,7 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 35,
           "weekNumber": 5,
-          "title": "Week 5 Revision & Mock Assessment",
+          "title": "Week 5 Revision and Mock Assessment",
           "focusSkill": "Revision",
           "objective": "Practice revision for A2 level.",
           "standardTasks": [
@@ -2206,16 +2206,16 @@ export const CURRICULUM_DATA_A2 = {
     },
     {
       "weekNumber": 6,
-      "title": "Week 6: Futur I & Future Plans + Appointments (Arzt, Bank)",
+      "title": "Week 6: Futur I and Future Plans + Appointments (Arzt, Bank)",
       "objective": "Express future plans and handle appointments.",
-      "summary": "This week focuses on futur i & future plans + appointments (arzt, bank).",
+      "summary": "This week focuses on futur i and future plans + appointments (arzt, bank).",
       "days": [
         {
           "dayNumber": 36,
           "weekNumber": 6,
-          "title": "Day 1 - Futur I & Future Plans + Appointments",
-          "focusSkill": "Future & Appointments",
-          "objective": "Practice future & appointments for A2 level.",
+          "title": "Day 1 - Futur I and Future Plans + Appointments",
+          "focusSkill": "Future and Appointments",
+          "objective": "Practice future and appointments for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -2273,9 +2273,9 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 37,
           "weekNumber": 6,
-          "title": "Day 2 - Futur I & Future Plans + Appointments",
-          "focusSkill": "Future & Appointments",
-          "objective": "Practice future & appointments for A2 level.",
+          "title": "Day 2 - Futur I and Future Plans + Appointments",
+          "focusSkill": "Future and Appointments",
+          "objective": "Practice future and appointments for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -2333,9 +2333,9 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 38,
           "weekNumber": 6,
-          "title": "Day 3 - Futur I & Future Plans + Appointments",
-          "focusSkill": "Future & Appointments",
-          "objective": "Practice future & appointments for A2 level.",
+          "title": "Day 3 - Futur I and Future Plans + Appointments",
+          "focusSkill": "Future and Appointments",
+          "objective": "Practice future and appointments for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -2393,9 +2393,9 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 39,
           "weekNumber": 6,
-          "title": "Day 4 - Futur I & Future Plans + Appointments",
-          "focusSkill": "Future & Appointments",
-          "objective": "Practice future & appointments for A2 level.",
+          "title": "Day 4 - Futur I and Future Plans + Appointments",
+          "focusSkill": "Future and Appointments",
+          "objective": "Practice future and appointments for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -2453,9 +2453,9 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 40,
           "weekNumber": 6,
-          "title": "Day 5 - Futur I & Future Plans + Appointments",
-          "focusSkill": "Future & Appointments",
-          "objective": "Practice future & appointments for A2 level.",
+          "title": "Day 5 - Futur I and Future Plans + Appointments",
+          "focusSkill": "Future and Appointments",
+          "objective": "Practice future and appointments for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -2513,9 +2513,9 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 41,
           "weekNumber": 6,
-          "title": "Day 6 - Futur I & Future Plans + Appointments",
-          "focusSkill": "Future & Appointments",
-          "objective": "Practice future & appointments for A2 level.",
+          "title": "Day 6 - Futur I and Future Plans + Appointments",
+          "focusSkill": "Future and Appointments",
+          "objective": "Practice future and appointments for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -2573,7 +2573,7 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 42,
           "weekNumber": 6,
-          "title": "Week 6 Revision & Mock Assessment",
+          "title": "Week 6 Revision and Mock Assessment",
           "focusSkill": "Revision",
           "objective": "Practice revision for A2 level.",
           "standardTasks": [
@@ -2646,16 +2646,16 @@ export const CURRICULUM_DATA_A2 = {
     },
     {
       "weekNumber": 7,
-      "title": "Week 7: Passive Voice (werden + Partizip II) + News & Media",
+      "title": "Week 7: Passive Voice (werden + Partizip II) + News and Media",
       "objective": "Understand passive voice in news and describe processes.",
-      "summary": "This week focuses on passive voice (werden + partizip ii) + news & media.",
+      "summary": "This week focuses on passive voice (werden + partizip ii) + news and media.",
       "days": [
         {
           "dayNumber": 43,
           "weekNumber": 7,
           "title": "Day 1 - Passive Voice",
-          "focusSkill": "Media & Passive Action",
-          "objective": "Practice media & passive action for A2 level.",
+          "focusSkill": "Media and Passive Action",
+          "objective": "Practice media and passive action for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -2714,8 +2714,8 @@ export const CURRICULUM_DATA_A2 = {
           "dayNumber": 44,
           "weekNumber": 7,
           "title": "Day 2 - Passive Voice",
-          "focusSkill": "Media & Passive Action",
-          "objective": "Practice media & passive action for A2 level.",
+          "focusSkill": "Media and Passive Action",
+          "objective": "Practice media and passive action for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -2774,8 +2774,8 @@ export const CURRICULUM_DATA_A2 = {
           "dayNumber": 45,
           "weekNumber": 7,
           "title": "Day 3 - Passive Voice",
-          "focusSkill": "Media & Passive Action",
-          "objective": "Practice media & passive action for A2 level.",
+          "focusSkill": "Media and Passive Action",
+          "objective": "Practice media and passive action for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -2834,8 +2834,8 @@ export const CURRICULUM_DATA_A2 = {
           "dayNumber": 46,
           "weekNumber": 7,
           "title": "Day 4 - Passive Voice",
-          "focusSkill": "Media & Passive Action",
-          "objective": "Practice media & passive action for A2 level.",
+          "focusSkill": "Media and Passive Action",
+          "objective": "Practice media and passive action for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -2894,8 +2894,8 @@ export const CURRICULUM_DATA_A2 = {
           "dayNumber": 47,
           "weekNumber": 7,
           "title": "Day 5 - Passive Voice",
-          "focusSkill": "Media & Passive Action",
-          "objective": "Practice media & passive action for A2 level.",
+          "focusSkill": "Media and Passive Action",
+          "objective": "Practice media and passive action for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -2954,8 +2954,8 @@ export const CURRICULUM_DATA_A2 = {
           "dayNumber": 48,
           "weekNumber": 7,
           "title": "Day 6 - Passive Voice",
-          "focusSkill": "Media & Passive Action",
-          "objective": "Practice media & passive action for A2 level.",
+          "focusSkill": "Media and Passive Action",
+          "objective": "Practice media and passive action for A2 level.",
           "standardTasks": [
             {
               "type": "Watch",
@@ -3013,7 +3013,7 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 49,
           "weekNumber": 7,
-          "title": "Week 7 Revision & Mock Assessment",
+          "title": "Week 7 Revision and Mock Assessment",
           "focusSkill": "Revision",
           "objective": "Practice revision for A2 level.",
           "standardTasks": [
@@ -3391,7 +3391,7 @@ export const CURRICULUM_DATA_A2 = {
         {
           "dayNumber": 56,
           "weekNumber": 8,
-          "title": "Week 8 Revision & Mock Assessment",
+          "title": "Week 8 Revision and Mock Assessment",
           "focusSkill": "Revision",
           "objective": "Practice revision for A2 level.",
           "standardTasks": [

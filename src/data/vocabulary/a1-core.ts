@@ -24,7 +24,7 @@ export interface VocabWord {
 }
 
 export const A1_VOCABULARY: VocabWord[] = [
-  // Greetings & Basic Phrases (20)
+  // Greetings and Basic Phrases (20)
   { id: 'g_hallo', german: 'hallo', germanBase: 'hallo', english: 'hello', arabic: 'مرحباً', exampleDE: 'Hallo, wie geht es dir?', exampleAR: 'مرحباً، كيف حالك؟', wordType: 'phrase', cefr: 'A1', frequency: 1, semanticField: 'greetings' },
   { id: 'g_morgen', german: 'guten Morgen', germanBase: 'guten Morgen', english: 'good morning', arabic: 'صباح الخير', exampleDE: 'Guten Morgen, Herr Müller!', exampleAR: 'صباح الخير، سيد مولر!', wordType: 'phrase', cefr: 'A1', frequency: 10, semanticField: 'greetings' },
   { id: 'g_tag', german: 'guten Tag', germanBase: 'guten Tag', english: 'good day', arabic: 'طاب يومك', exampleDE: 'Guten Tag, was darf es sein?', exampleAR: 'طاب يومك، ماذا تطلب؟', wordType: 'phrase', cefr: 'A1', frequency: 12, semanticField: 'greetings' },
@@ -46,7 +46,7 @@ export const A1_VOCABULARY: VocabWord[] = [
   { id: 'g_ichkommeaus', german: 'ich komme aus', germanBase: 'kommen', english: 'I come from', arabic: 'أنا من', exampleDE: 'Ich komme aus Ägypten.', exampleAR: 'أنا من مصر.', wordType: 'phrase', cefr: 'A1', frequency: 70, semanticField: 'greetings' },
   { id: 'g_wieheissen', german: 'wie heißen Sie', germanBase: 'heißen', english: 'what is your name', arabic: 'ما اسمك', exampleDE: 'Wie heißen Sie, bitte?', exampleAR: 'ما اسمك، من فضلك؟', wordType: 'phrase', cefr: 'A1', frequency: 75, semanticField: 'greetings' },
 
-  // Numbers & Time (20)
+  // Numbers and Time (20)
   { id: 'n_einszehn', german: 'eins bis zehn', germanBase: 'Zahlen', english: 'one to ten', arabic: 'واحد إلى عشرة', exampleDE: 'Ich kann von eins bis zehn zählen.', exampleAR: 'يمكنني العد من واحد إلى عشرة.', wordType: 'phrase', cefr: 'A1', frequency: 80, semanticField: 'time' },
   { id: 'n_heute', german: 'heute', germanBase: 'heute', english: 'today', arabic: 'اليوم', exampleDE: 'Heute ist Montag.', exampleAR: 'اليوم هو الإثنين.', wordType: 'adverb', cefr: 'A1', frequency: 100, semanticField: 'time' },
   { id: 'n_morgen', german: 'morgen', germanBase: 'morgen', english: 'tomorrow', arabic: 'غداً', exampleDE: 'Ich komme morgen.', exampleAR: 'سآتي غداً.', wordType: 'adverb', cefr: 'A1', frequency: 110, semanticField: 'time' },
@@ -84,7 +84,7 @@ export const A1_VOCABULARY: VocabWord[] = [
   { id: 'f_ledig', german: 'ledig', germanBase: 'ledig', english: 'single', arabic: 'أعزب', exampleDE: 'Bist du ledig oder verheiratet?', exampleAR: 'هل أنت أعزب أم متزوج؟', wordType: 'adjective', cefr: 'A1', frequency: 430, semanticField: 'family' },
   { id: 'f_eltern', german: 'die Eltern', germanBase: 'Eltern', article: 'die', plural: 'Eltern', english: 'parents', arabic: 'الوالدان', exampleDE: 'Meine Eltern leben in Berlin.', exampleAR: 'والداي يعيشان في برلين.', wordType: 'noun', cefr: 'A1', frequency: 440, semanticField: 'family', nounGenderHint: 'die (جمع)' },
 
-  // Food & Drink (25)
+  // Food and Drink (25)
   { id: 'fd_brot', german: 'das Brot', germanBase: 'Brot', article: 'das', plural: 'Brote', english: 'bread', arabic: 'الخبز', exampleDE: 'Ich esse gern Brot.', exampleAR: 'أحب أكل الخبز.', wordType: 'noun', cefr: 'A1', frequency: 500, semanticField: 'food', nounGenderHint: 'das Brot' },
   { id: 'fd_milch', german: 'die Milch', germanBase: 'Milch', article: 'die', plural: 'Milch', english: 'milk', arabic: 'الحليب', exampleDE: 'Kaffee mit Milch, bitte.', exampleAR: 'قهوة مع الحليب، من فضلك.', wordType: 'noun', cefr: 'A1', frequency: 510, semanticField: 'food', nounGenderHint: 'die Milch' },
   { id: 'fd_wasser', german: 'das Wasser', germanBase: 'Wasser', article: 'das', plural: 'Wasser', english: 'water', arabic: 'الماء', exampleDE: 'Ein Glas Wasser, bitte.', exampleAR: 'كوب من الماء، من فضلك.', wordType: 'noun', cefr: 'A1', frequency: 520, semanticField: 'food', nounGenderHint: 'das Wasser' },
@@ -133,7 +133,7 @@ export const A1_VOCABULARY: VocabWord[] = [
   { id: 'h_stadtteil', german: 'der Stadtteil', germanBase: 'Stadtteil', article: 'der', plural: 'Stadtteile', english: 'neighborhood', arabic: 'الحي', exampleDE: 'Dieser Stadtteil ist sehr ruhig.', exampleAR: 'هذا الحي هادئ جداً.', wordType: 'noun', cefr: 'A1', frequency: 980, semanticField: 'home', nounGenderHint: 'der Teil (مذكر)' },
   { id: 'h_umziehen', german: 'umziehen', germanBase: 'umziehen', english: 'to move', arabic: 'ينتقل', exampleDE: 'Wir ziehen nächsten Monat um.', exampleAR: 'سننتقل في الشهر القادم.', wordType: 'verb', cefr: 'A1', frequency: 990, semanticField: 'home', verbInfo: { infinitive: 'umziehen', pastParticiple: 'umgezogen', auxiliaryVerb: 'sein', isIrregular: true } },
 
-  // Transport & Directions (20)
+  // Transport and Directions (20)
   { id: 't_ubahn', german: 'die U-Bahn', germanBase: 'U-Bahn', article: 'die', plural: 'U-Bahnen', english: 'subway', arabic: 'مترو الأنفاق', exampleDE: 'Ich nehme die U-Bahn.', exampleAR: 'سآخذ مترو الأنفاق.', wordType: 'noun', cefr: 'A1', frequency: 1000, semanticField: 'transport', nounGenderHint: 'die Bahn' },
   { id: 't_bus', german: 'der Bus', germanBase: 'Bus', article: 'der', plural: 'Busse', english: 'bus', arabic: 'الحافلة', exampleDE: 'Der Bus kommt in fünf Minuten.', exampleAR: 'الحافلة ستأتي بعد خمس دقائق.', wordType: 'noun', cefr: 'A1', frequency: 1010, semanticField: 'transport', nounGenderHint: 'der Bus' },
   { id: 't_strasse', german: 'die Straße', germanBase: 'Straße', article: 'die', plural: 'Straßen', english: 'street', arabic: 'الشارع', exampleDE: 'Die Straße ist lang.', exampleAR: 'الشارع طويل.', wordType: 'noun', cefr: 'A1', frequency: 1020, semanticField: 'transport', nounGenderHint: 'die Straße (تنتهي بـ e)' },
@@ -155,7 +155,7 @@ export const A1_VOCABULARY: VocabWord[] = [
   { id: 't_umsteigen', german: 'umsteigen', germanBase: 'umsteigen', english: 'to transfer', arabic: 'يبدل (مواصلات)', exampleDE: 'Sie müssen in Berlin umsteigen.', exampleAR: 'يجب أن تبدل المواصلات في برلين.', wordType: 'verb', cefr: 'A1', frequency: 1180, semanticField: 'transport', verbInfo: { infinitive: 'umsteigen', pastParticiple: 'umgestiegen', auxiliaryVerb: 'sein', isIrregular: true } },
   { id: 't_ankommen', german: 'ankommen', germanBase: 'ankommen', english: 'to arrive', arabic: 'يصل', exampleDE: 'Wir kommen um 14 Uhr an.', exampleAR: 'سنصل الساعة 14.', wordType: 'verb', cefr: 'A1', frequency: 1190, semanticField: 'transport', verbInfo: { infinitive: 'ankommen', pastParticiple: 'angekommen', auxiliaryVerb: 'sein', isIrregular: true } },
 
-  // Work & Study (20)
+  // Work and Study (20)
   { id: 'w_arbeit', german: 'die Arbeit', germanBase: 'Arbeit', article: 'die', plural: 'Arbeiten', english: 'work', arabic: 'العمل', exampleDE: 'Ich habe viel Arbeit.', exampleAR: 'لدي الكثير من العمل.', wordType: 'noun', cefr: 'A1', frequency: 1200, semanticField: 'work', nounGenderHint: 'die Arbeit' },
   { id: 'w_beruf', german: 'der Beruf', germanBase: 'Beruf', article: 'der', plural: 'Berufe', english: 'profession', arabic: 'المهنة', exampleDE: 'Was ist dein Beruf?', exampleAR: 'ما هي مهنتك؟', wordType: 'noun', cefr: 'A1', frequency: 1210, semanticField: 'work', nounGenderHint: 'der Beruf' },
   { id: 'w_buero', german: 'das Büro', germanBase: 'Büro', article: 'das', plural: 'Büros', english: 'office', arabic: 'المكتب', exampleDE: 'Ich bin im Büro.', exampleAR: 'أنا في المكتب.', wordType: 'noun', cefr: 'A1', frequency: 1220, semanticField: 'work', nounGenderHint: 'das Büro (تنتهي بـ o)' },
@@ -177,7 +177,7 @@ export const A1_VOCABULARY: VocabWord[] = [
   { id: 'w_pruefung', german: 'die Prüfung', germanBase: 'Prüfung', article: 'die', plural: 'Prüfungen', english: 'exam', arabic: 'الامتحان', exampleDE: 'Die Prüfung ist schwer.', exampleAR: 'الامتحان صعب.', wordType: 'noun', cefr: 'A1', frequency: 1380, semanticField: 'work', nounGenderHint: 'die Prüfung (تنتهي بـ ung)' },
   { id: 'w_zeugnis', german: 'das Zeugnis', germanBase: 'Zeugnis', article: 'das', plural: 'Zeugnisse', english: 'certificate / report card', arabic: 'الشهادة', exampleDE: 'Er hat ein gutes Zeugnis.', exampleAR: 'لديه شهادة جيدة.', wordType: 'noun', cefr: 'A1', frequency: 1390, semanticField: 'work', nounGenderHint: 'das Zeugnis (تنتهي بـ nis محايد غالباً)' },
 
-  // Body & Health (15)
+  // Body and Health (15)
   { id: 'b_kopf', german: 'der Kopf', germanBase: 'Kopf', article: 'der', plural: 'Köpfe', english: 'head', arabic: 'الرأس', exampleDE: 'Mein Kopf tut weh.', exampleAR: 'رأسي يؤلمني.', wordType: 'noun', cefr: 'A1', frequency: 1400, semanticField: 'body', nounGenderHint: 'der Kopf' },
   { id: 'b_arm', german: 'der Arm', germanBase: 'Arm', article: 'der', plural: 'Arme', english: 'arm', arabic: 'الذراع', exampleDE: 'Er hat lange Arme.', exampleAR: 'لديه أذرع طويلة.', wordType: 'noun', cefr: 'A1', frequency: 1410, semanticField: 'body', nounGenderHint: 'der Arm' },
   { id: 'b_bein', german: 'das Bein', germanBase: 'Bein', article: 'das', plural: 'Beine', english: 'leg', arabic: 'الساق', exampleDE: 'Mein Bein ist gebrochen.', exampleAR: 'ساقي مكسورة.', wordType: 'noun', cefr: 'A1', frequency: 1420, semanticField: 'body', nounGenderHint: 'das Bein' },
@@ -194,7 +194,7 @@ export const A1_VOCABULARY: VocabWord[] = [
   { id: 'b_krankenkasse', german: 'die Krankenkasse', germanBase: 'Krankenkasse', article: 'die', plural: 'Krankenkassen', english: 'health insurance', arabic: 'شركة التأمين الصحي', exampleDE: 'Welche Krankenkasse haben Sie?', exampleAR: 'ما هي شركة التأمين الصحي التي لديك؟', wordType: 'noun', cefr: 'A1', frequency: 1530, semanticField: 'body', nounGenderHint: 'die Kasse (تنتهي بـ e)' },
   { id: 'b_termin', german: 'der Termin', germanBase: 'Termin', article: 'der', plural: 'Termine', english: 'appointment', arabic: 'الموعد', exampleDE: 'Ich habe heute einen Termin.', exampleAR: 'لدي موعد اليوم.', wordType: 'noun', cefr: 'A1', frequency: 1540, semanticField: 'body', nounGenderHint: 'der Termin' },
 
-  // Colors & Adjectives (20)
+  // Colors and Adjectives (20)
   { id: 'c_rot', german: 'rot', germanBase: 'rot', english: 'red', arabic: 'أحمر', exampleDE: 'Das Auto ist rot.', exampleAR: 'السيارة حمراء.', wordType: 'adjective', cefr: 'A1', frequency: 1600, semanticField: 'colors' },
   { id: 'c_blau', german: 'blau', germanBase: 'blau', english: 'blue', arabic: 'أزرق', exampleDE: 'Der Himmel ist blau.', exampleAR: 'السماء زرقاء.', wordType: 'adjective', cefr: 'A1', frequency: 1610, semanticField: 'colors' },
   { id: 'c_gruen', german: 'grün', germanBase: 'grün', english: 'green', arabic: 'أخضر', exampleDE: 'Das Gras ist grün.', exampleAR: 'العشب أخضر.', wordType: 'adjective', cefr: 'A1', frequency: 1620, semanticField: 'colors' },

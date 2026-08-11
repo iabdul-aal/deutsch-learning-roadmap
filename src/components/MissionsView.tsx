@@ -12,9 +12,9 @@ import {
 } from 'lucide-react';
 
 const TRACK_CONFIG: Record<MissionTrack, { label: string; labelAR: string; color: string; bg: string; icon: string }> = {
-  LIFE:   { label: 'Life in Germany',  labelAR: 'الحياة في ألمانيا',  color: 'text-emerald-700', bg: 'bg-emerald-50 border-emerald-200', icon: '🏠' },
-  STUDY:  { label: 'University',       labelAR: 'الجامعة',             color: 'text-indigo-700',  bg: 'bg-indigo-50 border-indigo-200',  icon: '🎓' },
-  CAREER: { label: 'Career & Work',    labelAR: 'المهنة والعمل',      color: 'text-amber-700',   bg: 'bg-amber-50 border-amber-200',    icon: '💼' },
+  LIFE:   { label: 'Life in Germany',  labelAR: 'الحياة في ألمانيا',  color: 'text-emerald-700', bg: 'bg-emerald-50 border-emerald-200', icon: '' },
+  STUDY:  { label: 'University',       labelAR: 'الجامعة',             color: 'text-indigo-700',  bg: 'bg-indigo-50 border-indigo-200',  icon: '' },
+  CAREER: { label: 'Career and Work',    labelAR: 'المهنة والعمل',      color: 'text-amber-700',   bg: 'bg-amber-50 border-amber-200',    icon: '' },
 };
 
 const CEFR_COLORS: Record<string, string> = {
@@ -42,7 +42,7 @@ const DialogLine: React.FC<{ line: MissionDialog; index: number }> = ({ line, in
       <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm shrink-0 font-black ${
         isYou ? 'bg-amber-500 text-white' : 'bg-stone-200 text-stone-700'
       }`}>
-        {isYou ? 'Ich' : '👤'}
+        {isYou ? 'Ich' : ''}
       </div>
 
       {/* Bubble */}
@@ -171,7 +171,7 @@ const MissionDetail: React.FC<{ mission: Mission; onBack: () => void }> = ({ mis
       {activeTab === 'dialog' && (
         <div className="paper-card p-4 space-y-4">
           <p className="text-[10px] font-black text-stone-400 uppercase tracking-wider">
-            Practice Dialog — Click bubbles to see Arabic translation
+            Practice Dialog - Click bubbles to see Arabic translation
           </p>
           {mission.dialog.length > 0 ? (
             <div className="space-y-4">
@@ -188,7 +188,7 @@ const MissionDetail: React.FC<{ mission: Mission; onBack: () => void }> = ({ mis
       {activeTab === 'vocab' && (
         <div className="paper-card p-4 space-y-3">
           <p className="text-[10px] font-black text-stone-400 uppercase tracking-wider">
-            Key Vocabulary — {mission.keyVocab.length} phrases
+            Key Vocabulary - {mission.keyVocab.length} phrases
           </p>
           <div className="space-y-2">
             {mission.keyVocab.map((word, i) => (
@@ -276,7 +276,7 @@ const MissionDetail: React.FC<{ mission: Mission; onBack: () => void }> = ({ mis
                 {/* Arabic note */}
                 {task.explanationAR && task.type === 'WRITE' && (
                   <div className="mt-2 bg-amber-50 border border-amber-100 rounded-xl p-2.5 text-[11px] text-amber-800" dir="rtl">
-                    💡 {task.explanationAR}
+                     {task.explanationAR}
                   </div>
                 )}
               </div>
@@ -294,7 +294,7 @@ const MissionDetail: React.FC<{ mission: Mission; onBack: () => void }> = ({ mis
             }`}
           >
             {isCompleted ? (
-              <><CheckCircle2 className="w-4 h-4" /> Mission Completed! ✓</>
+              <><CheckCircle2 className="w-4 h-4" /> Mission Completed! </>
             ) : (
               <><Trophy className="w-4 h-4" /> Mark Mission as Complete</>
             )}
@@ -433,7 +433,7 @@ export const MissionsView: React.FC = () => {
       {/* Track Filter */}
       <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-none">
         {([
-          ['ALL', 'All Missions', 'جميع المهام', '🗺️'],
+          ['ALL', 'All Missions', 'جميع المهام', '️'],
           ['LIFE', TRACK_CONFIG.LIFE.label, TRACK_CONFIG.LIFE.labelAR, TRACK_CONFIG.LIFE.icon],
           ['STUDY', TRACK_CONFIG.STUDY.label, TRACK_CONFIG.STUDY.labelAR, TRACK_CONFIG.STUDY.icon],
           ['CAREER', TRACK_CONFIG.CAREER.label, TRACK_CONFIG.CAREER.labelAR, TRACK_CONFIG.CAREER.icon],

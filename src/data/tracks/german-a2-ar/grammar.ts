@@ -4,7 +4,7 @@ export const GRAMMAR_DATA_A2 = {
   modules: [
     {
       id: "a2-g1",
-      title: "Subordinate Clauses with WEIL, DASS & WENN",
+      title: "Subordinate Clauses with WEIL, DASS and WENN",
       arabicTitle: "الجمل الثانوية مع weil و dass و wenn",
       summary: "In German subordinate clauses (Nebensätze), the conjugated verb moves to the very end of the clause.",
       ruleFormula: "Hauptsatz + Koppelwort (weil / dass / wenn) + Subjekt + ... + VERB (am Ende)",

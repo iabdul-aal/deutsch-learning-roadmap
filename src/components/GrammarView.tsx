@@ -72,7 +72,7 @@ const GRAMMAR_CONCEPTS: GrammarConcept[] = [
     titleDE: 'Nominative Case',
     titleAR: 'حالة الرفع (Nominativ)',
     cefr: 'A1',
-    intuitionEN: 'The nominative case is used for the subject of the sentence—the person or thing doing the action.',
+    intuitionEN: 'The nominative case is used for the subject of the sentence-the person or thing doing the action.',
     intuitionAR: 'تُستخدم حالة الرفع لفاعل الجملة - الشخص أو الشيء الذي يقوم بالفعل.',
     ruleExplanation: 'Use the base form of the articles: der, die, das, die (plural).',
     examples: [
@@ -92,13 +92,13 @@ const GRAMMAR_CONCEPTS: GrammarConcept[] = [
     titleDE: 'Accusative Case',
     titleAR: 'حالة النصب (Akkusativ)',
     cefr: 'A1',
-    intuitionEN: 'The accusative case is used for the direct object—the receiver of the action.',
+    intuitionEN: 'The accusative case is used for the direct object-the receiver of the action.',
     intuitionAR: 'تُستخدم حالة النصب للمفعول به المباشر - متلقي الفعل.',
     ruleExplanation: 'Only the masculine article changes: "der" becomes "den", and "ein" becomes "einen".',
     arabicWarning: {
       mistake: 'Ich habe der Hund.',
       correct: 'Ich habe den Hund.',
-      explanation: 'Arabic has cases (مرفوع/منصوب/مجرور) but German case rules differ completely — especially the accusative article changes.'
+      explanation: 'Arabic has cases (مرفوع/منصوب/مجرور) but German case rules differ completely - especially the accusative article changes.'
     },
     examples: [
       { de: 'Ich sehe den Mann.', en: 'I see the man.', ar: 'أنا أرى الرجل.' }

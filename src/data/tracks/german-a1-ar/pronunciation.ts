@@ -1,5 +1,5 @@
 export const PRONUNCIATION_DATA = {
-  title: "German Pronunciation System & Arabic Speaker Phonetic Guide",
+  title: "German Pronunciation System and Arabic Speaker Phonetic Guide",
   description: "Interactive pronunciation guide covering vowels, umlauts, diphthongs, consonant combinations, word rhythm, and specific phonetic traps for native Arabic speakers.",
   arabicTraps: [
     {

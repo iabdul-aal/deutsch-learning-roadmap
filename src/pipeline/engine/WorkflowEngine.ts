@@ -30,7 +30,7 @@ export class WorkflowEngine {
     const runId = `run_${Date.now()}_${Math.random().toString(36).substring(2, 8)}`;
     
     console.log("=======================================================");
-    console.log(`🚀 STARTING WORKFLOW: ${workflow.id} [ID: ${runId}]`);
+    console.log(` STARTING WORKFLOW: ${workflow.id} [ID: ${runId}]`);
     console.log("=======================================================\n");
 
     const context: Record<string, any> = { workflowId: workflow.id, runId, startTime: new Date().toISOString() };
@@ -47,9 +47,9 @@ export class WorkflowEngine {
         const result = await NodeClass.execute({ runId, context });
         context[stage.id] = result;
         completedStages.push(stage.id);
-        console.log(`  ✓ Stage '${stage.id}' completed successfully.\n`);
+        console.log(`   Stage '${stage.id}' completed successfully.\n`);
       } catch (err: any) {
-        console.error(`  ❌ Stage '${stage.id}' FAILED: ${err.message}\n`);
+        console.error(`   Stage '${stage.id}' FAILED: ${err.message}\n`);
         StateManager.recordRun({
           runId,
           workflowId: workflow.id,
@@ -63,7 +63,7 @@ export class WorkflowEngine {
     }
 
     console.log("=======================================================");
-    console.log(`🎉 WORKFLOW '${workflow.id}' COMPLETED SUCCESSFULLY!`);
+    console.log(` WORKFLOW '${workflow.id}' COMPLETED SUCCESSFULLY!`);
     console.log("=======================================================\n");
 
     const summary = {

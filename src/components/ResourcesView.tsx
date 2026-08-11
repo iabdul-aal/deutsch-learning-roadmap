@@ -28,7 +28,7 @@ const TIER_CONFIG: Record<ContentTier, { label: string; color: string; icon: Rea
 };
 
 const LANG_FLAGS: Record<ContentLang, string> = {
-  AR: '🇦🇪 AR', EN: '🇬🇧 EN', DE: '🇩🇪 DE', BILINGUAL: '🌐 Bilingual'
+  AR: ' AR', EN: ' EN', DE: ' DE', BILINGUAL: ' Bilingual'
 };
 
 // ── Helpers ─────────────────────────────────────────────────────
@@ -107,7 +107,7 @@ const ResourceCard: React.FC<{
               <div className="flex items-center gap-1.5 shrink-0">
                 {/* Rank score pill */}
                 <span className={`text-[10px] font-black px-2 py-0.5 rounded-full bg-stone-100 ${getRankColor(scored.rankScore ?? 0)}`}>
-                  ★ {scored.rankScore}
+                   {scored.rankScore}
                 </span>
                 {isExpanded ? <ChevronUp className="w-3.5 h-3.5 text-stone-400" /> : <ChevronDown className="w-3.5 h-3.5 text-stone-400" />}
               </div>
@@ -132,7 +132,7 @@ const ResourceCard: React.FC<{
                 source.type === 'PDF' ? 'bg-rose-50 text-rose-700' :
                 'bg-teal-50 text-teal-700'
               }`}>
-                {source.type === 'VIDEO' ? '▶ Video' : source.type === 'PDF' ? '📄 PDF' : '🌐 Interactive'}
+                {source.type === 'VIDEO' ? '▶ Video' : source.type === 'PDF' ? ' PDF' : ' Interactive'}
               </span>
             </div>
           </div>
@@ -301,10 +301,10 @@ export const ResourcesView: React.FC = () => {
 
   const LANG_OPTIONS = [
     { id: 'ALL', label: 'All Languages' },
-    { id: 'AR',  label: '🇦🇪 Arabic' },
-    { id: 'EN',  label: '🇬🇧 English' },
-    { id: 'DE',  label: '🇩🇪 German' },
-    { id: 'BILINGUAL', label: '🌐 Bilingual' },
+    { id: 'AR',  label: ' Arabic' },
+    { id: 'EN',  label: ' English' },
+    { id: 'DE',  label: ' German' },
+    { id: 'BILINGUAL', label: ' Bilingual' },
   ];
 
   return (

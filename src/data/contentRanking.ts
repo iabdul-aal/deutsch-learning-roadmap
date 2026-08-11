@@ -143,7 +143,7 @@ export function getYouTubeEmbedUrl(resourceId: string, autoplay = false): string
     base = `https://www.youtube.com/embed/${resourceId}`;
   }
   const sep = base.includes('?') ? '&' : '?';
-  return `${base}${sep}rel=0&modestbranding=1${autoplay ? '&autoplay=1' : ''}`;
+  return `${base}${sep}rel=0 and modestbranding=1${autoplay ? '&autoplay=1' : ''}`;
 }
 
 // ══════════════════════════════════════════════════════════════
@@ -153,7 +153,7 @@ export function getYouTubeEmbedUrl(resourceId: string, autoplay = false): string
 export const CONTENT_DB: ContentSource[] = [
 
   // ─────────────────────────────────────────────────────────────
-  // 🟡 DEUTSCH MIT HEND - Arabic Primary Channel
+  //  DEUTSCH MIT HEND - Arabic Primary Channel
   // Channel: @FrauHendTaha | Playlists: A1→PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu
   // ─────────────────────────────────────────────────────────────
   {
@@ -171,7 +171,7 @@ export const CONTENT_DB: ContentSource[] = [
     id: 'hend_alphabet',
     type: 'VIDEO', tier: 'PRIMARY',
     resourceId: 'A_c1V5h5a_k',
-    title: 'Das Alphabet & Phonetics - German Pronunciation',
+    title: 'Das Alphabet and Phonetics - German Pronunciation',
     titleAR: 'الأبجدية الألمانية والنطق الصحيح',
     channelOrAuthor: 'Deutsch mit Hend',
     level: 'A1', skills: ['SPRECHEN', 'HOEREN'],
@@ -215,7 +215,7 @@ export const CONTENT_DB: ContentSource[] = [
     id: 'hend_tagesablauf',
     type: 'VIDEO', tier: 'PRIMARY',
     resourceId: 'e_0kU4M0d0U',
-    title: 'Tagesablauf - Daily Routine Vocabulary & Sentences',
+    title: 'Tagesablauf - Daily Routine Vocabulary and Sentences',
     titleAR: 'مفردات الروتين اليومي بالألمانية',
     channelOrAuthor: 'Deutsch mit Hend',
     level: 'A1', skills: ['VOCAB', 'HOEREN', 'SPRECHEN'],
@@ -258,7 +258,7 @@ export const CONTENT_DB: ContentSource[] = [
   },
 
   // ─────────────────────────────────────────────────────────────
-  // 🟠 TALEEK - طليق - Arabic, High-Impact A1
+  //  TALEEK - طليق - Arabic, High-Impact A1
   // Channel: @Taleek | Playlist: PLxCFn5-t8kLWj6ksMMOxRnDnbXS2ugprA
   // ─────────────────────────────────────────────────────────────
   {
@@ -285,7 +285,7 @@ export const CONTENT_DB: ContentSource[] = [
   },
 
   // ─────────────────────────────────────────────────────────────
-  // 🟢 EASY GERMAN / SUPER EASY GERMAN - Bilingual Immersion
+  //  EASY GERMAN / SUPER EASY GERMAN - Bilingual Immersion
   // Channel: @EasyGerman
   // ─────────────────────────────────────────────────────────────
   {
@@ -350,7 +350,7 @@ export const CONTENT_DB: ContentSource[] = [
   },
 
   // ─────────────────────────────────────────────────────────────
-  // 🔵 DW NICOS WEG - Official Deutsche Welle, Story Immersion
+  //  DW NICOS WEG - Official Deutsche Welle, Story Immersion
   // Channel: @dwlearngerman
   // ─────────────────────────────────────────────────────────────
   {
@@ -395,7 +395,7 @@ export const CONTENT_DB: ContentSource[] = [
   },
 
   // ─────────────────────────────────────────────────────────────
-  // 🟣 lingoni GERMAN (formerly Learn German with Jenny)
+  //  lingoni GERMAN (formerly Learn German with Jenny)
   // Channel: @lingoniGERMAN
   // ─────────────────────────────────────────────────────────────
   {
@@ -420,7 +420,7 @@ export const CONTENT_DB: ContentSource[] = [
   },
 
   // ─────────────────────────────────────────────────────────────
-  // ⚪ Learn German with Anja
+  //  Learn German with Anja
   // Channel: @LearnGermanwithAnja | Playlist: PLF9mJC4RrjIhS4MMm0x72-qWEn1LRvPuW
   // ─────────────────────────────────────────────────────────────
   {
@@ -460,7 +460,7 @@ export const CONTENT_DB: ContentSource[] = [
   },
 
   // ─────────────────────────────────────────────────────────────
-  // 📄 OFFICIAL PDF RESOURCES
+  //  OFFICIAL PDF RESOURCES
   // ─────────────────────────────────────────────────────────────
   {
     id: 'goethe_a1_pdf_modellsatz',
@@ -526,7 +526,7 @@ export const CONTENT_DB: ContentSource[] = [
     id: 'anki_goethe_a1_deck',
     type: 'INTERACTIVE', tier: 'SECONDARY',
     resourceId: 'https://ankiweb.net/shared/info/2047595496',
-    title: 'Anki Deck - Goethe A1-B1 German with Audio & Gender Color-Coding',
+    title: 'Anki Deck - Goethe A1-B1 German with Audio and Gender Color-Coding',
     channelOrAuthor: 'AnkiWeb Community',
     level: 'ALL', skills: ['VOCAB'],
     language: 'BILINGUAL',
@@ -544,7 +544,7 @@ export const CONTENT_DB: ContentSource[] = [
   },
 
   // ─────────────────────────────────────────────────────────────
-  // 🔴 SHEHATA DEUTSCH - الألمانية مع مستر شحاته
+  //  SHEHATA DEUTSCH - الألمانية مع مستر شحاته
   // Channel: @MohammadShehata-Official | Certified Goethe Examiner
   // A1 playlist: PLOLEcgfCxrf-_aFPd2gnBsHfA066_Ka0M
   // A2 playlist: PLOLEcgfCxrf8bFnxewy5RmOH0tMXV2HdG
@@ -554,7 +554,7 @@ export const CONTENT_DB: ContentSource[] = [
     id: 'shehata_a1_intro',
     type: 'VIDEO', tier: 'SECONDARY',
     resourceId: '_VyYfZP9MsY',
-    title: 'A1 Lesson 1 - German Alphabet & Letters (from Zero)',
+    title: 'A1 Lesson 1 - German Alphabet and Letters (from Zero)',
     titleAR: 'تعلم الألمانية للمبتدئين - الحروف (الدرس الأول)',
     channelOrAuthor: 'Shehata Deutsch',
     level: 'A1', skills: ['SPRECHEN', 'HOEREN', 'GRAMMATIK'],
@@ -587,7 +587,7 @@ export const CONTENT_DB: ContentSource[] = [
     id: 'shehata_b1_writing',
     type: 'VIDEO', tier: 'SECONDARY',
     resourceId: '0X2aB5yD_9A',
-    title: 'B1 Writing Course - Connectors & Conjunctions',
+    title: 'B1 Writing Course - Connectors and Conjunctions',
     titleAR: 'كورس الكتابة B1 - الروابط في الجملة الألمانية',
     channelOrAuthor: 'Shehata Deutsch',
     level: 'B1', skills: ['SCHREIBEN', 'GRAMMATIK'],
@@ -607,7 +607,7 @@ export const CONTENT_DB: ContentSource[] = [
   },
 
   // ─────────────────────────────────────────────────────────────
-  // 🟤 DEUTSCH MIT MIRA - Simplified Arabic explanations A1-B2
+  //  DEUTSCH MIT MIRA - Simplified Arabic explanations A1-B2
   // Channel: @DeutschmitMira
   // ─────────────────────────────────────────────────────────────
   {
@@ -634,13 +634,13 @@ export const CONTENT_DB: ContentSource[] = [
   },
 
   // ─────────────────────────────────────────────────────────────
-  // 🔵 DW NICOS WEG - Verified Individual Episode IDs
+  //  DW NICOS WEG - Verified Individual Episode IDs
   // ─────────────────────────────────────────────────────────────
   {
     id: 'dw_ep1_hallo',
     type: 'VIDEO', tier: 'PRIMARY',
     resourceId: '4l0FAscn1LU',
-    title: 'Nicos Weg - Folge 1: Hallo! (Greetings & Introductions)',
+    title: 'Nicos Weg - Folge 1: Hallo! (Greetings and Introductions)',
     channelOrAuthor: 'DW Deutsche Welle',
     level: 'A1', skills: ['HOEREN', 'SPRECHEN'],
     language: 'DE', durationMin: 8,
@@ -650,7 +650,7 @@ export const CONTENT_DB: ContentSource[] = [
     id: 'dw_ep2_kein_problem',
     type: 'VIDEO', tier: 'PRIMARY',
     resourceId: 'F182lZ1D6-k',
-    title: 'Nicos Weg - Folge 2: Kein Problem! (Numbers & Help)',
+    title: 'Nicos Weg - Folge 2: Kein Problem! (Numbers and Help)',
     channelOrAuthor: 'DW Deutsche Welle',
     level: 'A1', skills: ['HOEREN', 'LESEN'],
     language: 'DE', durationMin: 8,
@@ -660,7 +660,7 @@ export const CONTENT_DB: ContentSource[] = [
     id: 'dw_nicos_ep1_intro_lesson',
     type: 'VIDEO', tier: 'PRIMARY',
     resourceId: 'dr-dJ0a3Scs',
-    title: 'Deutsch für Anfänger - Sich vorstellen & Buchstabieren (A1)',
+    title: 'Deutsch für Anfänger - Sich vorstellen and Buchstabieren (A1)',
     channelOrAuthor: 'Hallo Deutschschule',
     level: 'A1', skills: ['SPRECHEN', 'HOEREN'],
     language: 'DE', durationMin: 15,
@@ -668,7 +668,7 @@ export const CONTENT_DB: ContentSource[] = [
   },
 
   // ─────────────────────────────────────────────────────────────
-  // 🟢 lingoni GERMAN - Verified Grammar-Specific Videos
+  //  lingoni GERMAN - Verified Grammar-Specific Videos
   // ─────────────────────────────────────────────────────────────
   {
     id: 'lingoni_akkusativ',
@@ -712,13 +712,13 @@ export const CONTENT_DB: ContentSource[] = [
   },
 
   // ─────────────────────────────────────────────────────────────
-  // ⚪ LEARN GERMAN WITH ANJA - Verified Popular Videos
+  //  LEARN GERMAN WITH ANJA - Verified Popular Videos
   // ─────────────────────────────────────────────────────────────
   {
     id: 'anja_lesson_1_greetings',
     type: 'VIDEO', tier: 'SECONDARY',
     resourceId: 'RrfgbBp6ScI',
-    title: 'German Lesson 1 - Greetings & Introductions for Beginners',
+    title: 'German Lesson 1 - Greetings and Introductions for Beginners',
     channelOrAuthor: 'Learn German with Anja',
     level: 'A1', skills: ['SPRECHEN', 'HOEREN'],
     language: 'EN', durationMin: 12,
@@ -770,7 +770,7 @@ export const CONTENT_DB: ContentSource[] = [
   },
 
   // ─────────────────────────────────────────────────────────────
-  // 📄 GOETHE A2 OFFICIAL PDF (verified URL)
+  //  GOETHE A2 OFFICIAL PDF (verified URL)
   // ─────────────────────────────────────────────────────────────
   {
     id: 'goethe_a2_pdf_modellsatz',
@@ -784,13 +784,13 @@ export const CONTENT_DB: ContentSource[] = [
   },
 
   // ─────────────────────────────────────────────────────────────
-  // 🌐 FREE READING & INTERACTIVE RESOURCES
+  //  FREE READING and INTERACTIVE RESOURCES
   // ─────────────────────────────────────────────────────────────
   {
     id: 'lingua_reading',
     type: 'INTERACTIVE', tier: 'SUPPLEMENTARY',
     resourceId: 'https://lingua.com/german/reading/',
-    title: 'Lingua.com - Graded German Reading Texts A1-B2 (with Quizzes & PDFs)',
+    title: 'Lingua.com - Graded German Reading Texts A1-B2 (with Quizzes and PDFs)',
     channelOrAuthor: 'Lingua.com',
     level: 'ALL', skills: ['LESEN'],
     language: 'DE',
@@ -800,7 +800,7 @@ export const CONTENT_DB: ContentSource[] = [
     id: 'schubert_verlag',
     type: 'INTERACTIVE', tier: 'SUPPLEMENTARY',
     resourceId: 'https://www.schubert-verlag.de/aufgaben/index.htm',
-    title: 'Schubert Verlag - Free German Grammar & Reading Exercises (A1-C2)',
+    title: 'Schubert Verlag - Free German Grammar and Reading Exercises (A1-C2)',
     channelOrAuthor: 'Schubert Verlag',
     level: 'ALL', skills: ['GRAMMATIK', 'SCHREIBEN', 'LESEN'],
     language: 'DE',

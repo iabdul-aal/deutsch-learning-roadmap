@@ -180,7 +180,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
   // Reset confirmation state (replaces window.confirm)
   const [pendingReset, setPendingReset] = useState(false);
 
-  // Persist legacy state — debounced to avoid excessive I/O
+  // Persist legacy state - debounced to avoid excessive I/O
   useEffect(() => {
     const timeout = setTimeout(() => {
       safeStorage.setItem(STORAGE_KEY, sanitizeForStorage(state));
@@ -188,7 +188,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     return () => clearTimeout(timeout);
   }, [state]);
 
-  // Persist learner model — debounced
+  // Persist learner model - debounced
   useEffect(() => {
     const timeout = setTimeout(() => {
       safeStorage.setItem(STORAGE_KEY_LEARNER, learnerModel);
@@ -475,7 +475,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     }}>
       {children}
 
-      {/* In-app reset confirmation — replaces window.confirm() */}
+      {/* In-app reset confirmation - replaces window.confirm() */}
       {pendingReset && (
         <div
           className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/50 backdrop-blur-sm"

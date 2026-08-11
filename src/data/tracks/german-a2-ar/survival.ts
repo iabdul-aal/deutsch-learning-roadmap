@@ -1,10 +1,10 @@
 export const SURVIVAL_DATA_A2 = {
-  title: "Germany A2 Survival & Intermediate Scenarios",
+  title: "Germany A2 Survival and Intermediate Scenarios",
   description: "Practical German A2 dialogs for medical appointments, job interviews, and apartment contract negotiations.",
   domains: [
     {
       id: "a2-dom-doctor",
-      name: "Medical Appointments & Doctor Consultations",
+      name: "Medical Appointments and Doctor Consultations",
       arabicName: "حجز المواعيد الطبية ومقابلة الطبيب",
       count: 4,
       phrases: [

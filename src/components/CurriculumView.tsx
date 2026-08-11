@@ -29,15 +29,15 @@ const getTaskMeta = (type: string) => TASK_META[type] ?? TASK_META.default;
 
 // ── Skill → contentRanking SkillType mapping ─────────────────────
 const FOCUS_SKILL_MAP: Record<string, SkillType> = {
-  'Pronunciation & Greetings': 'SPRECHEN',
-  'Grammar & Conversation': 'GRAMMATIK',
-  'Speaking & Listening': 'SPRECHEN',
+  'Pronunciation and Greetings': 'SPRECHEN',
+  'Grammar and Conversation': 'GRAMMATIK',
+  'Speaking and Listening': 'SPRECHEN',
   'Grammar Core': 'GRAMMATIK',
-  'Grammar & Speaking': 'GRAMMATIK',
-  'Listening & Vocabulary': 'HOEREN',
-  'Vocabulary & Reading': 'VOCAB',
-  'Reading & Grammar': 'LESEN',
-  'Writing & Grammar': 'SCHREIBEN',
+  'Grammar and Speaking': 'GRAMMATIK',
+  'Listening and Vocabulary': 'HOEREN',
+  'Vocabulary and Reading': 'VOCAB',
+  'Reading and Grammar': 'LESEN',
+  'Writing and Grammar': 'SCHREIBEN',
 };
 
 // ── Topic → video ID map (deduplicated, unique per day topic) ────
@@ -45,7 +45,7 @@ const FOCUS_SKILL_MAP: Record<string, SkillType> = {
 // Built deterministically from contentRanking IDs - no repeated URLs.
 const TOPIC_VIDEO_MAP: Record<number, string> = {
   // Day → YouTube video ID (from CONTENT_DB - all verified)
-  1:  'A_c1V5h5a_k',  // Hend: Alphabet & Phonetics
+  1:  'A_c1V5h5a_k',  // Hend: Alphabet and Phonetics
   2:  'r94aqLUO0wo',  // Easy German: Introduce Yourself (SEG #1)
   3:  'WMvCXVorOsg',  // Hend: A1 Course Overview (covers numbers/W-Fragen intro)
   4:  'F3a7cI2g_sM',  // Hend: Akkusativ (articles context)
@@ -102,7 +102,7 @@ const WritingPromptCard: React.FC<{ title: string; isDone: boolean }> = ({ title
       <div className="flex justify-between items-center">
         <span className="text-[10px] text-stone-400">{text.length} characters</span>
         {text.length > 10 && (
-          <span className="text-[10px] text-emerald-600 font-bold">✓ Saved</span>
+          <span className="text-[10px] text-emerald-600 font-bold"> Saved</span>
         )}
       </div>
     </div>
@@ -246,7 +246,7 @@ const TaskCard: React.FC<{
             onClick={() => { toggleTask(taskId, dayNumber); setExpanded(false); }}
             className="w-full py-2 rounded-xl bg-stone-900 text-white text-xs font-black hover:bg-stone-700 transition-colors"
           >
-            Mark Complete ✓
+            Mark Complete 
           </button>
         </div>
       )}
@@ -292,7 +292,7 @@ const DayCard: React.FC<{ day: any; trackId: string }> = ({ day, trackId }) => {
                 ? 'bg-amber-100 text-amber-800'
                 : 'bg-stone-100 text-stone-600'
           }`}>
-            {isDayDone ? '✓' : day.dayNumber}
+            {isDayDone ? '' : day.dayNumber}
           </div>
 
           <div className="min-w-0 flex-1">
@@ -336,7 +336,7 @@ const DayCard: React.FC<{ day: any; trackId: string }> = ({ day, trackId }) => {
                 : 'bg-white text-stone-500 border-stone-200 hover:border-amber-400 hover:text-amber-700'
             }`}
           >
-            {isDayDone ? '✓ Done' : 'Mark Day'}
+            {isDayDone ? ' Done' : 'Mark Day'}
           </button>
           <ChevronDown className={`w-4 h-4 text-stone-400 transition-transform ${expanded ? 'rotate-180' : ''}`} />
         </div>
@@ -478,7 +478,7 @@ export const CurriculumView: React.FC = () => {
                     <span className={`text-[10px] font-black ${
                       percent === 100 ? 'text-emerald-600' : isSelected ? 'text-amber-100' : 'text-stone-400'
                     }`}>
-                      {percent === 100 ? '✓' : `${percent}%`}
+                      {percent === 100 ? '' : `${percent}%`}
                     </span>
                   </div>
                 </div>

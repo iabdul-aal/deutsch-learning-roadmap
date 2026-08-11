@@ -1,16 +1,16 @@
 export const ASSESSMENTS_DATA = {
-  title: "8-Week Interactive Goethe A1 & FAU Erlangen Assessment System",
-  description: "Weekly comprehensive tests modeled after Goethe-Zertifikat A1 (Start Deutsch 1) & FAU Erlangen-Nürnberg Sprachenzentrum course exams (Hören, Lesen, Schreiben, Sprechen).",
+  title: "8-Week Interactive Goethe A1 and FAU Erlangen Assessment System",
+  description: "Weekly comprehensive tests modeled after Goethe-Zertifikat A1 (Start Deutsch 1) and FAU Erlangen-Nürnberg Sprachenzentrum course exams (Hören, Lesen, Schreiben, Sprechen).",
   assessments: [
     {
       weekNumber: 1,
-      title: "Week 1 Assessment: Goethe A1 Part 1 (Sprechen & Foundations)",
+      title: "Week 1 Assessment: Goethe A1 Part 1 (Sprechen and Foundations)",
       timeMinutes: 20,
       questions: [
         {
           id: "w1-q1",
           topicTag: "g2_pronouns",
-          topicTitle: "Personal Pronouns & Formal Address",
+          topicTitle: "Personal Pronouns and Formal Address",
           question: "Goethe A1 Sprechen Part 1 (Self Intro): How do you politely introduce yourself to a FAU Erlangen administrator?",
           options: ["Mein Name ist... Ich komme aus...", "Ich du heisse...", "Mein Name bist...", "Ich aus Kairo wohnen..."],
           correctIndex: 0,
@@ -52,7 +52,7 @@ export const ASSESSMENTS_DATA = {
     },
     {
       weekNumber: 2,
-      title: "Week 2 Assessment: Accusative, Supermarket & Time (Spektrum A1 / Goethe Hören)",
+      title: "Week 2 Assessment: Accusative, Supermarket and Time (Spektrum A1 / Goethe Hören)",
       timeMinutes: 25,
       questions: [
         {
@@ -86,13 +86,13 @@ export const ASSESSMENTS_DATA = {
     },
     {
       weekNumber: 3,
-      title: "Week 3 Assessment: Goethe A1 Schreiben (Form & Landlord Letter)",
+      title: "Week 3 Assessment: Goethe A1 Schreiben (Form and Landlord Letter)",
       timeMinutes: 25,
       questions: [
         {
           id: "w3-q1",
           topicTag: "g11_modal_verbs",
-          topicTitle: "Modal Verbs & Main Verb Position",
+          topicTitle: "Modal Verbs and Main Verb Position",
           question: "Which sentence correctly places the main verb when using modal verb 'müssen'?",
           options: [
             "Ich muss heute anmelden mich.",
@@ -116,7 +116,7 @@ export const ASSESSMENTS_DATA = {
     },
     {
       weekNumber: 4,
-      title: "Week 4 Assessment: Dative Case, Prepositions & Directions (Goethe Lesen)",
+      title: "Week 4 Assessment: Dative Case, Prepositions and Directions (Goethe Lesen)",
       timeMinutes: 25,
       questions: [
         {
@@ -141,7 +141,7 @@ export const ASSESSMENTS_DATA = {
     },
     {
       weekNumber: 5,
-      title: "Week 5 Assessment: FAU Erlangen University Enrollment & Student Office",
+      title: "Week 5 Assessment: FAU Erlangen University Enrollment and Student Office",
       timeMinutes: 25,
       questions: [
         {
@@ -157,7 +157,7 @@ export const ASSESSMENTS_DATA = {
     },
     {
       weekNumber: 6,
-      title: "Week 6 Assessment: Das Perfekt (Past Tense Master Test & Goethe Reading)",
+      title: "Week 6 Assessment: Das Perfekt (Past Tense Master Test and Goethe Reading)",
       timeMinutes: 30,
       questions: [
         {
@@ -178,13 +178,13 @@ export const ASSESSMENTS_DATA = {
     },
     {
       weekNumber: 7,
-      title: "Week 7 Assessment: Visas, Goethe Start Deutsch 1 Prep & Subordinate Clauses",
+      title: "Week 7 Assessment: Visas, Goethe Start Deutsch 1 Prep and Subordinate Clauses",
       timeMinutes: 30,
       questions: [
         {
           id: "w7-q1",
           topicTag: "g17_subordinate_clauses",
-          topicTitle: "Weil & Verb End Rule",
+          topicTitle: "Weil and Verb End Rule",
           question: "Complete the sentence correctly: 'Ich lerne Deutsch, weil ich in Erlangen ___.'",
           options: ["wohne", "wohnen möchte", "möchte wohnen", "wohnen"],
           correctIndex: 1,
@@ -194,7 +194,7 @@ export const ASSESSMENTS_DATA = {
     },
     {
       weekNumber: 8,
-      title: "Week 8 Graduation Test: Goethe-Zertifikat A1 & FAU Academic Readiness Exam",
+      title: "Week 8 Graduation Test: Goethe-Zertifikat A1 and FAU Academic Readiness Exam",
       timeMinutes: 45,
       questions: [
         {

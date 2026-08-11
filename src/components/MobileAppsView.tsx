@@ -14,14 +14,14 @@ export const MobileAppsView: React.FC = () => {
         <div className="flex items-center gap-2 mb-1">
           <Smartphone className="w-4 h-4 text-emerald-700" />
           <span className="text-[10px] font-bold text-emerald-800 uppercase tracking-wider">
-            Play Store & App Store Guide
+            Play Store and App Store Guide
           </span>
         </div>
         <h2 className="text-lg sm:text-xl font-extrabold text-stone-900">
           Essential Mobile Companion Apps
         </h2>
         <p className="text-xs text-stone-600 max-w-2xl">
-          Curated apps for SRS flashcards, listening practice, pronunciation drills, and vocabulary — tested alongside the 8-Week curriculum.
+          Curated apps for SRS flashcards, listening practice, pronunciation drills, and vocabulary - tested alongside the 8-Week curriculum.
         </p>
       </div>
 
@@ -34,7 +34,7 @@ export const MobileAppsView: React.FC = () => {
             <div className="flex items-start justify-between gap-3">
               <div className="flex items-center gap-3 min-w-0">
                 <div className="w-10 h-10 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center text-xl shrink-0">
-                  📱
+                  
                 </div>
                 <div className="min-w-0">
                   <h4 className="text-sm font-extrabold text-stone-900 truncate">{app.name}</h4>
@@ -68,7 +68,7 @@ export const MobileAppsView: React.FC = () => {
               )}
               {app.offline ? (
                 <span className="px-2 py-0.5 rounded bg-indigo-50 border border-indigo-200 text-[10px] font-bold text-indigo-800 flex items-center gap-1">
-                  <WifiOff className="w-2.5 h-2.5" /> Offline ✓
+                  <WifiOff className="w-2.5 h-2.5" /> Offline 
                 </span>
               ) : (
                 <span className="px-2 py-0.5 rounded bg-stone-50 border border-stone-200 text-[10px] font-bold text-stone-500 flex items-center gap-1">

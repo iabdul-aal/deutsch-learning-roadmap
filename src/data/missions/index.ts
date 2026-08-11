@@ -1,6 +1,6 @@
 /**
  * ══════════════════════════════════════════════════════════
- * MISSIONS DATA — Real-World German Simulation Scenarios
+ * MISSIONS DATA - Real-World German Simulation Scenarios
  * 12 missions covering Life, Study, and Career tracks.
  * ══════════════════════════════════════════════════════════
  */
@@ -64,9 +64,9 @@ export const MISSIONS: Mission[] = [
     track: 'LIFE',
     difficulty: 'A1',
     estimatedMinutes: 15,
-    scenario: 'German language course — first day',
-    scenarioAR: 'دورة اللغة الألمانية — اليوم الأول',
-    icon: '👋',
+    scenario: 'German language course - first day',
+    scenarioAR: 'دورة اللغة الألمانية - اليوم الأول',
+    icon: '',
     keyVocab: [
       { german: 'Ich heiße...', arabic: 'اسمي...', example: 'Ich heiße Ahmad.' },
       { german: 'Ich komme aus...', arabic: 'أنا من...', example: 'Ich komme aus Ägypten.' },
@@ -105,7 +105,7 @@ export const MISSIONS: Mission[] = [
       },
       {
         id: 't3', type: 'WRITE',
-        prompt: 'Write your own self-introduction (4–5 sentences):',
+        prompt: 'Write your own self-introduction (4-5 sentences):',
         promptAR: 'اكتب تعريفاً بنفسك (4-5 جمل):',
         content: 'Use: Name, Herkunft (origin), Wohnort (city), Alter (age), Beruf oder Ziel (job/goal)',
       },
@@ -126,7 +126,7 @@ export const MISSIONS: Mission[] = [
     estimatedMinutes: 20,
     scenario: 'German doctor\'s office (Arztpraxis)',
     scenarioAR: 'عيادة طبيب ألماني',
-    icon: '🏥',
+    icon: '',
     keyVocab: [
       { german: 'Ich habe Schmerzen.', arabic: 'عندي ألم.', example: 'Ich habe Kopfschmerzen.' },
       { german: 'Mir ist schwindelig.', arabic: 'أشعر بالدوار.', example: 'Mir ist sehr schwindelig.' },
@@ -155,7 +155,7 @@ export const MISSIONS: Mission[] = [
         promptAR: 'أكمل الجمل باستخدام الفعل الصحيح:',
         content: 'Ich _____ Kopfschmerzen. (have) / Mir _____ schwindelig. (feel) / Ich _____ seit zwei Tagen Fieber. (have)',
         answer: 'habe / ist / habe',
-        explanationAR: 'تذكر: "Mir ist schwindelig" هو تعبير ثابت — لا تقل "Ich bin schwindelig"',
+        explanationAR: 'تذكر: "Mir ist schwindelig" هو تعبير ثابت - لا تقل "Ich bin schwindelig"',
       },
       {
         id: 't2', type: 'TRANSLATE',
@@ -181,7 +181,7 @@ export const MISSIONS: Mission[] = [
     estimatedMinutes: 25,
     scenario: 'Apartment viewing and rental office',
     scenarioAR: 'معاينة الشقة ومكتب الإيجار',
-    icon: '🏠',
+    icon: '',
     keyVocab: [
       { german: 'die Kaltmiete', arabic: 'الإيجار بدون تدفئة', example: 'Die Kaltmiete beträgt 650 Euro.' },
       { german: 'die Nebenkosten', arabic: 'التكاليف الإضافية', example: 'Die Nebenkosten betragen 120 Euro.' },
@@ -212,7 +212,7 @@ export const MISSIONS: Mission[] = [
       },
       {
         id: 't2', type: 'WRITE',
-        prompt: 'Write an email to a landlord asking about an apartment (5–6 sentences):',
+        prompt: 'Write an email to a landlord asking about an apartment (5-6 sentences):',
         promptAR: 'اكتب بريداً إلكترونياً إلى مالك شقة يسأل عن شقة (5-6 جمل):',
         content: 'Include: greeting, your name, interest in the apartment, questions about size/price/availability, closing',
       },
@@ -233,7 +233,7 @@ export const MISSIONS: Mission[] = [
     estimatedMinutes: 15,
     scenario: 'German supermarket (REWE, Edeka, Aldi)',
     scenarioAR: 'سوبرماركت ألماني',
-    icon: '🛒',
+    icon: '',
     keyVocab: [
       { german: 'Wo finde ich...?', arabic: 'أين أجد...؟', example: 'Wo finde ich die Milch?' },
       { german: 'Was kostet...?', arabic: 'كم يكلف...؟', example: 'Was kostet das Brot?' },
@@ -279,7 +279,7 @@ export const MISSIONS: Mission[] = [
     estimatedMinutes: 25,
     scenario: 'German university email',
     scenarioAR: 'بريد إلكتروني جامعي ألماني',
-    icon: '🎓',
+    icon: '',
     keyVocab: [
       { german: 'Sehr geehrte/r Frau/Herr Professor...', arabic: 'السيدة/السيد الأستاذ العزيز/ة...', example: 'Sehr geehrte Frau Professorin Schmidt,' },
       { german: 'Ich wende mich an Sie, weil...', arabic: 'أتواصل معك لأن...', example: 'Ich wende mich an Sie, weil ich an Ihrem Seminar interessiert bin.' },
@@ -324,7 +324,7 @@ export const MISSIONS: Mission[] = [
     estimatedMinutes: 30,
     scenario: 'Job interview at a German company',
     scenarioAR: 'مقابلة عمل في شركة ألمانية',
-    icon: '💼',
+    icon: '',
     keyVocab: [
       { german: 'Erzählen Sie von sich.', arabic: 'أخبرني عن نفسك.', example: 'Erzählen Sie mir etwas über sich.' },
       { german: 'Meine Stärken sind...', arabic: 'نقاط قوتي هي...', example: 'Meine Stärken sind Teamfähigkeit und Zuverlässigkeit.' },

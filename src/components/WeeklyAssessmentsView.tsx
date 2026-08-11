@@ -59,7 +59,7 @@ export const WeeklyAssessmentsView: React.FC = () => {
             8 Weekly Comprehensive Assessments
           </h2>
           <p className="text-xs text-stone-600 mt-1">
-            Automated evaluation & weak topic detection. Flagged topics are pushed to your Targeted Review queue.
+            Automated evaluation and weak topic detection. Flagged topics are pushed to your Targeted Review queue.
           </p>
         </div>
       </div>
@@ -162,7 +162,7 @@ export const WeeklyAssessmentsView: React.FC = () => {
             onClick={evaluateTest}
             className="w-full py-3 rounded bg-amber-500 hover:bg-amber-400 text-stone-950 font-extrabold text-xs transition-all shadow-xs active:scale-[0.99]"
           >
-            Submit Test & Grade Performance
+            Submit Test and Grade Performance
           </button>
         ) : (
           <div className={`p-4 rounded-xl border space-y-3 text-center w-full min-w-0 ${
@@ -172,7 +172,7 @@ export const WeeklyAssessmentsView: React.FC = () => {
               ? 'bg-amber-50 border-amber-300'
               : 'bg-rose-50 border-rose-200'
           }`}>
-            <div className="text-2xl">{testResult.percent >= 80 ? '🎉' : testResult.percent >= 60 ? '💪' : '📚'}</div>
+            <div className="text-2xl">{testResult.percent >= 80 ? '' : testResult.percent >= 60 ? '' : ''}</div>
             <h4 className="text-sm font-extrabold text-stone-900">
               Score: {testResult.score}/{testResult.total} ({testResult.percent}%)
             </h4>
@@ -181,11 +181,11 @@ export const WeeklyAssessmentsView: React.FC = () => {
                 ? 'Excellent! You have mastered this week\'s material.'
                 : testResult.percent >= 60
                 ? 'Good effort! Review the flagged topics below.'
-                : 'Keep practicing — focus on the grammar concepts below.'}
+                : 'Keep practicing - focus on the grammar concepts below.'}
             </p>
             {testResult.flaggedTopics.length > 0 && (
               <div className="text-xs text-amber-800 bg-amber-50 border border-amber-200 rounded-lg p-2.5 text-left space-y-1">
-                <p className="font-bold">⚠️ Weak topics flagged for review:</p>
+                <p className="font-bold">️ Weak topics flagged for review:</p>
                 <p className="text-stone-700">{testResult.flaggedTopics.join(' · ')}</p>
               </div>
             )}

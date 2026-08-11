@@ -1,14 +1,14 @@
 /**
  * ══════════════════════════════════════════════════════════
  * SM-2 SPACED REPETITION ENGINE
- * Pure TypeScript — no React imports, no side effects.
+ * Pure TypeScript - no React imports, no side effects.
  * Based on the SuperMemo SM-2 algorithm.
  * ══════════════════════════════════════════════════════════
  */
 
 import type { SRSCard, SRSCardState } from '../types/learner';
 
-/** Quality rating 0–5 after reviewing a card:
+/** Quality rating 0-5 after reviewing a card:
  *  5 = perfect recall
  *  4 = correct after hesitation
  *  3 = correct with difficulty
@@ -40,7 +40,7 @@ export function reviewCard(card: SRSCard, quality: ReviewQuality): SRSCard {
   const updated = { ...card, lastReviewDate: today };
 
   if (quality < 3) {
-    // Incorrect — reset to learning
+    // Incorrect - reset to learning
     updated.repetitions = 0;
     updated.interval = 1;
     updated.lapses += 1;

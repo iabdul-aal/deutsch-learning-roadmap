@@ -4,7 +4,7 @@ export const GRAMMAR_DATA = {
   modules: [
     {
       id: "g1",
-      title: "1. Sentence Structure & The V2 Rule (موقع الفعل الثاني)",
+      title: "1. Sentence Structure and The V2 Rule (موقع الفعل الثاني)",
       summary: "In German main clauses (Hauptsatz), the conjugated verb MUST ALWAYS take position 2.",
       explanation: "قاعدة V2 الذهبية: في الجمل الرئيسية بالألمانية، يأتي الفعل المصرف دائماً في المرتبة الثانية من الجملة بغض النظر عما يبدأ به الكلام (سواء فاعل، أو زمان، أو مكان).",
       formula: "Position 1 (Subject / Time / Location) + Position 2 (Conjugated Verb) + Rest of Sentence",
@@ -55,7 +55,7 @@ export const GRAMMAR_DATA = {
     },
     {
       id: "g4",
-      title: "4. Irregular Verbs: SEIN & HABEN (الفعلان الكائنان: sein و haben)",
+      title: "4. Irregular Verbs: SEIN and HABEN (الفعلان الكائنان: sein و haben)",
       summary: "The two most essential verbs in German. Master their unique present tense conjugations.",
       explanation: "الفعلان sein (يكون) و haben (يمتلك) هما أهم أفعال في اللغة الألمانية وتصريفهما شاذ تماماً ويجب حفظه عن ظهر قلب.",
       formula: "SEIN: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind | HABEN: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben",
@@ -72,7 +72,7 @@ export const GRAMMAR_DATA = {
     },
     {
       id: "g5",
-      title: "5. Definite & Indefinite Articles (أدوات التعريف والتنكير)",
+      title: "5. Definite and Indefinite Articles (أدوات التعريف والتنكير)",
       summary: "Every noun in German has a grammatical gender: Masculine (der), Feminine (die), Neuter (das), Plural (die).",
       explanation: "الأسماء بالألمانية لها ثلاث أجناس: مذكر (der - أزرق)، مؤنث (die - أحمر)، محايد (das - أخضر)، وجمع (die). نكرة المذكر والمحايد ein، والمؤنث eine.",
       formula: "Definite: der / die / das / die (Plural) | Indefinite: ein / eine / ein / - (No plural indefinite)",
@@ -190,7 +190,7 @@ export const GRAMMAR_DATA = {
       examples: [
         { german: "Ich helfe dem Mann. (der Mann → dem Mann)", arabic: "أنا أساعد الرجل." },
         { german: "Das Buch gehört der Studentin. (die Studentin → der Studentin)", arabic: "الكتاب يخص الطالبة." },
-        { german: "Wie geht es dir? – Es geht mir gut.", arabic: "كيف حالك؟ – أنا بخير." }
+        { german: "Wie geht es dir? - Es geht mir gut.", arabic: "كيف حالك؟ - أنا بخير." }
       ],
       practicalTip: "Key Dative verbs: helfen (help), danken (thank), gehören (belong to), gefallen (please/like), passen (fit).",
       quiz: [
@@ -200,7 +200,7 @@ export const GRAMMAR_DATA = {
     {
       id: "g13",
       title: "13. Fixed Dative Prepositions (حروف الجر التي تأخذ داتيف دائماً)",
-      summary: "Memory rhyme: 'Aus bei mit nach seit von zu – immer mit dem Dativ du!'",
+      summary: "Memory rhyme: 'Aus bei mit nach seit von zu - immer mit dem Dativ du!'",
       explanation: "هذه الحروف تأخذ داتيف دائماً ودون استثناء بغض النظر عن الحركة أو السكون: aus, bei, mit, nach, seit, von, zu.",
       formula: "aus (from/out of) | bei (at/with) | mit (with/by transport) | nach (to city/country, after) | seit (since/for time) | von (from/of) | zu (to person/place)",
       examples: [
@@ -275,7 +275,7 @@ export const GRAMMAR_DATA = {
     },
     {
       id: "g18",
-      title: "18. Comparative & Superlative (المقارنة والتفضيل)",
+      title: "18. Comparative and Superlative (المقارنة والتفضيل)",
       summary: "Comparing options using '-er als' (schneller als) and superlative 'am -sten' (am schnellsten).",
       explanation: "للمقارنة نضيف er للصفة مع أداة als (أسرع من = schneller als). للتفضيل المطلق نستخدم am + الصفة مضافاً إليها sten.",
       formula: "Comparative: Adjective + er + als | Superlative: am + Adjective + sten",

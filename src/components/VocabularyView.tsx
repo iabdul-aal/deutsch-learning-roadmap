@@ -54,7 +54,7 @@ const FlashCard: React.FC<{
           minHeight: '260px',
         }}
       >
-        {/* Front — German */}
+        {/* Front - German */}
         <div
           className="absolute inset-0 rounded-2xl border border-stone-200 bg-white shadow-sm p-6 flex flex-col items-center justify-center gap-3"
           style={{ backfaceVisibility: 'hidden' }}
@@ -88,7 +88,7 @@ const FlashCard: React.FC<{
           </p>
         </div>
 
-        {/* Back — Arabic + English */}
+        {/* Back - Arabic + English */}
         <div
           className="absolute inset-0 rounded-2xl border border-amber-200 bg-amber-50 shadow-sm p-6 flex flex-col items-center justify-center gap-3"
           style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
@@ -103,12 +103,12 @@ const FlashCard: React.FC<{
           </p>
           {word.nounGenderHint && (
             <div className="bg-white border border-amber-200 rounded-xl px-3 py-2 text-[11px] text-amber-800 text-center mt-1" dir="rtl">
-              💡 {word.nounGenderHint}
+               {word.nounGenderHint}
             </div>
           )}
           {word.commonMistakeAR && (
             <div className="bg-rose-50 border border-rose-100 rounded-xl px-3 py-1.5 text-[11px] text-rose-700 text-center" dir="rtl">
-              ⚠️ {word.commonMistakeAR}
+              ️ {word.commonMistakeAR}
             </div>
           )}
         </div>
@@ -295,7 +295,7 @@ export const VocabularyView: React.FC = () => {
               SM-2 SPACED REPETITION · {A1_VOCABULARY.length} WORDS
             </p>
             <h2 className="text-xl font-black text-stone-900">Wortschatz</h2>
-            <p className="text-xs text-stone-500 mt-0.5" dir="rtl">بطاقات التكرار المتباعد – المفردات</p>
+            <p className="text-xs text-stone-500 mt-0.5" dir="rtl">بطاقات التكرار المتباعد - المفردات</p>
           </div>
           <div className="flex items-center gap-4 text-center shrink-0">
             <div>
@@ -344,7 +344,7 @@ export const VocabularyView: React.FC = () => {
         <div id="panel-review" role="tabpanel">
           {reviewQueue.length === 0 ? (
             <div className="paper-card p-8 text-center space-y-3">
-              <div className="text-4xl">🎉</div>
+              <div className="text-4xl"></div>
               <h3 className="text-lg font-black text-stone-900">All caught up!</h3>
               <p className="text-sm text-stone-500">No cards due today. Come back tomorrow.</p>
               <p className="text-sm text-stone-400" dir="rtl">لا بطاقات للمراجعة اليوم. عد غداً!</p>
@@ -357,7 +357,7 @@ export const VocabularyView: React.FC = () => {
             </div>
           ) : sessionDone ? (
             <div className="paper-card p-8 text-center space-y-4">
-              <div className="text-5xl">✅</div>
+              <div className="text-5xl"></div>
               <h3 className="text-xl font-black text-stone-900">Session Complete!</h3>
               <div className="flex justify-center gap-6">
                 <div>
@@ -412,7 +412,7 @@ export const VocabularyView: React.FC = () => {
                 />
               )}
 
-              {/* Rating buttons — only shown after flip */}
+              {/* Rating buttons - only shown after flip */}
               {isFlipped && (
                 <div className="grid grid-cols-4 gap-2 animate-fadeIn">
                   {QUALITY_BUTTONS.map(({ quality, label, labelAR, color, icon: Icon }) => (

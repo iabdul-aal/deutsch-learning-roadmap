@@ -1,10 +1,10 @@
 export const SURVIVAL_DATA = {
-  title: "Germany Survival Module (Practical Phrasebook & Scenarios)",
+  title: "Germany Survival Module (Practical Phrasebook and Scenarios)",
   description: "Essential German phrases, Goethe-Zertifikat A1 exam prompts, FAU Erlangen-Nürnberg university phrases, and interactive scenario roleplays across 7 critical domains.",
   categories: [
     {
       id: "arrival",
-      title: "Airport & Arrival",
+      title: "Airport and Arrival",
       icon: "Plane",
       description: "Navigating Frankfurt / Munich Airport, passport control, luggage claim, train transfer.",
       phrases: [
@@ -52,9 +52,9 @@ export const SURVIVAL_DATA = {
     },
     {
       id: "university",
-      title: "University & Academic Life (FAU Erlangen-Nürnberg)",
+      title: "University and Academic Life (FAU Erlangen-Nürnberg)",
       icon: "GraduationCap",
-      description: "Enrollment (Immatrikulation), FAU Sprachenzentrum, student office, Mensa & library.",
+      description: "Enrollment (Immatrikulation), FAU Sprachenzentrum, student office, Mensa and library.",
       phrases: [
         {
           id: "uni-1",
@@ -70,7 +70,7 @@ export const SURVIVAL_DATA = {
           arabic: "الأستاذة الدكتورة مولر المحترمة، أحتاج إلى إفادة رسمية.",
           phonetic: "زير غيرته فراو بروفيسور دوكتور مولر، إيش بينوتيكه آينه بيشتيتيغونغ.",
           example: "Formal academic email to a German university professor.",
-          roleplay: "Email Subject: 'Sprechstunde & Kursbestätigung - FAU Erlangen'"
+          roleplay: "Email Subject: 'Sprechstunde and Kursbestätigung - FAU Erlangen'"
         },
         {
           id: "uni-3",
@@ -100,9 +100,9 @@ export const SURVIVAL_DATA = {
     },
     {
       id: "housing",
-      title: "Housing, Landlord & WG Life",
+      title: "Housing, Landlord and WG Life",
       icon: "Home",
-      description: "Apartment searching, WG interviews, Nebenkosten, Hausordnung & Studentenwerk.",
+      description: "Apartment searching, WG interviews, Nebenkosten, Hausordnung and Studentenwerk.",
       phrases: [
         {
           id: "hou-1",
@@ -148,9 +148,9 @@ export const SURVIVAL_DATA = {
     },
     {
       id: "daily_life",
-      title: "Supermarket, Pharmacy & Doctors",
+      title: "Supermarket, Pharmacy and Doctors",
       icon: "ShoppingBag",
-      description: "Supermarket shopping (REWE/ALDI), pharmacy (Apotheke) & doctor appointments.",
+      description: "Supermarket shopping (REWE/ALDI), pharmacy (Apotheke) and doctor appointments.",
       phrases: [
         {
           id: "sup-1",
@@ -196,7 +196,7 @@ export const SURVIVAL_DATA = {
     },
     {
       id: "bureaucracy",
-      title: "Bureaucracy, Visas, Goethe & Banking",
+      title: "Bureaucracy, Visas, Goethe and Banking",
       icon: "FileText",
       description: "Anmeldung at Bürgeramt, Ausländerbehörde visa renewal, Goethe A1 exam, bank opening.",
       phrases: [
@@ -236,7 +236,7 @@ export const SURVIVAL_DATA = {
     },
     {
       id: "transport",
-      title: "Trains, Buses & DB Navigator",
+      title: "Trains, Buses and DB Navigator",
       icon: "Train",
       description: "Train travel, platforms (Gleis), train delays (Verspätung), Semesterticket.",
       phrases: [
@@ -276,7 +276,7 @@ export const SURVIVAL_DATA = {
     },
     {
       id: "emergency",
-      title: "Emergency & Health Services (112 / 110)",
+      title: "Emergency and Health Services (112 / 110)",
       icon: "AlertTriangle",
       description: "Calling 112 ambulance / fire brigade, 110 police, reporting theft or medical urgency.",
       phrases: [

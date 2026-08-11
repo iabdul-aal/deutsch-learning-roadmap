@@ -133,7 +133,7 @@ export const CURRICULUM_DATA_B1 = {
         {
           dayNumber: 7,
           weekNumber: 1,
-          title: "Day 7: Revision & Mock Assessment",
+          title: "Day 7: Revision and Mock Assessment",
           focusSkill: "Revision",
           objective: "Assess progress",
           standardTasks: [
@@ -282,7 +282,7 @@ export const CURRICULUM_DATA_B1 = {
         {
           dayNumber: 14,
           weekNumber: 2,
-          title: "Day 14: Revision & Mock Assessment",
+          title: "Day 14: Revision and Mock Assessment",
           focusSkill: "Revision",
           objective: "Assess progress",
           standardTasks: [
@@ -304,16 +304,16 @@ export const CURRICULUM_DATA_B1 = {
     },
     {
       weekNumber: 3,
-      title: "Partizip I & II as Adjectives + Participial Phrases",
+      title: "Partizip I and II as Adjectives + Participial Phrases",
       objective: "Use participles as adjectives to create concise sentences.",
       summary: "Master the transformation of relative clauses into participial constructions.",
       days: [
         {
           dayNumber: 15,
           weekNumber: 3,
-          title: "Day 15: Partizip I & II as Adjectives + Participial Phrases Practice 1",
-          focusSkill: "Partizip I & II as Adjectives + Participial Phrases",
-          objective: "Master Partizip I & II as Adjectives + Participial Phrases - part 1",
+          title: "Day 15: Partizip I and II as Adjectives + Participial Phrases Practice 1",
+          focusSkill: "Partizip I and II as Adjectives + Participial Phrases",
+          objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 1",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
@@ -331,9 +331,9 @@ export const CURRICULUM_DATA_B1 = {
         {
           dayNumber: 16,
           weekNumber: 3,
-          title: "Day 16: Partizip I & II as Adjectives + Participial Phrases Practice 2",
-          focusSkill: "Partizip I & II as Adjectives + Participial Phrases",
-          objective: "Master Partizip I & II as Adjectives + Participial Phrases - part 2",
+          title: "Day 16: Partizip I and II as Adjectives + Participial Phrases Practice 2",
+          focusSkill: "Partizip I and II as Adjectives + Participial Phrases",
+          objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 2",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
@@ -351,9 +351,9 @@ export const CURRICULUM_DATA_B1 = {
         {
           dayNumber: 17,
           weekNumber: 3,
-          title: "Day 17: Partizip I & II as Adjectives + Participial Phrases Practice 3",
-          focusSkill: "Partizip I & II as Adjectives + Participial Phrases",
-          objective: "Master Partizip I & II as Adjectives + Participial Phrases - part 3",
+          title: "Day 17: Partizip I and II as Adjectives + Participial Phrases Practice 3",
+          focusSkill: "Partizip I and II as Adjectives + Participial Phrases",
+          objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 3",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
@@ -371,9 +371,9 @@ export const CURRICULUM_DATA_B1 = {
         {
           dayNumber: 18,
           weekNumber: 3,
-          title: "Day 18: Partizip I & II as Adjectives + Participial Phrases Practice 4",
-          focusSkill: "Partizip I & II as Adjectives + Participial Phrases",
-          objective: "Master Partizip I & II as Adjectives + Participial Phrases - part 4",
+          title: "Day 18: Partizip I and II as Adjectives + Participial Phrases Practice 4",
+          focusSkill: "Partizip I and II as Adjectives + Participial Phrases",
+          objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 4",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
@@ -391,9 +391,9 @@ export const CURRICULUM_DATA_B1 = {
         {
           dayNumber: 19,
           weekNumber: 3,
-          title: "Day 19: Partizip I & II as Adjectives + Participial Phrases Practice 5",
-          focusSkill: "Partizip I & II as Adjectives + Participial Phrases",
-          objective: "Master Partizip I & II as Adjectives + Participial Phrases - part 5",
+          title: "Day 19: Partizip I and II as Adjectives + Participial Phrases Practice 5",
+          focusSkill: "Partizip I and II as Adjectives + Participial Phrases",
+          objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 5",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
@@ -411,9 +411,9 @@ export const CURRICULUM_DATA_B1 = {
         {
           dayNumber: 20,
           weekNumber: 3,
-          title: "Day 20: Partizip I & II as Adjectives + Participial Phrases Practice 6",
-          focusSkill: "Partizip I & II as Adjectives + Participial Phrases",
-          objective: "Master Partizip I & II as Adjectives + Participial Phrases - part 6",
+          title: "Day 20: Partizip I and II as Adjectives + Participial Phrases Practice 6",
+          focusSkill: "Partizip I and II as Adjectives + Participial Phrases",
+          objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 6",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
@@ -431,7 +431,7 @@ export const CURRICULUM_DATA_B1 = {
         {
           dayNumber: 21,
           weekNumber: 3,
-          title: "Day 21: Revision & Mock Assessment",
+          title: "Day 21: Revision and Mock Assessment",
           focusSkill: "Revision",
           objective: "Assess progress",
           standardTasks: [
@@ -580,7 +580,7 @@ export const CURRICULUM_DATA_B1 = {
         {
           dayNumber: 28,
           weekNumber: 4,
-          title: "Day 28: Revision & Mock Assessment",
+          title: "Day 28: Revision and Mock Assessment",
           focusSkill: "Revision",
           objective: "Assess progress",
           standardTasks: [
@@ -729,7 +729,7 @@ export const CURRICULUM_DATA_B1 = {
         {
           dayNumber: 35,
           weekNumber: 5,
-          title: "Day 35: Revision & Mock Assessment",
+          title: "Day 35: Revision and Mock Assessment",
           focusSkill: "Revision",
           objective: "Assess progress",
           standardTasks: [
@@ -878,7 +878,7 @@ export const CURRICULUM_DATA_B1 = {
         {
           dayNumber: 42,
           weekNumber: 6,
-          title: "Day 42: Revision & Mock Assessment",
+          title: "Day 42: Revision and Mock Assessment",
           focusSkill: "Revision",
           objective: "Assess progress",
           standardTasks: [
@@ -900,16 +900,16 @@ export const CURRICULUM_DATA_B1 = {
     },
     {
       weekNumber: 7,
-      title: "German for University & Professional Contexts",
+      title: "German for University and Professional Contexts",
       objective: "Write formal emails, job applications, and understand academic texts.",
       summary: "Prepare for the professional world in German-speaking countries.",
       days: [
         {
           dayNumber: 43,
           weekNumber: 7,
-          title: "Day 43: German for University & Professional Contexts Practice 1",
-          focusSkill: "German for University & Professional Contexts",
-          objective: "Master German for University & Professional Contexts - part 1",
+          title: "Day 43: German for University and Professional Contexts Practice 1",
+          focusSkill: "German for University and Professional Contexts",
+          objective: "Master German for University and Professional Contexts - part 1",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
@@ -927,9 +927,9 @@ export const CURRICULUM_DATA_B1 = {
         {
           dayNumber: 44,
           weekNumber: 7,
-          title: "Day 44: German for University & Professional Contexts Practice 2",
-          focusSkill: "German for University & Professional Contexts",
-          objective: "Master German for University & Professional Contexts - part 2",
+          title: "Day 44: German for University and Professional Contexts Practice 2",
+          focusSkill: "German for University and Professional Contexts",
+          objective: "Master German for University and Professional Contexts - part 2",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
@@ -947,9 +947,9 @@ export const CURRICULUM_DATA_B1 = {
         {
           dayNumber: 45,
           weekNumber: 7,
-          title: "Day 45: German for University & Professional Contexts Practice 3",
-          focusSkill: "German for University & Professional Contexts",
-          objective: "Master German for University & Professional Contexts - part 3",
+          title: "Day 45: German for University and Professional Contexts Practice 3",
+          focusSkill: "German for University and Professional Contexts",
+          objective: "Master German for University and Professional Contexts - part 3",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
@@ -967,9 +967,9 @@ export const CURRICULUM_DATA_B1 = {
         {
           dayNumber: 46,
           weekNumber: 7,
-          title: "Day 46: German for University & Professional Contexts Practice 4",
-          focusSkill: "German for University & Professional Contexts",
-          objective: "Master German for University & Professional Contexts - part 4",
+          title: "Day 46: German for University and Professional Contexts Practice 4",
+          focusSkill: "German for University and Professional Contexts",
+          objective: "Master German for University and Professional Contexts - part 4",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
@@ -987,9 +987,9 @@ export const CURRICULUM_DATA_B1 = {
         {
           dayNumber: 47,
           weekNumber: 7,
-          title: "Day 47: German for University & Professional Contexts Practice 5",
-          focusSkill: "German for University & Professional Contexts",
-          objective: "Master German for University & Professional Contexts - part 5",
+          title: "Day 47: German for University and Professional Contexts Practice 5",
+          focusSkill: "German for University and Professional Contexts",
+          objective: "Master German for University and Professional Contexts - part 5",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
@@ -1007,9 +1007,9 @@ export const CURRICULUM_DATA_B1 = {
         {
           dayNumber: 48,
           weekNumber: 7,
-          title: "Day 48: German for University & Professional Contexts Practice 6",
-          focusSkill: "German for University & Professional Contexts",
-          objective: "Master German for University & Professional Contexts - part 6",
+          title: "Day 48: German for University and Professional Contexts Practice 6",
+          focusSkill: "German for University and Professional Contexts",
+          objective: "Master German for University and Professional Contexts - part 6",
           standardTasks: [
             { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.deutschakademie.de/online-deutschkurs/english" },
@@ -1027,7 +1027,7 @@ export const CURRICULUM_DATA_B1 = {
         {
           dayNumber: 49,
           weekNumber: 7,
-          title: "Day 49: Revision & Mock Assessment",
+          title: "Day 49: Revision and Mock Assessment",
           focusSkill: "Revision",
           objective: "Assess progress",
           standardTasks: [
@@ -1176,7 +1176,7 @@ export const CURRICULUM_DATA_B1 = {
         {
           dayNumber: 56,
           weekNumber: 8,
-          title: "Day 56: Revision & Mock Assessment",
+          title: "Day 56: Revision and Mock Assessment",
           focusSkill: "Revision",
           objective: "Assess progress",
           standardTasks: [

@@ -44,7 +44,7 @@ export const GermanySurvivalView: React.FC = () => {
             GERMANY SURVIVAL WORKBENCH
           </span>
           <h2 className="text-xl font-black text-stone-900">
-            {survivalDataset?.title || 'Real-World Phrasebook & Scenario Roleplays'}
+            {survivalDataset?.title || 'Real-World Phrasebook and Scenario Roleplays'}
           </h2>
           <p className="text-xs text-stone-600 mt-1">
             {survivalDataset?.description || 'Practical German needed immediately after landing in Germany.'}
@@ -119,7 +119,7 @@ export const GermanySurvivalView: React.FC = () => {
                   key={item.id}
                   className="paper-card p-4 sm:p-6 space-y-4 hover:border-stone-300 transition-all shadow-xs min-w-0"
                 >
-                  {/* German Header & Audio Pill */}
+                  {/* German Header and Audio Pill */}
                   <div className="flex items-start justify-between gap-4 border-b border-stone-200 pb-4 min-w-0">
                     <h3 className="text-base sm:text-lg font-black text-stone-900 leading-snug tracking-tight min-w-0 break-words">
                       {item.german}
@@ -142,7 +142,7 @@ export const GermanySurvivalView: React.FC = () => {
                     </p>
                   </div>
 
-                  {/* Phonetics & Context Bar */}
+                  {/* Phonetics and Context Bar */}
                   <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 text-xs pt-1 min-w-0">
                     
                     {/* Arabic Phonetics Badge */}

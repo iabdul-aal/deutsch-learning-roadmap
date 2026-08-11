@@ -38,13 +38,13 @@ export const Navbar = ({ onOpenTimer }) => {
       {/* Top Application Bar */}
       <div className="max-w-7xl mx-auto px-4 py-2.5 flex flex-wrap items-center justify-between gap-3 text-xs">
         
-        {/* Product Identity & Track Selector */}
+        {/* Product Identity and Track Selector */}
         <div className="flex items-center gap-3">
           <div 
             onClick={() => setActiveView('dashboard')}
             className="flex items-center gap-2 cursor-pointer hover:opacity-90 transition-opacity"
           >
-            <span className="text-xl">🇩🇪</span>
+            <span className="text-xl"></span>
             <span className="font-extrabold text-stone-900 tracking-tight text-sm">
               DEUTSCH SURVIVAL <span className="text-amber-600">A1</span>
             </span>
@@ -82,7 +82,7 @@ export const Navbar = ({ onOpenTimer }) => {
           </div>
         </div>
 
-        {/* Global Controls & Status */}
+        {/* Global Controls and Status */}
         <div className="flex items-center gap-3">
           
           {/* Workload Mode Switcher */}

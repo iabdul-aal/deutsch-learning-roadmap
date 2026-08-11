@@ -12,7 +12,7 @@ interface YouTubePlayerProps {
 
 /**
  * Embedded YouTube player component.
- * Uses the YouTube iframe embed API — no external redirect needed.
+ * Uses the YouTube iframe embed API - no external redirect needed.
  * Tracks watch completion via YouTube postMessage API.
  */
 export const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
@@ -123,7 +123,7 @@ interface PlaylistEmbedProps {
  * Embeds a full YouTube playlist.
  */
 export const YouTubePlaylist: React.FC<PlaylistEmbedProps> = ({ playlistId, title, className = '' }) => {
-  const embedUrl = `https://www.youtube.com/embed/videoseries?list=${playlistId}&rel=0&modestbranding=1`;
+  const embedUrl = `https://www.youtube.com/embed/videoseries?list=${playlistId}&rel=0 and modestbranding=1`;
   return (
     <div className={`space-y-2 ${className}`}>
       <div className="relative w-full bg-black rounded-xl overflow-hidden" style={{ aspectRatio: '16/9' }}>

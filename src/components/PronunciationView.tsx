@@ -14,10 +14,10 @@ export const PronunciationView = () => {
       <div className="paper-card p-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
         <div>
           <span className="text-[10px] font-bold text-rose-700 uppercase tracking-wider">
-            PHONETICS & ARABIC TRAPS LAB
+            PHONETICS and ARABIC TRAPS LAB
           </span>
           <h2 className="text-lg font-extrabold text-stone-900 mt-0.5">
-            German Phonetics & Arabic Speaker Traps
+            German Phonetics and Arabic Speaker Traps
           </h2>
           <p className="text-xs text-stone-600">
             Master P vs B, V vs F, CH sound (Ich vs Ach), Vocalic R, and Auslautverhärtung with audio TTS.
@@ -72,11 +72,11 @@ export const PronunciationView = () => {
         </div>
       </div>
 
-      {/* Umlauts & Vowel Combinations */}
+      {/* Umlauts and Vowel Combinations */}
       <div className="space-y-3 pt-4">
         <h3 className="text-xs font-extrabold text-stone-700 uppercase tracking-wider px-1 flex items-center gap-1.5">
           <Type className="w-4 h-4 text-indigo-600" />
-          <span>Umlauts & Vowel Combinations Guide (Ä, Ö, Ü, ß, EI, IE, EU)</span>
+          <span>Umlauts and Vowel Combinations Guide (Ä, Ö, Ü, ß, EI, IE, EU)</span>
         </h3>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">

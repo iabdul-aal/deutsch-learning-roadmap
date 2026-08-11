@@ -13,8 +13,8 @@ export const CURRENT_TRACK_ID = 'german-a1-ar';
 export const AVAILABLE_TRACKS: LanguageTrack[] = [
   {
     id: 'german-a1-ar',
-    name: 'German A1 (Start Deutsch 1 & FAU DaF)',
-    shortName: 'German A1 (Goethe & FAU)',
+    name: 'German A1 (Start Deutsch 1 and FAU DaF)',
+    shortName: 'German A1 (Goethe and FAU)',
     nativeName: 'المرجع الشامل لالمانية A1',
     level: 'A1',
     active: true,
@@ -22,7 +22,7 @@ export const AVAILABLE_TRACKS: LanguageTrack[] = [
   },
   {
     id: 'german-a2-ar',
-    name: 'German A2 (Goethe A2 & Intermediate DaF)',
+    name: 'German A2 (Goethe A2 and Intermediate DaF)',
     shortName: 'German A2 (Goethe A2)',
     nativeName: 'خارطة طريق الالمانية A2 المتكاملة',
     level: 'A2',
@@ -31,7 +31,7 @@ export const AVAILABLE_TRACKS: LanguageTrack[] = [
   },
   {
     id: 'german-b1-ar',
-    name: 'German B1 (Zertifikat B1 & University Prep)',
+    name: 'German B1 (Zertifikat B1 and University Prep)',
     shortName: 'German B1 (Goethe B1)',
     nativeName: 'مسار الالمانية B1 الأكاديمي والمهني',
     level: 'B1',

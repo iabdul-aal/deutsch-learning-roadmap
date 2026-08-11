@@ -30,7 +30,7 @@ export const ResourceDatabaseView = () => {
             Multi-Lingual German Learning Ecosystem
           </h2>
           <p className="text-xs text-stone-600">
-            Curated across Arabic 🇪🇬, English 🇬🇧, and German 🇩🇪 learning communities.
+            Curated across Arabic , English , and German  learning communities.
           </p>
         </div>
 

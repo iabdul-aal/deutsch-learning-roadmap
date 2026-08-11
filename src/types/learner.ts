@@ -8,16 +8,16 @@
 export type CEFRLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
 export type SkillKey = 'HOEREN' | 'SPRECHEN' | 'LESEN' | 'SCHREIBEN' | 'GRAMMATIK' | 'WORTSCHATZ' | 'AUSSPRACHE' | 'KULTURKOMPETENZ';
 
-/** 0–100 mastery score per skill. 100 = complete mastery at current level. */
+/** 0-100 mastery score per skill. 100 = complete mastery at current level. */
 export type SkillMastery = Record<SkillKey, number>;
 
-/** CEFR estimate per skill — a learner may be B1 in Grammar but A2 in Listening. */
+/** CEFR estimate per skill - a learner may be B1 in Grammar but A2 in Listening. */
 export type SkillCEFR = Record<SkillKey, CEFRLevel>;
 
 export interface CEFREstimate {
   overall: CEFRLevel;
   perSkill: SkillCEFR;
-  confidence: number;       // 0–1: how confident we are in this estimate
+  confidence: number;       // 0-1: how confident we are in this estimate
   lastAssessed: string;     // ISO date
 }
 
@@ -66,7 +66,7 @@ export interface GoalProfile {
   reason?: string;          // free text: "I want to study at FAU Erlangen"
 }
 
-/** The complete learner model — persisted in localStorage */
+/** The complete learner model - persisted in localStorage */
 export interface LearnerModel {
   id: string;               // generated UUID
   name: string;
@@ -83,7 +83,7 @@ export interface LearnerModel {
   activeVocabularySize: number;
 
   // ── Grammar Mastery ──
-  conceptMastery: Record<string, number>;  // conceptId → 0–100
+  conceptMastery: Record<string, number>;  // conceptId → 0-100
 
   // ── Error Intelligence ──
   errorLog: ErrorLogEntry[];

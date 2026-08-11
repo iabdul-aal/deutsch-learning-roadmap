@@ -90,7 +90,7 @@ class ViewErrorBoundary extends React.Component<BoundaryProps, { hasError: boole
 
 /**
  * AppShell is a SEPARATE component from the onboarding gate.
- * This ensures all hooks are called unconditionally — no early
+ * This ensures all hooks are called unconditionally - no early
  * returns before useEffect/useState calls.
  */
 const AppShell: React.FC = () => {
@@ -174,7 +174,7 @@ const AppShell: React.FC = () => {
   );
 };
 
-// ── Routing gate — no hooks before any return ─────────────────────
+// ── Routing gate - no hooks before any return ─────────────────────
 
 /**
  * MainAppContent owns the onboarding gate.
@@ -182,7 +182,7 @@ const AppShell: React.FC = () => {
  * either OnboardingFlow or AppShell.
  *
  * CRITICAL: All hooks (useState, useEffect) are in the child
- * components, not here — so there are no Rules-of-Hooks violations.
+ * components, not here - so there are no Rules-of-Hooks violations.
  */
 const MainAppContent: React.FC = () => {
   const { hasSeenWelcome } = useApp();

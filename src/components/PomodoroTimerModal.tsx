@@ -62,7 +62,7 @@ export const PomodoroTimerModal: React.FC<PomodoroTimerModalProps> = ({ onClose,
             }
             // Browser notification
             if ('Notification' in window && Notification.permission === 'granted') {
-              new Notification(phase === 'focus' ? '🎉 Focus sprint complete!' : '⚡ Break over, time to focus!');
+              new Notification(phase === 'focus' ? ' Focus sprint complete!' : ' Break over, time to focus!');
             }
             return 0;
           }
@@ -149,7 +149,7 @@ export const PomodoroTimerModal: React.FC<PomodoroTimerModalProps> = ({ onClose,
               onClick={() => { setSecondsLeft(customMinutes[phase] * 60); setShowSettings(false); }}
               className="w-full py-2 rounded-xl bg-amber-500 text-stone-950 font-bold text-sm hover:bg-amber-400 transition-colors"
             >
-              Apply & Close
+              Apply and Close
             </button>
           </div>
         ) : (
@@ -173,7 +173,7 @@ export const PomodoroTimerModal: React.FC<PomodoroTimerModalProps> = ({ onClose,
             <div className="flex flex-col items-center py-6 space-y-4">
               {initialTask && (
                 <div className="px-3 py-1.5 rounded-lg bg-white/10 text-white/70 text-[11px] text-center max-w-[85%] leading-snug">
-                  📚 {initialTask}
+                   {initialTask}
                 </div>
               )}
 
@@ -239,7 +239,7 @@ export const PomodoroTimerModal: React.FC<PomodoroTimerModalProps> = ({ onClose,
                 className="p-3 rounded-xl bg-white/10 hover:bg-white/20 text-white transition-colors"
                 title="Enable notifications"
               >
-                🔔
+                
               </button>
             </div>
           </>

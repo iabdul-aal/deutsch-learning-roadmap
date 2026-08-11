@@ -20,7 +20,7 @@ export const SkillsTrackersView = () => {
             SKILL TRACKING WORKBENCH
           </span>
           <h2 className="text-lg font-extrabold text-stone-900 mt-0.5 flex items-center gap-2">
-            <span>Listening, Speaking & Writing Execution Metrics</span>
+            <span>Listening, Speaking and Writing Execution Metrics</span>
             <span className="px-2.5 py-0.5 rounded bg-emerald-100 text-emerald-900 border border-emerald-300 font-black text-[10px] uppercase flex items-center gap-1">
               <Zap className="w-3 h-3 text-emerald-600 fill-emerald-600" /> Auto-Tracked
             </span>
@@ -69,7 +69,7 @@ export const SkillsTrackersView = () => {
         {/* Speaking Tracker */}
         <div className="paper-card p-6 space-y-4">
           <div className="flex items-center justify-between text-emerald-700 border-b border-stone-200 pb-3">
-            <span className="text-xs font-black uppercase">Speaking & Shadowing</span>
+            <span className="text-xs font-black uppercase">Speaking and Shadowing</span>
             <Mic className="w-5 h-5" />
           </div>
 

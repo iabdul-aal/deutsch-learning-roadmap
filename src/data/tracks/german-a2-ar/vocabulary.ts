@@ -1,7 +1,7 @@
 export const VOCABULARY_DATA_A2 = {
   title: "High-Frequency German A2 Vocabulary SRS Deck",
   description: "Color-coded German A2 vocabulary tailored for Goethe-Zertifikat A2 exam candidates.",
-  categories: ["All", "Connectors & Grammar", "Reflexive & Daily Life", "Health & Doctor", "Work & Job Interview"],
+  categories: ["All", "Connectors and Grammar", "Reflexive and Daily Life", "Health and Doctor", "Work and Job Interview"],
   words: [
     {
       id: "v-a2-1",
@@ -10,7 +10,7 @@ export const VOCABULARY_DATA_A2 = {
       plural: "",
       arabic: "لأن (ترتيب الفعل في نهاية الجملة)",
       english: "because",
-      category: "Connectors & Grammar",
+      category: "Connectors and Grammar",
       example: "Ich lerne Deutsch, weil ich in Deutschland studieren möchte."
     },
     {
@@ -20,7 +20,7 @@ export const VOCABULARY_DATA_A2 = {
       plural: "",
       arabic: "أن (لربط الجمل الثانوية)",
       english: "that",
-      category: "Connectors & Grammar",
+      category: "Connectors and Grammar",
       example: "Ich hoffe, dass du Zeit hast."
     },
     {
@@ -30,7 +30,7 @@ export const VOCABULARY_DATA_A2 = {
       plural: "Termine",
       arabic: "موعد رسمي / طبي",
       english: "appointment",
-      category: "Health & Doctor",
+      category: "Health and Doctor",
       example: "Ich möchte einen Termin beim Arzt vereinbaren."
     },
     {
@@ -40,7 +40,7 @@ export const VOCABULARY_DATA_A2 = {
       plural: "Bewerbungen",
       arabic: "طلب تقديم على عمل أو جامعة",
       english: "application / job application",
-      category: "Work & Job Interview",
+      category: "Work and Job Interview",
       example: "Meine Bewerbung war erfolgreich."
     },
     {
@@ -50,7 +50,7 @@ export const VOCABULARY_DATA_A2 = {
       plural: "Zeugnisse",
       arabic: "شهادة دراسية / درجات",
       english: "certificate / transcript",
-      category: "Work & Job Interview",
+      category: "Work and Job Interview",
       example: "Ich benötige mein Zeugnis für die Universität."
     }
   ]

@@ -22,7 +22,7 @@ export interface GrammarConcept {
 export const KNOWLEDGE_GRAPH: GrammarConcept[] = [
   {
     id: "german_alphabet",
-    title: "The German Alphabet & Pronunciation",
+    title: "The German Alphabet and Pronunciation",
     titleDE: "Das Alphabet und die Aussprache",
     titleAR: "الأبجدية الألمانية والنطق",
     cefr: "A1",
@@ -80,7 +80,7 @@ export const KNOWLEDGE_GRAPH: GrammarConcept[] = [
   },
   {
     id: "sein_haben",
-    title: "Verb Conjugation: sein & haben",
+    title: "Verb Conjugation: sein and haben",
     titleDE: "Konjugation: sein und haben",
     titleAR: "تصريف الأفعال: sein و haben",
     cefr: "A1",
@@ -225,9 +225,9 @@ export const KNOWLEDGE_GRAPH: GrammarConcept[] = [
   },
   {
     id: "numbers_basic",
-    title: "Numbers 1–100",
-    titleDE: "Zahlen 1–100",
-    titleAR: "الأرقام 1–100",
+    title: "Numbers 1-100",
+    titleDE: "Zahlen 1-100",
+    titleAR: "الأرقام 1-100",
     cefr: "A1",
     prerequisites: [],
     description: "Learn to count to 100 in German.",
@@ -747,7 +747,7 @@ export const KNOWLEDGE_GRAPH: GrammarConcept[] = [
   },
   {
     id: "comparative_superlative",
-    title: "Comparative & Superlative",
+    title: "Comparative and Superlative",
     titleDE: "Komparativ und Superlativ",
     titleAR: "المقارنة والتفضيل",
     cefr: "A2",

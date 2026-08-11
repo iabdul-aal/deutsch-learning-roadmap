@@ -20,7 +20,7 @@ export class QualityGates {
     const errors = [...curr.errors, ...vocab.errors, ...surv.errors, ...gram.errors];
 
     return {
-      gateName: "Gate 1: Data & Curriculum Integrity Gate",
+      gateName: "Gate 1: Data and Curriculum Integrity Gate",
       passed: allValid,
       details: {
         curriculum: curr.metric,
