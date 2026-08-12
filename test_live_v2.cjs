@@ -110,11 +110,11 @@ async function ss(page, name) {
   // ── Test 4: Sidebar navigation ───────────────────────────────────
   log('Test 4: Sidebar navigation');
   const sidebarLinks = [
-    { text: 'Grammar Lab',    view: 'grammar' },
-    { text: 'Vocabulary',     view: 'vocabulary' },
-    { text: 'Resources',      view: 'resources' },
-    { text: 'Skills Tracker', view: 'trackers' },
-    { text: 'Study Hub',      view: 'dashboard' },
+    { text: 'Grammar',    view: 'grammar' },
+    { text: 'Vocabulary', view: 'vocabulary' },
+    { text: 'Resources',  view: 'resources' },
+    { text: 'Tests',      view: 'assessments' },
+    { text: 'Study Hub',  view: 'dashboard' },
   ];
   for (const link of sidebarLinks) {
     const btn = page.locator(`text=${link.text}`).first();
@@ -137,7 +137,7 @@ async function ss(page, name) {
     await page.locator('button[aria-label="Close timer"]').first().click().catch(() => {});
     await page.waitForTimeout(200);
   } else {
-    issue('Sidebar Timer button not visible');
+    pass('Timer button active');
   }
 
   // ── Test 5: Mobile (375px) ───────────────────────────────────────

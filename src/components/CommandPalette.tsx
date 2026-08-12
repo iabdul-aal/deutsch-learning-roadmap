@@ -138,12 +138,12 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({ isOpen, onClose 
                 <ArrowRight className="w-3.5 h-3.5 text-stone-400 group-hover:translate-x-1 transition-transform" />
               </button>
               <button
-                onClick={() => handleNavigate('survival')}
+                onClick={() => handleNavigate('missions')}
                 className="w-full flex items-center justify-between p-2 rounded-lg hover:bg-amber-50 text-stone-800 font-bold group"
               >
                 <div className="flex items-center gap-2">
                   <Compass className="w-3.5 h-3.5 text-amber-600" />
-                  <span>Germany Survival Phrasebook</span>
+                  <span>Real-World Scenarios and Missions</span>
                 </div>
                 <ArrowRight className="w-3.5 h-3.5 text-stone-400 group-hover:translate-x-1 transition-transform" />
               </button>

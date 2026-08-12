@@ -113,15 +113,15 @@ const AppShell: React.FC = () => {
     switch (activeView) {
       case 'dashboard':    return <TodayDashboard />;
       case 'curriculum':   return <CurriculumView />;
-      case 'survival':     return <GermanySurvivalView />;
-      case 'pronunciation':return <PronunciationView />;
+      case 'grammar':      
+      case 'pronunciation':return <GrammarView />;
       case 'vocabulary':   return <VocabularyView />;
-      case 'grammar':      return <GrammarView />;
-      case 'trackers':     return <SkillsTrackersView />;
-      case 'assessments':  return <WeeklyAssessmentsView />;
-      case 'resources':    return <ResourcesView />;
-      case 'missions':     return <MissionsView />;
-      case 'mobile_apps':  return <MobileAppsView />;
+      case 'missions':     
+      case 'survival':     return <MissionsView />;
+      case 'assessments':  
+      case 'trackers':     return <WeeklyAssessmentsView />;
+      case 'resources':    
+      case 'mobile_apps':  return <ResourcesView />;
       default:             return <TodayDashboard />;
     }
   };

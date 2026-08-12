@@ -13,17 +13,13 @@ interface SidebarProps {
 }
 
 const NAV_ITEMS = [
-  { id: 'dashboard',   label: 'Study Hub',          icon: LayoutDashboard, desc: 'Daily roadmap' },
-  { id: 'curriculum',  label: '8-Week Roadmap',      icon: Calendar,        desc: 'Full plan' },
-  { id: 'missions',    label: 'Missions',             icon: Globe,           desc: 'Real-world tasks' },
-  { id: 'vocabulary',  label: 'Vocabulary Cards',    icon: BookOpen,        desc: 'Flashcards' },
-  { id: 'grammar',     label: 'Grammar Lab',         icon: FileText,        desc: 'Rules and drills' },
-  { id: 'pronunciation', label: 'Pronunciation',     icon: Volume2,         desc: 'Phonetics' },
-  { id: 'survival',   label: 'Germany Survival',     icon: Compass,         desc: 'Real-world' },
-  { id: 'assessments', label: 'Weekly Tests',        icon: Trophy,          desc: 'Assess and track' },
-  { id: 'trackers',   label: 'Skills Tracker',       icon: BarChart3,       desc: 'Progress log' },
-  { id: 'resources',  label: 'Resources',            icon: Bookmark,        desc: 'Study materials' },
-  { id: 'mobile_apps', label: 'Companion Apps',      icon: Smartphone,      desc: 'Mobile tools' },
+  { id: 'dashboard',   label: 'Study Hub',   icon: LayoutDashboard },
+  { id: 'curriculum',  label: 'Roadmap',     icon: Calendar },
+  { id: 'grammar',     label: 'Grammar',     icon: FileText },
+  { id: 'vocabulary',  label: 'Vocabulary',  icon: BookOpen },
+  { id: 'missions',    label: 'Missions',    icon: Globe },
+  { id: 'assessments', label: 'Tests',       icon: Trophy },
+  { id: 'resources',   label: 'Resources',   icon: Bookmark },
 ];
 
 export const Sidebar: React.FC<SidebarProps> = ({ onOpenTimer }) => {
@@ -111,22 +107,24 @@ export const Sidebar: React.FC<SidebarProps> = ({ onOpenTimer }) => {
       </div>
 
       {/* ── Navigation ── */}
-      <nav className="flex-1 overflow-y-auto p-3 space-y-0.5 scrollbar-none">
-        <div className="text-[9px] font-black text-white/25 uppercase tracking-widest px-2 pt-1 pb-2">
-          Navigation
+      <nav className="flex-1 overflow-y-auto p-3 space-y-1 scrollbar-none">
+        <div className="text-[9px] font-black text-white/30 uppercase tracking-widest px-2.5 pt-1 pb-2">
+          Menu
         </div>
-        {NAV_ITEMS.map(({ id, label, icon: Icon, desc }) => {
+        {NAV_ITEMS.map(({ id, label, icon: Icon }) => {
           const isActive = activeView === id;
           return (
             <button
               key={id}
               onClick={() => handleNavClick(id)}
-              className={`sidebar-nav-item ${isActive ? 'active' : ''}`}
+              className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-xs font-medium transition-all ${
+                isActive
+                  ? 'bg-amber-500/15 text-amber-400 font-bold border border-amber-500/20'
+                  : 'text-white/60 hover:bg-white/8 hover:text-white border border-transparent'
+              }`}
             >
-              <Icon className={`w-4 h-4 shrink-0 ${isActive ? 'text-amber-400' : 'text-white/30'}`} />
-              <div className="min-w-0 text-left">
-                <div className="text-[12px] font-semibold leading-none truncate">{label}</div>
-              </div>
+              <Icon className={`w-4 h-4 shrink-0 ${isActive ? 'text-amber-400' : 'text-white/40'}`} />
+              <span className="truncate">{label}</span>
               {isActive && (
                 <div className="ml-auto w-1.5 h-1.5 rounded-full bg-amber-400 shrink-0" />
               )}
