@@ -201,13 +201,19 @@ const TaskResourceCard: React.FC<{ task: any; dayNumber?: number }> = ({ task, d
   const isYT = link.includes('youtube.com') || link.includes('youtu.be');
 
   const getLinkLabel = () => {
-    if (isYT)                                               return 'Open on YouTube ↗';
-    if (task.type === 'Quiz' || task.type === 'Test')       return 'Open Schubert Verlag Exercises';
-    if (task.type === 'Read' || task.type === 'Revision' || task.type === 'Smart Review')
-                                                            return 'Open DW Nicos Weg Module';
-    if (task.type === 'Memorize' || task.type === 'Mobile App') return 'Open Anki German Deck';
-    if (task.type === 'Writing' || task.type === 'Write')   return 'Open DeutschAkademie Writing Trainer';
-    if (task.type === 'Survival German')                    return 'Open German–Arabic Dictionary';
+    if (link.includes('lingua.com'))                          return 'Open Graded Reading on Lingua.com ↗';
+    if (link.includes('goethe.de'))                            return 'Open Goethe-Zertifikat Exam Portal ↗';
+    if (link.includes('schubert-verlag.de'))                   return 'Open Schubert Verlag Grammar Exercises ↗';
+    if (link.includes('deutschakademie.de'))                   return 'Open DeutschAkademie Writing Trainer ↗';
+    if (link.includes('ankiweb.net') || link.includes('seedlang')) return 'Open Anki Spaced-Repetition Deck ↗';
+    if (link.includes('pons.com'))                             return 'Open PONS German–Arabic Dictionary ↗';
+    if (link.includes('youtube.com/@'))                        return 'Open Creator Channel on YouTube ↗';
+    if (link.includes('youtube.com/watch') || link.includes('youtu.be')) return 'Open Lesson Video on YouTube ↗';
+    if (task.type === 'Quiz' || task.type === 'Test')          return 'Open Schubert Verlag Exercises ↗';
+    if (task.type === 'Read' || task.type === 'Revision')      return 'Open DW Nicos Weg Reading Module ↗';
+    if (task.type === 'Memorize' || task.type === 'Mobile App')return 'Open Anki Flashcard Deck ↗';
+    if (task.type === 'Writing' || task.type === 'Write')      return 'Open DeutschAkademie Writing Trainer ↗';
+    if (task.type === 'Survival German')                       return 'Open PONS German–Arabic Dictionary ↗';
     return 'Open Practice Resource ↗';
   };
 
