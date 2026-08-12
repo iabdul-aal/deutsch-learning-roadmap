@@ -31,10 +31,10 @@ export const CURRICULUM_DATA = {
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: German Alphabet and Umlauts Made Easy",
+              "title": "Easy German: How Germans Speak & Alphabet - Learn German with Anja: German Alphabet and Umlauts Made Easy",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Memorize",
@@ -106,24 +106,24 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Lesson 2 - Self Introduction and Personal Pronouns",
+              "title": "DW Nicos Weg: Hallo Nico - First Greetings & Introductions - Self Introduction and Personal Pronouns",
               "duration": "40 min",
               "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+            },
+            {
+              "type": "Watch",
+              "title": "Deutsch mit Hend: Basic Greetings & Introduction - Hallo Nico! (Ich heiße Nico)",
+              "duration": "25 min",
+              "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Episode 1 and 2 - Hallo Nico! (Ich heiße Nico)",
-              "duration": "25 min",
-              "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
-            },
-            {
-              "type": "Watch",
-              "title": "YourGermanTeacher: Present Tense Regular Verbs and Pronouns",
+              "title": "Learn German with Anja: 10 German Greetings You Must Know - YourGermanTeacher: Present Tense Regular Verbs and Pronouns",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=0LRs_M_BtsI"
+              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
             },
             {
               "type": "Memorize",
@@ -134,10 +134,10 @@ export const CURRICULUM_DATA = {
             },
             {
               "type": "Listen",
-              "title": "Deutsch Survival A1: Audio drills on introducing yourself",
+              "title": "Easy German #45: Meeting New People in Germany - Deutsch Survival A1: Audio drills on introducing yourself",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=LHFvuG0DUZA"
+              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
             },
             {
               "type": "Speak",
@@ -202,10 +202,10 @@ export const CURRICULUM_DATA = {
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Episode 3 and 4 - Wie ist deine Telefonnummer?",
+              "title": "lingoni GERMAN: Regular & Irregular Verb Conjugation - Wie ist deine Telefonnummer?",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -216,10 +216,10 @@ export const CURRICULUM_DATA = {
             },
             {
               "type": "Listen",
-              "title": "Super Easy German #5: Numbers in German street interviews",
+              "title": "DW Nicos Weg: Daily Routines & Verbs in Context - Super Easy German #5: Numbers in German street interviews",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://learngerman.dw.com/en/nicos-weg"
             },
             {
               "type": "Speak",
@@ -277,24 +277,24 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Lesson 4 - Articles and Noun Gender",
+              "title": "German with Laura: Der, Die, Das Gender Rules & Endings - Articles and Noun Gender",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Ye3ehz49u8o"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Read",
-              "title": "Deutsch Survival A1: Gender memory tricks and noun endings (-ung, -heit, -keit)",
+              "title": "Deutsch mit Hend: Definite and Indefinite Articles - keit)",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
             },
             {
               "type": "Watch",
-              "title": "YourGermanTeacher: How to know Der, Die, Das",
+              "title": "Easy German #120: How Germans Guess Word Genders - YourGermanTeacher: How to know Der, Die, Das",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=IFsEX4ZY6bc"
+              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
             },
             {
               "type": "Memorize",
@@ -355,14 +355,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 5 - Negation (nicht vs kein)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
+              "link": "https://www.youtube.com/watch?v=n4HSidrjXmQ"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Episode 5 and 6 - Ist das dein Koffer?",
+              "title": "Shehata Deutsch: Akkusativ vs Nominativ Direct Comparison - Ist das dein Koffer?",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=n4HSidrjXmQ"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Memorize",
@@ -373,10 +373,10 @@ export const CURRICULUM_DATA = {
             },
             {
               "type": "Listen",
-              "title": "Easy German: 'Nein' and polite refusal phrases",
+              "title": "DW Nicos Weg: Shopping & Akkusativ Objects - Easy German: 'Nein' and polite refusal phrases",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=3MiTl52EKd8"
+              "link": "https://learngerman.dw.com/en/nicos-weg"
             },
             {
               "type": "Speak",
@@ -434,17 +434,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Lesson 6 - Plurals and Family Members",
+              "title": "Shehata Deutsch: Der Dativ & Prepositions Masterclass - Plurals and Family Members",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Jxq2uezZxks"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: Family Tree and Plural Nouns",
+              "title": "Easy German #250: Dative Verbs in Action - Learn German with Anja: Family Tree and Plural Nouns",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=BgZ--QmPAIw"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Memorize",
@@ -589,21 +589,21 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 7 - Accusative Case Explained",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Qzb82FdyzhM"
+              "link": "https://www.youtube.com/watch?v=TPvYYsr6KbE"
             },
             {
               "type": "Read",
-              "title": "Deutsch Survival A1: Accusative rules and sentence diagrams",
+              "title": "Shehata Deutsch: Past Tense Mastery (Perfekt & Partizip II) - Deutsch Survival A1: Accusative rules and sentence diagrams",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=5YtHNczWwAw"
             },
             {
               "type": "Watch",
-              "title": "YourGermanTeacher: Accusative Case - Never make a mistake again!",
+              "title": "DW Nicos Weg: Talking About Yesterday in Perfekt - Never make a mistake again!",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=fPKH95g_9cs"
+              "link": "https://learngerman.dw.com/en/nicos-weg"
             },
             {
               "type": "Memorize",
@@ -661,17 +661,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Lesson 8 - Food and Supermarket Vocabulary",
+              "title": "DW Nicos Weg: Subordinate Clauses with Weil & Dass - Food and Supermarket Vocabulary",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=K9hTQMvIps8"
+              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Episode 7 and 8 - Im Supermarkt",
+              "title": "Deutsch mit Hend: Nebensätze & Verb-at-the-End Rule - Im Supermarkt",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=eFE-vWA-2H8"
+              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
             },
             {
               "type": "Memorize",
@@ -682,10 +682,10 @@ export const CURRICULUM_DATA = {
             },
             {
               "type": "Listen",
-              "title": "Super Easy German #12: Grocery shopping in Germany",
+              "title": "Easy German #400: Giving Reasons in Natural Conversation - Super Easy German #12: Grocery shopping in Germany",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=D91icSuPYQ4"
+              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
             },
             {
               "type": "Speak",
@@ -746,14 +746,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 9 - Restaurant Dialogues and Polite Requests",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: How to order food like a native in Germany",
+              "title": "Easy German: How Germans Speak & Alphabet - Learn German with Anja: How to order food like a native in Germany",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=AwyA7GzGlvE"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Memorize",
@@ -764,10 +764,10 @@ export const CURRICULUM_DATA = {
             },
             {
               "type": "Listen",
-              "title": "Deutsch Survival A1: Restaurant dialogue audio track",
+              "title": "Easy German #1: Greetings on the Streets of Berlin - Deutsch Survival A1: Restaurant dialogue audio track",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=TPvYYsr6KbE"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Speak",
@@ -825,17 +825,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Lesson 10 - Time and Clock Times (Uhrzeit)",
+              "title": "DW Nicos Weg: Hallo Nico - First Greetings & Introductions - Time and Clock Times (Uhrzeit)",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=eFE-vWA-2H8"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Episode 9 - Wie viel Uhr ist es?",
+              "title": "Deutsch mit Hend: Basic Greetings & Introduction - Wie viel Uhr ist es?",
               "duration": "20 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=hEy6gGr94KA"
+              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
             },
             {
               "type": "Memorize",
@@ -903,14 +903,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 11 - Separable Verbs Masterclass",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
+              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
             },
             {
               "type": "Watch",
-              "title": "YourGermanTeacher: Separable Verbs in German - Explained Simply",
+              "title": "Shehata Deutsch: Conjugation Mastery for Beginners - Explained Simply",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=Tizr0WwCzFQ"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Memorize",
@@ -921,10 +921,10 @@ export const CURRICULUM_DATA = {
             },
             {
               "type": "Listen",
-              "title": "Deutsch Survival A1: Audio practice on separable verbs in daily speech",
+              "title": "DW Nicos Weg: Daily Routines & Verbs in Context - Deutsch Survival A1: Audio practice on separable verbs in daily speech",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=Kj_L8uAffG8"
+              "link": "https://learngerman.dw.com/en/nicos-weg"
             },
             {
               "type": "Quiz",
@@ -975,17 +975,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Lesson 12 - Possessive Articles",
+              "title": "German with Laura: Der, Die, Das Gender Rules & Endings - Possessive Articles",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=hEy6gGr94KA"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Episode 10 - Das ist mein Pass!",
+              "title": "Deutsch mit Hend: Definite and Indefinite Articles - Das ist mein Pass!",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
             },
             {
               "type": "Memorize",
@@ -1114,17 +1114,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Lesson 13 - Modal Verbs Part 1",
+              "title": "Shehata Deutsch: Der Dativ & Prepositions Masterclass - Modal Verbs Part 1",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Watch",
-              "title": "YourGermanTeacher: German Modal Verbs Made Super Easy",
+              "title": "Easy German #250: Dative Verbs in Action - YourGermanTeacher: German Modal Verbs Made Super Easy",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=Zf97cqx9uRA"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Memorize",
@@ -1182,17 +1182,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Lesson 14 - Dürfen and Sollen + Hausordnung",
+              "title": "DW Nicos Weg: Modal Verbs (können, müssen, wollen) - Dürfen and Sollen + Hausordnung",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Episode 11 - Regeln und Verbote",
+              "title": "Deutsch mit Hend: Modalverben & Word Order - Regeln und Verbote",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=Ye3ehz49u8o"
+              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
             },
             {
               "type": "Memorize",
@@ -1203,10 +1203,10 @@ export const CURRICULUM_DATA = {
             },
             {
               "type": "Listen",
-              "title": "Easy German: Understanding signs and rules in Germany",
+              "title": "Easy German #185: Expressing Rules & Wishes in German - Easy German: Understanding signs and rules in Germany",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=koi9YnhQ2so"
+              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
             },
             {
               "type": "Quiz",
@@ -1254,14 +1254,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 15 - Housing and Apartment Vocabulary",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
+              "link": "https://www.youtube.com/watch?v=TPvYYsr6KbE"
             },
             {
               "type": "Read",
-              "title": "Deutsch Survival A1: Guide to WG and Apartment vocabulary for international students",
+              "title": "Shehata Deutsch: Past Tense Mastery (Perfekt & Partizip II) - Deutsch Survival A1: Guide to WG and Apartment vocabulary for international students",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=5YtHNczWwAw"
             },
             {
               "type": "Memorize",
@@ -1272,10 +1272,10 @@ export const CURRICULUM_DATA = {
             },
             {
               "type": "Listen",
-              "title": "Super Easy German #20: Living in a WG in Germany",
+              "title": "Easy German #310: What Did You Do Last Weekend? - Super Easy German #20: Living in a WG in Germany",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=lX-nSnvJ-c0"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Quiz",
@@ -1326,17 +1326,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Lesson 16 - Writing Messages to Landlords",
+              "title": "DW Nicos Weg: Subordinate Clauses with Weil & Dass - Writing Messages to Landlords",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Ye3ehz49u8o"
+              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Episode 12 - Wohnungssuche",
+              "title": "Deutsch mit Hend: Nebensätze & Verb-at-the-End Rule - Wohnungssuche",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=Jxq2uezZxks"
+              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
             },
             {
               "type": "Memorize",
@@ -1405,7 +1405,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - How to Survive Anmeldung in Germany",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
@@ -1423,10 +1423,10 @@ export const CURRICULUM_DATA = {
             },
             {
               "type": "Listen",
-              "title": "Deutsch Survival Platform Audio: Officer dialogue at Bürgeramt",
+              "title": "Easy German #1: Greetings on the Streets of Berlin - Deutsch Survival Platform Audio: Officer dialogue at Bürgeramt",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=K9hTQMvIps8"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Speak",
@@ -1484,17 +1484,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Lesson 17 - Reporting Maintenance Issues",
+              "title": "DW Nicos Weg: Hallo Nico - First Greetings & Introductions - Reporting Maintenance Issues",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Jxq2uezZxks"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Watch",
               "title": "Learn German with Anja: Practical German for House Repair and Issues",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=MOtqMNKs0Jw"
+              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
             },
             {
               "type": "Memorize",
@@ -1623,24 +1623,24 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Lesson 18 - The Dative Case Demystified",
+              "title": "German with Laura: Der, Die, Das Gender Rules & Endings - The Dative Case Demystified",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Qzb82FdyzhM"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Read",
-              "title": "Deutsch Survival A1: Dative case breakdown and color charts",
+              "title": "Deutsch mit Hend: Definite and Indefinite Articles - Deutsch Survival A1: Dative case breakdown and color charts",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
             },
             {
               "type": "Watch",
-              "title": "YourGermanTeacher: Dative Case in German - Complete Masterclass",
+              "title": "Easy German #120: How Germans Guess Word Genders - Complete Masterclass",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=G-dgLzu18EU"
+              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
             },
             {
               "type": "Memorize",
@@ -1701,14 +1701,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 19 - Dative Personal Pronouns",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=K9hTQMvIps8"
+              "link": "https://www.youtube.com/watch?v=n4HSidrjXmQ"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Episode 13 - Wie geht es dir?",
+              "title": "Shehata Deutsch: Akkusativ vs Nominativ Direct Comparison - Wie geht es dir?",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=eFE-vWA-2H8"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Memorize",
@@ -1767,17 +1767,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Lesson 20 - Fixed Dative Prepositions",
+              "title": "Shehata Deutsch: Der Dativ & Prepositions Masterclass - Fixed Dative Prepositions",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: The Dative Preposition Song and Rule",
+              "title": "Easy German #250: Dative Verbs in Action - Learn German with Anja: The Dative Preposition Song and Rule",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=L_EWNRkvkZY"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Memorize",
@@ -1835,17 +1835,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Lesson 21 - Asking and Giving Directions",
+              "title": "DW Nicos Weg: Modal Verbs (können, müssen, wollen) - Asking and Giving Directions",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=eFE-vWA-2H8"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Episode 14 - Wo ist die Post?",
+              "title": "Deutsch mit Hend: Modalverben & Word Order - Wo ist die Post?",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=hEy6gGr94KA"
+              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
             },
             {
               "type": "Memorize",
@@ -1856,10 +1856,10 @@ export const CURRICULUM_DATA = {
             },
             {
               "type": "Listen",
-              "title": "Super Easy German #18: Asking strangers for directions in Berlin",
+              "title": "Easy German #185: Expressing Rules & Wishes in German - Super Easy German #18: Asking strangers for directions in Berlin",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
             },
             {
               "type": "Speak",
@@ -1914,14 +1914,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 22 - Two-Way Prepositions (Wo? + Dativ)",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
+              "link": "https://www.youtube.com/watch?v=TPvYYsr6KbE"
             },
             {
               "type": "Watch",
-              "title": "YourGermanTeacher: Wechselpräpositionen Made Easy",
+              "title": "DW Nicos Weg: Talking About Yesterday in Perfekt - YourGermanTeacher: Wechselpräpositionen Made Easy",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=auWRmuw_AcY"
+              "link": "https://learngerman.dw.com/en/nicos-weg"
             },
             {
               "type": "Memorize",
@@ -1973,17 +1973,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Special - Navigating German Trains and Stations",
+              "title": "DW Nicos Weg: Subordinate Clauses with Weil & Dass - Navigating German Trains and Stations",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=hEy6gGr94KA"
+              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Episode 15 - Fahrkarten und Gleise",
+              "title": "Deutsch mit Hend: Nebensätze & Verb-at-the-End Rule - Fahrkarten und Gleise",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
             },
             {
               "type": "Memorize",
@@ -2119,17 +2119,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Special - German University Vocabulary and Enrollment",
+              "title": "DW Nicos Weg: Hallo Nico - First Greetings & Introductions - German University Vocabulary and Enrollment",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Read",
-              "title": "Deutsch Survival A1: International student guide to German higher education vocabulary",
+              "title": "Deutsch mit Hend: Basic Greetings & Introduction - Deutsch Survival A1: International student guide to German higher education vocabulary",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
             },
             {
               "type": "Memorize",
@@ -2191,14 +2191,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 23 - Formal Academic Email Writing",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Episode 16 - An der Universität",
+              "title": "lingoni GERMAN: Regular & Irregular Verb Conjugation - An der Universität",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=Ye3ehz49u8o"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -2257,17 +2257,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Lesson 24 - Mensa and Library German",
+              "title": "German with Laura: Der, Die, Das Gender Rules & Endings - Mensa and Library German",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Watch",
-              "title": "Super Easy German #25: What is a German Mensa like?",
+              "title": "DW Nicos Weg: Ordering at a Cafe & Articles - Super Easy German #25: What is a German Mensa like?",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=9UAxWbqsqLc"
+              "link": "https://learngerman.dw.com/en/nicos-weg"
             },
             {
               "type": "Memorize",
@@ -2329,14 +2329,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 25 - Adjective Endings Demystified",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Ye3ehz49u8o"
+              "link": "https://www.youtube.com/watch?v=n4HSidrjXmQ"
             },
             {
               "type": "Watch",
-              "title": "YourGermanTeacher: German Adjective Endings - Simple System",
+              "title": "lingoni GERMAN: German Direct Objects & Accusative - Simple System",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=SXKD5bQl-zQ"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -2388,17 +2388,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Lesson 26 - Scheduling Appointments",
+              "title": "Shehata Deutsch: Der Dativ & Prepositions Masterclass - Scheduling Appointments",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Episode 17 - Einen Termin machen",
+              "title": "Deutsch mit Hend: Dativ Case & Verbs - Einen Termin machen",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=n4HSidrjXmQ"
+              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
             },
             {
               "type": "Memorize",
@@ -2457,17 +2457,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Lesson 27 - Health, Doctor and Pharmacy German",
+              "title": "DW Nicos Weg: Modal Verbs (können, müssen, wollen) - Health, Doctor and Pharmacy German",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Jxq2uezZxks"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: Going to the Doctor in Germany",
+              "title": "lingoni GERMAN: How to Use Modal Verbs Correctly - Learn German with Anja: Going to the Doctor in Germany",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=kuAlkmR7oXs"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -2602,24 +2602,24 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Lesson 28 - Das Perfekt Tense Foundations",
+              "title": "DW Nicos Weg: Subordinate Clauses with Weil & Dass - Das Perfekt Tense Foundations",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Qzb82FdyzhM"
+              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
             },
             {
               "type": "Read",
-              "title": "Deutsch Survival A1: Perfekt tense formula and regular verb list",
+              "title": "Deutsch mit Hend: Nebensätze & Verb-at-the-End Rule - Deutsch Survival A1: Perfekt tense formula and regular verb list",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
             },
             {
               "type": "Watch",
-              "title": "YourGermanTeacher: German Past Tense (Perfekt) Made Super Easy",
+              "title": "Shehata Deutsch: Weil, Dass, Obwohl & Wenn Demystified - YourGermanTeacher: German Past Tense (Perfekt) Made Super Easy",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=cWFjOK9sfBw"
+              "link": "https://www.youtube.com/watch?v=jiV90WdUkjw"
             },
             {
               "type": "Memorize",
@@ -2674,14 +2674,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 29 - Perfekt with SEIN vs HABEN",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=K9hTQMvIps8"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Episode 18 - Was hast du gestern gemacht?",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=eFE-vWA-2H8"
+              "link": "https://learngerman.dw.com/en/nicos-weg"
             },
             {
               "type": "Memorize",
@@ -2739,17 +2739,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Lesson 30 - Top 25 Irregular Perfekt Verbs",
+              "title": "DW Nicos Weg: Hallo Nico - First Greetings & Introductions - Top 25 Irregular Perfekt Verbs",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Watch",
               "title": "Learn German with Anja: Top Irregular German Past Tense Verbs",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=G61p5tiLow4"
+              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
             },
             {
               "type": "Memorize",
@@ -2811,14 +2811,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 31 - Inseparable Prefix Verbs in Perfekt",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=eFE-vWA-2H8"
+              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Episode 19 - Ein schöner Tag",
+              "title": "lingoni GERMAN: Regular & Irregular Verb Conjugation - Ein schöner Tag",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=hEy6gGr94KA"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -2870,17 +2870,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Lesson 32 - Storytelling and Transition Words in Perfekt",
+              "title": "German with Laura: Der, Die, Das Gender Rules & Endings - Storytelling and Transition Words in Perfekt",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Watch",
-              "title": "Super Easy German #30: What Germans did last weekend",
+              "title": "DW Nicos Weg: Ordering at a Cafe & Articles - Super Easy German #30: What Germans did last weekend",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=mR_E_DKbX5Y"
+              "link": "https://learngerman.dw.com/en/nicos-weg"
             },
             {
               "type": "Writing",
@@ -2942,14 +2942,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 33 - Präteritum of Sein and Haben",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=hEy6gGr94KA"
+              "link": "https://www.youtube.com/watch?v=n4HSidrjXmQ"
             },
             {
               "type": "Watch",
-              "title": "YourGermanTeacher: War vs Hatte in Spoken German",
+              "title": "lingoni GERMAN: German Direct Objects & Accusative - YourGermanTeacher: War vs Hatte in Spoken German",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=UCxRsIz7qQ8"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -3078,17 +3078,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Special - Opening a Bank Account in Germany",
+              "title": "DW Nicos Weg: Modal Verbs (können, müssen, wollen) - Opening a Bank Account in Germany",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Read",
-              "title": "Deutsch Survival A1: Banking vocabulary and Sperrkonto activation guide",
+              "title": "Deutsch mit Hend: Modalverben & Word Order - Deutsch Survival A1: Banking vocabulary and Sperrkonto activation guide",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
             },
             {
               "type": "Memorize",
@@ -3150,14 +3150,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - German Health Insurance Explained",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=TPvYYsr6KbE"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Episode 20 - Bei der Versicherung",
+              "title": "Shehata Deutsch: Past Tense Mastery (Perfekt & Partizip II) - Bei der Versicherung",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=Ye3ehz49u8o"
+              "link": "https://www.youtube.com/watch?v=5YtHNczWwAw"
             },
             {
               "type": "Memorize",
@@ -3216,17 +3216,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Special - Ausländerbehörde and Visa Extension Phrases",
+              "title": "DW Nicos Weg: Subordinate Clauses with Weil & Dass - Ausländerbehörde and Visa Extension Phrases",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
+              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
             },
             {
               "type": "Read",
-              "title": "Deutsch Survival A1: Key phrases for your Ausländerbehörde interview",
+              "title": "Deutsch mit Hend: Nebensätze & Verb-at-the-End Rule - Deutsch Survival A1: Key phrases for your Ausländerbehörde interview",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
             },
             {
               "type": "Memorize",
@@ -3294,14 +3294,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - Post Office, Packages and SIM Cards",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Ye3ehz49u8o"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Super Easy German #22: Buying a SIM Card and Post Office in Germany",
+              "title": "Easy German #1: Greetings on the Streets of Berlin - Super Easy German #22: Buying a SIM Card and Post Office in Germany",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=V8QbPvU_lVE"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Memorize",
@@ -3360,17 +3360,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Lesson 34 - Subordinate Clauses (Weil, Dass, Wenn)",
+              "title": "DW Nicos Weg: Hallo Nico - First Greetings & Introductions - Subordinate Clauses (Weil, Dass, Wenn)",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Watch",
-              "title": "YourGermanTeacher: Weil and Dass - Verb at the End Rule",
+              "title": "Learn German with Anja: 10 German Greetings You Must Know - Verb at the End Rule",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=TyHnzQTka6Q"
+              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
             },
             {
               "type": "Memorize",
@@ -3425,14 +3425,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 35 - Comparatives and Superlatives",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Jxq2uezZxks"
+              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Episode 21 - Das ist besser!",
+              "title": "lingoni GERMAN: Regular & Irregular Verb Conjugation - Das ist besser!",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=Qzb82FdyzhM"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -3557,14 +3557,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - Complete Airport and Arrival Masterclass",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Qzb82FdyzhM"
+              "link": "https://www.youtube.com/watch?v=n4HSidrjXmQ"
             },
             {
               "type": "Read",
-              "title": "Deutsch Survival A1: Airport signs, customs questions and announcements",
+              "title": "Shehata Deutsch: Akkusativ vs Nominativ Direct Comparison - Deutsch Survival A1: Airport signs, customs questions and announcements",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Memorize",
@@ -3623,17 +3623,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Special - Emergency German and Calling 112 / 110",
+              "title": "Shehata Deutsch: Der Dativ & Prepositions Masterclass - Emergency German and Calling 112 / 110",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=K9hTQMvIps8"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Episode 22 - Ein Notfall!",
+              "title": "Deutsch mit Hend: Dativ Case & Verbs - Ein Notfall!",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=eFE-vWA-2H8"
+              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
             },
             {
               "type": "Memorize",
@@ -3699,17 +3699,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Revision",
-              "title": "Complete Deutsch mit Hend A1 Master Grammar Review Sheet",
+              "title": "DW Nicos Weg: Modal Verbs (können, müssen, wollen) - Complete Deutsch mit Hend A1 Master Grammar Review Sheet",
               "duration": "60 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Watch",
-              "title": "YourGermanTeacher: All German A1 Grammar in 60 Minutes",
+              "title": "lingoni GERMAN: How to Use Modal Verbs Correctly - YourGermanTeacher: All German A1 Grammar in 60 Minutes",
               "duration": "60 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=TytGj8xiPyY"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Quiz",
@@ -3754,17 +3754,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Practice Test",
-              "title": "Complete DW Nicos Weg A1 End-of-Course Final Test",
+              "title": "Shehata Deutsch: Past Tense Mastery (Perfekt & Partizip II) - Course Final Test",
               "duration": "60 min",
               "resourceType": "SECONDARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=5YtHNczWwAw"
             },
             {
               "type": "Listen",
-              "title": "Deutsch Survival Platform A1 Audio Stories Marathon (5 stories back to back)",
+              "title": "Easy German #310: What Did You Do Last Weekend? - Deutsch Survival Platform A1 Audio Stories Marathon (5 stories back to back)",
               "duration": "45 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=_jFcmlLS338"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Read",
@@ -3816,17 +3816,17 @@ export const CURRICULUM_DATA = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A1 Speaking Exam Preparation and Tips",
+              "title": "DW Nicos Weg: Subordinate Clauses with Weil & Dass - Deutsch mit Hend: A1 Speaking Exam Preparation and Tips",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
+              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
             },
             {
               "type": "Watch",
-              "title": "Goethe-Institut: Official A1 Speaking Exam Demonstration Video",
+              "title": "Shehata Deutsch: Weil, Dass, Obwohl & Wenn Demystified - Institut: Official A1 Speaking Exam Demonstration Video",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=O6m-GslH2kM"
+              "link": "https://www.youtube.com/watch?v=jiV90WdUkjw"
             },
             {
               "type": "Speak",
