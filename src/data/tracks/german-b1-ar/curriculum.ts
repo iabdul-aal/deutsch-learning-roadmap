@@ -86,7 +86,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Genitive-Only Prepositions (wegen, während, trotz, statt)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=1500s"
             },
             {
               "type": "Read",
@@ -150,7 +150,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: N-Declension Weak Nouns (der Student/des Studenten, der Herr)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=3000s"
             },
             {
               "type": "Read",
@@ -214,7 +214,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Expressing Possession in Formal & Academic Writing",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=4500s"
             },
             {
               "type": "Read",
@@ -228,7 +228,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Expressing Possession in Formal & Academic Writing",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=4500s"
             },
             {
               "type": "Memorize",
@@ -278,7 +278,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Genitive Case in German News Articles & Literature",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=6000s"
             },
             {
               "type": "Read",
@@ -342,7 +342,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Genitive vs Dative ('von' + Dative in Spoken German)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             },
             {
               "type": "Read",
@@ -356,7 +356,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Genitive vs Dative ('von' + Dative in Spoken German)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             },
             {
               "type": "Memorize",
@@ -406,7 +406,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Week 1 Review & Genitive Case Mastery Sprint",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=9000s"
             },
             {
               "type": "Read",
@@ -420,7 +420,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Week 1 Review & Genitive Case Mastery Sprint",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=9000s"
             },
             {
               "type": "Memorize",
@@ -478,7 +478,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Relative Clauses in Nominative (der Mann, der... / die Frau, die...)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=10500s"
             },
             {
               "type": "Read",
@@ -542,7 +542,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Relative Clauses in Accusative (der Stuhl, den ich kaufe...)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=12000s"
             },
             {
               "type": "Read",
@@ -606,7 +606,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Relative Clauses in Dative (der Kollege, dem ich helfe...)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             },
             {
               "type": "Read",
@@ -620,7 +620,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Relative Clauses in Dative (der Kollege, dem ich helfe...)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             },
             {
               "type": "Memorize",
@@ -670,7 +670,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Relative Clauses in Genitive (der Autor, dessen Buch...)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=15000s"
             },
             {
               "type": "Read",
@@ -684,7 +684,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Relative Clauses in Genitive (der Autor, dessen Buch...)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=15000s"
             },
             {
               "type": "Memorize",
@@ -734,7 +734,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Relative Clauses with Prepositions (das Haus, in dem ich wohne...)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=16500s"
             },
             {
               "type": "Read",
@@ -798,7 +798,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Relative Clauses with Indefinite Pronouns (alles, was... / etwas, das...)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=18000s"
             },
             {
               "type": "Read",
@@ -862,7 +862,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Week 2 Review & Relative Clauses Mastery Sprint",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=19500s"
             },
             {
               "type": "Read",
@@ -876,7 +876,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Week 2 Review & Relative Clauses Mastery Sprint",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=19500s"
             },
             {
               "type": "Memorize",
@@ -934,7 +934,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Passive Voice Present Tense (werden + Partizip II)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=21000s"
             },
             {
               "type": "Read",
@@ -998,7 +998,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Passive Voice Past Tense (wurde + Partizip II)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=22500s"
             },
             {
               "type": "Read",
@@ -1062,7 +1062,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Passive Voice with Modal Verbs (muss gemacht werden / kann gelöst werden)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
             },
             {
               "type": "Read",
@@ -1076,7 +1076,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Passive Voice with Modal Verbs (muss gemacht werden / kann gelöst werden)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
             },
             {
               "type": "Memorize",
@@ -1126,7 +1126,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Agent vs Instrument in Passive (von + Dativ vs durch + Akkusativ)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=F3a7cI2g_sM"
             },
             {
               "type": "Read",
@@ -1140,7 +1140,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Agent vs Instrument in Passive (von + Dativ vs durch + Akkusativ)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=F3a7cI2g_sM"
             },
             {
               "type": "Memorize",
@@ -1190,7 +1190,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Impersonal Passive Structures (Es wird getanzt / Hier wird gearbeitet)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=27000s"
             },
             {
               "type": "Read",
@@ -1318,7 +1318,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Week 3 Review & Passive Voice Mastery Sprint",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=30000s"
             },
             {
               "type": "Read",
@@ -1332,7 +1332,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Week 3 Review & Passive Voice Mastery Sprint",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=30000s"
             },
             {
               "type": "Memorize",
@@ -1390,7 +1390,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Infinitive Clauses with 'zu' (Es ist wichtig, Deutsch zu lernen)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=31500s"
             },
             {
               "type": "Read",
@@ -1454,7 +1454,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Verbs Requiring 'zu' + Infinitive (vorhaben, versuchen, beschließen)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=33000s"
             },
             {
               "type": "Read",
@@ -1518,7 +1518,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Purpose Clauses: 'um...zu' vs 'damit' (Same vs Different Subjects)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=34500s"
             },
             {
               "type": "Read",
@@ -1582,7 +1582,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Negative Infinitive Clauses with 'ohne...zu' (without doing)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=36000s"
             },
             {
               "type": "Read",
@@ -1596,7 +1596,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Negative Infinitive Clauses with 'ohne...zu' (without doing)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=36000s"
             },
             {
               "type": "Memorize",
@@ -1710,7 +1710,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Combining Infinitive Clauses in Essays & Formal Letters",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=39000s"
             },
             {
               "type": "Read",
@@ -1724,7 +1724,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Combining Infinitive Clauses in Essays & Formal Letters",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=39000s"
             },
             {
               "type": "Memorize",
@@ -1774,7 +1774,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Week 4 Review & Infinitive Structures Mastery Sprint",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=40500s"
             },
             {
               "type": "Read",
@@ -1846,7 +1846,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Proportional Clauses: 'je...desto / umso' (Double Comparative)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=42000s"
             },
             {
               "type": "Read",
@@ -1910,7 +1910,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Addition & Negation: 'sowohl...als auch' vs 'weder...noch'",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=43500s"
             },
             {
               "type": "Read",
@@ -1988,7 +1988,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Alternatives & Contrast: 'entweder...oder' vs 'zwar...aber'",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=45000s"
             },
             {
               "type": "Memorize",
@@ -2102,7 +2102,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Modal Subordinate Clauses with 'indem' & 'dadurch, dass'",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
             },
             {
               "type": "Read",
@@ -2116,7 +2116,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Modal Subordinate Clauses with 'indem' & 'dadurch, dass'",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
             },
             {
               "type": "Memorize",
@@ -2244,7 +2244,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Week 5 Review & Two-Part Conjunctions Mastery Sprint",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=51000s"
             },
             {
               "type": "Memorize",
@@ -2302,7 +2302,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Present Participle as Adjective (Partizip I: das lachende Kind)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=52500s"
             },
             {
               "type": "Read",
@@ -2366,7 +2366,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Past Participle as Adjective (Partizip II: das geschriebene Buch)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=54000s"
             },
             {
               "type": "Read",
@@ -2494,7 +2494,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Causal & Consecutive Clauses: da vs weil, folglich, deshalb",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=57000s"
             },
             {
               "type": "Read",
@@ -2508,7 +2508,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Causal & Consecutive Clauses: da vs weil, folglich, deshalb",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=57000s"
             },
             {
               "type": "Memorize",
@@ -2558,7 +2558,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: B1 Abstract Nouns & Nominalization (-ung, -heit, -keit, -schaft)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=58500s"
             },
             {
               "type": "Read",
@@ -2622,7 +2622,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: German Business & Office Communication: Formal Complaint Letters",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=60000s"
             },
             {
               "type": "Read",
@@ -2686,7 +2686,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Week 6 Review & Advanced B1 Grammar Mastery Sprint",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=61500s"
             },
             {
               "type": "Read",
@@ -2700,7 +2700,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Week 6 Review & Advanced B1 Grammar Mastery Sprint",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=61500s"
             },
             {
               "type": "Memorize",
@@ -2758,7 +2758,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Writing German Formal Cover Letters (Bewerbungsschreiben & Lebenslauf)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=63000s"
             },
             {
               "type": "Read",
@@ -2822,7 +2822,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Simulating German Job Interviews & Expressing Strengths",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=64500s"
             },
             {
               "type": "Read",
@@ -2950,7 +2950,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Expressing Opinions & Debating Politely (Meiner Meinung nach...)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=67500s"
             },
             {
               "type": "Read",
@@ -2964,7 +2964,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Expressing Opinions & Debating Politely (Meiner Meinung nach...)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=67500s"
             },
             {
               "type": "Memorize",
@@ -3014,7 +3014,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: German Rental Contracts (Mietvertrag) & Utility Communications",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=69000s"
             },
             {
               "type": "Read",
@@ -3078,7 +3078,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Medical & Health Scenarios at B1 Level (Beim Arzt & Apotheke)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=70500s"
             },
             {
               "type": "Read",
@@ -3092,7 +3092,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Medical & Health Scenarios at B1 Level (Beim Arzt & Apotheke)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=70500s"
             },
             {
               "type": "Memorize",
@@ -3142,7 +3142,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Week 7 Review & Professional German Mastery Sprint",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=72000s"
             },
             {
               "type": "Read",
@@ -3214,7 +3214,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Goethe B1 Hören Sprint: Listening Comprehension Parts 1-4",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=73500s"
             },
             {
               "type": "Read",
@@ -3228,7 +3228,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Goethe B1 Hören Sprint: Listening Comprehension Parts 1-4",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=73500s"
             },
             {
               "type": "Memorize",
@@ -3278,7 +3278,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Goethe B1 Lesen Sprint: Reading Comprehension Parts 1-5",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=75000s"
             },
             {
               "type": "Read",
@@ -3342,7 +3342,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Goethe B1 Schreiben Sprint: Informal Email, Opinion & Formal Request",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=76500s"
             },
             {
               "type": "Read",
@@ -3484,7 +3484,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Goethe B1 Sprechen Part 2 & 3: Presentation & Discussion",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=79500s"
             },
             {
               "type": "Memorize",
@@ -3534,7 +3534,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Full Goethe / TELC B1 Mock Exam Simulation Sprint",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=81000s"
             },
             {
               "type": "Read",
@@ -3598,7 +3598,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: German B1 Graduation Day: Progress Review & B2 Academic Preparation",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=82500s"
             },
             {
               "type": "Read",
@@ -3612,7 +3612,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: German B1 Graduation Day: Progress Review & B2 Academic Preparation",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=82500s"
             },
             {
               "type": "Memorize",

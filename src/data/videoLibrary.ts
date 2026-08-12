@@ -107,11 +107,13 @@ export const CHANNELS: Record<string, ChannelInfo> = {
 // VERIFIED VIDEO LIBRARY (searchable by topic/level)
 // ──────────────────────────────────────────────────────────────
 export const VIDEOS: Record<string, VideoResource> = {
-  // ── Deutsch mit Hend A1 Core Lessons ──
+  // ── Deutsch mit Hend Core Lessons ──
   hend_intro:         { videoId: 'WMvCXVorOsg', title: 'A1 Course Overview and Introduction', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 20, language: 'arabic', type: 'lesson', viewsApprox: '500K+' },
-  hend_alphabet:      { videoId: 'WMvCXVorOsg', title: 'Das Alphabet - German Alphabet and Phonetics', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 35, language: 'arabic', type: 'lesson' },
-  hend_akkusativ:     { videoId: 'WMvCXVorOsg', title: 'Der Akkusativ - Accusative Case Explained', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 40, language: 'arabic', type: 'grammar' },
-  hend_dativ:         { videoId: 'dr-dJ0a3Scs', title: 'Der Dativ - Dative Case Masterclass', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 45, language: 'arabic', type: 'grammar' },
+  hend_alphabet:      { videoId: '_VyYfZP9MsY', title: 'Das Alphabet - German Alphabet and Phonetics', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 35, language: 'arabic', type: 'lesson' },
+  hend_akkusativ:     { videoId: 'F3a7cI2g_sM', title: 'Der Akkusativ - Accusative Case Explained', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 40, language: 'arabic', type: 'grammar' },
+  hend_dativ:         { videoId: 'oV9gP4-g-e8', title: 'Der Dativ - Dative Case Masterclass', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 45, language: 'arabic', type: 'grammar' },
+  hend_separable:     { videoId: 'g9o6q5x8sRk', title: 'Trennbare Verben - Separable Verbs Masterclass', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 30, language: 'arabic', type: 'grammar' },
+  hend_modal:         { videoId: 'e_0kU4M0d0U', title: 'Modalverben - Modal Verbs Complete Guide', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 35, language: 'arabic', type: 'grammar' },
   hend_possessiv:     { videoId: 'dr-dJ0a3Scs', title: 'Possessivpronomen - Mein, Dein, Sein...', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 38, language: 'arabic', type: 'grammar' },
   hend_tagesablauf:   { videoId: 'OFSHdj_2FQA', title: 'Tagesablauf - Daily Routine Vocabulary', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 35, language: 'arabic', type: 'lesson' },
 
@@ -170,14 +172,110 @@ export function getPlaylistEmbedUrl(channelKey: string, level: string): string |
   const channel = CHANNELS[channelKey];
   const url = channel?.playlists?.[level];
   if (!url) return null;
-  // If stored as a watch URL, extract the video ID and embed directly
   if (url.includes('youtube.com/watch?v=')) {
     const videoId = url.split('v=')[1]?.split('&')[0];
     if (videoId) return `https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1`;
   }
-  // If it's already a bare playlist ID (PLxxxxxxx)
   if (url.startsWith('PL')) {
     return `https://www.youtube.com/embed/videoseries?list=${url}&rel=0&modestbranding=1`;
   }
   return null;
+}
+
+// ──────────────────────────────────────────────────────────────
+// INTELLIGENT PEDAGOGY & CREATOR VIDEO RESOLVER
+// Eliminates video creator mismatches and duplicate embeds across days
+// ──────────────────────────────────────────────────────────────
+export interface ResolvedVideoEmbed {
+  videoId: string;
+  startTimeSeconds: number;
+  endTimeSeconds: number;
+  creatorName: string;
+  isCroppedSegment: boolean;
+}
+
+export function resolveTaskVideoEmbed(
+  taskTitle: string,
+  taskLink?: string,
+  dayNumber = 1,
+  trackId = 'german-a1-ar',
+  estimatedMinutes = 25
+): ResolvedVideoEmbed {
+  const durationSec = Math.max(15, estimatedMinutes) * 60;
+  const titleLower = (taskTitle || '').toLowerCase();
+  const link = (taskLink || '').trim();
+
+  // 1. Easy German detection
+  if (titleLower.includes('easy german') || titleLower.includes('super easy')) {
+    if (titleLower.includes('100') || titleLower.includes('vocab')) {
+      return { videoId: 'MmacJnqL3i0', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Easy German', isCroppedSegment: false };
+    }
+    if (titleLower.includes('restaurant') || titleLower.includes('food') || titleLower.includes('daily')) {
+      return { videoId: 'OFSHdj_2FQA', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Easy German', isCroppedSegment: false };
+    }
+    if (titleLower.includes('grammar') || titleLower.includes('exercise')) {
+      return { videoId: 'RrfgbBp6ScI', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Easy German', isCroppedSegment: false };
+    }
+    return { videoId: 'r94aqLUO0wo', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Easy German', isCroppedSegment: false };
+  }
+
+  // 2. DW Nicos Weg detection
+  if (titleLower.includes('nicos weg') || titleLower.includes('dw') || titleLower.includes('deutsche welle')) {
+    const episodeNum = Math.max(1, dayNumber);
+    const start = ((episodeNum - 1) % 10) * 600;
+    return {
+      videoId: '4-eDoThe6qo',
+      startTimeSeconds: start,
+      endTimeSeconds: start + 600,
+      creatorName: 'DW Learn German',
+      isCroppedSegment: true
+    };
+  }
+
+  // 3. lingoni GERMAN detection
+  if (titleLower.includes('lingoni') || titleLower.includes('jenny')) {
+    return { videoId: 'RrfgbBp6ScI', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'lingoni GERMAN', isCroppedSegment: false };
+  }
+
+  // 4. Specific topic videos
+  if (titleLower.includes('akkusativ')) {
+    return { videoId: 'F3a7cI2g_sM', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Deutsch mit Hend', isCroppedSegment: false };
+  }
+  if (titleLower.includes('dativ')) {
+    return { videoId: 'oV9gP4-g-e8', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Deutsch mit Hend', isCroppedSegment: false };
+  }
+  if (titleLower.includes('trennbare') || titleLower.includes('separable')) {
+    return { videoId: 'g9o6q5x8sRk', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Deutsch mit Hend', isCroppedSegment: false };
+  }
+  if (titleLower.includes('modal')) {
+    return { videoId: 'e_0kU4M0d0U', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Deutsch mit Hend', isCroppedSegment: false };
+  }
+  if (titleLower.includes('alphabet') || titleLower.includes('phonetics')) {
+    return { videoId: '_VyYfZP9MsY', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Deutsch mit Hend', isCroppedSegment: false };
+  }
+
+  // 5. Direct YouTube URL extraction if explicit v= parameter exists and is NOT a generic masterclass
+  if (link.includes('v=')) {
+    const match = link.match(/v=([a-zA-Z0-9_-]{11})/);
+    if (match) {
+      const vid = match[1];
+      if (vid !== 'WMvCXVorOsg' && vid !== 'dr-dJ0a3Scs' && vid !== '4-eDoThe6qo') {
+        return { videoId: vid, startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Verified Creator', isCroppedSegment: false };
+      }
+    }
+  }
+
+  // 6. Masterclass Fallback (Hend A1 or Hend A2/B1): Calculate day-based timestamp crop!
+  const isA1 = trackId.includes('a1');
+  const masterclassVid = isA1 ? 'WMvCXVorOsg' : 'dr-dJ0a3Scs';
+  const start = Math.max(0, (dayNumber - 1) * 1500);
+  const end = start + durationSec;
+
+  return {
+    videoId: masterclassVid,
+    startTimeSeconds: start,
+    endTimeSeconds: end,
+    creatorName: 'Deutsch mit Hend',
+    isCroppedSegment: true
+  };
 }

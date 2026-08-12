@@ -3,6 +3,7 @@ import { useApp } from '../context/AppContext';
 import {
   CONTENT_DB, rankContent, ContentSource, SkillType, getYouTubeWatchUrl
 } from '../data/contentRanking';
+import { resolveTaskVideoEmbed } from '../data/videoLibrary';
 import { YouTubePlayer } from './YouTubePlayer';
 import {
   MapPin, CheckCircle2, Circle, ChevronRight, ChevronDown,
@@ -245,7 +246,7 @@ const TaskCard: React.FC<{
   isFirstVideoTask: boolean;
   secondaryVideoId?: string;
 }> = ({ task, taskId, taskIndex, dayNumber, isDone, dayVideoId, isFirstVideoTask, secondaryVideoId }) => {
-  const { toggleTask } = useApp();
+  const { currentTrackId, toggleTask } = useApp();
   const [expanded, setExpanded] = useState(false);
 
   const meta = getTaskMeta(task.type);
@@ -254,26 +255,13 @@ const TaskCard: React.FC<{
   const isWriting = task.type === 'Writing' || (task.type === 'Write');
   const isSpeaking = task.type === 'Speak' || task.type === 'Shadowing' || task.type === 'Roleplay' || task.type === 'AI Roleplay';
 
-  // Extract video ID from task.link if present, or fallback to verified day video ID
-  let embedVideoId: string | undefined = undefined;
-  if (isVideo) {
-    if (task.link && task.link.includes('v=')) {
-      const match = task.link.match(/v=([a-zA-Z0-9_-]{11})/);
-      if (match) {
-        embedVideoId = match[1];
-      }
-    }
-    if (!embedVideoId) {
-      embedVideoId = isFirstVideoTask
-        ? (dayVideoId || getVerifiedDayVideoId(dayNumber))
-        : (secondaryVideoId || getSecondaryDayVideoId(dayNumber));
-    }
-  }
-
-  // Calculate Pomodoro-friendly task duration & cropped timestamps
+  // Calculate duration & intelligent creator-matched video embed
   const durationMatch = (task.duration || '').match(/(\d+)/);
   const estimatedMin = durationMatch ? parseInt(durationMatch[1], 10) : 25;
-  const { startTimeSeconds, endTimeSeconds } = getVideoCroppedSegment(embedVideoId || 'WMvCXVorOsg', dayNumber, estimatedMin);
+
+  const resolvedVideo = isVideo
+    ? resolveTaskVideoEmbed(task.title, task.link, dayNumber, currentTrackId, estimatedMin)
+    : null;
 
   return (
     <div
@@ -336,13 +324,13 @@ const TaskCard: React.FC<{
       {expanded && !isDone && (
         <div className="px-3 pb-3 space-y-2 animate-fadeIn">
           {/* VIDEO EMBED */}
-          {isVideo && (
+          {isVideo && resolvedVideo && (
             <EmbeddedPlayer
-              videoId={embedVideoId || 'WMvCXVorOsg'}
+              videoId={resolvedVideo.videoId}
               title={task.title}
               dayNumber={dayNumber}
-              startTimeSeconds={startTimeSeconds}
-              endTimeSeconds={endTimeSeconds}
+              startTimeSeconds={resolvedVideo.startTimeSeconds}
+              endTimeSeconds={resolvedVideo.endTimeSeconds}
               estimatedMinutes={estimatedMin}
             />
           )}
