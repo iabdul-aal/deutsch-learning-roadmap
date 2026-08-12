@@ -37,7 +37,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Grammar and Conversation",
           objective: "State your name, origin, profession, and residence using 'heißen', 'kommen', 'wohnen', 'sein'.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 2 - Self Introduction and Personal Pronouns", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 2 - Self Introduction and Personal Pronouns", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Watch", title: "DW Nicos Weg: Episode 1 and 2 - Hallo Nico! (Ich heiße Nico)", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Watch", title: "YourGermanTeacher: Present Tense Regular Verbs and Pronouns", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
             { type: "Memorize", title: "15 key words: Name, Herkunft, Wohnort, Land, Stadt, Beruf, Deutsch, Arabisch", duration: "30 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
@@ -209,7 +209,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Practical Survival German",
           objective: "Order food/drinks at a German restaurant, pay separately (Zusammen oder getrennt?), ask for the bill.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 9 - Restaurant Dialogues and Polite Requests", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 9 - Restaurant Dialogues and Polite Requests", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Watch", title: "Learn German with Anja: How to order food like a native in Germany", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
             { type: "Memorize", title: "15 restaurant phrases (Speisekarte, Rechnung, bezahlen, zusammen, getrennt, lecker...)", duration: "30 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
             { type: "Listen", title: "Deutsch Survival A1: Restaurant dialogue audio track", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
@@ -393,7 +393,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Germany Survival Special",
           objective: "Master the municipal registration process (Anmeldung), required documents, and Bürgeramt appointment phrases.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Special - How to Survive Anmeldung in Germany", duration: "45 min", resourceType: "PRIMARY", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Special - How to Survive Anmeldung in Germany", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Read", title: "Deutsch Survival A1: Step-by-step guide to Bürgeramt forms and phrases", duration: "25 min", resourceType: "SECONDARY", link: "https://learngerman.dw.com/en/nicos-weg" },
             { type: "Memorize", title: "15 bureaucracy terms (Anmeldung, Wohnungsgeberbestätigung, Reisepass, Termin, Formular...)", duration: "35 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
             { type: "Listen", title: "Deutsch Survival Platform Audio: Officer dialogue at Bürgeramt", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
@@ -461,7 +461,7 @@ export const CURRICULUM_DATA = {
           standardTasks: [
             { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 18 - The Dative Case Demystified", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Read", title: "Deutsch Survival A1: Dative case breakdown and color charts", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Watch", title: "YourGermanTeacher: Dative Case in German - Complete Masterclass", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
+            { type: "Watch", title: "YourGermanTeacher: Dative Case in German - Complete Masterclass", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
             { type: "Memorize", title: "15 core Dative verbs (helfen, danken, gehören, gefallen, passen, antworten...)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Quiz", title: "Complete Day 22 Dative Case Basics Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
           ],
@@ -498,8 +498,8 @@ export const CURRICULUM_DATA = {
           focusSkill: "Grammar Core",
           objective: "Memorize always-dative prepositions using mnemonic rule: 'Aus bei mit nach seit von zu - immer mit dem Dativ du!'",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 20 - Fixed Dative Prepositions", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Watch", title: "Learn German with Anja: The Dative Preposition Song and Rule", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 20 - Fixed Dative Prepositions", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Watch", title: "Learn German with Anja: The Dative Preposition Song and Rule", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
             { type: "Memorize", title: "7 Dative prepositions (aus, bei, mit, nach, seit, von, zu) + contractions (beim, zum, zur)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Quiz", title: "Complete Day 24 Dative Prepositions Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
           ],
@@ -517,10 +517,10 @@ export const CURRICULUM_DATA = {
           focusSkill: "Speaking and Navigation",
           objective: "Ask for directions (Wo ist...?, Wie komme ich zu...?), understand straight, left, right, across, traffic lights.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 21 - Asking and Giving Directions", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 21 - Asking and Giving Directions", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Watch", title: "DW Nicos Weg: Episode 14 - Wo ist die Post?", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Memorize", title: "20 directional words (geradeaus, links, rechts, an der Ampel, Ecke, gegenüber, Kreuzung...)", duration: "35 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listen", title: "Super Easy German #18: Asking strangers for directions in Berlin", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
+            { type: "Listen", title: "Super Easy German #18: Asking strangers for directions in Berlin", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Speak", title: "Roleplay asking a pedestrian for directions to the train station out loud", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Quiz", title: "Complete Day 25 Directions Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
           ],
@@ -537,7 +537,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Grammar Core",
           objective: "Understand 9 two-way prepositions (an, auf, hinter, in, neben, über, unter, vor, zwischen) answering 'Wo?' with Dative.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 22 - Two-Way Prepositions (Wo? + Dativ)", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 22 - Two-Way Prepositions (Wo? + Dativ)", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Watch", title: "YourGermanTeacher: Wechselpräpositionen Made Easy", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
             { type: "Memorize", title: "9 Wechselpräpositionen + spatial locations (im Supermarkt, auf dem Tisch, an der Haltestelle...)", duration: "35 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
             { type: "Quiz", title: "Complete Day 26 Two-Way Prepositions (Wo?) Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
@@ -555,7 +555,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Practical Survival German",
           objective: "Navigate German public transport (S-Bahn, U-Bahn, Tram, Regionalbahn), buying tickets, track delays, and DB Navigator.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Special - Navigating German Trains and Stations", duration: "40 min", resourceType: "PRIMARY", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Special - Navigating German Trains and Stations", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Watch", title: "DW Nicos Weg: Episode 15 - Fahrkarten und Gleise", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Memorize", title: "20 transport terms (Fahrkarte, Gleis, Verspätung, Umsteigen, Entwerten, Einzelfahrt, Monatsticket...)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Practical Task", title: "Install DB Navigator app, search a route from Frankfurt Hbf to Munich Hbf", duration: "25 min", resourceType: "MOBILE_APP", link: "https://en.pons.com/translate/german-arabic" },
@@ -601,7 +601,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "University Survival",
           objective: "Understand enrolment terms, student ID (Studierendenausweis), Semesterbeitrag, and student office interaction.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Special - German University Vocabulary and Enrollment", duration: "45 min", resourceType: "PRIMARY", link: "https://apps.ankiweb.net/" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Special - German University Vocabulary and Enrollment", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Read", title: "Deutsch Survival A1: International student guide to German higher education vocabulary", duration: "25 min", resourceType: "SECONDARY", link: "https://learngerman.dw.com/en/nicos-weg" },
             { type: "Memorize", title: "20 university terms (Immatrikulation, Semesterbeitrag, Ausweis, Vorlesung, Campus, Büro...)", duration: "35 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
             { type: "Speak", title: "Roleplay enrolling at the International Office: 'Ich bin neuer Student und möchte mich immatrikulieren.'", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
@@ -620,7 +620,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Academic Communication",
           objective: "Address professors formally (Sehr geehrte Frau Prof. Dr. X), ask questions in lectures, request extensions.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 23 - Formal Academic Email Writing", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 23 - Formal Academic Email Writing", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Watch", title: "DW Nicos Weg: Episode 16 - An der Universität", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Memorize", title: "15 academic terms (Professor, Sprechstunde, Prüfung, Frist, Abgabe, Hausarbeit...)", duration: "30 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
             { type: "Writing", title: "Write a formal email to a professor requesting an appointment during office hours (Sprechstunde)", duration: "30 min", resourceType: "WRITING", link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises" },
@@ -639,8 +639,8 @@ export const CURRICULUM_DATA = {
           focusSkill: "Campus Daily Life",
           objective: "Order food in the Mensa, borrow books, ask for quiet zones, use library printers and WiFi.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 24 - Mensa and Library German", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Watch", title: "Super Easy German #25: What is a German Mensa like?", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 24 - Mensa and Library German", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Watch", title: "Super Easy German #25: What is a German Mensa like?", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Memorize", title: "15 library and Mensa terms (Bibliothek, Mensa, Ausleihen, Ausweis, Drucken, Gericht, Menü...)", duration: "30 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
             { type: "Speak", title: "Roleplay ordering a student meal and asking for library card activation", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Quiz", title: "Complete Day 31 Mensa and Library Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
@@ -658,7 +658,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Grammar Core",
           objective: "Understand basic adjective endings after definite and indefinite articles (der neue Student, ein neuer Student).",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 25 - Adjective Endings Demystified", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 25 - Adjective Endings Demystified", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Watch", title: "YourGermanTeacher: German Adjective Endings - Simple System", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
             { type: "Memorize", title: "Adjective endings rules chart + 15 descriptive adjectives (neu, alt, gut, groß, klein, wichtig...)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
             { type: "Quiz", title: "Complete Day 32 Adjective Endings Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" }
@@ -676,7 +676,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Practical German and Bureaucracy",
           objective: "Schedule, reschedule, or cancel appointments over phone or email (Einen Termin vereinbaren / verschieben).",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 26 - Scheduling Appointments", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 26 - Scheduling Appointments", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Watch", title: "DW Nicos Weg: Episode 17 - Einen Termin machen", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Memorize", title: "15 appointment terms (Termin, passt es Ihnen?, absagen, verschieben, freihalten, pünktlich...)", duration: "30 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
             { type: "Speak", title: "Roleplay making a doctor or university appointment over the phone", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
@@ -695,7 +695,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Health and Emergency",
           objective: "Describe symptoms (Kopfschmerzen, Fieber, Erkältung), visit a German doctor, and buy medicine at an Apotheke.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 27 - Health, Doctor and Pharmacy German", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 27 - Health, Doctor and Pharmacy German", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Watch", title: "Learn German with Anja: Going to the Doctor in Germany", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
             { type: "Memorize", title: "20 body parts and illness terms (Kopf, Bauch, Schmerzen, Fieber, Rezept, Apotheke, Medikament...)", duration: "35 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
             { type: "Speak", title: "Roleplay describing symptoms to a doctor: 'Ich habe seit zwei Tagen Kopfschmerzen.'", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
@@ -741,9 +741,9 @@ export const CURRICULUM_DATA = {
           focusSkill: "Grammar Core",
           objective: "Form past tense for regular verbs (machen → gemacht, lernen → gelernt, wohnen → gewohnt).",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 28 - Das Perfekt Tense Foundations", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 28 - Das Perfekt Tense Foundations", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Read", title: "Deutsch Survival A1: Perfekt tense formula and regular verb list", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Watch", title: "YourGermanTeacher: German Past Tense (Perfekt) Made Super Easy", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Watch", title: "YourGermanTeacher: German Past Tense (Perfekt) Made Super Easy", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
             { type: "Memorize", title: "15 regular Partizip II forms (gemacht, gelernt, gekauft, gehört, gespielt...)", duration: "35 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
             { type: "Quiz", title: "Complete Day 36 Perfekt Regular Verbs Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
           ],
@@ -760,7 +760,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Grammar Core",
           objective: "Identify verbs that take 'sein' in Perfekt (gehen, fahren, kommen, fliegen, laufen, aufstehen, sein, werden).",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 29 - Perfekt with SEIN vs HABEN", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 29 - Perfekt with SEIN vs HABEN", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Watch", title: "DW Nicos Weg: Episode 18 - Was hast du gestern gemacht?", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Memorize", title: "15 movement/state change verbs requiring SEIN (gegangen, gefahren, gekommen, geflogen...)", duration: "35 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
             { type: "Quiz", title: "Complete Day 37 Perfekt with Sein Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
@@ -880,7 +880,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Financial Survival",
           objective: "Understand bank terms (Girokonto, IBAN, Sparkasse, Deutsche Bank, Sperrkonto release, EC-Karte).",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Special - Opening a Bank Account in Germany", duration: "45 min", resourceType: "PRIMARY", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Special - Opening a Bank Account in Germany", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Read", title: "Deutsch Survival A1: Banking vocabulary and Sperrkonto activation guide", duration: "25 min", resourceType: "SECONDARY", link: "https://learngerman.dw.com/en/nicos-weg" },
             { type: "Memorize", title: "20 banking terms (Konto, Eröffnen, Karte, PIN, Überweisung, Bargeld, Automat...)", duration: "35 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
             { type: "Speak", title: "Roleplay opening a Girokonto at a bank branch counter out loud", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
@@ -899,7 +899,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Bureaucracy and Insurance",
           objective: "Understand public health insurance (Gesetzliche Krankenversicherung), insurance card (Versichertenkarte), and coverage.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Special - German Health Insurance Explained", duration: "40 min", resourceType: "PRIMARY", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Special - German Health Insurance Explained", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Watch", title: "DW Nicos Weg: Episode 20 - Bei der Versicherung", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Memorize", title: "15 insurance terms (Krankenkasse, Versichert, Beitrag, Mitgliedsbescheinigung, Karte...)", duration: "30 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
             { type: "Writing", title: "Write an email requesting a proof of insurance certificate (Mitgliedsbescheinigung) for uni", duration: "30 min", resourceType: "WRITING", link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises" },
@@ -918,7 +918,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Legal Survival Special",
           objective: "Navigate the Foreigners Authority (Ausländerbehörde), visa extension documents, and officer interview phrases.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Special - Ausländerbehörde and Visa Extension Phrases", duration: "45 min", resourceType: "PRIMARY", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Special - Ausländerbehörde and Visa Extension Phrases", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Read", title: "Deutsch Survival A1: Key phrases for your Ausländerbehörde interview", duration: "25 min", resourceType: "SECONDARY", link: "https://learngerman.dw.com/en/nicos-weg" },
             { type: "Memorize", title: "20 immigration terms (Ausländerbehörde, Aufenthaltstitel, Visum, Verlängerung, Nachweis...)", duration: "35 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
             { type: "Speak", title: "Roleplay visa appointment interview with an immigration officer out loud 3 times", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
@@ -938,7 +938,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Daily Life Survival",
           objective: "Buy prepaid SIM card (Telekom, Vodafone, ALDI Talk), send packages at Deutsche Post, track DHL shipments.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Special - Post Office, Packages and SIM Cards", duration: "40 min", resourceType: "PRIMARY", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Special - Post Office, Packages and SIM Cards", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Watch", title: "Super Easy German #22: Buying a SIM Card and Post Office in Germany", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Memorize", title: "15 post and telecom terms (Paket, Brief, Einschreiben, Briefmarke, SIM-Karte, Guthaben...)", duration: "30 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
             { type: "Speak", title: "Roleplay buying postage stamps and registering a SIM card with ID out loud", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
@@ -1019,7 +1019,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Survival Mastery",
           objective: "Navigate passport control, baggage claim, customs declarations, train station transfer at Frankfurt / Munich Airport.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Special - Complete Airport and Arrival Masterclass", duration: "45 min", resourceType: "PRIMARY", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Special - Complete Airport and Arrival Masterclass", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Read", title: "Deutsch Survival A1: Airport signs, customs questions and announcements", duration: "25 min", resourceType: "SECONDARY", link: "https://learngerman.dw.com/en/nicos-weg" },
             { type: "Memorize", title: "20 airport terms (Passkontrolle, Gepäckband, Zoll, Ankunft, Abflug, Ausgang, Anschluss...)", duration: "35 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
             { type: "Speak", title: "Perform 3 complete airport roleplays out loud (passport officer, information desk, taxi driver)", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
@@ -1038,7 +1038,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Emergency Survival",
           objective: "Handle medical emergencies (112), police (110), lost passport, hospital admissions, and install warning apps.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Special - Emergency German and Calling 112 / 110", duration: "40 min", resourceType: "PRIMARY", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Special - Emergency German and Calling 112 / 110", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Watch", title: "DW Nicos Weg: Episode 22 - Ein Notfall!", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Memorize", title: "15 emergency phrases (Hilfe!, Notruf, Krankenwagen, Polizei, Diebstahl, Unfall, Notaufnahme...)", duration: "30 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
             { type: "Practical Task", title: "Install NINA warning app and look up emergency numbers in Germany", duration: "20 min", resourceType: "MOBILE_APP", link: "https://en.pons.com/translate/german-arabic" },
@@ -1058,7 +1058,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Grammar Master Review",
           objective: "Review all 18 core A1 grammar topics (V2, Accusative, Dative, Modals, Separables, Perfekt, Prepositions, Weil).",
           standardTasks: [
-            { type: "Revision", title: "Complete Deutsch mit Hend A1 Master Grammar Review Sheet", duration: "60 min", resourceType: "PRIMARY", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Revision", title: "Complete Deutsch mit Hend A1 Master Grammar Review Sheet", duration: "60 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Watch", title: "YourGermanTeacher: All German A1 Grammar in 60 Minutes", duration: "60 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
             { type: "Quiz", title: "Complete Day 52 Master Grammar Comprehensive Test", duration: "30 min", resourceType: "QUIZ", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
           ],
@@ -1093,7 +1093,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Speaking Fluency",
           objective: "Simulate full Goethe A1 Sprechen exam (Teil 1: Sich vorstellen, Teil 2: Um Informationen bitten, Teil 3: Bitten/Aufforderungen).",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Speaking Exam Preparation and Tips", duration: "40 min", resourceType: "PRIMARY", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Speaking Exam Preparation and Tips", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Watch", title: "Goethe-Institut: Official A1 Speaking Exam Demonstration Video", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Speak", title: "Perform full 15-minute simulated A1 Speaking Test out loud (all 3 parts)", duration: "30 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Quiz", title: "Complete Day 54 Speaking Self-Evaluation", duration: "15 min", resourceType: "QUIZ", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
