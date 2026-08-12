@@ -20,7 +20,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 1 - German Alphabet and Phonetics",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=_VyYfZP9MsY"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
@@ -34,7 +34,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: German Alphabet and Umlauts Made Easy",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@LearnGermanwithAnja/videos"
             },
             {
               "type": "Memorize",
@@ -48,7 +48,7 @@ export const CURRICULUM_DATA = {
               "title": "Super Easy German #1: How Germans greet each other",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/@EasyGerman/videos"
             },
             {
               "type": "Speak",
@@ -116,14 +116,14 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Episode 1 and 2 - Hallo Nico! (Ich heiße Nico)",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=600s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
               "title": "YourGermanTeacher: Present Tense Regular Verbs and Pronouns",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
             },
             {
               "type": "Memorize",
@@ -165,7 +165,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Shadow Nico's introductory dialogue in Nicos Weg Ep 1-3",
               "duration": "35 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=600s"
+              "link": "https://learngerman.dw.com/en/nicos-weg/c-36519789"
             },
             {
               "type": "Mobile App",
@@ -205,7 +205,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Episode 3 and 4 - Wie ist deine Telefonnummer?",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=1200s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -219,7 +219,7 @@ export const CURRICULUM_DATA = {
               "title": "Super Easy German #5: Numbers in German street interviews",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             },
             {
               "type": "Speak",
@@ -294,7 +294,7 @@ export const CURRICULUM_DATA = {
               "title": "YourGermanTeacher: How to know Der, Die, Das",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
             },
             {
               "type": "Memorize",
@@ -362,7 +362,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Episode 5 and 6 - Ist das dein Koffer?",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=2400s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -376,7 +376,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German: 'Nein' and polite refusal phrases",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/@EasyGerman/videos"
             },
             {
               "type": "Speak",
@@ -444,7 +444,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Family Tree and Plural Nouns",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@LearnGermanwithAnja/videos"
             },
             {
               "type": "Memorize",
@@ -526,7 +526,7 @@ export const CURRICULUM_DATA = {
               "title": "Take Week 1 Interactive Assessment (Grammar, Vocab, Listening, Reading)",
               "duration": "45 min",
               "resourceType": "TEST",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             },
             {
               "type": "Smart Review",
@@ -554,7 +554,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Marathon",
               "title": "Watch Nicos Weg Episodes 1-10 compilation back-to-back",
               "duration": "45 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=3600s"
+              "link": "https://learngerman.dw.com/en/nicos-weg/c-36519789"
             },
             {
               "type": "Mobile App",
@@ -603,7 +603,7 @@ export const CURRICULUM_DATA = {
               "title": "YourGermanTeacher: Accusative Case - Never make a mistake again!",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
             },
             {
               "type": "Memorize",
@@ -671,7 +671,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Episode 7 and 8 - Im Supermarkt",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=4800s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -685,7 +685,7 @@ export const CURRICULUM_DATA = {
               "title": "Super Easy German #12: Grocery shopping in Germany",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/@EasyGerman/videos"
             },
             {
               "type": "Speak",
@@ -725,7 +725,7 @@ export const CURRICULUM_DATA = {
               "type": "Mobile App Task",
               "title": "Use Dict.cc app to look up 10 specific Arabic ingredients in German",
               "duration": "25 min",
-              "link": "https://en.pons.com/translate/german-arabic"
+              "link": "https://apps.ankiweb.net/"
             }
           ],
           "targetMetrics": {
@@ -753,7 +753,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: How to order food like a native in Germany",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@LearnGermanwithAnja/videos"
             },
             {
               "type": "Memorize",
@@ -828,7 +828,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 10 - Time and Clock Times (Uhrzeit)",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -910,7 +910,7 @@ export const CURRICULUM_DATA = {
               "title": "YourGermanTeacher: Separable Verbs in German - Explained Simply",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
             },
             {
               "type": "Memorize",
@@ -978,14 +978,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 12 - Possessive Articles",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Episode 10 - Das ist mein Pass!",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=1200s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -1054,7 +1054,7 @@ export const CURRICULUM_DATA = {
               "title": "Take Week 2 Interactive Assessment",
               "duration": "45 min",
               "resourceType": "TEST",
-              "link": "https://en.pons.com/translate/german-arabic"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             },
             {
               "type": "Smart Review",
@@ -1082,7 +1082,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Marathon",
               "title": "Watch DW Nicos Weg Episodes 11-20 compilation",
               "duration": "45 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=1800s"
+              "link": "https://learngerman.dw.com/en/nicos-weg/c-36519789"
             },
             {
               "type": "Mobile App",
@@ -1124,7 +1124,7 @@ export const CURRICULUM_DATA = {
               "title": "YourGermanTeacher: German Modal Verbs Made Super Easy",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
             },
             {
               "type": "Memorize",
@@ -1185,14 +1185,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 14 - Dürfen and Sollen + Hausordnung",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Episode 11 - Regeln und Verbote",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=3000s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -1206,7 +1206,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German: Understanding signs and rules in Germany",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/@EasyGerman/videos"
             },
             {
               "type": "Quiz",
@@ -1254,7 +1254,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 15 - Housing and Apartment Vocabulary",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -1275,7 +1275,7 @@ export const CURRICULUM_DATA = {
               "title": "Super Easy German #20: Living in a WG in Germany",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/@EasyGerman/videos"
             },
             {
               "type": "Quiz",
@@ -1329,14 +1329,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 16 - Writing Messages to Landlords",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Episode 12 - Wohnungssuche",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=4200s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -1487,14 +1487,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 17 - Reporting Maintenance Issues",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
               "title": "Learn German with Anja: Practical German for House Repair and Issues",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@LearnGermanwithAnja/videos"
             },
             {
               "type": "Memorize",
@@ -1563,7 +1563,7 @@ export const CURRICULUM_DATA = {
               "title": "Take Week 3 Interactive Assessment",
               "duration": "45 min",
               "resourceType": "TEST",
-              "link": "https://en.pons.com/translate/german-arabic"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             },
             {
               "type": "Smart Review",
@@ -1591,7 +1591,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Marathon",
               "title": "Watch DW Nicos Weg Episodes 21-30 compilation",
               "duration": "45 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://learngerman.dw.com/en/nicos-weg/c-36519789"
             },
             {
               "type": "Mobile App",
@@ -1640,7 +1640,7 @@ export const CURRICULUM_DATA = {
               "title": "YourGermanTeacher: Dative Case in German - Complete Masterclass",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
             },
             {
               "type": "Memorize",
@@ -1708,7 +1708,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Episode 13 - Wie geht es dir?",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=1200s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -1777,7 +1777,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: The Dative Preposition Song and Rule",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@LearnGermanwithAnja/videos"
             },
             {
               "type": "Memorize",
@@ -1845,7 +1845,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Episode 14 - Wo ist die Post?",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=2400s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -1859,7 +1859,7 @@ export const CURRICULUM_DATA = {
               "title": "Super Easy German #18: Asking strangers for directions in Berlin",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             },
             {
               "type": "Speak",
@@ -1921,7 +1921,7 @@ export const CURRICULUM_DATA = {
               "title": "YourGermanTeacher: Wechselpräpositionen Made Easy",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
             },
             {
               "type": "Memorize",
@@ -1983,7 +1983,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Episode 15 - Fahrkarten und Gleise",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=3600s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -2059,7 +2059,7 @@ export const CURRICULUM_DATA = {
               "title": "Take Week 4 Interactive Assessment",
               "duration": "45 min",
               "resourceType": "TEST",
-              "link": "https://en.pons.com/translate/german-arabic"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             },
             {
               "type": "Smart Review",
@@ -2087,7 +2087,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Marathon",
               "title": "Watch DW Nicos Weg Episodes 31-40 compilation",
               "duration": "45 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=4200s"
+              "link": "https://learngerman.dw.com/en/nicos-weg/c-36519789"
             },
             {
               "type": "Mobile App",
@@ -2198,7 +2198,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Episode 16 - An der Universität",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=5400s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -2267,7 +2267,7 @@ export const CURRICULUM_DATA = {
               "title": "Super Easy German #25: What is a German Mensa like?",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/@EasyGerman/videos"
             },
             {
               "type": "Memorize",
@@ -2336,7 +2336,7 @@ export const CURRICULUM_DATA = {
               "title": "YourGermanTeacher: German Adjective Endings - Simple System",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
             },
             {
               "type": "Memorize",
@@ -2398,7 +2398,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Episode 17 - Einen Termin machen",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=1200s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -2467,7 +2467,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Going to the Doctor in Germany",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@LearnGermanwithAnja/videos"
             },
             {
               "type": "Memorize",
@@ -2542,7 +2542,7 @@ export const CURRICULUM_DATA = {
               "title": "Take Week 5 Interactive Assessment",
               "duration": "45 min",
               "resourceType": "TEST",
-              "link": "https://en.pons.com/translate/german-arabic"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             },
             {
               "type": "Smart Review",
@@ -2570,7 +2570,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Marathon",
               "title": "Watch DW Nicos Weg Episodes 41-50 compilation",
               "duration": "45 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=2400s"
+              "link": "https://learngerman.dw.com/en/nicos-weg/c-36519789"
             },
             {
               "type": "Mobile App",
@@ -2619,7 +2619,7 @@ export const CURRICULUM_DATA = {
               "title": "YourGermanTeacher: German Past Tense (Perfekt) Made Super Easy",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
             },
             {
               "type": "Memorize",
@@ -2681,7 +2681,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Episode 18 - Was hast du gestern gemacht?",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=3600s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -2749,7 +2749,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Top Irregular German Past Tense Verbs",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@LearnGermanwithAnja/videos"
             },
             {
               "type": "Memorize",
@@ -2818,7 +2818,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Episode 19 - Ein schöner Tag",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=4800s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -2880,7 +2880,7 @@ export const CURRICULUM_DATA = {
               "title": "Super Easy German #30: What Germans did last weekend",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/@EasyGerman/videos"
             },
             {
               "type": "Writing",
@@ -2949,7 +2949,7 @@ export const CURRICULUM_DATA = {
               "title": "YourGermanTeacher: War vs Hatte in Spoken German",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
             },
             {
               "type": "Memorize",
@@ -3018,7 +3018,7 @@ export const CURRICULUM_DATA = {
               "title": "Take Week 6 Interactive Assessment",
               "duration": "45 min",
               "resourceType": "TEST",
-              "link": "https://en.pons.com/translate/german-arabic"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             },
             {
               "type": "Smart Review",
@@ -3046,7 +3046,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Marathon",
               "title": "Watch DW Nicos Weg Episodes 51-60 compilation",
               "duration": "45 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=600s"
+              "link": "https://learngerman.dw.com/en/nicos-weg/c-36519789"
             },
             {
               "type": "Mobile App",
@@ -3157,7 +3157,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Episode 20 - Bei der Versicherung",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=1800s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -3301,7 +3301,7 @@ export const CURRICULUM_DATA = {
               "title": "Super Easy German #22: Buying a SIM Card and Post Office in Germany",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/@EasyGerman/videos"
             },
             {
               "type": "Memorize",
@@ -3370,7 +3370,7 @@ export const CURRICULUM_DATA = {
               "title": "YourGermanTeacher: Weil and Dass - Verb at the End Rule",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
             },
             {
               "type": "Memorize",
@@ -3432,7 +3432,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Episode 21 - Das ist besser!",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=4200s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -3494,7 +3494,7 @@ export const CURRICULUM_DATA = {
               "title": "Take Week 7 Interactive Assessment",
               "duration": "45 min",
               "resourceType": "TEST",
-              "link": "https://en.pons.com/translate/german-arabic"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             },
             {
               "type": "Smart Review",
@@ -3522,7 +3522,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Marathon",
               "title": "Watch DW Nicos Weg Episodes 61-70 compilation",
               "duration": "45 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=4800s"
+              "link": "https://learngerman.dw.com/en/nicos-weg/c-36519789"
             },
             {
               "type": "Mobile App",
@@ -3702,14 +3702,14 @@ export const CURRICULUM_DATA = {
               "title": "Complete Deutsch mit Hend A1 Master Grammar Review Sheet",
               "duration": "60 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
               "title": "YourGermanTeacher: All German A1 Grammar in 60 Minutes",
               "duration": "60 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
             },
             {
               "type": "Quiz",
@@ -3757,7 +3757,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete DW Nicos Weg A1 End-of-Course Final Test",
               "duration": "60 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=1200s"
+              "link": "https://learngerman.dw.com/en/nicos-weg/c-36519789"
             },
             {
               "type": "Listen",
@@ -3786,7 +3786,7 @@ export const CURRICULUM_DATA = {
               "type": "Writing",
               "title": "Write summaries in German for each of the 3 practical notices read today",
               "duration": "45 min",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
             },
             {
               "type": "Shadowing",

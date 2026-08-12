@@ -22,7 +22,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Subordinate Clauses with 'weil' (Expressing Reasons)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -36,7 +36,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Subordinate Clauses with 'weil' (Expressing Reasons)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -64,7 +64,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Subordinate Clauses with 'weil' (Expressing Reasons)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -86,7 +86,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Subordinate Clauses with 'dass' (Reporting & Opinions)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=1500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -150,7 +150,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Conditional Clauses with 'wenn' (Conditions & Situations)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=3000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -214,7 +214,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Concessive Clauses with 'obwohl' (Contrast & Contradictions)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=4500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -228,7 +228,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Concessive Clauses with 'obwohl' (Contrast & Contradictions)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -256,7 +256,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Concessive Clauses with 'obwohl' (Contrast & Contradictions)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -278,7 +278,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Indirect Questions with 'ob' and W-Words (wo, wie, warum)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=6000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -292,7 +292,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Indirect Questions with 'ob' and W-Words (wo, wie, warum)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=6000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -320,7 +320,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Indirect Questions with 'ob' and W-Words (wo, wie, warum)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=6000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -342,7 +342,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Sentence Structure: Main vs Subordinate Clause Word Order",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=7500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -406,7 +406,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Week 1 Review & Subordinate Clause Mastery Sprint",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=9000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -420,7 +420,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Week 1 Review & Subordinate Clause Mastery Sprint",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=9000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -448,7 +448,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Week 1 Review & Subordinate Clause Mastery Sprint",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=9000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -670,7 +670,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Two-Way Prepositions: Direction (Wohin? + Accusative)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=15000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -684,7 +684,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Two-Way Prepositions: Direction (Wohin? + Accusative)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=15000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -712,7 +712,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Two-Way Prepositions: Direction (Wohin? + Accusative)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=15000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -798,7 +798,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Position Verbs Pair 2: liegen/legen & sitzen/setzen",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=18000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -862,7 +862,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Week 2 Review & Spatial Prepositions Mastery Sprint",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=19500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -876,7 +876,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Week 2 Review & Spatial Prepositions Mastery Sprint",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=19500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -904,7 +904,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Week 2 Review & Spatial Prepositions Mastery Sprint",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=19500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -934,7 +934,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Perfekt Tense Review: Regular Verbs with 'haben' (ge-...-t)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=21000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -948,7 +948,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Perfekt Tense Review: Regular Verbs with 'haben' (ge-...-t)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -976,7 +976,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Perfekt Tense Review: Regular Verbs with 'haben' (ge-...-t)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -998,7 +998,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Perfekt with Irregular Verbs & Vowel Shifts (gegangenen, gesprochen)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=22500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -1062,7 +1062,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Haben vs Sein: Movement Verbs & State Changes in Perfekt",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=24000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -1318,7 +1318,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Week 3 Review & Perfekt Fluency Sprint",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=30000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -1332,7 +1332,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Week 3 Review & Perfekt Fluency Sprint",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=30000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -1360,7 +1360,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Week 3 Review & Perfekt Fluency Sprint",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=30000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -1390,7 +1390,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Simple Past of sein (war) & haben (hatte)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=31500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -1404,7 +1404,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Simple Past of sein (war) & haben (hatte)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -1432,7 +1432,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Simple Past of sein (war) & haben (hatte)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -1582,7 +1582,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Perfekt vs Präteritum: Spoken vs Written Past Rules",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=36000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -1596,7 +1596,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Perfekt vs Präteritum: Spoken vs Written Past Rules",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=36000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -1624,7 +1624,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Perfekt vs Präteritum: Spoken vs Written Past Rules",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=36000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -1710,7 +1710,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Writing a Past Incident Report / Doctor's Absence Note",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=39000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -1724,7 +1724,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Writing a Past Incident Report / Doctor's Absence Note",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=39000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -1752,7 +1752,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Writing a Past Incident Report / Doctor's Absence Note",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=39000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -1774,7 +1774,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Week 4 Review & Past Tense Mastery Sprint",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=40500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -1788,7 +1788,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Week 4 Review & Past Tense Mastery Sprint",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -1816,7 +1816,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Week 4 Review & Past Tense Mastery Sprint",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -1846,7 +1846,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Reflexive Verbs with Accusative (sich freuen, sich duschen)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=42000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -1860,7 +1860,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Reflexive Verbs with Accusative (sich freuen, sich duschen)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -1888,7 +1888,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Reflexive Verbs with Accusative (sich freuen, sich duschen)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -1974,7 +1974,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Adjective Endings after Definite Articles (der alte Tisch, die neue Tasche)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Read",
@@ -1988,7 +1988,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Adjective Endings after Definite Articles (der alte Tisch, die neue Tasche)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=45000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -2016,7 +2016,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Adjective Endings after Definite Articles (der alte Tisch, die neue Tasche)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=45000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -2038,7 +2038,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Adjective Endings after Indefinite Articles (ein alter Tisch, eine neue Tasche)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Read",
@@ -2230,7 +2230,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Week 5 Review & Adjective Declension Mastery Sprint",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Read",
@@ -2244,7 +2244,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Week 5 Review & Adjective Declension Mastery Sprint",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=51000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -2272,7 +2272,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Week 5 Review & Adjective Declension Mastery Sprint",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=51000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -2302,7 +2302,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Comparative of Adjectives (schneller, größer, besser, mehr)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=52500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -2316,7 +2316,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Comparative of Adjectives (schneller, größer, besser, mehr)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -2344,7 +2344,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Comparative of Adjectives (schneller, größer, besser, mehr)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -2366,7 +2366,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Superlative of Adjectives (am schnellsten, am größten, am besten)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=54000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -2494,7 +2494,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Genitive Case Intro: Possessive & Prepositions (wegen, während)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=57000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -2508,7 +2508,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Genitive Case Intro: Possessive & Prepositions (wegen, während)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=57000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -2536,7 +2536,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Genitive Case Intro: Possessive & Prepositions (wegen, während)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=57000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -2622,7 +2622,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Workplace German: Office Vocabulary, Emails & Phone Appointments",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=60000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -2686,7 +2686,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Week 6 Review & Comparison Mastery Sprint",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=61500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -2700,7 +2700,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Week 6 Review & Comparison Mastery Sprint",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=61500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -2728,7 +2728,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Week 6 Review & Comparison Mastery Sprint",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=61500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -2758,7 +2758,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Konjunktiv II Intro: hätte (would have) & wäre (would be)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=63000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -2772,7 +2772,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Konjunktiv II Intro: hätte (would have) & wäre (would be)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -2800,7 +2800,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Konjunktiv II Intro: hätte (would have) & wäre (would be)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -2822,7 +2822,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Konjunktiv II with würde + Infinitive (Ich würde gerne...)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=64500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -2950,7 +2950,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Hypothetical Wishes & Dreams (Wenn ich Zeit hätte...)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=67500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -2964,7 +2964,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Hypothetical Wishes & Dreams (Wenn ich Zeit hätte...)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=67500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -2992,7 +2992,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Hypothetical Wishes & Dreams (Wenn ich Zeit hätte...)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=67500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -3014,7 +3014,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Doctor Visit & Medical Scenarios (Beim Arzt, Termine vereinbaren)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=69000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -3078,7 +3078,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Bürgeramt & Registration Scenarios (Anmeldung, Formular ausfüllen)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=70500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -3092,7 +3092,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Bürgeramt & Registration Scenarios (Anmeldung, Formular ausfüllen)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=70500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -3120,7 +3120,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Bürgeramt & Registration Scenarios (Anmeldung, Formular ausfüllen)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=70500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -3142,7 +3142,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Week 7 Review & Konjunktiv II Mastery Sprint",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=72000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -3156,7 +3156,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Week 7 Review & Konjunktiv II Mastery Sprint",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -3184,7 +3184,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Week 7 Review & Konjunktiv II Mastery Sprint",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -3214,7 +3214,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Goethe A2 Hören Sprint: Listening Comprehension Parts 1-3",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=73500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -3228,7 +3228,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Goethe A2 Hören Sprint: Listening Comprehension Parts 1-3",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=73500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -3256,7 +3256,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Goethe A2 Hören Sprint: Listening Comprehension Parts 1-3",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=73500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -3278,7 +3278,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Goethe A2 Lesen Sprint: Reading Notices, Emails & Articles",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=75000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -3292,7 +3292,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Goethe A2 Lesen Sprint: Reading Notices, Emails & Articles",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -3320,7 +3320,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Goethe A2 Lesen Sprint: Reading Notices, Emails & Articles",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -3342,7 +3342,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Goethe A2 Schreiben Sprint: Writing Formal Emails & Invitations",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=76500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -3484,7 +3484,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Goethe A2 Sprechen Part 3: Planning an Event Together with Partner",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=79500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -3512,7 +3512,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Goethe A2 Sprechen Part 3: Planning an Event Together with Partner",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=79500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -3534,7 +3534,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Full Goethe A2 Mock Exam Simulation Sprint",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=81000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -3548,7 +3548,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Full Goethe A2 Mock Exam Simulation Sprint",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -3576,7 +3576,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Full Goethe A2 Mock Exam Simulation Sprint",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -3598,7 +3598,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: German A2 Graduation Day: Progress Review & B1 Transition Plan",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=82500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -3612,7 +3612,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: German A2 Graduation Day: Progress Review & B1 Transition Plan",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=82500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -3640,7 +3640,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: German A2 Graduation Day: Progress Review & B1 Transition Plan",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=82500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {

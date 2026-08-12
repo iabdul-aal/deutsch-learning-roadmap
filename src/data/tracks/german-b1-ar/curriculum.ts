@@ -22,7 +22,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Genitive Case Articles & Suffixes (des/der/des/der & -es/-s)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -36,7 +36,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Genitive Case Articles & Suffixes (des/der/des/der & -es/-s)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -64,7 +64,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Genitive Case Articles & Suffixes (des/der/des/der & -es/-s)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -86,7 +86,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Genitive-Only Prepositions (wegen, während, trotz, statt)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=1500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -150,7 +150,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: N-Declension Weak Nouns (der Student/des Studenten, der Herr)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=3000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -214,7 +214,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Expressing Possession in Formal & Academic Writing",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=4500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -228,7 +228,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Expressing Possession in Formal & Academic Writing",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=4500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -256,7 +256,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Expressing Possession in Formal & Academic Writing",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=4500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -278,7 +278,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Genitive Case in German News Articles & Literature",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=6000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -406,7 +406,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Week 1 Review & Genitive Case Mastery Sprint",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=9000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -420,7 +420,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Week 1 Review & Genitive Case Mastery Sprint",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=9000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -448,7 +448,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Week 1 Review & Genitive Case Mastery Sprint",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=9000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -478,7 +478,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Relative Clauses in Nominative (der Mann, der... / die Frau, die...)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=10500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -492,7 +492,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Relative Clauses in Nominative (der Mann, der... / die Frau, die...)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -520,7 +520,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Relative Clauses in Nominative (der Mann, der... / die Frau, die...)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -542,7 +542,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Relative Clauses in Accusative (der Stuhl, den ich kaufe...)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=12000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -670,7 +670,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Relative Clauses in Genitive (der Autor, dessen Buch...)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=15000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -684,7 +684,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Relative Clauses in Genitive (der Autor, dessen Buch...)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=15000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -712,7 +712,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Relative Clauses in Genitive (der Autor, dessen Buch...)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=15000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -734,7 +734,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Relative Clauses with Prepositions (das Haus, in dem ich wohne...)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=16500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -748,7 +748,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Relative Clauses with Prepositions (das Haus, in dem ich wohne...)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -776,7 +776,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Relative Clauses with Prepositions (das Haus, in dem ich wohne...)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -798,7 +798,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Relative Clauses with Indefinite Pronouns (alles, was... / etwas, das...)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=18000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -862,7 +862,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Week 2 Review & Relative Clauses Mastery Sprint",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=19500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -876,7 +876,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Week 2 Review & Relative Clauses Mastery Sprint",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=19500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -904,7 +904,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Week 2 Review & Relative Clauses Mastery Sprint",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=19500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -934,7 +934,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Passive Voice Present Tense (werden + Partizip II)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=21000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -948,7 +948,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Passive Voice Present Tense (werden + Partizip II)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -976,7 +976,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Passive Voice Present Tense (werden + Partizip II)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -998,7 +998,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Passive Voice Past Tense (wurde + Partizip II)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=22500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -1190,7 +1190,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Impersonal Passive Structures (Es wird getanzt / Hier wird gearbeitet)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=27000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -1318,7 +1318,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Week 3 Review & Passive Voice Mastery Sprint",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=30000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -1332,7 +1332,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Week 3 Review & Passive Voice Mastery Sprint",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=30000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -1360,7 +1360,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Week 3 Review & Passive Voice Mastery Sprint",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=30000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -1390,7 +1390,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Infinitive Clauses with 'zu' (Es ist wichtig, Deutsch zu lernen)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=31500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -1404,7 +1404,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Infinitive Clauses with 'zu' (Es ist wichtig, Deutsch zu lernen)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -1432,7 +1432,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Infinitive Clauses with 'zu' (Es ist wichtig, Deutsch zu lernen)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -1454,7 +1454,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Verbs Requiring 'zu' + Infinitive (vorhaben, versuchen, beschließen)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=33000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -1518,7 +1518,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Purpose Clauses: 'um...zu' vs 'damit' (Same vs Different Subjects)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=34500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -1582,7 +1582,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Negative Infinitive Clauses with 'ohne...zu' (without doing)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=36000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -1596,7 +1596,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Negative Infinitive Clauses with 'ohne...zu' (without doing)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=36000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -1624,7 +1624,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Negative Infinitive Clauses with 'ohne...zu' (without doing)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=36000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -1710,7 +1710,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Combining Infinitive Clauses in Essays & Formal Letters",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=39000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -1724,7 +1724,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Combining Infinitive Clauses in Essays & Formal Letters",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=39000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -1752,7 +1752,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Combining Infinitive Clauses in Essays & Formal Letters",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=39000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -1774,7 +1774,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Week 4 Review & Infinitive Structures Mastery Sprint",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=40500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -1788,7 +1788,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Week 4 Review & Infinitive Structures Mastery Sprint",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -1816,7 +1816,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Week 4 Review & Infinitive Structures Mastery Sprint",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -1846,7 +1846,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Proportional Clauses: 'je...desto / umso' (Double Comparative)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=42000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -1860,7 +1860,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Proportional Clauses: 'je...desto / umso' (Double Comparative)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -1888,7 +1888,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Proportional Clauses: 'je...desto / umso' (Double Comparative)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -1910,7 +1910,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Addition & Negation: 'sowohl...als auch' vs 'weder...noch'",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=43500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -1974,7 +1974,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Alternatives & Contrast: 'entweder...oder' vs 'zwar...aber'",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Read",
@@ -1988,7 +1988,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Alternatives & Contrast: 'entweder...oder' vs 'zwar...aber'",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=45000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -2016,7 +2016,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Alternatives & Contrast: 'entweder...oder' vs 'zwar...aber'",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=45000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -2038,7 +2038,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Emphasis Conjunctions: 'nicht nur...sondern auch'",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Read",
@@ -2230,7 +2230,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Week 5 Review & Two-Part Conjunctions Mastery Sprint",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Read",
@@ -2244,7 +2244,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Week 5 Review & Two-Part Conjunctions Mastery Sprint",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=51000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -2272,7 +2272,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Week 5 Review & Two-Part Conjunctions Mastery Sprint",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=51000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -2302,7 +2302,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Present Participle as Adjective (Partizip I: das lachende Kind)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=52500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -2316,7 +2316,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Present Participle as Adjective (Partizip I: das lachende Kind)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -2344,7 +2344,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Present Participle as Adjective (Partizip I: das lachende Kind)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -2366,7 +2366,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Past Participle as Adjective (Partizip II: das geschriebene Buch)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=54000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -2494,7 +2494,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Causal & Consecutive Clauses: da vs weil, folglich, deshalb",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=57000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -2508,7 +2508,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Causal & Consecutive Clauses: da vs weil, folglich, deshalb",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=57000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -2536,7 +2536,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Causal & Consecutive Clauses: da vs weil, folglich, deshalb",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=57000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -2558,7 +2558,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: B1 Abstract Nouns & Nominalization (-ung, -heit, -keit, -schaft)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=58500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -2572,7 +2572,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: B1 Abstract Nouns & Nominalization (-ung, -heit, -keit, -schaft)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -2600,7 +2600,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: B1 Abstract Nouns & Nominalization (-ung, -heit, -keit, -schaft)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -2622,7 +2622,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: German Business & Office Communication: Formal Complaint Letters",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=60000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -2686,7 +2686,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Week 6 Review & Advanced B1 Grammar Mastery Sprint",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=61500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -2700,7 +2700,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Week 6 Review & Advanced B1 Grammar Mastery Sprint",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=61500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -2728,7 +2728,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Week 6 Review & Advanced B1 Grammar Mastery Sprint",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=61500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -2758,7 +2758,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Writing German Formal Cover Letters (Bewerbungsschreiben & Lebenslauf)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=63000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -2772,7 +2772,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Writing German Formal Cover Letters (Bewerbungsschreiben & Lebenslauf)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -2800,7 +2800,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Writing German Formal Cover Letters (Bewerbungsschreiben & Lebenslauf)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -2822,7 +2822,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Simulating German Job Interviews & Expressing Strengths",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=64500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -2950,7 +2950,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Expressing Opinions & Debating Politely (Meiner Meinung nach...)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=67500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -2964,7 +2964,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Expressing Opinions & Debating Politely (Meiner Meinung nach...)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=67500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -2992,7 +2992,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Expressing Opinions & Debating Politely (Meiner Meinung nach...)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=67500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -3014,7 +3014,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: German Rental Contracts (Mietvertrag) & Utility Communications",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=69000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -3078,7 +3078,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Medical & Health Scenarios at B1 Level (Beim Arzt & Apotheke)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=70500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -3092,7 +3092,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Medical & Health Scenarios at B1 Level (Beim Arzt & Apotheke)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=70500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -3120,7 +3120,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Medical & Health Scenarios at B1 Level (Beim Arzt & Apotheke)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=70500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -3142,7 +3142,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Week 7 Review & Professional German Mastery Sprint",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=72000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -3156,7 +3156,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Week 7 Review & Professional German Mastery Sprint",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -3184,7 +3184,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Week 7 Review & Professional German Mastery Sprint",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -3214,7 +3214,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Goethe B1 Hören Sprint: Listening Comprehension Parts 1-4",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=73500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -3228,7 +3228,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Goethe B1 Hören Sprint: Listening Comprehension Parts 1-4",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=73500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -3256,7 +3256,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Goethe B1 Hören Sprint: Listening Comprehension Parts 1-4",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=73500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -3278,7 +3278,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Goethe B1 Lesen Sprint: Reading Comprehension Parts 1-5",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=75000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -3292,7 +3292,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Goethe B1 Lesen Sprint: Reading Comprehension Parts 1-5",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -3320,7 +3320,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Goethe B1 Lesen Sprint: Reading Comprehension Parts 1-5",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -3342,7 +3342,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Goethe B1 Schreiben Sprint: Informal Email, Opinion & Formal Request",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=76500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -3484,7 +3484,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Goethe B1 Sprechen Part 2 & 3: Presentation & Discussion",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=79500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -3512,7 +3512,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Goethe B1 Sprechen Part 2 & 3: Presentation & Discussion",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=79500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
@@ -3534,7 +3534,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Full Goethe / TELC B1 Mock Exam Simulation Sprint",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=81000s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -3548,7 +3548,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Full Goethe / TELC B1 Mock Exam Simulation Sprint",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             },
             {
               "type": "Memorize",
@@ -3576,7 +3576,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Full Goethe / TELC B1 Mock Exam Simulation Sprint",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
             }
           ],
           "targetMetrics": {
@@ -3598,7 +3598,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: German B1 Graduation Day: Progress Review & B2 Academic Preparation",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=82500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Read",
@@ -3612,7 +3612,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: German B1 Graduation Day: Progress Review & B2 Academic Preparation",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=82500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             },
             {
               "type": "Memorize",
@@ -3640,7 +3640,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: German B1 Graduation Day: Progress Review & B2 Academic Preparation",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=82500s"
+              "link": "https://www.youtube.com/@MohammadShehata-Official/videos"
             }
           ],
           "targetMetrics": {
