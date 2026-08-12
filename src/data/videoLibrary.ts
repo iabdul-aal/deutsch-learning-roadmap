@@ -734,6 +734,15 @@ export function resolveTaskVideoEmbed(
 
       // 4-eDoThe6qo: DW Nicos Weg A1 Full Compilation (180 min)
       if (vid === '4-eDoThe6qo') {
+        if (titleLower.includes('easy german')) {
+          return { videoId: 'r94aqLUO0wo', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Easy German', isCroppedSegment: false };
+        }
+        if (titleLower.includes('hend')) {
+          return { videoId: 'WMvCXVorOsg', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Deutsch mit Hend', isCroppedSegment: false };
+        }
+        if (titleLower.includes('shehata')) {
+          return { videoId: 'Yrjgjh26FoE', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Shehata Deutsch', isCroppedSegment: false };
+        }
         const tMatch = link.match(/[?&]t=([0-9]+)/);
         const start = tMatch ? parseInt(tMatch[1], 10) : ((Math.max(1, dayNumber) - 1) % 10) * 600;
         return {
@@ -792,6 +801,7 @@ export function resolveTaskVideoEmbed(
     if (titleLower.includes('berlin') || titleLower.includes('street')) {
       return { videoId: 'r94aqLUO0wo', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Easy German', isCroppedSegment: false };
     }
+    return { videoId: 'r94aqLUO0wo', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Easy German', isCroppedSegment: false };
   }
 
   // Topic-specific verified videos (discovered via YouTube Search API)

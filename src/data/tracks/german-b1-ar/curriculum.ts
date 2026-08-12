@@ -36,7 +36,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #120: How Germans Know a Word's Gender",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
             },
             {
               "type": "Memorize",
@@ -100,7 +100,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #98: Describing Location & Direction in German",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -228,7 +228,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #374: Academic German with Nominalized Verbs",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -292,7 +292,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #120: How Germans Know a Word's Gender",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
             },
             {
               "type": "Memorize",
@@ -356,7 +356,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #250: Dative Case in Real German Conversations",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -492,7 +492,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #278: Describing People with Relative Clauses",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -556,7 +556,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #278: Describing People with Relative Clauses",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -620,7 +620,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #250: Dative Case in Real German Conversations",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -748,7 +748,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #98: Describing Location & Direction in German",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -1012,7 +1012,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #340: Passive Voice in German News & Speech",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -1140,7 +1140,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #55: Shopping with Accusative Objects",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -1268,7 +1268,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #340: Passive Voice in German News & Speech",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -1404,7 +1404,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #267: Infinitive Constructions in Natural German",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -1461,14 +1461,14 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #267: Infinitive Constructions in Natural German",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Watch",
               "title": "Easy German #267: Infinitive Constructions in Natural German",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -1596,7 +1596,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #267: Infinitive Constructions in Natural German",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -1724,7 +1724,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #267: Infinitive Constructions in Natural German",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -1788,7 +1788,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #267: Infinitive Constructions in Natural German",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -1860,7 +1860,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #112: Comparing Things on the Street in Germany",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -2180,7 +2180,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #168: Saying What You Think in German",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -2380,7 +2380,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #360: Participial Phrases in German News",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -2444,7 +2444,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #180: When and If in German - wenn and als",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -2772,7 +2772,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German: Natural German in Context",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -3228,7 +3228,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German: Natural German in Context",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",

@@ -34,7 +34,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German: German Alphabet on the Streets",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -48,7 +48,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German #1: First German Words with Native Speakers",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             },
             {
               "type": "Speak",
@@ -88,7 +88,7 @@ export const CURRICULUM_DATA = {
               "type": "AI Roleplay",
               "title": "Easy German #1: First German Words with Native Speakers",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             }
           ],
           "targetMetrics": {
@@ -123,7 +123,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German: How to Introduce Yourself in Germany",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -137,7 +137,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German #45: First Conversations in Germany",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             },
             {
               "type": "Speak",
@@ -165,7 +165,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German #45: First Conversations in Germany",
               "duration": "35 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             },
             {
               "type": "Mobile App",
@@ -241,7 +241,7 @@ export const CURRICULUM_DATA = {
               "type": "Roleplay",
               "title": "Easy German: Prices and Numbers in German Stores",
               "duration": "35 min",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Writing",
@@ -328,7 +328,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German #55: Shopping with Articles in German",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Mobile App",
@@ -404,7 +404,7 @@ export const CURRICULUM_DATA = {
               "type": "Roleplay",
               "title": "Easy German: Saying No and Refusing in Germany",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Mobile App",
@@ -603,7 +603,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German: Natural German in Context",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -713,7 +713,7 @@ export const CURRICULUM_DATA = {
               "type": "Roleplay",
               "title": "Easy German: Native Speed Conversations",
               "duration": "35 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             },
             {
               "type": "Mobile App",
@@ -924,7 +924,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German: Separable Verbs in German Daily Routines",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Quiz",
@@ -1020,7 +1020,7 @@ export const CURRICULUM_DATA = {
               "type": "Roleplay",
               "title": "Easy German #55: Shopping with Articles in German",
               "duration": "35 min",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Mobile App",
@@ -1152,7 +1152,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German #185: Expressing Rules and Wishes in German",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Mobile App",
@@ -1206,7 +1206,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German #185: Expressing Rules and Wishes in German",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Quiz",
@@ -1372,7 +1372,7 @@ export const CURRICULUM_DATA = {
               "type": "Roleplay",
               "title": "Easy German: Native Speed Conversations",
               "duration": "40 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             },
             {
               "type": "Writing",
@@ -1529,7 +1529,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German: Native Speed Conversations",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             },
             {
               "type": "Mobile App",
@@ -1668,7 +1668,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German #45: First Conversations in Germany",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             },
             {
               "type": "Mobile App",
@@ -1743,7 +1743,7 @@ export const CURRICULUM_DATA = {
               "type": "Roleplay",
               "title": "Easy German #22: German Pronouns in Street Conversations",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Mobile App",
@@ -1859,7 +1859,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German: How Germans Describe Location",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Speak",
@@ -2164,7 +2164,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German: German Street Conversations",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Mobile App",
@@ -2267,7 +2267,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German: Native Speed Conversations",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             },
             {
               "type": "Memorize",
@@ -2364,7 +2364,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German #134: Describing People & Things with Adjectives",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Mobile App",
@@ -2433,7 +2433,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German: Native Speed Conversations",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             },
             {
               "type": "Mobile App",
@@ -2647,7 +2647,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German #45: First Conversations in Germany",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             },
             {
               "type": "Mobile App",
@@ -2709,7 +2709,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German: Weekend Stories - Perfekt in Natural German",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Mobile App",
@@ -2749,7 +2749,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German #310: Talking About Your Weekend in German",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -2880,7 +2880,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German: Weekend Stories - Perfekt in Natural German",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Writing",
@@ -3123,7 +3123,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German: German Street Conversations",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Mobile App",
@@ -3261,7 +3261,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German: Native Speed Conversations",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             },
             {
               "type": "Mobile App",
@@ -3301,7 +3301,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German: Native Speed Conversations",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             },
             {
               "type": "Memorize",
@@ -3599,7 +3599,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German: German Street Conversations",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Mobile App",
@@ -3764,7 +3764,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German: Native Speed Conversations",
               "duration": "45 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             },
             {
               "type": "Read",
@@ -3792,7 +3792,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German: Native Speed Conversations",
               "duration": "35 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             },
             {
               "type": "Mobile App",
@@ -3923,7 +3923,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German: Native Speed Conversations",
               "duration": "40 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             },
             {
               "type": "Mobile App",

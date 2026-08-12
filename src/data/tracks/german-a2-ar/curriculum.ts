@@ -100,7 +100,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German #168: Saying What You Think in German",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -164,7 +164,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German #180: When and If in German - wenn and als",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -228,7 +228,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German #170: Unexpected Things in German - obwohl",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -492,7 +492,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German: Pronouns in German Daily Conversation",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -620,7 +620,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German #250: Dative Case in Real German Conversations",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -748,7 +748,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German #250: Dative Case in Real German Conversations",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -948,7 +948,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German #310: Talking About Your Weekend in German",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -1140,7 +1140,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German #156: Separable Verbs in Natural German Speech",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -1404,7 +1404,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German: Natural German in Context",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -1788,7 +1788,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German: Natural German in Context",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -1860,7 +1860,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German #89: Reflexive Verbs in Daily German Life",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -1988,7 +1988,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German #120: How Germans Know a Word's Gender",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
             },
             {
               "type": "Memorize",
@@ -2052,7 +2052,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German #120: How Germans Know a Word's Gender",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
             },
             {
               "type": "Memorize",
@@ -2116,7 +2116,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German #250: Dative Case in Real German Conversations",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -2316,7 +2316,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German #112: Comparing Things on the Street in Germany",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -2380,7 +2380,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German #112: Comparing Things on the Street in Germany",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -2508,7 +2508,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German: Talking About What Belongs to Whom",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -2572,7 +2572,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German #250: Dative Case in Real German Conversations",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -2772,7 +2772,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German #380: Konjunktiv II in Real German Conversations",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -2964,7 +2964,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German #180: When and If in German - wenn and als",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -3228,7 +3228,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German: Natural German in Context",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -3292,7 +3292,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German #120: How Germans Know a Word's Gender",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
             },
             {
               "type": "Memorize",
@@ -3548,7 +3548,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German: Natural German in Context",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
