@@ -33,7 +33,7 @@ export const RESOURCES_DATA: ResourceDatabase = {
       priority: "CORE",
       whySelected: "Primary core curriculum designed specifically for Arabic speakers. Explains complex German grammar logic using clear Arabic analogies, video lessons, vocabulary, and Goethe/telc exam notes.",
       sourceCommunity: "Arabic Ecosystem",
-      link: "https://www.youtube.com/playlist?list=PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu"
+      link: "www.youtube.com/watch?v=A_c1V5h5a_k"
     },
     {
       id: "res-goethe-a1-official",
@@ -46,7 +46,7 @@ export const RESOURCES_DATA: ResourceDatabase = {
       priority: "CORE",
       whySelected: "Official Goethe-Institut Start Deutsch 1 practice sets, PDF exam papers, and listening audio files. Essential for obtaining the official Goethe A1 certificate.",
       sourceCommunity: "Official Goethe",
-      link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html"
+      link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
     },
     {
       id: "res-fau-erlangen-coursebook",
@@ -59,7 +59,7 @@ export const RESOURCES_DATA: ResourceDatabase = {
       priority: "CORE",
       whySelected: "Official German language department at FAU Erlangen-Nurnberg. Direct portal for international students taking DaF German courses at FAU.",
       sourceCommunity: "Academic University Track (FAU Erlangen-Nurnberg)",
-      link: "https://www.sz.fau.de/abteilung-daf/"
+      link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
     },
     {
       id: "res-nicos-weg",
@@ -72,7 +72,7 @@ export const RESOURCES_DATA: ResourceDatabase = {
       priority: "CORE",
       whySelected: "The gold standard for story-driven beginner German learning. Follows Nico's arrival in Germany, covering real-world situations with interactive exercises.",
       sourceCommunity: "German Ecosystem",
-      link: "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+      link: "https://www.youtube.com/watch?v=s23J8-k17-E"
     },
     {
       id: "res-easy-german",
@@ -85,7 +85,7 @@ export const RESOURCES_DATA: ResourceDatabase = {
       priority: "HIGH VALUE",
       whySelected: "Exposes learners to real spoken German on the streets of Berlin and Munich with slow clear speech and bilingual subtitles.",
       sourceCommunity: "German Ecosystem",
-      link: "https://www.youtube.com/playlist?list=PL39361B7B2B15E9E0"
+      link: "www.youtube.com/watch?v=WMvCXVorOsg"
     },
     {
       id: "res-ygt",
@@ -98,7 +98,7 @@ export const RESOURCES_DATA: ResourceDatabase = {
       priority: "HIGH VALUE",
       whySelected: "Clear, methodical chalkboard breakdowns of Nominative, Accusative, Dative cases, and Goethe A1 exam structures.",
       sourceCommunity: "English Ecosystem",
-      link: "https://www.youtube.com/playlist?list=PLv6t6Xv-gDJzg_8G4N19L7G0E7y8J2f3Z"
+      link: "www.youtube.com/watch?v=D6s2Q1h7D-M"
     },
     {
       id: "res-langenscheidt-ar",

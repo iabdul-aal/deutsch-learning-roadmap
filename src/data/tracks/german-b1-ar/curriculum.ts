@@ -17,7 +17,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Genitive Case (des/der + N-Deklination)",
           objective: "Master Genitive Case (des/der + N-Deklination) - part 1",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=g9o6q5x8sRk" },
@@ -37,7 +37,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Genitive Case (des/der + N-Deklination)",
           objective: "Master Genitive Case (des/der + N-Deklination) - part 2",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=D6s2Q1h7D-M" },
@@ -46,7 +46,7 @@ export const CURRICULUM_DATA_B1 = {
           intensiveTasks: [
             { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=kYJ74G30s6w" },
             { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=w0J4-t315pQ" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" }
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -57,14 +57,14 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Genitive Case (des/der + N-Deklination)",
           objective: "Master Genitive Case (des/der + N-Deklination) - part 3",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://de.langenscheidt.com/deutsch-arabisch/" },
             { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html" },
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
             { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
             { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://ankiweb.net/shared/info/2047595496" }
           ],
@@ -77,7 +77,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Genitive Case (des/der + N-Deklination)",
           objective: "Master Genitive Case (des/der + N-Deklination) - part 4",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
@@ -97,7 +97,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Genitive Case (des/der + N-Deklination)",
           objective: "Master Genitive Case (des/der + N-Deklination) - part 5",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=11Xg_o2-24k" },
@@ -117,7 +117,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Genitive Case (des/der + N-Deklination)",
           objective: "Master Genitive Case (des/der + N-Deklination) - part 6",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
@@ -125,7 +125,7 @@ export const CURRICULUM_DATA_B1 = {
           ],
           intensiveTasks: [
             { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
             { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
@@ -137,7 +137,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Revision",
           objective: "Assess progress",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
@@ -166,7 +166,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Relative Clauses (Relativsätze)",
           objective: "Master Relative Clauses (Relativsätze) - part 1",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=11Xg_o2-24k" },
@@ -186,7 +186,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Relative Clauses (Relativsätze)",
           objective: "Master Relative Clauses (Relativsätze) - part 2",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
@@ -194,7 +194,7 @@ export const CURRICULUM_DATA_B1 = {
           ],
           intensiveTasks: [
             { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
             { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
@@ -206,7 +206,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Relative Clauses (Relativsätze)",
           objective: "Master Relative Clauses (Relativsätze) - part 3",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
@@ -226,7 +226,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Relative Clauses (Relativsätze)",
           objective: "Master Relative Clauses (Relativsätze) - part 4",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=J9c1d-15u4I" },
@@ -246,7 +246,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Relative Clauses (Relativsätze)",
           objective: "Master Relative Clauses (Relativsätze) - part 5",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
@@ -255,7 +255,7 @@ export const CURRICULUM_DATA_B1 = {
           intensiveTasks: [
             { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://de.langenscheidt.com/deutsch-arabisch/" },
             { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html" }
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -266,7 +266,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Relative Clauses (Relativsätze)",
           objective: "Master Relative Clauses (Relativsätze) - part 6",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=A_c1V5h5a_k" },
@@ -286,7 +286,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Revision",
           objective: "Assess progress",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=Xn72-Zp9yYk" },
@@ -315,7 +315,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Partizip I and II as Adjectives + Participial Phrases",
           objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 1",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
@@ -324,7 +324,7 @@ export const CURRICULUM_DATA_B1 = {
           intensiveTasks: [
             { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://de.langenscheidt.com/deutsch-arabisch/" },
             { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html" }
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -335,7 +335,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Partizip I and II as Adjectives + Participial Phrases",
           objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 2",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=A_c1V5h5a_k" },
@@ -355,7 +355,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Partizip I and II as Adjectives + Participial Phrases",
           objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 3",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=Xn72-Zp9yYk" },
@@ -375,7 +375,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Partizip I and II as Adjectives + Participial Phrases",
           objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 4",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://lingua.com/german/reading/" },
@@ -395,7 +395,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Partizip I and II as Adjectives + Participial Phrases",
           objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 5",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
@@ -415,7 +415,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Partizip I and II as Adjectives + Participial Phrases",
           objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 6",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=g-Z1_t_a-k0" },
@@ -435,10 +435,10 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Revision",
           objective: "Assess progress",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
             , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
@@ -464,7 +464,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Reported Speech (Konjunktiv I) + Indirect Questions",
           objective: "Master Reported Speech (Konjunktiv I) + Indirect Questions - part 1",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
@@ -484,7 +484,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Reported Speech (Konjunktiv I) + Indirect Questions",
           objective: "Master Reported Speech (Konjunktiv I) + Indirect Questions - part 2",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=g-Z1_t_a-k0" },
@@ -504,10 +504,10 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Reported Speech (Konjunktiv I) + Indirect Questions",
           objective: "Master Reported Speech (Konjunktiv I) + Indirect Questions - part 3",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
@@ -524,7 +524,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Reported Speech (Konjunktiv I) + Indirect Questions",
           objective: "Master Reported Speech (Konjunktiv I) + Indirect Questions - part 4",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://ankiweb.net/shared/info/2047595496" },
@@ -544,7 +544,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Reported Speech (Konjunktiv I) + Indirect Questions",
           objective: "Master Reported Speech (Konjunktiv I) + Indirect Questions - part 5",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=kGg16h3Qh2o" },
@@ -564,7 +564,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Reported Speech (Konjunktiv I) + Indirect Questions",
           objective: "Master Reported Speech (Konjunktiv I) + Indirect Questions - part 6",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=w0J4-t315pQ" },
@@ -584,7 +584,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Revision",
           objective: "Assess progress",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
@@ -613,7 +613,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Complex Connectors",
           objective: "Master Complex Connectors - part 1",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=kGg16h3Qh2o" },
@@ -633,7 +633,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Complex Connectors",
           objective: "Master Complex Connectors - part 2",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=w0J4-t315pQ" },
@@ -653,7 +653,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Complex Connectors",
           objective: "Master Complex Connectors - part 3",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
@@ -673,7 +673,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Complex Connectors",
           objective: "Master Complex Connectors - part 4",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
@@ -693,14 +693,14 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Complex Connectors",
           objective: "Master Complex Connectors - part 5",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=kYJ74G30s6w" },
             { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://lingua.com/german/reading/" },
             { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
           ],
@@ -713,10 +713,10 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Complex Connectors",
           objective: "Master Complex Connectors - part 6",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
             { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
@@ -733,7 +733,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Revision",
           objective: "Assess progress",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" },
@@ -762,14 +762,14 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Advanced Prepositions",
           objective: "Master Advanced Prepositions - part 1",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=kYJ74G30s6w" },
             { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://lingua.com/german/reading/" },
             { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
           ],
@@ -782,10 +782,10 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Advanced Prepositions",
           objective: "Master Advanced Prepositions - part 2",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html" },
+            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
             { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
@@ -802,7 +802,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Advanced Prepositions",
           objective: "Master Advanced Prepositions - part 3",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" },
@@ -822,7 +822,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Advanced Prepositions",
           objective: "Master Advanced Prepositions - part 4",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
@@ -830,7 +830,7 @@ export const CURRICULUM_DATA_B1 = {
           ],
           intensiveTasks: [
             { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=w0J4-t315pQ" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://lingua.com/german/reading/" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
@@ -842,7 +842,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Advanced Prepositions",
           objective: "Master Advanced Prepositions - part 5",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
@@ -862,7 +862,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Advanced Prepositions",
           objective: "Master Advanced Prepositions - part 6",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=g9o6q5x8sRk" },
@@ -882,7 +882,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Revision",
           objective: "Assess progress",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=D6s2Q1h7D-M" },
@@ -891,7 +891,7 @@ export const CURRICULUM_DATA_B1 = {
           ],
           intensiveTasks: [
             { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=w0J4-t315pQ" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://lingua.com/german/reading/" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
@@ -911,7 +911,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "German for University and Professional Contexts",
           objective: "Master German for University and Professional Contexts - part 1",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
@@ -931,7 +931,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "German for University and Professional Contexts",
           objective: "Master German for University and Professional Contexts - part 2",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=g9o6q5x8sRk" },
@@ -951,7 +951,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "German for University and Professional Contexts",
           objective: "Master German for University and Professional Contexts - part 3",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=D6s2Q1h7D-M" },
@@ -960,7 +960,7 @@ export const CURRICULUM_DATA_B1 = {
           intensiveTasks: [
             { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=kYJ74G30s6w" },
             { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=w0J4-t315pQ" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" }
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -971,14 +971,14 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "German for University and Professional Contexts",
           objective: "Master German for University and Professional Contexts - part 4",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://de.langenscheidt.com/deutsch-arabisch/" },
             { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html" },
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
             { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
             { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://ankiweb.net/shared/info/2047595496" }
           ],
@@ -991,7 +991,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "German for University and Professional Contexts",
           objective: "Master German for University and Professional Contexts - part 5",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
@@ -1011,7 +1011,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "German for University and Professional Contexts",
           objective: "Master German for University and Professional Contexts - part 6",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=11Xg_o2-24k" },
@@ -1031,7 +1031,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Revision",
           objective: "Assess progress",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
@@ -1039,7 +1039,7 @@ export const CURRICULUM_DATA_B1 = {
             , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html" },
+            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
             { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
             { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://ankiweb.net/shared/info/2047595496" }
           ],
@@ -1060,7 +1060,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Goethe B1 Zertifikat Full Exam Prep",
           objective: "Master Goethe B1 Zertifikat Full Exam Prep - part 1",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
@@ -1080,7 +1080,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Goethe B1 Zertifikat Full Exam Prep",
           objective: "Master Goethe B1 Zertifikat Full Exam Prep - part 2",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=11Xg_o2-24k" },
@@ -1100,7 +1100,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Goethe B1 Zertifikat Full Exam Prep",
           objective: "Master Goethe B1 Zertifikat Full Exam Prep - part 3",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
@@ -1108,7 +1108,7 @@ export const CURRICULUM_DATA_B1 = {
           ],
           intensiveTasks: [
             { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html" },
+            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
             { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
@@ -1120,7 +1120,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Goethe B1 Zertifikat Full Exam Prep",
           objective: "Master Goethe B1 Zertifikat Full Exam Prep - part 4",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
@@ -1140,7 +1140,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Goethe B1 Zertifikat Full Exam Prep",
           objective: "Master Goethe B1 Zertifikat Full Exam Prep - part 5",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=J9c1d-15u4I" },
@@ -1160,7 +1160,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Goethe B1 Zertifikat Full Exam Prep",
           objective: "Master Goethe B1 Zertifikat Full Exam Prep - part 6",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
@@ -1169,7 +1169,7 @@ export const CURRICULUM_DATA_B1 = {
           intensiveTasks: [
             { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://de.langenscheidt.com/deutsch-arabisch/" },
             { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/en/spr/kup/prf/prf/sd1/ueb.html" }
+            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
         },
@@ -1180,7 +1180,7 @@ export const CURRICULUM_DATA_B1 = {
           focusSkill: "Revision",
           objective: "Assess progress",
           standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://learngerman.dw.com/de/nicos-weg/c-36519789" },
+            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=s23J8-k17-E" },
             { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=A_c1V5h5a_k" },

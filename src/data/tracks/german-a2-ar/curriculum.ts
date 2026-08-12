@@ -22,14 +22,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -82,14 +82,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -142,14 +142,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -202,14 +202,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -262,14 +262,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -322,14 +322,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -382,14 +382,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -410,7 +410,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Goethe A2 Practice Material",
               "duration": "60 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.goethe.de/en/spr/kup/prf/prf.html"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             }
           ],
           "intensiveTasks": [
@@ -462,14 +462,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -522,14 +522,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -582,14 +582,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -642,14 +642,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -702,14 +702,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -762,14 +762,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -822,14 +822,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -850,7 +850,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Goethe A2 Practice Material",
               "duration": "60 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.goethe.de/en/spr/kup/prf/prf.html"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             }
           ],
           "intensiveTasks": [
@@ -902,14 +902,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -962,14 +962,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -1022,14 +1022,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -1082,14 +1082,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -1142,14 +1142,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -1202,14 +1202,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -1262,14 +1262,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -1290,7 +1290,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Goethe A2 Practice Material",
               "duration": "60 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.goethe.de/en/spr/kup/prf/prf.html"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             }
           ],
           "intensiveTasks": [
@@ -1342,14 +1342,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -1402,14 +1402,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -1462,14 +1462,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -1522,14 +1522,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -1582,14 +1582,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -1642,14 +1642,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -1702,14 +1702,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -1730,7 +1730,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Goethe A2 Practice Material",
               "duration": "60 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.goethe.de/en/spr/kup/prf/prf.html"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             }
           ],
           "intensiveTasks": [
@@ -1782,14 +1782,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -1842,14 +1842,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -1902,14 +1902,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -1962,14 +1962,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -2022,14 +2022,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -2082,14 +2082,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -2142,14 +2142,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -2170,7 +2170,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Goethe A2 Practice Material",
               "duration": "60 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.goethe.de/en/spr/kup/prf/prf.html"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             }
           ],
           "intensiveTasks": [
@@ -2222,14 +2222,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -2282,14 +2282,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -2342,14 +2342,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -2402,14 +2402,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -2462,14 +2462,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -2522,14 +2522,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -2582,14 +2582,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -2610,7 +2610,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Goethe A2 Practice Material",
               "duration": "60 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.goethe.de/en/spr/kup/prf/prf.html"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             }
           ],
           "intensiveTasks": [
@@ -2662,14 +2662,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -2722,14 +2722,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -2782,14 +2782,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -2842,14 +2842,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -2902,14 +2902,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -2962,14 +2962,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -3022,14 +3022,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -3050,7 +3050,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Goethe A2 Practice Material",
               "duration": "60 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.goethe.de/en/spr/kup/prf/prf.html"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             }
           ],
           "intensiveTasks": [
@@ -3102,14 +3102,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -3162,14 +3162,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -3222,14 +3222,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -3282,14 +3282,14 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://learngerman.dw.com/de/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
             },
             {
               "type": "Grammar",
               "title": "Grammar Exercises",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/english"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             },
             {
               "type": "Vocabulary",
@@ -3342,7 +3342,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Goethe A2 Mock Exam Complete",
               "duration": "90 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.goethe.de/en/spr/kup/prf/prf.html"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             }
           ],
           "intensiveTasks": [
@@ -3371,7 +3371,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Goethe A2 Mock Exam Complete",
               "duration": "90 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.goethe.de/en/spr/kup/prf/prf.html"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             }
           ],
           "intensiveTasks": [
@@ -3400,7 +3400,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Goethe A2 Mock Exam Complete",
               "duration": "90 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.goethe.de/en/spr/kup/prf/prf.html"
+              "link": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
             }
           ],
           "intensiveTasks": [

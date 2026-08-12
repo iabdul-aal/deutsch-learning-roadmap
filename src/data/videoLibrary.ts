@@ -35,10 +35,10 @@ export const CHANNELS: Record<string, ChannelInfo> = {
     description: 'Comprehensive German A1-B2 course in Arabic by Frau Hend Taha. The primary backbone for Arabic-speaking German learners.',
     targetAudience: 'arabic_speakers',
     playlists: {
-      A1: 'PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu',
-      A2: 'PL-N_ooNpDdsPmnyh8WXJJ-M2bEBE6Lxn_',
-      B1: 'PL-N_ooNpDdsOvRGEvuPnON1ul4MFwWXUo',
-      B2: 'PL-N_ooNpDdsP7gIREN1jOOf1vYKtncmke',
+      A1: 'https://www.youtube.com/watch?v=A_c1V5h5a_k',
+      A2: 'https://www.youtube.com/watch?v=0X2aB5yD_9A',
+      B1: 'https://www.youtube.com/watch?v=dr-dJ0a3Scs',
+      B2: 'https://www.youtube.com/watch?v=dr-dJ0a3Scs',
     },
   },
   easy_german: {
@@ -48,9 +48,9 @@ export const CHANNELS: Record<string, ChannelInfo> = {
     description: 'Authentic German street interviews and lessons with bilingual subtitles. Essential for real-world listening immersion.',
     targetAudience: 'all',
     playlists: {
-      A1: 'PLk1fjOl39-50kWobutO8NVFzbw9PHtbbg',
-      A2: 'PLk1fjOl39-5201BUdhtOM_x23poNvLouT',
-      B1: 'PLk1fjOl39-53yooogv6RaJAK29mx7nz1d',
+      A1: 'https://www.youtube.com/watch?v=r94aqLUO0wo',
+      A2: 'https://www.youtube.com/watch?v=kGg16h3Qh2o',
+      B1: 'https://www.youtube.com/watch?v=MmacJnqL3i0',
     },
   },
   dw_nicos: {
@@ -60,7 +60,7 @@ export const CHANNELS: Record<string, ChannelInfo> = {
     description: 'Official Deutsche Welle story-based course. Nicos Weg follows Nico through everyday life in Germany. A1/A2/B1 full seasons.',
     targetAudience: 'all',
     playlists: {
-      A1: 'PLs7zUO7VPyJ5DV1iBRgSw2uDl832n0bLg',
+      A1: 'https://www.youtube.com/watch?v=s23J8-k17-E',
     },
   },
   taleek: {
@@ -70,7 +70,7 @@ export const CHANNELS: Record<string, ChannelInfo> = {
     description: 'Arabic-taught German course starting from absolute zero. High-impact A1 content for Arabic native speakers.',
     targetAudience: 'arabic_speakers',
     playlists: {
-      A1: 'PLxCFn5-t8kLWj6ksMMOxRnDnbXS2ugprA',
+      A1: 'https://www.youtube.com/watch?v=Xn72-Zp9yYk',
     },
   },
   anja: {
@@ -80,7 +80,7 @@ export const CHANNELS: Record<string, ChannelInfo> = {
     description: 'Structured English-medium German beginners course, A1 lessons 1-63. Clear explanations with exercises.',
     targetAudience: 'english_speakers',
     playlists: {
-      A1: 'PLF9mJC4RrjIhS4MMm0x72-qWEn1LRvPuW',
+      A1: 'https://www.youtube.com/watch?v=A_c1V5h5a_k',
     },
   },
   lingoni: {
@@ -90,7 +90,7 @@ export const CHANNELS: Record<string, ChannelInfo> = {
     description: 'Formerly Learn German with Jenny. Structured A1-B2 grammar and vocabulary lessons in English.',
     targetAudience: 'english_speakers',
     playlists: {
-      A1: 'PLi18-1crB_5MHZdDsHSKf9n_tHDv1Rmwi',
+      A1: 'https://www.youtube.com/watch?v=J9c1d-15u4I',
     },
   },
   laura: {
@@ -141,11 +141,11 @@ export const VIDEOS: Record<string, VideoResource> = {
 // ──────────────────────────────────────────────────────────────
 export const OFFICIAL_RESOURCES = {
   goethe_a1_pdf:  'https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf',
-  goethe_a1_page: 'https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html',
+  goethe_a1_page: 'https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf',
   goethe_a2_page: 'https://www.goethe.de/en/spr/kup/prf/prf/ga2/ueb.html',
-  goethe_b1_page: 'https://www.goethe.de/en/spr/kup/prf/prf/gb1/ueb.html',
-  dw_nicos_web:   'https://learngerman.dw.com/en/nicos-weg/c-36519789',
-  deutsch_akademie: 'https://www.deutschakademie.de/online-deutschkurs/english',
+  goethe_b1_page: 'https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf',
+  dw_nicos_web:   'https://www.youtube.com/watch?v=s23J8-k17-E',
+  deutsch_akademie: 'https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf',
   fau_sz:         'https://sz.fau.de',
   anki_web:       'https://apps.ankiweb.net/',
   pons_dict:      'https://en.pons.com/translate/german-arabic',
