@@ -129,7 +129,12 @@ export function getYouTubeWatchUrl(resourceId: string): string {
   return `https://www.youtube.com/watch?v=${resourceId}`;
 }
 
-export function getYouTubeEmbedUrl(resourceId: string, autoplay = false): string {
+export function getYouTubeEmbedUrl(
+  resourceId: string,
+  autoplay = false,
+  startTimeSeconds?: number,
+  endTimeSeconds?: number
+): string {
   if (!resourceId) return '';
   if (resourceId.startsWith('http://') || resourceId.startsWith('https://')) {
     return resourceId;
@@ -143,7 +148,14 @@ export function getYouTubeEmbedUrl(resourceId: string, autoplay = false): string
     base = `https://www.youtube.com/embed/${resourceId}`;
   }
   const sep = base.includes('?') ? '&' : '?';
-  return `${base}${sep}rel=0&modestbranding=1${autoplay ? '&autoplay=1' : ''}`;
+  let url = `${base}${sep}rel=0&modestbranding=1${autoplay ? '&autoplay=1' : ''}`;
+  if (startTimeSeconds !== undefined && startTimeSeconds > 0) {
+    url += `&start=${Math.floor(startTimeSeconds)}`;
+  }
+  if (endTimeSeconds !== undefined && endTimeSeconds > 0) {
+    url += `&end=${Math.floor(endTimeSeconds)}`;
+  }
+  return url;
 }
 
 // ══════════════════════════════════════════════════════════════

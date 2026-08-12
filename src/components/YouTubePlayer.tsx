@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
-import { ExternalLink, Maximize2, X, CheckCircle2, Play } from 'lucide-react';
+import { ExternalLink, Maximize2, X, CheckCircle2, Play, Timer, Pause, RotateCcw, Flame } from 'lucide-react';
 import { getYouTubeEmbedUrl, getYouTubeWatchUrl } from '../data/contentRanking';
 import { useApp } from '../context/AppContext';
 
@@ -9,14 +9,31 @@ interface YouTubePlayerProps {
   onComplete?: () => void;
   className?: string;
   autoplay?: boolean;
-  dayNumber?: number;   // curriculum context — used in watch record
-  taskTitle?: string;   // curriculum context — used in watch record
+  dayNumber?: number;         // curriculum context — used in watch record
+  taskTitle?: string;         // curriculum context — used in watch record
+  startTimeSeconds?: number;  // timestamp crop start
+  endTimeSeconds?: number;    // timestamp crop end
+  estimatedMinutes?: number;  // estimated target task duration
+}
+
+function formatSecondsToMMSS(sec: number): string {
+  const m = Math.floor(sec / 60);
+  const s = Math.floor(sec % 60);
+  return `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+}
+
+function formatSecondsToTimestamp(sec: number): string {
+  const h = Math.floor(sec / 3600);
+  const m = Math.floor((sec % 3600) / 60);
+  const s = Math.floor(sec % 60);
+  if (h > 0) {
+    return `${h}:${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+  }
+  return `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
 }
 
 /**
- * Embedded YouTube player with persistent watch progress saved to localStorage.
- * A green "Watched" badge appears immediately after the video ends, and reappears
- * on every future visit to the page.
+ * Embedded YouTube player with timestamp cropping and integrated 25-min Pomodoro timer.
  */
 export const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
   videoId,
@@ -26,11 +43,49 @@ export const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
   autoplay = false,
   dayNumber,
   taskTitle,
+  startTimeSeconds,
+  endTimeSeconds,
+  estimatedMinutes = 25,
 }) => {
   const { isVideoWatched, markVideoWatched } = useApp();
   const [isFullscreen, setIsFullscreen] = useState(false);
-  // Derive watched state from persistent store so badge survives page reload
   const watched = isVideoWatched(videoId);
+
+  // ── Pomodoro Timer State ──────────────────────────────────────────
+  const targetPomodoroSec = Math.max(5, estimatedMinutes) * 60;
+  const [pomodoroLeft, setPomodoroLeft] = useState<number>(targetPomodoroSec);
+  const [isPomodoroRunning, setIsPomodoroRunning] = useState<boolean>(false);
+
+  useEffect(() => {
+    let interval: NodeJS.Timeout | null = null;
+    if (isPomodoroRunning && pomodoroLeft > 0) {
+      interval = setInterval(() => {
+        setPomodoroLeft(prev => {
+          if (prev <= 1) {
+            setIsPomodoroRunning(false);
+            handleWatched();
+            return 0;
+          }
+          return prev - 1;
+        });
+      }, 1000);
+    }
+    return () => {
+      if (interval) clearInterval(interval);
+    };
+  }, [isPomodoroRunning, pomodoroLeft]);
+
+  const togglePomodoro = () => {
+    if (pomodoroLeft === 0) {
+      setPomodoroLeft(targetPomodoroSec);
+    }
+    setIsPomodoroRunning(r => !r);
+  };
+
+  const resetPomodoro = () => {
+    setIsPomodoroRunning(false);
+    setPomodoroLeft(targetPomodoroSec);
+  };
 
   const handleWatched = useCallback(() => {
     markVideoWatched(videoId, { dayNumber, taskTitle });
@@ -43,7 +98,6 @@ export const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
       if (event.origin !== 'https://www.youtube.com') return;
       try {
         const data = JSON.parse(event.data as string);
-        // info === 0 means video ended; info === 1 means playing (started)
         if (data.event === 'onStateChange' && data.info === 0) {
           handleWatched();
         }
@@ -55,7 +109,7 @@ export const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
     return () => window.removeEventListener('message', handleMessage);
   }, [handleWatched]);
 
-  const embedUrl = getYouTubeEmbedUrl(videoId, autoplay);
+  const embedUrl = getYouTubeEmbedUrl(videoId, autoplay, startTimeSeconds, endTimeSeconds);
   const watchUrl = getYouTubeWatchUrl(videoId);
 
   const player = (
@@ -73,9 +127,17 @@ export const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
 
       {/* Persistent watched badge */}
       {watched && (
-        <div className="absolute top-3 right-3 flex items-center gap-1.5 bg-emerald-500/90 backdrop-blur-sm text-white text-[10px] font-black px-2.5 py-1 rounded-full shadow-lg animate-fadeIn">
+        <div className="absolute top-3 right-3 flex items-center gap-1.5 bg-emerald-500/90 backdrop-blur-sm text-white text-[10px] font-black px-2.5 py-1 rounded-full shadow-lg animate-fadeIn z-10">
           <CheckCircle2 className="w-3.5 h-3.5" />
           Watched
+        </div>
+      )}
+
+      {/* Segment Crop Badge (if cropped) */}
+      {startTimeSeconds !== undefined && startTimeSeconds > 0 && (
+        <div className="absolute top-3 left-3 flex items-center gap-1.5 bg-stone-900/90 backdrop-blur-sm text-amber-400 text-[10px] font-black px-2.5 py-1 rounded-full shadow-lg border border-amber-500/30 z-10">
+          <Flame className="w-3.5 h-3.5 text-amber-500" />
+          <span>Lesson Segment: {formatSecondsToTimestamp(startTimeSeconds)} – {formatSecondsToTimestamp(endTimeSeconds || startTimeSeconds + 1500)}</span>
         </div>
       )}
     </div>
@@ -114,26 +176,58 @@ export const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
   return (
     <div className="space-y-2.5">
       {player}
-      <div className="flex items-center justify-between p-2.5 rounded-xl bg-stone-50 border border-stone-200">
-        {title && <span className="text-xs font-bold text-stone-800 truncate flex-1 pr-2">{title}</span>}
-        <div className="flex items-center gap-2 shrink-0">
+
+      {/* Control Bar & Integrated Pomodoro Timer */}
+      <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between p-3 rounded-xl bg-stone-900 text-white border border-stone-800 gap-2.5">
+        
+        {/* Left: Pomodoro Timer Bar */}
+        <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-amber-500/10 border border-amber-500/30 text-amber-400 font-mono font-bold text-xs">
+            <Timer className="w-3.5 h-3.5 text-amber-500 animate-pulse" />
+            <span>{formatSecondsToMMSS(pomodoroLeft)}</span>
+            <span className="text-[10px] text-amber-500 font-sans font-bold uppercase ml-1">Focus</span>
+          </div>
+
+          <button
+            onClick={togglePomodoro}
+            className={`px-2.5 py-1 rounded-lg text-xs font-black transition-all flex items-center gap-1 ${
+              isPomodoroRunning
+                ? 'bg-amber-500 text-stone-950 hover:bg-amber-400'
+                : 'bg-stone-800 text-stone-200 hover:bg-stone-700'
+            }`}
+          >
+            {isPomodoroRunning ? <Pause className="w-3 h-3" /> : <Play className="w-3 h-3 fill-current" />}
+            <span>{isPomodoroRunning ? 'Pause' : 'Start Focus'}</span>
+          </button>
+
+          <button
+            onClick={resetPomodoro}
+            className="p-1 text-stone-400 hover:text-white transition-colors"
+            title="Reset Timer"
+          >
+            <RotateCcw className="w-3.5 h-3.5" />
+          </button>
+        </div>
+
+        {/* Right: Actions */}
+        <div className="flex items-center gap-2 justify-between sm:justify-end">
           {watched && (
-            <span className="flex items-center gap-1 text-[10px] font-black text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-1 rounded-full">
-              <CheckCircle2 className="w-3 h-3" /> Watched
+            <span className="flex items-center gap-1 text-[10px] font-black text-emerald-400 bg-emerald-950/80 border border-emerald-800 px-2 py-1 rounded-full">
+              <CheckCircle2 className="w-3 h-3 text-emerald-400" /> Watched
             </span>
           )}
           <a
             href={watchUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-red-600 hover:bg-red-700 text-white text-xs font-black transition-all shadow-xs"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-red-600 hover:bg-red-500 text-white text-xs font-black transition-all shadow-xs"
           >
             <Play className="w-3.5 h-3.5 fill-current" />
-            <span>{videoId.startsWith('PL') || videoId.includes('playlist') ? 'Open Full Playlist' : 'Watch on YouTube'}</span>
+            <span>Open YouTube</span>
           </a>
           <button
             onClick={() => setIsFullscreen(true)}
-            className="p-1.5 text-stone-500 hover:text-stone-900 hover:bg-stone-200 rounded-lg transition-colors"
+            className="p-1.5 text-stone-400 hover:text-white hover:bg-stone-800 rounded-lg transition-colors"
             title="Fullscreen"
           >
             <Maximize2 className="w-4 h-4" />
@@ -143,8 +237,6 @@ export const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
     </div>
   );
 };
-
-// ── Playlist embed (unchanged) ────────────────────────────────────
 
 interface PlaylistEmbedProps {
   playlistId: string;

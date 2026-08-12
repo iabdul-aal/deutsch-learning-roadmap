@@ -52,80 +52,6 @@ const VERIFIED_PLAYABLE_DECK = [
   'dr-dJ0a3Scs', // Deutsch mit Hend A2/B1 — intermediate grammar
 ];
 
-const TOPIC_VIDEO_MAP: Record<number, string> = {
-  // Week 1 — Foundations, Alphabet, Greetings
-  1:  'WMvCXVorOsg', // Alphabet & phonetics → Hend A1 Lesson 1
-  2:  'r94aqLUO0wo', // Self-intro & pronouns → Easy German greetings
-  3:  'r94aqLUO0wo', // Numbers & W-Fragen → Easy German street interviews
-  4:  'WMvCXVorOsg', // Articles (der/die/das) → Hend grammar
-  5:  'WMvCXVorOsg', // Negation (nicht/kein) → Hend grammar
-  6:  'OFSHdj_2FQA', // Plural & family vocab → Easy German daily life
-  7:  '4-eDoThe6qo', // Week 1 revision → DW Nicos Weg full A1 story
-
-  // Week 2 — Accusative, Shopping, Food
-  8:  'WMvCXVorOsg', // Accusative case → Hend grammar
-  9:  'OFSHdj_2FQA', // Food & supermarket → Easy German daily vocab
-  10: 'r94aqLUO0wo', // Ordering at restaurants → Easy German
-  11: 'RrfgbBp6ScI', // Modal verbs intro → lingoni structured
-  12: 'OFSHdj_2FQA', // Daily routines & time → Easy German
-  13: 'WMvCXVorOsg', // Separable verbs → Hend grammar
-  14: '4-eDoThe6qo', // Week 2 revision → DW Nicos Weg
-
-  // Week 3 — Dative, Transport, Housing
-  15: 'WMvCXVorOsg', // Dative case → Hend grammar (dativ masterclass)
-  16: 'r94aqLUO0wo', // Public transport → Easy German
-  17: 'OFSHdj_2FQA', // Housing & rooms → Easy German
-  18: 'WMvCXVorOsg', // Prepositions (mit, zu, bei, nach) → Hend
-  19: 'RrfgbBp6ScI', // Adjective endings → lingoni structured
-  20: 'r94aqLUO0wo', // At the Bürgeramt → Easy German bureaucracy
-  21: '4-eDoThe6qo', // Week 3 revision → DW Nicos Weg
-
-  // Week 4 — Perfekt, Past Tense, Working Life
-  22: 'WMvCXVorOsg', // Perfekt tense intro → Hend A1 grammar
-  23: 'RrfgbBp6ScI', // Haben vs Sein in Perfekt → lingoni
-  24: 'r94aqLUO0wo', // Work & jobs vocabulary → Easy German
-  25: 'OFSHdj_2FQA', // Daily routines in Perfekt → Easy German
-  26: 'WMvCXVorOsg', // Possessive pronouns → Hend grammar
-  27: 'MmacJnqL3i0', // Vocabulary expansion: 100 essential words
-  28: '4-eDoThe6qo', // Week 4 revision → DW Nicos Weg
-
-  // Week 5 — Subordinate Clauses, Conjunctions
-  29: 'WMvCXVorOsg', // Subordinate clauses → Hend grammar
-  30: 'RrfgbBp6ScI', // Conjunctions (weil, dass, obwohl) → lingoni
-  31: 'r94aqLUO0wo', // Real-world listening drill → Easy German
-  32: 'OFSHdj_2FQA', // Shopping & money dialogue → Easy German
-  33: 'WMvCXVorOsg', // Relative clauses intro → Hend
-  34: 'RrfgbBp6ScI', // Genitive case → lingoni structured
-  35: '4-eDoThe6qo', // Week 5 revision → DW Nicos Weg
-
-  // Week 6 — A2 Transition: Konjunktiv, Indirect Speech
-  36: 'dr-dJ0a3Scs', // Konjunktiv II intro → Hend A2 playlist
-  37: 'dr-dJ0a3Scs', // Indirect speech (Indirekte Rede) → Hend A2
-  38: 'r94aqLUO0wo', // Authentic listening drill → Easy German
-  39: 'dr-dJ0a3Scs', // Advanced conjunctions → Hend A2
-  40: 'MmacJnqL3i0', // Vocabulary deep-dive → Easy German 100 words
-  41: 'OFSHdj_2FQA', // Cultural situations → Easy German
-  42: '4-eDoThe6qo', // Week 6 revision → DW Nicos Weg
-
-  // Week 7 — Exam Preparation
-  43: 'WMvCXVorOsg', // Grammar revision A1 → Hend
-  44: 'RrfgbBp6ScI', // Writing practice → lingoni
-  45: 'r94aqLUO0wo', // Listening exam practice → Easy German
-  46: 'dr-dJ0a3Scs', // Reading comprehension → Hend A2
-  47: 'OFSHdj_2FQA', // Speaking scenarios → Easy German
-  48: 'MmacJnqL3i0', // Final vocabulary sprint → 100 words
-  49: '4-eDoThe6qo', // Week 7 revision → DW Nicos Weg
-
-  // Week 8 — Final Assessment
-  50: 'WMvCXVorOsg', // Final grammar review → Hend
-  51: 'r94aqLUO0wo', // Listening confidence → Easy German
-  52: 'dr-dJ0a3Scs', // Advanced reading → Hend A2
-  53: 'OFSHdj_2FQA', // Speaking scenarios → Easy German
-  54: 'RrfgbBp6ScI', // Writing final → lingoni
-  55: 'MmacJnqL3i0', // Final vocabulary review
-  56: '4-eDoThe6qo', // Graduation day → DW Nicos Weg full A1 course
-};
-
 const SECONDARY_PLAYABLE_DECK = [
   'r94aqLUO0wo', // Easy German Greetings / Introductions
   'OFSHdj_2FQA', // Easy German Restaurant & Daily Life
@@ -134,6 +60,21 @@ const SECONDARY_PLAYABLE_DECK = [
   'MmacJnqL3i0', // Easy German 100 Essential Words
   'dr-dJ0a3Scs', // Deutsch mit Hend A2
 ];
+
+const TOPIC_VIDEO_MAP: Record<number, string> = {
+  1:  'WMvCXVorOsg', 2:  'r94aqLUO0wo', 3:  'r94aqLUO0wo', 4:  'WMvCXVorOsg', 5:  'WMvCXVorOsg',
+  6:  'OFSHdj_2FQA', 7:  '4-eDoThe6qo', 8:  'WMvCXVorOsg', 9:  'OFSHdj_2FQA', 10: 'r94aqLUO0wo',
+  11: 'RrfgbBp6ScI', 12: 'OFSHdj_2FQA', 13: 'WMvCXVorOsg', 14: '4-eDoThe6qo', 15: 'WMvCXVorOsg',
+  16: 'r94aqLUO0wo', 17: 'OFSHdj_2FQA', 18: 'WMvCXVorOsg', 19: 'RrfgbBp6ScI', 20: 'r94aqLUO0wo',
+  21: '4-eDoThe6qo', 22: 'WMvCXVorOsg', 23: 'RrfgbBp6ScI', 24: 'r94aqLUO0wo', 25: 'OFSHdj_2FQA',
+  26: 'WMvCXVorOsg', 27: 'MmacJnqL3i0', 28: '4-eDoThe6qo', 29: 'WMvCXVorOsg', 30: 'RrfgbBp6ScI',
+  31: 'r94aqLUO0wo', 32: 'OFSHdj_2FQA', 33: 'WMvCXVorOsg', 34: 'RrfgbBp6ScI', 35: '4-eDoThe6qo',
+  36: 'dr-dJ0a3Scs', 37: 'dr-dJ0a3Scs', 38: 'r94aqLUO0wo', 39: 'dr-dJ0a3Scs', 40: 'MmacJnqL3i0',
+  41: 'OFSHdj_2FQA', 42: '4-eDoThe6qo', 43: 'WMvCXVorOsg', 44: 'RrfgbBp6ScI', 45: 'r94aqLUO0wo',
+  46: 'dr-dJ0a3Scs', 47: 'OFSHdj_2FQA', 48: 'MmacJnqL3i0', 49: '4-eDoThe6qo', 50: 'WMvCXVorOsg',
+  51: 'r94aqLUO0wo', 52: 'dr-dJ0a3Scs', 53: 'OFSHdj_2FQA', 54: 'RrfgbBp6ScI', 55: 'MmacJnqL3i0',
+  56: '4-eDoThe6qo',
+};
 
 // Fallback helper for days 1-56
 function getVerifiedDayVideoId(dayNum: number): string {
@@ -147,14 +88,48 @@ function getSecondaryDayVideoId(dayNum: number): string {
   return SECONDARY_PLAYABLE_DECK[idx];
 }
 
-// ── Embedded Video Player (persistent watch tracking) ──────────────────
-const EmbeddedPlayer: React.FC<{ videoId: string; title: string; dayNumber?: number }> = ({ videoId, title, dayNumber }) => (
+/**
+ * Calculates start and end timestamps for long video masterclasses to crop 25-min Pomodoro chapters per day.
+ */
+export function getVideoCroppedSegment(videoId: string, dayNumber = 1, estimatedMinutes = 25) {
+  const durationSec = Math.max(15, estimatedMinutes) * 60; // 25 min default = 1500s
+
+  if (videoId === 'WMvCXVorOsg' || videoId === 'dr-dJ0a3Scs') {
+    // 26-30 hour masterclass series: crop 25-minute Pomodoro segment for this specific day
+    const start = Math.max(0, (dayNumber - 1) * 1500);
+    const end = start + durationSec;
+    return { startTimeSeconds: start, endTimeSeconds: end };
+  }
+
+  if (videoId === '4-eDoThe6qo') {
+    // DW Nicos Weg full movie (100 min = 6000s): crop 10-minute episode for this specific day
+    const dayMod = (dayNumber - 1) % 10;
+    const start = dayMod * 600;
+    const end = start + 600;
+    return { startTimeSeconds: start, endTimeSeconds: end };
+  }
+
+  return { startTimeSeconds: 0, endTimeSeconds: durationSec };
+}
+
+// ── Embedded Video Player (persistent watch tracking & Pomodoro focus timer) ──
+const EmbeddedPlayer: React.FC<{
+  videoId: string;
+  title: string;
+  dayNumber?: number;
+  startTimeSeconds?: number;
+  endTimeSeconds?: number;
+  estimatedMinutes?: number;
+}> = ({ videoId, title, dayNumber, startTimeSeconds, endTimeSeconds, estimatedMinutes }) => (
   <div className="mt-3">
     <YouTubePlayer
       videoId={videoId}
       title={title}
       dayNumber={dayNumber}
       taskTitle={title}
+      startTimeSeconds={startTimeSeconds}
+      endTimeSeconds={endTimeSeconds}
+      estimatedMinutes={estimatedMinutes}
     />
   </div>
 );
@@ -295,8 +270,10 @@ const TaskCard: React.FC<{
     }
   }
 
-  // EVERY task is expandable to show rich embedded content or attachments
-  const hasExpandable = true;
+  // Calculate Pomodoro-friendly task duration & cropped timestamps
+  const durationMatch = (task.duration || '').match(/(\d+)/);
+  const estimatedMin = durationMatch ? parseInt(durationMatch[1], 10) : 25;
+  const { startTimeSeconds, endTimeSeconds } = getVideoCroppedSegment(embedVideoId || 'WMvCXVorOsg', dayNumber, estimatedMin);
 
   return (
     <div
@@ -340,8 +317,8 @@ const TaskCard: React.FC<{
               {meta.label}
             </span>
             {task.duration && (
-              <span className="flex items-center gap-0.5 text-[10px] text-stone-400">
-                <Clock className="w-2.5 h-2.5" /> {task.duration}
+              <span className="flex items-center gap-0.5 text-[10px] text-stone-400 font-medium">
+                <Clock className="w-2.5 h-2.5 text-amber-500" /> {task.duration}
               </span>
             )}
           </div>
@@ -360,7 +337,14 @@ const TaskCard: React.FC<{
         <div className="px-3 pb-3 space-y-2 animate-fadeIn">
           {/* VIDEO EMBED */}
           {isVideo && (
-            <EmbeddedPlayer videoId={embedVideoId || 'WMvCXVorOsg'} title={task.title} dayNumber={dayNumber} />
+            <EmbeddedPlayer
+              videoId={embedVideoId || 'WMvCXVorOsg'}
+              title={task.title}
+              dayNumber={dayNumber}
+              startTimeSeconds={startTimeSeconds}
+              endTimeSeconds={endTimeSeconds}
+              estimatedMinutes={estimatedMin}
+            />
           )}
 
           {/* WRITING TASK */}
@@ -369,18 +353,8 @@ const TaskCard: React.FC<{
           {/* SPEAKING DRILL */}
           {isSpeaking && <SpeakingDrillCard title={task.title} />}
 
-          {/* RESOURCE / QUIZ ATTACHMENT */}
-          {!isVideo && !isWriting && !isSpeaking && (
-            <TaskResourceCard task={task} dayNumber={dayNumber} />
-          )}
-
-          {/* Done button */}
-          <button
-            onClick={() => { toggleTask(taskId, dayNumber); setExpanded(false); }}
-            className="w-full py-2 rounded-xl bg-stone-900 text-white text-xs font-black hover:bg-stone-700 transition-colors"
-          >
-            Mark Complete 
-          </button>
+          {/* PRACTICE RESOURCE LINK */}
+          <TaskResourceCard task={task} dayNumber={dayNumber} />
         </div>
       )}
     </div>
@@ -403,7 +377,6 @@ const DayCard: React.FC<{ day: any; trackId: string }> = ({ day, trackId }) => {
   const progress = dayTasks.length > 0 ? Math.round((doneCount / dayTasks.length) * 100) : 0;
 
   // Assign embedded videos: primary (first Watch task) + secondary (second Watch task)
-  // Each day gets different video IDs - no repetition across days
   const primaryVideoId = getVerifiedDayVideoId(day.dayNumber);
   const secondaryVideoId = getSecondaryDayVideoId(day.dayNumber);
 
@@ -425,7 +398,7 @@ const DayCard: React.FC<{ day: any; trackId: string }> = ({ day, trackId }) => {
                 ? 'bg-amber-100 text-amber-800'
                 : 'bg-stone-100 text-stone-600'
           }`}>
-            {isDayDone ? '' : day.dayNumber}
+            {isDayDone ? '✓' : day.dayNumber}
           </div>
 
           <div className="min-w-0 flex-1">
@@ -520,150 +493,91 @@ export const CurriculumView: React.FC = () => {
   const weeksList = activeCurriculumData?.weeks || [];
   const activeWeek = weeksList.find((w: any) => w.weekNumber === selectedWeekNum) || weeksList[0];
 
-  // Overall progress
-  const allTasks = weeksList.flatMap((w: any) =>
-    (w.days || []).flatMap((d: any) => {
-      const tasks = mode === 'intensive'
-        ? [...(d.standardTasks || []), ...(d.intensiveTasks || [])]
-        : (d.standardTasks || []);
-      return tasks.map((_: any, i: number) => makeTaskId(currentTrackId, d.dayNumber, i));
-    })
-  );
-  const completedCount = allTasks.filter(id => completedTasks[id]).length;
-  const totalPercent = allTasks.length > 0 ? Math.round((completedCount / allTasks.length) * 100) : 0;
-
-  // Week completion status
-  const getWeekProgress = (week: any) => {
-    const tasks = (week.days || []).flatMap((d: any) => {
-      const t = mode === 'intensive'
-        ? [...(d.standardTasks || []), ...(d.intensiveTasks || [])]
-        : (d.standardTasks || []);
-      return t.map((_: any, i: number) => makeTaskId(currentTrackId, d.dayNumber, i));
-    });
-    const done = tasks.filter((id: string) => completedTasks[id]).length;
-    return { done, total: tasks.length, percent: tasks.length > 0 ? Math.round((done / tasks.length) * 100) : 0 };
-  };
+  // Overall track statistics
+  const totalTrackDays = activeCurriculumData?.totalDays || 56;
+  const doneDaysCount = (completedDays || []).length;
+  const trackProgressPercent = Math.round((doneDaysCount / totalTrackDays) * 100);
 
   return (
-    <div className="space-y-5 animate-fadeIn">
-
-      {/* Header */}
-      <div className="paper-card p-5">
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
-          <div>
-            <span className="text-[10px] font-black text-amber-700 uppercase tracking-widest block mb-1">
-              CEFR-ALIGNED 8-WEEK CURRICULUM
+    <div className="space-y-6 animate-fadeIn">
+      
+      {/* Header Banner */}
+      <div className="paper-card p-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+        <div>
+          <div className="flex items-center gap-2">
+            <span className="text-[10px] font-bold text-amber-700 uppercase tracking-wider">
+              CURRICULUM ROADMAP
             </span>
-            <h2 className="text-xl font-black text-stone-900 flex items-center gap-2">
-              <MapPin className="w-5 h-5 text-amber-600 shrink-0" />
-              Your German Roadmap
-            </h2>
-            <p className="text-xs text-stone-500 mt-1 max-w-lg">
-              {(activeCurriculumData as any)?.description || 'Backbone: Deutsch mit Hend (Arabic) · DW Nicos Weg · Easy German. Goethe-aligned.'}
-            </p>
+            <span className="text-[10px] font-black px-2 py-0.5 rounded bg-amber-500 text-stone-950 uppercase">
+              {currentTrackId.replace('-ar', '').toUpperCase()} Track
+            </span>
           </div>
+          <h2 className="text-xl font-extrabold text-stone-900 mt-1">
+            {activeCurriculumData?.title || '56-Day Mastery Roadmap'}
+          </h2>
+          <p className="text-xs text-stone-600 mt-0.5 max-w-2xl">
+            Structured daily Pomodoro blocks combining Arabic video masterclasses, DW story immersion, and Goethe/TELC exam practice.
+          </p>
+        </div>
 
-          {/* Overall progress ring */}
-          <div className="flex items-center gap-4 shrink-0">
-            <div className="text-right">
-              <div className="text-2xl font-black text-stone-900">{totalPercent}%</div>
-              <div className="text-[10px] text-stone-400 uppercase">Overall</div>
-              <div className="text-[10px] text-stone-400">{completedCount}/{allTasks.length} tasks</div>
-            </div>
-            <svg viewBox="0 0 36 36" className="w-16 h-16 -rotate-90">
-              <circle cx="18" cy="18" r="15" fill="none" stroke="#e7e5e4" strokeWidth="3" />
-              <circle
-                cx="18" cy="18" r="15" fill="none"
-                stroke="#f59e0b" strokeWidth="3"
-                strokeDasharray={`${(totalPercent / 100) * 94} 94`}
-                strokeLinecap="round"
-                className="transition-all duration-700"
-              />
-            </svg>
+        {/* Progress gauge */}
+        <div className="w-full md:w-48 bg-stone-50 border border-stone-200 p-3 rounded-2xl flex flex-col justify-center">
+          <div className="flex items-center justify-between text-xs font-bold text-stone-700 mb-1">
+            <span>Progress</span>
+            <span className="text-amber-700 font-black">{trackProgressPercent}%</span>
           </div>
+          <div className="w-full h-2 bg-stone-200 rounded-full overflow-hidden">
+            <div
+              className="h-full bg-amber-500 rounded-full transition-all duration-500"
+              style={{ width: `${trackProgressPercent}%` }}
+            />
+          </div>
+          <p className="text-[10px] text-stone-400 font-bold mt-1 text-right">
+            {doneDaysCount} / {totalTrackDays} Days Complete
+          </p>
         </div>
       </div>
 
-      {/* Two-pane layout */}
-      <div className="grid grid-cols-1 md:grid-cols-12 gap-5">
+      {/* Week Selector Tabs */}
+      <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
+        {(weeksList || []).map((w: any) => {
+          const isSelected = w.weekNumber === selectedWeekNum;
+          return (
+            <button
+              key={w.weekNumber}
+              onClick={() => setSelectedWeekNum(w.weekNumber)}
+              className={`px-4 py-2 rounded-xl text-xs font-extrabold whitespace-nowrap transition-all border shrink-0 ${
+                isSelected
+                  ? 'bg-amber-500 text-stone-950 border-amber-500 shadow-sm'
+                  : 'bg-white text-stone-600 border-stone-200 hover:border-stone-300 hover:text-stone-900'
+              }`}
+            >
+              Week {w.weekNumber}: {w.title.split(':')[1] || w.title}
+            </button>
+          );
+        })}
+      </div>
 
-        {/* Week selector */}
-        <div className="md:col-span-4 space-y-2">
-          <p className="text-[10px] font-black text-stone-400 uppercase tracking-widest px-1">
-            Select Week
-          </p>
-          {weeksList.map((week: any) => {
-            const { done, total, percent } = getWeekProgress(week);
-            const isSelected = selectedWeekNum === week.weekNumber;
-            return (
-              <button
-                key={week.weekNumber}
-                onClick={() => setSelectedWeekNum(week.weekNumber)}
-                className={`w-full p-3.5 rounded-xl border text-left transition-all group ${
-                  isSelected
-                    ? 'bg-amber-500 border-amber-500 shadow-md shadow-amber-200'
-                    : 'bg-white border-stone-200 hover:border-amber-300'
-                }`}
-              >
-                <div className="flex items-center justify-between gap-2">
-                  <div className="min-w-0">
-                    <span className={`text-[10px] font-black uppercase tracking-wider ${isSelected ? 'text-amber-100' : 'text-stone-400'}`}>
-                      WEEK {week.weekNumber}
-                    </span>
-                    <p className={`text-xs font-black leading-snug mt-0.5 truncate ${isSelected ? 'text-white' : 'text-stone-800'}`}>
-                      {week.title}
-                    </p>
-                  </div>
-                  <div className="flex flex-col items-end shrink-0 gap-1">
-                    <span className={`text-[10px] font-black ${
-                      percent === 100 ? 'text-emerald-600' : isSelected ? 'text-amber-100' : 'text-stone-400'
-                    }`}>
-                      {percent === 100 ? '' : `${percent}%`}
-                    </span>
-                  </div>
-                </div>
-                {/* Mini progress bar */}
-                <div className={`mt-2 h-1 rounded-full overflow-hidden ${isSelected ? 'bg-amber-400' : 'bg-stone-100'}`}>
-                  <div
-                    className={`h-full rounded-full transition-all duration-500 ${isSelected ? 'bg-white' : 'bg-amber-500'}`}
-                    style={{ width: `${percent}%` }}
-                  />
-                </div>
-                {!isSelected && (
-                  <p className={`text-[10px] mt-1 ${percent === 100 ? 'text-emerald-500' : 'text-stone-400'}`}>
-                    {done}/{total} tasks
-                  </p>
-                )}
-              </button>
-            );
-          })}
-        </div>
-
-        {/* Day cards */}
-        <div className="md:col-span-8 space-y-3">
-          {activeWeek && (
-            <div className="paper-card p-4">
-              <span className="text-[10px] font-black text-amber-700 uppercase tracking-wider">
-                WEEK {activeWeek.weekNumber} OVERVIEW
-              </span>
-              <h3 className="text-base font-black text-stone-900 mt-0.5">{activeWeek.title}</h3>
-              {activeWeek.objective && (
-                <p className="text-xs text-stone-600 mt-1">{activeWeek.objective}</p>
-              )}
-            </div>
-          )}
-
-          {(activeWeek?.days || []).map((day: any) => (
-            <DayCard key={day.dayNumber} day={day} trackId={currentTrackId} />
-          ))}
-
-          {(!activeWeek?.days || activeWeek.days.length === 0) && (
-            <div className="text-center py-12 text-stone-400">
-              <MapPin className="w-10 h-10 mx-auto mb-3 opacity-30" />
-              <p className="text-sm">No days found for this week.</p>
-            </div>
+      {/* Selected Week Header */}
+      {activeWeek && (
+        <div className="bg-stone-900 text-white p-4 rounded-2xl space-y-1 shadow-sm">
+          <div className="flex items-center gap-2">
+            <span className="text-[10px] font-black uppercase tracking-wider text-amber-400">
+              Week {activeWeek.weekNumber} Focus
+            </span>
+          </div>
+          <h3 className="text-base font-extrabold">{activeWeek.title}</h3>
+          {activeWeek.objective && (
+            <p className="text-xs text-stone-300 leading-relaxed">{activeWeek.objective}</p>
           )}
         </div>
+      )}
+
+      {/* Days List */}
+      <div className="space-y-3">
+        {(activeWeek?.days || []).map((day: any) => (
+          <DayCard key={day.dayNumber} day={day} trackId={currentTrackId} />
+        ))}
       </div>
     </div>
   );
