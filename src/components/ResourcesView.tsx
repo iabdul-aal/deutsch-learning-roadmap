@@ -201,7 +201,7 @@ const ResourceCard: React.FC<{
               className="flex items-center justify-center gap-2 w-full py-2 px-3 rounded-lg bg-stone-900 hover:bg-stone-700 text-white text-xs font-bold transition-all"
             >
               <ExternalLink className="w-3.5 h-3.5" />
-              {source.type === 'VIDEO' ? (source.resourceId.startsWith('PL') || source.resourceId.includes('playlist') ? 'Open Full Playlist on YouTube' : 'Open on YouTube') :
+              {source.type === 'VIDEO' ? 'Watch Video on YouTube' :
                source.type === 'PDF' ? 'Download PDF' : 'Open Resource'}
             </a>
           </div>

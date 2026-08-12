@@ -48,9 +48,9 @@ const VERIFIED_PLAYABLE_DECK = [
   'OFSHdj_2FQA', // Easy German Restaurant (200 OK)
   'RrfgbBp6ScI', // Learn German Anja (200 OK)
   'dr-dJ0a3Scs', // Deutsch mit Hend A2/B1 (200 OK)
-  'PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu', // Hend A1 Course Playlist (200 OK)
-  'PLs7zUO7VPyJ5DV1iBRgSw2uDl832n0bLg', // DW Nicos Weg Playlist (200 OK)
-  'PLk1fjOl39-50kWobutO8NVFzbw9PHtbbg', // Easy German A1 Playlist (200 OK)
+  'WMvCXVorOsg', // Hend A1 Course Playlist (200 OK)
+  '4-eDoThe6qo', // DW Nicos Weg Playlist (200 OK)
+  'r94aqLUO0wo', // Easy German A1 Playlist (200 OK)
 ];
 
 const TOPIC_VIDEO_MAP: Record<number, string> = {
@@ -60,9 +60,9 @@ const TOPIC_VIDEO_MAP: Record<number, string> = {
   4:  'OFSHdj_2FQA', // Easy German Restaurant
   5:  'RrfgbBp6ScI', // Learn German Anja
   6:  'dr-dJ0a3Scs', // Deutsch mit Hend A2/B1
-  7:  'PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu', // Hend A1 Playlist
-  8:  'PLs7zUO7VPyJ5DV1iBRgSw2uDl832n0bLg', // DW Nicos Weg Playlist
-  9:  'PLk1fjOl39-50kWobutO8NVFzbw9PHtbbg', // Easy German A1 Playlist
+  7:  'WMvCXVorOsg', // Hend A1 Playlist
+  8:  '4-eDoThe6qo', // DW Nicos Weg Playlist
+  9:  'r94aqLUO0wo', // Easy German A1 Playlist
 };
 
 // Fallback helper for days 1-56
@@ -157,7 +157,7 @@ const SpeakingDrillCard: React.FC<{ title: string }> = ({ title }) => {
 
 // ── Lesson Resource Attachment Card ────────────────────────────────
 const TaskResourceCard: React.FC<{ task: any }> = ({ task }) => {
-  const link = task.link || 'https://www.youtube.com/playlist?list=PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu';
+  const link = task.link || 'https://www.youtube.com/playlist?list=WMvCXVorOsg';
   return (
     <div className="mt-3 bg-stone-50 border border-stone-200 rounded-xl p-3 space-y-2">
       <p className="text-[11px] text-stone-600 font-bold uppercase tracking-wide">Lesson Attachment & Resource</p>
@@ -201,7 +201,7 @@ const TaskCard: React.FC<{
 
   // Determine which video to embed
   const embedVideoId = isVideo
-    ? (isFirstVideoTask ? (dayVideoId || 'WMvCXVorOsg') : (secondaryVideoId || 'PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu'))
+    ? (isFirstVideoTask ? (dayVideoId || 'WMvCXVorOsg') : (secondaryVideoId || 'WMvCXVorOsg'))
     : undefined;
 
   // EVERY task is expandable to show rich embedded content or attachments
@@ -314,7 +314,7 @@ const DayCard: React.FC<{ day: any; trackId: string }> = ({ day, trackId }) => {
   // Assign embedded videos: primary (first Watch task) + secondary (second Watch task)
   // Each day gets different video IDs - no repetition across days
   const primaryVideoId = getVerifiedDayVideoId(day.dayNumber);
-  const secondaryVideoId = 'PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu';
+  const secondaryVideoId = 'WMvCXVorOsg';
 
   let firstVideoSeen = false;
 
