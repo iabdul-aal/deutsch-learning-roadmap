@@ -1,1198 +1,3654 @@
 export const CURRICULUM_DATA_B1 = {
-  trackId: "german-b1-ar",
-  title: "56-Day German B1 Mastery Roadmap",
-  totalWeeks: 8,
-  totalDays: 56,
-  weeks: [
+  "trackId": "german-b1-ar",
+  "title": "56-Day German B1 Mastery Roadmap",
+  "totalWeeks": 8,
+  "totalDays": 56,
+  "weeks": [
     {
-      weekNumber: 1,
-      title: "Genitive Case (des/der + N-Deklination)",
-      objective: "Master the genitive case endings and N-declension nouns.",
-      summary: "Focus on expressing possession and learning weak nouns in German.",
-      days: [
+      "weekNumber": 1,
+      "title": "Week 1: Genitive Case & N-Declension Nouns",
+      "objective": "Master the genitive case endings, possessive structures, and N-declension weak nouns.",
+      "summary": "Learn formal German possession structures and weak masculine noun declension.",
+      "days": [
         {
-          dayNumber: 1,
-          weekNumber: 1,
-          title: "Day 1: Genitive Case (des/der + N-Deklination) Practice 1",
-          focusSkill: "Genitive Case (des/der + N-Deklination)",
-          objective: "Master Genitive Case (des/der + N-Deklination) - part 1",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 1,
+          "weekNumber": 1,
+          "title": "Genitive Case Articles & Suffixes (des/der/des/der & -es/-s)",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Genitive Case Articles & Suffixes (des/der/des/der & -es/-s) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Genitive Case Articles & Suffixes (des/der/des/der & -es/-s)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Genitive Case Articles & Suffixes (des/der/des/der & -es/-s)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Genitive Case Articles & Suffixes (des/der/des/der & -es/-s)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Genitive Case Articles & Suffixes (des/der/des/der & -es/-s)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Genitive Case Articles & Suffixes (des/der/des/der & -es/-s) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Genitive Case Articles & Suffixes (des/der/des/der & -es/-s)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Genitive Case Articles & Suffixes (des/der/des/der & -es/-s)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 2,
-          weekNumber: 1,
-          title: "Day 2: Genitive Case (des/der + N-Deklination) Practice 2",
-          focusSkill: "Genitive Case (des/der + N-Deklination)",
-          objective: "Master Genitive Case (des/der + N-Deklination) - part 2",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 2,
+          "weekNumber": 1,
+          "title": "Genitive-Only Prepositions (wegen, während, trotz, statt)",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Genitive-Only Prepositions (wegen, während, trotz, statt) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Genitive-Only Prepositions (wegen, während, trotz, statt)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Genitive-Only Prepositions (wegen, während, trotz, statt)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Genitive-Only Prepositions (wegen, während, trotz, statt)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Genitive-Only Prepositions (wegen, während, trotz, statt)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Genitive-Only Prepositions (wegen, während, trotz, statt) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Genitive-Only Prepositions (wegen, während, trotz, statt)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Genitive-Only Prepositions (wegen, während, trotz, statt)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 3,
-          weekNumber: 1,
-          title: "Day 3: Genitive Case (des/der + N-Deklination) Practice 3",
-          focusSkill: "Genitive Case (des/der + N-Deklination)",
-          objective: "Master Genitive Case (des/der + N-Deklination) - part 3",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://de.langenscheidt.com/deutsch-arabisch/" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 3,
+          "weekNumber": 1,
+          "title": "N-Declension Weak Nouns (der Student/des Studenten, der Herr)",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master N-Declension Weak Nouns (der Student/des Studenten, der Herr) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: N-Declension Weak Nouns (der Student/des Studenten, der Herr)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: N-Declension Weak Nouns (der Student/des Studenten, der Herr)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: N-Declension Weak Nouns (der Student/des Studenten, der Herr)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: N-Declension Weak Nouns (der Student/des Studenten, der Herr)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: N-Declension Weak Nouns (der Student/des Studenten, der Herr) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://ankiweb.net/shared/info/2047595496" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using N-Declension Weak Nouns (der Student/des Studenten, der Herr)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: N-Declension Weak Nouns (der Student/des Studenten, der Herr)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 4,
-          weekNumber: 1,
-          title: "Day 4: Genitive Case (des/der + N-Deklination) Practice 4",
-          focusSkill: "Genitive Case (des/der + N-Deklination)",
-          objective: "Master Genitive Case (des/der + N-Deklination) - part 4",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 4,
+          "weekNumber": 1,
+          "title": "Expressing Possession in Formal & Academic Writing",
+          "focusSkill": "Writing Practice",
+          "objective": "Master Expressing Possession in Formal & Academic Writing for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Expressing Possession in Formal & Academic Writing",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Expressing Possession in Formal & Academic Writing",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Expressing Possession in Formal & Academic Writing",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Expressing Possession in Formal & Academic Writing",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Expressing Possession in Formal & Academic Writing Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Expressing Possession in Formal & Academic Writing",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Expressing Possession in Formal & Academic Writing",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 5,
-          weekNumber: 1,
-          title: "Day 5: Genitive Case (des/der + N-Deklination) Practice 5",
-          focusSkill: "Genitive Case (des/der + N-Deklination)",
-          objective: "Master Genitive Case (des/der + N-Deklination) - part 5",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 5,
+          "weekNumber": 1,
+          "title": "Genitive Case in German News Articles & Literature",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Genitive Case in German News Articles & Literature for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Genitive Case in German News Articles & Literature",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Genitive Case in German News Articles & Literature",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Genitive Case in German News Articles & Literature",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Genitive Case in German News Articles & Literature",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Genitive Case in German News Articles & Literature Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Genitive Case in German News Articles & Literature",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Genitive Case in German News Articles & Literature",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 6,
-          weekNumber: 1,
-          title: "Day 6: Genitive Case (des/der + N-Deklination) Practice 6",
-          focusSkill: "Genitive Case (des/der + N-Deklination)",
-          objective: "Master Genitive Case (des/der + N-Deklination) - part 6",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 6,
+          "weekNumber": 1,
+          "title": "Genitive vs Dative ('von' + Dative in Spoken German)",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Genitive vs Dative ('von' + Dative in Spoken German) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Genitive vs Dative ('von' + Dative in Spoken German)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Genitive vs Dative ('von' + Dative in Spoken German)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Genitive vs Dative ('von' + Dative in Spoken German)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Genitive vs Dative ('von' + Dative in Spoken German)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Genitive vs Dative ('von' + Dative in Spoken German) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Genitive vs Dative ('von' + Dative in Spoken German)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Genitive vs Dative ('von' + Dative in Spoken German)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 7,
-          weekNumber: 1,
-          title: "Day 7: Revision and Mock Assessment",
-          focusSkill: "Revision",
-          objective: "Assess progress",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
-            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 7,
+          "weekNumber": 1,
+          "title": "Week 1 Review & Genitive Case Mastery Sprint",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Week 1 Review & Genitive Case Mastery Sprint for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Week 1 Review & Genitive Case Mastery Sprint",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Week 1 Review & Genitive Case Mastery Sprint",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Week 1 Review & Genitive Case Mastery Sprint",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Week 1 Review & Genitive Case Mastery Sprint",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Week 1 Review & Genitive Case Mastery Sprint Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Week 1 Review & Genitive Case Mastery Sprint",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Week 1 Review & Genitive Case Mastery Sprint",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         }
       ]
     },
     {
-      weekNumber: 2,
-      title: "Relative Clauses (Relativsätze)",
-      objective: "Form relative clauses in all cases (Nominative, Accusative, Dative).",
-      summary: "Learn to connect sentences and provide additional information using relative pronouns.",
-      days: [
+      "weekNumber": 2,
+      "title": "Week 2: Relative Clauses (Relativsätze) Across All Cases",
+      "objective": "Build complex relative clauses using Nominativ, Akkusativ, Dativ, Genitiv, and Prepositions.",
+      "summary": "Master German relative pronouns and clause positioning for fluent descriptions.",
+      "days": [
         {
-          dayNumber: 8,
-          weekNumber: 2,
-          title: "Day 8: Relative Clauses (Relativsätze) Practice 1",
-          focusSkill: "Relative Clauses (Relativsätze)",
-          objective: "Master Relative Clauses (Relativsätze) - part 1",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 8,
+          "weekNumber": 2,
+          "title": "Relative Clauses in Nominative (der Mann, der... / die Frau, die...)",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Relative Clauses in Nominative (der Mann, der... / die Frau, die...) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Relative Clauses in Nominative (der Mann, der... / die Frau, die...)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Relative Clauses in Nominative (der Mann, der... / die Frau, die...)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Relative Clauses in Nominative (der Mann, der... / die Frau, die...)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Relative Clauses in Nominative (der Mann, der... / die Frau, die...)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Relative Clauses in Nominative (der Mann, der... / die Frau, die...) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Relative Clauses in Nominative (der Mann, der... / die Frau, die...)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Relative Clauses in Nominative (der Mann, der... / die Frau, die...)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 9,
-          weekNumber: 2,
-          title: "Day 9: Relative Clauses (Relativsätze) Practice 2",
-          focusSkill: "Relative Clauses (Relativsätze)",
-          objective: "Master Relative Clauses (Relativsätze) - part 2",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 9,
+          "weekNumber": 2,
+          "title": "Relative Clauses in Accusative (der Stuhl, den ich kaufe...)",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Relative Clauses in Accusative (der Stuhl, den ich kaufe...) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Relative Clauses in Accusative (der Stuhl, den ich kaufe...)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Relative Clauses in Accusative (der Stuhl, den ich kaufe...)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Relative Clauses in Accusative (der Stuhl, den ich kaufe...)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Relative Clauses in Accusative (der Stuhl, den ich kaufe...)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Relative Clauses in Accusative (der Stuhl, den ich kaufe...) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Relative Clauses in Accusative (der Stuhl, den ich kaufe...)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Relative Clauses in Accusative (der Stuhl, den ich kaufe...)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 10,
-          weekNumber: 2,
-          title: "Day 10: Relative Clauses (Relativsätze) Practice 3",
-          focusSkill: "Relative Clauses (Relativsätze)",
-          objective: "Master Relative Clauses (Relativsätze) - part 3",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 10,
+          "weekNumber": 2,
+          "title": "Relative Clauses in Dative (der Kollege, dem ich helfe...)",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Relative Clauses in Dative (der Kollege, dem ich helfe...) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Relative Clauses in Dative (der Kollege, dem ich helfe...)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Relative Clauses in Dative (der Kollege, dem ich helfe...)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Relative Clauses in Dative (der Kollege, dem ich helfe...)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Relative Clauses in Dative (der Kollege, dem ich helfe...)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Relative Clauses in Dative (der Kollege, dem ich helfe...) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Relative Clauses in Dative (der Kollege, dem ich helfe...)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Relative Clauses in Dative (der Kollege, dem ich helfe...)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 11,
-          weekNumber: 2,
-          title: "Day 11: Relative Clauses (Relativsätze) Practice 4",
-          focusSkill: "Relative Clauses (Relativsätze)",
-          objective: "Master Relative Clauses (Relativsätze) - part 4",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 11,
+          "weekNumber": 2,
+          "title": "Relative Clauses in Genitive (der Autor, dessen Buch...)",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Relative Clauses in Genitive (der Autor, dessen Buch...) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Relative Clauses in Genitive (der Autor, dessen Buch...)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Relative Clauses in Genitive (der Autor, dessen Buch...)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Relative Clauses in Genitive (der Autor, dessen Buch...)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Relative Clauses in Genitive (der Autor, dessen Buch...)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Relative Clauses in Genitive (der Autor, dessen Buch...) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Relative Clauses in Genitive (der Autor, dessen Buch...)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Relative Clauses in Genitive (der Autor, dessen Buch...)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 12,
-          weekNumber: 2,
-          title: "Day 12: Relative Clauses (Relativsätze) Practice 5",
-          focusSkill: "Relative Clauses (Relativsätze)",
-          objective: "Master Relative Clauses (Relativsätze) - part 5",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 12,
+          "weekNumber": 2,
+          "title": "Relative Clauses with Prepositions (das Haus, in dem ich wohne...)",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Relative Clauses with Prepositions (das Haus, in dem ich wohne...) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Relative Clauses with Prepositions (das Haus, in dem ich wohne...)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Relative Clauses with Prepositions (das Haus, in dem ich wohne...)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Relative Clauses with Prepositions (das Haus, in dem ich wohne...)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Relative Clauses with Prepositions (das Haus, in dem ich wohne...)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Relative Clauses with Prepositions (das Haus, in dem ich wohne...) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://de.langenscheidt.com/deutsch-arabisch/" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Relative Clauses with Prepositions (das Haus, in dem ich wohne...)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Relative Clauses with Prepositions (das Haus, in dem ich wohne...)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 13,
-          weekNumber: 2,
-          title: "Day 13: Relative Clauses (Relativsätze) Practice 6",
-          focusSkill: "Relative Clauses (Relativsätze)",
-          objective: "Master Relative Clauses (Relativsätze) - part 6",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 13,
+          "weekNumber": 2,
+          "title": "Relative Clauses with Indefinite Pronouns (alles, was... / etwas, das...)",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Relative Clauses with Indefinite Pronouns (alles, was... / etwas, das...) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Relative Clauses with Indefinite Pronouns (alles, was... / etwas, das...)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Relative Clauses with Indefinite Pronouns (alles, was... / etwas, das...)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Relative Clauses with Indefinite Pronouns (alles, was... / etwas, das...)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Relative Clauses with Indefinite Pronouns (alles, was... / etwas, das...)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Relative Clauses with Indefinite Pronouns (alles, was... / etwas, das...) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Relative Clauses with Indefinite Pronouns (alles, was... / etwas, das...)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Relative Clauses with Indefinite Pronouns (alles, was... / etwas, das...)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 14,
-          weekNumber: 2,
-          title: "Day 14: Revision and Mock Assessment",
-          focusSkill: "Revision",
-          objective: "Assess progress",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
-            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 14,
+          "weekNumber": 2,
+          "title": "Week 2 Review & Relative Clauses Mastery Sprint",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Week 2 Review & Relative Clauses Mastery Sprint for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Week 2 Review & Relative Clauses Mastery Sprint",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Week 2 Review & Relative Clauses Mastery Sprint",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Week 2 Review & Relative Clauses Mastery Sprint",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Week 2 Review & Relative Clauses Mastery Sprint",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Week 2 Review & Relative Clauses Mastery Sprint Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Week 2 Review & Relative Clauses Mastery Sprint",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Week 2 Review & Relative Clauses Mastery Sprint",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         }
       ]
     },
     {
-      weekNumber: 3,
-      title: "Partizip I and II as Adjectives + Participial Phrases",
-      objective: "Use participles as adjectives to create concise sentences.",
-      summary: "Master the transformation of relative clauses into participial constructions.",
-      days: [
+      "weekNumber": 3,
+      "title": "Week 3: Passive Voice (Passiv Präsens, Präteritum & Modal)",
+      "objective": "Master process passive, state passive, and modal verb passive structures.",
+      "summary": "Learn to describe processes, actions, and official procedures without specifying the agent.",
+      "days": [
         {
-          dayNumber: 15,
-          weekNumber: 3,
-          title: "Day 15: Partizip I and II as Adjectives + Participial Phrases Practice 1",
-          focusSkill: "Partizip I and II as Adjectives + Participial Phrases",
-          objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 1",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 15,
+          "weekNumber": 3,
+          "title": "Passive Voice Present Tense (werden + Partizip II)",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Passive Voice Present Tense (werden + Partizip II) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Passive Voice Present Tense (werden + Partizip II)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Passive Voice Present Tense (werden + Partizip II)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Passive Voice Present Tense (werden + Partizip II)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Passive Voice Present Tense (werden + Partizip II)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Passive Voice Present Tense (werden + Partizip II) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://de.langenscheidt.com/deutsch-arabisch/" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Passive Voice Present Tense (werden + Partizip II)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Passive Voice Present Tense (werden + Partizip II)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 16,
-          weekNumber: 3,
-          title: "Day 16: Partizip I and II as Adjectives + Participial Phrases Practice 2",
-          focusSkill: "Partizip I and II as Adjectives + Participial Phrases",
-          objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 2",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 16,
+          "weekNumber": 3,
+          "title": "Passive Voice Past Tense (wurde + Partizip II)",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Passive Voice Past Tense (wurde + Partizip II) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Passive Voice Past Tense (wurde + Partizip II)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Passive Voice Past Tense (wurde + Partizip II)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Passive Voice Past Tense (wurde + Partizip II)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Passive Voice Past Tense (wurde + Partizip II)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Passive Voice Past Tense (wurde + Partizip II) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Passive Voice Past Tense (wurde + Partizip II)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Passive Voice Past Tense (wurde + Partizip II)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 17,
-          weekNumber: 3,
-          title: "Day 17: Partizip I and II as Adjectives + Participial Phrases Practice 3",
-          focusSkill: "Partizip I and II as Adjectives + Participial Phrases",
-          objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 3",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 17,
+          "weekNumber": 3,
+          "title": "Passive Voice with Modal Verbs (muss gemacht werden / kann gelöst werden)",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Passive Voice with Modal Verbs (muss gemacht werden / kann gelöst werden) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Passive Voice with Modal Verbs (muss gemacht werden / kann gelöst werden)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Passive Voice with Modal Verbs (muss gemacht werden / kann gelöst werden)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Passive Voice with Modal Verbs (muss gemacht werden / kann gelöst werden)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Passive Voice with Modal Verbs (muss gemacht werden / kann gelöst werden)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Passive Voice with Modal Verbs (muss gemacht werden / kann gelöst werden) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Passive Voice with Modal Verbs (muss gemacht werden / kann gelöst werden)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Passive Voice with Modal Verbs (muss gemacht werden / kann gelöst werden)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 18,
-          weekNumber: 3,
-          title: "Day 18: Partizip I and II as Adjectives + Participial Phrases Practice 4",
-          focusSkill: "Partizip I and II as Adjectives + Participial Phrases",
-          objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 4",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://lingua.com/german/reading/" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 18,
+          "weekNumber": 3,
+          "title": "Agent vs Instrument in Passive (von + Dativ vs durch + Akkusativ)",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Agent vs Instrument in Passive (von + Dativ vs durch + Akkusativ) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Agent vs Instrument in Passive (von + Dativ vs durch + Akkusativ)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Agent vs Instrument in Passive (von + Dativ vs durch + Akkusativ)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Agent vs Instrument in Passive (von + Dativ vs durch + Akkusativ)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Agent vs Instrument in Passive (von + Dativ vs durch + Akkusativ)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Agent vs Instrument in Passive (von + Dativ vs durch + Akkusativ) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://en.pons.com/translate/german-arabic" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://de.langenscheidt.com/deutsch-arabisch/" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Agent vs Instrument in Passive (von + Dativ vs durch + Akkusativ)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Agent vs Instrument in Passive (von + Dativ vs durch + Akkusativ)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 19,
-          weekNumber: 3,
-          title: "Day 19: Partizip I and II as Adjectives + Participial Phrases Practice 5",
-          focusSkill: "Partizip I and II as Adjectives + Participial Phrases",
-          objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 5",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 19,
+          "weekNumber": 3,
+          "title": "Impersonal Passive Structures (Es wird getanzt / Hier wird gearbeitet)",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Impersonal Passive Structures (Es wird getanzt / Hier wird gearbeitet) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Impersonal Passive Structures (Es wird getanzt / Hier wird gearbeitet)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Impersonal Passive Structures (Es wird getanzt / Hier wird gearbeitet)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Impersonal Passive Structures (Es wird getanzt / Hier wird gearbeitet)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Impersonal Passive Structures (Es wird getanzt / Hier wird gearbeitet)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Impersonal Passive Structures (Es wird getanzt / Hier wird gearbeitet) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Impersonal Passive Structures (Es wird getanzt / Hier wird gearbeitet)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Impersonal Passive Structures (Es wird getanzt / Hier wird gearbeitet)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 20,
-          weekNumber: 3,
-          title: "Day 20: Partizip I and II as Adjectives + Participial Phrases Practice 6",
-          focusSkill: "Partizip I and II as Adjectives + Participial Phrases",
-          objective: "Master Partizip I and II as Adjectives + Participial Phrases - part 6",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 20,
+          "weekNumber": 3,
+          "title": "Process Passive (Vorgangspassiv) vs State Passive (Zustandspassiv)",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Process Passive (Vorgangspassiv) vs State Passive (Zustandspassiv) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Process Passive (Vorgangspassiv) vs State Passive (Zustandspassiv)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Process Passive (Vorgangspassiv) vs State Passive (Zustandspassiv)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Process Passive (Vorgangspassiv) vs State Passive (Zustandspassiv)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Process Passive (Vorgangspassiv) vs State Passive (Zustandspassiv)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Process Passive (Vorgangspassiv) vs State Passive (Zustandspassiv) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Process Passive (Vorgangspassiv) vs State Passive (Zustandspassiv)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Process Passive (Vorgangspassiv) vs State Passive (Zustandspassiv)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 21,
-          weekNumber: 3,
-          title: "Day 21: Revision and Mock Assessment",
-          focusSkill: "Revision",
-          objective: "Assess progress",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
-            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 21,
+          "weekNumber": 3,
+          "title": "Week 3 Review & Passive Voice Mastery Sprint",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Week 3 Review & Passive Voice Mastery Sprint for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Week 3 Review & Passive Voice Mastery Sprint",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Week 3 Review & Passive Voice Mastery Sprint",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Week 3 Review & Passive Voice Mastery Sprint",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Week 3 Review & Passive Voice Mastery Sprint",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Week 3 Review & Passive Voice Mastery Sprint Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://en.pons.com/translate/german-arabic" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://de.langenscheidt.com/deutsch-arabisch/" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Week 3 Review & Passive Voice Mastery Sprint",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Week 3 Review & Passive Voice Mastery Sprint",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         }
       ]
     },
     {
-      weekNumber: 4,
-      title: "Reported Speech (Konjunktiv I) + Indirect Questions",
-      objective: "Report what others have said using Konjunktiv I and form indirect questions.",
-      summary: "Essential skills for reading news and reporting information formally.",
-      days: [
+      "weekNumber": 4,
+      "title": "Week 4: Infinitive Clauses (zu + Infinitiv, um...zu, ohne...zu)",
+      "objective": "Master infinitive clauses and complex sentence connectors.",
+      "summary": "Express goals, conditions, and substitutes using zu + Infinitive structures.",
+      "days": [
         {
-          dayNumber: 22,
-          weekNumber: 4,
-          title: "Day 22: Reported Speech (Konjunktiv I) + Indirect Questions Practice 1",
-          focusSkill: "Reported Speech (Konjunktiv I) + Indirect Questions",
-          objective: "Master Reported Speech (Konjunktiv I) + Indirect Questions - part 1",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 22,
+          "weekNumber": 4,
+          "title": "Infinitive Clauses with 'zu' (Es ist wichtig, Deutsch zu lernen)",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Infinitive Clauses with 'zu' (Es ist wichtig, Deutsch zu lernen) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Infinitive Clauses with 'zu' (Es ist wichtig, Deutsch zu lernen)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Infinitive Clauses with 'zu' (Es ist wichtig, Deutsch zu lernen)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Infinitive Clauses with 'zu' (Es ist wichtig, Deutsch zu lernen)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Infinitive Clauses with 'zu' (Es ist wichtig, Deutsch zu lernen)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Infinitive Clauses with 'zu' (Es ist wichtig, Deutsch zu lernen) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Infinitive Clauses with 'zu' (Es ist wichtig, Deutsch zu lernen)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Infinitive Clauses with 'zu' (Es ist wichtig, Deutsch zu lernen)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 23,
-          weekNumber: 4,
-          title: "Day 23: Reported Speech (Konjunktiv I) + Indirect Questions Practice 2",
-          focusSkill: "Reported Speech (Konjunktiv I) + Indirect Questions",
-          objective: "Master Reported Speech (Konjunktiv I) + Indirect Questions - part 2",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 23,
+          "weekNumber": 4,
+          "title": "Verbs Requiring 'zu' + Infinitive (vorhaben, versuchen, beschließen)",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Verbs Requiring 'zu' + Infinitive (vorhaben, versuchen, beschließen) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Verbs Requiring 'zu' + Infinitive (vorhaben, versuchen, beschließen)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Verbs Requiring 'zu' + Infinitive (vorhaben, versuchen, beschließen)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Verbs Requiring 'zu' + Infinitive (vorhaben, versuchen, beschließen)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Verbs Requiring 'zu' + Infinitive (vorhaben, versuchen, beschließen)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Verbs Requiring 'zu' + Infinitive (vorhaben, versuchen, beschließen) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Verbs Requiring 'zu' + Infinitive (vorhaben, versuchen, beschließen)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Verbs Requiring 'zu' + Infinitive (vorhaben, versuchen, beschließen)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 24,
-          weekNumber: 4,
-          title: "Day 24: Reported Speech (Konjunktiv I) + Indirect Questions Practice 3",
-          focusSkill: "Reported Speech (Konjunktiv I) + Indirect Questions",
-          objective: "Master Reported Speech (Konjunktiv I) + Indirect Questions - part 3",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 24,
+          "weekNumber": 4,
+          "title": "Purpose Clauses: 'um...zu' vs 'damit' (Same vs Different Subjects)",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master Purpose Clauses: 'um...zu' vs 'damit' (Same vs Different Subjects) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Purpose Clauses: 'um...zu' vs 'damit' (Same vs Different Subjects)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Purpose Clauses: 'um...zu' vs 'damit' (Same vs Different Subjects)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Purpose Clauses: 'um...zu' vs 'damit' (Same vs Different Subjects)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Purpose Clauses: 'um...zu' vs 'damit' (Same vs Different Subjects)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Purpose Clauses: 'um...zu' vs 'damit' (Same vs Different Subjects) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://en.pons.com/translate/german-arabic" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://de.langenscheidt.com/deutsch-arabisch/" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Purpose Clauses: 'um...zu' vs 'damit' (Same vs Different Subjects)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Purpose Clauses: 'um...zu' vs 'damit' (Same vs Different Subjects)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 25,
-          weekNumber: 4,
-          title: "Day 25: Reported Speech (Konjunktiv I) + Indirect Questions Practice 4",
-          focusSkill: "Reported Speech (Konjunktiv I) + Indirect Questions",
-          objective: "Master Reported Speech (Konjunktiv I) + Indirect Questions - part 4",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 25,
+          "weekNumber": 4,
+          "title": "Negative Infinitive Clauses with 'ohne...zu' (without doing)",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Negative Infinitive Clauses with 'ohne...zu' (without doing) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Negative Infinitive Clauses with 'ohne...zu' (without doing)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Negative Infinitive Clauses with 'ohne...zu' (without doing)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Negative Infinitive Clauses with 'ohne...zu' (without doing)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Negative Infinitive Clauses with 'ohne...zu' (without doing)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Negative Infinitive Clauses with 'ohne...zu' (without doing) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Negative Infinitive Clauses with 'ohne...zu' (without doing)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Negative Infinitive Clauses with 'ohne...zu' (without doing)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 26,
-          weekNumber: 4,
-          title: "Day 26: Reported Speech (Konjunktiv I) + Indirect Questions Practice 5",
-          focusSkill: "Reported Speech (Konjunktiv I) + Indirect Questions",
-          objective: "Master Reported Speech (Konjunktiv I) + Indirect Questions - part 5",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 26,
+          "weekNumber": 4,
+          "title": "Substitute Clauses with 'statt...zu' (instead of doing)",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master Substitute Clauses with 'statt...zu' (instead of doing) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Substitute Clauses with 'statt...zu' (instead of doing)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Substitute Clauses with 'statt...zu' (instead of doing)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Substitute Clauses with 'statt...zu' (instead of doing)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Substitute Clauses with 'statt...zu' (instead of doing)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Substitute Clauses with 'statt...zu' (instead of doing) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Substitute Clauses with 'statt...zu' (instead of doing)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Substitute Clauses with 'statt...zu' (instead of doing)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 27,
-          weekNumber: 4,
-          title: "Day 27: Reported Speech (Konjunktiv I) + Indirect Questions Practice 6",
-          focusSkill: "Reported Speech (Konjunktiv I) + Indirect Questions",
-          objective: "Master Reported Speech (Konjunktiv I) + Indirect Questions - part 6",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 27,
+          "weekNumber": 4,
+          "title": "Combining Infinitive Clauses in Essays & Formal Letters",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Combining Infinitive Clauses in Essays & Formal Letters for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Combining Infinitive Clauses in Essays & Formal Letters",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Combining Infinitive Clauses in Essays & Formal Letters",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Combining Infinitive Clauses in Essays & Formal Letters",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Combining Infinitive Clauses in Essays & Formal Letters",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Combining Infinitive Clauses in Essays & Formal Letters Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://lingua.com/german/reading/" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Combining Infinitive Clauses in Essays & Formal Letters",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Combining Infinitive Clauses in Essays & Formal Letters",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 28,
-          weekNumber: 4,
-          title: "Day 28: Revision and Mock Assessment",
-          focusSkill: "Revision",
-          objective: "Assess progress",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
-            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 28,
+          "weekNumber": 4,
+          "title": "Week 4 Review & Infinitive Structures Mastery Sprint",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Week 4 Review & Infinitive Structures Mastery Sprint for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Week 4 Review & Infinitive Structures Mastery Sprint",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Week 4 Review & Infinitive Structures Mastery Sprint",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Week 4 Review & Infinitive Structures Mastery Sprint",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Week 4 Review & Infinitive Structures Mastery Sprint",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Week 4 Review & Infinitive Structures Mastery Sprint Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Week 4 Review & Infinitive Structures Mastery Sprint",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Week 4 Review & Infinitive Structures Mastery Sprint",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         }
       ]
     },
     {
-      weekNumber: 5,
-      title: "Complex Connectors",
-      objective: "Use two-part connectors to build complex sentences.",
-      summary: "Learn connectors like nicht nur...sondern auch, sowohl...als auch, weder...noch.",
-      days: [
+      "weekNumber": 5,
+      "title": "Week 5: Two-Part Conjunctions (Doppelkonjunktionen)",
+      "objective": "Connect ideas elegantly using two-part conjunctions.",
+      "summary": "Master complex logical connections: je...desto, sowohl...als auch, weder...noch, etc.",
+      "days": [
         {
-          dayNumber: 29,
-          weekNumber: 5,
-          title: "Day 29: Complex Connectors Practice 1",
-          focusSkill: "Complex Connectors",
-          objective: "Master Complex Connectors - part 1",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 29,
+          "weekNumber": 5,
+          "title": "Proportional Clauses: 'je...desto / umso' (Double Comparative)",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master Proportional Clauses: 'je...desto / umso' (Double Comparative) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Proportional Clauses: 'je...desto / umso' (Double Comparative)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Proportional Clauses: 'je...desto / umso' (Double Comparative)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Proportional Clauses: 'je...desto / umso' (Double Comparative)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Proportional Clauses: 'je...desto / umso' (Double Comparative)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Proportional Clauses: 'je...desto / umso' (Double Comparative) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Proportional Clauses: 'je...desto / umso' (Double Comparative)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Proportional Clauses: 'je...desto / umso' (Double Comparative)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 30,
-          weekNumber: 5,
-          title: "Day 30: Complex Connectors Practice 2",
-          focusSkill: "Complex Connectors",
-          objective: "Master Complex Connectors - part 2",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 30,
+          "weekNumber": 5,
+          "title": "Addition & Negation: 'sowohl...als auch' vs 'weder...noch'",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master Addition & Negation: 'sowohl...als auch' vs 'weder...noch' for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Addition & Negation: 'sowohl...als auch' vs 'weder...noch'",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Addition & Negation: 'sowohl...als auch' vs 'weder...noch'",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Addition & Negation: 'sowohl...als auch' vs 'weder...noch'",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Addition & Negation: 'sowohl...als auch' vs 'weder...noch'",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Addition & Negation: 'sowohl...als auch' vs 'weder...noch' Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://lingua.com/german/reading/" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Addition & Negation: 'sowohl...als auch' vs 'weder...noch'",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Addition & Negation: 'sowohl...als auch' vs 'weder...noch'",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 31,
-          weekNumber: 5,
-          title: "Day 31: Complex Connectors Practice 3",
-          focusSkill: "Complex Connectors",
-          objective: "Master Complex Connectors - part 3",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 31,
+          "weekNumber": 5,
+          "title": "Alternatives & Contrast: 'entweder...oder' vs 'zwar...aber'",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master Alternatives & Contrast: 'entweder...oder' vs 'zwar...aber' for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Alternatives & Contrast: 'entweder...oder' vs 'zwar...aber'",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Alternatives & Contrast: 'entweder...oder' vs 'zwar...aber'",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Alternatives & Contrast: 'entweder...oder' vs 'zwar...aber'",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Alternatives & Contrast: 'entweder...oder' vs 'zwar...aber'",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Alternatives & Contrast: 'entweder...oder' vs 'zwar...aber' Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Alternatives & Contrast: 'entweder...oder' vs 'zwar...aber'",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Alternatives & Contrast: 'entweder...oder' vs 'zwar...aber'",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 32,
-          weekNumber: 5,
-          title: "Day 32: Complex Connectors Practice 4",
-          focusSkill: "Complex Connectors",
-          objective: "Master Complex Connectors - part 4",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 32,
+          "weekNumber": 5,
+          "title": "Emphasis Conjunctions: 'nicht nur...sondern auch'",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master Emphasis Conjunctions: 'nicht nur...sondern auch' for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Emphasis Conjunctions: 'nicht nur...sondern auch'",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Emphasis Conjunctions: 'nicht nur...sondern auch'",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Emphasis Conjunctions: 'nicht nur...sondern auch'",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Emphasis Conjunctions: 'nicht nur...sondern auch'",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Emphasis Conjunctions: 'nicht nur...sondern auch' Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Emphasis Conjunctions: 'nicht nur...sondern auch'",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Emphasis Conjunctions: 'nicht nur...sondern auch'",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 33,
-          weekNumber: 5,
-          title: "Day 33: Complex Connectors Practice 5",
-          focusSkill: "Complex Connectors",
-          objective: "Master Complex Connectors - part 5",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 33,
+          "weekNumber": 5,
+          "title": "Modal Subordinate Clauses with 'indem' & 'dadurch, dass'",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master Modal Subordinate Clauses with 'indem' & 'dadurch, dass' for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Modal Subordinate Clauses with 'indem' & 'dadurch, dass'",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Modal Subordinate Clauses with 'indem' & 'dadurch, dass'",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Modal Subordinate Clauses with 'indem' & 'dadurch, dass'",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Modal Subordinate Clauses with 'indem' & 'dadurch, dass'",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Modal Subordinate Clauses with 'indem' & 'dadurch, dass' Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://lingua.com/german/reading/" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Modal Subordinate Clauses with 'indem' & 'dadurch, dass'",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Modal Subordinate Clauses with 'indem' & 'dadurch, dass'",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 34,
-          weekNumber: 5,
-          title: "Day 34: Complex Connectors Practice 6",
-          focusSkill: "Complex Connectors",
-          objective: "Master Complex Connectors - part 6",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 34,
+          "weekNumber": 5,
+          "title": "Consecutive Subordinate Clauses with 'sodass' / 'so..., dass'",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master Consecutive Subordinate Clauses with 'sodass' / 'so..., dass' for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Consecutive Subordinate Clauses with 'sodass' / 'so..., dass'",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Consecutive Subordinate Clauses with 'sodass' / 'so..., dass'",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Consecutive Subordinate Clauses with 'sodass' / 'so..., dass'",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Consecutive Subordinate Clauses with 'sodass' / 'so..., dass'",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Consecutive Subordinate Clauses with 'sodass' / 'so..., dass' Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Consecutive Subordinate Clauses with 'sodass' / 'so..., dass'",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Consecutive Subordinate Clauses with 'sodass' / 'so..., dass'",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 35,
-          weekNumber: 5,
-          title: "Day 35: Revision and Mock Assessment",
-          focusSkill: "Revision",
-          objective: "Assess progress",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
-            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 35,
+          "weekNumber": 5,
+          "title": "Week 5 Review & Two-Part Conjunctions Mastery Sprint",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master Week 5 Review & Two-Part Conjunctions Mastery Sprint for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Week 5 Review & Two-Part Conjunctions Mastery Sprint",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Week 5 Review & Two-Part Conjunctions Mastery Sprint",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Week 5 Review & Two-Part Conjunctions Mastery Sprint",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Week 5 Review & Two-Part Conjunctions Mastery Sprint",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Week 5 Review & Two-Part Conjunctions Mastery Sprint Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Week 5 Review & Two-Part Conjunctions Mastery Sprint",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Week 5 Review & Two-Part Conjunctions Mastery Sprint",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         }
       ]
     },
     {
-      weekNumber: 6,
-      title: "Advanced Prepositions",
-      objective: "Master prepositions taking the genitive case.",
-      summary: "Focus on wegen, trotz, während, anstatt and their correct usage.",
-      days: [
+      "weekNumber": 6,
+      "title": "Week 6: Participle Attributes & Advanced Subordinate Clauses",
+      "objective": "Use extended participles and master advanced B1 conjunctions.",
+      "summary": "Learn to read and write advanced German academic & news texts.",
+      "days": [
         {
-          dayNumber: 36,
-          weekNumber: 6,
-          title: "Day 36: Advanced Prepositions Practice 1",
-          focusSkill: "Advanced Prepositions",
-          objective: "Master Advanced Prepositions - part 1",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 36,
+          "weekNumber": 6,
+          "title": "Present Participle as Adjective (Partizip I: das lachende Kind)",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master Present Participle as Adjective (Partizip I: das lachende Kind) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Present Participle as Adjective (Partizip I: das lachende Kind)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Present Participle as Adjective (Partizip I: das lachende Kind)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Present Participle as Adjective (Partizip I: das lachende Kind)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Present Participle as Adjective (Partizip I: das lachende Kind)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Present Participle as Adjective (Partizip I: das lachende Kind) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://lingua.com/german/reading/" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Present Participle as Adjective (Partizip I: das lachende Kind)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Present Participle as Adjective (Partizip I: das lachende Kind)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 37,
-          weekNumber: 6,
-          title: "Day 37: Advanced Prepositions Practice 2",
-          focusSkill: "Advanced Prepositions",
-          objective: "Master Advanced Prepositions - part 2",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 37,
+          "weekNumber": 6,
+          "title": "Past Participle as Adjective (Partizip II: das geschriebene Buch)",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master Past Participle as Adjective (Partizip II: das geschriebene Buch) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Past Participle as Adjective (Partizip II: das geschriebene Buch)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Past Participle as Adjective (Partizip II: das geschriebene Buch)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Past Participle as Adjective (Partizip II: das geschriebene Buch)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Past Participle as Adjective (Partizip II: das geschriebene Buch)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Past Participle as Adjective (Partizip II: das geschriebene Buch) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Past Participle as Adjective (Partizip II: das geschriebene Buch)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Past Participle as Adjective (Partizip II: das geschriebene Buch)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 38,
-          weekNumber: 6,
-          title: "Day 38: Advanced Prepositions Practice 3",
-          focusSkill: "Advanced Prepositions",
-          objective: "Master Advanced Prepositions - part 3",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 38,
+          "weekNumber": 6,
+          "title": "Temporal Conjunctions: als vs wenn, seitdem, bis, solange",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master Temporal Conjunctions: als vs wenn, seitdem, bis, solange for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Temporal Conjunctions: als vs wenn, seitdem, bis, solange",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Temporal Conjunctions: als vs wenn, seitdem, bis, solange",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Temporal Conjunctions: als vs wenn, seitdem, bis, solange",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Temporal Conjunctions: als vs wenn, seitdem, bis, solange",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Temporal Conjunctions: als vs wenn, seitdem, bis, solange Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Temporal Conjunctions: als vs wenn, seitdem, bis, solange",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Temporal Conjunctions: als vs wenn, seitdem, bis, solange",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 39,
-          weekNumber: 6,
-          title: "Day 39: Advanced Prepositions Practice 4",
-          focusSkill: "Advanced Prepositions",
-          objective: "Master Advanced Prepositions - part 4",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 39,
+          "weekNumber": 6,
+          "title": "Causal & Consecutive Clauses: da vs weil, folglich, deshalb",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master Causal & Consecutive Clauses: da vs weil, folglich, deshalb for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Causal & Consecutive Clauses: da vs weil, folglich, deshalb",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Causal & Consecutive Clauses: da vs weil, folglich, deshalb",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Causal & Consecutive Clauses: da vs weil, folglich, deshalb",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Causal & Consecutive Clauses: da vs weil, folglich, deshalb",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Causal & Consecutive Clauses: da vs weil, folglich, deshalb Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://lingua.com/german/reading/" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Causal & Consecutive Clauses: da vs weil, folglich, deshalb",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Causal & Consecutive Clauses: da vs weil, folglich, deshalb",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 40,
-          weekNumber: 6,
-          title: "Day 40: Advanced Prepositions Practice 5",
-          focusSkill: "Advanced Prepositions",
-          objective: "Master Advanced Prepositions - part 5",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 40,
+          "weekNumber": 6,
+          "title": "B1 Abstract Nouns & Nominalization (-ung, -heit, -keit, -schaft)",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master B1 Abstract Nouns & Nominalization (-ung, -heit, -keit, -schaft) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: B1 Abstract Nouns & Nominalization (-ung, -heit, -keit, -schaft)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: B1 Abstract Nouns & Nominalization (-ung, -heit, -keit, -schaft)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: B1 Abstract Nouns & Nominalization (-ung, -heit, -keit, -schaft)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: B1 Abstract Nouns & Nominalization (-ung, -heit, -keit, -schaft)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: B1 Abstract Nouns & Nominalization (-ung, -heit, -keit, -schaft) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using B1 Abstract Nouns & Nominalization (-ung, -heit, -keit, -schaft)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: B1 Abstract Nouns & Nominalization (-ung, -heit, -keit, -schaft)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 41,
-          weekNumber: 6,
-          title: "Day 41: Advanced Prepositions Practice 6",
-          focusSkill: "Advanced Prepositions",
-          objective: "Master Advanced Prepositions - part 6",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 41,
+          "weekNumber": 6,
+          "title": "German Business & Office Communication: Formal Complaint Letters",
+          "focusSkill": "Writing Practice",
+          "objective": "Master German Business & Office Communication: Formal Complaint Letters for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: German Business & Office Communication: Formal Complaint Letters",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: German Business & Office Communication: Formal Complaint Letters",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: German Business & Office Communication: Formal Complaint Letters",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: German Business & Office Communication: Formal Complaint Letters",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: German Business & Office Communication: Formal Complaint Letters Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using German Business & Office Communication: Formal Complaint Letters",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: German Business & Office Communication: Formal Complaint Letters",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 42,
-          weekNumber: 6,
-          title: "Day 42: Revision and Mock Assessment",
-          focusSkill: "Revision",
-          objective: "Assess progress",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
-            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 42,
+          "weekNumber": 6,
+          "title": "Week 6 Review & Advanced B1 Grammar Mastery Sprint",
+          "focusSkill": "Grammar Core",
+          "objective": "Master Week 6 Review & Advanced B1 Grammar Mastery Sprint for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Week 6 Review & Advanced B1 Grammar Mastery Sprint",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Week 6 Review & Advanced B1 Grammar Mastery Sprint",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Week 6 Review & Advanced B1 Grammar Mastery Sprint",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Week 6 Review & Advanced B1 Grammar Mastery Sprint",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Week 6 Review & Advanced B1 Grammar Mastery Sprint Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://lingua.com/german/reading/" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Week 6 Review & Advanced B1 Grammar Mastery Sprint",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Week 6 Review & Advanced B1 Grammar Mastery Sprint",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         }
       ]
     },
     {
-      weekNumber: 7,
-      title: "German for University and Professional Contexts",
-      objective: "Write formal emails, job applications, and understand academic texts.",
-      summary: "Prepare for the professional world in German-speaking countries.",
-      days: [
+      "weekNumber": 7,
+      "title": "Week 7: B1 Professional, Academic & Cultural Communication",
+      "objective": "Master job applications, interviews, debates, and administrative German.",
+      "summary": "Prepare for professional and everyday adult life in Germany.",
+      "days": [
         {
-          dayNumber: 43,
-          weekNumber: 7,
-          title: "Day 43: German for University and Professional Contexts Practice 1",
-          focusSkill: "German for University and Professional Contexts",
-          objective: "Master German for University and Professional Contexts - part 1",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 43,
+          "weekNumber": 7,
+          "title": "Writing German Formal Cover Letters (Bewerbungsschreiben & Lebenslauf)",
+          "focusSkill": "Writing Practice",
+          "objective": "Master Writing German Formal Cover Letters (Bewerbungsschreiben & Lebenslauf) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Writing German Formal Cover Letters (Bewerbungsschreiben & Lebenslauf)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Writing German Formal Cover Letters (Bewerbungsschreiben & Lebenslauf)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Writing German Formal Cover Letters (Bewerbungsschreiben & Lebenslauf)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Writing German Formal Cover Letters (Bewerbungsschreiben & Lebenslauf)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Writing German Formal Cover Letters (Bewerbungsschreiben & Lebenslauf) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Writing German Formal Cover Letters (Bewerbungsschreiben & Lebenslauf)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Writing German Formal Cover Letters (Bewerbungsschreiben & Lebenslauf)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 44,
-          weekNumber: 7,
-          title: "Day 44: German for University and Professional Contexts Practice 2",
-          focusSkill: "German for University and Professional Contexts",
-          objective: "Master German for University and Professional Contexts - part 2",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 44,
+          "weekNumber": 7,
+          "title": "Simulating German Job Interviews & Expressing Strengths",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master Simulating German Job Interviews & Expressing Strengths for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Simulating German Job Interviews & Expressing Strengths",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Simulating German Job Interviews & Expressing Strengths",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Simulating German Job Interviews & Expressing Strengths",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Simulating German Job Interviews & Expressing Strengths",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Simulating German Job Interviews & Expressing Strengths Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Simulating German Job Interviews & Expressing Strengths",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Simulating German Job Interviews & Expressing Strengths",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 45,
-          weekNumber: 7,
-          title: "Day 45: German for University and Professional Contexts Practice 3",
-          focusSkill: "German for University and Professional Contexts",
-          objective: "Master German for University and Professional Contexts - part 3",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 45,
+          "weekNumber": 7,
+          "title": "Discussing Current Affairs, Climate & Technology in German",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master Discussing Current Affairs, Climate & Technology in German for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Discussing Current Affairs, Climate & Technology in German",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Discussing Current Affairs, Climate & Technology in German",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Discussing Current Affairs, Climate & Technology in German",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Discussing Current Affairs, Climate & Technology in German",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Discussing Current Affairs, Climate & Technology in German Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Discussing Current Affairs, Climate & Technology in German",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Discussing Current Affairs, Climate & Technology in German",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 46,
-          weekNumber: 7,
-          title: "Day 46: German for University and Professional Contexts Practice 4",
-          focusSkill: "German for University and Professional Contexts",
-          objective: "Master German for University and Professional Contexts - part 4",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://de.langenscheidt.com/deutsch-arabisch/" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 46,
+          "weekNumber": 7,
+          "title": "Expressing Opinions & Debating Politely (Meiner Meinung nach...)",
+          "focusSkill": "Speaking & Pronunciation",
+          "objective": "Master Expressing Opinions & Debating Politely (Meiner Meinung nach...) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Expressing Opinions & Debating Politely (Meiner Meinung nach...)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Expressing Opinions & Debating Politely (Meiner Meinung nach...)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Expressing Opinions & Debating Politely (Meiner Meinung nach...)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Expressing Opinions & Debating Politely (Meiner Meinung nach...)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Expressing Opinions & Debating Politely (Meiner Meinung nach...) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://ankiweb.net/shared/info/2047595496" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Expressing Opinions & Debating Politely (Meiner Meinung nach...)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Expressing Opinions & Debating Politely (Meiner Meinung nach...)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 47,
-          weekNumber: 7,
-          title: "Day 47: German for University and Professional Contexts Practice 5",
-          focusSkill: "German for University and Professional Contexts",
-          objective: "Master German for University and Professional Contexts - part 5",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 47,
+          "weekNumber": 7,
+          "title": "German Rental Contracts (Mietvertrag) & Utility Communications",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master German Rental Contracts (Mietvertrag) & Utility Communications for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: German Rental Contracts (Mietvertrag) & Utility Communications",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: German Rental Contracts (Mietvertrag) & Utility Communications",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: German Rental Contracts (Mietvertrag) & Utility Communications",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: German Rental Contracts (Mietvertrag) & Utility Communications",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: German Rental Contracts (Mietvertrag) & Utility Communications Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using German Rental Contracts (Mietvertrag) & Utility Communications",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: German Rental Contracts (Mietvertrag) & Utility Communications",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 48,
-          weekNumber: 7,
-          title: "Day 48: German for University and Professional Contexts Practice 6",
-          focusSkill: "German for University and Professional Contexts",
-          objective: "Master German for University and Professional Contexts - part 6",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 48,
+          "weekNumber": 7,
+          "title": "Medical & Health Scenarios at B1 Level (Beim Arzt & Apotheke)",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master Medical & Health Scenarios at B1 Level (Beim Arzt & Apotheke) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Medical & Health Scenarios at B1 Level (Beim Arzt & Apotheke)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Medical & Health Scenarios at B1 Level (Beim Arzt & Apotheke)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Medical & Health Scenarios at B1 Level (Beim Arzt & Apotheke)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Medical & Health Scenarios at B1 Level (Beim Arzt & Apotheke)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Medical & Health Scenarios at B1 Level (Beim Arzt & Apotheke) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Medical & Health Scenarios at B1 Level (Beim Arzt & Apotheke)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Medical & Health Scenarios at B1 Level (Beim Arzt & Apotheke)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 49,
-          weekNumber: 7,
-          title: "Day 49: Revision and Mock Assessment",
-          focusSkill: "Revision",
-          objective: "Assess progress",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
-            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 49,
+          "weekNumber": 7,
+          "title": "Week 7 Review & Professional German Mastery Sprint",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master Week 7 Review & Professional German Mastery Sprint for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Week 7 Review & Professional German Mastery Sprint",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Week 7 Review & Professional German Mastery Sprint",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Week 7 Review & Professional German Mastery Sprint",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Week 7 Review & Professional German Mastery Sprint",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Week 7 Review & Professional German Mastery Sprint Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://ankiweb.net/shared/info/2047595496" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Week 7 Review & Professional German Mastery Sprint",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Week 7 Review & Professional German Mastery Sprint",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         }
       ]
     },
     {
-      weekNumber: 8,
-      title: "Goethe B1 Zertifikat Full Exam Prep",
-      objective: "Practice all 4 modules (Lesen, Hören, Schreiben, Sprechen) under exam conditions.",
-      summary: "Intensive mock exams and review for the Goethe B1 certificate.",
-      days: [
+      "weekNumber": 8,
+      "title": "Week 8: Goethe / TELC Zertifikat B1 Exam Preparation & Graduation",
+      "objective": "Complete Goethe/TELC B1 full mock exam preparation and strategies.",
+      "summary": "Systematic preparation for the official Goethe / TELC B1 certification.",
+      "days": [
         {
-          dayNumber: 50,
-          weekNumber: 8,
-          title: "Day 50: Goethe B1 Zertifikat Full Exam Prep Practice 1",
-          focusSkill: "Goethe B1 Zertifikat Full Exam Prep",
-          objective: "Master Goethe B1 Zertifikat Full Exam Prep - part 1",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 50,
+          "weekNumber": 8,
+          "title": "Goethe B1 Hören Sprint: Listening Comprehension Parts 1-4",
+          "focusSkill": "Listening & Comprehension",
+          "objective": "Master Goethe B1 Hören Sprint: Listening Comprehension Parts 1-4 for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Goethe B1 Hören Sprint: Listening Comprehension Parts 1-4",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Goethe B1 Hören Sprint: Listening Comprehension Parts 1-4",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Goethe B1 Hören Sprint: Listening Comprehension Parts 1-4",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Goethe B1 Hören Sprint: Listening Comprehension Parts 1-4",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Goethe B1 Hören Sprint: Listening Comprehension Parts 1-4 Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Goethe B1 Hören Sprint: Listening Comprehension Parts 1-4",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Goethe B1 Hören Sprint: Listening Comprehension Parts 1-4",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 51,
-          weekNumber: 8,
-          title: "Day 51: Goethe B1 Zertifikat Full Exam Prep Practice 2",
-          focusSkill: "Goethe B1 Zertifikat Full Exam Prep",
-          objective: "Master Goethe B1 Zertifikat Full Exam Prep - part 2",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 51,
+          "weekNumber": 8,
+          "title": "Goethe B1 Lesen Sprint: Reading Comprehension Parts 1-5",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master Goethe B1 Lesen Sprint: Reading Comprehension Parts 1-5 for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Goethe B1 Lesen Sprint: Reading Comprehension Parts 1-5",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Goethe B1 Lesen Sprint: Reading Comprehension Parts 1-5",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Goethe B1 Lesen Sprint: Reading Comprehension Parts 1-5",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Goethe B1 Lesen Sprint: Reading Comprehension Parts 1-5",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Goethe B1 Lesen Sprint: Reading Comprehension Parts 1-5 Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Goethe B1 Lesen Sprint: Reading Comprehension Parts 1-5",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Goethe B1 Lesen Sprint: Reading Comprehension Parts 1-5",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 52,
-          weekNumber: 8,
-          title: "Day 52: Goethe B1 Zertifikat Full Exam Prep Practice 3",
-          focusSkill: "Goethe B1 Zertifikat Full Exam Prep",
-          objective: "Master Goethe B1 Zertifikat Full Exam Prep - part 3",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 52,
+          "weekNumber": 8,
+          "title": "Goethe B1 Schreiben Sprint: Informal Email, Opinion & Formal Request",
+          "focusSkill": "Writing Practice",
+          "objective": "Master Goethe B1 Schreiben Sprint: Informal Email, Opinion & Formal Request for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Goethe B1 Schreiben Sprint: Informal Email, Opinion & Formal Request",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Goethe B1 Schreiben Sprint: Informal Email, Opinion & Formal Request",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Goethe B1 Schreiben Sprint: Informal Email, Opinion & Formal Request",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Goethe B1 Schreiben Sprint: Informal Email, Opinion & Formal Request",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Goethe B1 Schreiben Sprint: Informal Email, Opinion & Formal Request Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Goethe B1 Schreiben Sprint: Informal Email, Opinion & Formal Request",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Goethe B1 Schreiben Sprint: Informal Email, Opinion & Formal Request",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 53,
-          weekNumber: 8,
-          title: "Day 53: Goethe B1 Zertifikat Full Exam Prep Practice 4",
-          focusSkill: "Goethe B1 Zertifikat Full Exam Prep",
-          objective: "Master Goethe B1 Zertifikat Full Exam Prep - part 4",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 53,
+          "weekNumber": 8,
+          "title": "Goethe B1 Sprechen Part 1: Joint Planning (Gemeinsam etwas planen)",
+          "focusSkill": "Speaking & Pronunciation",
+          "objective": "Master Goethe B1 Sprechen Part 1: Joint Planning (Gemeinsam etwas planen) for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Goethe B1 Sprechen Part 1: Joint Planning (Gemeinsam etwas planen)",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Goethe B1 Sprechen Part 1: Joint Planning (Gemeinsam etwas planen)",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Goethe B1 Sprechen Part 1: Joint Planning (Gemeinsam etwas planen)",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Goethe B1 Sprechen Part 1: Joint Planning (Gemeinsam etwas planen)",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Goethe B1 Sprechen Part 1: Joint Planning (Gemeinsam etwas planen) Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Goethe B1 Sprechen Part 1: Joint Planning (Gemeinsam etwas planen)",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Goethe B1 Sprechen Part 1: Joint Planning (Gemeinsam etwas planen)",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 54,
-          weekNumber: 8,
-          title: "Day 54: Goethe B1 Zertifikat Full Exam Prep Practice 5",
-          focusSkill: "Goethe B1 Zertifikat Full Exam Prep",
-          objective: "Master Goethe B1 Zertifikat Full Exam Prep - part 5",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 54,
+          "weekNumber": 8,
+          "title": "Goethe B1 Sprechen Part 2 & 3: Presentation & Discussion",
+          "focusSkill": "Speaking & Pronunciation",
+          "objective": "Master Goethe B1 Sprechen Part 2 & 3: Presentation & Discussion for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Goethe B1 Sprechen Part 2 & 3: Presentation & Discussion",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Goethe B1 Sprechen Part 2 & 3: Presentation & Discussion",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Goethe B1 Sprechen Part 2 & 3: Presentation & Discussion",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Goethe B1 Sprechen Part 2 & 3: Presentation & Discussion",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Goethe B1 Sprechen Part 2 & 3: Presentation & Discussion Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Goethe B1 Sprechen Part 2 & 3: Presentation & Discussion",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Goethe B1 Sprechen Part 2 & 3: Presentation & Discussion",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 55,
-          weekNumber: 8,
-          title: "Day 55: Goethe B1 Zertifikat Full Exam Prep Practice 6",
-          focusSkill: "Goethe B1 Zertifikat Full Exam Prep",
-          objective: "Master Goethe B1 Zertifikat Full Exam Prep - part 6",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 55,
+          "weekNumber": 8,
+          "title": "Full Goethe / TELC B1 Mock Exam Simulation Sprint",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master Full Goethe / TELC B1 Mock Exam Simulation Sprint for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: Full Goethe / TELC B1 Mock Exam Simulation Sprint",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: Full Goethe / TELC B1 Mock Exam Simulation Sprint",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: Full Goethe / TELC B1 Mock Exam Simulation Sprint",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: Full Goethe / TELC B1 Mock Exam Simulation Sprint",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: Full Goethe / TELC B1 Mock Exam Simulation Sprint Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://de.langenscheidt.com/deutsch-arabisch/" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using Full Goethe / TELC B1 Mock Exam Simulation Sprint",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: Full Goethe / TELC B1 Mock Exam Simulation Sprint",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         },
         {
-          dayNumber: 56,
-          weekNumber: 8,
-          title: "Day 56: Revision and Mock Assessment",
-          focusSkill: "Revision",
-          objective: "Assess progress",
-          standardTasks: [
-            { type: "Watch", title: "Nicos Weg Episode", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Grammar", title: "DeutschAkademie Exercises", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
-            { type: "Vocabulary", title: "Anki Flashcards", duration: "20 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Listening", title: "Easy German Video", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
-            { type: "Reading", title: "Goethe Practice Text", duration: "30 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
-            , { type: "Mock Exam", title: "Goethe B1 Practice Exam", duration: "60 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+          "dayNumber": 56,
+          "weekNumber": 8,
+          "title": "German B1 Graduation Day: Progress Review & B2 Academic Preparation",
+          "focusSkill": "Comprehensive B1 Skills",
+          "objective": "Master German B1 Graduation Day: Progress Review & B2 Academic Preparation for German B1 academic and professional competence.",
+          "standardTasks": [
+            {
+              "type": "Watch",
+              "title": "Primary B1 Lesson: German B1 Graduation Day: Progress Review & B2 Academic Preparation",
+              "duration": "40 min",
+              "resourceType": "PRIMARY",
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+            },
+            {
+              "type": "Read",
+              "title": "B1 Reading & Rule Summary: German B1 Graduation Day: Progress Review & B2 Academic Preparation",
+              "duration": "30 min",
+              "resourceType": "SECONDARY",
+              "link": "https://www.goethe.de/de/spr/kup/prf/prf/gb1.html"
+            },
+            {
+              "type": "Watch",
+              "title": "Supplementary Video & Real-World Examples: German B1 Graduation Day: Progress Review & B2 Academic Preparation",
+              "duration": "25 min",
+              "resourceType": "SUPPLEMENTARY",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            },
+            {
+              "type": "Memorize",
+              "title": "B1 Vocabulary Bank: German B1 Graduation Day: Progress Review & B2 Academic Preparation",
+              "duration": "25 min",
+              "resourceType": "VOCAB",
+              "link": "https://apps.ankiweb.net/"
+            },
+            {
+              "type": "Quiz",
+              "title": "Mastery Check: German B1 Graduation Day: Progress Review & B2 Academic Preparation Quiz",
+              "duration": "20 min",
+              "resourceType": "QUIZ",
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+            }
           ],
-          intensiveTasks: [
-            { type: "Writing", title: "Write 150 words using daily grammar", duration: "40 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
-            { type: "Speaking", title: "Record a 3-minute summary", duration: "30 min", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
-            { type: "Analysis", title: "Grammar Deep Dive with Deutsch mit Marija", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" }
+          "intensiveTasks": [
+            {
+              "type": "Writing",
+              "title": "B1 Writing Drill: 150-word essay/letter using German B1 Graduation Day: Progress Review & B2 Academic Preparation",
+              "duration": "40 min",
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+            },
+            {
+              "type": "Speak",
+              "title": "B1 Speaking & Presentation Drill: German B1 Graduation Day: Progress Review & B2 Academic Preparation",
+              "duration": "30 min",
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+            }
           ],
-          targetMetrics: { vocab: 20, listeningMinutes: 60, speakingMinutes: 30, writingTasks: 1 }
+          "targetMetrics": {
+            "vocab": 25,
+            "listeningMinutes": 60,
+            "speakingMinutes": 30,
+            "writingTasks": 1
+          }
         }
       ]
     }

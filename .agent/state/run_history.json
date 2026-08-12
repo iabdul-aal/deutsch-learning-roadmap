@@ -1,6 +1,53 @@
 {
   "runs": [
     {
+      "runId": "run_1786537662563_cc6215",
+      "status": "SUCCESS",
+      "completedStages": [
+        "validate_inputs",
+        "audit_curriculum",
+        "audit_vocabulary",
+        "audit_survival",
+        "audit_grammar",
+        "generate_report"
+      ],
+      "timestamp": "2026-08-12T12:27:42.566Z",
+      "context": {
+        "runId": "run_1786537662563_cc6215",
+        "startTime": "2026-08-12T12:27:42.564Z",
+        "validate_inputs": {
+          "status": "SUCCESS",
+          "details": {
+            "curriculum": "56/56 Days Validated",
+            "vocabulary": "59 Vocabulary Words Validated",
+            "survival": "32 Survival Phrases across 7 Categories",
+            "grammar": "18/18 Grammar Modules Validated"
+          },
+          "gateName": "Gate 1: Data and Curriculum Integrity Gate"
+        },
+        "audit_curriculum": {
+          "status": "SUCCESS",
+          "metric": "56/56 Days Validated"
+        },
+        "audit_vocabulary": {
+          "status": "SUCCESS",
+          "metric": "59 Vocabulary Words Validated"
+        },
+        "audit_survival": {
+          "status": "SUCCESS",
+          "metric": "32 Survival Phrases across 7 Categories"
+        },
+        "audit_grammar": {
+          "status": "SUCCESS",
+          "metric": "18/18 Grammar Modules Validated"
+        },
+        "generate_report": {
+          "status": "SUCCESS",
+          "reportPath": "E:\\German\\artifacts\\run_run_1786537662563_cc6215_report.md"
+        }
+      }
+    },
+    {
       "runId": "run_1786537580153_t09blk",
       "status": "SUCCESS",
       "completedStages": [
@@ -2685,72 +2732,6 @@
       },
       "errors": [],
       "endTime": "2026-08-10T09:48:43.405Z"
-    },
-    {
-      "runId": "run_1786355226401_45u787",
-      "workflow": "full_build_pipeline",
-      "status": "SUCCESS",
-      "startTime": "2026-08-10T09:47:06.402Z",
-      "completedStages": [
-        "validate_inputs",
-        "audit_curriculum",
-        "audit_vocabulary",
-        "audit_survival",
-        "audit_grammar",
-        "build_dist",
-        "sync_standalone",
-        "generate_report"
-      ],
-      "failedStages": [],
-      "stageOutputs": {
-        "validate_inputs": {
-          "status": "SUCCESS",
-          "details": {
-            "curriculum": "56/56 Days Validated",
-            "vocabulary": "59 Vocabulary Words Validated",
-            "survival": "32 Survival Phrases across 7 Categories",
-            "grammar": "18/18 Grammar Modules Validated"
-          },
-          "gateName": "Gate 1: Data & Curriculum Integrity Gate"
-        },
-        "audit_curriculum": {
-          "status": "SUCCESS",
-          "metric": "56/56 Days Validated"
-        },
-        "audit_vocabulary": {
-          "status": "SUCCESS",
-          "metric": "59 Vocabulary Words Validated"
-        },
-        "audit_survival": {
-          "status": "SUCCESS",
-          "metric": "32 Survival Phrases across 7 Categories"
-        },
-        "audit_grammar": {
-          "status": "SUCCESS",
-          "metric": "18/18 Grammar Modules Validated"
-        },
-        "build_dist": {
-          "status": "SUCCESS",
-          "gateDetails": {
-            "distFolder": "Present",
-            "indexHtml": "Present",
-            "assets": "Present"
-          }
-        },
-        "sync_standalone": {
-          "status": "SUCCESS",
-          "gateDetails": {
-            "standaloneHtml": "Present",
-            "fallbackRedirect": "Active"
-          }
-        },
-        "generate_report": {
-          "status": "SUCCESS",
-          "reportPath": "E:\\German\\artifacts\\run_run_1786355226401_45u787_report.md"
-        }
-      },
-      "errors": [],
-      "endTime": "2026-08-10T09:47:08.428Z"
     }
   ]
 }
