@@ -20,7 +20,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 1 - German Alphabet and Phonetics",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
@@ -198,7 +198,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 3 - Numbers and W-Fragen",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
@@ -589,7 +589,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 7 - Accusative Case Explained",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=TJCDYVP-cDU"
             },
             {
               "type": "Read",
@@ -903,7 +903,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 11 - Separable Verbs Masterclass",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=kURGW-rVkSA"
             },
             {
               "type": "Watch",
@@ -1117,7 +1117,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 13 - Modal Verbs Part 1",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=VB3qqhCQ-dA"
             },
             {
               "type": "Watch",
@@ -1626,7 +1626,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 18 - The Dative Case Demystified",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=Oh4VKllZ-DQ"
             },
             {
               "type": "Read",
@@ -1701,7 +1701,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 19 - Dative Personal Pronouns",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=Oh4VKllZ-DQ"
             },
             {
               "type": "Watch",
@@ -1770,7 +1770,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 20 - Fixed Dative Prepositions",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=Oh4VKllZ-DQ"
             },
             {
               "type": "Watch",
@@ -1914,7 +1914,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 22 - Two-Way Prepositions (Wo? + Dativ)",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=Oh4VKllZ-DQ"
             },
             {
               "type": "Watch",
@@ -2605,7 +2605,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 28 - Das Perfekt Tense Foundations",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=XGWgTRlftPg"
             },
             {
               "type": "Read",
@@ -2674,7 +2674,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 29 - Perfekt with SEIN vs HABEN",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=XGWgTRlftPg"
             },
             {
               "type": "Watch",
@@ -2742,7 +2742,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 30 - Top 25 Irregular Perfekt Verbs",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=XGWgTRlftPg"
             },
             {
               "type": "Watch",
@@ -2811,7 +2811,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 31 - Inseparable Prefix Verbs in Perfekt",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=kURGW-rVkSA"
             },
             {
               "type": "Watch",
@@ -2873,7 +2873,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 32 - Storytelling and Transition Words in Perfekt",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=XGWgTRlftPg"
             },
             {
               "type": "Watch",

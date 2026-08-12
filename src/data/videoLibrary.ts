@@ -347,15 +347,21 @@ export function resolveTaskVideoEmbed(
     }
   }
 
-  // Topic-specific verified videos
-  if (titleLower.includes('akkusativ') && link.includes('youtube')) {
-    return { videoId: 'F3a7cI2g_sM', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Deutsch mit Hend', isCroppedSegment: false };
+  // Topic-specific verified videos (discovered via YouTube Search API)
+  if (titleLower.includes('akkusativ')) {
+    return { videoId: 'TJCDYVP-cDU', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Deutsch mit Hend', isCroppedSegment: false };
   }
-  if (titleLower.includes('dativ') && link.includes('youtube')) {
-    return { videoId: 'oV9gP4-g-e8', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Deutsch mit Hend', isCroppedSegment: false };
+  if (titleLower.includes('dativ')) {
+    return { videoId: 'Oh4VKllZ-DQ', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Deutsch mit Hend', isCroppedSegment: false };
   }
-  if ((titleLower.includes('trennbare') || titleLower.includes('separable')) && link.includes('youtube')) {
-    return { videoId: 'g9o6q5x8sRk', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Deutsch mit Hend', isCroppedSegment: false };
+  if (titleLower.includes('trennbare') || titleLower.includes('separable')) {
+    return { videoId: 'kURGW-rVkSA', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Deutsch mit Hend', isCroppedSegment: false };
+  }
+  if (titleLower.includes('modal')) {
+    return { videoId: 'VB3qqhCQ-dA', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Deutsch mit Hend', isCroppedSegment: false };
+  }
+  if (titleLower.includes('perfekt') || titleLower.includes('past tense')) {
+    return { videoId: 'XGWgTRlftPg', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Deutsch mit Hend', isCroppedSegment: false };
   }
 
   // DEFAULT: If no genuine video match exists, DO NOT fake a video embed!
