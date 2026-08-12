@@ -284,7 +284,7 @@ const TaskCard: React.FC<{
   if (isVideo) {
     if (task.link && task.link.includes('v=')) {
       const match = task.link.match(/v=([a-zA-Z0-9_-]{11})/);
-      if (match && match[1] !== 'WMvCXVorOsg' && match[1] !== '4-eDoThe6qo') {
+      if (match) {
         embedVideoId = match[1];
       }
     }
