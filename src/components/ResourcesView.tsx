@@ -220,7 +220,7 @@ const SkillPanel: React.FC<{
   const [expandedId, setExpandedId] = useState<string | null>(null);
 
   const sources = useMemo(() => {
-    return CONTENT_DB
+    const raw = CONTENT_DB
       .filter(s => {
         const levelMatch = s.level === level || s.level === 'ALL';
         const skillMatch = s.skills.includes(skill.id);
@@ -228,8 +228,18 @@ const SkillPanel: React.FC<{
         return levelMatch && skillMatch && langMatch;
       })
       .map(s => ({ ...s, rankScore: rankContent(s, 'arabic') }))
-      .sort((a, b) => (b.rankScore ?? 0) - (a.rankScore ?? 0))
-      .slice(0, 5); // top 5 results
+      .sort((a, b) => (b.rankScore ?? 0) - (a.rankScore ?? 0));
+
+    // Deduplicate by resourceId to eliminate resource redundancy
+    const seen = new Set<string>();
+    const deduplicated: typeof raw = [];
+    for (const item of raw) {
+      if (!seen.has(item.resourceId)) {
+        seen.add(item.resourceId);
+        deduplicated.push(item);
+      }
+    }
+    return deduplicated.slice(0, 5); // top 5 unique resources
   }, [skill.id, level, filterLang]);
 
   const SkillIcon = skill.icon;

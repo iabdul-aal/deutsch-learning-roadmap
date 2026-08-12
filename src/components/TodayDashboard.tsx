@@ -664,10 +664,18 @@ export const TodayDashboard: React.FC = () => {
             See all <ArrowRight className="w-3 h-3" />
           </button>
         </div>
-        {(['GRAMMATIK', 'HOEREN', 'SPRECHEN'] as SkillType[]).map(st => {
-          const { primary } = selectResourcesForSkill(CONTENT_DB, st, contentLevel, 'arabic');
-          if (!primary) return null;
-          return (
+        {(() => {
+          const previewItems: { st: SkillType; primary: ContentSource }[] = [];
+          const seenIds = new Set<string>();
+          for (const st of ['GRAMMATIK', 'HOEREN', 'SPRECHEN', 'LESEN'] as SkillType[]) {
+            const { primary } = selectResourcesForSkill(CONTENT_DB, st, contentLevel, 'arabic');
+            if (primary && !seenIds.has(primary.resourceId)) {
+              seenIds.add(primary.resourceId);
+              previewItems.push({ st, primary });
+              if (previewItems.length === 3) break;
+            }
+          }
+          return previewItems.map(({ st, primary }) => (
             <div key={st} className="flex items-center gap-3 p-3 rounded-xl bg-stone-50 border border-stone-100">
               <ResourceTypeIcon source={primary} />
               <div className="flex-1 min-w-0">
@@ -675,9 +683,6 @@ export const TodayDashboard: React.FC = () => {
                 <p className="text-[10px] text-stone-400">{primary.channelOrAuthor} · {primary.durationMin}m</p>
               </div>
               <div className="flex items-center gap-1.5 shrink-0">
-                {primary.language === 'AR' && (
-                  <span className="text-[9px] bg-emerald-100 text-emerald-700 px-1.5 py-0.5 rounded font-bold">AR</span>
-                )}
                 <a
                   href={resourceUrl(primary)}
                   target="_blank"
@@ -690,8 +695,8 @@ export const TodayDashboard: React.FC = () => {
                 </a>
               </div>
             </div>
-          );
-        })}
+          ));
+        })()}
       </div>
 
     </div>
