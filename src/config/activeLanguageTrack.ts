@@ -13,8 +13,8 @@ export const CURRENT_TRACK_ID = 'german-a1-ar';
 export const AVAILABLE_TRACKS: LanguageTrack[] = [
   {
     id: 'german-a1-ar',
-    name: 'German A1 (Start Deutsch 1 and FAU DaF)',
-    shortName: 'German A1 (Goethe and FAU)',
+    name: 'German A1 (Start Deutsch 1 and Academic DaF)',
+    shortName: 'German A1 (Goethe and University)',
     nativeName: 'المرجع الشامل لالمانية A1',
     level: 'A1',
     active: true,

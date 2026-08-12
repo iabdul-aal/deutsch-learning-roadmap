@@ -9,11 +9,11 @@
 import type {
   LearnerModel, SkillKey, CEFRLevel, SkillMastery, CEFREstimate,
   SkillCEFR, NextAction, ErrorType, GoalProfile,
-  DEFAULT_SKILL_MASTERY, DEFAULT_SKILL_CEFR
+  DEUniversityLT_SKILL_MASTERY, DEUniversityLT_SKILL_CEFR
 } from '../types/learner';
 import {
-  DEFAULT_SKILL_MASTERY as DSM,
-  DEFAULT_SKILL_CEFR as DSC
+  DEUniversityLT_SKILL_MASTERY as DSM,
+  DEUniversityLT_SKILL_CEFR as DSC
 } from '../types/learner';
 import { getDeckStats, getDueCards } from './srs';
 

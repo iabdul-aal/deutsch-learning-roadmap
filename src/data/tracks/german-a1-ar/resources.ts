@@ -20,7 +20,7 @@ export interface ResourceDatabase {
 
 export const RESOURCES_DATA: ResourceDatabase = {
   title: "Multi-Language Curated Resource Database (6 Hats Evaluated)",
-  description: "Independent multi-lingual research across Arabic, English, and German ecosystems evaluated via the 6 Thinking Hats method for Goethe A1 and FAU Erlangen university prep.",
+  description: "Independent multi-lingual research across Arabic, English, and German ecosystems evaluated via the 6 Thinking Hats method for Goethe A1 and German University university prep.",
   resources: [
     {
       id: "res-hend-site",
@@ -50,15 +50,15 @@ export const RESOURCES_DATA: ResourceDatabase = {
     },
     {
       id: "res-fau-erlangen-coursebook",
-      title: "FAU Erlangen-Nurnberg Sprachenzentrum Deutsch als Fremdsprache (DaF A1)",
-      creator: "FAU Erlangen-Nurnberg",
+      title: "German University Sprachenzentrum Deutsch als Fremdsprache (DaF A1)",
+      creator: "German University",
       language: "German",
       skill: "Academic German and University Preparation",
       level: "A1 (Academic Track)",
       duration: "Semester Coursebook",
       priority: "CORE",
-      whySelected: "Official German language department at FAU Erlangen-Nurnberg. Direct portal for international students taking DaF German courses at FAU.",
-      sourceCommunity: "Academic University Track (FAU Erlangen-Nurnberg)",
+      whySelected: "Official German language department at German University. Direct portal for international students taking DaF German courses at University.",
+      sourceCommunity: "Academic University Track (German University)",
       link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf"
     },
     {

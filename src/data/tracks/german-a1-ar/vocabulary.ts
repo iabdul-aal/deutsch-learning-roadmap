@@ -55,7 +55,7 @@ export const VOCABULARY_DATA = {
 
     // University and Study
     { id: "v31", german: "Universität", article: "die", plural: "Universitäten", english: "University", arabic: "جامعة", category: "University and Study", example: "Die Universität Erlangen hat viele Studenten.", status: "new" },
-    { id: "v32", german: "Student", article: "der", plural: "Studenten", english: "Student (male)", arabic: "طالب جامعي", category: "University and Study", example: "Er ist Student an der FAU.", status: "new" },
+    { id: "v32", german: "Student", article: "der", plural: "Studenten", english: "Student (male)", arabic: "طالب جامعي", category: "University and Study", example: "Er ist Student an der University.", status: "new" },
     { id: "v33", german: "Studentin", article: "die", plural: "Studentinnen", english: "Student (female)", arabic: "طالبة جامعية", category: "University and Study", example: "Sie ist Studentin am Sprachenzentrum.", status: "new" },
     { id: "v34", german: "Kurs", article: "der", plural: "Kurse", english: "Course / Class", arabic: "دورة / كورس", category: "University and Study", example: "Der Deutschkurs A1 beginnt um 9 Uhr.", status: "new" },
     { id: "v35", german: "Prüfung", article: "die", plural: "Prüfungen", english: "Exam / Test", arabic: "امتحان / اختبار", category: "University and Study", example: "Die A1-Prüfung ist am Freitag.", status: "new" },
@@ -84,7 +84,7 @@ export const VOCABULARY_DATA = {
     { id: "v50", german: "Woche", article: "die", plural: "Wochen", english: "Week", arabic: "أسبوع", category: "Time and Numbers", example: "Ich lerne seit drei Wochen Deutsch.", status: "new" },
 
     // Verbs Core
-    { id: "v51", german: "lernen", article: "", plural: "", english: "To learn / study", arabic: "يتعلم / يدرس", category: "Verbs Core", example: "Ich lerne Deutsch an der FAU.", status: "new" },
+    { id: "v51", german: "lernen", article: "", plural: "", english: "To learn / study", arabic: "يتعلم / يدرس", category: "Verbs Core", example: "Ich lerne Deutsch an der University.", status: "new" },
     { id: "v52", german: "sprechen", article: "", plural: "", english: "To speak", arabic: "يتحدث / يتكلم", category: "Verbs Core", example: "Sprechen Sie Englisch oder Deutsch?", status: "new" },
     { id: "v53", german: "wohnen", article: "", plural: "", english: "To live / reside", arabic: "يسكن / يقيم", category: "Verbs Core", example: "Ich wohne in Erlangen.", status: "new" },
     { id: "v54", german: "kommen", article: "", plural: "", english: "To come", arabic: "يأتي / يأتي من", category: "Verbs Core", example: "Ich komme aus Kairo in Ägypten.", status: "new" },

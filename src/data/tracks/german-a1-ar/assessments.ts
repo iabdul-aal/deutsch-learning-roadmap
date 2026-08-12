@@ -1,6 +1,6 @@
 export const ASSESSMENTS_DATA = {
-  title: "8-Week Interactive Goethe A1 and FAU Erlangen Assessment System",
-  description: "Weekly comprehensive tests modeled after Goethe-Zertifikat A1 (Start Deutsch 1) and FAU Erlangen-Nürnberg Sprachenzentrum course exams (Hören, Lesen, Schreiben, Sprechen).",
+  title: "8-Week Interactive Goethe A1 and German University Assessment System",
+  description: "Weekly comprehensive tests modeled after Goethe-Zertifikat A1 (Start Deutsch 1) and German University Sprachenzentrum course exams (Hören, Lesen, Schreiben, Sprechen).",
   assessments: [
     {
       weekNumber: 1,
@@ -11,7 +11,7 @@ export const ASSESSMENTS_DATA = {
           id: "w1-q1",
           topicTag: "g2_pronouns",
           topicTitle: "Personal Pronouns and Formal Address",
-          question: "Goethe A1 Sprechen Part 1 (Self Intro): How do you politely introduce yourself to a FAU Erlangen administrator?",
+          question: "Goethe A1 Sprechen Part 1 (Self Intro): How do you politely introduce yourself to a German University administrator?",
           options: ["Mein Name ist... Ich komme aus...", "Ich du heisse...", "Mein Name bist...", "Ich aus Kairo wohnen..."],
           correctIndex: 0,
           explanation: "In Goethe A1 Sprechen Part 1, introduce yourself cleanly: 'Mein Name ist... Ich komme aus Ägypten.'"
@@ -141,14 +141,14 @@ export const ASSESSMENTS_DATA = {
     },
     {
       weekNumber: 5,
-      title: "Week 5 Assessment: FAU Erlangen University Enrollment and Student Office",
+      title: "Week 5 Assessment: German University University Enrollment and Student Office",
       timeMinutes: 25,
       questions: [
         {
           id: "w5-q1",
           topicTag: "v_university",
           topicTitle: "University Terms",
-          question: "What is 'Immatrikulation' at FAU Erlangen-Nürnberg?",
+          question: "What is 'Immatrikulation' at German University?",
           options: ["Graduation ceremony", "Official student enrollment / registration", "Exam retake", "Library fine"],
           correctIndex: 1,
           explanation: "'Immatrikulation' is the official university enrollment process."
@@ -194,7 +194,7 @@ export const ASSESSMENTS_DATA = {
     },
     {
       weekNumber: 8,
-      title: "Week 8 Graduation Test: Goethe-Zertifikat A1 and FAU Academic Readiness Exam",
+      title: "Week 8 Graduation Test: Goethe-Zertifikat A1 and University Academic Readiness Exam",
       timeMinutes: 45,
       questions: [
         {
@@ -214,7 +214,7 @@ export const ASSESSMENTS_DATA = {
         {
           id: "w8-q2",
           topicTag: "final_mastery",
-          topicTitle: "FAU Erlangen Campus Protocol",
+          topicTitle: "German University Campus Protocol",
           question: "Which response is appropriate when a German landlord asks: 'Haben Sie die Wohnungsgeberbestätigung dabei?'",
           options: [
             "Ja, ich habe das Dokument hier.",

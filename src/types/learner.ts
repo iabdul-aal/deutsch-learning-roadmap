@@ -63,7 +63,7 @@ export interface GoalProfile {
   weeklyHours: number;
   professionalField?: ProfessionalField;
   country?: string;
-  reason?: string;          // free text: "I want to study at FAU Erlangen"
+  reason?: string;          // free text: "I want to study at German University"
 }
 
 /** The complete learner model - persisted in localStorage */
@@ -131,7 +131,7 @@ export interface NextAction {
   skill?: SkillKey;
 }
 
-export const DEFAULT_SKILL_MASTERY: SkillMastery = {
+export const DEUniversityLT_SKILL_MASTERY: SkillMastery = {
   HOEREN:          0,
   SPRECHEN:        0,
   LESEN:           0,
@@ -142,7 +142,7 @@ export const DEFAULT_SKILL_MASTERY: SkillMastery = {
   KULTURKOMPETENZ: 0,
 };
 
-export const DEFAULT_SKILL_CEFR: SkillCEFR = {
+export const DEUniversityLT_SKILL_CEFR: SkillCEFR = {
   HOEREN:          'A1',
   SPRECHEN:        'A1',
   LESEN:           'A1',

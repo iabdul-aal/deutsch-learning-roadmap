@@ -8,7 +8,7 @@ import type {
   NextAction, ErrorType, ErrorLogEntry, AssessmentResult, SRSCard
 } from '../types/learner';
 import {
-  DEFAULT_SKILL_MASTERY, DEFAULT_SKILL_CEFR,
+  DEUniversityLT_SKILL_MASTERY, DEUniversityLT_SKILL_CEFR,
 } from '../types/learner';
 import {
   createLearnerModel, computeCEFREstimate, updateSkillMastery,

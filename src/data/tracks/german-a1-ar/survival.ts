@@ -1,6 +1,6 @@
 export const SURVIVAL_DATA = {
   title: "Germany Survival Module (Practical Phrasebook and Scenarios)",
-  description: "Essential German phrases, Goethe-Zertifikat A1 exam prompts, FAU Erlangen-Nürnberg university phrases, and interactive scenario roleplays across 7 critical domains.",
+  description: "Essential German phrases, Goethe-Zertifikat A1 exam prompts, German University university phrases, and interactive scenario roleplays across 7 critical domains.",
   categories: [
     {
       id: "arrival",
@@ -18,11 +18,11 @@ export const SURVIVAL_DATA = {
         },
         {
           id: "arr-2",
-          german: "Ich studiere an der FAU Erlangen-Nürnberg.",
-          arabic: "أنا أدرس في جامعة إرلانغن-نورنبرغ (FAU).",
+          german: "Ich studiere an der German University.",
+          arabic: "أنا أدرس في جامعة إرلانغن-نورنبرغ (University).",
           phonetic: "إيش شتوديره أن دير إف-آ-أو إرلانغن-نورنبرغ.",
           example: "Explaining your purpose of entry to customs officers.",
-          roleplay: "Officer: 'Was machen Sie in Deutschland?' -> You: 'Ich studiere an der FAU Erlangen-Nürnberg.'"
+          roleplay: "Officer: 'Was machen Sie in Deutschland?' -> You: 'Ich studiere an der German University.'"
         },
         {
           id: "arr-3",
@@ -52,16 +52,16 @@ export const SURVIVAL_DATA = {
     },
     {
       id: "university",
-      title: "University and Academic Life (FAU Erlangen-Nürnberg)",
+      title: "University and Academic Life (German University)",
       icon: "GraduationCap",
-      description: "Enrollment (Immatrikulation), FAU Sprachenzentrum, student office, Mensa and library.",
+      description: "Enrollment (Immatrikulation), University Language Center, student office, Mensa and library.",
       phrases: [
         {
           id: "uni-1",
-          german: "Ich möchte mich für den Studiengang Informatik an der FAU immatrikulieren.",
-          arabic: "أود التسجيل في تخصص علوم الحاسوب في جامعة FAU.",
+          german: "Ich möchte mich für den Studiengang Informatik an der University immatrikulieren.",
+          arabic: "أود التسجيل في تخصص علوم الحاسوب في جامعة University.",
           phonetic: "إيش موشته ميش فور دين شتودين-غانغ إنفورماتيك أن دير إف-آ-أو إماتريكوليرن.",
-          example: "At Student Records Office (Immatrikulationsamt FAU Erlangen).",
+          example: "At Student Records Office (Immatrikulationsamt German University).",
           roleplay: "Clerk: 'Guten Tag, wie kann ich helfen?' -> You: 'Ich möchte mich immatrikulieren.'"
         },
         {
@@ -70,14 +70,14 @@ export const SURVIVAL_DATA = {
           arabic: "الأستاذة الدكتورة مولر المحترمة، أحتاج إلى إفادة رسمية.",
           phonetic: "زير غيرته فراو بروفيسور دوكتور مولر، إيش بينوتيكه آينه بيشتيتيغونغ.",
           example: "Formal academic email to a German university professor.",
-          roleplay: "Email Subject: 'Sprechstunde and Kursbestätigung - FAU Erlangen'"
+          roleplay: "Email Subject: 'Sprechstunde and Kursbestätigung - German University'"
         },
         {
           id: "uni-3",
           german: "Wo ist die Universitätsbibliothek und wie lautet das WLAN-Passwort?",
           arabic: "أين تقع مكتبة الجامعة وما هي كلمة سر الإنترنت؟",
           phonetic: "فو إيست دي أونيفيرزيتيتس-بيبيليوتيك أوند في لاوتت داس فيلان-باسفورت؟",
-          example: "Asking campus security or students at FAU library.",
+          example: "Asking campus security or students at university library.",
           roleplay: "Student: 'Die Bibliothek ist im Gebäude 3, WLAN ist Eduroam.'"
         },
         {
@@ -85,7 +85,7 @@ export const SURVIVAL_DATA = {
           german: "Ich habe den Deutschkurs A1 am Sprachenzentrum absolviert.",
           arabic: "أكملت كورس اللغة الألمانية للمستوى A1 في مركز اللغات بالجامعة.",
           phonetic: "إيش هابه دين دويتش-كورس أ-آينس أم شبراخن-تسينتروم أبسولفيرت.",
-          example: "Verifying your German language certificate level at FAU Sprachenzentrum.",
+          example: "Verifying your German language certificate level at University Language Center.",
           roleplay: "Advisor: 'Haben Sie ein A1-Zertifikat?' -> You: 'Ja, vom Sprachenzentrum / Goethe-Institut.'"
         },
         {
@@ -110,7 +110,7 @@ export const SURVIVAL_DATA = {
           arabic: "السيد شميدت المحترم، أنا مهتم بشقة الغرفة الواحدة.",
           phonetic: "زير غيرتر هير شميدت، إيش إينتريزيره ميش فور دي آين-تسيمر-فوهنونغ.",
           example: "First message to a landlord on WG-Gesucht / ImmobilienScout24.",
-          roleplay: "Writing inquiry email for a student room near FAU campus."
+          roleplay: "Writing inquiry email for a student room near university campus."
         },
         {
           id: "hou-2",
