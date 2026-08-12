@@ -34,7 +34,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: German Alphabet and Umlauts Made Easy",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/@LearnGermanwithAnja/videos"
+              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
             },
             {
               "type": "Memorize",
@@ -48,7 +48,7 @@ export const CURRICULUM_DATA = {
               "title": "Super Easy German #1: How Germans greet each other",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/@EasyGerman/videos"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Speak",
@@ -109,7 +109,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 2 - Self Introduction and Personal Pronouns",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=G2xNRY1jMTk"
             },
             {
               "type": "Watch",
@@ -123,7 +123,7 @@ export const CURRICULUM_DATA = {
               "title": "YourGermanTeacher: Present Tense Regular Verbs and Pronouns",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
+              "link": "https://www.youtube.com/watch?v=0LRs_M_BtsI"
             },
             {
               "type": "Memorize",
@@ -137,7 +137,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch Survival A1: Audio drills on introducing yourself",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=LHFvuG0DUZA"
             },
             {
               "type": "Speak",
@@ -280,7 +280,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 4 - Articles and Noun Gender",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=9PpOBJa9Mvs"
             },
             {
               "type": "Read",
@@ -294,7 +294,7 @@ export const CURRICULUM_DATA = {
               "title": "YourGermanTeacher: How to know Der, Die, Das",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
+              "link": "https://www.youtube.com/watch?v=IFsEX4ZY6bc"
             },
             {
               "type": "Memorize",
@@ -355,7 +355,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 5 - Negation (nicht vs kein)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=NcswV-xuyMc"
             },
             {
               "type": "Watch",
@@ -376,7 +376,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German: 'Nein' and polite refusal phrases",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/@EasyGerman/videos"
+              "link": "https://www.youtube.com/watch?v=3MiTl52EKd8"
             },
             {
               "type": "Speak",
@@ -437,14 +437,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 6 - Plurals and Family Members",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=V8xl5tfDqL0"
             },
             {
               "type": "Watch",
               "title": "Learn German with Anja: Family Tree and Plural Nouns",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/@LearnGermanwithAnja/videos"
+              "link": "https://www.youtube.com/watch?v=BgZ--QmPAIw"
             },
             {
               "type": "Memorize",
@@ -486,7 +486,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Read and shadow the story 'Meine Familie' 3 times focusing on sentence rhythm",
               "duration": "35 min",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=hS7o7YaCh0M"
             },
             {
               "type": "Mobile App",
@@ -603,7 +603,7 @@ export const CURRICULUM_DATA = {
               "title": "YourGermanTeacher: Accusative Case - Never make a mistake again!",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
+              "link": "https://www.youtube.com/watch?v=fPKH95g_9cs"
             },
             {
               "type": "Memorize",
@@ -631,7 +631,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Repeat Accusative sentence patterns out loud 25 times",
               "duration": "30 min",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=J6_TDpCKjtM"
             },
             {
               "type": "Mobile App",
@@ -664,7 +664,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 8 - Food and Supermarket Vocabulary",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=3lBIxpJvuVU"
             },
             {
               "type": "Watch",
@@ -685,7 +685,7 @@ export const CURRICULUM_DATA = {
               "title": "Super Easy German #12: Grocery shopping in Germany",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/@EasyGerman/videos"
+              "link": "https://www.youtube.com/watch?v=D91icSuPYQ4"
             },
             {
               "type": "Speak",
@@ -746,14 +746,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 9 - Restaurant Dialogues and Polite Requests",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=ULGrZsZMhjQ"
             },
             {
               "type": "Watch",
               "title": "Learn German with Anja: How to order food like a native in Germany",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/@LearnGermanwithAnja/videos"
+              "link": "https://www.youtube.com/watch?v=AwyA7GzGlvE"
             },
             {
               "type": "Memorize",
@@ -828,7 +828,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 10 - Time and Clock Times (Uhrzeit)",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=h8KMADeg384"
             },
             {
               "type": "Watch",
@@ -849,7 +849,7 @@ export const CURRICULUM_DATA = {
               "title": "Read out 12 random clock times in both official and informal formats",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=9h-K4SPLgVU"
             },
             {
               "type": "Quiz",
@@ -910,7 +910,7 @@ export const CURRICULUM_DATA = {
               "title": "YourGermanTeacher: Separable Verbs in German - Explained Simply",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
+              "link": "https://www.youtube.com/watch?v=Tizr0WwCzFQ"
             },
             {
               "type": "Memorize",
@@ -924,7 +924,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch Survival A1: Audio practice on separable verbs in daily speech",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=Kj_L8uAffG8"
             },
             {
               "type": "Quiz",
@@ -945,7 +945,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Shadow daily routine descriptions with separable verbs 3 times",
               "duration": "30 min",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=xesl04zaQ1E"
             },
             {
               "type": "Mobile App",
@@ -978,7 +978,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 12 - Possessive Articles",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=sBUR0Q9ZTN4"
             },
             {
               "type": "Watch",
@@ -1124,7 +1124,7 @@ export const CURRICULUM_DATA = {
               "title": "YourGermanTeacher: German Modal Verbs Made Super Easy",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
+              "link": "https://www.youtube.com/watch?v=Zf97cqx9uRA"
             },
             {
               "type": "Memorize",
@@ -1152,7 +1152,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Shadow modal verb sentence patterns 20 times",
               "duration": "30 min",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=LVEwuKZCA8o"
             },
             {
               "type": "Mobile App",
@@ -1185,7 +1185,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 14 - Dürfen and Sollen + Hausordnung",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=4gb1ORkPzOg"
             },
             {
               "type": "Watch",
@@ -1206,7 +1206,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German: Understanding signs and rules in Germany",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/@EasyGerman/videos"
+              "link": "https://www.youtube.com/watch?v=koi9YnhQ2so"
             },
             {
               "type": "Quiz",
@@ -1254,7 +1254,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 15 - Housing and Apartment Vocabulary",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=GJfGrDu5t5E"
             },
             {
               "type": "Read",
@@ -1275,7 +1275,7 @@ export const CURRICULUM_DATA = {
               "title": "Super Easy German #20: Living in a WG in Germany",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/@EasyGerman/videos"
+              "link": "https://www.youtube.com/watch?v=lX-nSnvJ-c0"
             },
             {
               "type": "Quiz",
@@ -1329,7 +1329,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 16 - Writing Messages to Landlords",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
             },
             {
               "type": "Watch",
@@ -1405,7 +1405,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - How to Survive Anmeldung in Germany",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=3lBIxpJvuVU"
             },
             {
               "type": "Read",
@@ -1487,14 +1487,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 17 - Reporting Maintenance Issues",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=GJfGrDu5t5E"
             },
             {
               "type": "Watch",
               "title": "Learn German with Anja: Practical German for House Repair and Issues",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/@LearnGermanwithAnja/videos"
+              "link": "https://www.youtube.com/watch?v=MOtqMNKs0Jw"
             },
             {
               "type": "Memorize",
@@ -1640,7 +1640,7 @@ export const CURRICULUM_DATA = {
               "title": "YourGermanTeacher: Dative Case in German - Complete Masterclass",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
+              "link": "https://www.youtube.com/watch?v=G-dgLzu18EU"
             },
             {
               "type": "Memorize",
@@ -1668,7 +1668,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Shadow Dative sentence transformations 25 times",
               "duration": "30 min",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=Mgp-9g7F62E"
             },
             {
               "type": "Mobile App",
@@ -1777,7 +1777,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: The Dative Preposition Song and Rule",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/@LearnGermanwithAnja/videos"
+              "link": "https://www.youtube.com/watch?v=L_EWNRkvkZY"
             },
             {
               "type": "Memorize",
@@ -1805,7 +1805,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Recite the Dative preposition mnemonic out loud 20 times",
               "duration": "25 min",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=19yfp4uSv6g"
             },
             {
               "type": "Mobile App",
@@ -1838,7 +1838,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 21 - Asking and Giving Directions",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=tiNSgqk2mKE"
             },
             {
               "type": "Watch",
@@ -1921,7 +1921,7 @@ export const CURRICULUM_DATA = {
               "title": "YourGermanTeacher: Wechselpräpositionen Made Easy",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
+              "link": "https://www.youtube.com/watch?v=auWRmuw_AcY"
             },
             {
               "type": "Memorize",
@@ -1976,7 +1976,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - Navigating German Trains and Stations",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=G2xNRY1jMTk"
             },
             {
               "type": "Watch",
@@ -2122,7 +2122,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - German University Vocabulary and Enrollment",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=3lBIxpJvuVU"
             },
             {
               "type": "Read",
@@ -2191,7 +2191,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 23 - Formal Academic Email Writing",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=u01gZIaoJ0c"
             },
             {
               "type": "Watch",
@@ -2260,14 +2260,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 24 - Mensa and Library German",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=4rdJVDsepag"
             },
             {
               "type": "Watch",
               "title": "Super Easy German #25: What is a German Mensa like?",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/@EasyGerman/videos"
+              "link": "https://www.youtube.com/watch?v=9UAxWbqsqLc"
             },
             {
               "type": "Memorize",
@@ -2329,14 +2329,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 25 - Adjective Endings Demystified",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=VuCqbaBXiQs"
             },
             {
               "type": "Watch",
               "title": "YourGermanTeacher: German Adjective Endings - Simple System",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
+              "link": "https://www.youtube.com/watch?v=SXKD5bQl-zQ"
             },
             {
               "type": "Memorize",
@@ -2391,7 +2391,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 26 - Scheduling Appointments",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=G2xNRY1jMTk"
             },
             {
               "type": "Watch",
@@ -2460,14 +2460,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 27 - Health, Doctor and Pharmacy German",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=hoT-SPO8nWY"
             },
             {
               "type": "Watch",
               "title": "Learn German with Anja: Going to the Doctor in Germany",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/@LearnGermanwithAnja/videos"
+              "link": "https://www.youtube.com/watch?v=kuAlkmR7oXs"
             },
             {
               "type": "Memorize",
@@ -2619,7 +2619,7 @@ export const CURRICULUM_DATA = {
               "title": "YourGermanTeacher: German Past Tense (Perfekt) Made Super Easy",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
+              "link": "https://www.youtube.com/watch?v=cWFjOK9sfBw"
             },
             {
               "type": "Memorize",
@@ -2749,7 +2749,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Top Irregular German Past Tense Verbs",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/@LearnGermanwithAnja/videos"
+              "link": "https://www.youtube.com/watch?v=G61p5tiLow4"
             },
             {
               "type": "Memorize",
@@ -2880,7 +2880,7 @@ export const CURRICULUM_DATA = {
               "title": "Super Easy German #30: What Germans did last weekend",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/@EasyGerman/videos"
+              "link": "https://www.youtube.com/watch?v=mR_E_DKbX5Y"
             },
             {
               "type": "Writing",
@@ -2894,7 +2894,7 @@ export const CURRICULUM_DATA = {
               "title": "Narrate your past week out loud for 3 minutes without looking at notes",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=A_L4noH_q8E"
             },
             {
               "type": "Quiz",
@@ -2942,14 +2942,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 33 - Präteritum of Sein and Haben",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=g0Zo17VXDAA"
             },
             {
               "type": "Watch",
               "title": "YourGermanTeacher: War vs Hatte in Spoken German",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
+              "link": "https://www.youtube.com/watch?v=UCxRsIz7qQ8"
             },
             {
               "type": "Memorize",
@@ -3081,7 +3081,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - Opening a Bank Account in Germany",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=3lBIxpJvuVU"
             },
             {
               "type": "Read",
@@ -3150,7 +3150,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - German Health Insurance Explained",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=G2xNRY1jMTk"
             },
             {
               "type": "Watch",
@@ -3219,7 +3219,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - Ausländerbehörde and Visa Extension Phrases",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=TZww485ncl8"
             },
             {
               "type": "Read",
@@ -3294,14 +3294,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - Post Office, Packages and SIM Cards",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=3lBIxpJvuVU"
             },
             {
               "type": "Watch",
               "title": "Super Easy German #22: Buying a SIM Card and Post Office in Germany",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/@EasyGerman/videos"
+              "link": "https://www.youtube.com/watch?v=V8QbPvU_lVE"
             },
             {
               "type": "Memorize",
@@ -3363,14 +3363,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 34 - Subordinate Clauses (Weil, Dass, Wenn)",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=koDbAgJ-lYo"
             },
             {
               "type": "Watch",
               "title": "YourGermanTeacher: Weil and Dass - Verb at the End Rule",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
+              "link": "https://www.youtube.com/watch?v=TyHnzQTka6Q"
             },
             {
               "type": "Memorize",
@@ -3425,7 +3425,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 35 - Comparatives and Superlatives",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=9PpOBJa9Mvs"
             },
             {
               "type": "Watch",
@@ -3557,7 +3557,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - Complete Airport and Arrival Masterclass",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=3lBIxpJvuVU"
             },
             {
               "type": "Read",
@@ -3626,7 +3626,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - Emergency German and Calling 112 / 110",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=3lBIxpJvuVU"
             },
             {
               "type": "Watch",
@@ -3702,14 +3702,14 @@ export const CURRICULUM_DATA = {
               "title": "Complete Deutsch mit Hend A1 Master Grammar Review Sheet",
               "duration": "60 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=9PpOBJa9Mvs"
             },
             {
               "type": "Watch",
               "title": "YourGermanTeacher: All German A1 Grammar in 60 Minutes",
               "duration": "60 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/@YourGermanTeacher/videos"
+              "link": "https://www.youtube.com/watch?v=TytGj8xiPyY"
             },
             {
               "type": "Quiz",
@@ -3764,7 +3764,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch Survival Platform A1 Audio Stories Marathon (5 stories back to back)",
               "duration": "45 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=_jFcmlLS338"
             },
             {
               "type": "Read",
@@ -3819,14 +3819,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Speaking Exam Preparation and Tips",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=TZww485ncl8"
             },
             {
               "type": "Watch",
               "title": "Goethe-Institut: Official A1 Speaking Exam Demonstration Video",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/@FrauHendTaha/videos"
+              "link": "https://www.youtube.com/watch?v=O6m-GslH2kM"
             },
             {
               "type": "Speak",
