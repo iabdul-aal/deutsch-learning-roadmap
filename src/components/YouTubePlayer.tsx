@@ -106,7 +106,7 @@ export const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-red-600 hover:bg-red-700 text-white text-xs font-black transition-all shadow-xs"
           >
             <Play className="w-3.5 h-3.5 fill-current" />
-            <span>Watch on YouTube</span>
+            <span>{videoId.startsWith('PL') || videoId.includes('playlist') ? 'Open Full Playlist' : 'Watch on YouTube'}</span>
           </a>
           <button
             onClick={() => setIsFullscreen(true)}
@@ -131,7 +131,7 @@ interface PlaylistEmbedProps {
  * Embeds a full YouTube playlist with direct watch button.
  */
 export const YouTubePlaylist: React.FC<PlaylistEmbedProps> = ({ playlistId, title, className = '' }) => {
-  const embedUrl = `https://www.youtube.com/embed/videoseries?list=${playlistId}&rel=0 and modestbranding=1`;
+  const embedUrl = `https://www.youtube.com/embed/videoseries?list=${playlistId}&rel=0&modestbranding=1`;
   const watchUrl = `https://www.youtube.com/playlist?list=${playlistId}`;
 
   return (

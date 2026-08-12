@@ -143,7 +143,7 @@ export function getYouTubeEmbedUrl(resourceId: string, autoplay = false): string
     base = `https://www.youtube.com/embed/${resourceId}`;
   }
   const sep = base.includes('?') ? '&' : '?';
-  return `${base}${sep}rel=0 and modestbranding=1${autoplay ? '&autoplay=1' : ''}`;
+  return `${base}${sep}rel=0&modestbranding=1${autoplay ? '&autoplay=1' : ''}`;
 }
 
 // ══════════════════════════════════════════════════════════════
@@ -226,7 +226,7 @@ export const CONTENT_DB: ContentSource[] = [
   {
     id: 'hend_a1_playlist',
     type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: 'www.youtube.com/watch?v=WMvCXVorOsg',
+    resourceId: 'PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu',
     title: 'Deutsch mit Hend - Complete A1 Grammar Playlist',
     titleAR: 'دورة الألمانية A1 مع هند - كاملة',
     channelOrAuthor: 'Deutsch mit Hend',
@@ -237,7 +237,7 @@ export const CONTENT_DB: ContentSource[] = [
   {
     id: 'hend_a2_playlist',
     type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: 'www.youtube.com/watch?v=dr-dJ0a3Scs',
+    resourceId: 'PL-N_ooNpDdsPmnyh8WXJJ-M2bEBE6Lxn_',
     title: 'Deutsch mit Hend - Complete A2 Grammar Playlist',
     titleAR: 'دورة الألمانية A2 مع هند - كاملة',
     channelOrAuthor: 'Deutsch mit Hend',
@@ -248,7 +248,7 @@ export const CONTENT_DB: ContentSource[] = [
   {
     id: 'hend_b1_playlist',
     type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: 'www.youtube.com/watch?v=dr-dJ0a3Scs',
+    resourceId: 'PL-N_ooNpDdsOvRGEvuPnON1ul4MFwWXUo',
     title: 'Deutsch mit Hend - Complete B1 Grammar Playlist',
     titleAR: 'دورة الألمانية B1 مع هند - كاملة',
     channelOrAuthor: 'Deutsch mit Hend',
@@ -274,8 +274,8 @@ export const CONTENT_DB: ContentSource[] = [
   },
   {
     id: 'taleek_a1_playlist',
-    type: 'VIDEO', tier: 'SECONDARY',
-    resourceId: 'www.youtube.com/watch?v=WMvCXVorOsg',
+    type: 'VIDEO', tier: 'PRIMARY',
+    resourceId: 'PLxCFn5-t8kLWj6ksMMOxRnDnbXS2ugprA',
     title: 'Taleek German A1 Complete Course Playlist',
     titleAR: 'دورة الألمانية A1 - طليق كاملة',
     channelOrAuthor: 'Taleek - طليق',
@@ -321,7 +321,7 @@ export const CONTENT_DB: ContentSource[] = [
   {
     id: 'easy_a1_playlist',
     type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: 'www.youtube.com/watch?v=r94aqLUO0wo',
+    resourceId: 'PLk1fjOl39-50kWobutO8NVFzbw9PHtbbg',
     title: 'Super Easy German - Full A1 Playlist (Slow German Episodes)',
     channelOrAuthor: 'Easy German',
     level: 'A1', skills: ['HOEREN', 'SPRECHEN', 'LESEN'],
@@ -331,7 +331,7 @@ export const CONTENT_DB: ContentSource[] = [
   {
     id: 'easy_a2_playlist',
     type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: 'www.youtube.com/watch?v=r94aqLUO0wo',
+    resourceId: 'PLk1fjOl39-5201BUdhtOM_x23poNvLouT',
     title: 'Easy German - A2 Level Playlist',
     channelOrAuthor: 'Easy German',
     level: 'A2', skills: ['HOEREN', 'SPRECHEN', 'LESEN'],
@@ -341,7 +341,7 @@ export const CONTENT_DB: ContentSource[] = [
   {
     id: 'easy_b1_playlist',
     type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: 'www.youtube.com/watch?v=MmacJnqL3i0',
+    resourceId: 'PLk1fjOl39-53yooogv6RaJAK29mx7nz1d',
     title: 'Easy German - B1 Level Playlist',
     channelOrAuthor: 'Easy German',
     level: 'B1', skills: ['HOEREN', 'SPRECHEN', 'LESEN'],
@@ -386,7 +386,7 @@ export const CONTENT_DB: ContentSource[] = [
   {
     id: 'dw_nicos_a1_playlist',
     type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: 'www.youtube.com/watch?v=4-eDoThe6qo',
+    resourceId: 'PLs7zUO7VPyJ5DV1iBRgSw2uDl832n0bLg',
     title: 'DW Nicos Weg - A1 Episode Playlist (All Individual Episodes)',
     channelOrAuthor: 'DW Deutsche Welle',
     level: 'A1', skills: ['HOEREN', 'LESEN', 'SPRECHEN'],
@@ -410,8 +410,8 @@ export const CONTENT_DB: ContentSource[] = [
   },
   {
     id: 'lingoni_a1_playlist',
-    type: 'VIDEO', tier: 'SECONDARY',
-    resourceId: 'www.youtube.com/watch?v=RrfgbBp6ScI',
+    type: 'VIDEO', tier: 'PRIMARY',
+    resourceId: 'PLi18-1crB_5MHZdDsHSKf9n_tHDv1Rmwi',
     title: 'lingoni German - A1 Beginners Complete Course',
     channelOrAuthor: 'lingoni GERMAN',
     level: 'A1', skills: ['GRAMMATIK', 'VOCAB'],
@@ -563,8 +563,8 @@ export const CONTENT_DB: ContentSource[] = [
   },
   {
     id: 'shehata_a1_playlist',
-    type: 'VIDEO', tier: 'SECONDARY',
-    resourceId: 'www.youtube.com/watch?v=RrfgbBp6ScI',
+    type: 'VIDEO', tier: 'PRIMARY',
+    resourceId: 'PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu',
     title: 'Shehata Deutsch - Complete A1 Course Playlist',
     titleAR: 'الألمانية مع مستر شحاته - دورة A1 كاملة',
     channelOrAuthor: 'Shehata Deutsch',
@@ -574,8 +574,8 @@ export const CONTENT_DB: ContentSource[] = [
   },
   {
     id: 'shehata_a2_playlist',
-    type: 'VIDEO', tier: 'SECONDARY',
-    resourceId: 'www.youtube.com/watch?v=RrfgbBp6ScI',
+    type: 'VIDEO', tier: 'PRIMARY',
+    resourceId: 'PL-N_ooNpDdsPmnyh8WXJJ-M2bEBE6Lxn_',
     title: 'Shehata Deutsch - Complete A2 Course Playlist',
     titleAR: 'الألمانية مع مستر شحاته - دورة A2 كاملة',
     channelOrAuthor: 'Shehata Deutsch',
@@ -596,8 +596,8 @@ export const CONTENT_DB: ContentSource[] = [
   },
   {
     id: 'shehata_b1_playlist',
-    type: 'VIDEO', tier: 'SECONDARY',
-    resourceId: 'www.youtube.com/watch?v=RrfgbBp6ScI',
+    type: 'VIDEO', tier: 'PRIMARY',
+    resourceId: 'PL-N_ooNpDdsOvRGEvuPnON1ul4MFwWXUo',
     title: 'Shehata Deutsch - Complete B1 Course Playlist',
     titleAR: 'الألمانية مع مستر شحاته - دورة B1 كاملة',
     channelOrAuthor: 'Shehata Deutsch',
