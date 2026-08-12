@@ -234,6 +234,17 @@ export const CONTENT_DB: ContentSource[] = [
     language: 'AR', durationMin: 35,
     viewsApprox: 290_000, communityScore: 86, contentMatchScore: 95, pedagogyScore: 89,
   },
+  {
+    id: 'hend_basics_part2',
+    type: 'VIDEO', tier: 'PRIMARY',
+    resourceId: 'UuDS2hFTwtc',
+    title: 'German Basics Part 2 - Phonetics & Conversation',
+    titleAR: 'أساسيات اللغة الألمانية - الجزء الثاني',
+    channelOrAuthor: 'Deutsch mit Hend',
+    level: 'A1', skills: ['SPRECHEN', 'HOEREN', 'GRAMMATIK'],
+    language: 'AR', durationMin: 45,
+    viewsApprox: 450_000, communityScore: 92, contentMatchScore: 97, pedagogyScore: 94,
+  },
   // Hend A1 Playlist (all lessons)
   {
     id: 'hend_a1_playlist',
@@ -245,6 +256,44 @@ export const CONTENT_DB: ContentSource[] = [
     level: 'A1', skills: ['GRAMMATIK', 'VOCAB', 'SCHREIBEN'],
     language: 'AR', durationMin: 0,
     viewsApprox: 2_000_000, communityScore: 95, contentMatchScore: 99, pedagogyScore: 95,
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // PIECE OF GERMAN - Step-by-Step Video Lessons
+  // Channel: Piece of German
+  // ─────────────────────────────────────────────────────────────
+  {
+    id: 'pog_a1_crash',
+    type: 'VIDEO', tier: 'SECONDARY',
+    resourceId: 'S8ukFF6SdGk',
+    title: 'Learn German A1 Step by Step (Crash Course)',
+    titleAR: 'كورس الألمانية A1 خطوة بخطوة - Piece of German',
+    channelOrAuthor: 'Piece of German',
+    level: 'A1', skills: ['GRAMMATIK', 'HOEREN'],
+    language: 'EN', durationMin: 25,
+    viewsApprox: 600_000, communityScore: 90, contentMatchScore: 95, pedagogyScore: 92,
+  },
+  {
+    id: 'pog_a2_crash',
+    type: 'VIDEO', tier: 'SECONDARY',
+    resourceId: 'DnewKMVyflE',
+    title: 'Learn German A2 Step by Step (Crash Course)',
+    titleAR: 'كورس الألمانية A2 خطوة بخطوة - Piece of German',
+    channelOrAuthor: 'Piece of German',
+    level: 'A2', skills: ['GRAMMATIK', 'HOEREN'],
+    language: 'EN', durationMin: 25,
+    viewsApprox: 500_000, communityScore: 89, contentMatchScore: 94, pedagogyScore: 91,
+  },
+  {
+    id: 'pog_wo_wohin',
+    type: 'VIDEO', tier: 'SECONDARY',
+    resourceId: 'dTdc9sPFQig',
+    title: 'Wo? oder Wohin? Two-Way Prepositions',
+    titleAR: 'أدوات الجر التبادلية Wo? أين أم Wohin? إلى أين',
+    channelOrAuthor: 'Piece of German',
+    level: 'A2', skills: ['GRAMMATIK'],
+    language: 'EN', durationMin: 15,
+    viewsApprox: 300_000, communityScore: 88, contentMatchScore: 96, pedagogyScore: 92,
   },
   {
     // Hend A2: dr-dJ0a3Scs is Shehata's video — using Hend's YouTube channel page instead

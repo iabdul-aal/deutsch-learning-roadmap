@@ -19,16 +19,16 @@ export const RESOURCES_DATA_A2: ResourceDatabase = {
     },
     {
       id: "res-a2-piece-of-german",
-      title: "Piece of German - Step by Step A2 Day-by-Day Learning Plan",
+      title: "Piece of German - Learn German A2 Step by Step (Complete Video Course)",
       creator: "Piece of German",
       language: "English / German",
-      skill: "Structured A2 Day-by-Day Guided Curriculum",
+      skill: "Structured A2 Guided Video Curriculum",
       level: "A2 (Intermediate Beginner)",
-      duration: "Self-Paced Daily Plan (1-3h/day)",
+      duration: "Video Masterclass Series",
       priority: "HIGH VALUE",
-      whySelected: "Structured A2 daily roadmap guiding learners step-by-step through intermediate grammar, Perfekt tense, Wechselpräpositionen, and conversational drills.",
+      whySelected: "Direct video masterclass by Piece of German guiding learners step-by-step through intermediate grammar, Perfekt tense, Wechselpräpositionen, and conversational drills.",
       sourceCommunity: "Global German Learners",
-      link: "https://www.pieceofgerman.com/a2-1"
+      link: "https://www.youtube.com/watch?v=DnewKMVyflE"
     },
     {
       id: "res-a2-goethe-official",

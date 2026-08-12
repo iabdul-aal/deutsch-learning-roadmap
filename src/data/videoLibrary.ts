@@ -121,6 +121,24 @@ export const VIDEOS: Record<string, VideoResource> = {
   hend_dativ:          { videoId: 'oV9gP4-g-e8', title: 'Der Dativ — Dative Case Masterclass', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 45, language: 'arabic', type: 'grammar' },
   hend_separable:      { videoId: 'g9o6q5x8sRk', title: 'Trennbare Verben — Separable Verbs', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 30, language: 'arabic', type: 'grammar' },
   hend_modal:          { videoId: 'e_0kU4M0d0U', title: 'Modalverben — Modal Verbs Complete Guide', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 35, language: 'arabic', type: 'grammar' },
+
+  // ── lingoni GERMAN (structured grammar, English-medium) ──
+  lingoni_a1:          { videoId: 'WMvCXVorOsg', title: 'lingoni German A1 Playlist', channelName: 'lingoni GERMAN', level: 'A1', durationMinutes: 300, language: 'english', type: 'lesson' },
+  lingoni_a2:          { videoId: 'dr-dJ0a3Scs', title: 'lingoni German A2 Playlist', channelName: 'lingoni GERMAN', level: 'A2', durationMinutes: 360, language: 'english', type: 'lesson' },
+  lingoni_b1:          { videoId: 'dr-dJ0a3Scs', title: 'lingoni German B1 Playlist', channelName: 'lingoni GERMAN', level: 'B1', durationMinutes: 400, language: 'english', type: 'lesson' },
+
+  // ── Piece of German (Step-by-step Video Lessons & Vocabulary) ──
+  pog_a1_crash:        { videoId: 'S8ukFF6SdGk', title: 'Learn German A1 Step by Step (Crash Course)', channelName: 'Piece of German', level: 'A1', durationMinutes: 25, language: 'english', type: 'lesson' },
+  pog_a2_crash:        { videoId: 'DnewKMVyflE', title: 'Learn German A2 Step by Step (Crash Course)', channelName: 'Piece of German', level: 'A2', durationMinutes: 25, language: 'english', type: 'lesson' },
+  pog_wo_wohin:        { videoId: 'dTdc9sPFQig', title: 'Wo? oder Wohin? Two-Way Prepositions', channelName: 'Piece of German', level: 'A2', durationMinutes: 15, language: 'english', type: 'grammar' },
+  pog_body_parts:      { videoId: 'QISEqVtVS98', title: 'German Vocabulary — Körperteile (Body Parts)', channelName: 'Piece of German', level: 'A1', durationMinutes: 12, language: 'english', type: 'vocabulary' },
+  pog_clothes:         { videoId: 'FaX2vGUocj0', title: 'German Vocabulary — Kleidung (Clothes)', channelName: 'Piece of German', level: 'A1', durationMinutes: 10, language: 'english', type: 'vocabulary' },
+  pog_furniture:       { videoId: '35Afp-fqoQ8', title: 'German Vocabulary — Möbel (Furniture)', channelName: 'Piece of German', level: 'A1', durationMinutes: 10, language: 'english', type: 'vocabulary' },
+  pog_prepositions:    { videoId: 'Lg5P2w_Ro1c', title: 'Akkusativ & Dativ Prepositions Masterclass', channelName: 'Piece of German', level: 'A2', durationMinutes: 18, language: 'english', type: 'grammar' },
+  pog_word_order:      { videoId: 'jR4XeQxwGHQ', title: 'Basic Word Order in German Sentences', channelName: 'Piece of German', level: 'A1', durationMinutes: 14, language: 'english', type: 'grammar' },
+  pog_future_tense:    { videoId: 'uBAnVYX9VeI', title: 'Forming the Future Tense (Futur I)', channelName: 'Piece of German', level: 'A2', durationMinutes: 12, language: 'english', type: 'grammar' },
+  pog_modal_verbs:     { videoId: 'W9coIzRQGh4', title: 'Using Modal Verbs in German', channelName: 'Piece of German', level: 'A1', durationMinutes: 15, language: 'english', type: 'grammar' },
+
   // OFSHdj_2FQA: Hend's daily routine vocabulary video (verified distinct)
   hend_tagesablauf:    { videoId: 'OFSHdj_2FQA', title: 'Tagesablauf — Daily Routine Vocabulary', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 35, language: 'arabic', type: 'lesson' },
 

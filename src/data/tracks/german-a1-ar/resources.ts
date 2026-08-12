@@ -50,16 +50,16 @@ export const RESOURCES_DATA: ResourceDatabase = {
     },
     {
       id: "res-piece-of-german-a1",
-      title: "Piece of German - Step by Step A1 Day-by-Day Learning Plan",
+      title: "Piece of German - Learn German A1 Step by Step (Complete Video Course)",
       creator: "Piece of German",
       language: "English / German",
-      skill: "Structured Day-by-Day Guided Curriculum",
+      skill: "Structured Day-by-Day Guided Video Curriculum",
       level: "A1 (Beginner)",
-      duration: "Self-Paced Daily Plan (1-3h/day)",
+      duration: "Video Masterclass Series",
       priority: "HIGH VALUE",
-      whySelected: "Comprehensive day-by-day structured learning path for German A1, providing step-by-step guidance, drills, and daily progress milestones.",
+      whySelected: "Direct video masterclass by Piece of German providing step-by-step guidance, A1 grammar explanations, vocabulary drills, and pronunciation exercises.",
       sourceCommunity: "Global German Learners",
-      link: "https://www.pieceofgerman.com/a1-1"
+      link: "https://www.youtube.com/watch?v=S8ukFF6SdGk"
     },
     {
       id: "res-goethe-a1-official",
