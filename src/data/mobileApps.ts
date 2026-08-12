@@ -50,7 +50,7 @@ export const MOBILE_APPS_DATA: MobileAppsData = {
       bestFor: "Immersive A1 Storytelling and Interactive Video Exercises",
       description: "Official Deutsche Welle app featuring Nico's journey through Germany. Includes transcriptions, vocabulary, and instant exercise checks.",
       recommendedUse: "Daily 20 min: Watch 1 episode and complete corresponding grammar exercises.",
-      storeUrl: "https://learngerman.dw.com/",
+      storeUrl: "https://learngerman.dw.com",
       tags: ["Story", "Video", "Official DW", "Free"]
     },
     {
@@ -106,7 +106,7 @@ export const MOBILE_APPS_DATA: MobileAppsData = {
       bestFor: "Finding Native German Speaking Partners for Language Exchange",
       description: "Global language exchange community connecting learners with native German speakers learning Arabic or English.",
       recommendedUse: "Week 4+: Practice simple text and voice message exchanges with native speakers.",
-      storeUrl: "https://www.tandem.net/",
+      storeUrl: "https://www.tandem.net",
       tags: ["Conversation", "Peer Exchange", "Native Speakers"]
     }
   ]

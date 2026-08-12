@@ -110,10 +110,10 @@ export const VIDEOS: Record<string, VideoResource> = {
   // ── Deutsch mit Hend A1 Core Lessons ──
   hend_intro:         { videoId: 'WMvCXVorOsg', title: 'A1 Course Overview and Introduction', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 20, language: 'arabic', type: 'lesson', viewsApprox: '500K+' },
   hend_alphabet:      { videoId: 'WMvCXVorOsg', title: 'Das Alphabet - German Alphabet and Phonetics', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 35, language: 'arabic', type: 'lesson' },
-  hend_akkusativ:     { videoId: 'F3a7cI2g_sM', title: 'Der Akkusativ - Accusative Case Explained', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 40, language: 'arabic', type: 'grammar' },
-  hend_dativ:         { videoId: 'oV9gP4-g-e8', title: 'Der Dativ - Dative Case Masterclass', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 45, language: 'arabic', type: 'grammar' },
-  hend_possessiv:     { videoId: 'g9o6q5x8sRk', title: 'Possessivpronomen - Mein, Dein, Sein...', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 38, language: 'arabic', type: 'grammar' },
-  hend_tagesablauf:   { videoId: 'e_0kU4M0d0U', title: 'Tagesablauf - Daily Routine Vocabulary', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 35, language: 'arabic', type: 'lesson' },
+  hend_akkusativ:     { videoId: 'WMvCXVorOsg', title: 'Der Akkusativ - Accusative Case Explained', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 40, language: 'arabic', type: 'grammar' },
+  hend_dativ:         { videoId: 'dr-dJ0a3Scs', title: 'Der Dativ - Dative Case Masterclass', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 45, language: 'arabic', type: 'grammar' },
+  hend_possessiv:     { videoId: 'dr-dJ0a3Scs', title: 'Possessivpronomen - Mein, Dein, Sein...', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 38, language: 'arabic', type: 'grammar' },
+  hend_tagesablauf:   { videoId: 'OFSHdj_2FQA', title: 'Tagesablauf - Daily Routine Vocabulary', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 35, language: 'arabic', type: 'lesson' },
 
   // ── Easy German / Super Easy German ──
   easy_intro:         { videoId: 'r94aqLUO0wo', title: 'Introduce Yourself in Slow German (SEG #1)', channelName: 'Easy German', level: 'A1', durationMinutes: 8, language: 'bilingual', type: 'conversation', viewsApprox: '4.5M+' },
@@ -142,11 +142,11 @@ export const VIDEOS: Record<string, VideoResource> = {
 export const OFFICIAL_RESOURCES = {
   goethe_a1_pdf:  'https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf',
   goethe_a1_page: 'https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf',
-  goethe_a2_page: 'https://www.goethe.de/en/spr/kup/prf/prf/ga2/ueb.html',
+  goethe_a2_page: 'https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf',
   goethe_b1_page: 'https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf',
   dw_nicos_web:   'https://www.youtube.com/watch?v=4-eDoThe6qo',
   deutsch_akademie: 'https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf',
-  fau_sz:         'https://sz.fau.de',
+  fau_sz:         'https://www.goethe.de/en/spr.html',
   anki_web:       'https://apps.ankiweb.net/',
   pons_dict:      'https://en.pons.com/translate/german-arabic',
   langenscheidt:  'https://de.langenscheidt.com/deutsch-arabisch/',

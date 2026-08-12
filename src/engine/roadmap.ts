@@ -192,7 +192,7 @@ const PHASE_TEMPLATES: PhaseTemplate[] = [
       { name: 'SRS Vocabulary Tracker', nameAR: 'بطاقات المفردات', purpose: 'Continue SRS reviews daily', isBuiltIn: true, buildinView: 'vocabulary' },
       { name: 'italki Community', nameAR: 'مجتمع إيتالكي', purpose: 'Free language exchange with native German speakers', url: 'https://italki.com/community', isBuiltIn: false },
       { name: 'LanguageTool', nameAR: 'LanguageTool', purpose: 'Grammar checker for your German writing', url: 'https://languagetool.org', isBuiltIn: false },
-      { name: 'DW Top-Thema', nameAR: 'DW Top-Thema', purpose: 'Graded articles with audio and exercises', url: 'https://www.dw.com/de/deutsch-lernen/top-thema/s-8031', isBuiltIn: false },
+      { name: 'DW Top-Thema', nameAR: 'DW Top-Thema', purpose: 'Graded articles with audio and exercises', url: 'https://learngerman.dw.com', isBuiltIn: false },
     ],
   },
   {

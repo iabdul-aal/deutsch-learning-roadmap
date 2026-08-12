@@ -157,7 +157,7 @@ const SpeakingDrillCard: React.FC<{ title: string }> = ({ title }) => {
 
 // ── Lesson Resource Attachment Card ────────────────────────────────
 const TaskResourceCard: React.FC<{ task: any }> = ({ task }) => {
-  const link = task.link || 'https://www.youtube.com/playlist?list=WMvCXVorOsg';
+  const link = task.link || 'https://www.youtube.com/watch?v=WMvCXVorOsg';
   return (
     <div className="mt-3 bg-stone-50 border border-stone-200 rounded-xl p-3 space-y-2">
       <p className="text-[11px] text-stone-600 font-bold uppercase tracking-wide">Lesson Attachment & Resource</p>
