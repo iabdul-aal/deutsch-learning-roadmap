@@ -20,7 +20,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 1 - German Alphabet and Phonetics",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -198,7 +198,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 3 - Numbers and W-Fragen",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -589,7 +589,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 7 - Accusative Case Explained",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=F3a7cI2g_sM"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -631,7 +631,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Repeat Accusative sentence patterns out loud 25 times",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=F3a7cI2g_sM"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Mobile App",
@@ -903,7 +903,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 11 - Separable Verbs Masterclass",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -924,7 +924,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch Survival A1: Audio practice on separable verbs in daily speech",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Quiz",
@@ -945,7 +945,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Shadow daily routine descriptions with separable verbs 3 times",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Mobile App",
@@ -1117,7 +1117,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 13 - Modal Verbs Part 1",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -1152,7 +1152,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Shadow modal verb sentence patterns 20 times",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Mobile App",
@@ -1626,7 +1626,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 18 - The Dative Case Demystified",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -1668,7 +1668,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Shadow Dative sentence transformations 25 times",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Mobile App",
@@ -1701,7 +1701,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 19 - Dative Personal Pronouns",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -1770,7 +1770,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 20 - Fixed Dative Prepositions",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -1805,7 +1805,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Recite the Dative preposition mnemonic out loud 20 times",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Mobile App",
@@ -1914,7 +1914,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 22 - Two-Way Prepositions (Wo? + Dativ)",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -2811,7 +2811,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 31 - Inseparable Prefix Verbs in Perfekt",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",

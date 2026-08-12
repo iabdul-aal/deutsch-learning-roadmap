@@ -478,7 +478,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Dative Case Articles & Pronouns (dem, der, dem, den / mir, dir, ihm)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -492,7 +492,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Dative Case Articles & Pronouns (dem, der, dem, den / mir, dir, ihm)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Memorize",
@@ -520,7 +520,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Dative Case Articles & Pronouns (dem, der, dem, den / mir, dir, ihm)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             }
           ],
           "targetMetrics": {
@@ -542,7 +542,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Dative-Only Prepositions (aus, bei, mit, nach, seit, von, zu)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -556,7 +556,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Dative-Only Prepositions (aus, bei, mit, nach, seit, von, zu)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Memorize",
@@ -584,7 +584,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Dative-Only Prepositions (aus, bei, mit, nach, seit, von, zu)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             }
           ],
           "targetMetrics": {
@@ -606,7 +606,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Two-Way Prepositions: Position (Wo? + Dative)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -620,7 +620,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Two-Way Prepositions: Position (Wo? + Dative)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Memorize",
@@ -648,7 +648,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Two-Way Prepositions: Position (Wo? + Dative)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             }
           ],
           "targetMetrics": {
@@ -734,7 +734,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Position Verbs Pair 1: stehen vs stellen (Dative vs Accusative)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -748,7 +748,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Position Verbs Pair 1: stehen vs stellen (Dative vs Accusative)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Memorize",
@@ -776,7 +776,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Position Verbs Pair 1: stehen vs stellen (Dative vs Accusative)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             }
           ],
           "targetMetrics": {
@@ -1126,7 +1126,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Perfekt with Separable Verbs (einkaufen -> eingekauft)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -1140,7 +1140,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Perfekt with Separable Verbs (einkaufen -> eingekauft)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Memorize",
@@ -1168,7 +1168,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Perfekt with Separable Verbs (einkaufen -> eingekauft)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             }
           ],
           "targetMetrics": {
@@ -1190,7 +1190,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Perfekt with Inseparable Verbs (verstehen -> verstanden, bezahlen)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -1204,7 +1204,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Perfekt with Inseparable Verbs (verstehen -> verstanden, bezahlen)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Memorize",
@@ -1232,7 +1232,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Perfekt with Inseparable Verbs (verstehen -> verstanden, bezahlen)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             }
           ],
           "targetMetrics": {
@@ -1454,7 +1454,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Simple Past of Modals: konnte (could) & musste (had to)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -1468,7 +1468,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Simple Past of Modals: konnte (could) & musste (had to)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Memorize",
@@ -1496,7 +1496,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Simple Past of Modals: konnte (could) & musste (had to)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             }
           ],
           "targetMetrics": {
@@ -1518,7 +1518,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Simple Past of Modals: wollte, sollte, durfte",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -1532,7 +1532,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Simple Past of Modals: wollte, sollte, durfte",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Memorize",
@@ -1560,7 +1560,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Simple Past of Modals: wollte, sollte, durfte",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             }
           ],
           "targetMetrics": {
@@ -1910,7 +1910,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Reflexive Verbs with Dative (sich etwas wünschen, sich die Hände waschen)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -1924,7 +1924,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Reflexive Verbs with Dative (sich etwas wünschen, sich die Hände waschen)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Memorize",
@@ -1952,7 +1952,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Reflexive Verbs with Dative (sich etwas wünschen, sich die Hände waschen)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             }
           ],
           "targetMetrics": {
@@ -2102,7 +2102,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Adjective Endings in Accusative & Dative Cases",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -2116,7 +2116,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Adjective Endings in Accusative & Dative Cases",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Memorize",
@@ -2144,7 +2144,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Adjective Endings in Accusative & Dative Cases",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             }
           ],
           "targetMetrics": {
@@ -2558,7 +2558,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Expressing Possession: Genitive vs 'von' + Dative in Spoken German",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -2572,7 +2572,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Expressing Possession: Genitive vs 'von' + Dative in Spoken German",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Memorize",
@@ -2600,7 +2600,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Expressing Possession: Genitive vs 'von' + Dative in Spoken German",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             }
           ],
           "targetMetrics": {

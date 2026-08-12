@@ -342,7 +342,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Genitive vs Dative ('von' + Dative in Spoken German)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -356,7 +356,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Genitive vs Dative ('von' + Dative in Spoken German)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Memorize",
@@ -384,7 +384,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Genitive vs Dative ('von' + Dative in Spoken German)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             }
           ],
           "targetMetrics": {
@@ -606,7 +606,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Relative Clauses in Dative (der Kollege, dem ich helfe...)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -620,7 +620,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Relative Clauses in Dative (der Kollege, dem ich helfe...)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Memorize",
@@ -648,7 +648,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Relative Clauses in Dative (der Kollege, dem ich helfe...)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             }
           ],
           "targetMetrics": {
@@ -1062,7 +1062,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Passive Voice with Modal Verbs (muss gemacht werden / kann gelöst werden)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -1076,7 +1076,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Passive Voice with Modal Verbs (muss gemacht werden / kann gelöst werden)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Memorize",
@@ -1104,7 +1104,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Passive Voice with Modal Verbs (muss gemacht werden / kann gelöst werden)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             }
           ],
           "targetMetrics": {
@@ -1126,7 +1126,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Agent vs Instrument in Passive (von + Dativ vs durch + Akkusativ)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=F3a7cI2g_sM"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -1140,7 +1140,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Agent vs Instrument in Passive (von + Dativ vs durch + Akkusativ)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=F3a7cI2g_sM"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Memorize",
@@ -1168,7 +1168,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Agent vs Instrument in Passive (von + Dativ vs durch + Akkusativ)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=F3a7cI2g_sM"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             }
           ],
           "targetMetrics": {
@@ -2102,7 +2102,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Primary B1 Lesson: Modal Subordinate Clauses with 'indem' & 'dadurch, dass'",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -2116,7 +2116,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Supplementary Video & Real-World Examples: Modal Subordinate Clauses with 'indem' & 'dadurch, dass'",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Memorize",
@@ -2144,7 +2144,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Modal Subordinate Clauses with 'indem' & 'dadurch, dass'",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             }
           ],
           "targetMetrics": {
