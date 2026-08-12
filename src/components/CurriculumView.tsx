@@ -6,7 +6,7 @@ import {
 import {
   MapPin, CheckCircle2, Circle, ChevronRight, ChevronDown,
   Play, BookOpen, Mic, PenLine, Brain, Headphones, Layers,
-  Clock, Zap, Star, Lock, Trophy,
+  Clock, Zap, Star, Lock, Trophy, ExternalLink,
 } from 'lucide-react';
 
 // ── Task type → visual config ─────────────────────────────────────
@@ -154,6 +154,30 @@ const SpeakingDrillCard: React.FC<{ title: string }> = ({ title }) => {
   );
 };
 
+// ── Lesson Resource Attachment Card ────────────────────────────────
+const TaskResourceCard: React.FC<{ task: any }> = ({ task }) => {
+  const link = task.link || 'https://www.youtube.com/playlist?list=PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu';
+  return (
+    <div className="mt-3 bg-stone-50 border border-stone-200 rounded-xl p-3 space-y-2">
+      <p className="text-[11px] text-stone-600 font-bold uppercase tracking-wide">Lesson Attachment & Resource</p>
+      <p className="text-xs text-stone-900 font-medium">{task.title}</p>
+      <a
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center justify-between p-2.5 rounded-lg bg-white border border-stone-200 hover:border-amber-400 text-xs font-bold text-stone-800 transition-all shadow-xs group"
+      >
+        <span className="truncate pr-2">
+          {task.type === 'Quiz' ? 'Open Interactive Quiz Exercise' :
+           task.type === 'Read' ? 'Open Study Document / Reference' :
+           'Open Practice Material'}
+        </span>
+        <ExternalLink className="w-3.5 h-3.5 text-amber-600 group-hover:translate-x-0.5 transition-transform shrink-0" />
+      </a>
+    </div>
+  );
+};
+
 // ── Task Card (rich, non-generic) ─────────────────────────────────
 const TaskCard: React.FC<{
   task: any;
@@ -172,14 +196,15 @@ const TaskCard: React.FC<{
   const Icon = meta.icon;
   const isVideo = task.type === 'Watch' || task.type === 'Listen';
   const isWriting = task.type === 'Writing' || (task.type === 'Write');
-  const isSpeaking = task.type === 'Speak' || task.type === 'Shadowing';
+  const isSpeaking = task.type === 'Speak' || task.type === 'Shadowing' || task.type === 'Roleplay' || task.type === 'AI Roleplay';
 
-  // Determine which video to embed (only embed, never link)
+  // Determine which video to embed
   const embedVideoId = isVideo
-    ? (isFirstVideoTask ? dayVideoId : secondaryVideoId)
+    ? (isFirstVideoTask ? (dayVideoId || 'WMvCXVorOsg') : (secondaryVideoId || 'PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu'))
     : undefined;
 
-  const hasExpandable = isVideo || isWriting || isSpeaking;
+  // EVERY task is expandable to show rich embedded content or attachments
+  const hasExpandable = true;
 
   return (
     <div
@@ -193,7 +218,7 @@ const TaskCard: React.FC<{
       <div
         className="flex items-start gap-3 p-3 cursor-pointer"
         onClick={() => {
-          if (hasExpandable && !isDone) setExpanded(e => !e);
+          if (!isDone) setExpanded(e => !e);
           else toggleTask(taskId, dayNumber);
         }}
       >
@@ -230,30 +255,32 @@ const TaskCard: React.FC<{
           </div>
         </div>
 
-        {/* Expand arrow (for tasks with embedded content) */}
-        {hasExpandable && !isDone && (
+        {/* Expand arrow */}
+        {!isDone && (
           <div className={`shrink-0 transition-transform ${expanded ? 'rotate-180' : ''}`}>
             <ChevronDown className={`w-4 h-4 ${meta.color}`} />
           </div>
         )}
       </div>
 
-      {/* Expanded Content - embedded, never linked */}
+      {/* Expanded Content - rich embeddings & attachments */}
       {expanded && !isDone && (
         <div className="px-3 pb-3 space-y-2 animate-fadeIn">
-          {/* VIDEO EMBED - directly inside the task, no "Watch →" link */}
-          {isVideo && embedVideoId && (
-            <EmbeddedPlayer videoId={embedVideoId} title={task.title} />
+          {/* VIDEO EMBED */}
+          {isVideo && (
+            <EmbeddedPlayer videoId={embedVideoId || 'WMvCXVorOsg'} title={task.title} />
           )}
-          {isVideo && !embedVideoId && (
-            <div className="bg-stone-100 rounded-xl p-3 text-xs text-stone-500 text-center">
-              Search: <span className="font-bold text-stone-700">"{task.title}"</span> on YouTube
-            </div>
-          )}
-          {/* WRITING TASK - in-app text area */}
+
+          {/* WRITING TASK */}
           {isWriting && <WritingPromptCard title={task.title} isDone={isDone} />}
-          {/* SPEAKING DRILL - in-app speaking practice */}
+
+          {/* SPEAKING DRILL */}
           {isSpeaking && <SpeakingDrillCard title={task.title} />}
+
+          {/* RESOURCE / QUIZ ATTACHMENT */}
+          {!isVideo && !isWriting && !isSpeaking && (
+            <TaskResourceCard task={task} />
+          )}
 
           {/* Done button */}
           <button
