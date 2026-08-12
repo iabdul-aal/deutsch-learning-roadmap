@@ -48,7 +48,7 @@ export const CURRICULUM_DATA = {
           intensiveTasks: [
             { type: "Writing", title: "Write a 100-word paragraph introducing yourself and your family members", duration: "40 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Shadowing", title: "Shadow Nico's introductory dialogue in Nicos Weg Ep 1-3", duration: "35 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Mobile App", title: "Practice Seedlang Verb Conjugation trainer for 'kommen', 'wohnen', 'sein'", duration: "30 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
+            { type: "Mobile App", title: "Practice Seedlang Verb Conjugation trainer for 'kommen', 'wohnen', 'sein'", duration: "30 min", link: "https://apps.ankiweb.net/" },
             { type: "Survival German", title: "Learn airport arrival phrase: 'Ich heiße X, ich komme aus Ägypten.'", duration: "15 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           targetMetrics: { vocab: 15, listeningMinutes: 45, speakingMinutes: 20, writingTasks: 1 }
@@ -90,7 +90,7 @@ export const CURRICULUM_DATA = {
             { type: "Color Coding", title: "Label 20 items in your room with sticky notes showing Der (Blue), Die (Red), Das (Green)", duration: "40 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Writing", title: "Write sentences using 'Das ist ein...' and 'Das ist eine...' for 15 objects", duration: "35 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Shadowing", title: "Repeat noun + article pairs 30 times with proper stress", duration: "30 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Mobile App", title: "Seedlang Article Trainer - 50 items", duration: "25 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" }
+            { type: "Mobile App", title: "Seedlang Article Trainer - 50 items", duration: "25 min", link: "https://apps.ankiweb.net/" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 30, speakingMinutes: 15, writingTasks: 1 }
         },
@@ -100,12 +100,12 @@ export const CURRICULUM_DATA = {
           focusSkill: "Grammar and Speaking",
           objective: "Differentiate negation of nouns with 'kein/keine' versus verbs/adjectives/names with 'nicht'.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 5 - Negation (nicht vs kein)", duration: "40 min", resourceType: "PRIMARY", link: "https://lingua.com/german/reading/" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 5 - Negation (nicht vs kein)", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Watch", title: "DW Nicos Weg: Episode 5 and 6 - Ist das dein Koffer?", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Memorize", title: "15 opposites and negation vocabulary (gut/schlecht, groß/klein, kein Geld, nicht müde)", duration: "30 min", resourceType: "VOCAB", link: "https://en.pons.com/translate/german-arabic" },
-            { type: "Listen", title: "Easy German: 'Nein' and polite refusal phrases", duration: "20 min", resourceType: "LISTENING", link: "https://de.langenscheidt.com/deutsch-arabisch/" },
-            { type: "Speak", title: "Answer 10 negative questions out loud ('Trinkst du Kaffee?' -> 'Nein, ich trinke keinen Kaffee')", duration: "20 min", resourceType: "SPEAKING", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Quiz", title: "Complete Day 5 Negation Mastery Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
+            { type: "Listen", title: "Easy German: 'Nein' and polite refusal phrases", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Speak", title: "Answer 10 negative questions out loud ('Trinkst du Kaffee?' -> 'Nein, ich trinke keinen Kaffee')", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Quiz", title: "Complete Day 5 Negation Mastery Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
           ],
           intensiveTasks: [
             { type: "Writing", title: "Convert 15 positive sentences into negative sentences using 'nicht' or 'kein'", duration: "40 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
@@ -188,12 +188,12 @@ export const CURRICULUM_DATA = {
           focusSkill: "Vocabulary and Practical German",
           objective: "Navigate a German supermarket (REWE, Edeka, ALDI), ask prices, buy food, and understand weights/quantities.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 8 - Food and Supermarket Vocabulary", duration: "40 min", resourceType: "PRIMARY", link: "https://en.pons.com/translate/german-arabic/Essen" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 8 - Food and Supermarket Vocabulary", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Watch", title: "DW Nicos Weg: Episode 7 and 8 - Im Supermarkt", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Memorize", title: "20 food items and quantities (Brot, Wasser, Apfel, Käse, Kilo, Flasche, Packung...)", duration: "35 min", resourceType: "VOCAB", link: "https://en.pons.com/translate/german-arabic/Essen" },
+            { type: "Memorize", title: "20 food items and quantities (Brot, Wasser, Apfel, Käse, Kilo, Flasche, Packung...)", duration: "35 min", resourceType: "VOCAB", link: "https://en.pons.com/translate/german-arabic" },
             { type: "Listen", title: "Super Easy German #12: Grocery shopping in Germany", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Speak", title: "Roleplay ordering at a bakery: 'Ich hätte gerne zwei Brötchen, bitte.'", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Quiz", title: "Complete Day 9 Food and Shopping Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://en.pons.com/translate/german-arabic/Essen" }
+            { type: "Quiz", title: "Complete Day 9 Food and Shopping Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
           ],
           intensiveTasks: [
             { type: "Writing", title: "Create a full weekly grocery shopping list in German with articles and quantities", duration: "35 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },

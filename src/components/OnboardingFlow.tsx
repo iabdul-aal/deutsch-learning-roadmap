@@ -619,7 +619,7 @@ const DiagnosticFlow: React.FC<{
       {/* Results */}
       {stepKey === 'results' && (
         <div className="space-y-4">
-          <h2 className="text-2xl font-black text-stone-900 text-center">Diagnostic Results</h2>
+          <h2 className="text-2xl font-black text-stone-900 text-center">Your Starting Point</h2>
 
           <div className="bg-amber-50 border border-amber-200 rounded-2xl p-5 space-y-3">
             <div className="flex items-center justify-between">
@@ -641,7 +641,7 @@ const DiagnosticFlow: React.FC<{
               />
             </div>
             <p className="text-xs text-stone-500 leading-relaxed">
-              This is an initial estimate. Your roadmap will adapt as you study and take assessments.
+              This is just a starting estimate. Your roadmap will sharpen as you study and complete check-ins.
             </p>
           </div>
 
@@ -781,11 +781,11 @@ export const OnboardingFlow: React.FC = () => {
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-0.5">
-                    <h3 className="text-lg font-black text-white">Full Diagnostic</h3>
+                    <h3 className="text-lg font-black text-white">Deep Setup</h3>
                     <span className="text-xs bg-stone-700 text-stone-300 px-2 py-0.5 rounded-full font-bold">15 min</span>
                   </div>
                   <p className="text-sm text-stone-400 font-medium">
-                    Placement test + skill assessment - deep personalization
+                    A short quiz + skill rating — builds a roadmap that actually fits you
                   </p>
                 </div>
                 <ChevronRight className="w-5 h-5 text-stone-500 group-hover:translate-x-1 transition-transform" />
@@ -793,7 +793,7 @@ export const OnboardingFlow: React.FC = () => {
               <div className="flex items-center gap-2 mt-3 ml-16">
                 <AlertCircle className="w-3.5 h-3.5 text-amber-500" />
                 <p className="text-[11px] text-stone-500">
-                  Recommended - produces a significantly more accurate roadmap
+                  Recommended — gives you a much more accurate starting roadmap
                 </p>
               </div>
             </button>

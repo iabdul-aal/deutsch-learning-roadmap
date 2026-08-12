@@ -142,10 +142,10 @@ export const VIDEOS: Record<string, VideoResource> = {
 export const OFFICIAL_RESOURCES = {
   goethe_a1_pdf:  'https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf',
   goethe_a1_page: 'https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf',
-  goethe_a2_page: 'https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf',
-  goethe_b1_page: 'https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf',
-  dw_nicos_web:   'https://www.youtube.com/watch?v=4-eDoThe6qo',
-  deutsch_akademie: 'https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf',
+  goethe_a2_page: 'https://www.goethe.de/de/spr/kup/prf/prf/gz_a2.html',
+  goethe_b1_page: 'https://www.goethe.de/de/spr/kup/prf/prf/gb1.html',
+  dw_nicos_web:   'https://learngerman.dw.com/en/nicos-weg',
+  deutsch_akademie: 'https://www.deutschakademie.de/online-deutschkurs/App#user/exercises',
   fau_sz:         'https://www.goethe.de/en/spr.html',
   anki_web:       'https://apps.ankiweb.net/',
   pons_dict:      'https://en.pons.com/translate/german-arabic',
@@ -168,7 +168,16 @@ export function getVideosByLevel(level: 'A1' | 'A2' | 'B1'): VideoResource[] {
 // Get playlist embed URL
 export function getPlaylistEmbedUrl(channelKey: string, level: string): string | null {
   const channel = CHANNELS[channelKey];
-  const playlistId = channel?.playlists?.[level];
-  if (!playlistId) return null;
-  return `https://www.youtube.com/embed/videoseries?list=${playlistId}&rel=0 and modestbranding=1`;
+  const url = channel?.playlists?.[level];
+  if (!url) return null;
+  // If stored as a watch URL, extract the video ID and embed directly
+  if (url.includes('youtube.com/watch?v=')) {
+    const videoId = url.split('v=')[1]?.split('&')[0];
+    if (videoId) return `https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1`;
+  }
+  // If it's already a bare playlist ID (PLxxxxxxx)
+  if (url.startsWith('PL')) {
+    return `https://www.youtube.com/embed/videoseries?list=${url}&rel=0&modestbranding=1`;
+  }
+  return null;
 }

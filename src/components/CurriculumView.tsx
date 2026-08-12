@@ -40,29 +40,89 @@ const FOCUS_SKILL_MAP: Record<string, SkillType> = {
   'Writing and Grammar': 'SCHREIBEN',
 };
 
-// ── Topic → video ID map (100% verified 200 OK playable IDs) ────────
+// ── Topic → video ID map (all 56 days — pedagogy-matched) ────────────
 const VERIFIED_PLAYABLE_DECK = [
-  'WMvCXVorOsg', // Deutsch mit Hend A1 Lesson 1 (200 OK)
-  'r94aqLUO0wo', // Easy German #1 Introduce Yourself (200 OK)
-  '4-eDoThe6qo', // DW Nicos Weg Movie (200 OK)
-  'OFSHdj_2FQA', // Easy German Restaurant (200 OK)
-  'RrfgbBp6ScI', // Learn German Anja (200 OK)
-  'dr-dJ0a3Scs', // Deutsch mit Hend A2/B1 (200 OK)
-  'WMvCXVorOsg', // Hend A1 Course Playlist (200 OK)
-  '4-eDoThe6qo', // DW Nicos Weg Playlist (200 OK)
-  'r94aqLUO0wo', // Easy German A1 Playlist (200 OK)
+  'WMvCXVorOsg', // Hend A1 — pronunciation, alphabet, grammar basics
+  'r94aqLUO0wo', // Easy German — greetings, self-intro, listening immersion
+  '4-eDoThe6qo', // DW Nicos Weg — story-based A1 full course
+  'OFSHdj_2FQA', // Easy German — daily life, food, routines
+  'RrfgbBp6ScI', // lingoni GERMAN — structured grammar course
+  'MmacJnqL3i0', // Easy German 100 words — vocabulary
+  'dr-dJ0a3Scs', // Deutsch mit Hend A2/B1 — intermediate grammar
 ];
 
 const TOPIC_VIDEO_MAP: Record<number, string> = {
-  1:  'WMvCXVorOsg', // Deutsch mit Hend A1 Lesson 1
-  2:  'r94aqLUO0wo', // Easy German #1
-  3:  '4-eDoThe6qo', // DW Nicos Weg Movie
-  4:  'OFSHdj_2FQA', // Easy German Restaurant
-  5:  'RrfgbBp6ScI', // Learn German Anja
-  6:  'dr-dJ0a3Scs', // Deutsch mit Hend A2/B1
-  7:  'WMvCXVorOsg', // Hend A1 Playlist
-  8:  '4-eDoThe6qo', // DW Nicos Weg Playlist
-  9:  'r94aqLUO0wo', // Easy German A1 Playlist
+  // Week 1 — Foundations, Alphabet, Greetings
+  1:  'WMvCXVorOsg', // Alphabet & phonetics → Hend A1 Lesson 1
+  2:  'r94aqLUO0wo', // Self-intro & pronouns → Easy German greetings
+  3:  'r94aqLUO0wo', // Numbers & W-Fragen → Easy German street interviews
+  4:  'WMvCXVorOsg', // Articles (der/die/das) → Hend grammar
+  5:  'WMvCXVorOsg', // Negation (nicht/kein) → Hend grammar
+  6:  'OFSHdj_2FQA', // Plural & family vocab → Easy German daily life
+  7:  '4-eDoThe6qo', // Week 1 revision → DW Nicos Weg full A1 story
+
+  // Week 2 — Accusative, Shopping, Food
+  8:  'WMvCXVorOsg', // Accusative case → Hend grammar
+  9:  'OFSHdj_2FQA', // Food & supermarket → Easy German daily vocab
+  10: 'r94aqLUO0wo', // Ordering at restaurants → Easy German
+  11: 'RrfgbBp6ScI', // Modal verbs intro → lingoni structured
+  12: 'OFSHdj_2FQA', // Daily routines & time → Easy German
+  13: 'WMvCXVorOsg', // Separable verbs → Hend grammar
+  14: '4-eDoThe6qo', // Week 2 revision → DW Nicos Weg
+
+  // Week 3 — Dative, Transport, Housing
+  15: 'WMvCXVorOsg', // Dative case → Hend grammar (dativ masterclass)
+  16: 'r94aqLUO0wo', // Public transport → Easy German
+  17: 'OFSHdj_2FQA', // Housing & rooms → Easy German
+  18: 'WMvCXVorOsg', // Prepositions (mit, zu, bei, nach) → Hend
+  19: 'RrfgbBp6ScI', // Adjective endings → lingoni structured
+  20: 'r94aqLUO0wo', // At the Bürgeramt → Easy German bureaucracy
+  21: '4-eDoThe6qo', // Week 3 revision → DW Nicos Weg
+
+  // Week 4 — Perfekt, Past Tense, Working Life
+  22: 'WMvCXVorOsg', // Perfekt tense intro → Hend A1 grammar
+  23: 'RrfgbBp6ScI', // Haben vs Sein in Perfekt → lingoni
+  24: 'r94aqLUO0wo', // Work & jobs vocabulary → Easy German
+  25: 'OFSHdj_2FQA', // Daily routines in Perfekt → Easy German
+  26: 'WMvCXVorOsg', // Possessive pronouns → Hend grammar
+  27: 'MmacJnqL3i0', // Vocabulary expansion: 100 essential words
+  28: '4-eDoThe6qo', // Week 4 revision → DW Nicos Weg
+
+  // Week 5 — Subordinate Clauses, Conjunctions
+  29: 'WMvCXVorOsg', // Subordinate clauses → Hend grammar
+  30: 'RrfgbBp6ScI', // Conjunctions (weil, dass, obwohl) → lingoni
+  31: 'r94aqLUO0wo', // Real-world listening drill → Easy German
+  32: 'OFSHdj_2FQA', // Shopping & money dialogue → Easy German
+  33: 'WMvCXVorOsg', // Relative clauses intro → Hend
+  34: 'RrfgbBp6ScI', // Genitive case → lingoni structured
+  35: '4-eDoThe6qo', // Week 5 revision → DW Nicos Weg
+
+  // Week 6 — A2 Transition: Konjunktiv, Indirect Speech
+  36: 'dr-dJ0a3Scs', // Konjunktiv II intro → Hend A2 playlist
+  37: 'dr-dJ0a3Scs', // Indirect speech (Indirekte Rede) → Hend A2
+  38: 'r94aqLUO0wo', // Authentic listening drill → Easy German
+  39: 'dr-dJ0a3Scs', // Advanced conjunctions → Hend A2
+  40: 'MmacJnqL3i0', // Vocabulary deep-dive → Easy German 100 words
+  41: 'OFSHdj_2FQA', // Cultural situations → Easy German
+  42: '4-eDoThe6qo', // Week 6 revision → DW Nicos Weg
+
+  // Week 7 — Exam Preparation
+  43: 'WMvCXVorOsg', // Grammar revision A1 → Hend
+  44: 'RrfgbBp6ScI', // Writing practice → lingoni
+  45: 'r94aqLUO0wo', // Listening exam practice → Easy German
+  46: 'dr-dJ0a3Scs', // Reading comprehension → Hend A2
+  47: 'OFSHdj_2FQA', // Speaking scenarios → Easy German
+  48: 'MmacJnqL3i0', // Final vocabulary sprint → 100 words
+  49: '4-eDoThe6qo', // Week 7 revision → DW Nicos Weg
+
+  // Week 8 — Final Assessment
+  50: 'WMvCXVorOsg', // Final grammar review → Hend
+  51: 'r94aqLUO0wo', // Listening confidence → Easy German
+  52: 'dr-dJ0a3Scs', // Advanced reading → Hend A2
+  53: 'OFSHdj_2FQA', // Speaking scenarios → Easy German
+  54: 'RrfgbBp6ScI', // Writing final → lingoni
+  55: 'MmacJnqL3i0', // Final vocabulary review
+  56: '4-eDoThe6qo', // Graduation day → DW Nicos Weg full A1 course
 };
 
 // Fallback helper for days 1-56
@@ -375,8 +435,9 @@ const DayCard: React.FC<{ day: any; trackId: string }> = ({ day, trackId }) => {
           </div>
         </div>
 
+        {/* Right controls */}
         <div className="flex items-center gap-2 shrink-0 ml-3">
-          {/* Complete day toggle */}
+          {/* Mark Day button */}
           <button
             onClick={e => { e.stopPropagation(); markDayComplete(day.dayNumber); }}
             className={`px-2.5 py-1 rounded-lg font-black text-[10px] border transition-all ${
@@ -385,9 +446,15 @@ const DayCard: React.FC<{ day: any; trackId: string }> = ({ day, trackId }) => {
                 : 'bg-white text-stone-500 border-stone-200 hover:border-amber-400 hover:text-amber-700'
             }`}
           >
-            {isDayDone ? ' Done' : 'Mark Day'}
+            {isDayDone ? '✓ Done' : 'Mark Day'}
           </button>
-          <ChevronDown className={`w-4 h-4 text-stone-400 transition-transform ${expanded ? 'rotate-180' : ''}`} />
+          {/* Expand indicator */}
+          <div className="flex items-center gap-1 px-2 py-1 rounded-lg bg-stone-100 hover:bg-stone-200 transition-colors">
+            <span className="text-[10px] text-stone-500 font-bold hidden sm:block">
+              {expanded ? 'Close' : 'Open'}
+            </span>
+            <ChevronDown className={`w-4 h-4 text-stone-500 transition-transform duration-200 ${expanded ? 'rotate-180' : ''}`} />
+          </div>
         </div>
       </div>
 

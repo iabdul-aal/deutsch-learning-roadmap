@@ -201,7 +201,7 @@ const ResourceCard: React.FC<{
               className="flex items-center justify-center gap-2 w-full py-2 px-3 rounded-lg bg-stone-900 hover:bg-stone-700 text-white text-xs font-bold transition-all"
             >
               <ExternalLink className="w-3.5 h-3.5" />
-              {source.type === 'VIDEO' ? 'Watch Video on YouTube' :
+              {source.type === 'VIDEO' ? (source.resourceId.startsWith('PL') || source.resourceId.includes('playlist') ? 'Open Full Playlist on YouTube' : 'Watch Video on YouTube') :
                source.type === 'PDF' ? 'Download PDF' : 'Open Resource'}
             </a>
           </div>
@@ -334,13 +334,13 @@ export const ResourcesView: React.FC = () => {
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div>
             <div className="text-[10px] font-black text-amber-700 uppercase tracking-widest mb-1">
-              AI Content Engine · {level} Level
+              Handpicked for you · {level} Level
             </div>
             <h2 className="text-xl font-black text-stone-900 leading-tight">
-              Ranked Resource Library
+              Resource Library
             </h2>
             <p className="text-xs text-stone-500 mt-1 max-w-lg">
-              Every resource ranked by a 4-signal algorithm: views (40%) · community recommendations (20%) · content match (20%) · pedagogy quality (20%). Arabic-instruction bonus applied.
+              Sorted by what actually works: learner views, community picks, how well it fits your level, and teaching quality. Arabic-instruction resources get priority.
             </p>
           </div>
           {/* Stats strip */}
@@ -365,8 +365,8 @@ export const ResourcesView: React.FC = () => {
           <div className="flex items-start gap-2.5">
             <Award className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
             <div className="text-xs text-stone-700 space-y-1">
-              <p className="font-bold text-stone-900">How the Ranking Works</p>
-              <p>Each resource is scored 0-100. Verified channels include: <strong>Deutsch mit Hend</strong> (primary Arabic channel), <strong>Shehata Deutsch</strong> (certified Goethe examiner), <strong>DW Nicos Weg</strong> (18M+ views), <strong>Easy German</strong>, <strong>Taleek</strong>, <strong>lingoni GERMAN</strong>, <strong>Learn German with Anja</strong>, and <strong>Goethe Institut</strong> official PDFs. Community data sourced from Reddit r/German, r/languagelearning, and Medium articles.</p>
+              <p className="font-bold text-stone-900">How we chose these</p>
+              <p>Verified channels only: <strong>Deutsch mit Hend</strong> (the go-to Arabic channel), <strong>Shehata Deutsch</strong> (certified Goethe examiner), <strong>DW Nicos Weg</strong> (18M+ views), <strong>Easy German</strong>, <strong>Taleek</strong>, <strong>lingoni GERMAN</strong>, <strong>Learn German with Anja</strong>, and <strong>Goethe Institut</strong> official exams. Community picks sourced from Reddit r/German, r/languagelearning, and real learner reviews.</p>
             </div>
           </div>
         </div>

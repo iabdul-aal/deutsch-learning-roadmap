@@ -127,10 +127,10 @@ export function computeNextActions(learner: LearnerModel): NextAction[] {
     actions.push({
       type: 'SRS_REVIEW',
       priority: 1,
-      title: `Review ${reviewCards.length} Due Words`,
-      titleAR: `مراجعة ${reviewCards.length} كلمة متأخرة`,
-      description: `You have ${reviewCards.length} vocabulary cards due for review. Reviewing now prevents forgetting.`,
-      reason: 'Spaced repetition: reviewing now maximizes long-term retention.',
+      title: `Review ${reviewCards.length} Due Word${reviewCards.length === 1 ? '' : 's'}`,
+      titleAR: `مراجعة ${reviewCards.length} كلمة`,
+      description: `You have ${reviewCards.length} word${reviewCards.length === 1 ? '' : 's'} ready to review — catch them now before they start to fade.`,
+      reason: 'Best to review words while they\'re still fresh. Waiting too long means starting from scratch.',
       estimatedMinutes: Math.ceil(reviewCards.length * 0.5),
       skill: 'WORTSCHATZ',
     });
@@ -150,10 +150,10 @@ export function computeNextActions(learner: LearnerModel): NextAction[] {
     actions.push({
       type: skillMap[weakest],
       priority: 2,
-      title: `Strengthen Your ${readable.en}`,
-      titleAR: `تقوية ${readable.ar}`,
-      description: `Your ${readable.en.toLowerCase()} is your current bottleneck at ${weakestMastery}% mastery.`,
-      reason: `Weakest skill (${weakestMastery}% mastery) - improving this unlocks your overall CEFR level.`,
+      title: `Work on Your ${readable.en}`,
+      titleAR: `تطوير ${readable.ar}`,
+      description: `Your ${readable.en.toLowerCase()} is where you'll grow the fastest right now — even short focused sessions here make a big difference.`,
+      reason: `This is your weakest area at the moment. A quick session here will lift everything else faster than practicing what you're already good at.`,
       estimatedMinutes: 20,
       skill: weakest,
     });
@@ -164,10 +164,10 @@ export function computeNextActions(learner: LearnerModel): NextAction[] {
     actions.push({
       type: 'GRAMMAR_CONCEPT',
       priority: 3,
-      title: 'Revisit Grammar Weak Points',
-      titleAR: 'مراجعة نقاط ضعف القواعد',
-      description: `${learner.weakConcepts.length} grammar concepts need reinforcement.`,
-      reason: 'Error pattern analysis detected recurring mistakes in these areas.',
+      title: 'Revisit Some Grammar',
+      titleAR: 'مراجعة بعض القواعد',
+      description: `You've stumbled on ${learner.weakConcepts.length} grammar point${learner.weakConcepts.length === 1 ? '' : 's'} before — a quick revisit now will make them stick for good.`,
+      reason: 'These are spots where you\'ve made the same slip more than once. Five minutes now saves a lot of frustration later.',
       estimatedMinutes: 15,
       skill: 'GRAMMATIK',
       resourceId: learner.weakConcepts[0],
@@ -180,10 +180,10 @@ export function computeNextActions(learner: LearnerModel): NextAction[] {
     actions.push({
       type: 'MISSION',
       priority: 4,
-      title: 'Start a Real-World Mission',
-      titleAR: 'ابدأ مهمة حياتية',
-      description: 'Apply your German in realistic scenarios (renting a flat, doctor visit, workplace).',
-      reason: 'Real-world practice converts passive knowledge into active skill.',
+      title: 'Try a Real-World Mission',
+      titleAR: 'جرّب مهمة من الحياة الحقيقية',
+      description: 'Use your German in a real situation — renting a flat, a doctor\'s appointment, a work email. This is where it all clicks.',
+      reason: 'You know enough to try the real thing. Missions turn what you\'ve learned into actual language you can use.',
       estimatedMinutes: 25,
     });
   }
@@ -196,8 +196,8 @@ export function computeNextActions(learner: LearnerModel): NextAction[] {
       priority: actions.length + 1,
       title: `Learn ${Math.min(10, stats.new)} New Words`,
       titleAR: `تعلم ${Math.min(10, stats.new)} كلمة جديدة`,
-      description: 'Expand your active vocabulary with today\'s new words.',
-      reason: `${stats.new} words waiting to be learned in your deck.`,
+      description: 'Pick up a few new words today — they add up faster than you think.',
+      reason: `You have ${stats.new} new words waiting. Learning a handful a day is how vocabulary really grows.`,
       estimatedMinutes: 15,
       skill: 'WORTSCHATZ',
     });

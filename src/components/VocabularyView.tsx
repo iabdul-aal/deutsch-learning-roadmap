@@ -292,7 +292,7 @@ export const VocabularyView: React.FC = () => {
         <div className="flex items-end justify-between gap-4">
           <div>
             <p className="text-[10px] font-black text-amber-700 uppercase tracking-widest mb-1">
-              SM-2 SPACED REPETITION · {A1_VOCABULARY.length} WORDS
+              DAILY WORD REVIEWS · {A1_VOCABULARY.length} WORDS
             </p>
             <h2 className="text-xl font-black text-stone-900">Wortschatz</h2>
             
@@ -500,7 +500,7 @@ export const VocabularyView: React.FC = () => {
         <div id="panel-stats" role="tabpanel" className="space-y-4">
           {/* SRS breakdown */}
           <div className="paper-card p-5">
-            <p className="text-[10px] font-black text-stone-400 uppercase tracking-widest mb-4">SRS Deck Status</p>
+            <p className="text-[10px] font-black text-stone-400 uppercase tracking-widest mb-4">Your Word Deck</p>
             <div className="grid grid-cols-2 gap-3">
               {[
                 { label: 'New',      labelAR: 'جديدة',       value: srsStats.new,      color: 'bg-stone-100 text-stone-700' },

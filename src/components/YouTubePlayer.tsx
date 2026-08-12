@@ -106,7 +106,7 @@ export const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-red-600 hover:bg-red-700 text-white text-xs font-black transition-all shadow-xs"
           >
             <Play className="w-3.5 h-3.5 fill-current" />
-            <span>Watch on YouTube</span>
+            <span>{videoId.startsWith('PL') || videoId.includes('playlist') ? 'Open Full Playlist on YouTube' : 'Watch on YouTube'}</span>
           </a>
           <button
             onClick={() => setIsFullscreen(true)}

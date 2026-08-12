@@ -107,7 +107,7 @@ const NextBestActionCard: React.FC<{
         <div className="flex items-center gap-2">
           <div className="flex items-center gap-1.5 bg-amber-500 text-stone-950 text-[10px] font-black px-3 py-1 rounded-full uppercase tracking-wide">
             <Zap className="w-3 h-3" />
-            Next Best Action
+            Up Next
           </div>
           {skillMeta && (
             <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${skillMeta.color}`}>
@@ -157,18 +157,18 @@ const NextBestActionCard: React.FC<{
               className="flex items-center gap-1.5 text-[11px] text-amber-400 hover:text-amber-300 font-bold transition-colors pt-1"
             >
               <Info className="w-3 h-3" />
-              Why this resource?
+              Why this one?
               {showReason ? <ChevronUp className="w-3 h-3" /> : <ChevronDown className="w-3 h-3" />}
             </button>
 
             {showReason && (
               <div className="bg-stone-900/50 rounded-xl p-3 text-[11px] text-stone-400 leading-relaxed">
                 {resource.channelOrAuthor.includes('DW') || resource.channelOrAuthor.includes('Deutsche Welle')
-                  ? 'Deutsche Welle is an official, CEFR-verified public broadcaster resource.'
-                  : 'Top-ranked by community recommendations, clarity, and pedagogical quality.'
+                  ? 'Deutsche Welle is the official German public broadcaster. Free, structured, and trusted by millions worldwide.'
+                  : 'Picked because real learners love it and it matches your level well.'
                 }
                 {resource.viewsApprox
-                  ? ` ${(resource.viewsApprox / 1000).toFixed(0)}K+ learners use this resource.`
+                  ? ` Over ${(resource.viewsApprox / 1_000_000).toFixed(1)}M learners have watched this.`
                   : ''
                 }
               </div>
@@ -180,27 +180,30 @@ const NextBestActionCard: React.FC<{
         <div className="flex items-center gap-3">
           <button
             onClick={onStart}
-            className="flex-1 flex items-center justify-center gap-2 py-3.5 rounded-2xl bg-amber-500 hover:bg-amber-400 text-stone-950 font-black text-sm transition-all shadow-lg shadow-amber-900/30 active:scale-[0.98]"
+            className="flex items-center justify-center gap-2 px-4 py-3.5 rounded-2xl bg-amber-500 hover:bg-amber-400 text-stone-950 font-black text-sm transition-all shadow-lg shadow-amber-900/30 active:scale-[0.98]"
           >
             <Play className="w-4 h-4 fill-current" />
-            Start Session
+            Go Study
           </button>
           {resource && (
             <a
               href={resourceUrl(resource)}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1.5 px-4 py-3.5 rounded-2xl border border-stone-700 text-stone-300 hover:text-white hover:border-stone-500 text-sm font-bold transition-all"
+              className="flex-1 flex items-center justify-center gap-1.5 px-4 py-3.5 rounded-2xl bg-white/10 border border-stone-600 hover:bg-white/20 text-white text-sm font-bold transition-all"
             >
               <ExternalLink className="w-3.5 h-3.5" />
-              Watch on YouTube
+              {resource.type === 'VIDEO' ? 'Watch on YouTube' : 'Open Resource'}
             </a>
           )}
         </div>
 
         {/* Reason footnote */}
         {action.reason && (
-          <p className="text-[11px] text-stone-600 leading-relaxed">{action.reason}</p>
+          <div className="flex items-start gap-1.5 bg-stone-800/50 border border-stone-700 rounded-xl px-3 py-2">
+            <Zap className="w-3 h-3 text-amber-400 shrink-0 mt-0.5" />
+            <p className="text-[11px] text-stone-300 leading-relaxed">{action.reason}</p>
+          </div>
         )}
       </div>
     </div>
@@ -267,10 +270,11 @@ const StackItem: React.FC<{
           {!isDone && (
             <button
               onClick={() => setExpanded(e => !e)}
-              className="p-1 rounded-lg hover:bg-stone-100 text-stone-400 transition-colors"
-              aria-label={expanded ? 'Collapse' : 'Expand'}
+              className="p-2 rounded-xl hover:bg-stone-100 text-stone-400 hover:text-stone-700 transition-all border border-transparent hover:border-stone-200"
+              aria-label={expanded ? 'Collapse details' : 'Show details'}
+              title={expanded ? 'Hide details' : 'Show details & resource'}
             >
-              {expanded ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
+              {expanded ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
             </button>
           )}
           <button
@@ -300,23 +304,23 @@ const StackItem: React.FC<{
               )}
             </div>
           )}
-          <div className="flex gap-2">
+          <div className="flex gap-2 flex-wrap">
             <button
               onClick={handleStart}
               className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-amber-500 text-stone-950 text-xs font-black hover:bg-amber-400 transition-all"
             >
-              <Play className="w-3 h-3 fill-current" />
-              Start
+              <ArrowRight className="w-3 h-3" />
+              Go to Section
             </button>
             {resource && (
               <a
                 href={resourceUrl(resource)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1.5 px-3 py-2 rounded-xl border border-stone-200 text-stone-600 text-xs font-bold hover:bg-white transition-all"
+                className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-stone-900 text-white text-xs font-bold hover:bg-stone-700 transition-all"
               >
                 <ExternalLink className="w-3 h-3" />
-                Open Resource
+                {resource.type === 'VIDEO' ? 'Watch on YouTube' : 'Open Resource'}
               </a>
             )}
           </div>
@@ -459,7 +463,7 @@ export const TodayDashboard: React.FC = () => {
               return userName ? `${greeting}, ${userName}` : `${greeting}!`;
             })()}
           </h1>
-          <p className="text-xs text-stone-400 mt-0.5">Your personalized German study session</p>
+          <p className="text-xs text-stone-400 mt-0.5">Here's what to tackle today</p>
         </div>
         <div className="flex items-center gap-2 shrink-0">
           {(learnerModel.studyStreak ?? 0) >= 1 && (
@@ -496,9 +500,9 @@ export const TodayDashboard: React.FC = () => {
           <div className="w-12 h-12 bg-emerald-500/20 rounded-2xl flex items-center justify-center mx-auto">
             <CheckCircle2 className="w-6 h-6 text-emerald-400" />
           </div>
-          <h2 className="text-xl font-black text-white">All caught up</h2>
+          <h2 className="text-xl font-black text-white">You're all caught up!</h2>
           <p className="text-sm text-stone-400 leading-relaxed">
-            No actions due right now. Come back tomorrow or add new vocabulary to start an SRS session.
+            Nothing pending right now. Come back tomorrow, or add new words to keep the momentum going.
           </p>
           <button
             onClick={() => setActiveView('vocabulary')}
@@ -518,7 +522,7 @@ export const TodayDashboard: React.FC = () => {
             <p className="text-[11px] text-stone-400 mt-0.5">
               {stackActions.length > 0
                 ? `${stackActions.reduce((s, a) => s + a.estimatedMinutes, 0)} min total`
-                : 'No activities scheduled'}
+                : 'Nothing lined up yet'}
             </p>
           </div>
           {totalDoneMinutes > 0 && (
@@ -554,7 +558,7 @@ export const TodayDashboard: React.FC = () => {
           </>
         ) : (
           <div className="rounded-2xl border border-dashed border-stone-200 p-6 text-center">
-            <p className="text-sm text-stone-400">Complete the onboarding diagnostic to generate your first study plan.</p>
+            <p className="text-sm text-stone-400">Finish the quick setup to unlock your daily plan.</p>
           </div>
         )}
 
@@ -563,11 +567,10 @@ export const TodayDashboard: React.FC = () => {
           <div className="flex items-start gap-2">
             <Info className="w-3.5 h-3.5 text-stone-400 shrink-0 mt-0.5" />
             <div>
-              <p className="text-[11px] font-bold text-stone-600 mb-1">Why this sequence?</p>
+              <p className="text-[11px] font-bold text-stone-600 mb-1">How today is built</p>
               <p className="text-[11px] text-stone-500 leading-relaxed">
-                Input first (listening, reading), then grammar, then output (speaking, writing).
-                This mirrors natural language acquisition. SRS reviews always come first because
-                delayed review causes forgetting.
+                You listen and read first, then grammar, then speak or write — same order you learned Arabic as a child.
+                Word reviews always come first while your memory is freshest.
               </p>
             </div>
           </div>
@@ -577,10 +580,10 @@ export const TodayDashboard: React.FC = () => {
       {/* Skill Mastery */}
       <div className="paper-card p-5 space-y-4">
         <div className="flex items-center justify-between">
-          <h2 className="text-sm font-black text-stone-900">Skill Mastery</h2>
+          <h2 className="text-sm font-black text-stone-900">Your Skills</h2>
           <div className="text-right">
             <div className="text-xl font-black text-stone-900">{avgMastery}%</div>
-            <div className="text-[10px] text-stone-400">Overall avg</div>
+            <div className="text-[10px] text-stone-400">overall</div>
           </div>
         </div>
         <div className="space-y-3">
@@ -593,7 +596,7 @@ export const TodayDashboard: React.FC = () => {
           className="flex items-center gap-1.5 text-xs text-amber-700 hover:text-amber-600 font-bold transition-colors"
         >
           <TrendingUp className="w-3.5 h-3.5" />
-          View detailed analytics & tests
+          See full progress & take a test
           <ArrowRight className="w-3 h-3" />
         </button>
       </div>
@@ -620,8 +623,8 @@ export const TodayDashboard: React.FC = () => {
             bg: 'bg-emerald-50 border-emerald-200',
           },
           {
-            label: 'SRS Due',
-            value: dueCount === 0 ? 'All clear' : `${dueCount} card${dueCount === 1 ? '' : 's'}`,
+            label: 'Words Due',
+            value: dueCount === 0 ? 'All done' : `${dueCount} word${dueCount === 1 ? '' : 's'}`,
             icon: <Brain className="w-4 h-4 text-purple-600" />,
             bg: dueCount > 0 ? 'bg-purple-50 border-purple-200' : 'bg-stone-50 border-stone-200',
           },
