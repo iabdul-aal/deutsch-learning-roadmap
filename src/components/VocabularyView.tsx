@@ -295,7 +295,7 @@ export const VocabularyView: React.FC = () => {
               SM-2 SPACED REPETITION · {A1_VOCABULARY.length} WORDS
             </p>
             <h2 className="text-xl font-black text-stone-900">Wortschatz</h2>
-            <p className="text-xs text-stone-500 mt-0.5" dir="rtl">بطاقات التكرار المتباعد - المفردات</p>
+            
           </div>
           <div className="flex items-center gap-4 text-center shrink-0">
             <div>
@@ -347,7 +347,7 @@ export const VocabularyView: React.FC = () => {
               <div className="text-4xl"></div>
               <h3 className="text-lg font-black text-stone-900">All caught up!</h3>
               <p className="text-sm text-stone-500">No cards due today. Come back tomorrow.</p>
-              <p className="text-sm text-stone-400" dir="rtl">لا بطاقات للمراجعة اليوم. عد غداً!</p>
+              
               <button
                 onClick={() => setActiveTab('browse')}
                 className="btn-amber mt-2"

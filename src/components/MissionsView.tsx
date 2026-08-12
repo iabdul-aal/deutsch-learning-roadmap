@@ -410,9 +410,7 @@ export const MissionsView: React.FC = () => {
             <p className="text-xs text-stone-500 mt-1 max-w-md">
               Practice German in realistic scenarios. Each mission simulates real situations you will encounter in Germany.
             </p>
-            <p className="text-[11px] text-stone-400 mt-0.5" dir="rtl">
-              تدرب على الألمانية في سيناريوهات حياتية حقيقية ستواجهها في ألمانيا.
-            </p>
+            
           </div>
           {/* Progress */}
           <div className="flex items-center gap-4 shrink-0">

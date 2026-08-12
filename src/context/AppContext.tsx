@@ -495,9 +495,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
               This will clear all completed tasks, SRS cards, mastery scores, and streaks.
               <strong className="text-rose-700"> This cannot be undone.</strong>
             </p>
-            <p className="text-sm text-stone-500" dir="rtl">
-              هل أنت متأكد؟ سيتم حذف جميع تقدمك في التعلم.
-            </p>
+            
             <div className="flex gap-3 pt-2">
               <button
                 onClick={cancelReset}
