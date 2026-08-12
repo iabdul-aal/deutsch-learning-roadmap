@@ -108,30 +108,6 @@ export const Sidebar: React.FC<SidebarProps> = ({ onOpenTimer }) => {
             </div>
           )}
         </div>
-
-        {/* Pace Mode Toggle */}
-        <div className="flex items-center bg-white/8 p-0.5 rounded-lg border border-white/10">
-          <button
-            onClick={() => setMode('standard')}
-            className={`flex-1 py-1.5 rounded-md text-[11px] font-bold transition-all text-center ${
-              mode === 'standard'
-                ? 'bg-white/15 text-white shadow-xs'
-                : 'text-white/40 hover:text-white/70'
-            }`}
-          >
-            Standard
-          </button>
-          <button
-            onClick={() => setMode('intensive')}
-            className={`flex-1 py-1.5 rounded-md text-[11px] font-bold transition-all text-center ${
-              mode === 'intensive'
-                ? 'bg-rose-600/80 text-white shadow-xs'
-                : 'text-white/40 hover:text-white/70'
-            }`}
-          >
-            Intensive
-          </button>
-        </div>
       </div>
 
       {/* ── Navigation ── */}
