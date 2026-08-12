@@ -453,7 +453,11 @@ export const TodayDashboard: React.FC = () => {
         <div>
           <p className="text-[11px] font-black text-amber-700 uppercase tracking-widest">{todayLabel}</p>
           <h1 className="text-2xl font-black text-stone-900 mt-0.5">
-            {userName ? `Hi, ${userName}` : 'Learning OS'}
+            {(() => {
+              const hour = new Date().getHours();
+              const greeting = hour >= 5 && hour < 12 ? 'Guten Morgen' : hour >= 12 && hour < 18 ? 'Guten Tag' : 'Guten Abend';
+              return userName ? `${greeting}, ${userName}` : `${greeting}!`;
+            })()}
           </h1>
           <p className="text-xs text-stone-400 mt-0.5">Your personalized German study session</p>
         </div>

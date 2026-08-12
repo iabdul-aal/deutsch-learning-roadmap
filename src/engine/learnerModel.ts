@@ -105,6 +105,17 @@ export function getWeakestSkill(mastery: SkillMastery): SkillKey {
     .sort(([, a], [, b]) => a - b)[0][0];
 }
 
+const SKILL_READABLE_NAMES: Record<SkillKey, { en: string; ar: string }> = {
+  HOEREN:          { en: 'Listening Skills',      ar: 'مهارة الاستماع' },
+  SPRECHEN:        { en: 'Speaking Skills',       ar: 'مهارة التحدث' },
+  LESEN:           { en: 'Reading Comprehension', ar: 'مهارة القراءة' },
+  SCHREIBEN:       { en: 'Writing Practice',      ar: 'مهارة الكتابة' },
+  GRAMMATIK:       { en: 'German Grammar',        ar: 'قواعد اللغة' },
+  WORTSCHATZ:      { en: 'Vocabulary Building',   ar: 'بناء المفردات' },
+  AUSSPRACHE:      { en: 'Pronunciation',         ar: 'النطق الصحيح' },
+  KULTURKOMPETENZ: { en: 'Cultural Knowledge',    ar: 'الثقافة الألمانية' },
+};
+
 // ── Next Best Action ────────────────────────────────────────────
 export function computeNextActions(learner: LearnerModel): NextAction[] {
   const actions: NextAction[] = [];
@@ -135,12 +146,13 @@ export function computeNextActions(learner: LearnerModel): NextAction[] {
       WORTSCHATZ: 'VOCABULARY_STUDY', AUSSPRACHE: 'SPEAKING',
       KULTURKOMPETENZ: 'READING',
     };
+    const readable = SKILL_READABLE_NAMES[weakest] || { en: weakest, ar: getArabicSkillName(weakest) };
     actions.push({
       type: skillMap[weakest],
       priority: 2,
-      title: `Strengthen Your ${weakest.charAt(0) + weakest.slice(1).toLowerCase()}`,
-      titleAR: `تقوية مهارة ${getArabicSkillName(weakest)}`,
-      description: `Your ${weakest.toLowerCase()} is your current bottleneck at ${weakestMastery}% mastery.`,
+      title: `Strengthen Your ${readable.en}`,
+      titleAR: `تقوية ${readable.ar}`,
+      description: `Your ${readable.en.toLowerCase()} is your current bottleneck at ${weakestMastery}% mastery.`,
       reason: `Weakest skill (${weakestMastery}% mastery) - improving this unlocks your overall CEFR level.`,
       estimatedMinutes: 20,
       skill: weakest,
