@@ -1,0 +1,138 @@
+import { ResourceDatabase } from '../german-a1-ar/resources';
+
+export const RESOURCES_DATA_A2: ResourceDatabase = {
+  title: "Multi-Language Curated Resource Database (German A2 Track)",
+  description: "Curated research across Arabic, English, and German ecosystems for Goethe A2 certification, Dative/Wechselpräpositionen mastery, and university track preparation.",
+  resources: [
+    {
+      id: "res-a2-hend-course",
+      title: "Deutsch mit Hend - Complete A2 Video Masterclass (Arabic Backbone)",
+      creator: "Frau Hend Taha (@FrauHendTaha)",
+      language: "Arabic / German",
+      skill: "Core A2 Curriculum & Subordinate Clauses",
+      level: "A2 (Intermediate Beginner)",
+      duration: "30 Hours Total (Video Series)",
+      priority: "CORE",
+      whySelected: "Primary core curriculum designed specifically for Arabic speakers advancing to A2. Explains complex German grammar logic (weil, dass, wenn, Dativ, Wechselpräpositionen) using clear Arabic analogies.",
+      sourceCommunity: "Arabic Ecosystem (Egypt / MENA)",
+      link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
+    },
+    {
+      id: "res-a2-goethe-official",
+      title: "Goethe-Zertifikat A2: Official Practice Sets & Exam Papers",
+      creator: "Goethe-Institut",
+      language: "German",
+      skill: "Official A2 Exam Preparation (Hören, Lesen, Schreiben, Sprechen)",
+      level: "A2 (Exam Certification)",
+      duration: "Official Practice Papers",
+      priority: "CORE",
+      whySelected: "Official Goethe-Institut Zertifikat A2 practice sets, PDF exam papers, audio files, and speaking criteria. Essential for passing the official Goethe A2 exam.",
+      sourceCommunity: "Official Goethe-Institut",
+      link: "https://www.goethe.de/de/spr/kup/prf/prf/gz_a2.html"
+    },
+    {
+      id: "res-a2-nicos-weg",
+      title: "DW Nicos Weg A2 Interactive Course Module",
+      creator: "Deutsche Welle (DW Learngerman)",
+      language: "German (Immersive)",
+      skill: "Story Immersion & Practical German Situations",
+      level: "A2",
+      duration: "100 Interactive Episodes",
+      priority: "CORE",
+      whySelected: "Immersive story following Nico through life in Germany at A2 level. Covers job search, apartment hunting, doctor visits, and public transport with interactive exercises.",
+      sourceCommunity: "Official Deutsche Welle",
+      link: "https://learngerman.dw.com/en/nicos-weg"
+    },
+    {
+      id: "res-a2-fau-sprachenzentrum",
+      title: "FAU Erlangen-Nürnberg Language Center (DaF A2 University Track)",
+      creator: "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+      language: "German / English",
+      skill: "Academic German & University Preparation",
+      level: "A2 (Academic Track)",
+      duration: "Semester Coursebook & Direct Portal",
+      priority: "CORE",
+      whySelected: "Official German language department at FAU Erlangen-Nürnberg. Direct portal for international university candidates advancing through DaF A2.",
+      sourceCommunity: "German University Ecosystem (FAU Erlangen)",
+      link: "https://www.sz.fau.de/abteilungen/deutsch-als-fremdsprache/"
+    },
+    {
+      id: "res-a2-schubert-exercises",
+      title: "Schubert Verlag Online-Aufgaben A2 Interactive Grammar Exercises",
+      creator: "Schubert-Verlag Leipzig",
+      language: "German",
+      skill: "Grammar & Vocabulary Drills (A2 Level)",
+      level: "A2",
+      duration: "Interactive Practice Modules",
+      priority: "CORE",
+      whySelected: "High-quality, free online interactive drills for A2 grammar: Dative prepositions, Wechselpräpositionen, Perfekt, Präteritum, and adjective declension.",
+      sourceCommunity: "German Publisher Ecosystem",
+      link: "https://www.schubert-verlag.de/aufgaben/index.htm"
+    },
+    {
+      id: "res-a2-lingoni-grammar",
+      title: "lingoni GERMAN - A2 Grammar & Sentence Structure Masterclass",
+      creator: "lingoni GERMAN",
+      language: "English / German",
+      skill: "Grammar & Sentence Structure (weil, dass, wenn)",
+      level: "A2",
+      duration: "15-20 min / video",
+      priority: "HIGH VALUE",
+      whySelected: "Rigorous, beautifully illustrated grammar explanations covering A2 word order, subordinate clauses, reflexive verbs, and comparative structures.",
+      sourceCommunity: "Global German Ecosystem",
+      link: "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+    },
+    {
+      id: "res-a2-easy-german-street",
+      title: "Easy German - A2 Street Interviews & Real Conversations",
+      creator: "Easy German",
+      language: "German (Bilingual Subtitles)",
+      skill: "Listening Immersion & Spoken German",
+      level: "A2",
+      duration: "10-12 min / video",
+      priority: "HIGH VALUE",
+      whySelected: "Real street interviews in Berlin covering daily topics (work, apartment hunting, hobbies, weather) with clear speech and bilingual subtitles.",
+      sourceCommunity: "German Ecosystem",
+      link: "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+    },
+    {
+      id: "res-a2-deutschakademie-app",
+      title: "DeutschAkademie Free Online German Course (A2 Modules)",
+      creator: "DeutschAkademie Wien & Berlin",
+      language: "German / English",
+      skill: "Grammar & Writing Drills",
+      level: "A2",
+      duration: "Interactive Modules",
+      priority: "HIGH VALUE",
+      whySelected: "Comprehensive free exercise app featuring over 20,000 grammar questions categorized strictly by CEFR A2 sub-topics.",
+      sourceCommunity: "Austrian / German Language School Ecosystem",
+      link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+    },
+    {
+      id: "res-a2-pons-dict",
+      title: "PONS German-Arabic Online Dictionary & A2 Vocabulary Trainer",
+      creator: "PONS Verlag",
+      language: "German / Arabic",
+      skill: "German-Arabic Translation & Example Sentences",
+      level: "A2",
+      duration: "Reference Tool",
+      priority: "REFERENCE",
+      whySelected: "Verified German-Arabic dictionary with complete A2 context sentences, dative verb patterns, and audio clips.",
+      sourceCommunity: "Official German-Arabic Dictionary",
+      link: "https://en.pons.com/translate/german-arabic"
+    },
+    {
+      id: "res-a2-anki-deck",
+      title: "AnkiWeb A2 Core Vocabulary SRS Deck",
+      creator: "Anki Community",
+      language: "Multilingual",
+      skill: "Spaced Repetition Vocabulary Retention",
+      level: "A2",
+      duration: "Daily 15 min",
+      priority: "CORE",
+      whySelected: "Curated A2 vocabulary deck featuring high-frequency words, dative preposition collocations, and verb conjugation cards.",
+      sourceCommunity: "Global SRS Community",
+      link: "https://apps.ankiweb.net/"
+    }
+  ]
+};

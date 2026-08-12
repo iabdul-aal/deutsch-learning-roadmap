@@ -1,12 +1,22 @@
 import React, { useState } from 'react';
+import { useApp } from '../context/AppContext';
 import { RESOURCES_DATA } from '../data/tracks/german-a1-ar/resources';
-import { ExternalLink, Search } from 'lucide-react';
+import { RESOURCES_DATA_A2 } from '../data/tracks/german-a2-ar/resources';
+import { RESOURCES_DATA_B1 } from '../data/tracks/german-b1-ar/resources';
+import { ExternalLink, Search, Sparkles } from 'lucide-react';
 
 export const ResourceDatabaseView = () => {
+  const { currentTrackId } = useApp();
+  const [selectedLevel, setSelectedLevel] = useState<'A1' | 'A2' | 'B1'>(
+    currentTrackId.includes('a2') ? 'A2' : currentTrackId.includes('b1') ? 'B1' : 'A1'
+  );
   const [searchQuery, setSearchQuery] = useState('');
   const [filterBadge, setFilterBadge] = useState('All');
 
-  const resourcesList = RESOURCES_DATA?.resources || [];
+  const activeDatabase = selectedLevel === 'A2' ? RESOURCES_DATA_A2 :
+                         selectedLevel === 'B1' ? RESOURCES_DATA_B1 : RESOURCES_DATA;
+
+  const resourcesList = activeDatabase?.resources || [];
 
   const filteredResources = resourcesList.filter((res) => {
     const matchesBadge = filterBadge === 'All' || res.priority === filterBadge;
@@ -23,14 +33,19 @@ export const ResourceDatabaseView = () => {
       {/* Header */}
       <div className="paper-card p-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
         <div>
-          <span className="text-[10px] font-bold text-amber-700 uppercase tracking-wider">
-            SEARCHABLE RESOURCE LIBRARY
-          </span>
+          <div className="flex items-center gap-2">
+            <span className="text-[10px] font-bold text-amber-700 uppercase tracking-wider">
+              SEARCHABLE RESOURCE LIBRARY
+            </span>
+            <span className="text-[10px] font-black px-2 py-0.5 rounded bg-stone-900 text-white uppercase">
+              {selectedLevel} Track
+            </span>
+          </div>
           <h2 className="text-lg font-extrabold text-stone-900 mt-0.5">
-            Multi-Lingual German Learning Ecosystem
+            {activeDatabase.title}
           </h2>
           <p className="text-xs text-stone-600">
-            Curated across Arabic , English , and German  learning communities.
+            {activeDatabase.description}
           </p>
         </div>
 
@@ -46,21 +61,41 @@ export const ResourceDatabaseView = () => {
         </div>
       </div>
 
-      {/* Filter Badges */}
-      <div className="flex items-center gap-2 text-xs">
-        {['All', 'CORE', 'HIGH VALUE', 'REFERENCE'].map((b) => (
-          <button
-            key={b}
-            onClick={() => setFilterBadge(b)}
-            className={`px-3 py-1 rounded border font-bold transition-all ${
-              filterBadge === b
-                ? 'bg-amber-500 text-stone-950 border-amber-500 font-extrabold'
-                : 'bg-white border-stone-200 text-stone-600 hover:text-stone-900'
-            }`}
-          >
-            {b}
-          </button>
-        ))}
+      {/* Level Selection & Filter Badges */}
+      <div className="flex flex-wrap items-center justify-between gap-3 text-xs">
+        {/* CEFR Level Tabs */}
+        <div className="flex items-center gap-1.5 p-1 rounded-xl bg-stone-200/70 border border-stone-300">
+          {(['A1', 'A2', 'B1'] as const).map((lvl) => (
+            <button
+              key={lvl}
+              onClick={() => setSelectedLevel(lvl)}
+              className={`px-3 py-1 rounded-lg font-black transition-all ${
+                selectedLevel === lvl
+                  ? 'bg-amber-500 text-stone-950 shadow-xs'
+                  : 'text-stone-700 hover:text-stone-950 hover:bg-stone-300/50'
+              }`}
+            >
+              {lvl} Resources
+            </button>
+          ))}
+        </div>
+
+        {/* Priority Filter Badges */}
+        <div className="flex items-center gap-2">
+          {['All', 'CORE', 'HIGH VALUE', 'REFERENCE'].map((b) => (
+            <button
+              key={b}
+              onClick={() => setFilterBadge(b)}
+              className={`px-3 py-1 rounded-lg border font-bold transition-all ${
+                filterBadge === b
+                  ? 'bg-stone-900 text-white border-stone-900 font-black'
+                  : 'bg-white border-stone-200 text-stone-600 hover:text-stone-900'
+              }`}
+            >
+              {b}
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* Table View */}
@@ -88,8 +123,14 @@ export const ResourceDatabaseView = () => {
                     {res.priority}
                   </span>
                 </td>
-                <td className="p-3 font-bold text-stone-900 text-sm">{res.title}</td>
-                <td className="p-3 text-stone-700">{res.creator}</td>
+                <td className="p-3 font-bold text-stone-900 text-sm">
+                  {res.title}
+                  <div className="flex items-center gap-2 mt-0.5">
+                    <span className="text-[10px] text-stone-400 font-normal">{res.skill}</span>
+                    <span className="text-[10px] text-stone-400 font-normal">• {res.duration}</span>
+                  </div>
+                </td>
+                <td className="p-3 text-stone-700 font-medium">{res.creator}</td>
                 <td className="p-3 font-mono text-[11px] text-stone-500">{res.sourceCommunity}</td>
                 <td className="p-3 text-stone-600 leading-relaxed">{res.whySelected}</td>
                 <td className="p-3 text-right whitespace-nowrap">
@@ -97,9 +138,9 @@ export const ResourceDatabaseView = () => {
                     href={res.link}
                     target="_blank"
                     rel="noreferrer"
-                    className="px-3 py-1 rounded bg-stone-100 text-amber-900 border border-stone-300 hover:bg-amber-500 hover:text-stone-950 font-extrabold transition-all inline-flex items-center gap-1 shrink-0"
+                    className="px-3 py-1.5 rounded-lg bg-stone-900 text-white hover:bg-amber-600 font-extrabold transition-all inline-flex items-center gap-1.5 shrink-0 shadow-xs"
                   >
-                    <span>Visit</span> <ExternalLink className="w-3 h-3" />
+                    <span>Visit</span> <ExternalLink className="w-3 h-3 text-amber-400" />
                   </a>
                 </td>
               </tr>
