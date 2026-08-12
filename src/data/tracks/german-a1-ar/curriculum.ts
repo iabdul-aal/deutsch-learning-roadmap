@@ -34,14 +34,14 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: German Alphabet and Umlauts Made Easy",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
               "title": "Learn 15 basic greeting words (Hallo, Guten Tag, Tschüss, Auf Wiedersehen, Bitte, Danke)",
               "duration": "30 min",
               "resourceType": "VOCAB",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://apps.ankiweb.net/"
             },
             {
               "type": "Listen",
@@ -62,7 +62,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 1 Alphabet and Greetings Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=_VyYfZP9MsY"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             }
           ],
           "intensiveTasks": [
@@ -76,7 +76,7 @@ export const CURRICULUM_DATA = {
               "type": "Writing",
               "title": "Write down 5 greeting dialogues for morning, afternoon, and night in your journal",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
             },
             {
               "type": "Mobile App",
@@ -177,7 +177,7 @@ export const CURRICULUM_DATA = {
               "type": "Survival German",
               "title": "Learn airport arrival phrase: 'Ich heiße X, ich komme aus Ägypten.'",
               "duration": "15 min",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://en.pons.com/translate/german-arabic"
             }
           ],
           "targetMetrics": {
@@ -369,7 +369,7 @@ export const CURRICULUM_DATA = {
               "title": "15 opposites and negation vocabulary (gut/schlecht, groß/klein, kein Geld, nicht müde)",
               "duration": "30 min",
               "resourceType": "VOCAB",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=6000s"
+              "link": "https://apps.ankiweb.net/"
             },
             {
               "type": "Listen",
@@ -390,7 +390,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 5 Negation Mastery Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=6000s"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             }
           ],
           "intensiveTasks": [
@@ -410,7 +410,7 @@ export const CURRICULUM_DATA = {
               "type": "Mobile App",
               "title": "Anki Deck: A1 Negation and Opposite adjectives",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=6000s"
+              "link": "https://apps.ankiweb.net/"
             },
             {
               "type": "Speaking Drill",
@@ -444,7 +444,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Family Tree and Plural Nouns",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -472,7 +472,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 6 Family and Plurals Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=7500s"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             }
           ],
           "intensiveTasks": [
@@ -492,13 +492,13 @@ export const CURRICULUM_DATA = {
               "type": "Mobile App",
               "title": "Anki family and plural vocabulary review",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=7500s"
+              "link": "https://apps.ankiweb.net/"
             },
             {
               "type": "Survival German",
               "title": "Learn emergency phrase: 'Ich suche meine Familie / mein Kind.'",
               "duration": "15 min",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://en.pons.com/translate/german-arabic"
             }
           ],
           "targetMetrics": {
@@ -596,7 +596,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch Survival A1: Accusative rules and sentence diagrams",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=10500s"
+              "link": "https://learngerman.dw.com/en/nicos-weg"
             },
             {
               "type": "Watch",
@@ -610,14 +610,14 @@ export const CURRICULUM_DATA = {
               "title": "15 common transitive verbs requiring Accusative (haben, brauchen, kaufen, suchen, trinken, essen...)",
               "duration": "35 min",
               "resourceType": "VOCAB",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=10500s"
+              "link": "https://apps.ankiweb.net/"
             },
             {
               "type": "Quiz",
               "title": "Complete Day 8 Accusative Case Mini-Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=10500s"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             }
           ],
           "intensiveTasks": [
@@ -625,7 +625,7 @@ export const CURRICULUM_DATA = {
               "type": "Writing",
               "title": "Write 15 sentences using masculine, feminine, and neuter objects in Accusative",
               "duration": "40 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=10500s"
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
             },
             {
               "type": "Shadowing",
@@ -637,13 +637,13 @@ export const CURRICULUM_DATA = {
               "type": "Mobile App",
               "title": "Seedlang Accusative Case Trainer - 40 questions",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=10500s"
+              "link": "https://apps.ankiweb.net/"
             },
             {
               "type": "Survival German",
               "title": "Supermarket Survival: 'Ich brauche eine Tüte' / 'Ich suche den Reis'",
               "duration": "20 min",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://en.pons.com/translate/german-arabic"
             }
           ],
           "targetMetrics": {
@@ -753,14 +753,14 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: How to order food like a native in Germany",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
               "title": "15 restaurant phrases (Speisekarte, Rechnung, bezahlen, zusammen, getrennt, lecker...)",
               "duration": "30 min",
               "resourceType": "VOCAB",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://apps.ankiweb.net/"
             },
             {
               "type": "Listen",
@@ -781,7 +781,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 10 Restaurant Survival Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             }
           ],
           "intensiveTasks": [
@@ -801,7 +801,7 @@ export const CURRICULUM_DATA = {
               "type": "Mobile App",
               "title": "Anki Restaurant phrase deck review",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://apps.ankiweb.net/"
             },
             {
               "type": "Culture Note",
@@ -842,7 +842,7 @@ export const CURRICULUM_DATA = {
               "title": "Days of week, months, prepositions of time (um 8 Uhr, am Montag, im Juli)",
               "duration": "35 min",
               "resourceType": "VOCAB",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=15000s"
+              "link": "https://apps.ankiweb.net/"
             },
             {
               "type": "Speak",
@@ -856,7 +856,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 11 Clock Times and Prepositions Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=15000s"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             }
           ],
           "intensiveTasks": [
@@ -882,7 +882,7 @@ export const CURRICULUM_DATA = {
               "type": "Survival German",
               "title": "Learn station phrase: 'Wann fährt der Zug nach Berlin ab?'",
               "duration": "20 min",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://en.pons.com/translate/german-arabic"
             }
           ],
           "targetMetrics": {
@@ -917,7 +917,7 @@ export const CURRICULUM_DATA = {
               "title": "15 separable verbs (einkaufen, anrufen, aufstehen, mitkommen, anfangen, ausfüllen...)",
               "duration": "35 min",
               "resourceType": "VOCAB",
-              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
+              "link": "https://apps.ankiweb.net/"
             },
             {
               "type": "Listen",
@@ -931,7 +931,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 12 Separable Verbs Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             }
           ],
           "intensiveTasks": [
@@ -939,7 +939,7 @@ export const CURRICULUM_DATA = {
               "type": "Writing",
               "title": "Write 12 sentences with separable verbs, correctly placing prefixes at sentence end",
               "duration": "45 min",
-              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
             },
             {
               "type": "Shadowing",
@@ -951,13 +951,13 @@ export const CURRICULUM_DATA = {
               "type": "Mobile App",
               "title": "Anki Separable Verbs Deck",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
+              "link": "https://apps.ankiweb.net/"
             },
             {
               "type": "Survival German",
               "title": "Formular ausfüllen (Filling forms): 'Ich fülle das Formular aus.'",
               "duration": "20 min",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://en.pons.com/translate/german-arabic"
             }
           ],
           "targetMetrics": {
@@ -1061,14 +1061,14 @@ export const CURRICULUM_DATA = {
               "title": "Targeted review of weak Accusative or Separable verb questions",
               "duration": "35 min",
               "resourceType": "SMART_REVIEW",
-              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
+              "link": "https://en.pons.com/translate/german-arabic"
             },
             {
               "type": "Speaking Mission",
               "title": "Record a 3-minute vlog describing your typical day using separable verbs",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
+              "link": "https://en.pons.com/translate/german-arabic"
             }
           ],
           "intensiveTasks": [
@@ -1138,7 +1138,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 15 Modal Verbs Mini-Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             }
           ],
           "intensiveTasks": [
@@ -1146,7 +1146,7 @@ export const CURRICULUM_DATA = {
               "type": "Writing",
               "title": "Write 15 sentences expressing obligations, abilities, and desires using modal verbs",
               "duration": "40 min",
-              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
             },
             {
               "type": "Shadowing",
@@ -1158,13 +1158,13 @@ export const CURRICULUM_DATA = {
               "type": "Mobile App",
               "title": "Seedlang Modal Verbs Trainer",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
+              "link": "https://apps.ankiweb.net/"
             },
             {
               "type": "Survival German",
               "title": "Uni Admin: 'Kann ich hier mein Visum verlängern?' / 'Ich muss mich anmelden.'",
               "duration": "20 min",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://en.pons.com/translate/german-arabic"
             }
           ],
           "targetMetrics": {
@@ -1213,7 +1213,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 16 Rules and Modal Verbs Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             }
           ],
           "intensiveTasks": [
@@ -1268,7 +1268,7 @@ export const CURRICULUM_DATA = {
               "title": "20 housing terms (Wohnung, Zimmer, Miete, Kaution, Nebenkosten, Möbel, Küche, Bad...)",
               "duration": "35 min",
               "resourceType": "VOCAB",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://apps.ankiweb.net/"
             },
             {
               "type": "Listen",
@@ -1282,7 +1282,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 17 Housing Vocabulary Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             }
           ],
           "intensiveTasks": [
@@ -1302,7 +1302,7 @@ export const CURRICULUM_DATA = {
               "type": "Mobile App",
               "title": "Anki Housing and Furniture Deck",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://apps.ankiweb.net/"
             },
             {
               "type": "Practical Task",
@@ -1384,7 +1384,7 @@ export const CURRICULUM_DATA = {
               "type": "Mobile App",
               "title": "Anki Housing Application phrases",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://apps.ankiweb.net/"
             }
           ],
           "targetMetrics": {
@@ -1466,7 +1466,7 @@ export const CURRICULUM_DATA = {
               "type": "Survival German",
               "title": "Learn key line: 'Ich bin neu in Deutschland und möchte mich anmelden.'",
               "duration": "20 min",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://en.pons.com/translate/german-arabic"
             }
           ],
           "targetMetrics": {
@@ -1494,7 +1494,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Practical German for House Repair and Issues",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -1515,7 +1515,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 20 Housing Maintenance Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             }
           ],
           "intensiveTasks": [
@@ -1556,7 +1556,7 @@ export const CURRICULUM_DATA = {
               "title": "Consolidate Week 3 Hend notes and housing phrasebook",
               "duration": "50 min",
               "resourceType": "REVISION",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://learngerman.dw.com/en/nicos-weg"
             },
             {
               "type": "Test",
@@ -1585,7 +1585,7 @@ export const CURRICULUM_DATA = {
               "type": "Writing",
               "title": "Write a complete 200-word cover letter for housing application",
               "duration": "45 min",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
             },
             {
               "type": "Listening Marathon",
@@ -1633,7 +1633,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch Survival A1: Dative case breakdown and color charts",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://learngerman.dw.com/en/nicos-weg"
             },
             {
               "type": "Watch",
@@ -1647,14 +1647,14 @@ export const CURRICULUM_DATA = {
               "title": "15 core Dative verbs (helfen, danken, gehören, gefallen, passen, antworten...)",
               "duration": "35 min",
               "resourceType": "VOCAB",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://apps.ankiweb.net/"
             },
             {
               "type": "Quiz",
               "title": "Complete Day 22 Dative Case Basics Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             }
           ],
           "intensiveTasks": [
@@ -1662,7 +1662,7 @@ export const CURRICULUM_DATA = {
               "type": "Writing",
               "title": "Write 15 sentences using Dative verbs (e.g. 'Ich helfe dem Mann', 'Das Buch gehört der Frau')",
               "duration": "40 min",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
             },
             {
               "type": "Shadowing",
@@ -1674,13 +1674,13 @@ export const CURRICULUM_DATA = {
               "type": "Mobile App",
               "title": "Seedlang Dative Case Trainer - 40 questions",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://apps.ankiweb.net/"
             },
             {
               "type": "Survival German",
               "title": "Asking help: 'Können Sie mir bitte helfen?'",
               "duration": "20 min",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://en.pons.com/translate/german-arabic"
             }
           ],
           "targetMetrics": {
@@ -1715,7 +1715,7 @@ export const CURRICULUM_DATA = {
               "title": "Dative pronouns (mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen) + health and state phrases",
               "duration": "30 min",
               "resourceType": "VOCAB",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://apps.ankiweb.net/"
             },
             {
               "type": "Speak",
@@ -1729,7 +1729,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 23 Dative Pronouns Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             }
           ],
           "intensiveTasks": [
@@ -1737,7 +1737,7 @@ export const CURRICULUM_DATA = {
               "type": "Writing",
               "title": "Write 12 conversational exchanges using Dative personal pronouns",
               "duration": "40 min",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
             },
             {
               "type": "Roleplay",
@@ -1749,7 +1749,7 @@ export const CURRICULUM_DATA = {
               "type": "Mobile App",
               "title": "Anki Dative pronouns deck",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://apps.ankiweb.net/"
             }
           ],
           "targetMetrics": {
@@ -1777,21 +1777,21 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: The Dative Preposition Song and Rule",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
               "title": "7 Dative prepositions (aus, bei, mit, nach, seit, von, zu) + contractions (beim, zum, zur)",
               "duration": "35 min",
               "resourceType": "VOCAB",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://apps.ankiweb.net/"
             },
             {
               "type": "Quiz",
               "title": "Complete Day 24 Dative Prepositions Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             }
           ],
           "intensiveTasks": [
@@ -1799,7 +1799,7 @@ export const CURRICULUM_DATA = {
               "type": "Writing",
               "title": "Write 14 sentences using every Dative preposition twice",
               "duration": "40 min",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
             },
             {
               "type": "Shadowing",
@@ -1811,13 +1811,13 @@ export const CURRICULUM_DATA = {
               "type": "Mobile App",
               "title": "Seedlang Dative Preposition Trainer",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://apps.ankiweb.net/"
             },
             {
               "type": "Survival German",
               "title": "Daily commute: 'Ich fahre mit der U-Bahn zum Bahnhof.'",
               "duration": "20 min",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://en.pons.com/translate/german-arabic"
             }
           ],
           "targetMetrics": {
@@ -1935,7 +1935,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 26 Two-Way Prepositions (Wo?) Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=37500s"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             }
           ],
           "intensiveTasks": [
@@ -1990,7 +1990,7 @@ export const CURRICULUM_DATA = {
               "title": "20 transport terms (Fahrkarte, Gleis, Verspätung, Umsteigen, Entwerten, Einzelfahrt, Monatsticket...)",
               "duration": "35 min",
               "resourceType": "VOCAB",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://apps.ankiweb.net/"
             },
             {
               "type": "Practical Task",
@@ -2011,7 +2011,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 27 Public Transportation Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             }
           ],
           "intensiveTasks": [
@@ -2031,7 +2031,7 @@ export const CURRICULUM_DATA = {
               "type": "Mobile App",
               "title": "Anki Transportation and Travel Deck",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://apps.ankiweb.net/"
             }
           ],
           "targetMetrics": {
@@ -2052,7 +2052,7 @@ export const CURRICULUM_DATA = {
               "title": "Consolidate Week 4 Dative summary and prepositions rule sheet",
               "duration": "50 min",
               "resourceType": "REVISION",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://learngerman.dw.com/en/nicos-weg"
             },
             {
               "type": "Test",
@@ -2066,7 +2066,7 @@ export const CURRICULUM_DATA = {
               "title": "Review any flagged weak Dative preposition or direction questions",
               "duration": "35 min",
               "resourceType": "SMART_REVIEW",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://en.pons.com/translate/german-arabic"
             },
             {
               "type": "Speaking Mission",
@@ -2343,14 +2343,14 @@ export const CURRICULUM_DATA = {
               "title": "Adjective endings rules chart + 15 descriptive adjectives (neu, alt, gut, groß, klein, wichtig...)",
               "duration": "35 min",
               "resourceType": "VOCAB",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://apps.ankiweb.net/"
             },
             {
               "type": "Quiz",
               "title": "Complete Day 32 Adjective Endings Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             }
           ],
           "intensiveTasks": [
@@ -2358,7 +2358,7 @@ export const CURRICULUM_DATA = {
               "type": "Writing",
               "title": "Write 15 sentences describing campus buildings and courses using adjective endings",
               "duration": "40 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
             },
             {
               "type": "Shadowing",
@@ -2370,7 +2370,7 @@ export const CURRICULUM_DATA = {
               "type": "Mobile App",
               "title": "Seedlang Adjective Endings Trainer",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://apps.ankiweb.net/"
             }
           ],
           "targetMetrics": {
@@ -2467,7 +2467,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Going to the Doctor in Germany",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -2612,7 +2612,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch Survival A1: Perfekt tense formula and regular verb list",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=52500s"
+              "link": "https://learngerman.dw.com/en/nicos-weg"
             },
             {
               "type": "Watch",
@@ -2633,7 +2633,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 36 Perfekt Regular Verbs Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=52500s"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             }
           ],
           "intensiveTasks": [
@@ -2641,7 +2641,7 @@ export const CURRICULUM_DATA = {
               "type": "Writing",
               "title": "Write 15 sentences describing what you did yesterday using regular Perfekt verbs",
               "duration": "40 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=52500s"
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
             },
             {
               "type": "Shadowing",
@@ -2653,7 +2653,7 @@ export const CURRICULUM_DATA = {
               "type": "Mobile App",
               "title": "Seedlang Perfekt Tense Trainer - 40 questions",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=52500s"
+              "link": "https://apps.ankiweb.net/"
             }
           ],
           "targetMetrics": {
@@ -2695,7 +2695,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 37 Perfekt with Sein Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=54000s"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             }
           ],
           "intensiveTasks": [
@@ -2703,7 +2703,7 @@ export const CURRICULUM_DATA = {
               "type": "Writing",
               "title": "Write 15 sentences detailing a past trip or journey using 'sein' in Perfekt",
               "duration": "40 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=54000s"
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
             },
             {
               "type": "Shadowing",
@@ -2715,13 +2715,13 @@ export const CURRICULUM_DATA = {
               "type": "Mobile App",
               "title": "Anki Haben vs Sein Perfekt Deck",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=54000s"
+              "link": "https://apps.ankiweb.net/"
             },
             {
               "type": "Survival German",
               "title": "Arrival summary: 'Ich bin gestern um 14 Uhr in Frankfurt angekommen.'",
               "duration": "20 min",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://en.pons.com/translate/german-arabic"
             }
           ],
           "targetMetrics": {
@@ -2749,7 +2749,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Top Irregular German Past Tense Verbs",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -2770,7 +2770,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 38 Irregular Perfekt Verbs Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=55500s"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             }
           ],
           "intensiveTasks": [
@@ -2778,7 +2778,7 @@ export const CURRICULUM_DATA = {
               "type": "Writing",
               "title": "Write a 150-word journal entry about your past weekend using irregular Perfekt verbs",
               "duration": "45 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=55500s"
+              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
             },
             {
               "type": "Shadowing",
@@ -2832,7 +2832,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 39 Inseparable Perfekt Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             }
           ],
           "intensiveTasks": [
@@ -2852,7 +2852,7 @@ export const CURRICULUM_DATA = {
               "type": "Mobile App",
               "title": "Anki Inseparable Verbs Deck",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
+              "link": "https://apps.ankiweb.net/"
             }
           ],
           "targetMetrics": {
@@ -2901,7 +2901,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 40 Perfekt Storytelling Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=58500s"
+              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
             }
           ],
           "intensiveTasks": [
@@ -3011,7 +3011,7 @@ export const CURRICULUM_DATA = {
               "title": "Consolidate Week 6 Perfekt verb master lists and Hend notes",
               "duration": "50 min",
               "resourceType": "REVISION",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=61500s"
+              "link": "https://learngerman.dw.com/en/nicos-weg"
             },
             {
               "type": "Test",
@@ -3025,14 +3025,14 @@ export const CURRICULUM_DATA = {
               "title": "Review any flagged weak Perfekt auxiliary or Partizip II questions",
               "duration": "35 min",
               "resourceType": "SMART_REVIEW",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=61500s"
+              "link": "https://en.pons.com/translate/german-arabic"
             },
             {
               "type": "Speaking Mission",
               "title": "Record a 4-minute vlog reviewing your past month of German study in Perfekt",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=61500s"
+              "link": "https://en.pons.com/translate/german-arabic"
             }
           ],
           "intensiveTasks": [
@@ -3273,7 +3273,7 @@ export const CURRICULUM_DATA = {
               "type": "Survival German",
               "title": "Learn key line: 'Ich habe alle Unterlagen für meine Aufenthaltserlaubnis dabei.'",
               "duration": "20 min",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://en.pons.com/translate/german-arabic"
             }
           ],
           "targetMetrics": {
@@ -3702,7 +3702,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Deutsch mit Hend A1 Master Grammar Review Sheet",
               "duration": "60 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=76500s"
+              "link": "https://learngerman.dw.com/en/nicos-weg"
             },
             {
               "type": "Watch",
@@ -3771,7 +3771,7 @@ export const CURRICULUM_DATA = {
               "title": "Read 3 real German practical notices (housing contract, train schedule, uni email)",
               "duration": "30 min",
               "resourceType": "READING",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://learngerman.dw.com/en/nicos-weg"
             },
             {
               "type": "Quiz",

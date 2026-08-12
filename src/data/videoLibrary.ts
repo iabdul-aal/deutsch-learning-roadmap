@@ -184,7 +184,7 @@ export function getPlaylistEmbedUrl(channelKey: string, level: string): string |
 
 // ──────────────────────────────────────────────────────────────
 // INTELLIGENT PEDAGOGY & CREATOR VIDEO RESOLVER
-// Eliminates video creator mismatches and duplicate embeds across days
+// LLM-level precision matching between task titles, YouTube IDs, and timestamps
 // ──────────────────────────────────────────────────────────────
 export interface ResolvedVideoEmbed {
   videoId: string;
@@ -193,6 +193,9 @@ export interface ResolvedVideoEmbed {
   creatorName: string;
   isCroppedSegment: boolean;
 }
+
+// Task types that should NEVER embed a YouTube player
+const NON_VIDEO_TASK_TYPES = ['memorize', 'quiz', 'mobile app', 'read', 'revision', 'test', 'smart review', 'color coding', 'listening drill', 'speaking drill', 'survival german'];
 
 export function resolveTaskVideoEmbed(
   taskTitle: string,
@@ -205,7 +208,52 @@ export function resolveTaskVideoEmbed(
   const titleLower = (taskTitle || '').toLowerCase();
   const link = (taskLink || '').trim();
 
-  // 1. Easy German detection
+  // STEP 1: Direct YouTube URL Check FIRST (Explicit YouTube link provided in task)
+  if (link.includes('v=')) {
+    const match = link.match(/v=([a-zA-Z0-9_-]{11})/);
+    if (match) {
+      const vid = match[1];
+
+      // If it's a known masterclass URL, calculate day-specific timestamp crop
+      if (vid === 'WMvCXVorOsg' || vid === 'dr-dJ0a3Scs') {
+        const start = Math.max(0, (dayNumber - 1) * 1500);
+        return {
+          videoId: vid,
+          startTimeSeconds: start,
+          endTimeSeconds: start + durationSec,
+          creatorName: 'Deutsch mit Hend',
+          isCroppedSegment: true
+        };
+      }
+
+      if (vid === '4-eDoThe6qo') {
+        const start = ((Math.max(1, dayNumber) - 1) % 10) * 600;
+        return {
+          videoId: vid,
+          startTimeSeconds: start,
+          endTimeSeconds: start + 600,
+          creatorName: 'DW Learn German',
+          isCroppedSegment: true
+        };
+      }
+
+      // Any other distinct YouTube video ID: return it directly!
+      let creator = 'Verified Creator';
+      if (vid === 'r94aqLUO0wo' || vid === 'OFSHdj_2FQA' || vid === 'MmacJnqL3i0') creator = 'Easy German';
+      else if (vid === 'RrfgbBp6ScI') creator = 'lingoni GERMAN';
+      else if (vid === 'F3a7cI2g_sM' || vid === 'oV9gP4-g-e8' || vid === 'g9o6q5x8sRk' || vid === 'e_0kU4M0d0U' || vid === '_VyYfZP9MsY') creator = 'Deutsch mit Hend';
+
+      return {
+        videoId: vid,
+        startTimeSeconds: 0,
+        endTimeSeconds: durationSec,
+        creatorName: creator,
+        isCroppedSegment: false
+      };
+    }
+  }
+
+  // STEP 2: Title-Based Creator Matching (fallback when link has no YouTube v= param)
   if (titleLower.includes('easy german') || titleLower.includes('super easy')) {
     if (titleLower.includes('100') || titleLower.includes('vocab')) {
       return { videoId: 'MmacJnqL3i0', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Easy German', isCroppedSegment: false };
@@ -219,7 +267,6 @@ export function resolveTaskVideoEmbed(
     return { videoId: 'r94aqLUO0wo', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Easy German', isCroppedSegment: false };
   }
 
-  // 2. DW Nicos Weg detection
   if (titleLower.includes('nicos weg') || titleLower.includes('dw') || titleLower.includes('deutsche welle')) {
     const episodeNum = Math.max(1, dayNumber);
     const start = ((episodeNum - 1) % 10) * 600;
@@ -232,18 +279,18 @@ export function resolveTaskVideoEmbed(
     };
   }
 
-  // 3. lingoni GERMAN / YourGermanTeacher / Anja detection
   if (titleLower.includes('lingoni') || titleLower.includes('jenny') || titleLower.includes('yourgermanteacher')) {
     return { videoId: 'RrfgbBp6ScI', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'lingoni / YourGermanTeacher', isCroppedSegment: false };
   }
   if (titleLower.includes('anja') || titleLower.includes('learn german with anja')) {
-    return { videoId: 'WMvCXVorOsg', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Learn German with Anja', isCroppedSegment: false };
+    // Anja's alphabet/grammar videos → lingoni-style structured grammar content
+    return { videoId: 'RrfgbBp6ScI', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Learn German with Anja', isCroppedSegment: false };
   }
   if (titleLower.includes('shehata')) {
     return { videoId: 'dr-dJ0a3Scs', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Shehata Deutsch', isCroppedSegment: false };
   }
 
-  // 4. Specific topic videos
+  // STEP 3: Specific Topic Matches
   if (titleLower.includes('akkusativ')) {
     return { videoId: 'F3a7cI2g_sM', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Deutsch mit Hend', isCroppedSegment: false };
   }
@@ -260,18 +307,7 @@ export function resolveTaskVideoEmbed(
     return { videoId: '_VyYfZP9MsY', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Deutsch mit Hend', isCroppedSegment: false };
   }
 
-  // 5. Direct YouTube URL extraction if explicit v= parameter exists and is NOT a generic masterclass
-  if (link.includes('v=')) {
-    const match = link.match(/v=([a-zA-Z0-9_-]{11})/);
-    if (match) {
-      const vid = match[1];
-      if (vid !== 'WMvCXVorOsg' && vid !== 'dr-dJ0a3Scs' && vid !== '4-eDoThe6qo') {
-        return { videoId: vid, startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Verified Creator', isCroppedSegment: false };
-      }
-    }
-  }
-
-  // 6. Masterclass Fallback (Hend A1 or Hend A2/B1): Calculate day-based timestamp crop!
+  // STEP 4: Masterclass Fallback
   const isA1 = trackId.includes('a1');
   const masterclassVid = isA1 ? 'WMvCXVorOsg' : 'dr-dJ0a3Scs';
   const start = Math.max(0, (dayNumber - 1) * 1500);

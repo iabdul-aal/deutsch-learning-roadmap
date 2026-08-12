@@ -8,7 +8,7 @@ import { YouTubePlayer } from './YouTubePlayer';
 import {
   MapPin, CheckCircle2, Circle, ChevronRight, ChevronDown,
   Play, BookOpen, Mic, PenLine, Brain, Headphones, Layers,
-  Clock, Zap, Star, Lock, Trophy, ExternalLink,
+  Clock, Zap, Star, Lock, Trophy, ExternalLink, Filter, Check
 } from 'lucide-react';
 
 // ── Task type → visual config ─────────────────────────────────────
@@ -29,88 +29,14 @@ const TASK_META: Record<string, { icon: React.ElementType; color: string; bg: st
 
 const getTaskMeta = (type: string) => TASK_META[type] ?? TASK_META.default;
 
-// ── Skill → contentRanking SkillType mapping ─────────────────────
-const FOCUS_SKILL_MAP: Record<string, SkillType> = {
-  'Pronunciation and Greetings': 'SPRECHEN',
-  'Grammar and Conversation': 'GRAMMATIK',
-  'Speaking and Listening': 'SPRECHEN',
-  'Grammar Core': 'GRAMMATIK',
-  'Grammar and Speaking': 'GRAMMATIK',
-  'Listening and Vocabulary': 'HOEREN',
-  'Vocabulary and Reading': 'VOCAB',
-  'Reading and Grammar': 'LESEN',
-  'Writing and Grammar': 'SCHREIBEN',
-};
-
-// ── Topic → video ID map (all 56 days — pedagogy-matched) ────────────
+// Fallback video ID helper
 const VERIFIED_PLAYABLE_DECK = [
-  'WMvCXVorOsg', // Hend A1 — pronunciation, alphabet, grammar basics
-  'r94aqLUO0wo', // Easy German — greetings, self-intro, listening immersion
-  '4-eDoThe6qo', // DW Nicos Weg — story-based A1 full course
-  'OFSHdj_2FQA', // Easy German — daily life, food, routines
-  'RrfgbBp6ScI', // lingoni GERMAN — structured grammar course
-  'MmacJnqL3i0', // Easy German 100 words — vocabulary
-  'dr-dJ0a3Scs', // Deutsch mit Hend A2/B1 — intermediate grammar
+  'WMvCXVorOsg', 'r94aqLUO0wo', '4-eDoThe6qo', 'OFSHdj_2FQA', 'RrfgbBp6ScI', 'MmacJnqL3i0', 'dr-dJ0a3Scs'
 ];
 
-const SECONDARY_PLAYABLE_DECK = [
-  'r94aqLUO0wo', // Easy German Greetings / Introductions
-  'OFSHdj_2FQA', // Easy German Restaurant & Daily Life
-  '4-eDoThe6qo', // DW Nicos Weg Movie
-  'RrfgbBp6ScI', // lingoni GERMAN Grammar
-  'MmacJnqL3i0', // Easy German 100 Essential Words
-  'dr-dJ0a3Scs', // Deutsch mit Hend A2
-];
-
-const TOPIC_VIDEO_MAP: Record<number, string> = {
-  1:  'WMvCXVorOsg', 2:  'r94aqLUO0wo', 3:  'r94aqLUO0wo', 4:  'WMvCXVorOsg', 5:  'WMvCXVorOsg',
-  6:  'OFSHdj_2FQA', 7:  '4-eDoThe6qo', 8:  'WMvCXVorOsg', 9:  'OFSHdj_2FQA', 10: 'r94aqLUO0wo',
-  11: 'RrfgbBp6ScI', 12: 'OFSHdj_2FQA', 13: 'WMvCXVorOsg', 14: '4-eDoThe6qo', 15: 'WMvCXVorOsg',
-  16: 'r94aqLUO0wo', 17: 'OFSHdj_2FQA', 18: 'WMvCXVorOsg', 19: 'RrfgbBp6ScI', 20: 'r94aqLUO0wo',
-  21: '4-eDoThe6qo', 22: 'WMvCXVorOsg', 23: 'RrfgbBp6ScI', 24: 'r94aqLUO0wo', 25: 'OFSHdj_2FQA',
-  26: 'WMvCXVorOsg', 27: 'MmacJnqL3i0', 28: '4-eDoThe6qo', 29: 'WMvCXVorOsg', 30: 'RrfgbBp6ScI',
-  31: 'r94aqLUO0wo', 32: 'OFSHdj_2FQA', 33: 'WMvCXVorOsg', 34: 'RrfgbBp6ScI', 35: '4-eDoThe6qo',
-  36: 'dr-dJ0a3Scs', 37: 'dr-dJ0a3Scs', 38: 'r94aqLUO0wo', 39: 'dr-dJ0a3Scs', 40: 'MmacJnqL3i0',
-  41: 'OFSHdj_2FQA', 42: '4-eDoThe6qo', 43: 'WMvCXVorOsg', 44: 'RrfgbBp6ScI', 45: 'r94aqLUO0wo',
-  46: 'dr-dJ0a3Scs', 47: 'OFSHdj_2FQA', 48: 'MmacJnqL3i0', 49: '4-eDoThe6qo', 50: 'WMvCXVorOsg',
-  51: 'r94aqLUO0wo', 52: 'dr-dJ0a3Scs', 53: 'OFSHdj_2FQA', 54: 'RrfgbBp6ScI', 55: 'MmacJnqL3i0',
-  56: '4-eDoThe6qo',
-};
-
-// Fallback helper for days 1-56
 function getVerifiedDayVideoId(dayNum: number): string {
-  if (TOPIC_VIDEO_MAP[dayNum]) return TOPIC_VIDEO_MAP[dayNum];
   const idx = (dayNum - 1) % VERIFIED_PLAYABLE_DECK.length;
   return VERIFIED_PLAYABLE_DECK[idx];
-}
-
-function getSecondaryDayVideoId(dayNum: number): string {
-  const idx = (dayNum - 1) % SECONDARY_PLAYABLE_DECK.length;
-  return SECONDARY_PLAYABLE_DECK[idx];
-}
-
-/**
- * Calculates start and end timestamps for long video masterclasses to crop 25-min Pomodoro chapters per day.
- */
-export function getVideoCroppedSegment(videoId: string, dayNumber = 1, estimatedMinutes = 25) {
-  const durationSec = Math.max(15, estimatedMinutes) * 60; // 25 min default = 1500s
-
-  if (videoId === 'WMvCXVorOsg' || videoId === 'dr-dJ0a3Scs') {
-    // 26-30 hour masterclass series: crop 25-minute Pomodoro segment for this specific day
-    const start = Math.max(0, (dayNumber - 1) * 1500);
-    const end = start + durationSec;
-    return { startTimeSeconds: start, endTimeSeconds: end };
-  }
-
-  if (videoId === '4-eDoThe6qo') {
-    // DW Nicos Weg full movie (100 min = 6000s): crop 10-minute episode for this specific day
-    const dayMod = (dayNumber - 1) % 10;
-    const start = dayMod * 600;
-    const end = start + 600;
-    return { startTimeSeconds: start, endTimeSeconds: end };
-  }
-
-  return { startTimeSeconds: 0, endTimeSeconds: durationSec };
 }
 
 // ── Embedded Video Player (persistent watch tracking & Pomodoro focus timer) ──
@@ -240,23 +166,23 @@ const TaskCard: React.FC<{
   taskIndex: number;
   dayNumber: number;
   isDone: boolean;
-  dayVideoId?: string;
-  isFirstVideoTask: boolean;
-  secondaryVideoId?: string;
-}> = ({ task, taskId, taskIndex, dayNumber, isDone, dayVideoId, isFirstVideoTask, secondaryVideoId }) => {
+}> = ({ task, taskId, taskIndex, dayNumber, isDone }) => {
   const { currentTrackId, toggleTask } = useApp();
   const [expanded, setExpanded] = useState(false);
 
   const meta = getTaskMeta(task.type);
   const Icon = meta.icon;
-  const isVideo = task.type === 'Watch' || task.type === 'Listen' || task.type === 'Speak' || task.type === 'Shadowing' || Boolean(task.link && task.link.includes('v='));
-  const isWriting = task.type === 'Writing' || (task.type === 'Write');
+  // Only genuine video-consumption task types get an embedded player
+  const EMBEDDABLE_TYPES = ['Watch', 'Listen', 'Speak', 'Shadowing', 'Roleplay', 'AI Roleplay'];
+  const isVideo = EMBEDDABLE_TYPES.includes(task.type);
+  const isWriting = task.type === 'Writing' || task.type === 'Write';
   const isSpeaking = task.type === 'Speak' || task.type === 'Shadowing' || task.type === 'Roleplay' || task.type === 'AI Roleplay';
 
   // Calculate duration & intelligent creator-matched video embed
   const durationMatch = (task.duration || '').match(/(\d+)/);
   const estimatedMin = durationMatch ? parseInt(durationMatch[1], 10) : 25;
 
+  // Only resolve video if the task type actually involves video viewing
   const resolvedVideo = isVideo
     ? resolveTaskVideoEmbed(task.title, task.link, dayNumber, currentTrackId, estimatedMin)
     : null;
@@ -362,12 +288,6 @@ const DayCard: React.FC<{ day: any; trackId: string }> = ({ day, trackId }) => {
   ).length;
   const progress = dayTasks.length > 0 ? Math.round((doneCount / dayTasks.length) * 100) : 0;
 
-  // Assign embedded videos: primary (first Watch task) + secondary (second Watch task)
-  const primaryVideoId = getVerifiedDayVideoId(day.dayNumber);
-  const secondaryVideoId = getSecondaryDayVideoId(day.dayNumber);
-
-  let firstVideoSeen = false;
-
   return (
     <div className={`paper-card overflow-hidden transition-all ${isDayDone ? 'opacity-70' : ''}`}>
       {/* Day Header */}
@@ -447,9 +367,6 @@ const DayCard: React.FC<{ day: any; trackId: string }> = ({ day, trackId }) => {
           {dayTasks.map((task: any, tIdx: number) => {
             const taskId = makeTaskId(currentTrackId, day.dayNumber, tIdx);
             const isDone = Boolean(completedTasks[taskId]);
-            const isVideoTask = task.type === 'Watch' || task.type === 'Listen';
-            const isFirstVideo = isVideoTask && !firstVideoSeen;
-            if (isVideoTask) firstVideoSeen = true;
 
             return (
               <TaskCard
@@ -459,9 +376,6 @@ const DayCard: React.FC<{ day: any; trackId: string }> = ({ day, trackId }) => {
                 taskIndex={tIdx}
                 dayNumber={day.dayNumber}
                 isDone={isDone}
-                dayVideoId={primaryVideoId}
-                isFirstVideoTask={isFirstVideo}
-                secondaryVideoId={secondaryVideoId}
               />
             );
           })}
@@ -471,9 +385,9 @@ const DayCard: React.FC<{ day: any; trackId: string }> = ({ day, trackId }) => {
   );
 };
 
-// ── Main Curriculum View ──────────────────────────────────────────
+// ── Main Curriculum View (Desktop Side-Listing Layout) ─────────────────
 export const CurriculumView: React.FC = () => {
-  const { activeCurriculumData, completedTasks, completedDays, makeTaskId, currentTrackId, mode } = useApp();
+  const { activeCurriculumData, completedTasks, completedDays, makeTaskId, currentTrackId } = useApp();
   const [selectedWeekNum, setSelectedWeekNum] = useState(1);
 
   const weeksList = activeCurriculumData?.weeks || [];
@@ -524,47 +438,81 @@ export const CurriculumView: React.FC = () => {
         </div>
       </div>
 
-      {/* Week Selector Tabs */}
-      <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
-        {(weeksList || []).map((w: any) => {
-          const isSelected = w.weekNumber === selectedWeekNum;
-          return (
-            <button
-              key={w.weekNumber}
-              onClick={() => setSelectedWeekNum(w.weekNumber)}
-              className={`px-4 py-2 rounded-xl text-xs font-extrabold whitespace-nowrap transition-all border shrink-0 ${
-                isSelected
-                  ? 'bg-amber-500 text-stone-950 border-amber-500 shadow-sm'
-                  : 'bg-white text-stone-600 border-stone-200 hover:border-stone-300 hover:text-stone-900'
-              }`}
-            >
-              Week {w.weekNumber}: {w.title.split(':')[1] || w.title}
-            </button>
-          );
-        })}
-      </div>
-
-      {/* Selected Week Header */}
-      {activeWeek && (
-        <div className="bg-stone-900 text-white p-4 rounded-2xl space-y-1 shadow-sm">
-          <div className="flex items-center gap-2">
-            <span className="text-[10px] font-black uppercase tracking-wider text-amber-400">
-              Week {activeWeek.weekNumber} Focus
+      {/* Main Layout: Side Listing for Weeks on Desktop */}
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+        
+        {/* Left Column: Side Listing of Weeks (1 to 8) */}
+        <div className="lg:col-span-4 space-y-2">
+          <div className="flex items-center justify-between px-1 mb-1">
+            <h3 className="text-xs font-black text-stone-900 uppercase tracking-wider">
+              Syllabus Weeks ({weeksList.length})
+            </h3>
+            <span className="text-[10px] font-bold text-amber-700 bg-amber-50 px-2 py-0.5 rounded-full">
+              Select Week
             </span>
           </div>
-          <h3 className="text-base font-extrabold">{activeWeek.title}</h3>
-          {activeWeek.objective && (
-            <p className="text-xs text-stone-300 leading-relaxed">{activeWeek.objective}</p>
-          )}
-        </div>
-      )}
 
-      {/* Days List */}
-      <div className="space-y-3">
-        {(activeWeek?.days || []).map((day: any) => (
-          <DayCard key={day.dayNumber} day={day} trackId={currentTrackId} />
-        ))}
+          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-1 gap-2">
+            {(weeksList || []).map((w: any) => {
+              const isSelected = w.weekNumber === selectedWeekNum;
+              const weekDays = w.days || [];
+              const doneWeekDays = weekDays.filter((d: any) => completedDays?.includes(d.dayNumber)).length;
+
+              return (
+                <button
+                  key={w.weekNumber}
+                  onClick={() => setSelectedWeekNum(w.weekNumber)}
+                  className={`w-full p-3 rounded-2xl text-left transition-all border ${
+                    isSelected
+                      ? 'bg-amber-500 text-stone-950 border-amber-500 shadow-sm font-black'
+                      : 'bg-white text-stone-700 border-stone-200 hover:border-amber-400 hover:bg-stone-50 font-bold'
+                  }`}
+                >
+                  <div className="flex items-center justify-between gap-1">
+                    <span className={`text-[10px] font-black uppercase tracking-wider ${isSelected ? 'text-stone-950' : 'text-amber-700'}`}>
+                      Week {w.weekNumber}
+                    </span>
+                    <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded-full ${
+                      isSelected ? 'bg-stone-950/10 text-stone-950' : 'bg-stone-100 text-stone-500'
+                    }`}>
+                      {doneWeekDays}/{weekDays.length}
+                    </span>
+                  </div>
+                  <p className={`text-xs font-bold mt-1 line-clamp-2 leading-snug ${isSelected ? 'text-stone-950 font-black' : 'text-stone-900'}`}>
+                    {w.title.split(':')[1] || w.title}
+                  </p>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Right Column: Selected Week Focus + Days List */}
+        <div className="lg:col-span-8 space-y-4">
+          {activeWeek && (
+            <div className="bg-stone-900 text-white p-4 sm:p-5 rounded-2xl space-y-1 shadow-sm">
+              <div className="flex items-center gap-2">
+                <span className="text-[10px] font-black uppercase tracking-wider text-amber-400">
+                  Week {activeWeek.weekNumber} Focus Objective
+                </span>
+              </div>
+              <h3 className="text-base font-extrabold">{activeWeek.title}</h3>
+              {activeWeek.objective && (
+                <p className="text-xs text-stone-300 leading-relaxed mt-1">{activeWeek.objective}</p>
+              )}
+            </div>
+          )}
+
+          {/* Days List for the active week */}
+          <div className="space-y-3">
+            {(activeWeek?.days || []).map((day: any) => (
+              <DayCard key={day.dayNumber} day={day} trackId={currentTrackId} />
+            ))}
+          </div>
+        </div>
+
       </div>
+
     </div>
   );
 };
