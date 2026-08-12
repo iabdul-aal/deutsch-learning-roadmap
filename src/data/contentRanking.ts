@@ -260,15 +260,15 @@ export const CONTENT_DB: ContentSource[] = [
 
   // ─────────────────────────────────────────────────────────────
   // PIECE OF GERMAN - Step-by-Step Video Lessons
-  // Channel: Piece of German
+  // Channel: German Learning Masterclass
   // ─────────────────────────────────────────────────────────────
   {
     id: 'pog_a1_crash',
     type: 'VIDEO', tier: 'SECONDARY',
     resourceId: 'S8ukFF6SdGk',
     title: 'Learn German A1 Step by Step (Crash Course)',
-    titleAR: 'كورس الألمانية A1 خطوة بخطوة - Piece of German',
-    channelOrAuthor: 'Piece of German',
+    titleAR: 'كورس الألمانية A1 خطوة بخطوة - German Learning Masterclass',
+    channelOrAuthor: 'German Learning Masterclass',
     level: 'A1', skills: ['GRAMMATIK', 'HOEREN'],
     language: 'EN', durationMin: 25,
     viewsApprox: 600_000, communityScore: 90, contentMatchScore: 95, pedagogyScore: 92,
@@ -278,8 +278,8 @@ export const CONTENT_DB: ContentSource[] = [
     type: 'VIDEO', tier: 'SECONDARY',
     resourceId: 'DnewKMVyflE',
     title: 'Learn German A2 Step by Step (Crash Course)',
-    titleAR: 'كورس الألمانية A2 خطوة بخطوة - Piece of German',
-    channelOrAuthor: 'Piece of German',
+    titleAR: 'كورس الألمانية A2 خطوة بخطوة - German Learning Masterclass',
+    channelOrAuthor: 'German Learning Masterclass',
     level: 'A2', skills: ['GRAMMATIK', 'HOEREN'],
     language: 'EN', durationMin: 25,
     viewsApprox: 500_000, communityScore: 89, contentMatchScore: 94, pedagogyScore: 91,
@@ -290,7 +290,7 @@ export const CONTENT_DB: ContentSource[] = [
     resourceId: 'dTdc9sPFQig',
     title: 'Wo? oder Wohin? Two-Way Prepositions',
     titleAR: 'أدوات الجر التبادلية Wo? أين أم Wohin? إلى أين',
-    channelOrAuthor: 'Piece of German',
+    channelOrAuthor: 'German Learning Masterclass',
     level: 'A2', skills: ['GRAMMATIK'],
     language: 'EN', durationMin: 15,
     viewsApprox: 300_000, communityScore: 88, contentMatchScore: 96, pedagogyScore: 92,

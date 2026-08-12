@@ -19,14 +19,14 @@ export const RESOURCES_DATA_A2: ResourceDatabase = {
     },
     {
       id: "res-a2-piece-of-german",
-      title: "Piece of German - Learn German A2 Step by Step (Complete Video Course)",
-      creator: "Piece of German",
+      title: "Learn German A2 Step by Step (Complete Video Course)",
+      creator: "Curated German Video Curriculum",
       language: "English / German",
       skill: "Structured A2 Guided Video Curriculum",
       level: "A2 (Intermediate Beginner)",
       duration: "Video Masterclass Series",
       priority: "HIGH VALUE",
-      whySelected: "Direct video masterclass by Piece of German guiding learners step-by-step through intermediate grammar, Perfekt tense, Wechselpräpositionen, and conversational drills.",
+      whySelected: "Direct video masterclass by Curated German Video Curriculum guiding learners step-by-step through intermediate grammar, Perfekt tense, Wechselpräpositionen, and conversational drills.",
       sourceCommunity: "Global German Learners",
       link: "https://www.youtube.com/watch?v=DnewKMVyflE"
     },

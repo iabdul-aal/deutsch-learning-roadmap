@@ -50,14 +50,14 @@ export const RESOURCES_DATA: ResourceDatabase = {
     },
     {
       id: "res-piece-of-german-a1",
-      title: "Piece of German - Learn German A1 Step by Step (Complete Video Course)",
-      creator: "Piece of German",
+      title: "Learn German A1 Step by Step (Complete Video Course)",
+      creator: "Curated German Video Curriculum",
       language: "English / German",
       skill: "Structured Day-by-Day Guided Video Curriculum",
       level: "A1 (Beginner)",
       duration: "Video Masterclass Series",
       priority: "HIGH VALUE",
-      whySelected: "Direct video masterclass by Piece of German providing step-by-step guidance, A1 grammar explanations, vocabulary drills, and pronunciation exercises.",
+      whySelected: "Direct video masterclass by Curated German Video Curriculum providing step-by-step guidance, A1 grammar explanations, vocabulary drills, and pronunciation exercises.",
       sourceCommunity: "Global German Learners",
       link: "https://www.youtube.com/watch?v=S8ukFF6SdGk"
     },
