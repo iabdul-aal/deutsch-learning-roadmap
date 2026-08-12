@@ -4,7 +4,7 @@ import { A1_VOCABULARY } from '../data/vocabulary/a1-core';
 import type { VocabWord } from '../data/vocabulary/a1-core';
 import {
   Search, Brain, Check, X, RotateCcw, ChevronRight,
-  Star, BookOpen, TrendingUp, Flame, Clock, Trophy,
+  Star, BookOpen, TrendingUp, Flame, Clock, Trophy, Layers,
 } from 'lucide-react';
 
 // ── Article colour coding (pedagogical best practice) ────────────
@@ -25,7 +25,6 @@ const QUALITY_BUTTONS = [
 type QualityValue = 1 | 2 | 4 | 5;
 
 const MAX_DAILY_NEW = 20;
-const MAX_SESSION_CARDS = 30;
 
 // ── Flashcard ────────────────────────────────────────────────────
 const FlashCard: React.FC<{
@@ -98,17 +97,14 @@ const FlashCard: React.FC<{
           </p>
           <p className="text-sm text-stone-600 font-medium">{word.english}</p>
           <p className="text-xs text-stone-500 text-center italic">{word.exampleDE}</p>
-          <p className="text-[11px] text-stone-400 text-center" dir="rtl">
-            {word.exampleAR}
-          </p>
           {word.nounGenderHint && (
-            <div className="bg-white border border-amber-200 rounded-xl px-3 py-2 text-[11px] text-amber-800 text-center mt-1" dir="rtl">
-               {word.nounGenderHint}
+            <div className="bg-amber-100 border border-amber-200 rounded-xl px-3 py-1.5 text-[11px] text-amber-800 text-center" dir="rtl">
+              💡 {word.nounGenderHint}
             </div>
           )}
           {word.commonMistakeAR && (
             <div className="bg-rose-50 border border-rose-100 rounded-xl px-3 py-1.5 text-[11px] text-rose-700 text-center" dir="rtl">
-              ️ {word.commonMistakeAR}
+              ⚠️ {word.commonMistakeAR}
             </div>
           )}
         </div>
@@ -158,16 +154,18 @@ const BrowseCard: React.FC<{ word: VocabWord; srsState?: string }> = ({ word, sr
       </button>
 
       {expanded && (
-        <div className="border-t border-stone-100 p-3 space-y-2 bg-stone-50 animate-fadeIn">
-          <p className="text-xs font-medium text-stone-700">{word.english}</p>
-          <p className="text-xs text-stone-500 italic">{word.exampleDE}</p>
-          <p className="text-[11px] text-stone-400" dir="rtl">{word.exampleAR}</p>
-          {word.verbInfo && (
-            <div className="bg-white rounded-lg p-2 text-[11px] text-stone-600 border border-stone-100">
-              <span className="font-bold">PP:</span> {word.verbInfo.pastParticiple} ·{' '}
-              <span className="font-bold">Aux:</span> {word.verbInfo.auxiliaryVerb}
-              {word.verbInfo.isIrregular && <span className="ml-2 text-rose-600 font-bold">irregular</span>}
-            </div>
+        <div className="px-3 pb-3 pt-1 border-t border-stone-100 space-y-2 bg-stone-50 text-xs">
+          <div className="flex flex-wrap gap-2 text-[11px] text-stone-500">
+            {word.plural && <span>Plural: <strong>{word.plural}</strong></span>}
+            <span>English: <strong>{word.english}</strong></span>
+          </div>
+          <p className="text-stone-700 italic bg-white p-2 rounded border border-stone-200">
+            "{word.exampleDE}"
+          </p>
+          {word.exampleAR && (
+            <p className="text-stone-600 text-right font-cairo" dir="rtl">
+              "{word.exampleAR}"
+            </p>
           )}
         </div>
       )}
@@ -175,29 +173,40 @@ const BrowseCard: React.FC<{ word: VocabWord; srsState?: string }> = ({ word, sr
   );
 };
 
-// ── Main Component ────────────────────────────────────────────────
+// ── Main Vocabulary View ──────────────────────────────────────────
 export const VocabularyView: React.FC = () => {
-  const { addSRSWord, reviewSRSCard, learnerModel, srsStats } = useApp();
+  const { currentTrackId, addSRSWord, reviewSRSCard, learnerModel, srsStats } = useApp();
+
+  // Track Level Default: A1 for german-a1-ar, A2 for german-a2-ar, B1 for german-b1-ar
+  const currentTrackLevel = currentTrackId.includes('a2') ? 'A2' : currentTrackId.includes('b1') ? 'B1' : 'A1';
+  const [levelFilter, setLevelFilter] = useState<'A1' | 'A2' | 'B1' | 'ALL'>(currentTrackLevel);
+
   const [activeTab, setActiveTab] = useState<'review' | 'browse' | 'stats'>('review');
   const [searchTerm, setSearchTerm] = useState('');
   const [filterField, setFilterField] = useState<string>('all');
+
+  // Filter words by active track level
+  const trackWords = useMemo(() => {
+    if (levelFilter === 'ALL') return A1_VOCABULARY;
+    return A1_VOCABULARY.filter(w => (w.cefr || 'A1') === levelFilter);
+  }, [levelFilter]);
 
   // ── SRS Review State ──
   const [isFlipped, setIsFlipped] = useState(false);
   const [sessionDone, setSessionDone] = useState(false);
   const [sessionReviewed, setSessionReviewed] = useState(0);
   const [sessionCorrect, setSessionCorrect] = useState(0);
+  const [cardIndex, setCardIndex] = useState(0);
 
-  // Build today's review queue: due cards first, then new cards up to daily limit
+  // Build today's review queue
   const reviewQueue = useMemo<VocabWord[]>(() => {
     const today = new Date().toISOString().split('T')[0];
     const srsCards = learnerModel.srsCards;
 
-    // Words already in SRS that are due today
     const due: VocabWord[] = [];
     const newWords: VocabWord[] = [];
 
-    for (const word of A1_VOCABULARY) {
+    for (const word of trackWords) {
       const card = srsCards[word.id];
       if (card) {
         if (card.nextReviewDate <= today && card.state !== 'SUSPENDED') {
@@ -208,37 +217,30 @@ export const VocabularyView: React.FC = () => {
       }
     }
 
-    // Sort due cards: LEARNING first (most urgent), then REVIEW, then MATURE
     due.sort((a, b) => {
       const stateOrder = { LEARNING: 0, REVIEW: 1, MATURE: 2, NEW: 3, SUSPENDED: 4 };
       return (stateOrder[srsCards[a.id]?.state ?? 'NEW'] ?? 3) -
              (stateOrder[srsCards[b.id]?.state ?? 'NEW'] ?? 3);
     });
 
-    // New words: limit by daily budget minus already reviewed today
     const todayReviewed = Object.values(srsCards).filter(
       c => c.lastReviewDate === today
     ).length;
     const newBudget = Math.max(0, MAX_DAILY_NEW - todayReviewed);
-    const newBatch = newWords.slice(0, newBudget);
+    const newToAdd = newWords.slice(0, newBudget);
 
-    // Add new words to SRS on queue creation (idempotent)
-    newBatch.forEach(w => addSRSWord(w.id));
+    return [...due, ...newToAdd];
+  }, [trackWords, learnerModel.srsCards]);
 
-    return [...due, ...newBatch].slice(0, MAX_SESSION_CARDS);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [learnerModel.srsCards]);
-
-  const [cardIndex, setCardIndex] = useState(0);
-  const currentWord = reviewQueue[cardIndex] ?? null;
+  const currentWord = reviewQueue[cardIndex];
 
   const handleRate = useCallback((quality: QualityValue) => {
     if (!currentWord) return;
     reviewSRSCard(currentWord.id, quality);
-    setSessionReviewed(n => n + 1);
-    if (quality >= 4) setSessionCorrect(n => n + 1);
-    setIsFlipped(false);
+    setSessionReviewed(r => r + 1);
+    if (quality >= 4) setSessionCorrect(c => c + 1);
 
+    setIsFlipped(false);
     if (cardIndex + 1 >= reviewQueue.length) {
       setSessionDone(true);
     } else {
@@ -246,7 +248,7 @@ export const VocabularyView: React.FC = () => {
     }
   }, [currentWord, cardIndex, reviewQueue.length, reviewSRSCard]);
 
-  // Keyboard shortcuts for review
+  // Keyboard shortcuts
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
       if (activeTab !== 'review' || !isFlipped || sessionDone) return;
@@ -260,15 +262,15 @@ export const VocabularyView: React.FC = () => {
     return () => window.removeEventListener('keydown', handler);
   }, [activeTab, isFlipped, sessionDone, handleRate]);
 
-  // ── Browse filtering ──
+  // Browse filtering
   const semanticFields = useMemo(() => {
-    const fields = new Set(A1_VOCABULARY.map(w => w.semanticField));
+    const fields = new Set(trackWords.map(w => w.semanticField));
     return ['all', ...Array.from(fields)];
-  }, []);
+  }, [trackWords]);
 
   const filteredWords = useMemo(() => {
     const q = searchTerm.toLowerCase();
-    return A1_VOCABULARY.filter(w => {
+    return trackWords.filter(w => {
       const matchField = filterField === 'all' || w.semanticField === filterField;
       const matchSearch = !q ||
         w.german.toLowerCase().includes(q) ||
@@ -276,7 +278,7 @@ export const VocabularyView: React.FC = () => {
         w.english.toLowerCase().includes(q);
       return matchField && matchSearch;
     });
-  }, [searchTerm, filterField]);
+  }, [trackWords, searchTerm, filterField]);
 
   const TABS = [
     { id: 'review' as const, label: 'Review',  labelAR: 'مراجعة', icon: Brain },
@@ -287,15 +289,14 @@ export const VocabularyView: React.FC = () => {
   return (
     <div className="space-y-5 animate-fadeIn max-w-2xl mx-auto" id="main-content">
 
-      {/* Header */}
-      <div className="paper-card p-5">
+      {/* Header with Track Level Switcher */}
+      <div className="paper-card p-5 space-y-4">
         <div className="flex items-end justify-between gap-4">
           <div>
             <p className="text-[10px] font-black text-amber-700 uppercase tracking-widest mb-1">
-              DAILY WORD REVIEWS · {A1_VOCABULARY.length} WORDS
+              {levelFilter} WORTSCHATZ · {trackWords.length} WORDS
             </p>
-            <h2 className="text-xl font-black text-stone-900">Wortschatz</h2>
-            
+            <h2 className="text-xl font-black text-stone-900">Spaced Repetition System</h2>
           </div>
           <div className="flex items-center gap-4 text-center shrink-0">
             <div>
@@ -308,32 +309,50 @@ export const VocabularyView: React.FC = () => {
             </div>
             <div>
               <div className="text-xl font-black text-stone-800">{srsStats.total}</div>
-              <div className="text-[10px] text-stone-400">Total</div>
+              <div className="text-[10px] text-stone-400">Deck</div>
             </div>
           </div>
         </div>
+
+        {/* Level Switcher Tabs */}
+        <div className="flex items-center gap-2 pt-2 border-t border-stone-100">
+          <span className="text-[10px] font-bold text-stone-400 uppercase tracking-wide mr-1">Level:</span>
+          {(['A1', 'A2', 'B1', 'ALL'] as const).map(lvl => (
+            <button
+              key={lvl}
+              onClick={() => { setLevelFilter(lvl); setCardIndex(0); setSessionDone(false); }}
+              className={`px-3 py-1 rounded-lg text-xs font-bold transition-all border ${
+                levelFilter === lvl
+                  ? 'bg-amber-500 text-stone-950 border-amber-500 shadow-xs'
+                  : 'bg-white text-stone-600 border-stone-200 hover:border-stone-300'
+              }`}
+            >
+              {lvl === 'ALL' ? 'All Levels' : `${lvl} Deck`}
+            </button>
+          ))}
+        </div>
       </div>
 
-      {/* Tab bar */}
-      <div className="flex gap-1 bg-stone-100 p-1 rounded-xl" role="tablist">
-        {TABS.map(tab => {
-          const Icon = tab.icon;
+      {/* Main Tab Nav */}
+      <div className="flex rounded-xl bg-stone-100 p-1 border border-stone-200">
+        {TABS.map(t => {
+          const Icon = t.icon;
+          const active = activeTab === t.id;
           return (
             <button
-              key={tab.id}
-              onClick={() => setActiveTab(tab.id)}
-              role="tab"
-              aria-selected={activeTab === tab.id}
-              aria-controls={`panel-${tab.id}`}
-              className={`flex-1 flex items-center justify-center gap-1.5 py-2 px-3 rounded-lg text-xs font-bold transition-all ${
-                activeTab === tab.id
-                  ? 'bg-white text-stone-900 shadow-sm'
-                  : 'text-stone-500 hover:text-stone-700'
+              key={t.id}
+              onClick={() => setActiveTab(t.id)}
+              className={`flex-1 flex items-center justify-center gap-2 py-2 rounded-lg text-xs font-bold transition-all ${
+                active
+                  ? 'bg-white text-stone-900 shadow-xs'
+                  : 'text-stone-500 hover:text-stone-800'
               }`}
             >
               <Icon className="w-3.5 h-3.5" />
-              <span className="hidden sm:inline">{tab.label}</span>
-              <span className="sm:hidden text-[10px]" dir="rtl">{tab.labelAR}</span>
+              <span>{t.label}</span>
+              <span className="text-[10px] font-cairo opacity-70 hidden sm:inline" dir="rtl">
+                ({t.labelAR})
+              </span>
             </button>
           );
         })}
@@ -341,110 +360,57 @@ export const VocabularyView: React.FC = () => {
 
       {/* ── REVIEW TAB ── */}
       {activeTab === 'review' && (
-        <div id="panel-review" role="tabpanel">
-          {reviewQueue.length === 0 ? (
-            <div className="paper-card p-8 text-center space-y-3">
-              <div className="text-4xl"></div>
-              <h3 className="text-lg font-black text-stone-900">All caught up!</h3>
-              <p className="text-sm text-stone-500">No cards due today. Come back tomorrow.</p>
-              
-              <button
-                onClick={() => setActiveTab('browse')}
-                className="btn-amber mt-2"
-              >
-                Browse Vocabulary
-              </button>
-            </div>
-          ) : sessionDone ? (
+        <div className="space-y-4">
+          {sessionDone || reviewQueue.length === 0 || !currentWord ? (
             <div className="paper-card p-8 text-center space-y-4">
-              <div className="text-5xl"></div>
-              <h3 className="text-xl font-black text-stone-900">Session Complete!</h3>
-              <div className="flex justify-center gap-6">
-                <div>
-                  <div className="text-2xl font-black text-stone-800">{sessionReviewed}</div>
-                  <div className="text-xs text-stone-400">Reviewed</div>
-                </div>
-                <div>
-                  <div className="text-2xl font-black text-emerald-700">{sessionCorrect}</div>
-                  <div className="text-xs text-stone-400">Correct</div>
-                </div>
-                <div>
-                  <div className="text-2xl font-black text-amber-700">
-                    {sessionReviewed > 0 ? Math.round((sessionCorrect / sessionReviewed) * 100) : 0}%
-                  </div>
-                  <div className="text-xs text-stone-400">Accuracy</div>
-                </div>
+              <div className="w-14 h-14 rounded-2xl bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto text-2xl font-black">
+                🎉
               </div>
+              <h3 className="text-lg font-black text-stone-900">
+                {reviewQueue.length === 0 ? 'No Reviews Due Today!' : 'Session Complete!'}
+              </h3>
+              <p className="text-xs text-stone-500 max-w-sm mx-auto">
+                {sessionReviewed > 0
+                  ? `You reviewed ${sessionReviewed} cards with ${Math.round((sessionCorrect / Math.max(sessionReviewed, 1)) * 100)}% accuracy.`
+                  : 'All catch-up reviews are completed. Great work keeping your SRS deck updated!'}
+              </p>
               <button
-                onClick={() => {
-                  setCardIndex(0);
-                  setSessionDone(false);
-                  setSessionReviewed(0);
-                  setSessionCorrect(0);
-                  setIsFlipped(false);
-                }}
-                className="btn-amber"
+                onClick={() => { setSessionDone(false); setCardIndex(0); setSessionReviewed(0); setSessionCorrect(0); }}
+                className="px-4 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black transition-all shadow-xs"
               >
                 Review Again
               </button>
             </div>
           ) : (
             <div className="space-y-4">
-              {/* Progress */}
-              <div className="flex items-center gap-3 px-1">
-                <div className="flex-1 h-1.5 bg-stone-100 rounded-full overflow-hidden">
-                  <div
-                    className="h-full bg-amber-500 rounded-full transition-all duration-300"
-                    style={{ width: `${(cardIndex / reviewQueue.length) * 100}%` }}
-                  />
-                </div>
-                <span className="text-[11px] font-black text-stone-400 shrink-0">
-                  {cardIndex + 1}/{reviewQueue.length}
-                </span>
+              <div className="flex items-center justify-between text-xs text-stone-400 font-bold">
+                <span>Card {cardIndex + 1} of {reviewQueue.length}</span>
+                <span>{Math.round(((cardIndex) / reviewQueue.length) * 100)}% Complete</span>
               </div>
 
-              {/* Flashcard */}
-              {currentWord && (
-                <FlashCard
-                  word={currentWord}
-                  isFlipped={isFlipped}
-                  onFlip={() => setIsFlipped(f => !f)}
-                />
-              )}
+              <FlashCard
+                word={currentWord}
+                isFlipped={isFlipped}
+                onFlip={() => setIsFlipped(f => !f)}
+              />
 
-              {/* Rating buttons - only shown after flip */}
               {isFlipped && (
-                <div className="grid grid-cols-4 gap-2 animate-fadeIn">
-                  {QUALITY_BUTTONS.map(({ quality, label, labelAR, color, icon: Icon }) => (
-                    <button
-                      key={quality}
-                      onClick={() => handleRate(quality)}
-                      className={`flex flex-col items-center gap-1 py-3 rounded-xl font-bold text-xs transition-all active:scale-95 ${color}`}
-                      aria-label={`Rate as ${label}`}
-                    >
-                      <Icon className="w-4 h-4" />
-                      <span>{label}</span>
-                      <span className="text-[10px] opacity-75" dir="rtl">{labelAR}</span>
-                      <span className="text-[9px] opacity-50 font-mono">[{quality === 4 ? '3' : quality}]</span>
-                    </button>
-                  ))}
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 animate-fadeIn">
+                  {QUALITY_BUTTONS.map(q => {
+                    const Icon = q.icon;
+                    return (
+                      <button
+                        key={q.quality}
+                        onClick={() => handleRate(q.quality)}
+                        className={`flex flex-col items-center justify-center p-3 rounded-xl font-bold transition-all shadow-xs gap-0.5 ${q.color}`}
+                      >
+                        <Icon className="w-4 h-4" />
+                        <span className="text-xs">{q.label}</span>
+                        <span className="text-[10px] opacity-80 font-cairo" dir="rtl">{q.labelAR}</span>
+                      </button>
+                    );
+                  })}
                 </div>
-              )}
-
-              {/* Keyboard hint */}
-              {isFlipped && (
-                <p className="text-center text-[10px] text-stone-300">
-                  Keyboard: Space to flip · 1 Again · 2 Hard · 3 Good · 4 Easy
-                </p>
-              )}
-
-              {!isFlipped && (
-                <button
-                  onClick={() => setIsFlipped(true)}
-                  className="w-full py-3 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-700 font-bold text-sm transition-colors"
-                >
-                  Reveal Answer
-                </button>
               )}
             </div>
           )}
@@ -453,35 +419,28 @@ export const VocabularyView: React.FC = () => {
 
       {/* ── BROWSE TAB ── */}
       {activeTab === 'browse' && (
-        <div id="panel-browse" role="tabpanel" className="space-y-3">
-          {/* Search + filter */}
-          <div className="flex flex-col sm:flex-row gap-2">
+        <div className="space-y-4">
+          <div className="flex flex-col sm:flex-row gap-3">
             <div className="relative flex-1">
               <Search className="w-4 h-4 text-stone-400 absolute left-3 top-2.5" />
               <input
-                type="search"
+                type="text"
                 value={searchTerm}
                 onChange={e => setSearchTerm(e.target.value)}
-                placeholder="Search German, Arabic, English..."
-                aria-label="Search vocabulary"
-                className="w-full pl-9 pr-3 py-2 text-sm border border-stone-200 rounded-xl bg-white focus:outline-none focus:border-amber-400"
+                placeholder="Search German, Arabic, or English..."
+                className="w-full pl-9 pr-3 py-2 text-xs border border-stone-200 rounded-xl bg-white focus:outline-none focus:border-amber-500"
               />
             </div>
             <select
               value={filterField}
               onChange={e => setFilterField(e.target.value)}
-              aria-label="Filter by semantic field"
-              className="px-3 py-2 text-sm border border-stone-200 rounded-xl bg-white focus:outline-none focus:border-amber-400"
+              className="px-3 py-2 text-xs border border-stone-200 rounded-xl bg-white focus:outline-none focus:border-amber-500 capitalize"
             >
               {semanticFields.map(f => (
-                <option key={f} value={f}>{f === 'all' ? 'All fields' : f}</option>
+                <option key={f} value={f}>{f === 'all' ? 'All Fields' : f}</option>
               ))}
             </select>
           </div>
-
-          <p className="text-[11px] text-stone-400 px-1">
-            {filteredWords.length} words · {learnerModel.srsCards ? Object.keys(learnerModel.srsCards).length : 0} in SRS
-          </p>
 
           <div className="space-y-2">
             {filteredWords.map(word => (
@@ -497,59 +456,24 @@ export const VocabularyView: React.FC = () => {
 
       {/* ── STATS TAB ── */}
       {activeTab === 'stats' && (
-        <div id="panel-stats" role="tabpanel" className="space-y-4">
-          {/* SRS breakdown */}
-          <div className="paper-card p-5">
-            <p className="text-[10px] font-black text-stone-400 uppercase tracking-widest mb-4">Your Word Deck</p>
-            <div className="grid grid-cols-2 gap-3">
-              {[
-                { label: 'New',      labelAR: 'جديدة',       value: srsStats.new,      color: 'bg-stone-100 text-stone-700' },
-                { label: 'Learning', labelAR: 'تعلّم',        value: srsStats.learning, color: 'bg-blue-100 text-blue-700'   },
-                { label: 'Review',   labelAR: 'مراجعة',      value: srsStats.review,   color: 'bg-amber-100 text-amber-700' },
-                { label: 'Mature',   labelAR: 'راسخة',       value: srsStats.mature,   color: 'bg-emerald-100 text-emerald-700' },
-              ].map(stat => (
-                <div key={stat.label} className={`rounded-xl p-4 ${stat.color}`}>
-                  <div className="text-2xl font-black">{stat.value}</div>
-                  <div className="text-xs font-bold">{stat.label}</div>
-                  <div className="text-[11px] opacity-70" dir="rtl">{stat.labelAR}</div>
-                </div>
-              ))}
+        <div className="paper-card p-6 space-y-4">
+          <h3 className="text-sm font-black text-stone-900">SRS Mastery Distribution</h3>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
+            <div className="p-3 rounded-xl bg-stone-50 border border-stone-200">
+              <div className="text-lg font-black text-stone-400">{srsStats.new}</div>
+              <div className="text-[10px] text-stone-500 font-bold">New</div>
             </div>
-          </div>
-
-          {/* Vocab database breakdown */}
-          <div className="paper-card p-5 space-y-3">
-            <p className="text-[10px] font-black text-stone-400 uppercase tracking-widest">
-              Vocabulary Database
-            </p>
-            {['greetings', 'time', 'family', 'food', 'home', 'transport', 'work', 'body', 'adjectives', 'verbs'].map(field => {
-              const fieldWords = A1_VOCABULARY.filter(w => w.semanticField === field);
-              const learned = fieldWords.filter(w => learnerModel.srsCards[w.id]?.state === 'MATURE' || learnerModel.srsCards[w.id]?.state === 'REVIEW').length;
-              return (
-                <div key={field}>
-                  <div className="flex justify-between text-xs mb-1">
-                    <span className="font-bold text-stone-700 capitalize">{field}</span>
-                    <span className="text-stone-400">{learned}/{fieldWords.length}</span>
-                  </div>
-                  <div className="h-1.5 bg-stone-100 rounded-full overflow-hidden">
-                    <div
-                      className="h-full bg-amber-500 rounded-full transition-all duration-700"
-                      style={{ width: fieldWords.length > 0 ? `${(learned / fieldWords.length) * 100}%` : '0%' }}
-                    />
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-
-          <div className="paper-card p-4 grid grid-cols-2 gap-3">
-            <div className="text-center">
-              <div className="text-2xl font-black text-stone-900">{learnerModel.totalWordsLearned}</div>
-              <div className="text-xs text-stone-400">Total Learned</div>
+            <div className="p-3 rounded-xl bg-blue-50 border border-blue-200">
+              <div className="text-lg font-black text-blue-700">{srsStats.learning}</div>
+              <div className="text-[10px] text-blue-600 font-bold">Learning</div>
             </div>
-            <div className="text-center">
-              <div className="text-2xl font-black text-emerald-700">{learnerModel.activeVocabularySize}</div>
-              <div className="text-xs text-stone-400">Active Vocab</div>
+            <div className="p-3 rounded-xl bg-amber-50 border border-amber-200">
+              <div className="text-lg font-black text-amber-700">{srsStats.review}</div>
+              <div className="text-[10px] text-amber-600 font-bold">Review</div>
+            </div>
+            <div className="p-3 rounded-xl bg-emerald-50 border border-emerald-200">
+              <div className="text-lg font-black text-emerald-700">{srsStats.mature}</div>
+              <div className="text-[10px] text-emerald-600 font-bold">Mature</div>
             </div>
           </div>
         </div>

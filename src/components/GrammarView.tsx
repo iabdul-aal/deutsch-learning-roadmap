@@ -233,8 +233,9 @@ const CEFR_COLORS = {
 };
 
 export const GrammarView: React.FC = () => {
-  const { grammarStatus, toggleGrammarStatus } = useApp();
-  const [activeFilter, setActiveFilter] = useState<'All' | 'A1' | 'A2' | 'B1' | 'Weak'>('All');
+  const { currentTrackId, grammarStatus, toggleGrammarStatus } = useApp();
+  const currentTrackLevel = currentTrackId.includes('a2') ? 'A2' : currentTrackId.includes('b1') ? 'B1' : 'A1';
+  const [activeFilter, setActiveFilter] = useState<'All' | 'A1' | 'A2' | 'B1' | 'Weak'>(currentTrackLevel);
   const [selectedConcept, setSelectedConcept] = useState<GrammarConcept | null>(null);
 
   // Quick Quiz State
