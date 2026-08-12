@@ -19,10 +19,11 @@ import {
   Info, Youtube, FileText, Globe, Dumbbell,
 } from 'lucide-react';
 import { useApp } from '../context/AppContext';
-import { selectResourcesForSkill, CONTENT_DB, getYouTubeWatchUrl, getYouTubeEmbedUrl } from '../data/contentRanking';
+import { selectResourcesForSkill, CONTENT_DB, getYouTubeWatchUrl } from '../data/contentRanking';
 import type { ContentSource, SkillType } from '../data/contentRanking';
 import { masteryToCEFR } from '../engine/learnerModel';
 import type { NextAction, SkillKey, GoalTrack } from '../types/learner';
+import { YouTubePlayer } from './YouTubePlayer';
 
 // ── Skill metadata ────────────────────────────────────────────────
 
@@ -139,15 +140,13 @@ const NextBestActionCard: React.FC<{
               </div>
             </div>
 
-            {/* Embedded YouTube video player */}
+            {/* Persistent-tracked YouTube player */}
             {resource.type === 'VIDEO' && resource.resourceId && (
-              <div className="rounded-xl overflow-hidden bg-stone-950 aspect-video w-full border border-stone-700 shadow-md my-2">
-                <iframe
-                  src={getYouTubeEmbedUrl(resource.resourceId)}
-                  className="w-full h-full border-0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
+              <div className="my-2">
+                <YouTubePlayer
+                  videoId={resource.resourceId}
                   title={resource.title}
+                  taskTitle={resource.title}
                 />
               </div>
             )}

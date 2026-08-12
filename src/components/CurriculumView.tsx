@@ -1,8 +1,9 @@
 import React, { useState, useMemo } from 'react';
 import { useApp } from '../context/AppContext';
 import {
-  CONTENT_DB, rankContent, ContentSource, SkillType, getYouTubeEmbedUrl, getYouTubeWatchUrl
+  CONTENT_DB, rankContent, ContentSource, SkillType, getYouTubeWatchUrl
 } from '../data/contentRanking';
+import { YouTubePlayer } from './YouTubePlayer';
 import {
   MapPin, CheckCircle2, Circle, ChevronRight, ChevronDown,
   Play, BookOpen, Mic, PenLine, Brain, Headphones, Layers,
@@ -132,31 +133,15 @@ function getVerifiedDayVideoId(dayNum: number): string {
   return VERIFIED_PLAYABLE_DECK[idx];
 }
 
-// ── Embedded Video Player ─────────────────────────────────────────
-const EmbeddedPlayer: React.FC<{ videoId: string; title: string }> = ({ videoId, title }) => (
-  <div className="space-y-2 mt-3">
-    <div className="rounded-xl overflow-hidden bg-stone-950 aspect-video w-full border border-stone-800 shadow-md">
-      <iframe
-        src={getYouTubeEmbedUrl(videoId)}
-        className="w-full h-full"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-        loading="lazy"
-        title={title}
-      />
-    </div>
-    <div className="flex items-center justify-between p-2 rounded-xl bg-stone-50 border border-stone-200">
-      <span className="text-xs font-bold text-stone-800 truncate pr-2">{title}</span>
-      <a
-        href={getYouTubeWatchUrl(videoId)}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-red-600 hover:bg-red-700 text-white text-xs font-black transition-all shrink-0 shadow-xs"
-      >
-        <Play className="w-3.5 h-3.5 fill-current" />
-        <span>Watch on YouTube</span>
-      </a>
-    </div>
+// ── Embedded Video Player (persistent watch tracking) ──────────────────
+const EmbeddedPlayer: React.FC<{ videoId: string; title: string; dayNumber?: number }> = ({ videoId, title, dayNumber }) => (
+  <div className="mt-3">
+    <YouTubePlayer
+      videoId={videoId}
+      title={title}
+      dayNumber={dayNumber}
+      taskTitle={title}
+    />
   </div>
 );
 
@@ -336,7 +321,7 @@ const TaskCard: React.FC<{
         <div className="px-3 pb-3 space-y-2 animate-fadeIn">
           {/* VIDEO EMBED */}
           {isVideo && (
-            <EmbeddedPlayer videoId={embedVideoId || 'WMvCXVorOsg'} title={task.title} />
+            <EmbeddedPlayer videoId={embedVideoId || 'WMvCXVorOsg'} title={task.title} dayNumber={dayNumber} />
           )}
 
           {/* WRITING TASK */}

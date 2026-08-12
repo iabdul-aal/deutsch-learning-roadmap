@@ -1,6 +1,7 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useCallback } from 'react';
 import { ExternalLink, Maximize2, X, CheckCircle2, Play } from 'lucide-react';
 import { getYouTubeEmbedUrl, getYouTubeWatchUrl } from '../data/contentRanking';
+import { useApp } from '../context/AppContext';
 
 interface YouTubePlayerProps {
   videoId: string;
@@ -8,11 +9,14 @@ interface YouTubePlayerProps {
   onComplete?: () => void;
   className?: string;
   autoplay?: boolean;
+  dayNumber?: number;   // curriculum context — used in watch record
+  taskTitle?: string;   // curriculum context — used in watch record
 }
 
 /**
- * Embedded YouTube player component with direct YouTube watch fallback button.
- * Guarantees zero broken links and bulletproof playback on all platforms.
+ * Embedded YouTube player with persistent watch progress saved to localStorage.
+ * A green "Watched" badge appears immediately after the video ends, and reappears
+ * on every future visit to the page.
  */
 export const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
   videoId,
@@ -20,44 +24,58 @@ export const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
   onComplete,
   className = '',
   autoplay = false,
+  dayNumber,
+  taskTitle,
 }) => {
+  const { isVideoWatched, markVideoWatched } = useApp();
   const [isFullscreen, setIsFullscreen] = useState(false);
-  const [hasWatched, setHasWatched] = useState(false);
-  const iframeRef = useRef<HTMLIFrameElement>(null);
+  // Derive watched state from persistent store so badge survives page reload
+  const watched = isVideoWatched(videoId);
 
+  const handleWatched = useCallback(() => {
+    markVideoWatched(videoId, { dayNumber, taskTitle });
+    onComplete?.();
+  }, [videoId, dayNumber, taskTitle, markVideoWatched, onComplete]);
+
+  // Listen for YouTube postMessage events (state 0 = ended)
   useEffect(() => {
     const handleMessage = (event: MessageEvent) => {
       if (event.origin !== 'https://www.youtube.com') return;
       try {
-        const data = JSON.parse(event.data);
+        const data = JSON.parse(event.data as string);
+        // info === 0 means video ended; info === 1 means playing (started)
         if (data.event === 'onStateChange' && data.info === 0) {
-          setHasWatched(true);
-          onComplete?.();
+          handleWatched();
         }
       } catch {
-        // non-JSON messages from YT
+        // non-JSON messages from YT — ignore
       }
     };
     window.addEventListener('message', handleMessage);
     return () => window.removeEventListener('message', handleMessage);
-  }, [onComplete]);
+  }, [handleWatched]);
 
   const embedUrl = getYouTubeEmbedUrl(videoId, autoplay);
   const watchUrl = getYouTubeWatchUrl(videoId);
 
   const player = (
-    <div className={`relative w-full bg-stone-950 rounded-2xl overflow-hidden shadow-md border border-stone-800 ${className}`} style={{ aspectRatio: '16/9' }}>
+    <div
+      className={`relative w-full bg-stone-950 rounded-2xl overflow-hidden shadow-md border border-stone-800 ${className}`}
+      style={{ aspectRatio: '16/9' }}
+    >
       <iframe
-        ref={iframeRef}
         src={embedUrl}
         title={title || 'German Lesson Video'}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
         className="absolute inset-0 w-full h-full border-0"
       />
-      {hasWatched && (
-        <div className="absolute top-3 right-3 bg-emerald-500 text-white text-[10px] font-black px-2.5 py-1 rounded-full flex items-center gap-1 shadow-lg">
-          <CheckCircle2 className="w-3.5 h-3.5" /> Watched
+
+      {/* Persistent watched badge */}
+      {watched && (
+        <div className="absolute top-3 right-3 flex items-center gap-1.5 bg-emerald-500/90 backdrop-blur-sm text-white text-[10px] font-black px-2.5 py-1 rounded-full shadow-lg animate-fadeIn">
+          <CheckCircle2 className="w-3.5 h-3.5" />
+          Watched
         </div>
       )}
     </div>
@@ -99,6 +117,11 @@ export const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
       <div className="flex items-center justify-between p-2.5 rounded-xl bg-stone-50 border border-stone-200">
         {title && <span className="text-xs font-bold text-stone-800 truncate flex-1 pr-2">{title}</span>}
         <div className="flex items-center gap-2 shrink-0">
+          {watched && (
+            <span className="flex items-center gap-1 text-[10px] font-black text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-1 rounded-full">
+              <CheckCircle2 className="w-3 h-3" /> Watched
+            </span>
+          )}
           <a
             href={watchUrl}
             target="_blank"
@@ -106,7 +129,7 @@ export const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-red-600 hover:bg-red-700 text-white text-xs font-black transition-all shadow-xs"
           >
             <Play className="w-3.5 h-3.5 fill-current" />
-            <span>{videoId.startsWith('PL') || videoId.includes('playlist') ? 'Open Full Playlist on YouTube' : 'Watch on YouTube'}</span>
+            <span>{videoId.startsWith('PL') || videoId.includes('playlist') ? 'Open Full Playlist' : 'Watch on YouTube'}</span>
           </a>
           <button
             onClick={() => setIsFullscreen(true)}
@@ -121,15 +144,14 @@ export const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
   );
 };
 
+// ── Playlist embed (unchanged) ────────────────────────────────────
+
 interface PlaylistEmbedProps {
   playlistId: string;
   title?: string;
   className?: string;
 }
 
-/**
- * Embeds a full YouTube playlist with direct watch button.
- */
 export const YouTubePlaylist: React.FC<PlaylistEmbedProps> = ({ playlistId, title, className = '' }) => {
   const embedUrl = `https://www.youtube.com/embed/videoseries?list=${playlistId}&rel=0&modestbranding=1`;
   const watchUrl = `https://www.youtube.com/playlist?list=${playlistId}`;

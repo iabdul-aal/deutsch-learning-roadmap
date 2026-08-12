@@ -90,6 +90,18 @@ export interface AppContextType extends AppState {
   completeMission: (missionId: string) => void;
   saveAssessmentResult: (result: AssessmentResult) => void;
   recalibrateCEFR: () => void;
+
+  // ── Video Watch Progress ──
+  watchedVideos: Record<string, WatchRecord>;
+  markVideoWatched: (videoId: string, context?: { dayNumber?: number; taskTitle?: string }) => void;
+  isVideoWatched: (videoId: string) => boolean;
+}
+
+export interface WatchRecord {
+  videoId: string;
+  watchedAt: string;      // ISO timestamp
+  dayNumber?: number;     // curriculum day context
+  taskTitle?: string;     // task title context
 }
 
 // ── Default States ───────────────────────────────────────────────
@@ -122,6 +134,7 @@ const AppContext = createContext<AppContextType | undefined>(undefined);
 // ── Storage Keys ─────────────────────────────────────────────────
 const STORAGE_KEY         = 'deutsch_survival_app_state_v4';
 const STORAGE_KEY_LEARNER = 'deutsch_learner_model_v1';
+const STORAGE_KEY_WATCHED = 'deutsch_watched_videos_v1';
 const STORAGE_KEY_V3      = 'deutsch_survival_app_state_v3';
 const STORAGE_KEY_V2      = 'deutsch_survival_app_state_v2';
 const STORAGE_KEY_V1      = 'deutsch_survival_app_state_v1';
@@ -438,6 +451,40 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     }));
   }, []);
 
+  // ── Video Watch Progress ──────────────────────────────────────────
+  const [watchedVideos, setWatchedVideos] = useState<Record<string, WatchRecord>>(() => {
+    return safeStorage.getItem<Record<string, WatchRecord>>(STORAGE_KEY_WATCHED) ?? {};
+  });
+
+  // Persist watched videos
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      safeStorage.setItem(STORAGE_KEY_WATCHED, watchedVideos);
+    }, 300);
+    return () => clearTimeout(timeout);
+  }, [watchedVideos]);
+
+  const markVideoWatched = useCallback((videoId: string, context?: { dayNumber?: number; taskTitle?: string }) => {
+    setWatchedVideos(prev => ({
+      ...prev,
+      [videoId]: {
+        videoId,
+        watchedAt: new Date().toISOString(),
+        dayNumber: context?.dayNumber,
+        taskTitle: context?.taskTitle,
+      },
+    }));
+    // Also credit listening minutes (estimate 10 min per video watch)
+    setLearnerModel(prev => ({
+      ...prev,
+      skillMastery: updateSkillMastery(prev.skillMastery, 'HOEREN', Math.min(100, (prev.skillMastery.HOEREN ?? 0) + 0.5)),
+    }));
+  }, []);
+
+  const isVideoWatched = useCallback((videoId: string): boolean => {
+    return videoId in watchedVideos;
+  }, [watchedVideos]);
+
   return (
     <AppContext.Provider value={{
       // Legacy state
@@ -484,6 +531,10 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
       completeMission,
       saveAssessmentResult,
       recalibrateCEFR,
+      // Video watch progress
+      watchedVideos,
+      markVideoWatched,
+      isVideoWatched,
     }}>
       {children}
 
