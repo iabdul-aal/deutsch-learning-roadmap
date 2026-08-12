@@ -30,7 +30,15 @@ const speakGermanText = (text: string) => {
 
 export const GrammarView: React.FC = () => {
   const { currentTrackId, grammarStatus, toggleGrammarStatus, markConceptMastered } = useApp();
-  
+
+  // Determine CEFR ceiling based on active track
+  const maxAllowedCEFRs = useMemo(() => {
+    if (currentTrackId.includes('a1')) return ['A1'];
+    if (currentTrackId.includes('a2')) return ['A1', 'A2'];
+    if (currentTrackId.includes('b1')) return ['A1', 'A2', 'B1'];
+    return ['A1', 'A2', 'B1', 'B2', 'C1'];
+  }, [currentTrackId]);
+
   const defaultFilter: CEFRFilter = currentTrackId.includes('a2') ? 'A2' : currentTrackId.includes('b1') ? 'B1' : 'A1';
   const [activeFilter, setActiveFilter] = useState<CEFRFilter>(defaultFilter);
   const [searchQuery, setSearchQuery] = useState('');
@@ -51,9 +59,13 @@ export const GrammarView: React.FC = () => {
     return ARABIC_ERRORS.filter(err => ids.includes(err.id) || err.conceptId === selectedConcept.id);
   }, [selectedConcept]);
 
-  // Filter concepts based on tab & search query
+  // Filter concepts based on track CEFR level ceiling, tab & search query
   const filteredConcepts = useMemo(() => {
     return KNOWLEDGE_GRAPH.filter(concept => {
+      // 1. Strict CEFR track ceiling block
+      if (!maxAllowedCEFRs.includes(concept.cefr)) return false;
+
+      // 2. Search query filter
       const q = searchQuery.toLowerCase().trim();
       const matchesSearch = !q || (
         concept.titleDE.toLowerCase().includes(q) ||
@@ -64,15 +76,16 @@ export const GrammarView: React.FC = () => {
 
       if (!matchesSearch) return false;
 
+      // 3. Tab filter
       if (activeFilter === 'All') return true;
       if (activeFilter === 'Weak') return !grammarStatus[concept.id];
       return concept.cefr === activeFilter;
     });
-  }, [activeFilter, searchQuery, grammarStatus]);
+  }, [maxAllowedCEFRs, activeFilter, searchQuery, grammarStatus]);
 
   const masteredCount = useMemo(() => {
-    return KNOWLEDGE_GRAPH.filter(c => grammarStatus[c.id]).length;
-  }, [grammarStatus]);
+    return KNOWLEDGE_GRAPH.filter(c => maxAllowedCEFRs.includes(c.cefr) && grammarStatus[c.id]).length;
+  }, [maxAllowedCEFRs, grammarStatus]);
 
   const handleConceptSelect = (conceptId: string) => {
     setSelectedConceptId(conceptId);
@@ -336,7 +349,7 @@ export const GrammarView: React.FC = () => {
 
         <div className="flex items-center gap-3 shrink-0">
           <div className="bg-[#b68c61]/10 dark:bg-amber-500/10 border border-[#b68c61]/30 dark:border-amber-500/20 px-4 py-2.5 rounded-xl text-center shadow-sm">
-            <div className="text-xl font-black text-[#855f39] dark:text-amber-400 font-mono">{masteredCount} / {KNOWLEDGE_GRAPH.length}</div>
+            <div className="text-xl font-black text-[#855f39] dark:text-amber-400 font-mono">{masteredCount} / {KNOWLEDGE_GRAPH.filter(c => maxAllowedCEFRs.includes(c.cefr)).length}</div>
             <div className="text-[10px] text-stone-600 dark:text-white/50 uppercase tracking-widest font-bold">Concepts Mastered</div>
           </div>
         </div>
@@ -356,23 +369,25 @@ export const GrammarView: React.FC = () => {
         </div>
 
         <div className="flex flex-wrap gap-2">
-          {(['All', 'A1', 'A2', 'B1', 'B2', 'Weak'] as CEFRFilter[]).map(filter => (
+          {(['All', ...maxAllowedCEFRs, 'Weak'] as CEFRFilter[])
+            .filter((f, idx, arr) => arr.indexOf(f) === idx)
+            .map(filter => (
             <button
               key={filter}
               onClick={() => setActiveFilter(filter)}
-              className={`px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
+              className={`px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 active:scale-95 ${
                 activeFilter === filter
-                  ? 'bg-amber-500 text-stone-950 shadow-md shadow-amber-500/20'
-                  : 'bg-[#141419] border border-white/10 text-white/60 hover:text-white hover:bg-white/5'
+                  ? 'bg-[#b68c61] text-white dark:bg-amber-500 dark:text-stone-950 shadow-md'
+                  : 'bg-white dark:bg-[#141419] border border-[#e5e1d8] dark:border-white/10 text-stone-600 dark:text-white/60 hover:text-stone-900 dark:hover:text-white'
               }`}
             >
               {filter === 'Weak' ? (
                 <>
-                  <AlertTriangle className="w-3.5 h-3.5 text-rose-400" />
-                  <span>نقاط ضعفي ({KNOWLEDGE_GRAPH.filter(c => !grammarStatus[c.id]).length})</span>
+                  <AlertTriangle className="w-3.5 h-3.5 text-rose-500" />
+                  <span>Needs Practice ({KNOWLEDGE_GRAPH.filter(c => maxAllowedCEFRs.includes(c.cefr) && !grammarStatus[c.id]).length})</span>
                 </>
               ) : (
-                <span>{filter === 'All' ? 'جميع المستويات' : `مستوى ${filter}`}</span>
+                <span>{filter === 'All' ? 'All Track Levels' : `Level ${filter}`}</span>
               )}
             </button>
           ))}

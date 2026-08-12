@@ -155,20 +155,32 @@ const FlashCard: React.FC<{
 
 // ── Main Vocabulary View ─────────────────────────────────────────────
 export const VocabularyView: React.FC = () => {
-  const { learnerModel, reviewSRSCard, addSRSWord } = useApp();
+  const { currentTrackId, learnerModel, reviewSRSCard, addSRSWord } = useApp();
   const [activeTab, setActiveTab] = useState<'study' | 'browse'>('study');
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedCEFR, setSelectedCEFR] = useState<'All' | 'A1' | 'A2'>('All');
+  const [selectedCEFR, setSelectedCEFR] = useState<string>('All');
   const [selectedField, setSelectedField] = useState<string>('All');
   const [isFlipped, setIsFlipped] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  // Determine CEFR ceiling based on active track
+  const maxAllowedCEFRs = useMemo(() => {
+    if (currentTrackId.includes('a1')) return ['A1'];
+    if (currentTrackId.includes('a2')) return ['A1', 'A2'];
+    if (currentTrackId.includes('b1')) return ['A1', 'A2', 'B1'];
+    return ['A1', 'A2', 'B1', 'B2'];
+  }, [currentTrackId]);
+
   // SRS Cards from Learner Model
   const srsCards = learnerModel.srsDeck || [];
 
-  // Filter vocabulary pool
+  // Filter vocabulary pool by active track CEFR ceiling
   const filteredWords = useMemo(() => {
     return A1_VOCABULARY.filter(word => {
+      // 1. Strict CEFR track ceiling block
+      if (word.cefr && !maxAllowedCEFRs.includes(word.cefr)) return false;
+
+      // 2. Search query filter
       const q = searchQuery.toLowerCase().trim();
       const matchesSearch = !q || (
         word.german.toLowerCase().includes(q) ||
@@ -181,13 +193,14 @@ export const VocabularyView: React.FC = () => {
       if (selectedField !== 'All' && word.semanticField !== selectedField) return false;
       return true;
     });
-  }, [searchQuery, selectedCEFR, selectedField]);
+  }, [maxAllowedCEFRs, searchQuery, selectedCEFR, selectedField]);
 
   // Extract unique semantic fields
   const semanticFields = useMemo(() => {
-    const fields = new Set(A1_VOCABULARY.map(w => w.semanticField));
+    const trackVocabulary = A1_VOCABULARY.filter(w => !w.cefr || maxAllowedCEFRs.includes(w.cefr));
+    const fields = new Set(trackVocabulary.map(w => w.semanticField));
     return ['All', ...Array.from(fields)];
-  }, []);
+  }, [maxAllowedCEFRs]);
 
   const currentWord = filteredWords[currentIndex] || filteredWords[0];
 
@@ -256,7 +269,7 @@ export const VocabularyView: React.FC = () => {
 
         <div className="flex items-center gap-2">
           <span className="text-xs text-stone-500 dark:text-white/40 font-mono shrink-0">Level:</span>
-          {(['All', 'A1', 'A2'] as const).map(lvl => (
+          {(['All', ...maxAllowedCEFRs]).map(lvl => (
             <button
               key={lvl}
               onClick={() => setSelectedCEFR(lvl)}
