@@ -128,16 +128,16 @@ const AppShell: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#FBF9F5] text-stone-900 font-sans flex flex-col md:flex-row antialiased selection:bg-amber-400 selection:text-stone-950">
+    <div className="min-h-screen bg-[#FBF9F5] text-stone-900 font-sans flex flex-col lg:flex-row antialiased selection:bg-amber-400 selection:text-stone-950">
       <Sidebar onOpenTimer={() => setTimerModalOpen(true)} />
 
       <main
         id="main-content"
-        className="flex-1 min-w-0 p-4 sm:p-6 lg:p-8 space-y-6 max-w-7xl"
+        className="flex-1 min-w-0 p-4 sm:p-6 lg:p-8 space-y-6 max-w-7xl overflow-hidden"
         aria-label="Main content"
       >
         {/* Command bar header with Persistent Progress Bar and Timer */}
-        <div className="hidden sm:flex items-center justify-between p-3 rounded-xl bg-white border border-stone-200 shadow-xs gap-4">
+        <div className="hidden sm:flex flex-wrap lg:flex-nowrap items-center justify-between p-3 rounded-xl bg-white border border-stone-200 shadow-xs gap-3">
           <div className="flex items-center gap-2 text-xs text-stone-500 font-medium shrink-0">
             <span className="font-bold text-stone-900">Deutsch OS</span>
             <span>/</span>

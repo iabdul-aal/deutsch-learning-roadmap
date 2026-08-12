@@ -182,7 +182,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ onOpenTimer }) => {
   return (
     <>
       {/* Mobile Top Header */}
-      <header className="md:hidden sticky top-0 z-50 bg-[#0f0f12] border-b border-white/10 p-2.5 flex items-center justify-between gap-2">
+      <header className="lg:hidden sticky top-0 z-50 bg-[#0f0f12] border-b border-white/10 p-2.5 flex items-center justify-between gap-2">
         <div className="flex items-center gap-2 min-w-0">
           <div className="w-6 h-6 rounded bg-amber-500 flex items-center justify-center shrink-0">
             <Globe className="w-3.5 h-3.5 text-stone-950" />
@@ -220,7 +220,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ onOpenTimer }) => {
 
       {/* Mobile Menu Overlay */}
       {mobileMenuOpen && (
-        <div className="md:hidden fixed inset-0 z-40 flex">
+        <div className="lg:hidden fixed inset-0 z-40 flex">
           <div className="w-72 h-full flex flex-col bg-[#0f0f12]">
             {sidebarContent}
           </div>
@@ -229,7 +229,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ onOpenTimer }) => {
       )}
 
       {/* Desktop Sidebar */}
-      <div className="hidden md:flex w-64 min-h-screen shrink-0 flex-col bg-[#0f0f12] border-r border-white/10">
+      <div className="hidden lg:flex w-64 min-h-screen shrink-0 flex-col bg-[#0f0f12] border-r border-white/10">
         {sidebarContent}
       </div>
     </>

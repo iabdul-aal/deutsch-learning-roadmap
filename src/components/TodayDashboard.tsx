@@ -101,7 +101,7 @@ const NextBestActionCard: React.FC<{
 
   return (
     <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-stone-950 to-stone-900 p-6 shadow-2xl border border-stone-800">
-      <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/10 rounded-full -translate-y-1/2 translate-x-1/2 pointer-events-none" />
+      <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/10 rounded-full -translate-y-1/2 translate-x-0 pointer-events-none" />
 
       <div className="relative space-y-5">
         {/* Labels row */}
