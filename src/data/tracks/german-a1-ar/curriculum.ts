@@ -23,7 +23,7 @@ export const CURRICULUM_DATA = {
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
-              "type": "Read",
+              "type": "Listen",
               "title": "DW Nicos Weg: First Words & German Sound Patterns",
               "duration": "25 min",
               "resourceType": "SECONDARY",
@@ -283,7 +283,7 @@ export const CURRICULUM_DATA = {
               "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
             },
             {
-              "type": "Read",
+              "type": "Watch",
               "title": "Shehata Deutsch: Gender in German - Arabic Speaker Guide",
               "duration": "25 min",
               "resourceType": "SECONDARY",
@@ -592,7 +592,7 @@ export const CURRICULUM_DATA = {
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
-              "type": "Read",
+              "type": "Watch",
               "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
@@ -1257,7 +1257,7 @@ export const CURRICULUM_DATA = {
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
-              "type": "Read",
+              "type": "Watch",
               "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "25 min",
               "resourceType": "SECONDARY",
@@ -1408,7 +1408,7 @@ export const CURRICULUM_DATA = {
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
-              "type": "Read",
+              "type": "Watch",
               "title": "lingoni GERMAN: German Grammar Step by Step",
               "duration": "25 min",
               "resourceType": "SECONDARY",
@@ -1629,7 +1629,7 @@ export const CURRICULUM_DATA = {
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
-              "type": "Read",
+              "type": "Watch",
               "title": "Deutsch mit Hend: Basic Greetings & Introduction in German",
               "duration": "25 min",
               "resourceType": "SECONDARY",
@@ -2125,7 +2125,7 @@ export const CURRICULUM_DATA = {
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
-              "type": "Read",
+              "type": "Watch",
               "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
@@ -2608,7 +2608,7 @@ export const CURRICULUM_DATA = {
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
-              "type": "Read",
+              "type": "Watch",
               "title": "Deutsch mit Hend: Basic Greetings & Introduction in German",
               "duration": "25 min",
               "resourceType": "SECONDARY",
@@ -3084,7 +3084,7 @@ export const CURRICULUM_DATA = {
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
-              "type": "Read",
+              "type": "Watch",
               "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
@@ -3222,7 +3222,7 @@ export const CURRICULUM_DATA = {
               "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
-              "type": "Read",
+              "type": "Watch",
               "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "25 min",
               "resourceType": "SECONDARY",
@@ -3560,7 +3560,7 @@ export const CURRICULUM_DATA = {
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
-              "type": "Read",
+              "type": "Watch",
               "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
