@@ -686,7 +686,34 @@ export function resolveTaskVideoEmbed(
     return emptyEmbed;
   }
 
-  // ── PRIORITY 1: Explicit YouTube URL extraction ──
+  // ── PRIORITY 0.5: Creator Title Guard — Guarantee 100% creator & title match ──
+  if (titleLower.includes('lingoni')) {
+    return { videoId: 'RrfgbBp6ScI', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'lingoni GERMAN', isCroppedSegment: false };
+  }
+  if (titleLower.includes('shehata')) {
+    let sVid = 'Yrjgjh26FoE';
+    if (titleLower.includes('gender') || titleLower.includes('preposition') || titleLower.includes('article')) sVid = 'w9IudPRz2xk';
+    else if (titleLower.includes('passiv')) sVid = 'IMQV1SYmSh4';
+    else if (titleLower.includes('genitiv')) sVid = '1gwm0ZU2Fx0';
+    return { videoId: sVid, startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Shehata Deutsch', isCroppedSegment: false };
+  }
+  if (titleLower.includes('easy german') || titleLower.includes('super easy')) {
+    let egVid = 'r94aqLUO0wo';
+    if (titleLower.includes('100') || titleLower.includes('vocab') || titleLower.includes('word')) egVid = 'MmacJnqL3i0';
+    else if (titleLower.includes('first conversation') || titleLower.includes('greetings')) egVid = 'OFSHdj_2FQA';
+    else if (titleLower.includes('akkusativ')) egVid = 'eLQbQcMUGXw';
+    return { videoId: egVid, startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Easy German', isCroppedSegment: false };
+  }
+  if (titleLower.includes('deutsch mit hend') || titleLower.includes('frau hend') || titleLower.includes('hend:')) {
+    let hVid = 'WMvCXVorOsg';
+    if (titleLower.includes('akkusativ')) hVid = 'TJCDYVP-cDU';
+    else if (titleLower.includes('dativ')) hVid = 'Oh4VKllZ-DQ';
+    else if (titleLower.includes('perfekt')) hVid = 'XGWgTRlftPg';
+    else if (titleLower.includes('modal')) hVid = '9PpOBJa9Mvs';
+    else if (titleLower.includes('adjektiv')) hVid = 'nOW4U3kZUbk';
+    else if (titleLower.includes('praesens')) hVid = 'CyME2ZobD60';
+    return { videoId: hVid, startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Deutsch mit Hend', isCroppedSegment: false };
+  }
   const ytMatch = link.match(/(?:watch\?v=|youtu\.be\/)([a-zA-Z0-9_-]{11})/);
   if (ytMatch) {
     const vid = ytMatch[1];

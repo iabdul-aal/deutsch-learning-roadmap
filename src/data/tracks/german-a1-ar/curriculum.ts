@@ -48,7 +48,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German #1: First German Words with Native Speakers",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
             },
             {
               "type": "Speak",
@@ -88,7 +88,7 @@ export const CURRICULUM_DATA = {
               "type": "AI Roleplay",
               "title": "Easy German #1: First German Words with Native Speakers",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
             }
           ],
           "targetMetrics": {
@@ -109,7 +109,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 - Sich vorstellen",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Ye3ehz49u8o"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
@@ -144,7 +144,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Speaking Drill - 1 Minute Introduction",
               "duration": "15 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
@@ -226,7 +226,7 @@ export const CURRICULUM_DATA = {
               "title": "lingoni GERMAN: Numbers Speaking Drill",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Quiz",
@@ -294,7 +294,7 @@ export const CURRICULUM_DATA = {
               "title": "lingoni GERMAN: German Gender Rules for Nouns",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -355,14 +355,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Negation - nicht und kein komplett erklärt",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Jxq2uezZxks"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "Shehata Deutsch: Nicht vs Kein - The Essential Difference",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Memorize",
@@ -383,7 +383,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Negation Speaking Drills - kein Geld nicht müde",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=Jxq2uezZxks"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
@@ -437,14 +437,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: German Plural Forms - All 5 Plural Patterns",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=K9hTQMvIps8"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: German Noun Plurals Complete Reference",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -465,7 +465,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Plural Vocabulary Drills - die Bücher die Häuser",
               "duration": "15 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=K9hTQMvIps8"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
@@ -519,7 +519,7 @@ export const CURRICULUM_DATA = {
               "title": "Review Week 1 Hend notes and Deutsch Survival Platform grammar summaries",
               "duration": "50 min",
               "resourceType": "REVISION",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Test",
@@ -540,7 +540,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Speaking German Naturally",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             }
           ],
           "intensiveTasks": [
@@ -554,7 +554,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Marathon",
               "title": "Watch Nicos Weg Episodes 1-10 compilation back-to-back",
               "duration": "45 min",
-              "link": "https://learngerman.dw.com/en/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -631,7 +631,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Deutsch mit Hend: Audio Comprehension Drills",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Mobile App",
@@ -664,14 +664,14 @@ export const CURRICULUM_DATA = {
               "title": "Shehata Deutsch: German Grammar Masterclass",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: German Grammar Step by Step",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -685,14 +685,14 @@ export const CURRICULUM_DATA = {
               "title": "DW Slow German: German Comprehension Practice",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Speak",
               "title": "Learn German with Anja: Speaking German Naturally",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Quiz",
@@ -753,7 +753,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Grammar Made Simple",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Memorize",
@@ -767,14 +767,14 @@ export const CURRICULUM_DATA = {
               "title": "DW Slow German: German Comprehension Practice",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Speak",
               "title": "Deutsch mit Hend: Speaking and Pronunciation Practice",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
@@ -795,7 +795,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "DW Slow German: German Comprehension Practice",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -835,7 +835,7 @@ export const CURRICULUM_DATA = {
               "title": "Shehata Deutsch: Grammar for Arabic Speakers",
               "duration": "20 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Memorize",
@@ -849,7 +849,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Speaking and Pronunciation Practice",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
@@ -870,7 +870,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Drill",
               "title": "DW Slow German: German Comprehension Practice",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -903,7 +903,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Trennbare Verben - Separable Verbs Complete Guide",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=eFE-vWA-2H8"
+              "link": "https://www.youtube.com/watch?v=kURGW-rVkSA"
             },
             {
               "type": "Watch",
@@ -1047,7 +1047,7 @@ export const CURRICULUM_DATA = {
               "title": "Consolidate Week 2 Hend notes and Deutsch Survival Platform summary charts",
               "duration": "50 min",
               "resourceType": "REVISION",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Test",
@@ -1068,7 +1068,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Speaking German Naturally",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             }
           ],
           "intensiveTasks": [
@@ -1082,7 +1082,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Marathon",
               "title": "Watch DW Nicos Weg Episodes 11-20 compilation",
               "duration": "45 min",
-              "link": "https://learngerman.dw.com/en/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -1124,7 +1124,7 @@ export const CURRICULUM_DATA = {
               "title": "lingoni GERMAN: German Modal Verbs Complete Guide with Examples",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -1185,14 +1185,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Modalverben - كان ومشتقاتها في الألمانية",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
+              "link": "https://www.youtube.com/watch?v=9PpOBJa9Mvs"
             },
             {
               "type": "Watch",
               "title": "Deutsch mit Hend: Modalverben - كان ومشتقاتها في الألمانية",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
+              "link": "https://www.youtube.com/watch?v=9PpOBJa9Mvs"
             },
             {
               "type": "Memorize",
@@ -1261,7 +1261,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Memorize",
@@ -1275,7 +1275,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Audio Comprehension Drills",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
@@ -1296,7 +1296,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "DW Slow German: German Comprehension Practice",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -1329,14 +1329,14 @@ export const CURRICULUM_DATA = {
               "title": "Shehata Deutsch: German Grammar Masterclass",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
               "title": "Shehata Deutsch: Grammar for Arabic Speakers",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Memorize",
@@ -1357,7 +1357,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Speaking and Pronunciation Practice",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
@@ -1412,7 +1412,7 @@ export const CURRICULUM_DATA = {
               "title": "lingoni GERMAN: German Grammar Step by Step",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -1426,14 +1426,14 @@ export const CURRICULUM_DATA = {
               "title": "DW Slow German: German Comprehension Practice",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Speak",
               "title": "Learn German with Anja: Speaking German Naturally",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Quiz",
@@ -1494,7 +1494,7 @@ export const CURRICULUM_DATA = {
               "title": "lingoni GERMAN: Grammar Reference Guide",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -1508,7 +1508,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Speaking and Pronunciation Practice",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
@@ -1556,7 +1556,7 @@ export const CURRICULUM_DATA = {
               "title": "Consolidate Week 3 Hend notes and housing phrasebook",
               "duration": "50 min",
               "resourceType": "REVISION",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Test",
@@ -1577,7 +1577,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Speaking German Naturally",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             }
           ],
           "intensiveTasks": [
@@ -1591,7 +1591,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Marathon",
               "title": "Watch DW Nicos Weg Episodes 21-30 compilation",
               "duration": "45 min",
-              "link": "https://learngerman.dw.com/en/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -1640,7 +1640,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Introduce Yourself in German",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Memorize",
@@ -1701,14 +1701,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: German Personal Pronouns - ich du er sie wir ihr sie",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: German Personal Pronouns Complete Guide",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -1722,7 +1722,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Pronoun Practice - ich komme er wohnt",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
@@ -1743,7 +1743,7 @@ export const CURRICULUM_DATA = {
               "type": "Roleplay",
               "title": "Easy German #22: German Pronouns in Street Conversations",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             },
             {
               "type": "Mobile App",
@@ -1838,7 +1838,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Wechselpräpositionen in German - Location & Direction",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=eLQbQcMUGXw"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
@@ -1866,7 +1866,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Prepositions Speaking Drill",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=eLQbQcMUGXw"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
@@ -1914,7 +1914,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Dativ Case - المفعول به غير المباشر",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
+              "link": "https://www.youtube.com/watch?v=Oh4VKllZ-DQ"
             },
             {
               "type": "Watch",
@@ -1983,7 +1983,7 @@ export const CURRICULUM_DATA = {
               "title": "Shehata Deutsch: Grammar for Arabic Speakers",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Memorize",
@@ -2004,7 +2004,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Speaking and Pronunciation Practice",
               "duration": "15 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
@@ -2025,7 +2025,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Drill",
               "title": "DW Slow German: German Comprehension Practice",
               "duration": "35 min",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -2073,7 +2073,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Speaking German Naturally",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             }
           ],
           "intensiveTasks": [
@@ -2087,7 +2087,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Marathon",
               "title": "Watch DW Nicos Weg Episodes 31-40 compilation",
               "duration": "45 min",
-              "link": "https://learngerman.dw.com/en/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -2143,7 +2143,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Speaking and Pronunciation Practice",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
@@ -2164,7 +2164,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German: German Street Conversations",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             },
             {
               "type": "Mobile App",
@@ -2191,14 +2191,14 @@ export const CURRICULUM_DATA = {
               "title": "Shehata Deutsch: German Grammar Masterclass",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: German Grammar Step by Step",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -2227,7 +2227,7 @@ export const CURRICULUM_DATA = {
               "type": "Roleplay",
               "title": "DW Slow German: German Comprehension Practice",
               "duration": "40 min",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Writing",
@@ -2281,7 +2281,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Speaking German Naturally",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Quiz",
@@ -2302,7 +2302,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "DW Slow German: German Comprehension Practice",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -2329,14 +2329,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A2 - Adjektivdeklination nach bestimmtem Artikel",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Y4y-gKdIW68"
+              "link": "https://www.youtube.com/watch?v=nOW4U3kZUbk"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: A2 Adjective Endings Complete Reference",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -2398,7 +2398,7 @@ export const CURRICULUM_DATA = {
               "title": "Shehata Deutsch: Grammar for Arabic Speakers",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Memorize",
@@ -2412,7 +2412,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Speaking and Pronunciation Practice",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
@@ -2467,7 +2467,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Grammar Made Simple",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Memorize",
@@ -2481,7 +2481,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Speaking and Pronunciation Practice",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
@@ -2502,7 +2502,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "DW Slow German: German Comprehension Practice",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -2556,7 +2556,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Speaking German Naturally",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             }
           ],
           "intensiveTasks": [
@@ -2570,7 +2570,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Marathon",
               "title": "Watch DW Nicos Weg Episodes 41-50 compilation",
               "duration": "45 min",
-              "link": "https://learngerman.dw.com/en/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -2619,7 +2619,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Introduce Yourself in German",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Memorize",
@@ -2674,14 +2674,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Das Perfekt - haben oder sein? الماضي في الألمانية",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=TPvYYsr6KbE"
+              "link": "https://www.youtube.com/watch?v=XGWgTRlftPg"
             },
             {
               "type": "Watch",
               "title": "Shehata Deutsch: Perfekt Tense Mastery - All Verb Forms",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=5YtHNczWwAw"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Memorize",
@@ -2742,7 +2742,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Das Perfekt - haben oder sein? الماضي في الألمانية",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=TPvYYsr6KbE"
+              "link": "https://www.youtube.com/watch?v=XGWgTRlftPg"
             },
             {
               "type": "Watch",
@@ -2763,7 +2763,7 @@ export const CURRICULUM_DATA = {
               "title": "Shehata Deutsch: Telling Your Day in German Perfekt",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=5YtHNczWwAw"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Quiz",
@@ -2811,14 +2811,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Trennbare Verben - Separable Verbs Complete Guide",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=eFE-vWA-2H8"
+              "link": "https://www.youtube.com/watch?v=kURGW-rVkSA"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: Separable Verbs - aufmachen anfangen mitkommen",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -2873,7 +2873,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Das Perfekt - haben oder sein? الماضي في الألمانية",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=TPvYYsr6KbE"
+              "link": "https://www.youtube.com/watch?v=XGWgTRlftPg"
             },
             {
               "type": "Watch",
@@ -2894,7 +2894,7 @@ export const CURRICULUM_DATA = {
               "title": "Shehata Deutsch: Telling Your Day in German Perfekt",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=5YtHNczWwAw"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Quiz",
@@ -2949,7 +2949,7 @@ export const CURRICULUM_DATA = {
               "title": "lingoni GERMAN: Grammar Reference Guide",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -2963,7 +2963,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Speaking and Pronunciation Practice",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
@@ -2984,7 +2984,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "DW Slow German: German Comprehension Practice",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -3011,7 +3011,7 @@ export const CURRICULUM_DATA = {
               "title": "Consolidate Week 6 Perfekt verb master lists and Hend notes",
               "duration": "50 min",
               "resourceType": "REVISION",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=XGWgTRlftPg"
             },
             {
               "type": "Test",
@@ -3032,7 +3032,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Speaking German Naturally",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             }
           ],
           "intensiveTasks": [
@@ -3046,7 +3046,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Marathon",
               "title": "Watch DW Nicos Weg Episodes 51-60 compilation",
               "duration": "45 min",
-              "link": "https://learngerman.dw.com/en/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -3102,7 +3102,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Speaking and Pronunciation Practice",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
@@ -3123,7 +3123,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German: German Street Conversations",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             },
             {
               "type": "Mobile App",
@@ -3150,14 +3150,14 @@ export const CURRICULUM_DATA = {
               "title": "Shehata Deutsch: German Grammar Masterclass",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: German Grammar Step by Step",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -3186,7 +3186,7 @@ export const CURRICULUM_DATA = {
               "type": "Roleplay",
               "title": "DW Slow German: German Comprehension Practice",
               "duration": "40 min",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Writing",
@@ -3219,14 +3219,14 @@ export const CURRICULUM_DATA = {
               "title": "Shehata Deutsch: German Grammar Masterclass",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
               "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Memorize",
@@ -3240,7 +3240,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Speaking and Pronunciation Practice",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
@@ -3294,7 +3294,7 @@ export const CURRICULUM_DATA = {
               "title": "Shehata Deutsch: German Grammar Masterclass",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
@@ -3315,7 +3315,7 @@ export const CURRICULUM_DATA = {
               "title": "lingoni GERMAN: Speaking Practice Drills",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Quiz",
@@ -3336,7 +3336,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "DW Slow German: German Comprehension Practice",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -3370,7 +3370,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Giving Reasons with weil in Real Conversation",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -3398,7 +3398,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "DW Nicos Weg: Explaining Reasons in German Dialogue",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -3425,14 +3425,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A2 - Komparativ und Superlativ in German",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=aWy4cmh5o-Q"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: Comparative and Superlative in German A2",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -3487,7 +3487,7 @@ export const CURRICULUM_DATA = {
               "title": "Consolidate official German bureaucracy phrasebook and Hend notes",
               "duration": "50 min",
               "resourceType": "REVISION",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Test",
@@ -3508,7 +3508,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Speaking German Naturally",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             }
           ],
           "intensiveTasks": [
@@ -3522,7 +3522,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Marathon",
               "title": "Watch DW Nicos Weg Episodes 61-70 compilation",
               "duration": "45 min",
-              "link": "https://learngerman.dw.com/en/nicos-weg/c-36519789"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -3578,7 +3578,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: Speaking and Pronunciation Practice",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
@@ -3599,7 +3599,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German: German Street Conversations",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             },
             {
               "type": "Mobile App",
@@ -3626,14 +3626,14 @@ export const CURRICULUM_DATA = {
               "title": "Shehata Deutsch: German Grammar Masterclass",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: German Grammar Step by Step",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -3654,7 +3654,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Speaking German Naturally",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Quiz",
@@ -3675,7 +3675,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "DW Slow German: German Comprehension Practice",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -3709,7 +3709,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Grammar Made Simple",
               "duration": "60 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Quiz",
@@ -3757,7 +3757,7 @@ export const CURRICULUM_DATA = {
               "title": "Shehata Deutsch: Grammar for Arabic Speakers",
               "duration": "60 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Listen",
@@ -3826,14 +3826,14 @@ export const CURRICULUM_DATA = {
               "title": "lingoni GERMAN: Grammar Reference Guide",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Speak",
               "title": "Deutsch mit Hend: Speaking and Pronunciation Practice",
               "duration": "30 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",

@@ -86,7 +86,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: Wechselpräpositionen in German - Location & Direction",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=eLQbQcMUGXw"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
@@ -164,7 +164,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "lingoni GERMAN: Weak Nouns N-Declension B1 Grammar",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -342,14 +342,14 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: Dativ Case - المفعول به غير المباشر",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
+              "link": "https://www.youtube.com/watch?v=Oh4VKllZ-DQ"
             },
             {
               "type": "Watch",
               "title": "Deutsch mit Hend: Dativ Case المفعول به غير المباشر",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
+              "link": "https://www.youtube.com/watch?v=Oh4VKllZ-DQ"
             },
             {
               "type": "Watch",
@@ -413,14 +413,14 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: Genitiv Case Grammar Explained",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=QrBBR3Ewd9E"
+              "link": "https://www.youtube.com/watch?v=y1VqPwhWJrM"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: Genitive Case Complete A2/B1 Reference",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -613,7 +613,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: Dativ Case المفعول به غير المباشر",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
+              "link": "https://www.youtube.com/watch?v=Oh4VKllZ-DQ"
             },
             {
               "type": "Watch",
@@ -677,14 +677,14 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: Genitiv Case Grammar Explained",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=QrBBR3Ewd9E"
+              "link": "https://www.youtube.com/watch?v=y1VqPwhWJrM"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: Genitive Case Complete A2/B1 Reference",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -734,7 +734,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: Wechselpräpositionen in German - Location & Direction",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=eLQbQcMUGXw"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
@@ -798,21 +798,21 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: German Personal Pronouns - ich du er sie wir ihr sie",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "Learn German with Anja: Personal Pronouns in German",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
               "title": "Shehata Deutsch: German Pronouns for Arabic Speakers",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Memorize",
@@ -876,7 +876,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "lingoni GERMAN: Relative Clauses in German Grammar",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -934,21 +934,21 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Shehata Deutsch: Das Passiv - Passive Voice in German Complete Masterclass",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=IMQV1SYmSh4"
             },
             {
               "type": "Watch",
               "title": "Deutsch mit Hend: Passiv - werden Partizip II erklärt",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=iw_NvlCMu9g"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: German Passive Voice Complete Reference",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -998,14 +998,14 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: A2/B1 Passiv - werden + Partizip II",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=iw_NvlCMu9g"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "Deutsch mit Hend: Passiv - werden Partizip II erklärt",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=iw_NvlCMu9g"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
@@ -1069,14 +1069,14 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: Modalverben - كان ومشتقاتها في الألمانية",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
+              "link": "https://www.youtube.com/watch?v=9PpOBJa9Mvs"
             },
             {
               "type": "Watch",
               "title": "Shehata Deutsch: Modal Verbs for Arabic Speakers",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Memorize",
@@ -1126,14 +1126,14 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: Der Akkusativ - Direkte Objekte leicht erklärt",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=n4HSidrjXmQ"
+              "link": "https://www.youtube.com/watch?v=TJCDYVP-cDU"
             },
             {
               "type": "Watch",
               "title": "Shehata Deutsch: Nominativ vs Akkusativ - The Full Breakdown",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
@@ -1190,21 +1190,21 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: A2/B1 Passiv - werden + Partizip II",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=iw_NvlCMu9g"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "Deutsch mit Hend: Passiv - werden Partizip II erklärt",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=iw_NvlCMu9g"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: German Passive Voice Complete Reference",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -1254,14 +1254,14 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: A2/B1 Passiv - werden + Partizip II",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=iw_NvlCMu9g"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "Deutsch mit Hend: Passiv - werden Partizip II erklärt",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=iw_NvlCMu9g"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
@@ -1318,21 +1318,21 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: A2/B1 Passiv - werden + Partizip II",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=iw_NvlCMu9g"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "Deutsch mit Hend: Passiv - werden Partizip II erklärt",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=iw_NvlCMu9g"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: German Passive Voice Complete Reference",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -1390,14 +1390,14 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: A2/B1 - Infinitiv mit zu & um...zu Konstruktionen",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=aeiu0jAdfPc"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: Infinitive with zu - German Grammar Guide",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Watch",
@@ -1454,7 +1454,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: A2/B1 - Infinitiv mit zu & um...zu Konstruktionen",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=aeiu0jAdfPc"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
@@ -1532,7 +1532,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Learn German with Anja: Grammar Made Simple",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Memorize",
@@ -1582,14 +1582,14 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: A2/B1 - Infinitiv mit zu & um...zu Konstruktionen",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=aeiu0jAdfPc"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: Infinitive with zu - German Grammar Guide",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Watch",
@@ -1646,7 +1646,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Shehata Deutsch: German Grammar Masterclass",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
@@ -1660,7 +1660,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Learn German with Anja: Grammar Made Simple",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Memorize",
@@ -1710,14 +1710,14 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: A2/B1 - Infinitiv mit zu & um...zu Konstruktionen",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=aeiu0jAdfPc"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: Infinitive with zu - German Grammar Guide",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Watch",
@@ -1774,14 +1774,14 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: A2/B1 - Infinitiv mit zu & um...zu Konstruktionen",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=aeiu0jAdfPc"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: Infinitive with zu - German Grammar Guide",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Watch",
@@ -1846,21 +1846,21 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: A2 - Komparativ und Superlativ in German",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=aWy4cmh5o-Q"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: Comparative and Superlative in German A2",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Watch",
               "title": "Easy German #112: Comparing Things on the Street in Germany",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             },
             {
               "type": "Memorize",
@@ -1910,14 +1910,14 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: Negation - nicht und kein komplett erklärt",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Jxq2uezZxks"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "Shehata Deutsch: Nicht vs Kein - The Essential Difference",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
@@ -1974,14 +1974,14 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Shehata Deutsch: Obwohl Trotzdem Zwar aber - Contrast Connectors",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=jiV90WdUkjw"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Contrast Sentences in German Context",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
@@ -2038,21 +2038,21 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: B1 - Sowohl...als auch Weder...noch Konnektoren",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=TRv3DFHbej8"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "Deutsch mit Hend: B1 - Zweiteilige Konnektoren Complete Guide",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=TRv3DFHbej8"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: B1 German Connectors Complete Reference",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -2102,21 +2102,21 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: Modalverben - كان ومشتقاتها في الألمانية",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
+              "link": "https://www.youtube.com/watch?v=9PpOBJa9Mvs"
             },
             {
               "type": "Watch",
               "title": "Deutsch mit Hend: Modalverben - كان ومشتقاتها في الألمانية",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
+              "link": "https://www.youtube.com/watch?v=9PpOBJa9Mvs"
             },
             {
               "type": "Watch",
               "title": "Shehata Deutsch: Modal Verbs for Arabic Speakers",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Memorize",
@@ -2166,14 +2166,14 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: A2 - Dass-Sätze und Reporting in German",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "Shehata Deutsch: Subordinate Clauses dass - Opinion Reporting",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=jiV90WdUkjw"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
@@ -2230,21 +2230,21 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Shehata Deutsch: German Connectors & Discourse Markers Masterclass",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=jiV90WdUkjw"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
               "title": "Deutsch mit Hend: B1 - Zweiteilige Konnektoren Complete Guide",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=TRv3DFHbej8"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: B1 German Connectors Complete Reference",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -2302,35 +2302,35 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: B1 - Partizip I und Partizip II als Adjektive",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=qwMXSY8hSA4"
+              "link": "https://www.youtube.com/watch?v=nOW4U3kZUbk"
             },
             {
               "type": "Watch",
               "title": "Shehata Deutsch: Participial Adjectives - Written German B1",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: Partizip Adjectives B1 Grammar Guide",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
               "title": "B1 Vocabulary Bank: Present Participle as Adjective (Partizip I: das lachende Kind)",
               "duration": "25 min",
               "resourceType": "VOCAB",
-              "link": "https://apps.ankiweb.net/"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
               "title": "Mastery Check: Present Participle as Adjective (Partizip I: das lachende Kind) Quiz",
               "duration": "20 min",
               "resourceType": "QUIZ",
-              "link": "https://www.schubert-verlag.de/aufgaben/index.htm"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             }
           ],
           "intensiveTasks": [
@@ -2338,13 +2338,13 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Writing",
               "title": "B1 Writing Drill: 150-word essay/letter using Present Participle as Adjective (Partizip I: das lachende Kind)",
               "duration": "40 min",
-              "link": "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Present Participle as Adjective (Partizip I: das lachende Kind)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=zy-WbmM4Vlg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             }
           ],
           "targetMetrics": {
@@ -2366,14 +2366,14 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: B1 - Partizip I und Partizip II als Adjektive",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=qwMXSY8hSA4"
+              "link": "https://www.youtube.com/watch?v=nOW4U3kZUbk"
             },
             {
               "type": "Watch",
               "title": "Shehata Deutsch: Participial Adjectives - Written German B1",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
@@ -2430,14 +2430,14 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Shehata Deutsch: Wenn-Sätze - Conditional & Temporal Clauses",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=jiV90WdUkjw"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Conditional Sentences in German Context",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
@@ -2494,21 +2494,21 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Deutsch mit Hend: A2 - Weil-Sätze auf Arabisch erklärt",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "Deutsch mit Hend: A2 - Nebensätze mit Weil und Dass",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Giving Reasons with weil in Real Conversation",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -2572,7 +2572,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "lingoni GERMAN: Substantivierung B1 - Verb to Noun",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
@@ -2636,7 +2636,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Learn German with Anja: Grammar Made Simple",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Memorize",
@@ -2693,7 +2693,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
@@ -2822,21 +2822,21 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Shehata Deutsch: German Grammar Masterclass",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: German Grammar Step by Step",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Watch",
               "title": "Learn German with Anja: Grammar Made Simple",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Memorize",
@@ -2893,7 +2893,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
@@ -2957,7 +2957,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
@@ -3021,7 +3021,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
@@ -3085,7 +3085,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
@@ -3149,7 +3149,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
@@ -3278,21 +3278,21 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Shehata Deutsch: German Grammar Masterclass",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
               "title": "lingoni GERMAN: German Grammar Step by Step",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Watch",
               "title": "Learn German with Anja: Grammar Made Simple",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Memorize",
@@ -3349,7 +3349,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
@@ -3413,7 +3413,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
@@ -3477,7 +3477,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
@@ -3541,7 +3541,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
@@ -3605,7 +3605,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
