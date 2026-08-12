@@ -126,11 +126,25 @@ const TOPIC_VIDEO_MAP: Record<number, string> = {
   56: '4-eDoThe6qo', // Graduation day → DW Nicos Weg full A1 course
 };
 
+const SECONDARY_PLAYABLE_DECK = [
+  'r94aqLUO0wo', // Easy German Greetings / Introductions
+  'OFSHdj_2FQA', // Easy German Restaurant & Daily Life
+  '4-eDoThe6qo', // DW Nicos Weg Movie
+  'RrfgbBp6ScI', // lingoni GERMAN Grammar
+  'MmacJnqL3i0', // Easy German 100 Essential Words
+  'dr-dJ0a3Scs', // Deutsch mit Hend A2
+];
+
 // Fallback helper for days 1-56
 function getVerifiedDayVideoId(dayNum: number): string {
   if (TOPIC_VIDEO_MAP[dayNum]) return TOPIC_VIDEO_MAP[dayNum];
   const idx = (dayNum - 1) % VERIFIED_PLAYABLE_DECK.length;
   return VERIFIED_PLAYABLE_DECK[idx];
+}
+
+function getSecondaryDayVideoId(dayNum: number): string {
+  const idx = (dayNum - 1) % SECONDARY_PLAYABLE_DECK.length;
+  return SECONDARY_PLAYABLE_DECK[idx];
 }
 
 // ── Embedded Video Player (persistent watch tracking) ──────────────────
@@ -162,7 +176,7 @@ const WritingPromptCard: React.FC<{ title: string; isDone: boolean }> = ({ title
       <div className="flex justify-between items-center">
         <span className="text-[10px] text-stone-400">{text.length} characters</span>
         {text.length > 10 && (
-          <span className="text-[10px] text-emerald-600 font-bold"> Saved</span>
+          <span className="text-[10px] text-emerald-600 font-bold">Saved</span>
         )}
       </div>
     </div>
@@ -201,11 +215,29 @@ const SpeakingDrillCard: React.FC<{ title: string }> = ({ title }) => {
 };
 
 // ── Lesson Resource Attachment Card ────────────────────────────────
-const TaskResourceCard: React.FC<{ task: any }> = ({ task }) => {
-  const link = task.link || 'https://www.youtube.com/watch?v=WMvCXVorOsg';
+const TaskResourceCard: React.FC<{ task: any; dayNumber?: number }> = ({ task, dayNumber = 1 }) => {
+  let link = task.link;
+  const isGeneric = !link || link.includes('WMvCXVorOsg') || link.includes('4-eDoThe6qo') || link.includes('bahn.de') || link.includes('ankiweb.net/shared/info/2047595496');
+
+  if (isGeneric) {
+    if (task.type === 'Quiz') {
+      link = 'https://www.schubert-verlag.de/aufgaben/index.htm';
+    } else if (task.type === 'Read') {
+      link = 'https://learngerman.dw.com/en/nicos-weg';
+    } else if (task.type === 'Memorize' || task.type === 'Mobile App') {
+      link = 'https://apps.ankiweb.net/';
+    } else if (task.type === 'Writing') {
+      link = 'https://www.deutschakademie.de/online-deutschkurs/App#user/exercises';
+    } else if (task.type === 'Speak' || task.type === 'Shadowing' || task.type === 'Roleplay') {
+      link = `https://www.youtube.com/watch?v=${getVerifiedDayVideoId(dayNumber)}`;
+    } else {
+      link = 'https://en.pons.com/translate/german-arabic';
+    }
+  }
+
   return (
     <div className="mt-3 bg-stone-50 border border-stone-200 rounded-xl p-3 space-y-2">
-      <p className="text-[11px] text-stone-600 font-bold uppercase tracking-wide">Lesson Attachment & Resource</p>
+      <p className="text-[11px] text-stone-600 font-bold uppercase tracking-wide">Lesson Resource & Practice Link</p>
       <p className="text-xs text-stone-900 font-medium">{task.title}</p>
       <a
         href={link}
@@ -214,9 +246,12 @@ const TaskResourceCard: React.FC<{ task: any }> = ({ task }) => {
         className="flex items-center justify-between p-2.5 rounded-lg bg-white border border-stone-200 hover:border-amber-400 text-xs font-bold text-stone-800 transition-all shadow-xs group"
       >
         <span className="truncate pr-2">
-          {task.type === 'Quiz' ? 'Open Interactive Quiz Exercise' :
-           task.type === 'Read' ? 'Open Study Document / Reference' :
-           'Open Practice Material'}
+          {task.type === 'Quiz' ? 'Open Schubert Verlag Practice Exercises' :
+           task.type === 'Read' ? 'Open DW Nicos Weg Interactive Module' :
+           task.type === 'Memorize' || task.type === 'Mobile App' ? 'Open Anki German A1 Deck' :
+           task.type === 'Writing' ? 'Open DeutschAkademie Writing Trainer' :
+           task.type === 'Speak' || task.type === 'Shadowing' ? 'Open YouTube Practice Video' :
+           'Open Reference Dictionary (PONS)'}
         </span>
         <ExternalLink className="w-3.5 h-3.5 text-amber-600 group-hover:translate-x-0.5 transition-transform shrink-0" />
       </a>
@@ -249,10 +284,14 @@ const TaskCard: React.FC<{
   if (isVideo) {
     if (task.link && task.link.includes('v=')) {
       const match = task.link.match(/v=([a-zA-Z0-9_-]{11})/);
-      if (match) embedVideoId = match[1];
+      if (match && match[1] !== 'WMvCXVorOsg' && match[1] !== '4-eDoThe6qo') {
+        embedVideoId = match[1];
+      }
     }
     if (!embedVideoId) {
-      embedVideoId = isFirstVideoTask ? (dayVideoId || 'WMvCXVorOsg') : (secondaryVideoId || 'WMvCXVorOsg');
+      embedVideoId = isFirstVideoTask
+        ? (dayVideoId || getVerifiedDayVideoId(dayNumber))
+        : (secondaryVideoId || getSecondaryDayVideoId(dayNumber));
     }
   }
 
@@ -332,7 +371,7 @@ const TaskCard: React.FC<{
 
           {/* RESOURCE / QUIZ ATTACHMENT */}
           {!isVideo && !isWriting && !isSpeaking && (
-            <TaskResourceCard task={task} />
+            <TaskResourceCard task={task} dayNumber={dayNumber} />
           )}
 
           {/* Done button */}
@@ -366,7 +405,7 @@ const DayCard: React.FC<{ day: any; trackId: string }> = ({ day, trackId }) => {
   // Assign embedded videos: primary (first Watch task) + secondary (second Watch task)
   // Each day gets different video IDs - no repetition across days
   const primaryVideoId = getVerifiedDayVideoId(day.dayNumber);
-  const secondaryVideoId = 'WMvCXVorOsg';
+  const secondaryVideoId = getSecondaryDayVideoId(day.dayNumber);
 
   let firstVideoSeen = false;
 

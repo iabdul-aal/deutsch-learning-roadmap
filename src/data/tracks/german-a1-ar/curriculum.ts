@@ -15,19 +15,19 @@ export const CURRICULUM_DATA = {
           focusSkill: "Pronunciation and Greetings",
           objective: "Master German letter sounds, Ä/Ö/Ü, ß, and overcome the P vs B, V vs F pronunciation trap.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 1 - German Alphabet and Phonetics", duration: "35 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Read", title: "Deutsch Survival A1: Day 1 Pronunciation Notes and Letter Rules", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Watch", title: "Learn German with Anja: German Alphabet and Umlauts Made Easy", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Memorize", title: "Learn 15 basic greeting words (Hallo, Guten Tag, Tschüss, Auf Wiedersehen, Bitte, Danke)", duration: "30 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 1 - German Alphabet and Phonetics", duration: "35 min", resourceType: "PRIMARY", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Read", title: "Deutsch Survival A1: Day 1 Pronunciation Notes and Letter Rules", duration: "25 min", resourceType: "SECONDARY", link: "https://learngerman.dw.com/en/nicos-weg" },
+            { type: "Watch", title: "Learn German with Anja: German Alphabet and Umlauts Made Easy", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Memorize", title: "Learn 15 basic greeting words (Hallo, Guten Tag, Tschüss, Auf Wiedersehen, Bitte, Danke)", duration: "30 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
             { type: "Listen", title: "Super Easy German #1: How Germans greet each other", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
             { type: "Speak", title: "Practice spelling your full name, email address, and city out loud in German 5 times", duration: "15 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Quiz", title: "Complete Day 1 Alphabet and Greetings Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
+            { type: "Quiz", title: "Complete Day 1 Alphabet and Greetings Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
           ],
           intensiveTasks: [
-            { type: "Shadowing", title: "Shadowing practice: Repeat greetings 10 times with native pronunciation emphasis on 'ch' and 'r'", duration: "30 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Writing", title: "Write down 5 greeting dialogues for morning, afternoon, and night in your journal", duration: "30 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Mobile App", title: "Review 25 cards on Anki / Seedlang A1 Pronunciation Deck", duration: "30 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "AI Roleplay", title: "Simulate a 5-minute initial greeting audio recording introducing yourself", duration: "30 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
+            { type: "Shadowing", title: "Shadowing practice: Repeat greetings 10 times with native pronunciation emphasis on 'ch' and 'r'", duration: "30 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Writing", title: "Write down 5 greeting dialogues for morning, afternoon, and night in your journal", duration: "30 min", link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises" },
+            { type: "Mobile App", title: "Review 25 cards on Anki / Seedlang A1 Pronunciation Deck", duration: "30 min", link: "https://apps.ankiweb.net/" },
+            { type: "AI Roleplay", title: "Simulate a 5-minute initial greeting audio recording introducing yourself", duration: "30 min", link: "https://en.pons.com/translate/german-arabic" }
           ],
           targetMetrics: { vocab: 15, listeningMinutes: 40, speakingMinutes: 15, writingTasks: 1 }
         },
@@ -59,18 +59,18 @@ export const CURRICULUM_DATA = {
           focusSkill: "Speaking and Listening",
           objective: "Count to 100, ask phone numbers, age, and use W-Fragen (Wer, Was, Wo, Woher, Wie).",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 3 - Numbers and W-Fragen", duration: "35 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 3 - Numbers and W-Fragen", duration: "35 min", resourceType: "PRIMARY", link: "https://en.pons.com/translate/german-arabic" },
             { type: "Watch", title: "DW Nicos Weg: Episode 3 and 4 - Wie ist deine Telefonnummer?", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Memorize", title: "Numbers 0 to 100 + Question words (Wer, Wie, Wo, Woher, Was, Wann)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Listen", title: "Super Easy German #5: Numbers in German street interviews", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Speak", title: "Read out 10 phone numbers, postal codes, and prices in German", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Quiz", title: "Complete Day 3 Numbers and Question Words Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
+            { type: "Memorize", title: "Numbers 0 to 100 + Question words (Wer, Wie, Wo, Woher, Was, Wann)", duration: "35 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
+            { type: "Listen", title: "Super Easy German #5: Numbers in German street interviews", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Speak", title: "Read out 10 phone numbers, postal codes, and prices in German", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Quiz", title: "Complete Day 3 Numbers and Question Words Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
           ],
           intensiveTasks: [
-            { type: "Roleplay", title: "Simulate a phone call exchange asking for name, number, and age", duration: "35 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Roleplay", title: "Simulate a phone call exchange asking for name, number, and age", duration: "35 min", link: "https://en.pons.com/translate/german-arabic" },
             { type: "Writing", title: "Write 10 questions using each W-Frage word with correct V2 sentence structure", duration: "35 min", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
-            { type: "Mobile App", title: "Anki deck review: Numbers and Question words", duration: "25 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Listening Drill", title: "Dictation exercise: Listen to 15 numbers audio and write them down", duration: "25 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
+            { type: "Mobile App", title: "Anki deck review: Numbers and Question words", duration: "25 min", link: "https://apps.ankiweb.net/" },
+            { type: "Listening Drill", title: "Dictation exercise: Listen to 15 numbers audio and write them down", duration: "25 min", link: "https://en.pons.com/translate/german-arabic" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 45, speakingMinutes: 20, writingTasks: 1 }
         },
@@ -81,7 +81,7 @@ export const CURRICULUM_DATA = {
           objective: "Understand grammatical gender in German (der/die/das), indefinite articles (ein/eine), and basic rules.",
           standardTasks: [
             { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 4 - Articles and Noun Gender", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Read", title: "Deutsch Survival A1: Gender memory tricks and noun endings (-ung, -heit, -keit)", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Read", title: "Deutsch Survival A1: Gender memory tricks and noun endings (-ung, -heit, -keit)", duration: "25 min", resourceType: "SECONDARY", link: "https://learngerman.dw.com/en/nicos-weg" },
             { type: "Watch", title: "YourGermanTeacher: How to know Der, Die, Das", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
             { type: "Memorize", title: "20 core household and classroom nouns with their articles color-coded", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
             { type: "Quiz", title: "Complete Day 4 Gender and Article Quiz", duration: "20 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" }
@@ -100,7 +100,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Grammar and Speaking",
           objective: "Differentiate negation of nouns with 'kein/keine' versus verbs/adjectives/names with 'nicht'.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 5 - Negation (nicht vs kein)", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 5 - Negation (nicht vs kein)", duration: "40 min", resourceType: "PRIMARY", link: "https://en.pons.com/translate/german-arabic" },
             { type: "Watch", title: "DW Nicos Weg: Episode 5 and 6 - Ist das dein Koffer?", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Memorize", title: "15 opposites and negation vocabulary (gut/schlecht, groß/klein, kein Geld, nicht müde)", duration: "30 min", resourceType: "VOCAB", link: "https://en.pons.com/translate/german-arabic" },
             { type: "Listen", title: "Easy German: 'Nein' and polite refusal phrases", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
@@ -111,7 +111,7 @@ export const CURRICULUM_DATA = {
             { type: "Writing", title: "Convert 15 positive sentences into negative sentences using 'nicht' or 'kein'", duration: "40 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
             { type: "Roleplay", title: "Simulate a store conversation declining items politely", duration: "30 min", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Mobile App", title: "Anki Deck: A1 Negation and Opposite adjectives", duration: "30 min", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Speaking Drill", title: "Timed speaking: 2 minutes without stopping explaining what you DO NOT like", duration: "20 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
+            { type: "Speaking Drill", title: "Timed speaking: 2 minutes without stopping explaining what you DO NOT like", duration: "20 min", link: "https://en.pons.com/translate/german-arabic" }
           ],
           targetMetrics: { vocab: 15, listeningMinutes: 45, speakingMinutes: 20, writingTasks: 1 }
         },
@@ -121,7 +121,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Vocabulary and Reading",
           objective: "Learn German plural rules (-e, -er, -en, -s, Umlaut) and family member vocabulary.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 6 - Plurals and Family Members", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 6 - Plurals and Family Members", duration: "40 min", resourceType: "PRIMARY", link: "https://en.pons.com/translate/german-arabic" },
             { type: "Watch", title: "Learn German with Anja: Family Tree and Plural Nouns", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Memorize", title: "20 family words (Vater, Mutter, Eltern, Bruder, Schwester, Kind, Sohn, Tochter...)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Read", title: "Deutsch Survival Platform A1 Short Story #1: Meine Familie", duration: "25 min", resourceType: "READING", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
@@ -130,7 +130,7 @@ export const CURRICULUM_DATA = {
           ],
           intensiveTasks: [
             { type: "Writing", title: "Write a short composition (120 words) introducing your family members", duration: "45 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Shadowing", title: "Read and shadow the story 'Meine Familie' 3 times focusing on sentence rhythm", duration: "35 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Shadowing", title: "Read and shadow the story 'Meine Familie' 3 times focusing on sentence rhythm", duration: "35 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Mobile App", title: "Anki family and plural vocabulary review", duration: "25 min", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Survival German", title: "Learn emergency phrase: 'Ich suche meine Familie / mein Kind.'", duration: "15 min", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" }
           ],
@@ -168,16 +168,16 @@ export const CURRICULUM_DATA = {
           focusSkill: "Grammar Core",
           objective: "Understand direct objects and how masculine articles change in Accusative (der → den, ein → einen).",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 7 - Accusative Case Explained", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Read", title: "Deutsch Survival A1: Accusative rules and sentence diagrams", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Watch", title: "YourGermanTeacher: Accusative Case - Never make a mistake again!", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Memorize", title: "15 common transitive verbs requiring Accusative (haben, brauchen, kaufen, suchen, trinken, essen...)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Quiz", title: "Complete Day 8 Accusative Case Mini-Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 7 - Accusative Case Explained", duration: "45 min", resourceType: "PRIMARY", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Read", title: "Deutsch Survival A1: Accusative rules and sentence diagrams", duration: "25 min", resourceType: "SECONDARY", link: "https://learngerman.dw.com/en/nicos-weg" },
+            { type: "Watch", title: "YourGermanTeacher: Accusative Case - Never make a mistake again!", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Memorize", title: "15 common transitive verbs requiring Accusative (haben, brauchen, kaufen, suchen, trinken, essen...)", duration: "35 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
+            { type: "Quiz", title: "Complete Day 8 Accusative Case Mini-Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 15 sentences using masculine, feminine, and neuter objects in Accusative", duration: "40 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Shadowing", title: "Repeat Accusative sentence patterns out loud 25 times", duration: "30 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Mobile App", title: "Seedlang Accusative Case Trainer - 40 questions", duration: "30 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Writing", title: "Write 15 sentences using masculine, feminine, and neuter objects in Accusative", duration: "40 min", link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises" },
+            { type: "Shadowing", title: "Repeat Accusative sentence patterns out loud 25 times", duration: "30 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Mobile App", title: "Seedlang Accusative Case Trainer - 40 questions", duration: "30 min", link: "https://apps.ankiweb.net/" },
             { type: "Survival German", title: "Supermarket Survival: 'Ich brauche eine Tüte' / 'Ich suche den Reis'", duration: "20 min", link: "https://en.pons.com/translate/german-arabic/Supermarkt" }
           ],
           targetMetrics: { vocab: 15, listeningMinutes: 35, speakingMinutes: 15, writingTasks: 1 }
@@ -188,7 +188,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Vocabulary and Practical German",
           objective: "Navigate a German supermarket (REWE, Edeka, ALDI), ask prices, buy food, and understand weights/quantities.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 8 - Food and Supermarket Vocabulary", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 8 - Food and Supermarket Vocabulary", duration: "40 min", resourceType: "PRIMARY", link: "https://en.pons.com/translate/german-arabic" },
             { type: "Watch", title: "DW Nicos Weg: Episode 7 and 8 - Im Supermarkt", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Memorize", title: "20 food items and quantities (Brot, Wasser, Apfel, Käse, Kilo, Flasche, Packung...)", duration: "35 min", resourceType: "VOCAB", link: "https://en.pons.com/translate/german-arabic" },
             { type: "Listen", title: "Super Easy German #12: Grocery shopping in Germany", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
@@ -196,7 +196,7 @@ export const CURRICULUM_DATA = {
             { type: "Quiz", title: "Complete Day 9 Food and Shopping Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Create a full weekly grocery shopping list in German with articles and quantities", duration: "35 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Writing", title: "Create a full weekly grocery shopping list in German with articles and quantities", duration: "35 min", link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises" },
             { type: "Roleplay", title: "Simulate cashier dialogue: 'Mit Karte oder bar?' / 'Brauchen Sie den Kassenbon?'", duration: "35 min", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
             { type: "Mobile App", title: "Anki Food and Grocery Deck", duration: "25 min", link: "https://en.pons.com/translate/german-arabic/Essen" },
             { type: "Mobile App Task", title: "Use Dict.cc app to look up 10 specific Arabic ingredients in German", duration: "25 min", link: "https://apps.ankiweb.net/" }
@@ -232,14 +232,14 @@ export const CURRICULUM_DATA = {
           standardTasks: [
             { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 10 - Time and Clock Times (Uhrzeit)", duration: "45 min", resourceType: "PRIMARY", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
             { type: "Watch", title: "DW Nicos Weg: Episode 9 - Wie viel Uhr ist es?", duration: "20 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Memorize", title: "Days of week, months, prepositions of time (um 8 Uhr, am Montag, im Juli)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Speak", title: "Read out 12 random clock times in both official and informal formats", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Quiz", title: "Complete Day 11 Clock Times and Prepositions Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
+            { type: "Memorize", title: "Days of week, months, prepositions of time (um 8 Uhr, am Montag, im Juli)", duration: "35 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
+            { type: "Speak", title: "Read out 12 random clock times in both official and informal formats", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Quiz", title: "Complete Day 11 Clock Times and Prepositions Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
           ],
           intensiveTasks: [
             { type: "Writing", title: "Write down your daily routine schedule in German with exact times", duration: "40 min", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
             { type: "Listening Drill", title: "Listen to train departure announcements audio and record times", duration: "30 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
-            { type: "Mobile App", title: "Seedlang Time and Numbers Trainer", duration: "30 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Mobile App", title: "Seedlang Time and Numbers Trainer", duration: "30 min", link: "https://apps.ankiweb.net/" },
             { type: "Survival German", title: "Learn station phrase: 'Wann fährt der Zug nach Berlin ab?'", duration: "20 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" }
           ],
           targetMetrics: { vocab: 18, listeningMinutes: 35, speakingMinutes: 20, writingTasks: 1 }
@@ -252,7 +252,7 @@ export const CURRICULUM_DATA = {
           standardTasks: [
             { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 11 - Separable Verbs Masterclass", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Watch", title: "YourGermanTeacher: Separable Verbs in German - Explained Simply", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Memorize", title: "15 separable verbs (einkaufen, anrufen, aufstehen, mitkommen, anfangen, ausfüllen...)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Memorize", title: "15 separable verbs (einkaufen, anrufen, aufstehen, mitkommen, anfangen, ausfüllen...)", duration: "35 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
             { type: "Listen", title: "Deutsch Survival A1: Audio practice on separable verbs in daily speech", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
             { type: "Quiz", title: "Complete Day 12 Separable Verbs Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" }
           ],
@@ -290,9 +290,9 @@ export const CURRICULUM_DATA = {
           objective: "Review Week 2 Accusative, shopping, time, separable verbs, and take Week 2 Assessment.",
           standardTasks: [
             { type: "Revision", title: "Consolidate Week 2 Hend notes and Deutsch Survival Platform summary charts", duration: "50 min", resourceType: "REVISION", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Test", title: "Take Week 2 Interactive Assessment", duration: "45 min", resourceType: "TEST", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Smart Review", title: "Targeted review of weak Accusative or Separable verb questions", duration: "35 min", resourceType: "SMART_REVIEW", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Speaking Mission", title: "Record a 3-minute vlog describing your typical day using separable verbs", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
+            { type: "Test", title: "Take Week 2 Interactive Assessment", duration: "45 min", resourceType: "TEST", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Smart Review", title: "Targeted review of weak Accusative or Separable verb questions", duration: "35 min", resourceType: "SMART_REVIEW", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Speaking Mission", title: "Record a 3-minute vlog describing your typical day using separable verbs", duration: "20 min", resourceType: "SPEAKING", link: "https://en.pons.com/translate/german-arabic" }
           ],
           intensiveTasks: [
             { type: "Writing", title: "Write a 150-word email to a friend detailing your weekend plans and grocery shopping", duration: "45 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
@@ -318,7 +318,7 @@ export const CURRICULUM_DATA = {
             { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 13 - Modal Verbs Part 1", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Watch", title: "YourGermanTeacher: German Modal Verbs Made Super Easy", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Memorize", title: "Conjugations of können, müssen, wollen, möchten + 10 activity verbs", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Quiz", title: "Complete Day 15 Modal Verbs Mini-Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
+            { type: "Quiz", title: "Complete Day 15 Modal Verbs Mini-Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
           ],
           intensiveTasks: [
             { type: "Writing", title: "Write 15 sentences expressing obligations, abilities, and desires using modal verbs", duration: "40 min", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
@@ -356,7 +356,7 @@ export const CURRICULUM_DATA = {
             { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 15 - Housing and Apartment Vocabulary", duration: "45 min", resourceType: "PRIMARY", link: "https://en.pons.com/translate/german-arabic/Wohnung" },
             { type: "Read", title: "Deutsch Survival A1: Guide to WG and Apartment vocabulary for international students", duration: "25 min", resourceType: "SECONDARY", link: "https://en.pons.com/translate/german-arabic/Wohnung" },
             { type: "Memorize", title: "20 housing terms (Wohnung, Zimmer, Miete, Kaution, Nebenkosten, Möbel, Küche, Bad...)", duration: "35 min", resourceType: "VOCAB", link: "https://en.pons.com/translate/german-arabic/Wohnung" },
-            { type: "Listen", title: "Super Easy German #20: Living in a WG in Germany", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Listen", title: "Super Easy German #20: Living in a WG in Germany", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Quiz", title: "Complete Day 17 Housing Vocabulary Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://en.pons.com/translate/german-arabic/Wohnung" }
           ],
           intensiveTasks: [
@@ -414,9 +414,9 @@ export const CURRICULUM_DATA = {
           focusSkill: "Practical Survival German",
           objective: "Report housing issues to a landlord or caretaker (Hausmeister): heating failure, water leaks, internet setup.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 17 - Reporting Maintenance Issues", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Watch", title: "Learn German with Anja: Practical German for House Repair and Issues", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Memorize", title: "15 maintenance words (Heizung, Warmwasser, kaputt, reparieren, Hausmeister, WLAN...)", duration: "30 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 17 - Reporting Maintenance Issues", duration: "40 min", resourceType: "PRIMARY", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Watch", title: "Learn German with Anja: Practical German for House Repair and Issues", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Memorize", title: "15 maintenance words (Heizung, Warmwasser, kaputt, reparieren, Hausmeister, WLAN...)", duration: "30 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
             { type: "Speak", title: "Roleplay calling a Hausmeister: 'Die Heizung funktioniert nicht.'", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Quiz", title: "Complete Day 20 Housing Maintenance Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://en.pons.com/translate/german-arabic/Wohnung" }
           ],
@@ -434,7 +434,7 @@ export const CURRICULUM_DATA = {
           objective: "Review Week 3 Modal verbs, housing, landlord correspondence, Anmeldung, and take Assessment 3.",
           standardTasks: [
             { type: "Revision", title: "Consolidate Week 3 Hend notes and housing phrasebook", duration: "50 min", resourceType: "REVISION", link: "https://en.pons.com/translate/german-arabic/Wohnung" },
-            { type: "Test", title: "Take Week 3 Interactive Assessment", duration: "45 min", resourceType: "TEST", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Test", title: "Take Week 3 Interactive Assessment", duration: "45 min", resourceType: "TEST", link: "https://en.pons.com/translate/german-arabic" },
             { type: "Smart Review", title: "Revisit modal verb structure or landlord communication questions", duration: "35 min", resourceType: "SMART_REVIEW", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
             { type: "Speaking Mission", title: "Record a 3-minute mock interview presenting yourself for a WG room", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" }
           ],
@@ -482,12 +482,12 @@ export const CURRICULUM_DATA = {
             { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 19 - Dative Personal Pronouns", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Watch", title: "DW Nicos Weg: Episode 13 - Wie geht es dir?", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Memorize", title: "Dative pronouns (mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen) + health and state phrases", duration: "30 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
-            { type: "Speak", title: "Practice asking and answering 'Wie geht es Ihnen/dir?' with 5 different emotional states", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Speak", title: "Practice asking and answering 'Wie geht es Ihnen/dir?' with 5 different emotional states", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Quiz", title: "Complete Day 23 Dative Pronouns Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" }
           ],
           intensiveTasks: [
             { type: "Writing", title: "Write 12 conversational exchanges using Dative personal pronouns", duration: "40 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
-            { type: "Roleplay", title: "Roleplay greeting colleagues and asking how they feel", duration: "30 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Roleplay", title: "Roleplay greeting colleagues and asking how they feel", duration: "30 min", link: "https://en.pons.com/translate/german-arabic" },
             { type: "Mobile App", title: "Anki Dative pronouns deck", duration: "25 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" }
           ],
           targetMetrics: { vocab: 15, listeningMinutes: 35, speakingMinutes: 20, writingTasks: 1 }
@@ -538,9 +538,9 @@ export const CURRICULUM_DATA = {
           objective: "Understand 9 two-way prepositions (an, auf, hinter, in, neben, über, unter, vor, zwischen) answering 'Wo?' with Dative.",
           standardTasks: [
             { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 22 - Two-Way Prepositions (Wo? + Dativ)", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
-            { type: "Watch", title: "YourGermanTeacher: Wechselpräpositionen Made Easy", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Memorize", title: "9 Wechselpräpositionen + spatial locations (im Supermarkt, auf dem Tisch, an der Haltestelle...)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Quiz", title: "Complete Day 26 Two-Way Prepositions (Wo?) Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
+            { type: "Watch", title: "YourGermanTeacher: Wechselpräpositionen Made Easy", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Memorize", title: "9 Wechselpräpositionen + spatial locations (im Supermarkt, auf dem Tisch, an der Haltestelle...)", duration: "35 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
+            { type: "Quiz", title: "Complete Day 26 Two-Way Prepositions (Wo?) Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
           ],
           intensiveTasks: [
             { type: "Writing", title: "Describe where 10 items in your room are located using 'in dem/im', 'auf dem', 'unter dem'", duration: "40 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
@@ -564,7 +564,7 @@ export const CURRICULUM_DATA = {
           ],
           intensiveTasks: [
             { type: "Writing", title: "Write an email explaining to a friend why your train was delayed and when you will arrive", duration: "40 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
-            { type: "Listening Drill", title: "Listen to real DB train station speaker announcements and write down platform numbers", duration: "35 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Listening Drill", title: "Listen to real DB train station speaker announcements and write down platform numbers", duration: "35 min", link: "https://en.pons.com/translate/german-arabic" },
             { type: "Mobile App", title: "Anki Transportation and Travel Deck", duration: "25 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 45, speakingMinutes: 15, writingTasks: 1 }
@@ -604,7 +604,7 @@ export const CURRICULUM_DATA = {
             { type: "Watch", title: "Deutsch mit Hend: A1 Special - German University Vocabulary and Enrollment", duration: "45 min", resourceType: "PRIMARY", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
             { type: "Read", title: "Deutsch Survival A1: International student guide to German higher education vocabulary", duration: "25 min", resourceType: "SECONDARY", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
             { type: "Memorize", title: "20 university terms (Immatrikulation, Semesterbeitrag, Ausweis, Vorlesung, Campus, Büro...)", duration: "35 min", resourceType: "VOCAB", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Speak", title: "Roleplay enrolling at the International Office: 'Ich bin neuer Student und möchte mich immatrikulieren.'", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Speak", title: "Roleplay enrolling at the International Office: 'Ich bin neuer Student und möchte mich immatrikulieren.'", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Quiz", title: "Complete Day 29 University Enrollment Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
@@ -624,7 +624,7 @@ export const CURRICULUM_DATA = {
             { type: "Watch", title: "DW Nicos Weg: Episode 16 - An der Universität", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Memorize", title: "15 academic terms (Professor, Sprechstunde, Prüfung, Frist, Abgabe, Hausarbeit...)", duration: "30 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Writing", title: "Write a formal email to a professor requesting an appointment during office hours (Sprechstunde)", duration: "30 min", resourceType: "WRITING", link: "https://apps.ankiweb.net/" },
-            { type: "Quiz", title: "Complete Day 30 Professor Communication Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
+            { type: "Quiz", title: "Complete Day 30 Professor Communication Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
           ],
           intensiveTasks: [
             { type: "Roleplay", title: "Full 8-minute office hours roleplay asking for exam clarification", duration: "40 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
@@ -664,8 +664,8 @@ export const CURRICULUM_DATA = {
             { type: "Quiz", title: "Complete Day 32 Adjective Endings Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://ankiweb.net/shared/info/2047595496" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 15 sentences describing campus buildings and courses using adjective endings", duration: "40 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Shadowing", title: "Recite adjective ending patterns 25 times", duration: "30 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Writing", title: "Write 15 sentences describing campus buildings and courses using adjective endings", duration: "40 min", link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises" },
+            { type: "Shadowing", title: "Recite adjective ending patterns 25 times", duration: "30 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Mobile App", title: "Seedlang Adjective Endings Trainer", duration: "30 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" }
           ],
           targetMetrics: { vocab: 15, listeningMinutes: 35, speakingMinutes: 15, writingTasks: 1 }
@@ -788,7 +788,7 @@ export const CURRICULUM_DATA = {
           intensiveTasks: [
             { type: "Writing", title: "Write a 150-word journal entry about your past weekend using irregular Perfekt verbs", duration: "45 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Shadowing", title: "Shadow irregular past tense dialogue 3 times", duration: "30 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Mobile App", title: "Seedlang Irregular Verbs Drill", duration: "25 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
+            { type: "Mobile App", title: "Seedlang Irregular Verbs Drill", duration: "25 min", link: "https://apps.ankiweb.net/" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 35, speakingMinutes: 20, writingTasks: 1 }
         },
@@ -817,7 +817,7 @@ export const CURRICULUM_DATA = {
           objective: "Narrate a full day sequence using past tense transition words (zuerst, dann, danach, am Ende).",
           standardTasks: [
             { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 32 - Storytelling and Transition Words in Perfekt", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Watch", title: "Super Easy German #30: What Germans did last weekend", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Watch", title: "Super Easy German #30: What Germans did last weekend", duration: "20 min", resourceType: "LISTENING", link: "https://en.pons.com/translate/german-arabic" },
             { type: "Writing", title: "Write a 150-word personal essay detailing your activities last week", duration: "35 min", resourceType: "WRITING", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
             { type: "Speak", title: "Narrate your past week out loud for 3 minutes without looking at notes", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Quiz", title: "Complete Day 40 Perfekt Storytelling Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" }
@@ -855,7 +855,7 @@ export const CURRICULUM_DATA = {
           objective: "Review Perfekt tense, regular/irregular forms, haben/sein auxiliaries, war/hatte, and take Assessment 6.",
           standardTasks: [
             { type: "Revision", title: "Consolidate Week 6 Perfekt verb master lists and Hend notes", duration: "50 min", resourceType: "REVISION", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Test", title: "Take Week 6 Interactive Assessment", duration: "45 min", resourceType: "TEST", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Test", title: "Take Week 6 Interactive Assessment", duration: "45 min", resourceType: "TEST", link: "https://en.pons.com/translate/german-arabic" },
             { type: "Smart Review", title: "Review any flagged weak Perfekt auxiliary or Partizip II questions", duration: "35 min", resourceType: "SMART_REVIEW", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Speaking Mission", title: "Record a 4-minute vlog reviewing your past month of German study in Perfekt", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" }
           ],
@@ -883,7 +883,7 @@ export const CURRICULUM_DATA = {
             { type: "Watch", title: "Deutsch mit Hend: A1 Special - Opening a Bank Account in Germany", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Read", title: "Deutsch Survival A1: Banking vocabulary and Sperrkonto activation guide", duration: "25 min", resourceType: "SECONDARY", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Memorize", title: "20 banking terms (Konto, Eröffnen, Karte, PIN, Überweisung, Bargeld, Automat...)", duration: "35 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Speak", title: "Roleplay opening a Girokonto at a bank branch counter out loud", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Speak", title: "Roleplay opening a Girokonto at a bank branch counter out loud", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Quiz", title: "Complete Day 43 Banking German Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://ankiweb.net/shared/info/2047595496" }
           ],
           intensiveTasks: [
@@ -922,10 +922,10 @@ export const CURRICULUM_DATA = {
             { type: "Read", title: "Deutsch Survival A1: Key phrases for your Ausländerbehörde interview", duration: "25 min", resourceType: "SECONDARY", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
             { type: "Memorize", title: "20 immigration terms (Ausländerbehörde, Aufenthaltstitel, Visum, Verlängerung, Nachweis...)", duration: "35 min", resourceType: "VOCAB", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Speak", title: "Roleplay visa appointment interview with an immigration officer out loud 3 times", duration: "20 min", resourceType: "SPEAKING", link: "https://apps.ankiweb.net/" },
-            { type: "Quiz", title: "Complete Day 45 Ausländerbehörde Survival Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
+            { type: "Quiz", title: "Complete Day 45 Ausländerbehörde Survival Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
           ],
           intensiveTasks: [
-            { type: "Document Check", title: "Draft a formal checklist cover letter submitting your visa extension documents", duration: "45 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Document Check", title: "Draft a formal checklist cover letter submitting your visa extension documents", duration: "45 min", link: "https://en.pons.com/translate/german-arabic" },
             { type: "Shadowing", title: "Shadow immigration officer interview audio 3 times", duration: "30 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Mobile App", title: "Anki Visa and Official Law Deck", duration: "25 min", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Survival German", title: "Learn key line: 'Ich habe alle Unterlagen für meine Aufenthaltserlaubnis dabei.'", duration: "20 min", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" }
@@ -941,7 +941,7 @@ export const CURRICULUM_DATA = {
             { type: "Watch", title: "Deutsch mit Hend: A1 Special - Post Office, Packages and SIM Cards", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Watch", title: "Super Easy German #22: Buying a SIM Card and Post Office in Germany", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Memorize", title: "15 post and telecom terms (Paket, Brief, Einschreiben, Briefmarke, SIM-Karte, Guthaben...)", duration: "30 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Speak", title: "Roleplay buying postage stamps and registering a SIM card with ID out loud", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Speak", title: "Roleplay buying postage stamps and registering a SIM card with ID out loud", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Quiz", title: "Complete Day 46 Post and Telecom Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" }
           ],
           intensiveTasks: [
@@ -981,8 +981,8 @@ export const CURRICULUM_DATA = {
             { type: "Quiz", title: "Complete Day 48 Comparatives Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://ankiweb.net/shared/info/2047595496" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 12 sentences comparing living in your home country vs moving to Germany", duration: "40 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Shadowing", title: "Shadow comparison sentences 20 times", duration: "30 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Writing", title: "Write 12 sentences comparing living in your home country vs moving to Germany", duration: "40 min", link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises" },
+            { type: "Shadowing", title: "Shadow comparison sentences 20 times", duration: "30 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Mobile App", title: "Anki Comparatives Deck", duration: "25 min", link: "https://ankiweb.net/shared/info/2047595496" }
           ],
           targetMetrics: { vocab: 15, listeningMinutes: 35, speakingMinutes: 15, writingTasks: 1 }
@@ -1041,13 +1041,13 @@ export const CURRICULUM_DATA = {
             { type: "Watch", title: "Deutsch mit Hend: A1 Special - Emergency German and Calling 112 / 110", duration: "40 min", resourceType: "PRIMARY", link: "https://www.schubert-verlag.de/aufgaben/index.htm" },
             { type: "Watch", title: "DW Nicos Weg: Episode 22 - Ein Notfall!", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Memorize", title: "15 emergency phrases (Hilfe!, Notruf, Krankenwagen, Polizei, Diebstahl, Unfall, Notaufnahme...)", duration: "30 min", resourceType: "VOCAB", link: "https://de.langenscheidt.com/deutsch-arabisch/" },
-            { type: "Practical Task", title: "Install NINA warning app and look up emergency numbers in Germany", duration: "20 min", resourceType: "MOBILE_APP", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Practical Task", title: "Install NINA warning app and look up emergency numbers in Germany", duration: "20 min", resourceType: "MOBILE_APP", link: "https://en.pons.com/translate/german-arabic" },
             { type: "Speak", title: "Simulate a 112 emergency phone call stating location, event, injuries out loud", duration: "20 min", resourceType: "SPEAKING", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
             { type: "Quiz", title: "Complete Day 51 Emergency German Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" }
           ],
           intensiveTasks: [
             { type: "Writing", title: "Write a police report statement (Verlustanzeige) for a stolen wallet/passport", duration: "45 min", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Shadowing", title: "Shadow emergency call operator dialogue 3 times", duration: "30 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Shadowing", title: "Shadow emergency call operator dialogue 3 times", duration: "30 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Mobile App", title: "Anki Emergency and Safety Deck", duration: "25 min", link: "https://ankiweb.net/shared/info/2047595496" }
           ],
           targetMetrics: { vocab: 15, listeningMinutes: 35, speakingMinutes: 20, writingTasks: 1 }
@@ -1058,7 +1058,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Grammar Master Review",
           objective: "Review all 18 core A1 grammar topics (V2, Accusative, Dative, Modals, Separables, Perfekt, Prepositions, Weil).",
           standardTasks: [
-            { type: "Revision", title: "Complete Deutsch mit Hend A1 Master Grammar Review Sheet", duration: "60 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Revision", title: "Complete Deutsch mit Hend A1 Master Grammar Review Sheet", duration: "60 min", resourceType: "PRIMARY", link: "https://en.pons.com/translate/german-arabic" },
             { type: "Watch", title: "YourGermanTeacher: All German A1 Grammar in 60 Minutes", duration: "60 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Quiz", title: "Complete Day 52 Master Grammar Comprehensive Test", duration: "30 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" }
           ],
@@ -1076,7 +1076,7 @@ export const CURRICULUM_DATA = {
           objective: "Complete full-length Goethe / telc A1 style listening and reading comprehension modules.",
           standardTasks: [
             { type: "Practice Test", title: "Complete DW Nicos Weg A1 End-of-Course Final Test", duration: "60 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Listen", title: "Deutsch Survival Platform A1 Audio Stories Marathon (5 stories back to back)", duration: "45 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Listen", title: "Deutsch Survival Platform A1 Audio Stories Marathon (5 stories back to back)", duration: "45 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Read", title: "Read 3 real German practical notices (housing contract, train schedule, uni email)", duration: "30 min", resourceType: "READING", link: "https://en.pons.com/translate/german-arabic/Wohnung" },
             { type: "Quiz", title: "Complete Day 53 Comprehensive Reading and Listening Test", duration: "25 min", resourceType: "QUIZ", link: "https://lingua.com/german/reading/" }
           ],
@@ -1115,10 +1115,10 @@ export const CURRICULUM_DATA = {
             { type: "Roleplay", title: "Scenario 2: Buying a train ticket to your uni town at DB counter", duration: "25 min", resourceType: "ROLEPLAY", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
             { type: "Roleplay", title: "Scenario 3: Meeting landlord, collecting keys, inspecting room", duration: "25 min", resourceType: "ROLEPLAY", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Roleplay", title: "Scenario 4: Supermarket shopping and buying SIM card at ALDI", duration: "25 min", resourceType: "ROLEPLAY", link: "https://en.pons.com/translate/german-arabic/Supermarkt" },
-            { type: "Quiz", title: "Complete Day 55 Real-World Scenarios Test", duration: "20 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
+            { type: "Quiz", title: "Complete Day 55 Real-World Scenarios Test", duration: "20 min", resourceType: "QUIZ", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write a 250-word final arrival reflection email in German", duration: "50 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Writing", title: "Write a 250-word final arrival reflection email in German", duration: "50 min", link: "https://www.deutschakademie.de/online-deutschkurs/App#user/exercises" },
             { type: "Shadowing", title: "Shadow real-world dialogue marathon 40 min", duration: "40 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Mobile App", title: "Final Anki SRS Deck maintenance", duration: "30 min", link: "https://ankiweb.net/shared/info/2047595496" }
           ],

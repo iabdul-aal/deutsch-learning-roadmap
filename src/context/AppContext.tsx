@@ -474,10 +474,13 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
         taskTitle: context?.taskTitle,
       },
     }));
-    // Also credit listening minutes (estimate 10 min per video watch)
+    // Credit listening skill +0.5 per video watched
     setLearnerModel(prev => ({
       ...prev,
-      skillMastery: updateSkillMastery(prev.skillMastery, 'HOEREN', Math.min(100, (prev.skillMastery.HOEREN ?? 0) + 0.5)),
+      skillMastery: {
+        ...prev.skillMastery,
+        HOEREN: updateSkillMastery(prev.skillMastery.HOEREN ?? 0, Math.min(100, (prev.skillMastery.HOEREN ?? 0) + 0.5)),
+      },
     }));
   }, []);
 
