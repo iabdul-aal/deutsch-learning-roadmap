@@ -264,9 +264,14 @@ const TaskCard: React.FC<{
 
   const isSpeakingDrill = SPEAKING_DRILL_TYPES.has(task.type);
   const isWriting = task.type === 'Writing' || task.type === 'Write';
+  const isAudioDrill = (task.title || '').toLowerCase().includes('audio drill')
+    || (task.title || '').toLowerCase().includes('deutsch survival a1:');
 
   // Tasks that are purely internal activities — show an info card instead of a video or external link
-  const isInternalActivity = ['Survival German', 'Color Coding', 'Smart Review', 'Revision', 'Test', 'Listening Marathon'].includes(task.type);
+  const isInternalActivity = isAudioDrill || ['Survival German', 'Color Coding', 'Smart Review', 'Revision', 'Test', 'Listening Marathon'].includes(task.type);
+
+  // External resource link card should ONLY be shown for non-video tasks that are NOT self-contained drills
+  const showResourceLink = !hasVideo && !isSpeakingDrill && !isInternalActivity && Boolean(task.link);
 
   return (
     <div
@@ -350,8 +355,8 @@ const TaskCard: React.FC<{
           {/* INTERNAL ACTIVITY CARD */}
           {isInternalActivity && <InternalDrillCard title={task.title} taskType={task.type} />}
 
-          {/* PRACTICE RESOURCE LINK — always shown except for internal activities */}
-          {!isInternalActivity && <TaskResourceCard task={task} dayNumber={dayNumber} />}
+          {/* PRACTICE RESOURCE LINK — only for non-video, non-drill tasks */}
+          {showResourceLink && <TaskResourceCard task={task} dayNumber={dayNumber} />}
         </div>
       )}
     </div>

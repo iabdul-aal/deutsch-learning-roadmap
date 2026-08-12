@@ -218,93 +218,114 @@ export function resolveTaskVideoEmbed(
   const titleLower = (taskTitle || '').toLowerCase();
   const link = (taskLink || '').trim();
 
-  // ── PRIORITY 0: Internal platform tasks — NEVER embed YouTube ──
-  // Titles starting with 'Deutsch Survival' are internal drills/quizzes, not YT videos.
-  if (titleLower.startsWith('deutsch survival') || titleLower.includes('audio drills') || titleLower.includes('survival a1:')) {
-    // Return a silent no-embed signal: empty videoId means TaskCard won't render player
-    return { videoId: '', startTimeSeconds: 0, endTimeSeconds: 0, creatorName: '', isCroppedSegment: false };
+  const emptyEmbed: ResolvedVideoEmbed = {
+    videoId: '',
+    startTimeSeconds: 0,
+    endTimeSeconds: 0,
+    creatorName: '',
+    isCroppedSegment: false,
+  };
+
+  // ── PRIORITY 0: Internal platform tasks & Audio Drills — NEVER embed YouTube ──
+  if (
+    titleLower.startsWith('deutsch survival') ||
+    titleLower.includes('audio drill') ||
+    titleLower.includes('survival a1:') ||
+    titleLower.includes('self-recording') ||
+    titleLower.includes('speaking drill')
+  ) {
+    return emptyEmbed;
   }
 
-  // ── PRIORITY 1: Hend title → ALWAYS force WMvCXVorOsg masterclass regardless of link ──
-  // Hend's curriculum data has stale/wrong individual video IDs; the masterclass IS her verified content.
-  if (titleLower.includes('hend') || titleLower.includes('deutsch mit hend') || titleLower.includes('frau hend')) {
-    // Extract explicit timestamp from link if provided (e.g. &t=1500s)
-    let start = Math.max(0, (dayNumber - 1) * 1500);
-    const tMatch = link.match(/[?&]t=([0-9]+)/);
-    if (tMatch) start = parseInt(tMatch[1], 10);
-    return {
-      videoId: 'WMvCXVorOsg',
-      startTimeSeconds: start,
-      endTimeSeconds: start + durationSec,
-      creatorName: 'Deutsch mit Hend',
-      isCroppedSegment: true
-    };
-  }
-
-  // ── PRIORITY 2: Direct YouTube URL extraction (non-Hend, non-internal) ──
+  // ── PRIORITY 1: Explicit YouTube URL extraction ──
   if (link.includes('v=')) {
     const match = link.match(/v=([a-zA-Z0-9_-]{11})/);
     if (match) {
       const vid = match[1];
 
-      // Hend/Shehata masterclass with timestamp crop
-      if (vid === 'WMvCXVorOsg' || vid === 'dr-dJ0a3Scs') {
-        const tMatch2 = link.match(/[?&]t=([0-9]+)/);
-        const start = tMatch2 ? parseInt(tMatch2[1], 10) : Math.max(0, (dayNumber - 1) * 1500);
+      // WMvCXVorOsg: Hend's Alphabet & Phonetics video (~25 min)
+      // Only embed if the task is actually about Alphabet/Pronunciation/Numbers/Intro
+      if (vid === 'WMvCXVorOsg') {
+        const isAlphabetOrIntro =
+          titleLower.includes('alphabet') ||
+          titleLower.includes('phonetic') ||
+          titleLower.includes('number') ||
+          titleLower.includes('intro') ||
+          titleLower.includes('greetings') ||
+          titleLower.includes('hallo');
+
+        if (!isAlphabetOrIntro && !titleLower.includes('hend')) {
+          // Task is about Akkusativ/Dativ/Verbs etc. with stale WMvCXVorOsg link — DO NOT embed alphabet video!
+          return emptyEmbed;
+        }
+
         return {
-          videoId: vid,
-          startTimeSeconds: start,
-          endTimeSeconds: start + durationSec,
-          creatorName: vid === 'dr-dJ0a3Scs' ? 'Shehata Deutsch' : 'Deutsch mit Hend',
-          isCroppedSegment: true
+          videoId: 'WMvCXVorOsg',
+          startTimeSeconds: 0,
+          endTimeSeconds: durationSec,
+          creatorName: 'Deutsch mit Hend',
+          isCroppedSegment: false,
         };
       }
 
-      // DW Nicos Weg with episode-based crop
+      // RrfgbBp6ScI: Learn German with Anja — Lesson 33 Modal Verbs
+      // Only embed if the task is ACTUALLY about Modal Verbs
+      if (vid === 'RrfgbBp6ScI') {
+        if (!titleLower.includes('modal') && !titleLower.includes('lingoni')) {
+          // Task is about Present Tense / Alphabet / Conjugation — DO NOT embed Modal Verbs video!
+          return emptyEmbed;
+        }
+        return {
+          videoId: 'RrfgbBp6ScI',
+          startTimeSeconds: 0,
+          endTimeSeconds: durationSec,
+          creatorName: 'Learn German with Anja',
+          isCroppedSegment: false,
+        };
+      }
+
+      // 4-eDoThe6qo: DW Nicos Weg A1 Full Compilation (180 min)
       if (vid === '4-eDoThe6qo') {
-        const tMatch3 = link.match(/[?&]t=([0-9]+)/);
-        const start = tMatch3 ? parseInt(tMatch3[1], 10) : ((Math.max(1, dayNumber) - 1) % 10) * 600;
+        const tMatch = link.match(/[?&]t=([0-9]+)/);
+        const start = tMatch ? parseInt(tMatch[1], 10) : ((Math.max(1, dayNumber) - 1) % 10) * 600;
         return {
-          videoId: vid,
+          videoId: '4-eDoThe6qo',
           startTimeSeconds: start,
-          endTimeSeconds: start + 600,
-          creatorName: 'DW Nicos Weg',
-          isCroppedSegment: true
+          endTimeSeconds: Math.min(start + 600, 10800),
+          creatorName: 'DW Learn German',
+          isCroppedSegment: true,
         };
       }
 
-      // Known creator lookup by video ID
+      // dr-dJ0a3Scs: Shehata A2/B1 content
+      if (vid === 'dr-dJ0a3Scs') {
+        return {
+          videoId: 'dr-dJ0a3Scs',
+          startTimeSeconds: 0,
+          endTimeSeconds: durationSec,
+          creatorName: 'Shehata Deutsch',
+          isCroppedSegment: false,
+        };
+      }
+
+      // Other verified YouTube video IDs
       let creator = 'Verified Creator';
       if (vid === 'r94aqLUO0wo' || vid === 'OFSHdj_2FQA' || vid === 'MmacJnqL3i0') creator = 'Easy German';
-      else if (vid === 'RrfgbBp6ScI') creator = 'lingoni GERMAN';
-      else if (vid === '_VyYfZP9MsY') creator = 'Shehata Deutsch'; // Ahmad Yaghi / Shehata — not Hend!
-      else if (vid === 'F3a7cI2g_sM' || vid === 'oV9gP4-g-e8' || vid === 'g9o6q5x8sRk' || vid === 'e_0kU4M0d0U') creator = 'Shehata Deutsch';
+      else if (vid === '_VyYfZP9MsY') creator = 'Deutsch mit Hend';
 
       return {
         videoId: vid,
         startTimeSeconds: 0,
         endTimeSeconds: durationSec,
         creatorName: creator,
-        isCroppedSegment: false
+        isCroppedSegment: false,
       };
     }
   }
 
-  // STEP 2: Title-Based Creator Matching (fallback when link has no YouTube v= param)
-  if (titleLower.includes('easy german') || titleLower.includes('super easy')) {
-    if (titleLower.includes('100') || titleLower.includes('vocab')) {
-      return { videoId: 'MmacJnqL3i0', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Easy German', isCroppedSegment: false };
-    }
-    if (titleLower.includes('restaurant') || titleLower.includes('food') || titleLower.includes('daily')) {
-      return { videoId: 'OFSHdj_2FQA', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Easy German', isCroppedSegment: false };
-    }
-    if (titleLower.includes('grammar') || titleLower.includes('exercise')) {
-      return { videoId: 'RrfgbBp6ScI', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Easy German', isCroppedSegment: false };
-    }
-    return { videoId: 'r94aqLUO0wo', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Easy German', isCroppedSegment: false };
-  }
-
-  if (titleLower.includes('nicos weg') || titleLower.includes('dw') || titleLower.includes('deutsche welle')) {
+  // ── PRIORITY 2: Title-based resolution (ONLY when link does not have v=) ──
+  // DW Nicos Weg
+  if (titleLower.includes('nicos weg') || titleLower.includes('dw nicos')) {
     const episodeNum = Math.max(1, dayNumber);
     const start = ((episodeNum - 1) % 10) * 600;
     return {
@@ -312,49 +333,31 @@ export function resolveTaskVideoEmbed(
       startTimeSeconds: start,
       endTimeSeconds: start + 600,
       creatorName: 'DW Learn German',
-      isCroppedSegment: true
+      isCroppedSegment: true,
     };
   }
 
-  if (titleLower.includes('lingoni') || titleLower.includes('jenny') || titleLower.includes('yourgermanteacher')) {
-    return { videoId: 'RrfgbBp6ScI', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'lingoni / YourGermanTeacher', isCroppedSegment: false };
-  }
-  if (titleLower.includes('anja') || titleLower.includes('learn german with anja')) {
-    // Anja's alphabet/grammar videos → lingoni-style structured grammar content
-    return { videoId: 'RrfgbBp6ScI', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Learn German with Anja', isCroppedSegment: false };
-  }
-  if (titleLower.includes('shehata')) {
-    return { videoId: 'dr-dJ0a3Scs', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Shehata Deutsch', isCroppedSegment: false };
+  // Easy German specific episodes
+  if (titleLower.includes('easy german') || titleLower.includes('super easy')) {
+    if (titleLower.includes('100') || titleLower.includes('vocab')) {
+      return { videoId: 'MmacJnqL3i0', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Easy German', isCroppedSegment: false };
+    }
+    if (titleLower.includes('berlin') || titleLower.includes('street')) {
+      return { videoId: 'r94aqLUO0wo', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Easy German', isCroppedSegment: false };
+    }
   }
 
-  // STEP 3: Specific Topic Matches
-  if (titleLower.includes('akkusativ')) {
+  // Topic-specific verified videos
+  if (titleLower.includes('akkusativ') && link.includes('youtube')) {
     return { videoId: 'F3a7cI2g_sM', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Deutsch mit Hend', isCroppedSegment: false };
   }
-  if (titleLower.includes('dativ')) {
+  if (titleLower.includes('dativ') && link.includes('youtube')) {
     return { videoId: 'oV9gP4-g-e8', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Deutsch mit Hend', isCroppedSegment: false };
   }
-  if (titleLower.includes('trennbare') || titleLower.includes('separable')) {
+  if ((titleLower.includes('trennbare') || titleLower.includes('separable')) && link.includes('youtube')) {
     return { videoId: 'g9o6q5x8sRk', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Deutsch mit Hend', isCroppedSegment: false };
   }
-  if (titleLower.includes('modal')) {
-    return { videoId: 'e_0kU4M0d0U', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Deutsch mit Hend', isCroppedSegment: false };
-  }
-  if (titleLower.includes('alphabet') || titleLower.includes('phonetics')) {
-    return { videoId: '_VyYfZP9MsY', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Deutsch mit Hend', isCroppedSegment: false };
-  }
 
-  // STEP 4: Masterclass Fallback
-  const isA1 = trackId.includes('a1');
-  const masterclassVid = isA1 ? 'WMvCXVorOsg' : 'dr-dJ0a3Scs';
-  const start = Math.max(0, (dayNumber - 1) * 1500);
-  const end = start + durationSec;
-
-  return {
-    videoId: masterclassVid,
-    startTimeSeconds: start,
-    endTimeSeconds: end,
-    creatorName: 'Deutsch mit Hend',
-    isCroppedSegment: true
-  };
+  // DEFAULT: If no genuine video match exists, DO NOT fake a video embed!
+  return emptyEmbed;
 }
