@@ -1,0 +1,58 @@
+{
+  "results": [
+    {
+      "videoId": "WMvCXVorOsg",
+      "ok": true,
+      "status": 200,
+      "title": "أساسيات اللغة الألمانية - الجزء الأول",
+      "author": "Deutsch mit Hend - الألمانية مع هند "
+    },
+    {
+      "videoId": "dr-dJ0a3Scs",
+      "ok": true,
+      "status": 200,
+      "title": "Deutsch lernen A1 | für Anfänger | - Lektion 1 - Dialoge | sich begrüßen, sich verabschieden | ...",
+      "author": "Deutsch lernen mit uns | Learn German with us"
+    },
+    {
+      "videoId": "r94aqLUO0wo",
+      "ok": true,
+      "status": 200,
+      "title": "Introduce yourself in Slow German | Super Easy German (1)",
+      "author": "Easy German"
+    },
+    {
+      "videoId": "MmacJnqL3i0",
+      "ok": true,
+      "status": 200,
+      "title": "Internationale Montessorischule (IMS) Berlin",
+      "author": "Internationale Montessorischule (IMS) Berlin"
+    },
+    {
+      "videoId": "4-eDoThe6qo",
+      "ok": true,
+      "status": 200,
+      "title": "Deutsch lernen (A1): Ganzer Film auf Deutsch - \"Nicos Weg\" | Deutsch lernen mit Videos | Untertitel",
+      "author": "Deutsch lernen mit der DW"
+    },
+    {
+      "videoId": "RrfgbBp6ScI",
+      "ok": true,
+      "status": 200,
+      "title": "GERMAN LESSON 33: Introduction to German MODAL VERBS (can, must, want etc)",
+      "author": "Learn German with Anja"
+    },
+    {
+      "videoId": "videoseries",
+      "ok": false,
+      "status": 404
+    }
+  ],
+  "failed": [
+    {
+      "videoId": "videoseries",
+      "ok": false,
+      "status": 404
+    }
+  ]
+}

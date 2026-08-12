@@ -33,7 +33,7 @@ export const RESOURCES_DATA: ResourceDatabase = {
       priority: "CORE",
       whySelected: "Primary core curriculum designed specifically for Arabic speakers. Explains complex German grammar logic using clear Arabic analogies, video lessons, vocabulary, and Goethe/telc exam notes.",
       sourceCommunity: "Arabic Ecosystem",
-      link: "www.youtube.com/watch?v=A_c1V5h5a_k"
+      link: "www.youtube.com/watch?v=WMvCXVorOsg"
     },
     {
       id: "res-goethe-a1-official",
@@ -72,7 +72,7 @@ export const RESOURCES_DATA: ResourceDatabase = {
       priority: "CORE",
       whySelected: "The gold standard for story-driven beginner German learning. Follows Nico's arrival in Germany, covering real-world situations with interactive exercises.",
       sourceCommunity: "German Ecosystem",
-      link: "https://www.youtube.com/watch?v=s23J8-k17-E"
+      link: "https://www.youtube.com/watch?v=4-eDoThe6qo"
     },
     {
       id: "res-easy-german",
@@ -98,7 +98,7 @@ export const RESOURCES_DATA: ResourceDatabase = {
       priority: "HIGH VALUE",
       whySelected: "Clear, methodical chalkboard breakdowns of Nominative, Accusative, Dative cases, and Goethe A1 exam structures.",
       sourceCommunity: "English Ecosystem",
-      link: "www.youtube.com/watch?v=D6s2Q1h7D-M"
+      link: "www.youtube.com/watch?v=RrfgbBp6ScI"
     },
     {
       id: "res-langenscheidt-ar",

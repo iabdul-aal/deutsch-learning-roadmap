@@ -167,7 +167,7 @@ export const MISSIONS: Mission[] = [
     ],
     successCriteria: 'You can describe symptoms, answer doctor\'s questions, and understand basic medical instructions.',
     successCriteriaAR: 'تستطيع وصف الأعراض والإجابة على أسئلة الطبيب وفهم التعليمات الطبية الأساسية.',
-    videoId: 'g-Z1_t_a-k0',
+    videoId: 'r94aqLUO0wo',
   },
 
   {
@@ -263,7 +263,7 @@ export const MISSIONS: Mission[] = [
     ],
     successCriteria: 'You can navigate a German supermarket, ask for items, and check out successfully.',
     successCriteriaAR: 'تستطيع التنقل في سوبرماركت ألماني والسؤال عن المنتجات والدفع بنجاح.',
-    videoId: '4l4NlK79q14',
+    videoId: 'OFSHdj_2FQA',
   },
 
   // ── STUDY TRACK ─────────────────────────────────────────────────

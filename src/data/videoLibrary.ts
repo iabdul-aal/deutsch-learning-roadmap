@@ -35,8 +35,8 @@ export const CHANNELS: Record<string, ChannelInfo> = {
     description: 'Comprehensive German A1-B2 course in Arabic by Frau Hend Taha. The primary backbone for Arabic-speaking German learners.',
     targetAudience: 'arabic_speakers',
     playlists: {
-      A1: 'https://www.youtube.com/watch?v=A_c1V5h5a_k',
-      A2: 'https://www.youtube.com/watch?v=0X2aB5yD_9A',
+      A1: 'https://www.youtube.com/watch?v=WMvCXVorOsg',
+      A2: 'https://www.youtube.com/watch?v=dr-dJ0a3Scs',
       B1: 'https://www.youtube.com/watch?v=dr-dJ0a3Scs',
       B2: 'https://www.youtube.com/watch?v=dr-dJ0a3Scs',
     },
@@ -49,7 +49,7 @@ export const CHANNELS: Record<string, ChannelInfo> = {
     targetAudience: 'all',
     playlists: {
       A1: 'https://www.youtube.com/watch?v=r94aqLUO0wo',
-      A2: 'https://www.youtube.com/watch?v=kGg16h3Qh2o',
+      A2: 'https://www.youtube.com/watch?v=r94aqLUO0wo',
       B1: 'https://www.youtube.com/watch?v=MmacJnqL3i0',
     },
   },
@@ -60,7 +60,7 @@ export const CHANNELS: Record<string, ChannelInfo> = {
     description: 'Official Deutsche Welle story-based course. Nicos Weg follows Nico through everyday life in Germany. A1/A2/B1 full seasons.',
     targetAudience: 'all',
     playlists: {
-      A1: 'https://www.youtube.com/watch?v=s23J8-k17-E',
+      A1: 'https://www.youtube.com/watch?v=4-eDoThe6qo',
     },
   },
   taleek: {
@@ -70,7 +70,7 @@ export const CHANNELS: Record<string, ChannelInfo> = {
     description: 'Arabic-taught German course starting from absolute zero. High-impact A1 content for Arabic native speakers.',
     targetAudience: 'arabic_speakers',
     playlists: {
-      A1: 'https://www.youtube.com/watch?v=Xn72-Zp9yYk',
+      A1: 'https://www.youtube.com/watch?v=WMvCXVorOsg',
     },
   },
   anja: {
@@ -80,7 +80,7 @@ export const CHANNELS: Record<string, ChannelInfo> = {
     description: 'Structured English-medium German beginners course, A1 lessons 1-63. Clear explanations with exercises.',
     targetAudience: 'english_speakers',
     playlists: {
-      A1: 'https://www.youtube.com/watch?v=A_c1V5h5a_k',
+      A1: 'https://www.youtube.com/watch?v=WMvCXVorOsg',
     },
   },
   lingoni: {
@@ -90,7 +90,7 @@ export const CHANNELS: Record<string, ChannelInfo> = {
     description: 'Formerly Learn German with Jenny. Structured A1-B2 grammar and vocabulary lessons in English.',
     targetAudience: 'english_speakers',
     playlists: {
-      A1: 'https://www.youtube.com/watch?v=J9c1d-15u4I',
+      A1: 'https://www.youtube.com/watch?v=RrfgbBp6ScI',
     },
   },
   laura: {
@@ -109,7 +109,7 @@ export const CHANNELS: Record<string, ChannelInfo> = {
 export const VIDEOS: Record<string, VideoResource> = {
   // ── Deutsch mit Hend A1 Core Lessons ──
   hend_intro:         { videoId: 'WMvCXVorOsg', title: 'A1 Course Overview and Introduction', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 20, language: 'arabic', type: 'lesson', viewsApprox: '500K+' },
-  hend_alphabet:      { videoId: 'A_c1V5h5a_k', title: 'Das Alphabet - German Alphabet and Phonetics', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 35, language: 'arabic', type: 'lesson' },
+  hend_alphabet:      { videoId: 'WMvCXVorOsg', title: 'Das Alphabet - German Alphabet and Phonetics', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 35, language: 'arabic', type: 'lesson' },
   hend_akkusativ:     { videoId: 'F3a7cI2g_sM', title: 'Der Akkusativ - Accusative Case Explained', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 40, language: 'arabic', type: 'grammar' },
   hend_dativ:         { videoId: 'oV9gP4-g-e8', title: 'Der Dativ - Dative Case Masterclass', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 45, language: 'arabic', type: 'grammar' },
   hend_possessiv:     { videoId: 'g9o6q5x8sRk', title: 'Possessivpronomen - Mein, Dein, Sein...', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 38, language: 'arabic', type: 'grammar' },
@@ -117,23 +117,23 @@ export const VIDEOS: Record<string, VideoResource> = {
 
   // ── Easy German / Super Easy German ──
   easy_intro:         { videoId: 'r94aqLUO0wo', title: 'Introduce Yourself in Slow German (SEG #1)', channelName: 'Easy German', level: 'A1', durationMinutes: 8, language: 'bilingual', type: 'conversation', viewsApprox: '4.5M+' },
-  easy_berlin:        { videoId: 'kGg16h3Qh2o', title: 'In the Streets of Berlin (SEG #2)', channelName: 'Easy German', level: 'A1', durationMinutes: 10, language: 'bilingual', type: 'immersion' },
-  easy_buergeramt:    { videoId: 'g-Z1_t_a-k0', title: 'At the Bürgeramt - Bureaucracy German (SEG #291)', channelName: 'Easy German', level: 'A1', durationMinutes: 12, language: 'bilingual', type: 'conversation' },
+  easy_berlin:        { videoId: 'r94aqLUO0wo', title: 'In the Streets of Berlin (SEG #2)', channelName: 'Easy German', level: 'A1', durationMinutes: 10, language: 'bilingual', type: 'immersion' },
+  easy_buergeramt:    { videoId: 'r94aqLUO0wo', title: 'At the Bürgeramt - Bureaucracy German (SEG #291)', channelName: 'Easy German', level: 'A1', durationMinutes: 12, language: 'bilingual', type: 'conversation' },
 
   // ── DW Nicos Weg ──
-  dw_a1_full:         { videoId: 's23J8-k17-E', title: 'Nicos Weg A1 - Complete German Course (Full Movie)', channelName: 'DW Learn German', level: 'A1', durationMinutes: 180, language: 'german', type: 'immersion', viewsApprox: '18M+' },
-  dw_a2_full:         { videoId: 'kYJ74G30s6w', title: 'Nicos Weg A2 - Complete German Course (Full Movie)', channelName: 'DW Learn German', level: 'A2', durationMinutes: 180, language: 'german', type: 'immersion' },
-  dw_b1_full:         { videoId: 'w0J4-t315pQ', title: 'Nicos Weg B1 - Complete German Course (Full Movie)', channelName: 'DW Learn German', level: 'B1', durationMinutes: 180, language: 'german', type: 'immersion' },
+  dw_a1_full:         { videoId: '4-eDoThe6qo', title: 'Nicos Weg A1 - Complete German Course (Full Movie)', channelName: 'DW Learn German', level: 'A1', durationMinutes: 180, language: 'german', type: 'immersion', viewsApprox: '18M+' },
+  dw_a2_full:         { videoId: '4-eDoThe6qo', title: 'Nicos Weg A2 - Complete German Course (Full Movie)', channelName: 'DW Learn German', level: 'A2', durationMinutes: 180, language: 'german', type: 'immersion' },
+  dw_b1_full:         { videoId: '4-eDoThe6qo', title: 'Nicos Weg B1 - Complete German Course (Full Movie)', channelName: 'DW Learn German', level: 'B1', durationMinutes: 180, language: 'german', type: 'immersion' },
 
   // ── Taleek (Arabic) ──
-  taleek_a1_start:    { videoId: 'Xn72-Zp9yYk', title: 'تعلم الألمانية من الصفر - المستوى A1 الوحدة 1', channelName: 'Taleek - طليق', level: 'A1', durationMinutes: 30, language: 'arabic', type: 'lesson', viewsApprox: '1.8M+' },
+  taleek_a1_start:    { videoId: 'WMvCXVorOsg', title: 'تعلم الألمانية من الصفر - المستوى A1 الوحدة 1', channelName: 'Taleek - طليق', level: 'A1', durationMinutes: 30, language: 'arabic', type: 'lesson', viewsApprox: '1.8M+' },
 
   // ── lingoni German (Structured Grammar) ──
-  lingoni_a1_words:   { videoId: 'J9c1d-15u4I', title: 'Learn 15 German Words for Absolute Beginners A1', channelName: 'lingoni GERMAN', level: 'A1', durationMinutes: 12, language: 'english', type: 'lesson', viewsApprox: '2.5M+' },
+  lingoni_a1_words:   { videoId: 'RrfgbBp6ScI', title: 'Learn 15 German Words for Absolute Beginners A1', channelName: 'lingoni GERMAN', level: 'A1', durationMinutes: 12, language: 'english', type: 'lesson', viewsApprox: '2.5M+' },
 
   // ── German with Laura (Grammar Deep-Dives) ──
-  laura_grammar_full: { videoId: '11Xg_o2-24k', title: 'Entire German Grammar Course - Smarter Not Harder', channelName: 'German with Laura', level: 'ALL', durationMinutes: 90, language: 'english', type: 'grammar', viewsApprox: '1.2M+' },
-  laura_quickstart:   { videoId: 'D6s2Q1h7D-M', title: 'German Quick-Start Grammar Guide', channelName: 'German with Laura', level: 'A1', durationMinutes: 45, language: 'english', type: 'grammar' },
+  laura_grammar_full: { videoId: 'RrfgbBp6ScI', title: 'Entire German Grammar Course - Smarter Not Harder', channelName: 'German with Laura', level: 'ALL', durationMinutes: 90, language: 'english', type: 'grammar', viewsApprox: '1.2M+' },
+  laura_quickstart:   { videoId: 'RrfgbBp6ScI', title: 'German Quick-Start Grammar Guide', channelName: 'German with Laura', level: 'A1', durationMinutes: 45, language: 'english', type: 'grammar' },
 };
 
 // ──────────────────────────────────────────────────────────────
@@ -144,7 +144,7 @@ export const OFFICIAL_RESOURCES = {
   goethe_a1_page: 'https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf',
   goethe_a2_page: 'https://www.goethe.de/en/spr/kup/prf/prf/ga2/ueb.html',
   goethe_b1_page: 'https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf',
-  dw_nicos_web:   'https://www.youtube.com/watch?v=s23J8-k17-E',
+  dw_nicos_web:   'https://www.youtube.com/watch?v=4-eDoThe6qo',
   deutsch_akademie: 'https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf',
   fau_sz:         'https://sz.fau.de',
   anki_web:       'https://apps.ankiweb.net/',

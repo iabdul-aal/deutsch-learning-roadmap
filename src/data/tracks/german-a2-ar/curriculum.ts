@@ -22,7 +22,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -82,7 +82,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -142,7 +142,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -202,7 +202,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -262,7 +262,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -322,7 +322,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -382,7 +382,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -462,7 +462,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -522,7 +522,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -582,7 +582,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -642,7 +642,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -702,7 +702,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -762,7 +762,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -822,7 +822,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -902,7 +902,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -962,7 +962,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -1022,7 +1022,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -1082,7 +1082,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -1142,7 +1142,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -1202,7 +1202,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -1262,7 +1262,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -1342,7 +1342,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -1402,7 +1402,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -1462,7 +1462,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -1522,7 +1522,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -1582,7 +1582,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -1642,7 +1642,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -1702,7 +1702,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -1782,7 +1782,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -1842,7 +1842,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -1902,7 +1902,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -1962,7 +1962,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -2022,7 +2022,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -2082,7 +2082,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -2142,7 +2142,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -2222,7 +2222,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -2282,7 +2282,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -2342,7 +2342,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -2402,7 +2402,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -2462,7 +2462,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -2522,7 +2522,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -2582,7 +2582,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -2662,7 +2662,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -2722,7 +2722,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -2782,7 +2782,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -2842,7 +2842,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -2902,7 +2902,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -2962,7 +2962,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -3022,7 +3022,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -3102,7 +3102,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -3162,7 +3162,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -3222,7 +3222,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
@@ -3282,7 +3282,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Nicos Weg Episode",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=s23J8-k17-E"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Grammar",
