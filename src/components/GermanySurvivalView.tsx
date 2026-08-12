@@ -152,7 +152,7 @@ export const GermanySurvivalView: React.FC = () => {
                         dir="rtl"
                       >
                         <Mic className="w-3.5 h-3.5 text-amber-800 shrink-0" />
-                        <span className="text-amber-800 text-[11px] shrink-0">نطق:</span>
+                        <span className="text-amber-800 text-[11px] shrink-0 font-sans">Pronunciation:</span>
                         <span className="truncate">{item.phonetic || item.pronunciation}</span>
                       </div>
                     )}

@@ -131,7 +131,7 @@ interface PlaylistEmbedProps {
  * Embeds a full YouTube playlist with direct watch button.
  */
 export const YouTubePlaylist: React.FC<PlaylistEmbedProps> = ({ playlistId, title, className = '' }) => {
-  const embedUrl = `https://www.youtube.com/embed/videoseries?list=${playlistId}&rel=0&modestbranding=1`;
+  const embedUrl = `https://www.youtube.com/embed/videoseries?list=${playlistId}&rel=0 and modestbranding=1`;
   const watchUrl = `https://www.youtube.com/playlist?list=${playlistId}`;
 
   return (

@@ -56,9 +56,9 @@ const DialogLine: React.FC<{ line: MissionDialog; index: number }> = ({ line, in
         </div>
         <button
           onClick={() => setShowAR(!showAR)}
-          className="text-[10px] text-stone-400 hover:text-stone-600 transition-colors"
+          className="text-[10px] text-stone-400 hover:text-stone-600 transition-colors font-medium"
         >
-          {showAR ? 'إخفاء الترجمة' : 'عرض الترجمة العربية'}
+          {showAR ? 'Hide Arabic' : 'Show Arabic'}
         </button>
         {showAR && (
           <div className="text-[11px] text-stone-600 bg-stone-50 rounded-lg px-3 py-1.5 border border-stone-100" dir="rtl">
@@ -444,7 +444,7 @@ export const MissionsView: React.FC = () => {
       {/* Track Filter */}
       <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-none">
         {([
-          ['ALL', 'All Missions', 'جميع المهام', '️'],
+          ['ALL', 'All Missions', 'جميع المهام', ''],
           ['LIFE', TRACK_CONFIG.LIFE.label, TRACK_CONFIG.LIFE.labelAR, TRACK_CONFIG.LIFE.icon],
           ['STUDY', TRACK_CONFIG.STUDY.label, TRACK_CONFIG.STUDY.labelAR, TRACK_CONFIG.STUDY.icon],
           ['CAREER', TRACK_CONFIG.CAREER.label, TRACK_CONFIG.CAREER.labelAR, TRACK_CONFIG.CAREER.icon],

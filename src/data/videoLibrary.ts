@@ -170,5 +170,5 @@ export function getPlaylistEmbedUrl(channelKey: string, level: string): string |
   const channel = CHANNELS[channelKey];
   const playlistId = channel?.playlists?.[level];
   if (!playlistId) return null;
-  return `https://www.youtube.com/embed/videoseries?list=${playlistId}&rel=0&modestbranding=1`;
+  return `https://www.youtube.com/embed/videoseries?list=${playlistId}&rel=0 and modestbranding=1`;
 }
