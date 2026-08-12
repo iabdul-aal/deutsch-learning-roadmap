@@ -299,7 +299,7 @@ export const CONTENT_DB: ContentSource[] = [
     // Hend A2: dr-dJ0a3Scs is Shehata's video — using Hend's YouTube channel page instead
     id: 'hend_a2_playlist',
     type: 'INTERACTIVE', tier: 'PRIMARY',
-    resourceId: 'https://www.youtube.com/@FrauHendTaha/playlists',
+    resourceId: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     title: 'Deutsch mit Hend - Complete A2 Grammar Playlist (YouTube)',
     titleAR: 'دورة الألمانية A2 مع هند - كاملة',
     channelOrAuthor: 'Deutsch mit Hend',
@@ -311,7 +311,7 @@ export const CONTENT_DB: ContentSource[] = [
     // Hend B1: dr-dJ0a3Scs is Shehata's video — using Hend's YouTube channel page instead
     id: 'hend_b1_playlist',
     type: 'INTERACTIVE', tier: 'PRIMARY',
-    resourceId: 'https://www.youtube.com/@FrauHendTaha/playlists',
+    resourceId: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     title: 'Deutsch mit Hend - Complete B1 Grammar Playlist (YouTube)',
     titleAR: 'دورة الألمانية B1 مع هند - كاملة',
     channelOrAuthor: 'Deutsch mit Hend',
@@ -328,7 +328,7 @@ export const CONTENT_DB: ContentSource[] = [
     // Taleek A1: r94aqLUO0wo is Easy German's video — using Taleek's channel page
     id: 'taleek_a1_start',
     type: 'INTERACTIVE', tier: 'SECONDARY',
-    resourceId: 'https://www.youtube.com/@Taleek/videos',
+    resourceId: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     title: 'Taleek - Learn German from Zero A1 (Arabic Channel)',
     titleAR: 'تعلم الألمانية من الصفر - المستوى A1 - قناة طليق',
     channelOrAuthor: 'Taleek - طليق',
@@ -340,7 +340,7 @@ export const CONTENT_DB: ContentSource[] = [
     // Taleek playlist: WMvCXVorOsg is Hend's video — using Taleek's channel page
     id: 'taleek_a1_playlist',
     type: 'INTERACTIVE', tier: 'PRIMARY',
-    resourceId: 'https://www.youtube.com/@Taleek/playlists',
+    resourceId: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     title: 'Taleek German A1 Complete Course Playlist (YouTube)',
     titleAR: 'دورة الألمانية A1 - طليق كاملة',
     channelOrAuthor: 'Taleek - طليق',
@@ -496,7 +496,7 @@ export const CONTENT_DB: ContentSource[] = [
     // Anja A1: RrfgbBp6ScI is lingoni's video — corrected to Anja's channel page
     id: 'anja_a1_course',
     type: 'INTERACTIVE', tier: 'SECONDARY',
-    resourceId: 'https://www.youtube.com/@LearnGermanwithAnja/playlists',
+    resourceId: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     title: 'German for Beginners A1 - Complete Free Course (Lessons 1-63)',
     channelOrAuthor: 'Learn German with Anja',
     level: 'A1', skills: ['GRAMMATIK', 'VOCAB', 'SCHREIBEN'],
@@ -512,7 +512,7 @@ export const CONTENT_DB: ContentSource[] = [
     // Laura grammar: RrfgbBp6ScI is lingoni's video — corrected to Laura's channel page
     id: 'laura_grammar_course',
     type: 'INTERACTIVE', tier: 'SECONDARY',
-    resourceId: 'https://www.youtube.com/@GermanwithLaura/videos',
+    resourceId: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     title: 'Entire German Grammar Course - Learn Smarter Not Harder',
     channelOrAuthor: 'German with Laura',
     level: 'ALL', skills: ['GRAMMATIK', 'SCHREIBEN'],
@@ -523,7 +523,7 @@ export const CONTENT_DB: ContentSource[] = [
     // Laura quickstart: RrfgbBp6ScI is lingoni's video — corrected to Laura's channel page
     id: 'laura_quickstart',
     type: 'INTERACTIVE', tier: 'SUPPLEMENTARY',
-    resourceId: 'https://www.youtube.com/@GermanwithLaura/videos',
+    resourceId: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     title: 'German Quick-Start Grammar Guide',
     channelOrAuthor: 'German with Laura',
     level: 'A1', skills: ['GRAMMATIK'],
@@ -639,7 +639,7 @@ export const CONTENT_DB: ContentSource[] = [
     // shehata_a1_playlist: WMvCXVorOsg is Hend's video — corrected to Shehata's channel page
     id: 'shehata_a1_playlist',
     type: 'INTERACTIVE', tier: 'PRIMARY',
-    resourceId: 'https://www.youtube.com/@MohammadShehata-Official/playlists',
+    resourceId: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     title: 'Shehata Deutsch - Complete A1 Course Playlist (YouTube)',
     titleAR: 'الألمانية مع مستر شحاته - دورة A1 كاملة',
     channelOrAuthor: 'Shehata Deutsch',
@@ -651,7 +651,7 @@ export const CONTENT_DB: ContentSource[] = [
     // shehata_a2_playlist: dr-dJ0a3Scs is Shehata's A1 intro — A2 playlist has no verified ID
     id: 'shehata_a2_playlist',
     type: 'INTERACTIVE', tier: 'PRIMARY',
-    resourceId: 'https://www.youtube.com/@MohammadShehata-Official/playlists',
+    resourceId: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     title: 'Shehata Deutsch - Complete A2 Course Playlist (YouTube)',
     titleAR: 'الألمانية مع مستر شحاته - دورة A2 كاملة',
     channelOrAuthor: 'Shehata Deutsch',
@@ -663,7 +663,7 @@ export const CONTENT_DB: ContentSource[] = [
     // shehata_b1_playlist: dr-dJ0a3Scs is A1 content — B1 playlist has no verified ID
     id: 'shehata_b1_playlist',
     type: 'INTERACTIVE', tier: 'PRIMARY',
-    resourceId: 'https://www.youtube.com/@MohammadShehata-Official/playlists',
+    resourceId: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     title: 'Shehata Deutsch - Complete B1 Course Playlist (YouTube)',
     titleAR: 'الألمانية مع مستر شحاته - دورة B1 كاملة',
     channelOrAuthor: 'Shehata Deutsch',
@@ -681,7 +681,7 @@ export const CONTENT_DB: ContentSource[] = [
     // RrfgbBp6ScI is lingoni's video — both Mira entries now use her channel page
     id: 'mira_pronunciation',
     type: 'INTERACTIVE', tier: 'SUPPLEMENTARY',
-    resourceId: 'https://www.youtube.com/@DeutschmitMira/videos',
+    resourceId: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     title: 'German Pronunciation Course for Arabic Speakers (Lessons 1-2)',
     titleAR: 'كورس النطق باللغة الألمانية - مع ميرا',
     channelOrAuthor: 'Deutsch mit Mira',
@@ -735,7 +735,7 @@ export const CONTENT_DB: ContentSource[] = [
     // Consolidated to lingoni channel page since individual video IDs differ from lingoni_a1_words
     id: 'lingoni_akkusativ',
     type: 'INTERACTIVE', tier: 'SECONDARY',
-    resourceId: 'https://www.youtube.com/@lingoniGERMAN/videos',
+    resourceId: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     title: 'Accusative Case in German - Part 1: The Direct Object (lingoni)',
     channelOrAuthor: 'lingoni GERMAN',
     level: 'A1', skills: ['GRAMMATIK'],
@@ -745,7 +745,7 @@ export const CONTENT_DB: ContentSource[] = [
   {
     id: 'lingoni_perfekt',
     type: 'INTERACTIVE', tier: 'SECONDARY',
-    resourceId: 'https://www.youtube.com/@lingoniGERMAN/videos',
+    resourceId: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     title: 'The Perfect Tense in German - Regular Verbs (Perfekt) (lingoni)',
     channelOrAuthor: 'lingoni GERMAN',
     level: 'A2', skills: ['GRAMMATIK', 'SCHREIBEN'],
@@ -755,7 +755,7 @@ export const CONTENT_DB: ContentSource[] = [
   {
     id: 'lingoni_sentence_structure',
     type: 'INTERACTIVE', tier: 'SECONDARY',
-    resourceId: 'https://www.youtube.com/@lingoniGERMAN/videos',
+    resourceId: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     title: 'German Sentence Structure - Verb Position in Main Clauses (lingoni)',
     channelOrAuthor: 'lingoni GERMAN',
     level: 'A1', skills: ['GRAMMATIK', 'SCHREIBEN'],
@@ -765,7 +765,7 @@ export const CONTENT_DB: ContentSource[] = [
   {
     id: 'lingoni_separable_verbs',
     type: 'INTERACTIVE', tier: 'SECONDARY',
-    resourceId: 'https://www.youtube.com/@lingoniGERMAN/videos',
+    resourceId: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     title: 'German Separable Verbs - How They Work (A1/A2) (lingoni)',
     channelOrAuthor: 'lingoni GERMAN',
     level: 'A1', skills: ['GRAMMATIK'],
@@ -780,7 +780,7 @@ export const CONTENT_DB: ContentSource[] = [
     // anja_lesson_1: r94aqLUO0wo is Easy German's SEG #1 video, not Anja's lesson 1
     id: 'anja_lesson_1_greetings',
     type: 'INTERACTIVE', tier: 'SECONDARY',
-    resourceId: 'https://www.youtube.com/@LearnGermanwithAnja/videos',
+    resourceId: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     title: 'German Lesson 1 - Greetings and Introductions for Beginners (Anja)',
     channelOrAuthor: 'Learn German with Anja',
     level: 'A1', skills: ['SPRECHEN', 'HOEREN'],
@@ -791,7 +791,7 @@ export const CONTENT_DB: ContentSource[] = [
     // anja_alphabet: WMvCXVorOsg is Hend's A1 masterclass, not Anja's alphabet video
     id: 'anja_pronunciation_alphabet',
     type: 'INTERACTIVE', tier: 'SECONDARY',
-    resourceId: 'https://www.youtube.com/@LearnGermanwithAnja/videos',
+    resourceId: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     title: 'German Pronunciation - The German Alphabet A1 (Anja)',
     channelOrAuthor: 'Learn German with Anja',
     level: 'A1', skills: ['SPRECHEN'],
@@ -802,7 +802,7 @@ export const CONTENT_DB: ContentSource[] = [
     // anja_umlauts: RrfgbBp6ScI is lingoni's video, not Anja's
     id: 'anja_umlauts',
     type: 'INTERACTIVE', tier: 'SUPPLEMENTARY',
-    resourceId: 'https://www.youtube.com/@LearnGermanwithAnja/videos',
+    resourceId: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     title: 'German Pronunciation - How to Pronounce Ä, Ö, Ü (Umlauts) (Anja)',
     channelOrAuthor: 'Learn German with Anja',
     level: 'A1', skills: ['SPRECHEN'],
@@ -817,7 +817,7 @@ export const CONTENT_DB: ContentSource[] = [
     // laura_cases_overview: RrfgbBp6ScI is lingoni's video, not Laura's — corrected to channel page
     id: 'laura_cases_overview',
     type: 'INTERACTIVE', tier: 'SECONDARY',
-    resourceId: 'https://www.youtube.com/@GermanwithLaura/videos',
+    resourceId: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     title: 'German Cases - The Big Picture (Nominativ/Akkusativ/Dativ/Genitiv) (Laura)',
     channelOrAuthor: 'German with Laura',
     level: 'A1', skills: ['GRAMMATIK'],
@@ -828,7 +828,7 @@ export const CONTENT_DB: ContentSource[] = [
     // laura_grammar_full_course: RrfgbBp6ScI is lingoni's video — corrected to channel page
     id: 'laura_grammar_full_course',
     type: 'INTERACTIVE', tier: 'SECONDARY',
-    resourceId: 'https://www.youtube.com/@GermanwithLaura/videos',
+    resourceId: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     title: 'Entire German Grammar Course - Learn Smarter Not Harder (Laura)',
     channelOrAuthor: 'German with Laura',
     level: 'ALL', skills: ['GRAMMATIK', 'SCHREIBEN'],

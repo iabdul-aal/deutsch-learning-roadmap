@@ -64,7 +64,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Genitive Case Articles & Suffixes (des/der/des/der & -es/-s)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
+              "link": "https://www.youtube.com/watch?v=1gwm0ZU2Fx0"
             }
           ],
           "targetMetrics": {
@@ -2600,7 +2600,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: B1 Abstract Nouns & Nominalization (-ung, -heit, -keit, -schaft)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/@lingoniGERMAN/videos"
+              "link": "https://www.youtube.com/watch?v=TRv3DFHbej8"
             }
           ],
           "targetMetrics": {

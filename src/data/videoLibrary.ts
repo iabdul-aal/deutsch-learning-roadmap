@@ -31,7 +31,7 @@ export const CHANNELS: Record<string, ChannelInfo> = {
   hend: {
     channelName: 'Deutsch mit Hend - الألمانية مع هند',
     channelHandle: '@FrauHendTaha',
-    channelUrl: 'https://www.youtube.com/@FrauHendTaha',
+    channelUrl: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     description: 'Comprehensive German A1-B2 course in Arabic by Frau Hend Taha. The primary backbone for Arabic-speaking German learners.',
     targetAudience: 'arabic_speakers',
     playlists: {
@@ -44,7 +44,7 @@ export const CHANNELS: Record<string, ChannelInfo> = {
   easy_german: {
     channelName: 'Easy German',
     channelHandle: '@EasyGerman',
-    channelUrl: 'https://www.youtube.com/@EasyGerman',
+    channelUrl: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     description: 'Authentic German street interviews and lessons with bilingual subtitles. Essential for real-world listening immersion.',
     targetAudience: 'all',
     playlists: {
@@ -56,7 +56,7 @@ export const CHANNELS: Record<string, ChannelInfo> = {
   dw_nicos: {
     channelName: 'DW Learn German - Nicos Weg',
     channelHandle: '@dwlearngerman',
-    channelUrl: 'https://www.youtube.com/@dwlearngerman',
+    channelUrl: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     description: 'Official Deutsche Welle story-based course. Nicos Weg follows Nico through everyday life in Germany. A1/A2/B1 full seasons.',
     targetAudience: 'all',
     playlists: {
@@ -66,7 +66,7 @@ export const CHANNELS: Record<string, ChannelInfo> = {
   taleek: {
     channelName: 'Taleek - طليق',
     channelHandle: '@Taleek',
-    channelUrl: 'https://www.youtube.com/@Taleek',
+    channelUrl: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     description: 'Arabic-taught German course starting from absolute zero. High-impact A1 content for Arabic native speakers.',
     targetAudience: 'arabic_speakers',
     playlists: {
@@ -76,7 +76,7 @@ export const CHANNELS: Record<string, ChannelInfo> = {
   anja: {
     channelName: 'Learn German with Anja',
     channelHandle: '@LearnGermanwithAnja',
-    channelUrl: 'https://www.youtube.com/@LearnGermanwithAnja',
+    channelUrl: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     description: 'Structured English-medium German beginners course, A1 lessons 1-63. Clear explanations with exercises.',
     targetAudience: 'english_speakers',
     playlists: {
@@ -86,7 +86,7 @@ export const CHANNELS: Record<string, ChannelInfo> = {
   lingoni: {
     channelName: 'lingoni GERMAN',
     channelHandle: '@lingoniGERMAN',
-    channelUrl: 'https://www.youtube.com/@lingoniGERMAN',
+    channelUrl: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     description: 'Formerly Learn German with Jenny. Structured A1-B2 grammar and vocabulary lessons in English.',
     targetAudience: 'english_speakers',
     playlists: {
@@ -96,7 +96,7 @@ export const CHANNELS: Record<string, ChannelInfo> = {
   laura: {
     channelName: 'German with Laura',
     channelHandle: '@GermanwithLaura',
-    channelUrl: 'https://www.youtube.com/@GermanwithLaura',
+    channelUrl: 'https://www.youtube.com/watch?v=Yrjgjh26FoE',
     description: 'Deep grammar analysis and comprehensive German grammar course videos. Excellent for self-study from A1 to B1.',
     targetAudience: 'english_speakers',
     playlists: {},
