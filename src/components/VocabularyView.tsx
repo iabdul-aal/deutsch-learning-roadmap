@@ -25,10 +25,10 @@ const speakGermanWord = (text: string) => {
 };
 
 const QUALITY_BUTTONS = [
-  { quality: 1 as const, label: 'Again',  labelAR: 'إعادة',  color: 'bg-rose-500 hover:bg-rose-400 text-white', icon: X },
-  { quality: 2 as const, label: 'Hard',   labelAR: 'صعب',    color: 'bg-orange-500 hover:bg-orange-400 text-white', icon: RotateCcw },
-  { quality: 4 as const, label: 'Good',   labelAR: 'جيد',    color: 'bg-amber-500 hover:bg-amber-400 text-stone-950', icon: Check },
-  { quality: 5 as const, label: 'Easy',   labelAR: 'سهل',    color: 'bg-emerald-500 hover:bg-emerald-400 text-stone-950', icon: Star },
+  { quality: 1 as const, label: 'Again',  color: 'bg-rose-600 hover:bg-rose-500 text-white shadow-sm', icon: X },
+  { quality: 2 as const, label: 'Hard',   color: 'bg-orange-600 hover:bg-orange-500 text-white shadow-sm', icon: RotateCcw },
+  { quality: 4 as const, label: 'Good',   color: 'bg-[#b68c61] hover:bg-[#855f39] text-white shadow-sm', icon: Check },
+  { quality: 5 as const, label: 'Easy',   color: 'bg-emerald-600 hover:bg-emerald-500 text-white shadow-sm', icon: Star },
 ] as const;
 
 // ── Interactive Flashcard Component ─────────────────────────────────
@@ -205,38 +205,38 @@ export const VocabularyView: React.FC = () => {
   return (
     <div className="max-w-6xl mx-auto p-4 md:p-8 space-y-8 animate-in fade-in duration-300">
       {/* Header Bar */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 bg-[#141419] p-6 rounded-2xl border border-white/10 shadow-xl">
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 bg-white dark:bg-[#141419] p-6 rounded-2xl border border-[#e5e1d8] dark:border-white/10 shadow-lg">
         <div>
-          <h1 className="text-2xl md:text-3xl font-black text-white tracking-tight flex items-center gap-2">
-            <span>مراجعة المفردات التكرارية (Vocabulary SRS)</span>
-            <Brain className="w-6 h-6 text-amber-400" />
+          <h1 className="text-2xl md:text-3xl font-black text-stone-900 dark:text-white tracking-tight flex items-center gap-2">
+            <span>Vocabulary Spaced Repetition (SM-2)</span>
+            <Brain className="w-6 h-6 text-[#b68c61] dark:text-amber-400" />
           </h1>
-          <p className="text-xs text-stone-400 mt-1">
-            خوارزمية SM-2 للتكرار المتباعد لتحفيظ كلمات الألمانية وتجنب نسيانها.
+          <p className="text-xs text-stone-600 dark:text-stone-400 mt-1">
+            Build long-term German vocabulary memory with spaced review algorithms and audio pronunciation.
           </p>
         </div>
 
         {/* View Switcher */}
-        <div className="flex items-center gap-1.5 bg-black/40 p-1.5 rounded-xl border border-white/10 shrink-0">
+        <div className="flex items-center gap-1.5 bg-stone-100 dark:bg-black/40 p-1.5 rounded-xl border border-[#e5e1d8] dark:border-white/10 shrink-0">
           <button
             onClick={() => setActiveTab('study')}
-            className={`px-4 py-2 rounded-lg text-xs font-bold transition-all ${
+            className={`px-4 py-2 rounded-lg text-xs font-bold transition-all active:scale-95 ${
               activeTab === 'study'
-                ? 'bg-amber-500 text-stone-950 shadow-md'
-                : 'text-white/60 hover:text-white'
+                ? 'bg-[#b68c61] text-white dark:bg-amber-500 dark:text-stone-950 shadow-md'
+                : 'text-stone-600 dark:text-white/60 hover:text-stone-900 dark:hover:text-white'
             }`}
           >
-            جلسة الدراسة (Flashcards)
+            Study Session
           </button>
           <button
             onClick={() => setActiveTab('browse')}
-            className={`px-4 py-2 rounded-lg text-xs font-bold transition-all ${
+            className={`px-4 py-2 rounded-lg text-xs font-bold transition-all active:scale-95 ${
               activeTab === 'browse'
-                ? 'bg-amber-500 text-stone-950 shadow-md'
-                : 'text-white/60 hover:text-white'
+                ? 'bg-[#b68c61] text-white dark:bg-amber-500 dark:text-stone-950 shadow-md'
+                : 'text-stone-600 dark:text-white/60 hover:text-stone-900 dark:hover:text-white'
             }`}
           >
-            قاموس المفردات ({filteredWords.length})
+            Word Dictionary ({filteredWords.length})
           </button>
         </div>
       </div>
@@ -244,26 +244,26 @@ export const VocabularyView: React.FC = () => {
       {/* Filters Bar */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
         <div className="relative">
-          <Search className="w-4 h-4 absolute left-3.5 top-3.5 text-white/40" />
+          <Search className="w-4 h-4 absolute left-3.5 top-3.5 text-stone-400 dark:text-white/40" />
           <input
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="بحث في الكلمات (Search German, Arabic)..."
-            className="w-full bg-[#141419] border border-white/10 rounded-xl pl-10 pr-4 py-2.5 text-xs text-white placeholder-white/40 focus:outline-none focus:border-amber-400 transition-all"
+            placeholder="Search German words or translations..."
+            className="w-full bg-white dark:bg-[#141419] border border-[#e5e1d8] dark:border-white/10 rounded-xl pl-10 pr-4 py-2.5 text-xs text-stone-900 dark:text-white placeholder-stone-400 dark:placeholder-white/40 focus:outline-none focus:border-[#b68c61] dark:focus:border-amber-400 transition-all"
           />
         </div>
 
         <div className="flex items-center gap-2">
-          <span className="text-xs text-white/40 font-mono shrink-0">Level:</span>
+          <span className="text-xs text-stone-500 dark:text-white/40 font-mono shrink-0">Level:</span>
           {(['All', 'A1', 'A2'] as const).map(lvl => (
             <button
               key={lvl}
               onClick={() => setSelectedCEFR(lvl)}
-              className={`flex-1 py-2 rounded-xl text-xs font-bold border transition-all ${
+              className={`flex-1 py-2 rounded-xl text-xs font-bold border transition-all active:scale-95 ${
                 selectedCEFR === lvl
-                  ? 'bg-amber-500/20 border-amber-500 text-amber-300'
-                  : 'bg-[#141419] border-white/10 text-white/50 hover:text-white'
+                  ? 'bg-[#b68c61]/20 border-[#b68c61] text-[#855f39] dark:bg-amber-500/20 dark:border-amber-500 dark:text-amber-300'
+                  : 'bg-white dark:bg-[#141419] border-[#e5e1d8] dark:border-white/10 text-stone-600 dark:text-white/50 hover:text-stone-900 dark:hover:text-white'
               }`}
             >
               {lvl}

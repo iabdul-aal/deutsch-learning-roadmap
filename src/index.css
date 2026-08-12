@@ -8,22 +8,22 @@
    DESIGN TOKEN SYSTEM
    ============================== */
 :root {
-  /* Sidebar — deep dark */
-  --sidebar-bg:        #0f0f12;
-  --sidebar-surface:   #1a1a20;
-  --sidebar-border:    #2a2a32;
-  --sidebar-text:      #e2e0dc;
-  --sidebar-muted:     #6b6b78;
-  --sidebar-active-bg: rgba(245, 158, 11, 0.15);
-  --sidebar-active-border: #f59e0b;
+  /* Sidebar — deep warm dark */
+  --sidebar-bg:        #121110;
+  --sidebar-surface:   #1c1a17;
+  --sidebar-border:    #2d2925;
+  --sidebar-text:      #e7e3dc;
+  --sidebar-muted:     #8c857b;
+  --sidebar-active-bg: rgba(182, 140, 97, 0.18);
+  --sidebar-active-border: #b68c61;
 
-  /* Content area — warm paper */
-  --bg:            #faf8f4;
+  /* Content area — warm paper (matching D:\iabdul-aal.github.io) */
+  --bg:            #faf9f6;
   --surface:       #ffffff;
   --card:          #ffffff;
-  --card-hover:    #fffdf9;
-  --border:        #e8e4dc;
-  --border-subtle: #f0ede6;
+  --card-hover:    #fcfbfa;
+  --border:        #e5e1d8;
+  --border-subtle: #eeeae2;
 
   /* Typography */
   --text-primary:   #1c1917;
@@ -31,15 +31,15 @@
   --text-muted:     #78716c;
   --text-faint:     #a8a29e;
 
-  /* Brand Amber */
-  --amber-50:  #fffbeb;
-  --amber-100: #fef3c7;
-  --amber-300: #fcd34d;
-  --amber-400: #fbbf24;
-  --amber-500: #f59e0b;
-  --amber-600: #d97706;
-  --amber-700: #b45309;
-  --amber-900: #78350f;
+  /* Brand Warm Gold / Amber (D:\iabdul-aal.github.io) */
+  --amber-50:  #fcfbfa;
+  --amber-100: #f7f2eb;
+  --amber-300: #e2c09a;
+  --amber-400: #c9a57a;
+  --amber-500: #b68c61;
+  --amber-600: #855f39;
+  --amber-700: #634527;
+  --amber-900: #3f2a16;
 
   /* Semantic */
   --success:     #059669;
@@ -52,17 +52,17 @@
   --warning-bg:  #fffbeb;
 
   /* Spacing / Radius */
-  --radius-sm:  0.25rem;
+  --radius-sm:  0.375rem;
   --radius:     0.5rem;
   --radius-lg:  0.75rem;
   --radius-xl:  1rem;
   --radius-2xl: 1.5rem;
 
   /* Shadows */
-  --shadow-xs: 0 1px 2px 0 rgba(0,0,0,0.05);
-  --shadow-sm: 0 1px 3px 0 rgba(0,0,0,0.07), 0 1px 2px -1px rgba(0,0,0,0.04);
-  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.06), 0 2px 4px -2px rgba(0,0,0,0.04);
-  --shadow-glow-amber: 0 0 20px rgba(245, 158, 11, 0.15);
+  --shadow-xs: 0 1px 2px 0 rgba(28,25,23,0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(28,25,23,0.07), 0 1px 2px -1px rgba(28,25,23,0.04);
+  --shadow-md: 0 4px 6px -1px rgba(28,25,23,0.08), 0 2px 4px -2px rgba(28,25,23,0.04);
+  --shadow-glow-amber: 0 0 20px rgba(182, 140, 97, 0.2);
 }
 
 /* ==============================

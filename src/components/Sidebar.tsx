@@ -262,23 +262,21 @@ export const Sidebar: React.FC<SidebarProps> = ({ onOpenTimer }) => {
       {/* Track Unlock Modal for Locked Tracks */}
       {lockedTrackToUnlock && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm animate-in fade-in duration-200">
-          <div className="bg-[#18181f] border border-amber-500/30 rounded-2xl p-6 max-w-md w-full shadow-2xl text-white space-y-4" dir="rtl">
+          <div className="bg-[#18181f] border border-amber-500/30 rounded-2xl p-6 max-w-md w-full shadow-2xl text-white space-y-4">
             <div className="flex items-center gap-3 text-amber-400">
-              <div className="w-10 h-10 rounded-xl bg-rose-500/20 border border-rose-500/30 flex items-center justify-center text-rose-400">
-                <Lock className="w-5 h-5" />
-              </div>
+              <Sparkles className="w-5 h-5 shrink-0" />
               <div>
-                <h3 className="text-base font-bold">المسار مغلق 🔒 ({lockedTrackToUnlock.level})</h3>
-                <p className="text-xs text-white/60 font-sans">Track Locked — Progressive Roadmap Requirement</p>
+                <h3 className="text-base font-bold">Track Locked 🔒 ({lockedTrackToUnlock.level})</h3>
+                <p className="text-xs text-white/60 font-sans">Progressive CEFR Level Requirement</p>
               </div>
             </div>
 
-            <p className="text-xs text-white/80 leading-relaxed font-cairo">
-              للحفاظ على التدرج التعليمي الصحيح، يوصى بإكمال مسار{' '}
+            <p className="text-xs text-white/80 leading-relaxed font-sans">
+              To build a solid foundation, completing{' '}
               <span className="font-bold text-amber-400">
-                {lockedTrackToUnlock.level === 'A2' ? 'A1' : 'A2'}
+                {lockedTrackToUnlock.level === 'A2' ? 'Level A1' : 'Level A2'}
               </span>{' '}
-              أولاً (إنجاز 70% من المهام أو اجتياز التقييم). هل تريد فتح المسار يدويًا للمتعلمين المتقدمين؟
+              first (70%+ tasks completed or assessment passed) is recommended. Would you like to fast-track unlock {lockedTrackToUnlock.level} now?
             </p>
 
             <div className="flex items-center gap-3 pt-2">
@@ -288,15 +286,15 @@ export const Sidebar: React.FC<SidebarProps> = ({ onOpenTimer }) => {
                   setTrackId(lockedTrackToUnlock.id);
                   setLockedTrackToUnlock(null);
                 }}
-                className="flex-1 py-2.5 px-4 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold text-xs transition-all shadow-lg flex items-center justify-center gap-1.5"
+                className="flex-1 py-2.5 px-4 rounded-xl bg-[#b68c61] hover:bg-[#855f39] text-white dark:bg-amber-500 dark:hover:bg-amber-400 dark:text-stone-950 font-bold text-xs transition-all shadow-lg flex items-center justify-center gap-1.5 active:scale-95"
               >
-                <span>تخطي وفتح المسار الآن 🔓</span>
+                <span>Fast-Track & Unlock Level 🔓</span>
               </button>
               <button
                 onClick={() => setLockedTrackToUnlock(null)}
-                className="py-2.5 px-4 rounded-xl bg-white/10 hover:bg-white/15 text-white/80 text-xs font-semibold transition-all"
+                className="py-2.5 px-4 rounded-xl bg-white/10 hover:bg-white/15 text-white/80 text-xs font-semibold transition-all active:scale-95"
               >
-                إلغاء
+                Cancel
               </button>
             </div>
           </div>

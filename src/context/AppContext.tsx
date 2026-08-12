@@ -201,10 +201,27 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     }
   }, [state.activeView]);
 
-  // Learner model (separate storage for clean separation)
+  // Learner model (separate storage for clean separation with deep fallback merge)
   const [learnerModel, setLearnerModel] = useState<LearnerModel>(() => {
-    const saved = safeStorage.getItem<LearnerModel>(STORAGE_KEY_LEARNER);
-    return saved ?? createLearnerModel(state.userName || 'Learner', defaultGoal);
+    const initial = createLearnerModel(state.userName || 'Learner', defaultGoal);
+    const saved = safeStorage.getItem<Partial<LearnerModel>>(STORAGE_KEY_LEARNER);
+    if (!saved) return initial;
+
+    return {
+      ...initial,
+      ...saved,
+      skillMastery: { ...initial.skillMastery, ...(saved.skillMastery || {}) },
+      cefrEstimate: {
+        overall: saved.cefrEstimate?.overall || initial.cefrEstimate.overall || 'A1',
+        perSkill: { ...initial.cefrEstimate?.perSkill, ...(saved.cefrEstimate?.perSkill || {}) }
+      },
+      cards: saved.cards || initial.cards || {},
+      errorLog: saved.errorLog || [],
+      masteredConcepts: saved.masteredConcepts || [],
+      completedMissions: saved.completedMissions || [],
+      assessments: saved.assessments || [],
+      goals: { ...initial.goals, ...(saved.goals || {}) },
+    };
   });
 
   // Reset confirmation state (replaces window.confirm)
@@ -239,13 +256,13 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     // Check A1 progress for A2 unlock
     if (trackId === 'german-a2-ar') {
       const a1Completed = Object.keys(state.completedTasks).filter(k => k.startsWith('german-a1-ar') && state.completedTasks[k]).length;
-      return a1Completed >= 35 || learnerModel.cefrEstimate.overall !== 'A1';
+      return a1Completed >= 35 || (learnerModel?.cefrEstimate?.overall && learnerModel.cefrEstimate.overall !== 'A1');
     }
 
     // Check A2 progress for B1 unlock
     if (trackId === 'german-b1-ar') {
       const a2Completed = Object.keys(state.completedTasks).filter(k => k.startsWith('german-a2-ar') && state.completedTasks[k]).length;
-      return a2Completed >= 35 || (learnerModel.cefrEstimate.overall !== 'A1' && learnerModel.cefrEstimate.overall !== 'A2');
+      return a2Completed >= 35 || (learnerModel?.cefrEstimate?.overall && learnerModel.cefrEstimate.overall !== 'A1' && learnerModel.cefrEstimate.overall !== 'A2');
     }
 
     return false;

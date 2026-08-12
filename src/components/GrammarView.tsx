@@ -99,60 +99,60 @@ export const GrammarView: React.FC = () => {
       <div className="max-w-4xl mx-auto p-4 md:p-8 animate-in fade-in slide-in-from-right-4 duration-300">
         <button
           onClick={() => setSelectedConceptId(null)}
-          className="flex items-center gap-2 text-stone-400 hover:text-amber-400 font-medium mb-6 transition-colors text-sm"
+          className="flex items-center gap-2 text-stone-600 hover:text-[#855f39] dark:text-stone-400 dark:hover:text-amber-400 font-semibold mb-6 transition-all text-sm active:scale-95"
         >
           <ArrowLeft className="w-4 h-4" />
-          <span>العودة لمكتبة القواعد (Back to Grammar Explorer)</span>
+          <span>Back to Grammar Library</span>
         </button>
 
-        <div className="bg-[#141419] rounded-2xl p-6 md:p-8 border border-white/10 shadow-2xl space-y-8">
+        <div className="bg-white dark:bg-[#141419] rounded-2xl p-6 md:p-8 border border-[#e5e1d8] dark:border-white/10 shadow-xl space-y-8">
           {/* Header */}
-          <div className="flex flex-wrap items-start justify-between gap-4 border-b border-white/10 pb-6">
+          <div className="flex flex-wrap items-start justify-between gap-4 border-b border-[#e5e1d8] dark:border-white/10 pb-6">
             <div className="space-y-2 min-w-0 flex-1">
               <div className="flex items-center gap-3">
                 <span className={`px-3 py-1 rounded-full text-xs font-black border ${badgeStyle.bg} ${badgeStyle.text} ${badgeStyle.border}`}>
                   {selectedConcept.cefr} MODULE
                 </span>
                 {isLearned ? (
-                  <span className="flex items-center gap-1.5 text-emerald-400 text-xs font-bold bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full">
-                    <CheckCircle className="w-3.5 h-3.5" /> متمكن (Mastered)
+                  <span className="flex items-center gap-1.5 text-emerald-700 dark:text-emerald-400 text-xs font-bold bg-emerald-50 dark:bg-emerald-500/10 border border-emerald-200 dark:border-emerald-500/20 px-3 py-1 rounded-full">
+                    <CheckCircle className="w-3.5 h-3.5" /> Mastered
                   </span>
                 ) : (
-                  <span className="flex items-center gap-1.5 text-amber-400 text-xs font-bold bg-amber-500/10 border border-amber-500/20 px-3 py-1 rounded-full">
-                    <Flame className="w-3.5 h-3.5" /> قيد الدراسة (In Progress)
+                  <span className="flex items-center gap-1.5 text-[#855f39] dark:text-amber-400 text-xs font-bold bg-amber-50 dark:bg-amber-500/10 border border-[#e5e1d8] dark:border-amber-500/20 px-3 py-1 rounded-full">
+                    <Flame className="w-3.5 h-3.5" /> In Progress
                   </span>
                 )}
               </div>
               <div className="flex items-center gap-3">
-                <h1 className="text-2xl md:text-3xl font-black text-white">{selectedConcept.titleDE}</h1>
+                <h1 className="text-2xl md:text-3xl font-black text-stone-900 dark:text-white">{selectedConcept.titleDE}</h1>
                 <button
                   onClick={() => speakGermanText(selectedConcept.titleDE)}
-                  className="p-2 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-400 transition-all border border-amber-500/20"
-                  title="استمع للنطق الألماني"
+                  className="p-2 rounded-xl bg-[#b68c61]/10 hover:bg-[#b68c61]/20 text-[#855f39] dark:text-amber-400 transition-all border border-[#b68c61]/30 active:scale-95 shadow-sm"
+                  title="Listen to German Pronunciation"
                 >
                   <Volume2 className="w-5 h-5" />
                 </button>
               </div>
-              <h2 className="text-lg font-cairo text-amber-400 font-bold" dir="rtl">{selectedConcept.titleAR}</h2>
+              <h2 className="text-sm font-semibold text-stone-500 dark:text-stone-400">{selectedConcept.titleAR}</h2>
             </div>
 
             <button
               onClick={() => toggleGrammarStatus(selectedConcept.id)}
-              className={`px-5 py-3 rounded-xl font-bold text-xs flex items-center gap-2 transition-all shadow-md ${
+              className={`px-5 py-3 rounded-xl font-bold text-xs flex items-center gap-2 transition-all shadow-md active:scale-95 ${
                 isLearned
-                  ? 'bg-white/10 text-white/80 hover:bg-white/15 border border-white/10'
-                  : 'bg-amber-500 hover:bg-amber-400 text-stone-950 shadow-amber-500/20'
+                  ? 'bg-stone-100 hover:bg-stone-200 text-stone-800 dark:bg-white/10 dark:text-white/80 dark:hover:bg-white/15 border border-stone-200 dark:border-white/10'
+                  : 'bg-[#b68c61] hover:bg-[#855f39] text-white dark:bg-amber-500 dark:hover:bg-amber-400 dark:text-stone-950 shadow-[#b68c61]/20'
               }`}
             >
               {isLearned ? (
                 <>
                   <X className="w-4 h-4" />
-                  <span>تحديد كغير متمكن</span>
+                  <span>Mark as Unmastered</span>
                 </>
               ) : (
                 <>
                   <Check className="w-4 h-4" />
-                  <span>تحديد كقاعدة متمكّن منها</span>
+                  <span>Mark as Mastered</span>
                 </>
               )}
             </button>
@@ -323,21 +323,21 @@ export const GrammarView: React.FC = () => {
   return (
     <div className="max-w-6xl mx-auto p-4 md:p-8 space-y-8 animate-in fade-in duration-300">
       {/* Header & Stats */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 bg-[#141419] p-6 rounded-2xl border border-white/10 shadow-xl">
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 bg-white dark:bg-[#141419] p-6 rounded-2xl border border-[#e5e1d8] dark:border-white/10 shadow-lg">
         <div>
-          <h1 className="text-2xl md:text-3xl font-black text-white tracking-tight flex items-center gap-2">
-            <span>مستكشف القواعد (Grammar Explorer)</span>
-            <Sparkles className="w-6 h-6 text-amber-400" />
+          <h1 className="text-2xl md:text-3xl font-black text-stone-900 dark:text-white tracking-tight flex items-center gap-2">
+            <span>Grammar Knowledge Graph</span>
+            <Sparkles className="w-6 h-6 text-[#b68c61] dark:text-amber-400" />
           </h1>
-          <p className="text-xs text-stone-400 mt-1">
-            تعلم قواعد الألمانية بعمق مع التفسير الذهني العربي وتنبيهات أخطاء المتحدثين بالعربية.
+          <p className="text-xs text-stone-600 dark:text-stone-400 mt-1">
+            Master German grammar structures step by step with clear rules, audio pronunciation, and exercise quizzes.
           </p>
         </div>
 
         <div className="flex items-center gap-3 shrink-0">
-          <div className="bg-amber-500/10 border border-amber-500/20 px-4 py-2.5 rounded-xl text-center">
-            <div className="text-xl font-black text-amber-400 font-mono">{masteredCount} / {KNOWLEDGE_GRAPH.length}</div>
-            <div className="text-[10px] text-white/50 uppercase tracking-widest font-bold">قاعدة متمكن منها</div>
+          <div className="bg-[#b68c61]/10 dark:bg-amber-500/10 border border-[#b68c61]/30 dark:border-amber-500/20 px-4 py-2.5 rounded-xl text-center shadow-sm">
+            <div className="text-xl font-black text-[#855f39] dark:text-amber-400 font-mono">{masteredCount} / {KNOWLEDGE_GRAPH.length}</div>
+            <div className="text-[10px] text-stone-600 dark:text-white/50 uppercase tracking-widest font-bold">Concepts Mastered</div>
           </div>
         </div>
       </div>
@@ -345,14 +345,13 @@ export const GrammarView: React.FC = () => {
       {/* Controls: Search & Level Tabs */}
       <div className="space-y-4">
         <div className="relative">
-          <Search className="w-4 h-4 absolute left-3.5 top-3.5 text-white/40" />
+          <Search className="w-4 h-4 absolute left-3.5 top-3.5 text-stone-400 dark:text-white/40" />
           <input
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="ابحث عن اسم القاعدة بالألمانية أو العربية (Search grammar concept)..."
-            className="w-full bg-[#141419] border border-white/10 rounded-xl pl-10 pr-4 py-2.5 text-xs text-white placeholder-white/40 focus:outline-none focus:border-amber-400 transition-all font-cairo"
-            dir="auto"
+            placeholder="Search grammar concepts by German or English title..."
+            className="w-full bg-white dark:bg-[#141419] border border-[#e5e1d8] dark:border-white/10 rounded-xl pl-10 pr-4 py-2.5 text-xs text-stone-900 dark:text-white placeholder-stone-400 dark:placeholder-white/40 focus:outline-none focus:border-[#b68c61] dark:focus:border-amber-400 transition-all"
           />
         </div>
 
