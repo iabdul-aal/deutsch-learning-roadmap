@@ -143,7 +143,7 @@ export function getYouTubeEmbedUrl(resourceId: string, autoplay = false): string
     base = `https://www.youtube.com/embed/${resourceId}`;
   }
   const sep = base.includes('?') ? '&' : '?';
-  return `${base}${sep}rel=0 and modestbranding=1${autoplay ? '&autoplay=1' : ''}`;
+  return `${base}${sep}rel=0&modestbranding=1${autoplay ? '&autoplay=1' : ''}`;
 }
 
 // ══════════════════════════════════════════════════════════════

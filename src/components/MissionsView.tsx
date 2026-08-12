@@ -4,7 +4,7 @@ import {
   MISSIONS, getMissionsForLevel, getMissionsByTrack,
   type Mission, type MissionTrack, type MissionDialog
 } from '../data/missions';
-import { getYouTubeEmbedUrl } from '../data/contentRanking';
+import { getYouTubeEmbedUrl, getYouTubeWatchUrl } from '../data/contentRanking';
 import {
   Trophy, Lock, Play, CheckCircle2, Clock, Globe,
   ChevronRight, ChevronDown, BookOpen, Volume2, PenLine,
@@ -131,9 +131,20 @@ const MissionDetail: React.FC<{ mission: Mission; onBack: () => void }> = ({ mis
 
       {/* Embedded Support Video */}
       {mission.videoId && (
-        <div className="paper-card p-3">
-          <p className="text-[10px] font-black text-stone-400 uppercase tracking-wider mb-2">Support Video</p>
-          <div className="rounded-xl overflow-hidden bg-black aspect-video">
+        <div className="paper-card p-3 space-y-2">
+          <div className="flex items-center justify-between">
+            <p className="text-[10px] font-black text-stone-400 uppercase tracking-wider">Support Video</p>
+            <a
+              href={getYouTubeWatchUrl(mission.videoId)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-red-600 hover:bg-red-700 text-white text-[11px] font-black transition-all shadow-xs"
+            >
+              <Play className="w-3 h-3 fill-current" />
+              <span>Watch on YouTube</span>
+            </a>
+          </div>
+          <div className="rounded-xl overflow-hidden bg-stone-950 aspect-video border border-stone-800 shadow-md">
             <iframe
               src={getYouTubeEmbedUrl(mission.videoId)}
               className="w-full h-full"

@@ -676,10 +676,11 @@ export const TodayDashboard: React.FC = () => {
                   href={resourceUrl(primary)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-1.5 rounded-lg bg-white border border-stone-200 text-stone-500 hover:text-amber-700 transition-colors"
+                  className="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-stone-900 hover:bg-amber-600 text-white text-[11px] font-bold transition-all shadow-xs"
                   aria-label={`Open ${primary.title}`}
                 >
                   <ExternalLink className="w-3 h-3" />
+                  <span>{primary.type === 'VIDEO' ? 'Watch' : 'Open'}</span>
                 </a>
               </div>
             </div>

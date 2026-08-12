@@ -105,7 +105,16 @@ const ResourceCard: React.FC<{
                 )}
               </div>
               <div className="flex items-center gap-1.5 shrink-0">
-                {/* Rank score pill */}
+                <a
+                  href={extUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  className="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-stone-900 hover:bg-amber-600 text-white text-[11px] font-bold transition-all shadow-xs"
+                >
+                  <ExternalLink className="w-3 h-3" />
+                  <span>{source.type === 'VIDEO' ? 'Watch' : 'Open'}</span>
+                </a>
                 <span className={`text-[10px] font-black px-2 py-0.5 rounded-full bg-stone-100 ${getRankColor(scored.rankScore ?? 0)}`}>
                    {scored.rankScore}
                 </span>
