@@ -13,6 +13,7 @@ import { ResourcesView } from './components/ResourcesView';
 import { MissionsView } from './components/MissionsView';
 import { MobileAppsView } from './components/MobileAppsView';
 import { QuickTimerModal } from './components/QuickTimerModal';
+import { FloatingTimerWidget } from './components/FloatingTimerWidget';
 import { CommandPalette } from './components/CommandPalette';
 import { OnboardingFlow } from './components/OnboardingFlow';
 import { AVAILABLE_TRACKS } from './config/activeLanguageTrack';
@@ -190,6 +191,9 @@ const AppShell: React.FC = () => {
           {renderView()}
         </ViewErrorBoundary>
       </main>
+
+      {/* Floating Timer Widget that moves with scroll size */}
+      <FloatingTimerWidget onOpenModal={() => setTimerModalOpen(true)} />
 
       {timerModalOpen && (
         <QuickTimerModal onClose={() => setTimerModalOpen(false)} />
