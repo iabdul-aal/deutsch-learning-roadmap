@@ -109,7 +109,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 2 - Self Introduction and Personal Pronouns",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=1500s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -137,7 +137,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch Survival A1: Audio drills on introducing yourself",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=1500s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Speak",
@@ -198,7 +198,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 3 - Numbers and W-Fragen",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=3000s"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
@@ -226,7 +226,7 @@ export const CURRICULUM_DATA = {
               "title": "Read out 10 phone numbers, postal codes, and prices in German",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=3000s"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
@@ -280,7 +280,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 4 - Articles and Noun Gender",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=4500s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -355,7 +355,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 5 - Negation (nicht vs kein)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=6000s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -437,7 +437,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 6 - Plurals and Family Members",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=7500s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -486,7 +486,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Read and shadow the story 'Meine Familie' 3 times focusing on sentence rhythm",
               "duration": "35 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=7500s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Mobile App",
@@ -589,7 +589,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 7 - Accusative Case Explained",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=10500s"
+              "link": "https://www.youtube.com/watch?v=F3a7cI2g_sM"
             },
             {
               "type": "Read",
@@ -631,7 +631,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Repeat Accusative sentence patterns out loud 25 times",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=10500s"
+              "link": "https://www.youtube.com/watch?v=F3a7cI2g_sM"
             },
             {
               "type": "Mobile App",
@@ -664,7 +664,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 8 - Food and Supermarket Vocabulary",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=12000s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -746,7 +746,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 9 - Restaurant Dialogues and Polite Requests",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=13500s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -828,7 +828,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 10 - Time and Clock Times (Uhrzeit)",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=15000s"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
@@ -849,7 +849,7 @@ export const CURRICULUM_DATA = {
               "title": "Read out 12 random clock times in both official and informal formats",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=15000s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Quiz",
@@ -978,7 +978,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 12 - Possessive Articles",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=18000s"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
@@ -1185,7 +1185,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 14 - Dürfen and Sollen + Hausordnung",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=22500s"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
@@ -1254,7 +1254,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 15 - Housing and Apartment Vocabulary",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=24000s"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
@@ -1329,7 +1329,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 16 - Writing Messages to Landlords",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=25500s"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
@@ -1405,7 +1405,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - How to Survive Anmeldung in Germany",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=27000s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -1487,7 +1487,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 17 - Reporting Maintenance Issues",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=28500s"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
@@ -1838,7 +1838,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 21 - Asking and Giving Directions",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=36000s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -1976,7 +1976,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - Navigating German Trains and Stations",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=39000s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -2122,7 +2122,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - German University Vocabulary and Enrollment",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=42000s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -2191,7 +2191,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 23 - Formal Academic Email Writing",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=43500s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -2260,7 +2260,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 24 - Mensa and Library German",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=45000s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -2329,7 +2329,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 25 - Adjective Endings Demystified",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=46500s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -2391,7 +2391,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 26 - Scheduling Appointments",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=48000s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -2460,7 +2460,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 27 - Health, Doctor and Pharmacy German",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=49500s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -2605,7 +2605,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 28 - Das Perfekt Tense Foundations",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=52500s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -2674,7 +2674,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 29 - Perfekt with SEIN vs HABEN",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=54000s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -2742,7 +2742,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 30 - Top 25 Irregular Perfekt Verbs",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=55500s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -2873,7 +2873,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 32 - Storytelling and Transition Words in Perfekt",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=58500s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -2894,7 +2894,7 @@ export const CURRICULUM_DATA = {
               "title": "Narrate your past week out loud for 3 minutes without looking at notes",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=58500s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Quiz",
@@ -2942,7 +2942,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 33 - Präteritum of Sein and Haben",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=60000s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -3081,7 +3081,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - Opening a Bank Account in Germany",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=63000s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -3150,7 +3150,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - German Health Insurance Explained",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=64500s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -3219,7 +3219,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - Ausländerbehörde and Visa Extension Phrases",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=66000s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -3294,7 +3294,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - Post Office, Packages and SIM Cards",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=67500s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -3363,7 +3363,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 34 - Subordinate Clauses (Weil, Dass, Wenn)",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=69000s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -3425,7 +3425,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 35 - Comparatives and Superlatives",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=70500s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -3557,7 +3557,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - Complete Airport and Arrival Masterclass",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=73500s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -3626,7 +3626,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - Emergency German and Calling 112 / 110",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=75000s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
@@ -3764,7 +3764,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch Survival Platform A1 Audio Stories Marathon (5 stories back to back)",
               "duration": "45 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=78000s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Read",
@@ -3819,14 +3819,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Speaking Exam Preparation and Tips",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=79500s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Watch",
               "title": "Goethe-Institut: Official A1 Speaking Exam Demonstration Video",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=79500s"
+              "link": "https://www.youtube.com/@FrauHendTaha/videos"
             },
             {
               "type": "Speak",

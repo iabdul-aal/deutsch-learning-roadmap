@@ -382,10 +382,10 @@ export const CONTENT_DB: ContentSource[] = [
     viewsApprox: 18_000_000, communityScore: 99, contentMatchScore: 98, pedagogyScore: 98,
   },
   {
-    // DW A2: OFSHdj_2FQA is an Easy German video — using DW Nicos Weg A2 web portal instead
+    // DW A2: DW Nicos Weg A2 official course portal
     id: 'dw_a2_full_movie',
     type: 'INTERACTIVE', tier: 'PRIMARY',
-    resourceId: 'https://learngerman.dw.com/en/nicos-weg/s-55226553',
+    resourceId: 'https://learngerman.dw.com/en/nicos-weg/c-36519790',
     title: "Nicos Weg A2 - Complete German Course (DW Learn German Portal)",
     channelOrAuthor: 'DW Deutsche Welle',
     level: 'A2', skills: ['HOEREN', 'LESEN', 'GRAMMATIK'],
@@ -393,10 +393,10 @@ export const CONTENT_DB: ContentSource[] = [
     viewsApprox: 8_000_000, communityScore: 97, contentMatchScore: 97, pedagogyScore: 97,
   },
   {
-    // DW B1: MmacJnqL3i0 is an Easy German video — using DW Nicos Weg B1 web portal instead
+    // DW B1: DW Nicos Weg B1 official course portal
     id: 'dw_b1_full_movie',
     type: 'INTERACTIVE', tier: 'PRIMARY',
-    resourceId: 'https://learngerman.dw.com/en/nicos-weg/s-55226554',
+    resourceId: 'https://learngerman.dw.com/en/nicos-weg/c-36519791',
     title: "Nicos Weg B1 - Complete German Course (DW Learn German Portal)",
     channelOrAuthor: 'DW Deutsche Welle',
     level: 'B1', skills: ['HOEREN', 'LESEN', 'GRAMMATIK'],
@@ -645,11 +645,10 @@ export const CONTENT_DB: ContentSource[] = [
   //  DW NICOS WEG - Verified Individual Episode IDs
   // ─────────────────────────────────────────────────────────────
   {
-    // ep1 hallo: 4-eDoThe6qo is the full A1 compilation, not ep1 specifically.
-    // Individual ep IDs not verified — linking to DW portal for the episode
+    // ep1 hallo: DW A1 Nicos Weg official course portal
     id: 'dw_ep1_hallo',
     type: 'INTERACTIVE', tier: 'PRIMARY',
-    resourceId: 'https://learngerman.dw.com/en/nicos-weg/s-55226551',
+    resourceId: 'https://learngerman.dw.com/en/nicos-weg/c-36519789',
     title: "Nicos Weg - Folge 1: Hallo! (Greetings and Introductions)",
     channelOrAuthor: 'DW Deutsche Welle',
     level: 'A1', skills: ['HOEREN', 'SPRECHEN'],
@@ -657,10 +656,10 @@ export const CONTENT_DB: ContentSource[] = [
     viewsApprox: 3_000_000, communityScore: 99, contentMatchScore: 98, pedagogyScore: 99,
   },
   {
-    // ep2: same issue as ep1 — no distinct video ID verified
+    // ep2: DW A1 Nicos Weg official course portal
     id: 'dw_ep2_kein_problem',
     type: 'INTERACTIVE', tier: 'PRIMARY',
-    resourceId: 'https://learngerman.dw.com/en/nicos-weg/s-55226551',
+    resourceId: 'https://learngerman.dw.com/en/nicos-weg/c-36519789',
     title: "Nicos Weg - Folge 2: Kein Problem! (Numbers and Help)",
     channelOrAuthor: 'DW Deutsche Welle',
     level: 'A1', skills: ['HOEREN', 'LESEN'],
@@ -668,10 +667,10 @@ export const CONTENT_DB: ContentSource[] = [
     viewsApprox: 1_500_000, communityScore: 97, contentMatchScore: 97, pedagogyScore: 97,
   },
   {
-    // Hallo Deutschschule: 4-eDoThe6qo is DW's compilation, not this channel's video
+    // Hallo Deutschschule: DW A1 Nicos Weg official course portal
     id: 'dw_nicos_ep1_intro_lesson',
     type: 'INTERACTIVE', tier: 'PRIMARY',
-    resourceId: 'https://learngerman.dw.com/en/nicos-weg/s-55226551',
+    resourceId: 'https://learngerman.dw.com/en/nicos-weg/c-36519789',
     title: "Deutsch für Anfänger - Sich vorstellen und Buchstabieren (A1)",
     channelOrAuthor: 'DW Deutsche Welle',
     level: 'A1', skills: ['SPRECHEN', 'HOEREN'],
