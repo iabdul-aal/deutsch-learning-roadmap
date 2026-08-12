@@ -19,21 +19,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "German with Laura: Der Die Das - Complete German Gender Rules & Patterns",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Definite & Indefinite Articles in German",
+              "title": "Deutsch mit Hend: أدوات المعرفة والنكرة (Der, Die, Das)",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
             },
             {
               "type": "Watch",
-              "title": "Easy German #120: How Germans Know a Word's Gender",
+              "title": "Easy German: Essential 100 German Daily Vocabulary's Gender",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
@@ -62,7 +62,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Genitive Case Articles & Suffixes (des/der/des/der & -es/-s)",
+              "title": "Shehata Deutsch: المضاف إليه السهل (Der Genitiv)",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=1gwm0ZU2Fx0"
             }
@@ -83,21 +83,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Wechselpräpositionen in German - Location & Direction",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: German Prepositions for Arabic Speakers",
+              "title": "Deutsch mit Hend: الحل النهائي للأكوزاتيف والداتيف",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Watch",
-              "title": "Easy German #98: Describing Location & Direction in German",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
@@ -126,7 +126,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Genitive-Only Prepositions (wegen, während, trotz, statt)",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             }
@@ -147,21 +147,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: B1 - N-Deklension Weak Noun Declension",
+              "title": "Deutsch mit Hend: الإعراب الضعيف للأسماء (N-Deklination)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=qkJy7L9w2KI"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: N-Declension Mastery - der Student Studenten",
+              "title": "Deutsch mit Hend: الحل النهائي للأكوزاتيف والداتيف",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: Weak Nouns N-Declension B1 Grammar",
+              "title": "Learn German with Anja: Introduction to German Modal Verbs",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
@@ -190,7 +190,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: N-Declension Weak Nouns (der Student/des Studenten, der Herr)",
+              "title": "Easy German: Ordering in a Restaurant & Slow German Greetings",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             }
@@ -211,21 +211,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: B1 - Nominalization das Schwimmen das Lesen",
+              "title": "Deutsch mit Hend: تحويل الأفعال إلى أسماء (Nominalisierung)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=TRv3DFHbej8"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Nominalization das + Infinitiv in German",
+              "title": "Deutsch mit Hend: الحل النهائي للأكوزاتيف والداتيف",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Watch",
-              "title": "Easy German #374: Academic German with Nominalized Verbs",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
@@ -275,21 +275,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Definite & Indefinite Articles in German",
+              "title": "Deutsch mit Hend: أدوات المعرفة والنكرة (Der, Die, Das)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
             },
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Definite & Indefinite Articles in German",
+              "title": "Deutsch mit Hend: أدوات المعرفة والنكرة (Der, Die, Das)",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
             },
             {
               "type": "Watch",
-              "title": "Easy German #120: How Germans Know a Word's Gender",
+              "title": "Easy German: Essential 100 German Daily Vocabulary's Gender",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
@@ -318,7 +318,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Genitive Case in German News Articles & Literature",
+              "title": "Easy German: Essential 100 German Daily Vocabulary",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
             }
@@ -339,21 +339,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Dativ Case - المفعول به غير المباشر",
+              "title": "Deutsch mit Hend: حالة الجر (Der Dativ)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=Oh4VKllZ-DQ"
             },
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Dativ Case المفعول به غير المباشر",
+              "title": "Deutsch mit Hend: حالة الجر (Der Dativ)",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=Oh4VKllZ-DQ"
             },
             {
               "type": "Watch",
-              "title": "Easy German #250: Dative Case in Real German Conversations",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
@@ -403,21 +403,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Genitiv Case - Possession in German",
+              "title": "Deutsch mit Hend: المضاف إليه (Der Genitiv)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=y1VqPwhWJrM"
             },
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Genitiv Case Grammar Explained",
+              "title": "Deutsch mit Hend: المضاف إليه (Der Genitiv)",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=y1VqPwhWJrM"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: Genitive Case Complete A2/B1 Reference",
+              "title": "Learn German with Anja: Introduction to German Modal Verbs",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
@@ -475,21 +475,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A2 - Relativsätze der die das relative clauses",
+              "title": "Deutsch mit Hend: جمل الوصل (Relativsätze)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=uLyJf8T9ezE"
             },
             {
               "type": "Watch",
-              "title": "German with Laura: German Relative Clauses Complete Guide",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Watch",
-              "title": "Easy German #278: Describing People with Relative Clauses",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
@@ -539,21 +539,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A2 - Relativsätze der die das relative clauses",
+              "title": "Deutsch mit Hend: جمل الوصل (Relativsätze)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=uLyJf8T9ezE"
             },
             {
               "type": "Watch",
-              "title": "German with Laura: German Relative Clauses Complete Guide",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Watch",
-              "title": "Easy German #278: Describing People with Relative Clauses",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
@@ -582,7 +582,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Relative Clauses in Accusative (der Stuhl, den ich kaufe...)",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             }
@@ -603,21 +603,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Der Dativ - Indirect Objects & Prepositions Masterclass",
+              "title": "Deutsch mit Hend: الحل النهائي للأكوزاتيف والداتيف",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Dativ Case المفعول به غير المباشر",
+              "title": "Deutsch mit Hend: حالة الجر (Der Dativ)",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=Oh4VKllZ-DQ"
             },
             {
               "type": "Watch",
-              "title": "Easy German #250: Dative Case in Real German Conversations",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
@@ -667,21 +667,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Genitiv Case - Possession in German",
+              "title": "Deutsch mit Hend: المضاف إليه (Der Genitiv)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=y1VqPwhWJrM"
             },
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Genitiv Case Grammar Explained",
+              "title": "Deutsch mit Hend: المضاف إليه (Der Genitiv)",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=y1VqPwhWJrM"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: Genitive Case Complete A2/B1 Reference",
+              "title": "Learn German with Anja: Introduction to German Modal Verbs",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
@@ -731,21 +731,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Wechselpräpositionen in German - Location & Direction",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: German Prepositions for Arabic Speakers",
+              "title": "Deutsch mit Hend: الحل النهائي للأكوزاتيف والداتيف",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Watch",
-              "title": "Easy German #98: Describing Location & Direction in German",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
@@ -795,21 +795,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Personal Pronouns - ich du er sie wir ihr sie",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: Personal Pronouns in German",
+              "title": "Learn German: Greetings & Basic Conversation",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: German Pronouns for Arabic Speakers",
+              "title": "Shehata Deutsch: صيغة التمني والافتراض (Der Konjunktiv 2)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
@@ -838,7 +838,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Relative Clauses with Indefinite Pronouns (alles, was... / etwas, das...)",
+              "title": "Easy German: Essential 100 German Daily Vocabulary",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
             }
@@ -859,21 +859,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A2 - Relativsätze der die das relative clauses",
+              "title": "Deutsch mit Hend: جمل الوصل (Relativsätze)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=uLyJf8T9ezE"
             },
             {
               "type": "Watch",
-              "title": "German with Laura: German Relative Clauses Complete Guide",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: Relative Clauses in German Grammar",
+              "title": "Learn German with Anja: Introduction to German Modal Verbs",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
@@ -931,21 +931,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Das Passiv - Passive Voice in German Complete Masterclass",
+              "title": "Shehata Deutsch: المبني للمجهول (Das Passiv A2/B1)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=IMQV1SYmSh4"
             },
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Passiv - werden Partizip II erklärt",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: German Passive Voice Complete Reference",
+              "title": "Learn German with Anja: Introduction to German Modal Verbs",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
@@ -995,21 +995,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A2/B1 Passiv - werden + Partizip II",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Passiv - werden Partizip II erklärt",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Easy German #340: Passive Voice in German News & Speech",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
@@ -1038,7 +1038,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Passive Voice Past Tense (wurde + Partizip II)",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             }
@@ -1059,7 +1059,7 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Modal Verbs können müssen wollen in Real Conversation",
+              "title": "DW Learn German: Nicos Weg A1 (Full Course Segment)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
@@ -1073,7 +1073,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Modal Verbs for Arabic Speakers",
+              "title": "Shehata Deutsch: صيغة التمني والافتراض (Der Konjunktiv 2)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
@@ -1123,21 +1123,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Der Akkusativ - Direkte Objekte leicht erklärt",
+              "title": "Deutsch mit Hend: حالة النصب (Der Akkusativ)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=TJCDYVP-cDU"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Nominativ vs Akkusativ - The Full Breakdown",
+              "title": "Shehata Deutsch: صيغة التمني والافتراض (Der Konjunktiv 2)",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
-              "title": "Easy German #55: Shopping with Accusative Objects",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
@@ -1187,21 +1187,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A2/B1 Passiv - werden + Partizip II",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Passiv - werden Partizip II erklärt",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: German Passive Voice Complete Reference",
+              "title": "Learn German with Anja: Introduction to German Modal Verbs",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
@@ -1230,7 +1230,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Impersonal Passive Structures (Es wird getanzt / Hier wird gearbeitet)",
+              "title": "Easy German: Essential 100 German Daily Vocabulary",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
             }
@@ -1251,21 +1251,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A2/B1 Passiv - werden + Partizip II",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Passiv - werden Partizip II erklärt",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Easy German #340: Passive Voice in German News & Speech",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
@@ -1294,7 +1294,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Process Passive (Vorgangspassiv) vs State Passive (Zustandspassiv)",
+              "title": "Easy German: Ordering in a Restaurant & Slow German Greetings",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             }
@@ -1315,21 +1315,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A2/B1 Passiv - werden + Partizip II",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Passiv - werden Partizip II erklärt",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: German Passive Voice Complete Reference",
+              "title": "Learn German with Anja: Introduction to German Modal Verbs",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
@@ -1387,21 +1387,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A2/B1 - Infinitiv mit zu & um...zu Konstruktionen",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: Infinitive with zu - German Grammar Guide",
+              "title": "Learn German with Anja: Introduction to German Modal Verbs",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Watch",
-              "title": "Easy German #267: Infinitive Constructions in Natural German",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
@@ -1451,21 +1451,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A2/B1 - Infinitiv mit zu & um...zu Konstruktionen",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Easy German #267: Infinitive Constructions in Natural German",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Watch",
-              "title": "Easy German #267: Infinitive Constructions in Natural German",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
@@ -1494,7 +1494,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Verbs Requiring 'zu' + Infinitive (vorhaben, versuchen, beschließen)",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)'zu' + Infinitive (vorhaben, versuchen, beschließen)",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             }
@@ -1515,21 +1515,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Grammar in Real German Context",
+              "title": "DW Learn German: Nicos Weg A1 (Full Course Segment)",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: Grammar Made Simple",
+              "title": "Learn German: Greetings & Basic Conversation",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
@@ -1558,7 +1558,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Purpose Clauses: 'um...zu' vs 'damit' (Same vs Different Subjects)",
+              "title": "Easy German: Ordering in a Restaurant & Slow German Greetings'um...zu' vs 'damit' (Same vs Different Subjects)",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             }
@@ -1579,21 +1579,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A2/B1 - Infinitiv mit zu & um...zu Konstruktionen",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: Infinitive with zu - German Grammar Guide",
+              "title": "Learn German with Anja: Introduction to German Modal Verbs",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Watch",
-              "title": "Easy German #267: Infinitive Constructions in Natural German",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
@@ -1643,21 +1643,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: German Grammar Masterclass",
+              "title": "Shehata Deutsch: صيغة التمني والافتراض (Der Konjunktiv 2)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Grammar in Real German Context",
+              "title": "DW Learn German: Nicos Weg A1 (Full Course Segment)",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: Grammar Made Simple",
+              "title": "Learn German: Greetings & Basic Conversation",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
@@ -1686,7 +1686,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Substitute Clauses with 'statt...zu' (instead of doing)",
+              "title": "Easy German: Essential 100 German Daily Vocabulary'statt...zu' (instead of doing)",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
             }
@@ -1707,21 +1707,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A2/B1 - Infinitiv mit zu & um...zu Konstruktionen",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: Infinitive with zu - German Grammar Guide",
+              "title": "Learn German with Anja: Introduction to German Modal Verbs",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Watch",
-              "title": "Easy German #267: Infinitive Constructions in Natural German",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
@@ -1771,21 +1771,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A2/B1 - Infinitiv mit zu & um...zu Konstruktionen",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: Infinitive with zu - German Grammar Guide",
+              "title": "Learn German with Anja: Introduction to German Modal Verbs",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Watch",
-              "title": "Easy German #267: Infinitive Constructions in Natural German",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
@@ -1843,21 +1843,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A2 - Komparativ und Superlativ in German",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: Comparative and Superlative in German A2",
+              "title": "Learn German with Anja: Introduction to German Modal Verbs",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Watch",
-              "title": "Easy German #112: Comparing Things on the Street in Germany",
+              "title": "Easy German: Ordering in a Restaurant & Slow German Greetings",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
@@ -1907,21 +1907,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Negation - nicht und kein komplett erklärt",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Nicht vs Kein - The Essential Difference",
+              "title": "Shehata Deutsch: صيغة التمني والافتراض (Der Konjunktiv 2)",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Negative Sentences in Everyday German",
+              "title": "DW Learn German: Nicos Weg A1 (Full Course Segment)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
@@ -1950,7 +1950,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Addition & Negation: 'sowohl...als auch' vs 'weder...noch'",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)'sowohl...als auch' vs 'weder...noch'",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             }
@@ -1971,21 +1971,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Obwohl Trotzdem Zwar aber - Contrast Connectors",
+              "title": "Shehata Deutsch: صيغة التمني والافتراض (Der Konjunktiv 2)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Contrast Sentences in German Context",
+              "title": "DW Learn German: Nicos Weg A1 (Full Course Segment)",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
-              "title": "German with Laura: Using obwohl and trotzdem Correctly",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
@@ -2035,21 +2035,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: B1 - Sowohl...als auch Weder...noch Konnektoren",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: B1 - Zweiteilige Konnektoren Complete Guide",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: B1 German Connectors Complete Reference",
+              "title": "Learn German with Anja: Introduction to German Modal Verbs",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
@@ -2078,7 +2078,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Emphasis Conjunctions: 'nicht nur...sondern auch'",
+              "title": "Easy German: Ordering in a Restaurant & Slow German Greetings'nicht nur...sondern auch'",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             }
@@ -2113,7 +2113,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Modal Verbs for Arabic Speakers",
+              "title": "Shehata Deutsch: صيغة التمني والافتراض (Der Konjunktiv 2)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
@@ -2163,21 +2163,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A2 - Dass-Sätze und Reporting in German",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Subordinate Clauses dass - Opinion Reporting",
+              "title": "Shehata Deutsch: صيغة التمني والافتراض (Der Konjunktiv 2)",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
-              "title": "Easy German #168: Saying What You Think in German",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
@@ -2206,7 +2206,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Consecutive Subordinate Clauses with 'sodass' / 'so..., dass'",
+              "title": "Easy German: Essential 100 German Daily Vocabulary'sodass' / 'so..., dass'",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
             }
@@ -2227,21 +2227,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: German Connectors & Discourse Markers Masterclass",
+              "title": "Shehata Deutsch: صيغة التمني والافتراض (Der Konjunktiv 2)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: B1 - Zweiteilige Konnektoren Complete Guide",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: B1 German Connectors Complete Reference",
+              "title": "Learn German with Anja: Introduction to German Modal Verbs",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
@@ -2299,35 +2299,35 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: B1 - Partizip I und Partizip II als Adjektive",
+              "title": "Deutsch mit Hend: نهايات الصفات (Adjektivdeklination)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=nOW4U3kZUbk"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Participial Adjectives - Written German B1",
+              "title": "Shehata Deutsch: صيغة التمني والافتراض (Der Konjunktiv 2)",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: Partizip Adjectives B1 Grammar Guide",
+              "title": "Learn German with Anja: Introduction to German Modal Verbs",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
-              "title": "B1 Vocabulary Bank: Present Participle as Adjective (Partizip I: das lachende Kind)",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "25 min",
               "resourceType": "VOCAB",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
-              "title": "Mastery Check: Present Participle as Adjective (Partizip I: das lachende Kind) Quiz",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "20 min",
               "resourceType": "QUIZ",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
@@ -2336,13 +2336,13 @@ export const CURRICULUM_DATA_B1 = {
           "intensiveTasks": [
             {
               "type": "Writing",
-              "title": "B1 Writing Drill: 150-word essay/letter using Present Participle as Adjective (Partizip I: das lachende Kind)",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Present Participle as Adjective (Partizip I: das lachende Kind)",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             }
@@ -2363,21 +2363,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: B1 - Partizip I und Partizip II als Adjektive",
+              "title": "Deutsch mit Hend: نهايات الصفات (Adjektivdeklination)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=nOW4U3kZUbk"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Participial Adjectives - Written German B1",
+              "title": "Shehata Deutsch: صيغة التمني والافتراض (Der Konjunktiv 2)",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
-              "title": "Easy German #360: Participial Phrases in German News",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
@@ -2406,7 +2406,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Past Participle as Adjective (Partizip II: das geschriebene Buch)",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             }
@@ -2427,21 +2427,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Wenn-Sätze - Conditional & Temporal Clauses",
+              "title": "Shehata Deutsch: صيغة التمني والافتراض (Der Konjunktiv 2)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Conditional Sentences in German Context",
+              "title": "DW Learn German: Nicos Weg A1 (Full Course Segment)",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
-              "title": "Easy German #180: When and If in German - wenn and als",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
@@ -2470,7 +2470,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Temporal Conjunctions: als vs wenn, seitdem, bis, solange",
+              "title": "Easy German: Essential 100 German Daily Vocabulary",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
             }
@@ -2491,21 +2491,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A2 - Weil-Sätze auf Arabisch erklärt",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: A2 - Nebensätze mit Weil und Dass",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Giving Reasons with weil in Real Conversation",
+              "title": "DW Learn German: Nicos Weg A1 (Full Course Segment)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
@@ -2555,21 +2555,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: B1 - Nominalization das Schwimmen das Lesen",
+              "title": "Deutsch mit Hend: تحويل الأفعال إلى أسماء (Nominalisierung)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=TRv3DFHbej8"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Nominalization das + Infinitiv in German",
+              "title": "Deutsch mit Hend: الحل النهائي للأكوزاتيف والداتيف",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: Substantivierung B1 - Verb to Noun",
+              "title": "Learn German with Anja: Introduction to German Modal Verbs",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
@@ -2598,7 +2598,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: B1 Abstract Nouns & Nominalization (-ung, -heit, -keit, -schaft)",
+              "title": "Deutsch mit Hend: تحويل الأفعال إلى أسماء (Nominalisierung)",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=TRv3DFHbej8"
             }
@@ -2619,21 +2619,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Grammar in Real German Context",
+              "title": "DW Learn German: Nicos Weg A1 (Full Course Segment)",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: Grammar Made Simple",
+              "title": "Learn German: Greetings & Basic Conversation",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
@@ -2662,7 +2662,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: German Business & Office Communication: Formal Complaint Letters",
+              "title": "Easy German: Ordering in a Restaurant & Slow German Greetings",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             }
@@ -2683,21 +2683,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: Clear Grammar Explanations",
+              "title": "Learn German: Greetings & Basic Conversation",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Grammar in Daily German Life",
+              "title": "DW Learn German: Nicos Weg A1 (Full Course Segment)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
@@ -2755,21 +2755,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Grammar in Real German Context",
+              "title": "DW Learn German: Nicos Weg A1 (Full Course Segment)",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
-              "title": "Easy German: Natural German in Context",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
@@ -2819,21 +2819,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: German Grammar Masterclass",
+              "title": "Shehata Deutsch: صيغة التمني والافتراض (Der Konjunktiv 2)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: German Grammar Step by Step",
+              "title": "Learn German with Anja: Introduction to German Modal Verbs",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: Grammar Made Simple",
+              "title": "Learn German: Greetings & Basic Conversation",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
@@ -2862,7 +2862,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Simulating German Job Interviews & Expressing Strengths",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             }
@@ -2883,21 +2883,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: Clear Grammar Explanations",
+              "title": "Learn German: Greetings & Basic Conversation",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Grammar in Daily German Life",
+              "title": "DW Learn German: Nicos Weg A1 (Full Course Segment)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
@@ -2926,7 +2926,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Discussing Current Affairs, Climate & Technology in German",
+              "title": "Easy German: Ordering in a Restaurant & Slow German Greetings",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             }
@@ -2947,21 +2947,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: Clear Grammar Explanations",
+              "title": "Learn German: Greetings & Basic Conversation",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Grammar in Daily German Life",
+              "title": "DW Learn German: Nicos Weg A1 (Full Course Segment)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
@@ -3011,21 +3011,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: Clear Grammar Explanations",
+              "title": "Learn German: Greetings & Basic Conversation",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Grammar in Daily German Life",
+              "title": "DW Learn German: Nicos Weg A1 (Full Course Segment)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
@@ -3054,7 +3054,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: German Rental Contracts (Mietvertrag) & Utility Communications",
+              "title": "Easy German: Essential 100 German Daily Vocabulary",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
             }
@@ -3075,21 +3075,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: Clear Grammar Explanations",
+              "title": "Learn German: Greetings & Basic Conversation",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Grammar in Daily German Life",
+              "title": "DW Learn German: Nicos Weg A1 (Full Course Segment)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
@@ -3139,21 +3139,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: Clear Grammar Explanations",
+              "title": "Learn German: Greetings & Basic Conversation",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Grammar in Daily German Life",
+              "title": "DW Learn German: Nicos Weg A1 (Full Course Segment)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
@@ -3211,21 +3211,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Grammar in Real German Context",
+              "title": "DW Learn German: Nicos Weg A1 (Full Course Segment)",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
-              "title": "Easy German: Natural German in Context",
+              "title": "Easy German: Introduce Yourself in Slow German (Super Easy #1)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
@@ -3275,21 +3275,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: German Grammar Masterclass",
+              "title": "Shehata Deutsch: صيغة التمني والافتراض (Der Konjunktiv 2)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: German Grammar Step by Step",
+              "title": "Learn German with Anja: Introduction to German Modal Verbs",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: Grammar Made Simple",
+              "title": "Learn German: Greetings & Basic Conversation",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
@@ -3339,21 +3339,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: Clear Grammar Explanations",
+              "title": "Learn German: Greetings & Basic Conversation",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Grammar in Daily German Life",
+              "title": "DW Learn German: Nicos Weg A1 (Full Course Segment)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
@@ -3382,7 +3382,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Goethe B1 Schreiben Sprint: Informal Email, Opinion & Formal Request",
+              "title": "Easy German: Essential 100 German Daily Vocabulary",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
             }
@@ -3403,21 +3403,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: Clear Grammar Explanations",
+              "title": "Learn German: Greetings & Basic Conversation",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Grammar in Daily German Life",
+              "title": "DW Learn German: Nicos Weg A1 (Full Course Segment)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
@@ -3446,7 +3446,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Goethe B1 Sprechen Part 1: Joint Planning (Gemeinsam etwas planen)",
+              "title": "Easy German: Ordering in a Restaurant & Slow German Greetings",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
             }
@@ -3467,21 +3467,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: Clear Grammar Explanations",
+              "title": "Learn German: Greetings & Basic Conversation",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Grammar in Daily German Life",
+              "title": "DW Learn German: Nicos Weg A1 (Full Course Segment)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
@@ -3510,7 +3510,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Goethe B1 Sprechen Part 2 & 3: Presentation & Discussion",
+              "title": "Shehata Deutsch: صيغة التمني والافتراض (Der Konjunktiv 2)",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             }
@@ -3531,21 +3531,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: Clear Grammar Explanations",
+              "title": "Learn German: Greetings & Basic Conversation",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Grammar in Daily German Life",
+              "title": "DW Learn German: Nicos Weg A1 (Full Course Segment)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
@@ -3574,7 +3574,7 @@ export const CURRICULUM_DATA_B1 = {
             },
             {
               "type": "Speak",
-              "title": "B1 Speaking & Presentation Drill: Full Goethe / TELC B1 Mock Exam Simulation Sprint",
+              "title": "Shehata Deutsch: صيغة التمني والافتراض (Der Konjunktiv 2)",
               "duration": "30 min",
               "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             }
@@ -3595,21 +3595,21 @@ export const CURRICULUM_DATA_B1 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
+              "title": "Deutsch mit Hend: الأساسيات والأبجدية والنطق",
               "duration": "40 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: Clear Grammar Explanations",
+              "title": "Learn German: Greetings & Basic Conversation",
               "duration": "30 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=RuGmc662HDg"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Grammar in Daily German Life",
+              "title": "DW Learn German: Nicos Weg A1 (Full Course Segment)",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
