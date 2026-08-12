@@ -122,7 +122,7 @@ export const CURRICULUM_DATA = {
           objective: "Learn German plural rules (-e, -er, -en, -s, Umlaut) and family member vocabulary.",
           standardTasks: [
             { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 6 - Plurals and Family Members", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Watch", title: "Learn German with Anja: Family Tree and Plural Nouns", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Watch", title: "Learn German with Anja: Family Tree and Plural Nouns", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
             { type: "Memorize", title: "20 family words (Vater, Mutter, Eltern, Bruder, Schwester, Kind, Sohn, Tochter...)", duration: "35 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
             { type: "Read", title: "Deutsch Survival Platform A1 Short Story #1: Meine Familie", duration: "25 min", resourceType: "READING", link: "https://learngerman.dw.com/en/nicos-weg" },
             { type: "Speak", title: "Describe your family tree out loud for 3 minutes", duration: "15 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
@@ -170,7 +170,7 @@ export const CURRICULUM_DATA = {
           standardTasks: [
             { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 7 - Accusative Case Explained", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Read", title: "Deutsch Survival A1: Accusative rules and sentence diagrams", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Watch", title: "YourGermanTeacher: Accusative Case - Never make a mistake again!", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Watch", title: "YourGermanTeacher: Accusative Case - Never make a mistake again!", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
             { type: "Memorize", title: "15 common transitive verbs requiring Accusative (haben, brauchen, kaufen, suchen, trinken, essen...)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Quiz", title: "Complete Day 8 Accusative Case Mini-Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
           ],
@@ -212,7 +212,7 @@ export const CURRICULUM_DATA = {
             { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 9 - Restaurant Dialogues and Polite Requests", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
             { type: "Watch", title: "Learn German with Anja: How to order food like a native in Germany", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
             { type: "Memorize", title: "15 restaurant phrases (Speisekarte, Rechnung, bezahlen, zusammen, getrennt, lecker...)", duration: "30 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
-            { type: "Listen", title: "Deutsch Survival A1: Restaurant dialogue audio track", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
+            { type: "Listen", title: "Deutsch Survival A1: Restaurant dialogue audio track", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Speak", title: "Perform 3 restaurant roleplay missions (ordering, asking price, paying)", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
             { type: "Quiz", title: "Complete Day 10 Restaurant Survival Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" }
           ],
@@ -251,9 +251,9 @@ export const CURRICULUM_DATA = {
           objective: "Understand how separable prefixes split to the end of the sentence (Ich stehe um 7 Uhr auf).",
           standardTasks: [
             { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 11 - Separable Verbs Masterclass", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Watch", title: "YourGermanTeacher: Separable Verbs in German - Explained Simply", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Watch", title: "YourGermanTeacher: Separable Verbs in German - Explained Simply", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
             { type: "Memorize", title: "15 separable verbs (einkaufen, anrufen, aufstehen, mitkommen, anfangen, ausfüllen...)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Listen", title: "Deutsch Survival A1: Audio practice on separable verbs in daily speech", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Listen", title: "Deutsch Survival A1: Audio practice on separable verbs in daily speech", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
             { type: "Quiz", title: "Complete Day 12 Separable Verbs Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
           ],
           intensiveTasks: [
@@ -396,7 +396,7 @@ export const CURRICULUM_DATA = {
             { type: "Watch", title: "Deutsch mit Hend: A1 Special - How to Survive Anmeldung in Germany", duration: "45 min", resourceType: "PRIMARY", link: "https://en.pons.com/translate/german-arabic" },
             { type: "Read", title: "Deutsch Survival A1: Step-by-step guide to Bürgeramt forms and phrases", duration: "25 min", resourceType: "SECONDARY", link: "https://learngerman.dw.com/en/nicos-weg" },
             { type: "Memorize", title: "15 bureaucracy terms (Anmeldung, Wohnungsgeberbestätigung, Reisepass, Termin, Formular...)", duration: "35 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listen", title: "Deutsch Survival Platform Audio: Officer dialogue at Bürgeramt", duration: "20 min", resourceType: "LISTENING", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Listen", title: "Deutsch Survival Platform Audio: Officer dialogue at Bürgeramt", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Speak", title: "Roleplay Bürgeramt clerk interaction out loud 3 times", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Quiz", title: "Complete Day 19 Bureaucracy and Anmeldung Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
           ],
@@ -461,7 +461,7 @@ export const CURRICULUM_DATA = {
           standardTasks: [
             { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 18 - The Dative Case Demystified", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Read", title: "Deutsch Survival A1: Dative case breakdown and color charts", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Watch", title: "YourGermanTeacher: Dative Case in German - Complete Masterclass", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Watch", title: "YourGermanTeacher: Dative Case in German - Complete Masterclass", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Memorize", title: "15 core Dative verbs (helfen, danken, gehören, gefallen, passen, antworten...)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Quiz", title: "Complete Day 22 Dative Case Basics Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
           ],
@@ -520,7 +520,7 @@ export const CURRICULUM_DATA = {
             { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 21 - Asking and Giving Directions", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Watch", title: "DW Nicos Weg: Episode 14 - Wo ist die Post?", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Memorize", title: "20 directional words (geradeaus, links, rechts, an der Ampel, Ecke, gegenüber, Kreuzung...)", duration: "35 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
-            { type: "Listen", title: "Super Easy German #18: Asking strangers for directions in Berlin", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Listen", title: "Super Easy German #18: Asking strangers for directions in Berlin", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
             { type: "Speak", title: "Roleplay asking a pedestrian for directions to the train station out loud", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Quiz", title: "Complete Day 25 Directions Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
           ],
@@ -640,7 +640,7 @@ export const CURRICULUM_DATA = {
           objective: "Order food in the Mensa, borrow books, ask for quiet zones, use library printers and WiFi.",
           standardTasks: [
             { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 24 - Mensa and Library German", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
-            { type: "Watch", title: "Super Easy German #25: What is a German Mensa like?", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
+            { type: "Watch", title: "Super Easy German #25: What is a German Mensa like?", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
             { type: "Memorize", title: "15 library and Mensa terms (Bibliothek, Mensa, Ausleihen, Ausweis, Drucken, Gericht, Menü...)", duration: "30 min", resourceType: "VOCAB", link: "https://apps.ankiweb.net/" },
             { type: "Speak", title: "Roleplay ordering a student meal and asking for library card activation", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Quiz", title: "Complete Day 31 Mensa and Library Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
@@ -1094,7 +1094,7 @@ export const CURRICULUM_DATA = {
           objective: "Simulate full Goethe A1 Sprechen exam (Teil 1: Sich vorstellen, Teil 2: Um Informationen bitten, Teil 3: Bitten/Aufforderungen).",
           standardTasks: [
             { type: "Watch", title: "Deutsch mit Hend: A1 Speaking Exam Preparation and Tips", duration: "40 min", resourceType: "PRIMARY", link: "https://en.pons.com/translate/german-arabic" },
-            { type: "Watch", title: "Goethe-Institut: Official A1 Speaking Exam Demonstration Video", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://en.pons.com/translate/german-arabic" },
+            { type: "Watch", title: "Goethe-Institut: Official A1 Speaking Exam Demonstration Video", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Speak", title: "Perform full 15-minute simulated A1 Speaking Test out loud (all 3 parts)", duration: "30 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Quiz", title: "Complete Day 54 Speaking Self-Evaluation", duration: "15 min", resourceType: "QUIZ", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
           ],
