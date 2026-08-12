@@ -687,10 +687,9 @@ export function resolveTaskVideoEmbed(
   }
 
   // ── PRIORITY 1: Explicit YouTube URL extraction ──
-  if (link.includes('v=')) {
-    const match = link.match(/v=([a-zA-Z0-9_-]{11})/);
-    if (match) {
-      const vid = match[1];
+  const ytMatch = link.match(/(?:watch\?v=|youtu\.be\/)([a-zA-Z0-9_-]{11})/);
+  if (ytMatch) {
+    const vid = ytMatch[1];
 
       // WMvCXVorOsg: Hend's Alphabet & Phonetics video (~25 min)
       // Only embed if the task is actually about Alphabet/Pronunciation/Numbers/Intro
@@ -769,7 +768,6 @@ export function resolveTaskVideoEmbed(
         creatorName: creator,
         isCroppedSegment: false,
       };
-    }
   }
 
   // ── PRIORITY 2: Title-based resolution (ONLY when link does not have v=) ──
