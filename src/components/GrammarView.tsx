@@ -1,386 +1,279 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { useApp } from '../context/AppContext';
-import { ArrowLeft, AlertTriangle, CheckCircle, Check, X, BookOpen, Lock } from 'lucide-react';
+import { KNOWLEDGE_GRAPH, GrammarConcept as KGConcept } from '../data/knowledgeGraph';
+import { ARABIC_ERRORS, ArabicError } from '../data/arabicErrors';
+import {
+  ArrowLeft, AlertTriangle, CheckCircle, Check, X, BookOpen,
+  Search, Volume2, Sparkles, HelpCircle, ChevronRight, Award, Flame
+} from 'lucide-react';
 
-type CEFRLevel = 'A1' | 'A2' | 'B1' | 'B2';
+type CEFRFilter = 'All' | 'A1' | 'A2' | 'B1' | 'B2' | 'Weak';
 
-interface QuizQuestion {
-  question: string;
-  options: string[];
-  correctAnswer: number;
-  explanation: string;
-}
+const CEFR_BADGES: Record<string, { bg: string; text: string; border: string }> = {
+  A1: { bg: 'bg-emerald-500/15', text: 'text-emerald-400', border: 'border-emerald-500/30' },
+  A2: { bg: 'bg-blue-500/15',    text: 'text-blue-400',    border: 'border-blue-500/30' },
+  B1: { bg: 'bg-amber-500/15',   text: 'text-amber-400',   border: 'border-amber-500/30' },
+  B2: { bg: 'bg-violet-500/15',  text: 'text-violet-400',  border: 'border-violet-500/30' },
+  C1: { bg: 'bg-rose-500/15',    text: 'text-rose-400',    border: 'border-rose-500/30' },
+};
 
-interface GrammarConcept {
-  id: string;
-  titleDE: string;
-  titleAR: string;
-  cefr: CEFRLevel;
-  intuitionEN: string;
-  intuitionAR: string;
-  ruleExplanation: string;
-  arabicWarning?: {
-    mistake: string;
-    correct: string;
-    explanation: string;
-  };
-  examples: Array<{
-    de: string;
-    en: string;
-    ar: string;
-  }>;
-  quiz: QuizQuestion[];
-  prerequisites?: string[];
-}
-
-const GRAMMAR_CONCEPTS: GrammarConcept[] = [
-  {
-    id: 'gender-a1',
-    titleDE: 'German Gender (der/die/das)',
-    titleAR: 'جنس الاسم (der/die/das)',
-    cefr: 'A1',
-    intuitionEN: 'In German, every noun has a grammatical gender: masculine, feminine, or neuter. This is often random and must be memorized with the word.',
-    intuitionAR: 'في الألمانية، كل اسم له جنس نحوي: مذكر، مؤنث، أو محايد. هذا غالباً عشوائي ويجب حفظه مع الكلمة.',
-    ruleExplanation: 'Always learn nouns with their definite article (der = masculine, die = feminine, das = neuter). Plural nouns always use "die".',
-    arabicWarning: {
-      mistake: 'Der Tisch, der Katze, der Mädchen',
-      correct: 'Der Tisch (m), die Katze (f), das Mädchen (n)',
-      explanation: 'Arabic has no grammatical gender system like German. Arabic speakers often use "der" for everything because Arabic definite article ال has no gender.'
-    },
-    examples: [
-      { de: 'Der Apfel ist rot.', en: 'The apple is red.', ar: 'التفاحة حمراء.' },
-      { de: 'Die Frau liest.', en: 'The woman is reading.', ar: 'المرأة تقرأ.' },
-      { de: 'Das Haus ist groß.', en: 'The house is big.', ar: 'البيت كبير.' }
-    ],
-    quiz: [
-      {
-        question: 'Which article is used for all plural nouns?',
-        options: ['der', 'die', 'das', 'den'],
-        correctAnswer: 1,
-        explanation: 'All plural nouns in the nominative and accusative cases use "die".'
-      },
-      {
-        question: 'True or False: "Das Mädchen" is neuter.',
-        options: ['True', 'False'],
-        correctAnswer: 0,
-        explanation: 'True. Nouns ending in -chen are always neuter in German.'
-      }
-    ]
-  },
-  {
-    id: 'nominative-a1',
-    titleDE: 'Nominative Case',
-    titleAR: 'حالة الرفع (Nominativ)',
-    cefr: 'A1',
-    intuitionEN: 'The nominative case is used for the subject of the sentence-the person or thing doing the action.',
-    intuitionAR: 'تُستخدم حالة الرفع لفاعل الجملة - الشخص أو الشيء الذي يقوم بالفعل.',
-    ruleExplanation: 'Use the base form of the articles: der, die, das, die (plural).',
-    examples: [
-      { de: 'Der Hund bellt.', en: 'The dog barks.', ar: 'الكلب ينبح.' }
-    ],
-    quiz: [
-      {
-        question: 'Identify the nominative in: "Die Katze schläft."',
-        options: ['schläft', 'Die Katze'],
-        correctAnswer: 1,
-        explanation: '"Die Katze" is the subject performing the action.'
-      }
-    ]
-  },
-  {
-    id: 'accusative-a1',
-    titleDE: 'Accusative Case',
-    titleAR: 'حالة النصب (Akkusativ)',
-    cefr: 'A1',
-    intuitionEN: 'The accusative case is used for the direct object-the receiver of the action.',
-    intuitionAR: 'تُستخدم حالة النصب للمفعول به المباشر - متلقي الفعل.',
-    ruleExplanation: 'Only the masculine article changes: "der" becomes "den", and "ein" becomes "einen".',
-    arabicWarning: {
-      mistake: 'Ich habe der Hund.',
-      correct: 'Ich habe den Hund.',
-      explanation: 'Arabic has cases (مرفوع/منصوب/مجرور) but German case rules differ completely - especially the accusative article changes.'
-    },
-    examples: [
-      { de: 'Ich sehe den Mann.', en: 'I see the man.', ar: 'أنا أرى الرجل.' }
-    ],
-    quiz: [
-      {
-        question: 'Fill in the blank: Ich kaufe ___ Apfel (masculine).',
-        options: ['ein', 'einen', 'einem'],
-        correctAnswer: 1,
-        explanation: '"Apfel" is masculine, so it becomes "einen" in the accusative.'
-      }
-    ]
-  },
-  {
-    id: 'verb-conj-a1',
-    titleDE: 'Verb Conjugation Present',
-    titleAR: 'تصريف الأفعال في المضارع',
-    cefr: 'A1',
-    intuitionEN: 'Verbs change their ending based on the subject (I, you, he, we, etc.).',
-    intuitionAR: 'الأفعال تغير نهايتها بناءً على الفاعل (أنا، أنت، هو، نحن، إلخ).',
-    ruleExplanation: 'Remove the -en ending and add: -e, -st, -t, -en, -t, -en.',
-    arabicWarning: {
-      mistake: 'Ich trinken Wasser. (Using infinitive)',
-      correct: 'Ich trinke Wasser.',
-      explanation: 'In Arabic, the verb form depends heavily on gender and number. In German, ensure you match the person correctly. Do not just use the infinitive.'
-    },
-    examples: [
-      { de: 'Ich lerne Deutsch.', en: 'I am learning German.', ar: 'أنا أتعلم الألمانية.' }
-    ],
-    quiz: [
-      {
-        question: 'Conjugate "kommen" for "du" (you):',
-        options: ['kommst', 'kommt', 'komme'],
-        correctAnswer: 0,
-        explanation: '"du" takes the "-st" ending.'
-      }
-    ]
-  },
-  {
-    id: 'dative-a2',
-    titleDE: 'Dative Case',
-    titleAR: 'حالة الجر (Dativ)',
-    cefr: 'A2',
-    intuitionEN: 'The dative case is for the indirect object (who is receiving something) or follows certain prepositions.',
-    intuitionAR: 'تُستخدم حالة الجر للمفعول به غير المباشر (من يتلقى شيئاً) أو بعد حروف جر معينة.',
-    ruleExplanation: 'Articles change: der/das -> dem, die -> der, die(pl) -> den + n.',
-    examples: [
-      { de: 'Ich gebe dem Mann das Buch.', en: 'I give the book to the man.', ar: 'أعطي الكتاب للرجل.' }
-    ],
-    quiz: [
-      {
-        question: 'Which article is dative for a feminine noun?',
-        options: ['dem', 'den', 'der'],
-        correctAnswer: 2,
-        explanation: 'Feminine "die" changes to "der" in the dative case.'
-      }
-    ]
-  },
-  {
-    id: 'adj-endings-a2',
-    titleDE: 'Adjective Endings',
-    titleAR: 'نهايات الصفات',
-    cefr: 'A2',
-    intuitionEN: 'Adjectives change their endings based on gender, case, and whether they follow an article.',
-    intuitionAR: 'تتغير نهايات الصفات بناءً على الجنس والحالة وما إذا كانت تتبع أداة.',
-    ruleExplanation: 'It depends heavily on the article before it. With definite articles, endings are mostly -e or -en.',
-    examples: [
-      { de: 'Der gute Mann', en: 'The good man', ar: 'الرجل الطيب' }
-    ],
-    quiz: [
-      {
-        question: 'Mit einem _____ Auto (das).',
-        options: ['schnelles', 'schnellen', 'schnelle'],
-        correctAnswer: 1,
-        explanation: 'Dative neuter with indefinite article takes "-en".'
-      }
-    ]
-  },
-  {
-    id: 'perfekt-a2',
-    titleDE: 'Perfekt Tense',
-    titleAR: 'الماضي التام (Perfekt)',
-    cefr: 'A2',
-    intuitionEN: 'This is the most common spoken past tense in German. Formed with haben/sein + past participle.',
-    intuitionAR: 'هذا هو زمن الماضي الأكثر شيوعاً في المحادثة بالألمانية.',
-    ruleExplanation: 'Use "haben" for most verbs. Use "sein" for verbs involving movement or change of state.',
-    examples: [
-      { de: 'Ich habe gegessen.', en: 'I have eaten.', ar: 'لقد أكلت.' },
-      { de: 'Ich bin gegangen.', en: 'I went.', ar: 'لقد ذهبت.' }
-    ],
-    quiz: [
-      {
-        question: 'Which auxiliary verb is used with "fliegen" (to fly)?',
-        options: ['haben', 'sein'],
-        correctAnswer: 1,
-        explanation: '"fliegen" involves movement from A to B, so it takes "sein".'
-      }
-    ]
-  },
-  {
-    id: 'sub-clauses-b1',
-    titleDE: 'Subordinate Clauses',
-    titleAR: 'الجمل الجانبية (Nebensätze)',
-    cefr: 'B1',
-    intuitionEN: 'When joining sentences with connectors like "weil" or "dass", the conjugated verb goes to the very end.',
-    intuitionAR: 'عند ربط الجمل بروابط مثل "weil" أو "dass"، يذهب الفعل المصرف إلى نهاية الجملة.',
-    ruleExplanation: 'In a subordinate clause, the conjugated verb is pushed to the final position.',
-    arabicWarning: {
-      mistake: 'Ich lerne Deutsch, weil ich will arbeiten in Deutschland.',
-      correct: 'Ich lerne Deutsch, weil ich in Deutschland arbeiten will.',
-      explanation: 'In Arabic, the verb can come first (VSO order) or follow the subject. In German subordinate clauses, the verb MUST be in the absolute final position.'
-    },
-    examples: [
-      { de: 'Ich bleibe zu Hause, weil ich krank bin.', en: 'I am staying home because I am sick.', ar: 'سأبقى في المنزل لأنني مريض.' }
-    ],
-    quiz: [
-      {
-        question: 'Where does the verb go after "dass"?',
-        options: ['Position 2', 'The end'],
-        correctAnswer: 1,
-        explanation: '"dass" introduces a subordinate clause, sending the verb to the end.'
-      }
-    ]
+// Web Speech API helper for native German pronunciation
+const speakGermanText = (text: string) => {
+  if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'de-DE';
+    utterance.rate = 0.9;
+    window.speechSynthesis.speak(utterance);
   }
-];
-
-const CEFR_COLORS = {
-  A1: 'bg-emerald-100 text-emerald-800 border-emerald-200',
-  A2: 'bg-blue-100 text-blue-800 border-blue-200',
-  B1: 'bg-amber-100 text-amber-800 border-amber-200',
-  B2: 'bg-violet-100 text-violet-800 border-violet-200'
 };
 
 export const GrammarView: React.FC = () => {
-  const { currentTrackId, grammarStatus, toggleGrammarStatus } = useApp();
-  const currentTrackLevel = currentTrackId.includes('a2') ? 'A2' : currentTrackId.includes('b1') ? 'B1' : 'A1';
-  const [activeFilter, setActiveFilter] = useState<'All' | 'A1' | 'A2' | 'B1' | 'Weak'>(currentTrackLevel);
-  const [selectedConcept, setSelectedConcept] = useState<GrammarConcept | null>(null);
+  const { currentTrackId, grammarStatus, toggleGrammarStatus, markConceptMastered } = useApp();
+  
+  const defaultFilter: CEFRFilter = currentTrackId.includes('a2') ? 'A2' : currentTrackId.includes('b1') ? 'B1' : 'A1';
+  const [activeFilter, setActiveFilter] = useState<CEFRFilter>(defaultFilter);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [selectedConceptId, setSelectedConceptId] = useState<string | null>(null);
 
-  // Quick Quiz State
+  // Quiz state
   const [quizAnswers, setQuizAnswers] = useState<Record<number, number>>({});
   const [showResults, setShowResults] = useState<Record<number, boolean>>({});
 
-  const filteredConcepts = GRAMMAR_CONCEPTS.filter(concept => {
-    if (activeFilter === 'All') return true;
-    if (activeFilter === 'Weak') return !grammarStatus[concept.id];
-    return concept.cefr === activeFilter;
-  });
+  const selectedConcept = useMemo(() => {
+    return KNOWLEDGE_GRAPH.find(c => c.id === selectedConceptId) || null;
+  }, [selectedConceptId]);
 
-  const handleConceptSelect = (concept: GrammarConcept) => {
-    setSelectedConcept(concept);
+  // Find linked Arabic transfer errors for selected concept
+  const linkedArabicErrors = useMemo(() => {
+    if (!selectedConcept) return [];
+    const ids = selectedConcept.arabicErrorIds || [];
+    return ARABIC_ERRORS.filter(err => ids.includes(err.id) || err.conceptId === selectedConcept.id);
+  }, [selectedConcept]);
+
+  // Filter concepts based on tab & search query
+  const filteredConcepts = useMemo(() => {
+    return KNOWLEDGE_GRAPH.filter(concept => {
+      const q = searchQuery.toLowerCase().trim();
+      const matchesSearch = !q || (
+        concept.titleDE.toLowerCase().includes(q) ||
+        concept.titleAR.toLowerCase().includes(q) ||
+        concept.description.toLowerCase().includes(q) ||
+        concept.intuition.toLowerCase().includes(q)
+      );
+
+      if (!matchesSearch) return false;
+
+      if (activeFilter === 'All') return true;
+      if (activeFilter === 'Weak') return !grammarStatus[concept.id];
+      return concept.cefr === activeFilter;
+    });
+  }, [activeFilter, searchQuery, grammarStatus]);
+
+  const masteredCount = useMemo(() => {
+    return KNOWLEDGE_GRAPH.filter(c => grammarStatus[c.id]).length;
+  }, [grammarStatus]);
+
+  const handleConceptSelect = (conceptId: string) => {
+    setSelectedConceptId(conceptId);
     setQuizAnswers({});
     setShowResults({});
   };
 
-  const handleQuizAnswer = (qIndex: number, optionIndex: number) => {
+  const handleQuizAnswer = (qIndex: number, optionIndex: number, correctIndex: number) => {
     setQuizAnswers(prev => ({ ...prev, [qIndex]: optionIndex }));
     setShowResults(prev => ({ ...prev, [qIndex]: true }));
+
+    // If answered correctly and concept selected, calculate score and update mastery
+    if (optionIndex === correctIndex && selectedConcept) {
+      markConceptMastered(selectedConcept.id, 90);
+    }
   };
 
+  // ── Detail Concept View ─────────────────────────────────────────────
   if (selectedConcept) {
-    const isLearned = grammarStatus[selectedConcept.id];
-    
+    const isLearned = !!grammarStatus[selectedConcept.id];
+    const badgeStyle = CEFR_BADGES[selectedConcept.cefr] || CEFR_BADGES['A1'];
+
     return (
       <div className="max-w-4xl mx-auto p-4 md:p-8 animate-in fade-in slide-in-from-right-4 duration-300">
-        <button 
-          onClick={() => setSelectedConcept(null)}
-          className="flex items-center text-text-muted hover:text-text-primary mb-6 transition-colors"
+        <button
+          onClick={() => setSelectedConceptId(null)}
+          className="flex items-center gap-2 text-stone-400 hover:text-amber-400 font-medium mb-6 transition-colors text-sm"
         >
-          <ArrowLeft className="w-4 h-4 mr-2" /> Back to Concepts
+          <ArrowLeft className="w-4 h-4" />
+          <span>العودة لمكتبة القواعد (Back to Grammar Explorer)</span>
         </button>
 
-        <div className="bg-surface rounded-2xl p-6 md:p-8 shadow-sm border border-border">
-          <div className="flex flex-wrap items-start justify-between gap-4 mb-8">
-            <div>
-              <div className="flex items-center gap-3 mb-2">
-                <span className={`px-2.5 py-0.5 rounded-full text-xs font-bold ${CEFR_COLORS[selectedConcept.cefr]}`}>
-                  {selectedConcept.cefr}
+        <div className="bg-[#141419] rounded-2xl p-6 md:p-8 border border-white/10 shadow-2xl space-y-8">
+          {/* Header */}
+          <div className="flex flex-wrap items-start justify-between gap-4 border-b border-white/10 pb-6">
+            <div className="space-y-2 min-w-0 flex-1">
+              <div className="flex items-center gap-3">
+                <span className={`px-3 py-1 rounded-full text-xs font-black border ${badgeStyle.bg} ${badgeStyle.text} ${badgeStyle.border}`}>
+                  {selectedConcept.cefr} MODULE
                 </span>
-                {isLearned && (
-                  <span className="flex items-center text-success text-sm font-medium bg-success-bg px-2.5 py-0.5 rounded-full">
-                    <CheckCircle className="w-4 h-4 mr-1" /> Mastered
+                {isLearned ? (
+                  <span className="flex items-center gap-1.5 text-emerald-400 text-xs font-bold bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full">
+                    <CheckCircle className="w-3.5 h-3.5" /> متمكن (Mastered)
+                  </span>
+                ) : (
+                  <span className="flex items-center gap-1.5 text-amber-400 text-xs font-bold bg-amber-500/10 border border-amber-500/20 px-3 py-1 rounded-full">
+                    <Flame className="w-3.5 h-3.5" /> قيد الدراسة (In Progress)
                   </span>
                 )}
               </div>
-              <h1 className="text-3xl font-black text-text-primary mb-1">{selectedConcept.titleDE}</h1>
-              <h2 className="text-xl font-cairo text-text-muted" dir="rtl">{selectedConcept.titleAR}</h2>
+              <div className="flex items-center gap-3">
+                <h1 className="text-2xl md:text-3xl font-black text-white">{selectedConcept.titleDE}</h1>
+                <button
+                  onClick={() => speakGermanText(selectedConcept.titleDE)}
+                  className="p-2 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-400 transition-all border border-amber-500/20"
+                  title="استمع للنطق الألماني"
+                >
+                  <Volume2 className="w-5 h-5" />
+                </button>
+              </div>
+              <h2 className="text-lg font-cairo text-amber-400 font-bold" dir="rtl">{selectedConcept.titleAR}</h2>
             </div>
-            
+
             <button
               onClick={() => toggleGrammarStatus(selectedConcept.id)}
-              className={`px-4 py-2 rounded-lg font-medium flex items-center transition-colors ${
-                isLearned 
-                  ? 'bg-border text-text-secondary hover:bg-border-subtle'
-                  : 'bg-amber-500 text-white hover:bg-amber-600 shadow-sm'
+              className={`px-5 py-3 rounded-xl font-bold text-xs flex items-center gap-2 transition-all shadow-md ${
+                isLearned
+                  ? 'bg-white/10 text-white/80 hover:bg-white/15 border border-white/10'
+                  : 'bg-amber-500 hover:bg-amber-400 text-stone-950 shadow-amber-500/20'
               }`}
             >
-              {isLearned ? 'Mark as Unlearned' : 'Mark as Mastered'}
+              {isLearned ? (
+                <>
+                  <X className="w-4 h-4" />
+                  <span>تحديد كغير متمكن</span>
+                </>
+              ) : (
+                <>
+                  <Check className="w-4 h-4" />
+                  <span>تحديد كقاعدة متمكّن منها</span>
+                </>
+              )}
             </button>
           </div>
 
-          <div className="space-y-8">
-            <section>
-              <h3 className="text-lg font-bold mb-3 flex items-center">
-                <BookOpen className="w-5 h-5 mr-2 text-amber-500" /> Intuition
+          {/* Description & Intuition */}
+          <section className="space-y-4">
+            <h3 className="text-sm font-bold text-amber-400 uppercase tracking-widest flex items-center gap-2">
+              <BookOpen className="w-4 h-4" /> الفكرة والنطق النحوي (Intuition & Concept)
+            </h3>
+            <div className="bg-[#1c1c24] rounded-2xl p-5 border border-white/10 space-y-4">
+              <div className="space-y-1">
+                <span className="text-[10px] text-white/40 uppercase tracking-widest font-mono">German Rule Description</span>
+                <p className="text-sm text-stone-300 font-medium leading-relaxed">{selectedConcept.description}</p>
+              </div>
+              <div className="pt-3 border-t border-white/10 space-y-1" dir="rtl">
+                <span className="text-[10px] text-amber-400 uppercase tracking-widest font-mono">الشرح والفهم العربي:</span>
+                <p className="font-cairo text-sm text-amber-200/90 leading-relaxed">{selectedConcept.intuitionAR}</p>
+              </div>
+            </div>
+          </section>
+
+          {/* Arabic Transfer Warnings */}
+          {linkedArabicErrors.length > 0 && (
+            <section className="space-y-4">
+              <h3 className="text-sm font-bold text-rose-400 uppercase tracking-widest flex items-center gap-2">
+                <AlertTriangle className="w-4 h-4" /> أخطاء متحدثي العربية الشائعة (Arabic Transfer Errors)
               </h3>
-              <div className="bg-amber-50 rounded-xl p-5 border border-amber-100">
-                <p className="text-text-secondary mb-3">{selectedConcept.intuitionEN}</p>
-                <p className="font-cairo text-text-secondary text-right" dir="rtl">{selectedConcept.intuitionAR}</p>
-              </div>
-            </section>
+              <div className="space-y-3">
+                {linkedArabicErrors.map((err) => (
+                  <div key={err.id} className="bg-rose-500/10 border border-rose-500/25 rounded-2xl p-5 space-y-3">
+                    <div className="flex flex-wrap items-center justify-between gap-2" dir="rtl">
+                      <span className="text-xs font-bold text-rose-400 font-cairo">مصدر الخطأ: {err.arabicSource}</span>
+                      <span className="text-[10px] bg-rose-500/20 text-rose-300 px-2 py-0.5 rounded font-mono uppercase">
+                        {err.errorType}
+                      </span>
+                    </div>
 
-            <section>
-              <h3 className="text-lg font-bold mb-3">The Rule</h3>
-              <div className="bg-surface rounded-xl p-5 border border-border shadow-sm">
-                <p className="text-text-secondary">{selectedConcept.ruleExplanation}</p>
-              </div>
-            </section>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs pt-1">
+                      <div className="bg-black/30 p-3 rounded-xl border border-rose-500/20 space-y-1">
+                        <span className="text-rose-400 font-bold flex items-center gap-1">
+                          <X className="w-3.5 h-3.5" /> الخطأ الشائع (Mistake):
+                        </span>
+                        <p className="font-mono text-rose-200 line-through">{err.commonMistake}</p>
+                      </div>
+                      <div className="bg-black/30 p-3 rounded-xl border border-emerald-500/20 space-y-1">
+                        <span className="text-emerald-400 font-bold flex items-center gap-1">
+                          <Check className="w-3.5 h-3.5" /> الصياغة الصحيحة (Correct):
+                        </span>
+                        <p className="font-mono text-emerald-300 font-bold">{err.correction}</p>
+                      </div>
+                    </div>
 
-            {selectedConcept.arabicWarning && (
-              <section>
-                <div className="bg-danger-bg rounded-xl p-5 border border-danger/20">
-                  <h3 className="text-danger font-bold mb-3 flex items-center">
-                    <AlertTriangle className="w-5 h-5 mr-2" /> Common Arabic Speaker Mistake
-                  </h3>
-                  <div className="space-y-3">
-                    <div className="flex items-start">
-                      <X className="w-5 h-5 text-danger mr-2 shrink-0 mt-0.5" />
-                      <p className="text-danger line-through opacity-80">{selectedConcept.arabicWarning.mistake}</p>
-                    </div>
-                    <div className="flex items-start">
-                      <Check className="w-5 h-5 text-success mr-2 shrink-0 mt-0.5" />
-                      <p className="text-success font-medium">{selectedConcept.arabicWarning.correct}</p>
-                    </div>
-                    <div className="pt-2 border-t border-danger/10 mt-2">
-                      <p className="font-cairo text-sm text-danger/90 text-right" dir="rtl">
-                        {selectedConcept.arabicWarning.explanation}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </section>
-            )}
+                    <p className="font-cairo text-xs text-rose-100/90 text-right leading-relaxed pt-1" dir="rtl">
+                      💡 {err.explanationAR}
+                    </p>
 
-            <section>
-              <h3 className="text-lg font-bold mb-3">Examples</h3>
-              <div className="grid gap-3">
-                {selectedConcept.examples.map((ex, idx) => (
-                  <div key={idx} className="p-4 rounded-xl border border-border bg-bg hover:border-amber-200 transition-colors">
-                    <p className="font-bold text-lg mb-1">{ex.de}</p>
-                    <div className="flex justify-between items-center text-sm">
-                      <p className="text-text-muted">{ex.en}</p>
-                      <p className="font-cairo text-text-secondary" dir="rtl">{ex.ar}</p>
-                    </div>
+                    {err.mnemonicAR && (
+                      <div className="bg-amber-500/10 border border-amber-500/20 p-2.5 rounded-xl text-[11px] text-amber-300 font-cairo text-right" dir="rtl">
+                        🧠 مهارة التذكر: {err.mnemonicAR}
+                      </div>
+                    )}
                   </div>
                 ))}
               </div>
             </section>
+          )}
 
-            <section>
-              <h3 className="text-lg font-bold mb-3">Quick Quiz</h3>
-              <div className="space-y-6">
-                {selectedConcept.quiz.map((q, qIndex) => {
-                  const answered = showResults[qIndex];
-                  const isCorrect = quizAnswers[qIndex] === q.correctAnswer;
-                  
+          {/* Prerequisites */}
+          {selectedConcept.prerequisites && selectedConcept.prerequisites.length > 0 && (
+            <section className="space-y-3">
+              <h3 className="text-xs font-bold text-white/50 uppercase tracking-widest">
+                المتطلبات السابقة (Prerequisites)
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {selectedConcept.prerequisites.map(preId => {
+                  const pre = KNOWLEDGE_GRAPH.find(c => c.id === preId);
+                  if (!pre) return null;
                   return (
-                    <div key={qIndex} className="bg-surface border border-border rounded-xl p-5">
-                      <p className="font-medium mb-4">{q.question}</p>
+                    <button
+                      key={preId}
+                      onClick={() => handleConceptSelect(preId)}
+                      className="px-3 py-1.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-medium text-amber-400 flex items-center gap-1.5 transition-all"
+                    >
+                      <Sparkles className="w-3 h-3" />
+                      <span>{pre.titleDE} ({pre.titleAR})</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </section>
+          )}
+
+          {/* Interactive Quiz */}
+          {selectedConcept.masteryTest && selectedConcept.masteryTest.length > 0 && (
+            <section className="space-y-4 pt-4 border-t border-white/10">
+              <h3 className="text-sm font-bold text-amber-400 uppercase tracking-widest flex items-center gap-2">
+                <HelpCircle className="w-4 h-4" /> اختبار التمكن السريع (Quick Mastery Quiz)
+              </h3>
+              <div className="space-y-5">
+                {selectedConcept.masteryTest.map((q, qIndex) => {
+                  const answered = showResults[qIndex];
+                  const isCorrect = quizAnswers[qIndex] === q.correctIndex;
+
+                  return (
+                    <div key={qIndex} className="bg-[#1a1a22] border border-white/10 rounded-2xl p-5 space-y-4">
+                      <p className="font-bold text-sm text-white">{qIndex + 1}. {q.question}</p>
+                      
                       <div className="grid gap-2">
                         {q.options.map((opt, optIdx) => {
-                          let btnClass = "text-left px-4 py-3 rounded-lg border transition-all ";
-                          
+                          let btnStyle = "w-full text-left px-4 py-3 rounded-xl border text-xs font-medium transition-all flex items-center justify-between ";
+
                           if (!answered) {
-                            btnClass += "border-border hover:border-amber-400 hover:bg-amber-50";
+                            btnStyle += "bg-white/5 border-white/10 text-stone-200 hover:border-amber-400/50 hover:bg-amber-500/10";
                           } else {
-                            if (optIdx === q.correctAnswer) {
-                              btnClass += "border-success bg-success-bg text-success font-medium";
+                            if (optIdx === q.correctIndex) {
+                              btnStyle += "bg-emerald-500/20 border-emerald-500/50 text-emerald-300 font-bold";
                             } else if (optIdx === quizAnswers[qIndex]) {
-                              btnClass += "border-danger bg-danger-bg text-danger line-through opacity-70";
+                              btnStyle += "bg-rose-500/20 border-rose-500/50 text-rose-300 line-through";
                             } else {
-                              btnClass += "border-border opacity-50";
+                              btnStyle += "bg-white/3 border-white/5 text-white/30";
                             }
                           }
 
@@ -388,19 +281,31 @@ export const GrammarView: React.FC = () => {
                             <button
                               key={optIdx}
                               disabled={answered}
-                              onClick={() => handleQuizAnswer(qIndex, optIdx)}
-                              className={btnClass}
+                              onClick={() => handleQuizAnswer(qIndex, optIdx, q.correctIndex)}
+                              className={btnStyle}
                             >
-                              {opt}
+                              <span>{opt}</span>
+                              {answered && optIdx === q.correctIndex && (
+                                <CheckCircle className="w-4 h-4 text-emerald-400 shrink-0 ml-2" />
+                              )}
+                              {answered && optIdx === quizAnswers[qIndex] && optIdx !== q.correctIndex && (
+                                <X className="w-4 h-4 text-rose-400 shrink-0 ml-2" />
+                              )}
                             </button>
                           );
                         })}
                       </div>
-                      
+
                       {answered && (
-                        <div className={`mt-4 p-3 rounded-lg text-sm flex items-start ${isCorrect ? 'bg-success-bg text-success' : 'bg-danger-bg text-danger'}`}>
-                          {isCorrect ? <CheckCircle className="w-5 h-5 mr-2 shrink-0" /> : <AlertTriangle className="w-5 h-5 mr-2 shrink-0" />}
-                          <p>{q.explanation}</p>
+                        <div className={`p-4 rounded-xl text-xs space-y-1 ${
+                          isCorrect ? 'bg-emerald-500/10 border border-emerald-500/20 text-emerald-300' : 'bg-rose-500/10 border border-rose-500/20 text-rose-300'
+                        }`}>
+                          <div className="flex items-center gap-1.5 font-bold">
+                            {isCorrect ? <CheckCircle className="w-4 h-4 shrink-0" /> : <AlertTriangle className="w-4 h-4 shrink-0" />}
+                            <span>{isCorrect ? 'إجابة صحيحة!' : 'توضيح الإجابة:'}</span>
+                          </div>
+                          <p className="text-white/80">{q.explanation}</p>
+                          <p className="font-cairo text-white/90 pt-1" dir="rtl">{q.explanationAR}</p>
                         </div>
                       )}
                     </div>
@@ -408,70 +313,133 @@ export const GrammarView: React.FC = () => {
                 })}
               </div>
             </section>
-          </div>
+          )}
         </div>
       </div>
     );
   }
 
+  // ── Grid Main Explorer View ─────────────────────────────────────────
   return (
-    <div className="max-w-6xl mx-auto p-4 md:p-8 animate-in fade-in duration-300">
-      <div className="mb-8">
-        <h1 className="text-3xl font-black mb-2">Grammar Explorer</h1>
-        <p className="text-text-muted">Master German grammar with Arabic context and intuition.</p>
+    <div className="max-w-6xl mx-auto p-4 md:p-8 space-y-8 animate-in fade-in duration-300">
+      {/* Header & Stats */}
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 bg-[#141419] p-6 rounded-2xl border border-white/10 shadow-xl">
+        <div>
+          <h1 className="text-2xl md:text-3xl font-black text-white tracking-tight flex items-center gap-2">
+            <span>مستكشف القواعد (Grammar Explorer)</span>
+            <Sparkles className="w-6 h-6 text-amber-400" />
+          </h1>
+          <p className="text-xs text-stone-400 mt-1">
+            تعلم قواعد الألمانية بعمق مع التفسير الذهني العربي وتنبيهات أخطاء المتحدثين بالعربية.
+          </p>
+        </div>
+
+        <div className="flex items-center gap-3 shrink-0">
+          <div className="bg-amber-500/10 border border-amber-500/20 px-4 py-2.5 rounded-xl text-center">
+            <div className="text-xl font-black text-amber-400 font-mono">{masteredCount} / {KNOWLEDGE_GRAPH.length}</div>
+            <div className="text-[10px] text-white/50 uppercase tracking-widest font-bold">قاعدة متمكن منها</div>
+          </div>
+        </div>
       </div>
 
-      <div className="flex flex-wrap gap-2 mb-8">
-        {['All', 'A1', 'A2', 'B1', 'Weak'].map(filter => (
-          <button
-            key={filter}
-            onClick={() => setActiveFilter(filter as any)}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-              activeFilter === filter 
-                ? 'bg-amber-500 text-white shadow-sm' 
-                : 'bg-surface border border-border text-text-secondary hover:bg-border-subtle'
-            }`}
-          >
-            {filter === 'Weak' ? 'My Weak Points' : filter}
-          </button>
-        ))}
-      </div>
+      {/* Controls: Search & Level Tabs */}
+      <div className="space-y-4">
+        <div className="relative">
+          <Search className="w-4 h-4 absolute left-3.5 top-3.5 text-white/40" />
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder="ابحث عن اسم القاعدة بالألمانية أو العربية (Search grammar concept)..."
+            className="w-full bg-[#141419] border border-white/10 rounded-xl pl-10 pr-4 py-2.5 text-xs text-white placeholder-white/40 focus:outline-none focus:border-amber-400 transition-all font-cairo"
+            dir="auto"
+          />
+        </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-        {filteredConcepts.map(concept => {
-          const isLearned = grammarStatus[concept.id];
-          return (
+        <div className="flex flex-wrap gap-2">
+          {(['All', 'A1', 'A2', 'B1', 'B2', 'Weak'] as CEFRFilter[]).map(filter => (
             <button
-              key={concept.id}
-              onClick={() => handleConceptSelect(concept)}
-              className="group text-left bg-surface rounded-2xl p-5 border border-border hover:border-amber-400 hover:shadow-md transition-all relative overflow-hidden"
+              key={filter}
+              onClick={() => setActiveFilter(filter)}
+              className={`px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
+                activeFilter === filter
+                  ? 'bg-amber-500 text-stone-950 shadow-md shadow-amber-500/20'
+                  : 'bg-[#141419] border border-white/10 text-white/60 hover:text-white hover:bg-white/5'
+              }`}
             >
-              {isLearned && (
-                <div className="absolute top-0 right-0 p-4 opacity-10">
-                  <CheckCircle className="w-16 h-16" />
-                </div>
+              {filter === 'Weak' ? (
+                <>
+                  <AlertTriangle className="w-3.5 h-3.5 text-rose-400" />
+                  <span>نقاط ضعفي ({KNOWLEDGE_GRAPH.filter(c => !grammarStatus[c.id]).length})</span>
+                </>
+              ) : (
+                <span>{filter === 'All' ? 'جميع المستويات' : `مستوى ${filter}`}</span>
               )}
-              
-              <div className="flex items-center justify-between mb-3 relative z-10">
-                <span className={`px-2 py-0.5 rounded text-xs font-bold ${CEFR_COLORS[concept.cefr]}`}>
-                  {concept.cefr}
-                </span>
-                {isLearned && <CheckCircle className="w-5 h-5 text-success" />}
-              </div>
-              
-              <h3 className="font-bold text-lg mb-1 relative z-10 group-hover:text-amber-600 transition-colors">
-                {concept.titleDE}
-              </h3>
-              <p className="font-cairo text-text-muted text-sm relative z-10" dir="rtl">
-                {concept.titleAR}
-              </p>
             </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Concept Cards Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {filteredConcepts.map(concept => {
+          const isLearned = !!grammarStatus[concept.id];
+          const badgeStyle = CEFR_BADGES[concept.cefr] || CEFR_BADGES['A1'];
+
+          return (
+            <div
+              key={concept.id}
+              onClick={() => handleConceptSelect(concept.id)}
+              className="group cursor-pointer bg-[#141419] rounded-2xl p-5 border border-white/10 hover:border-amber-400/50 hover:shadow-xl hover:shadow-amber-500/5 transition-all relative overflow-hidden flex flex-col justify-between"
+            >
+              <div className="space-y-3 relative z-10">
+                <div className="flex items-center justify-between">
+                  <span className={`px-2.5 py-0.5 rounded-full text-[10px] font-black border ${badgeStyle.bg} ${badgeStyle.text} ${badgeStyle.border}`}>
+                    {concept.cefr}
+                  </span>
+                  {isLearned ? (
+                    <span className="flex items-center gap-1 text-[10px] font-bold text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/20">
+                      <CheckCircle className="w-3 h-3" /> متمكن
+                    </span>
+                  ) : (
+                    <span className="text-[10px] font-mono text-white/30">
+                      ~{concept.estimatedMinutes}m
+                    </span>
+                  )}
+                </div>
+
+                <div>
+                  <h3 className="font-bold text-base text-white group-hover:text-amber-400 transition-colors">
+                    {concept.titleDE}
+                  </h3>
+                  <p className="font-cairo text-xs text-amber-300/80 font-semibold mt-0.5" dir="rtl">
+                    {concept.titleAR}
+                  </p>
+                </div>
+
+                <p className="text-xs text-white/50 line-clamp-2 leading-relaxed">
+                  {concept.description}
+                </p>
+              </div>
+
+              <div className="pt-4 mt-4 border-t border-white/5 flex items-center justify-between text-xs text-amber-400 font-medium relative z-10">
+                <span>استكشف القاعدة</span>
+                <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </div>
+            </div>
           );
         })}
+
         {filteredConcepts.length === 0 && (
-          <div className="col-span-full py-12 text-center text-text-muted">
-            <BookOpen className="w-12 h-12 mx-auto mb-3 opacity-20" />
-            <p>No concepts found for this filter.</p>
+          <div className="col-span-full py-16 text-center bg-[#141419] rounded-2xl border border-white/10 space-y-3">
+            <BookOpen className="w-12 h-12 text-white/20 mx-auto" />
+            <p className="text-sm font-bold text-white/60">لم يتم العثور على قواعد تطابق خيارات البحث.</p>
+            <button
+              onClick={() => { setActiveFilter('All'); setSearchQuery(''); }}
+              className="text-xs text-amber-400 underline font-semibold hover:text-amber-300"
+            >
+              إعادة ضبط الفلاتر
+            </button>
           </div>
         )}
       </div>

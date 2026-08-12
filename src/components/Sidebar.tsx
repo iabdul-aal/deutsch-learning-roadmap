@@ -27,16 +27,27 @@ export const Sidebar: React.FC<SidebarProps> = ({ onOpenTimer }) => {
     mode, setMode, activeView, setActiveView,
     currentTrackId, setTrackId,
     streakDays, completedTasks, totalTaskCount, resetProgress,
-    learnerModel, dueCardCount,
+    learnerModel, dueCardCount, isTrackUnlocked, unlockTrack,
   } = useApp();
 
   const [trackDropdownOpen, setTrackDropdownOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [lockedTrackToUnlock, setLockedTrackToUnlock] = useState<any | null>(null);
 
   const completedCount = Object.values(completedTasks).filter(Boolean).length;
   const progressPercent = Math.min(100, Math.round((completedCount / Math.max(totalTaskCount, 1)) * 100));
 
   const currentTrack = AVAILABLE_TRACKS.find(t => t.id === currentTrackId) || AVAILABLE_TRACKS[0];
+
+  const handleTrackSelect = (track: typeof AVAILABLE_TRACKS[0]) => {
+    if (isTrackUnlocked(track.id)) {
+      setTrackId(track.id);
+      setTrackDropdownOpen(false);
+    } else {
+      setLockedTrackToUnlock(track);
+      setTrackDropdownOpen(false);
+    }
+  };
 
   const handleNavClick = (id: string) => {
     setActiveView(id);
@@ -83,24 +94,35 @@ export const Sidebar: React.FC<SidebarProps> = ({ onOpenTimer }) => {
 
           {trackDropdownOpen && (
             <div className="absolute left-0 right-0 mt-1 bg-[#1a1a22] border border-white/15 rounded-xl shadow-xl z-50 overflow-hidden">
-              {AVAILABLE_TRACKS.map((track) => (
-                <button
-                  key={track.id}
-                  onClick={() => { setTrackId(track.id); setTrackDropdownOpen(false); }}
-                  className={`w-full flex items-center justify-between px-3 py-2.5 text-left text-xs transition-all ${
-                    currentTrackId === track.id
-                      ? 'bg-amber-500/20 text-amber-300 font-bold'
-                      : 'text-white/60 hover:bg-white/8 hover:text-white'
-                  }`}
-                >
-                  <span>{track.name}</span>
-                  <span className={`px-1.5 py-0.5 rounded text-[9px] font-black ${
-                    track.level === 'A1' ? 'bg-amber-500/30 text-amber-300' :
-                    track.level === 'A2' ? 'bg-indigo-500/30 text-indigo-300' :
-                    'bg-emerald-500/30 text-emerald-300'
-                  }`}>{track.level}</span>
-                </button>
-              ))}
+              {AVAILABLE_TRACKS.map((track) => {
+                const unlocked = isTrackUnlocked(track.id);
+                return (
+                  <button
+                    key={track.id}
+                    onClick={() => handleTrackSelect(track)}
+                    className={`w-full flex items-center justify-between px-3 py-2.5 text-left text-xs transition-all ${
+                      currentTrackId === track.id
+                        ? 'bg-amber-500/20 text-amber-300 font-bold'
+                        : unlocked
+                        ? 'text-white/80 hover:bg-white/8 hover:text-white'
+                        : 'text-white/40 bg-white/3 hover:bg-white/6'
+                    }`}
+                  >
+                    <div className="flex items-center gap-1.5 truncate pr-1">
+                      {!unlocked && <Lock className="w-3 h-3 text-rose-400 shrink-0" />}
+                      <span className="truncate">{track.name}</span>
+                    </div>
+                    <span className={`px-1.5 py-0.5 rounded text-[9px] font-black shrink-0 ${
+                      !unlocked ? 'bg-rose-500/20 text-rose-300 border border-rose-500/30' :
+                      track.level === 'A1' ? 'bg-amber-500/30 text-amber-300' :
+                      track.level === 'A2' ? 'bg-indigo-500/30 text-indigo-300' :
+                      'bg-emerald-500/30 text-emerald-300'
+                    }`}>
+                      {unlocked ? track.level : 'LOCKED'}
+                    </span>
+                  </button>
+                );
+              })}
             </div>
           )}
         </div>
@@ -237,6 +259,49 @@ export const Sidebar: React.FC<SidebarProps> = ({ onOpenTimer }) => {
       <div className="hidden lg:flex w-64 min-h-screen shrink-0 flex-col bg-[#0f0f12] border-r border-white/10">
         {sidebarContent}
       </div>
+      {/* Track Unlock Modal for Locked Tracks */}
+      {lockedTrackToUnlock && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm animate-in fade-in duration-200">
+          <div className="bg-[#18181f] border border-amber-500/30 rounded-2xl p-6 max-w-md w-full shadow-2xl text-white space-y-4" dir="rtl">
+            <div className="flex items-center gap-3 text-amber-400">
+              <div className="w-10 h-10 rounded-xl bg-rose-500/20 border border-rose-500/30 flex items-center justify-center text-rose-400">
+                <Lock className="w-5 h-5" />
+              </div>
+              <div>
+                <h3 className="text-base font-bold">المسار مغلق 🔒 ({lockedTrackToUnlock.level})</h3>
+                <p className="text-xs text-white/60 font-sans">Track Locked — Progressive Roadmap Requirement</p>
+              </div>
+            </div>
+
+            <p className="text-xs text-white/80 leading-relaxed font-cairo">
+              للحفاظ على التدرج التعليمي الصحيح، يوصى بإكمال مسار{' '}
+              <span className="font-bold text-amber-400">
+                {lockedTrackToUnlock.level === 'A2' ? 'A1' : 'A2'}
+              </span>{' '}
+              أولاً (إنجاز 70% من المهام أو اجتياز التقييم). هل تريد فتح المسار يدويًا للمتعلمين المتقدمين؟
+            </p>
+
+            <div className="flex items-center gap-3 pt-2">
+              <button
+                onClick={() => {
+                  unlockTrack(lockedTrackToUnlock.id);
+                  setTrackId(lockedTrackToUnlock.id);
+                  setLockedTrackToUnlock(null);
+                }}
+                className="flex-1 py-2.5 px-4 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold text-xs transition-all shadow-lg flex items-center justify-center gap-1.5"
+              >
+                <span>تخطي وفتح المسار الآن 🔓</span>
+              </button>
+              <button
+                onClick={() => setLockedTrackToUnlock(null)}
+                className="py-2.5 px-4 rounded-xl bg-white/10 hover:bg-white/15 text-white/80 text-xs font-semibold transition-all"
+              >
+                إلغاء
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 };

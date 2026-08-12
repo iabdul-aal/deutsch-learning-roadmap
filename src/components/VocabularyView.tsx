@@ -1,32 +1,37 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { useApp } from '../context/AppContext';
-import { A1_VOCABULARY } from '../data/vocabulary/a1-core';
-import type { VocabWord } from '../data/vocabulary/a1-core';
+import { A1_VOCABULARY, VocabWord } from '../data/vocabulary/a1-core';
 import {
-  Search, Brain, Check, X, RotateCcw, ChevronRight,
-  Star, BookOpen, TrendingUp, Flame, Clock, Trophy, Layers,
+  Search, Brain, Check, X, RotateCcw, ChevronRight, Volume2,
+  Star, BookOpen, TrendingUp, Flame, Clock, Trophy, Layers, Filter
 } from 'lucide-react';
 
-// ── Article colour coding (pedagogical best practice) ────────────
+// Article colour coding (pedagogical best practice)
 const ARTICLE_COLORS: Record<string, { text: string; bg: string; border: string }> = {
-  der: { text: 'text-blue-700',   bg: 'bg-blue-50',   border: 'border-blue-200' },
-  die: { text: 'text-rose-700',   bg: 'bg-rose-50',   border: 'border-rose-200' },
-  das: { text: 'text-emerald-700', bg: 'bg-emerald-50', border: 'border-emerald-200' },
+  der: { text: 'text-blue-400',   bg: 'bg-blue-500/15',   border: 'border-blue-500/30' },
+  die: { text: 'text-rose-400',   bg: 'bg-rose-500/15',   border: 'border-rose-500/30' },
+  das: { text: 'text-emerald-400', bg: 'bg-emerald-500/15', border: 'border-emerald-500/30' },
 };
 
-// ── SRS quality labels ────────────────────────────────────────────
+// Web Speech API for native German TTS pronunciation
+const speakGermanWord = (text: string) => {
+  if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'de-DE';
+    utterance.rate = 0.85;
+    window.speechSynthesis.speak(utterance);
+  }
+};
+
 const QUALITY_BUTTONS = [
-  { quality: 1 as const, label: 'Again',  labelAR: 'مجدداً',  color: 'bg-rose-500 hover:bg-rose-600 text-white', icon: X },
-  { quality: 2 as const, label: 'Hard',   labelAR: 'صعب',     color: 'bg-orange-400 hover:bg-orange-500 text-white', icon: RotateCcw },
-  { quality: 4 as const, label: 'Good',   labelAR: 'جيد',     color: 'bg-amber-500 hover:bg-amber-600 text-stone-900', icon: Check },
-  { quality: 5 as const, label: 'Easy',   labelAR: 'سهل',     color: 'bg-emerald-500 hover:bg-emerald-600 text-white', icon: Star },
+  { quality: 1 as const, label: 'Again',  labelAR: 'إعادة',  color: 'bg-rose-500 hover:bg-rose-400 text-white', icon: X },
+  { quality: 2 as const, label: 'Hard',   labelAR: 'صعب',    color: 'bg-orange-500 hover:bg-orange-400 text-white', icon: RotateCcw },
+  { quality: 4 as const, label: 'Good',   labelAR: 'جيد',    color: 'bg-amber-500 hover:bg-amber-400 text-stone-950', icon: Check },
+  { quality: 5 as const, label: 'Easy',   labelAR: 'سهل',    color: 'bg-emerald-500 hover:bg-emerald-400 text-stone-950', icon: Star },
 ] as const;
 
-type QualityValue = 1 | 2 | 4 | 5;
-
-const MAX_DAILY_NEW = 20;
-
-// ── Flashcard ────────────────────────────────────────────────────
+// ── Interactive Flashcard Component ─────────────────────────────────
 const FlashCard: React.FC<{
   word: VocabWord;
   isFlipped: boolean;
@@ -40,441 +45,333 @@ const FlashCard: React.FC<{
       style={{ perspective: '1200px' }}
       onClick={onFlip}
       role="button"
-      aria-label={`Flashcard: ${word.german}. Press to reveal Arabic translation.`}
+      aria-label={`Flashcard: ${word.german}. Click to flip.`}
       tabIndex={0}
       onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') onFlip(); }}
     >
-      {/* Card container with flip animation */}
       <div
-        className="relative w-full transition-transform duration-500 ease-in-out"
+        className="relative w-full transition-transform duration-500 ease-in-out min-h-[300px]"
         style={{
           transformStyle: 'preserve-3d',
           transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)',
-          minHeight: '260px',
         }}
       >
-        {/* Front - German */}
+        {/* Front Side: German */}
         <div
-          className="absolute inset-0 rounded-2xl border border-stone-200 bg-white shadow-sm p-6 flex flex-col items-center justify-center gap-3"
+          className="absolute inset-0 rounded-2xl border border-white/10 bg-[#18181f] shadow-2xl p-6 flex flex-col items-center justify-between gap-3 text-center"
           style={{ backfaceVisibility: 'hidden' }}
         >
-          {word.article && ac && (
-            <span className={`text-xs font-black px-3 py-1 rounded-full border ${ac.bg} ${ac.text} ${ac.border}`}>
-              {word.article}
-            </span>
-          )}
-          <p className="text-4xl font-black text-stone-900 text-center leading-tight">
-            {word.german}
-          </p>
-          {word.plural && (
-            <p className="text-xs text-stone-400">
-              Pl: {word.plural}
-            </p>
-          )}
-          <div className="flex items-center gap-2 mt-2">
-            <span className="text-[10px] font-bold text-stone-300 bg-stone-50 px-2 py-0.5 rounded-full border border-stone-100 uppercase">
-              {word.wordType}
-            </span>
-            <span className="text-[10px] font-bold text-stone-300 bg-stone-50 px-2 py-0.5 rounded-full border border-stone-100">
-              {word.semanticField}
-            </span>
-          </div>
-          <p className="text-xs text-stone-400 text-center mt-2 italic">
-            {word.exampleDE}
-          </p>
-          <p className="text-[11px] text-stone-300 mt-1 animate-pulse-soft">
-            Tap to reveal ↓
-          </p>
-        </div>
-
-        {/* Back - Arabic + English */}
-        <div
-          className="absolute inset-0 rounded-2xl border border-amber-200 bg-amber-50 shadow-sm p-6 flex flex-col items-center justify-center gap-3"
-          style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
-        >
-          <p className="text-3xl font-black text-amber-900 text-center leading-tight" dir="rtl">
-            {word.arabic}
-          </p>
-          <p className="text-sm text-stone-600 font-medium">{word.english}</p>
-          <p className="text-xs text-stone-500 text-center italic">{word.exampleDE}</p>
-          {word.nounGenderHint && (
-            <div className="bg-amber-100 border border-amber-200 rounded-xl px-3 py-1.5 text-[11px] text-amber-800 text-center" dir="rtl">
-              💡 {word.nounGenderHint}
-            </div>
-          )}
-          {word.commonMistakeAR && (
-            <div className="bg-rose-50 border border-rose-100 rounded-xl px-3 py-1.5 text-[11px] text-rose-700 text-center" dir="rtl">
-              ⚠️ {word.commonMistakeAR}
-            </div>
-          )}
-        </div>
-      </div>
-    </div>
-  );
-};
-
-// ── Browse Card ───────────────────────────────────────────────────
-const BrowseCard: React.FC<{ word: VocabWord; srsState?: string }> = ({ word, srsState }) => {
-  const ac = word.article ? ARTICLE_COLORS[word.article] : null;
-  const [expanded, setExpanded] = useState(false);
-
-  return (
-    <div className="rounded-xl border border-stone-200 bg-white overflow-hidden">
-      <button
-        className="w-full flex items-center gap-3 p-3 text-left"
-        onClick={() => setExpanded(e => !e)}
-        aria-expanded={expanded}
-      >
-        {word.article && ac ? (
-          <span className={`w-10 h-10 rounded-lg flex items-center justify-center text-xs font-black shrink-0 border ${ac.bg} ${ac.text} ${ac.border}`}>
-            {word.article}
-          </span>
-        ) : (
-          <span className="w-10 h-10 rounded-lg bg-stone-50 flex items-center justify-center text-xs font-bold text-stone-400 shrink-0 border border-stone-100">
-            {word.wordType.slice(0, 3).toUpperCase()}
-          </span>
-        )}
-        <div className="flex-1 min-w-0">
-          <p className="text-sm font-black text-stone-900">{word.german}</p>
-          <p className="text-xs text-stone-500" dir="rtl">{word.arabic}</p>
-        </div>
-        <div className="flex items-center gap-2 shrink-0">
-          {srsState && (
-            <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded ${
-              srsState === 'MATURE' ? 'bg-emerald-100 text-emerald-700' :
-              srsState === 'REVIEW' ? 'bg-amber-100 text-amber-700' :
-              srsState === 'LEARNING' ? 'bg-blue-100 text-blue-700' :
-              'bg-stone-100 text-stone-500'
-            }`}>
-              {srsState}
-            </span>
-          )}
-          <ChevronRight className={`w-4 h-4 text-stone-300 transition-transform ${expanded ? 'rotate-90' : ''}`} />
-        </div>
-      </button>
-
-      {expanded && (
-        <div className="px-3 pb-3 pt-1 border-t border-stone-100 space-y-2 bg-stone-50 text-xs">
-          <div className="flex flex-wrap gap-2 text-[11px] text-stone-500">
-            {word.plural && <span>Plural: <strong>{word.plural}</strong></span>}
-            <span>English: <strong>{word.english}</strong></span>
-          </div>
-          <p className="text-stone-700 italic bg-white p-2 rounded border border-stone-200">
-            "{word.exampleDE}"
-          </p>
-          {word.exampleAR && (
-            <p className="text-stone-600 text-right font-cairo" dir="rtl">
-              "{word.exampleAR}"
-            </p>
-          )}
-        </div>
-      )}
-    </div>
-  );
-};
-
-// ── Main Vocabulary View ──────────────────────────────────────────
-export const VocabularyView: React.FC = () => {
-  const { currentTrackId, addSRSWord, reviewSRSCard, learnerModel, srsStats } = useApp();
-
-  // Track Level Default: A1 for german-a1-ar, A2 for german-a2-ar, B1 for german-b1-ar
-  const currentTrackLevel = currentTrackId.includes('a2') ? 'A2' : currentTrackId.includes('b1') ? 'B1' : 'A1';
-  const [levelFilter, setLevelFilter] = useState<'A1' | 'A2' | 'B1' | 'ALL'>(currentTrackLevel);
-
-  const [activeTab, setActiveTab] = useState<'review' | 'browse' | 'stats'>('review');
-  const [searchTerm, setSearchTerm] = useState('');
-  const [filterField, setFilterField] = useState<string>('all');
-
-  // Filter words by active track level
-  const trackWords = useMemo(() => {
-    if (levelFilter === 'ALL') return A1_VOCABULARY;
-    return A1_VOCABULARY.filter(w => (w.cefr || 'A1') === levelFilter);
-  }, [levelFilter]);
-
-  // ── SRS Review State ──
-  const [isFlipped, setIsFlipped] = useState(false);
-  const [sessionDone, setSessionDone] = useState(false);
-  const [sessionReviewed, setSessionReviewed] = useState(0);
-  const [sessionCorrect, setSessionCorrect] = useState(0);
-  const [cardIndex, setCardIndex] = useState(0);
-
-  // Build today's review queue
-  const reviewQueue = useMemo<VocabWord[]>(() => {
-    const today = new Date().toISOString().split('T')[0];
-    const srsCards = learnerModel.srsCards;
-
-    const due: VocabWord[] = [];
-    const newWords: VocabWord[] = [];
-
-    for (const word of trackWords) {
-      const card = srsCards[word.id];
-      if (card) {
-        if (card.nextReviewDate <= today && card.state !== 'SUSPENDED') {
-          due.push(word);
-        }
-      } else {
-        newWords.push(word);
-      }
-    }
-
-    due.sort((a, b) => {
-      const stateOrder = { LEARNING: 0, REVIEW: 1, MATURE: 2, NEW: 3, SUSPENDED: 4 };
-      return (stateOrder[srsCards[a.id]?.state ?? 'NEW'] ?? 3) -
-             (stateOrder[srsCards[b.id]?.state ?? 'NEW'] ?? 3);
-    });
-
-    const todayReviewed = Object.values(srsCards).filter(
-      c => c.lastReviewDate === today
-    ).length;
-    const newBudget = Math.max(0, MAX_DAILY_NEW - todayReviewed);
-    const newToAdd = newWords.slice(0, newBudget);
-
-    return [...due, ...newToAdd];
-  }, [trackWords, learnerModel.srsCards]);
-
-  const currentWord = reviewQueue[cardIndex];
-
-  const handleRate = useCallback((quality: QualityValue) => {
-    if (!currentWord) return;
-    reviewSRSCard(currentWord.id, quality);
-    setSessionReviewed(r => r + 1);
-    if (quality >= 4) setSessionCorrect(c => c + 1);
-
-    setIsFlipped(false);
-    if (cardIndex + 1 >= reviewQueue.length) {
-      setSessionDone(true);
-    } else {
-      setCardIndex(i => i + 1);
-    }
-  }, [currentWord, cardIndex, reviewQueue.length, reviewSRSCard]);
-
-  // Keyboard shortcuts
-  useEffect(() => {
-    const handler = (e: KeyboardEvent) => {
-      if (activeTab !== 'review' || !isFlipped || sessionDone) return;
-      if (e.key === '1') handleRate(1);
-      if (e.key === '2') handleRate(2);
-      if (e.key === '3') handleRate(4);
-      if (e.key === '4') handleRate(5);
-      if (e.key === ' ') { e.preventDefault(); setIsFlipped(f => !f); }
-    };
-    window.addEventListener('keydown', handler);
-    return () => window.removeEventListener('keydown', handler);
-  }, [activeTab, isFlipped, sessionDone, handleRate]);
-
-  // Browse filtering
-  const semanticFields = useMemo(() => {
-    const fields = new Set(trackWords.map(w => w.semanticField));
-    return ['all', ...Array.from(fields)];
-  }, [trackWords]);
-
-  const filteredWords = useMemo(() => {
-    const q = searchTerm.toLowerCase();
-    return trackWords.filter(w => {
-      const matchField = filterField === 'all' || w.semanticField === filterField;
-      const matchSearch = !q ||
-        w.german.toLowerCase().includes(q) ||
-        w.arabic.includes(q) ||
-        w.english.toLowerCase().includes(q);
-      return matchField && matchSearch;
-    });
-  }, [trackWords, searchTerm, filterField]);
-
-  const TABS = [
-    { id: 'review' as const, label: 'Review',  labelAR: 'مراجعة', icon: Brain },
-    { id: 'browse' as const, label: 'Browse',  labelAR: 'تصفح',   icon: BookOpen },
-    { id: 'stats' as const,  label: 'Stats',   labelAR: 'إحصائيات', icon: TrendingUp },
-  ];
-
-  return (
-    <div className="space-y-5 animate-fadeIn max-w-2xl mx-auto" id="main-content">
-
-      {/* Header with Track Level Switcher */}
-      <div className="paper-card p-5 space-y-4">
-        <div className="flex items-end justify-between gap-4">
-          <div>
-            <p className="text-[10px] font-black text-amber-700 uppercase tracking-widest mb-1">
-              {levelFilter} WORTSCHATZ · {trackWords.length} WORDS
-            </p>
-            <h2 className="text-xl font-black text-stone-900">Spaced Repetition System</h2>
-          </div>
-          <div className="flex items-center gap-4 text-center shrink-0">
-            <div>
-              <div className="text-xl font-black text-rose-600">{srsStats.due}</div>
-              <div className="text-[10px] text-stone-400">Due</div>
-            </div>
-            <div>
-              <div className="text-xl font-black text-emerald-600">{srsStats.mature}</div>
-              <div className="text-[10px] text-stone-400">Mature</div>
-            </div>
-            <div>
-              <div className="text-xl font-black text-stone-800">{srsStats.total}</div>
-              <div className="text-[10px] text-stone-400">Deck</div>
-            </div>
-          </div>
-        </div>
-
-        {/* Level Switcher Tabs */}
-        <div className="flex items-center gap-2 pt-2 border-t border-stone-100">
-          <span className="text-[10px] font-bold text-stone-400 uppercase tracking-wide mr-1">Level:</span>
-          {(['A1', 'A2', 'B1', 'ALL'] as const).map(lvl => (
-            <button
-              key={lvl}
-              onClick={() => { setLevelFilter(lvl); setCardIndex(0); setSessionDone(false); }}
-              className={`px-3 py-1 rounded-lg text-xs font-bold transition-all border ${
-                levelFilter === lvl
-                  ? 'bg-amber-500 text-stone-950 border-amber-500 shadow-xs'
-                  : 'bg-white text-stone-600 border-stone-200 hover:border-stone-300'
-              }`}
-            >
-              {lvl === 'ALL' ? 'All Levels' : `${lvl} Deck`}
-            </button>
-          ))}
-        </div>
-      </div>
-
-      {/* Main Tab Nav */}
-      <div className="flex rounded-xl bg-stone-100 p-1 border border-stone-200">
-        {TABS.map(t => {
-          const Icon = t.icon;
-          const active = activeTab === t.id;
-          return (
-            <button
-              key={t.id}
-              onClick={() => setActiveTab(t.id)}
-              className={`flex-1 flex items-center justify-center gap-2 py-2 rounded-lg text-xs font-bold transition-all ${
-                active
-                  ? 'bg-white text-stone-900 shadow-xs'
-                  : 'text-stone-500 hover:text-stone-800'
-              }`}
-            >
-              <Icon className="w-3.5 h-3.5" />
-              <span>{t.label}</span>
-              <span className="text-[10px] font-cairo opacity-70 hidden sm:inline" dir="rtl">
-                ({t.labelAR})
+          <div className="w-full flex items-center justify-between">
+            {word.article && ac ? (
+              <span className={`text-xs font-black px-3 py-1 rounded-full border ${ac.bg} ${ac.text} ${ac.border}`}>
+                {word.article}
               </span>
-            </button>
-          );
-        })}
-      </div>
+            ) : (
+              <span className="text-[10px] font-mono text-white/40 uppercase">
+                {word.wordType}
+              </span>
+            )}
 
-      {/* ── REVIEW TAB ── */}
-      {activeTab === 'review' && (
-        <div className="space-y-4">
-          {sessionDone || reviewQueue.length === 0 || !currentWord ? (
-            <div className="paper-card p-8 text-center space-y-4">
-              <div className="w-14 h-14 rounded-2xl bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto text-2xl font-black">
-                🎉
-              </div>
-              <h3 className="text-lg font-black text-stone-900">
-                {reviewQueue.length === 0 ? 'No Reviews Due Today!' : 'Session Complete!'}
-              </h3>
-              <p className="text-xs text-stone-500 max-w-sm mx-auto">
-                {sessionReviewed > 0
-                  ? `You reviewed ${sessionReviewed} cards with ${Math.round((sessionCorrect / Math.max(sessionReviewed, 1)) * 100)}% accuracy.`
-                  : 'All catch-up reviews are completed. Great work keeping your SRS deck updated!'}
-              </p>
-              <button
-                onClick={() => { setSessionDone(false); setCardIndex(0); setSessionReviewed(0); setSessionCorrect(0); }}
-                className="px-4 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-black transition-all shadow-xs"
-              >
-                Review Again
-              </button>
-            </div>
-          ) : (
-            <div className="space-y-4">
-              <div className="flex items-center justify-between text-xs text-stone-400 font-bold">
-                <span>Card {cardIndex + 1} of {reviewQueue.length}</span>
-                <span>{Math.round(((cardIndex) / reviewQueue.length) * 100)}% Complete</span>
-              </div>
-
-              <FlashCard
-                word={currentWord}
-                isFlipped={isFlipped}
-                onFlip={() => setIsFlipped(f => !f)}
-              />
-
-              {isFlipped && (
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 animate-fadeIn">
-                  {QUALITY_BUTTONS.map(q => {
-                    const Icon = q.icon;
-                    return (
-                      <button
-                        key={q.quality}
-                        onClick={() => handleRate(q.quality)}
-                        className={`flex flex-col items-center justify-center p-3 rounded-xl font-bold transition-all shadow-xs gap-0.5 ${q.color}`}
-                      >
-                        <Icon className="w-4 h-4" />
-                        <span className="text-xs">{q.label}</span>
-                        <span className="text-[10px] opacity-80 font-cairo" dir="rtl">{q.labelAR}</span>
-                      </button>
-                    );
-                  })}
-                </div>
-              )}
-            </div>
-          )}
-        </div>
-      )}
-
-      {/* ── BROWSE TAB ── */}
-      {activeTab === 'browse' && (
-        <div className="space-y-4">
-          <div className="flex flex-col sm:flex-row gap-3">
-            <div className="relative flex-1">
-              <Search className="w-4 h-4 text-stone-400 absolute left-3 top-2.5" />
-              <input
-                type="text"
-                value={searchTerm}
-                onChange={e => setSearchTerm(e.target.value)}
-                placeholder="Search German, Arabic, or English..."
-                className="w-full pl-9 pr-3 py-2 text-xs border border-stone-200 rounded-xl bg-white focus:outline-none focus:border-amber-500"
-              />
-            </div>
-            <select
-              value={filterField}
-              onChange={e => setFilterField(e.target.value)}
-              className="px-3 py-2 text-xs border border-stone-200 rounded-xl bg-white focus:outline-none focus:border-amber-500 capitalize"
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                speakGermanWord(word.german);
+              }}
+              className="p-2 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-400 border border-amber-500/20 transition-all"
+              title="استمع للنطق"
             >
-              {semanticFields.map(f => (
-                <option key={f} value={f}>{f === 'all' ? 'All Fields' : f}</option>
-              ))}
-            </select>
+              <Volume2 className="w-4 h-4" />
+            </button>
           </div>
 
           <div className="space-y-2">
-            {filteredWords.map(word => (
-              <BrowseCard
-                key={word.id}
-                word={word}
-                srsState={learnerModel.srsCards[word.id]?.state}
-              />
+            <p className="text-3xl md:text-4xl font-black text-white tracking-tight">
+              {word.german}
+            </p>
+            {word.plural && (
+              <p className="text-xs text-white/40 font-mono">
+                Plural: die {word.plural}
+              </p>
+            )}
+          </div>
+
+          <div className="space-y-2">
+            <p className="text-xs text-stone-300 italic max-w-md">
+              "{word.exampleDE}"
+            </p>
+            <p className="text-[10px] text-amber-400/80 font-mono animate-pulse">
+              اضغط لقلب بطاقة المفردات ↓ (Tap to reveal translation)
+            </p>
+          </div>
+        </div>
+
+        {/* Back Side: Arabic & English */}
+        <div
+          className="absolute inset-0 rounded-2xl border border-amber-500/30 bg-[#1c1a24] shadow-2xl p-6 flex flex-col items-center justify-between gap-3 text-center"
+          style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
+        >
+          <div className="w-full flex items-center justify-between">
+            <span className="text-[10px] font-mono text-amber-400 uppercase">
+              المجال: {word.semanticField}
+            </span>
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                speakGermanWord(word.exampleDE);
+              }}
+              className="p-2 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-400 border border-amber-500/20 transition-all text-xs flex items-center gap-1"
+              title="نطق المثال الكامل"
+            >
+              <Volume2 className="w-3.5 h-3.5" />
+              <span>نطق الجملة</span>
+            </button>
+          </div>
+
+          <div className="space-y-2" dir="rtl">
+            <p className="text-3xl font-black text-amber-400 font-cairo">
+              {word.arabic}
+            </p>
+            <p className="text-xs text-stone-300 font-sans">{word.english}</p>
+          </div>
+
+          <div className="space-y-2 w-full text-xs" dir="rtl">
+            <p className="text-amber-200/90 font-cairo italic">"{word.exampleAR}"</p>
+            {word.nounGenderHint && (
+              <div className="bg-amber-500/10 border border-amber-500/20 rounded-xl px-3 py-1.5 text-[11px] text-amber-300 font-cairo">
+                💡 {word.nounGenderHint}
+              </div>
+            )}
+            {word.commonMistakeAR && (
+              <div className="bg-rose-500/10 border border-rose-500/20 rounded-xl px-3 py-1.5 text-[11px] text-rose-300 font-cairo">
+                ⚠️ {word.commonMistakeAR}
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// ── Main Vocabulary View ─────────────────────────────────────────────
+export const VocabularyView: React.FC = () => {
+  const { learnerModel, reviewSRSCard, addSRSWord } = useApp();
+  const [activeTab, setActiveTab] = useState<'study' | 'browse'>('study');
+  const [searchQuery, setSearchQuery] = useState('');
+  const [selectedCEFR, setSelectedCEFR] = useState<'All' | 'A1' | 'A2'>('All');
+  const [selectedField, setSelectedField] = useState<string>('All');
+  const [isFlipped, setIsFlipped] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  // SRS Cards from Learner Model
+  const srsCards = learnerModel.srsDeck || [];
+
+  // Filter vocabulary pool
+  const filteredWords = useMemo(() => {
+    return A1_VOCABULARY.filter(word => {
+      const q = searchQuery.toLowerCase().trim();
+      const matchesSearch = !q || (
+        word.german.toLowerCase().includes(q) ||
+        word.arabic.toLowerCase().includes(q) ||
+        word.english.toLowerCase().includes(q)
+      );
+
+      if (!matchesSearch) return false;
+      if (selectedCEFR !== 'All' && word.cefr !== selectedCEFR) return false;
+      if (selectedField !== 'All' && word.semanticField !== selectedField) return false;
+      return true;
+    });
+  }, [searchQuery, selectedCEFR, selectedField]);
+
+  // Extract unique semantic fields
+  const semanticFields = useMemo(() => {
+    const fields = new Set(A1_VOCABULARY.map(w => w.semanticField));
+    return ['All', ...Array.from(fields)];
+  }, []);
+
+  const currentWord = filteredWords[currentIndex] || filteredWords[0];
+
+  const handleRating = (quality: 1 | 2 | 4 | 5) => {
+    if (!currentWord) return;
+    reviewSRSCard(currentWord.id, quality);
+    setIsFlipped(false);
+    if (currentIndex < filteredWords.length - 1) {
+      setCurrentIndex(prev => prev + 1);
+    } else {
+      setCurrentIndex(0);
+    }
+  };
+
+  return (
+    <div className="max-w-6xl mx-auto p-4 md:p-8 space-y-8 animate-in fade-in duration-300">
+      {/* Header Bar */}
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 bg-[#141419] p-6 rounded-2xl border border-white/10 shadow-xl">
+        <div>
+          <h1 className="text-2xl md:text-3xl font-black text-white tracking-tight flex items-center gap-2">
+            <span>مراجعة المفردات التكرارية (Vocabulary SRS)</span>
+            <Brain className="w-6 h-6 text-amber-400" />
+          </h1>
+          <p className="text-xs text-stone-400 mt-1">
+            خوارزمية SM-2 للتكرار المتباعد لتحفيظ كلمات الألمانية وتجنب نسيانها.
+          </p>
+        </div>
+
+        {/* View Switcher */}
+        <div className="flex items-center gap-1.5 bg-black/40 p-1.5 rounded-xl border border-white/10 shrink-0">
+          <button
+            onClick={() => setActiveTab('study')}
+            className={`px-4 py-2 rounded-lg text-xs font-bold transition-all ${
+              activeTab === 'study'
+                ? 'bg-amber-500 text-stone-950 shadow-md'
+                : 'text-white/60 hover:text-white'
+            }`}
+          >
+            جلسة الدراسة (Flashcards)
+          </button>
+          <button
+            onClick={() => setActiveTab('browse')}
+            className={`px-4 py-2 rounded-lg text-xs font-bold transition-all ${
+              activeTab === 'browse'
+                ? 'bg-amber-500 text-stone-950 shadow-md'
+                : 'text-white/60 hover:text-white'
+            }`}
+          >
+            قاموس المفردات ({filteredWords.length})
+          </button>
+        </div>
+      </div>
+
+      {/* Filters Bar */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+        <div className="relative">
+          <Search className="w-4 h-4 absolute left-3.5 top-3.5 text-white/40" />
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder="بحث في الكلمات (Search German, Arabic)..."
+            className="w-full bg-[#141419] border border-white/10 rounded-xl pl-10 pr-4 py-2.5 text-xs text-white placeholder-white/40 focus:outline-none focus:border-amber-400 transition-all"
+          />
+        </div>
+
+        <div className="flex items-center gap-2">
+          <span className="text-xs text-white/40 font-mono shrink-0">Level:</span>
+          {(['All', 'A1', 'A2'] as const).map(lvl => (
+            <button
+              key={lvl}
+              onClick={() => setSelectedCEFR(lvl)}
+              className={`flex-1 py-2 rounded-xl text-xs font-bold border transition-all ${
+                selectedCEFR === lvl
+                  ? 'bg-amber-500/20 border-amber-500 text-amber-300'
+                  : 'bg-[#141419] border-white/10 text-white/50 hover:text-white'
+              }`}
+            >
+              {lvl}
+            </button>
+          ))}
+        </div>
+
+        <div className="flex items-center gap-2">
+          <span className="text-xs text-white/40 font-mono shrink-0">Category:</span>
+          <select
+            value={selectedField}
+            onChange={(e) => setSelectedField(e.target.value)}
+            className="w-full bg-[#141419] border border-white/10 rounded-xl px-3 py-2.5 text-xs text-white focus:outline-none focus:border-amber-400 transition-all font-cairo"
+          >
+            {semanticFields.map(f => (
+              <option key={f} value={f} className="bg-[#141419] text-white">
+                {f === 'All' ? 'جميع المجالات' : f}
+              </option>
+            ))}
+          </select>
+        </div>
+      </div>
+
+      {/* Mode 1: Interactive Flashcards */}
+      {activeTab === 'study' && currentWord && (
+        <div className="max-w-xl mx-auto space-y-6">
+          <div className="flex items-center justify-between text-xs text-white/50 px-2 font-mono">
+            <span>بطاقة {currentIndex + 1} من {filteredWords.length}</span>
+            <span className="text-amber-400 font-bold">{currentWord.semanticField}</span>
+          </div>
+
+          <FlashCard
+            word={currentWord}
+            isFlipped={isFlipped}
+            onFlip={() => setIsFlipped(f => !f)}
+          />
+
+          {/* Rating Buttons */}
+          <div className="grid grid-cols-4 gap-2 pt-2">
+            {QUALITY_BUTTONS.map(({ quality, label, labelAR, color, icon: Icon }) => (
+              <button
+                key={quality}
+                onClick={() => handleRating(quality)}
+                className={`py-3 px-2 rounded-xl font-bold text-xs flex flex-col items-center justify-center gap-1 transition-all shadow-md ${color}`}
+              >
+                <Icon className="w-4 h-4" />
+                <span>{labelAR}</span>
+                <span className="text-[9px] opacity-70 font-mono">({label})</span>
+              </button>
             ))}
           </div>
         </div>
       )}
 
-      {/* ── STATS TAB ── */}
-      {activeTab === 'stats' && (
-        <div className="paper-card p-6 space-y-4">
-          <h3 className="text-sm font-black text-stone-900">SRS Mastery Distribution</h3>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
-            <div className="p-3 rounded-xl bg-stone-50 border border-stone-200">
-              <div className="text-lg font-black text-stone-400">{srsStats.new}</div>
-              <div className="text-[10px] text-stone-500 font-bold">New</div>
-            </div>
-            <div className="p-3 rounded-xl bg-blue-50 border border-blue-200">
-              <div className="text-lg font-black text-blue-700">{srsStats.learning}</div>
-              <div className="text-[10px] text-blue-600 font-bold">Learning</div>
-            </div>
-            <div className="p-3 rounded-xl bg-amber-50 border border-amber-200">
-              <div className="text-lg font-black text-amber-700">{srsStats.review}</div>
-              <div className="text-[10px] text-amber-600 font-bold">Review</div>
-            </div>
-            <div className="p-3 rounded-xl bg-emerald-50 border border-emerald-200">
-              <div className="text-lg font-black text-emerald-700">{srsStats.mature}</div>
-              <div className="text-[10px] text-emerald-600 font-bold">Mature</div>
-            </div>
+      {/* Mode 2: Browse Dictionary Table */}
+      {activeTab === 'browse' && (
+        <div className="bg-[#141419] rounded-2xl border border-white/10 overflow-hidden shadow-xl">
+          <div className="divide-y divide-white/5">
+            {filteredWords.map((word) => {
+              const ac = word.article ? ARTICLE_COLORS[word.article] : null;
+
+              return (
+                <div
+                  key={word.id}
+                  className="p-4 hover:bg-white/5 transition-colors flex flex-col md:flex-row md:items-center justify-between gap-3 text-xs"
+                >
+                  <div className="flex items-center gap-3 min-w-0">
+                    <button
+                      onClick={() => speakGermanWord(word.german)}
+                      className="p-2 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-400 border border-amber-500/20 shrink-0 transition-all"
+                      title="استمع للنطق"
+                    >
+                      <Volume2 className="w-4 h-4" />
+                    </button>
+
+                    {word.article && ac ? (
+                      <span className={`px-2.5 py-0.5 rounded text-[10px] font-black border ${ac.bg} ${ac.text} ${ac.border} shrink-0`}>
+                        {word.article}
+                      </span>
+                    ) : (
+                      <span className="px-2 py-0.5 rounded text-[9px] font-mono bg-white/5 text-white/40 shrink-0">
+                        {word.wordType}
+                      </span>
+                    )}
+
+                    <div className="min-w-0">
+                      <p className="font-bold text-white text-sm flex items-center gap-2">
+                        <span>{word.german}</span>
+                        {word.plural && <span className="text-xs text-white/40 font-mono">(Pl: {word.plural})</span>}
+                      </p>
+                      <p className="text-white/40 italic text-xs">{word.exampleDE}</p>
+                    </div>
+                  </div>
+
+                  <div className="text-right shrink-0" dir="rtl">
+                    <p className="font-bold text-amber-400 font-cairo text-sm">{word.arabic}</p>
+                    <p className="text-[11px] text-stone-400 font-sans">{word.english}</p>
+                  </div>
+                </div>
+              );
+            })}
+
+            {filteredWords.length === 0 && (
+              <div className="py-12 text-center text-white/40 space-y-2">
+                <BookOpen className="w-10 h-10 mx-auto opacity-30" />
+                <p>لم يتم العثور على كلمات بهذه الفلاتر.</p>
+              </div>
+            )}
           </div>
         </div>
       )}

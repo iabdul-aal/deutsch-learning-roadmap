@@ -59,6 +59,11 @@ export interface AppContextType extends AppState {
   srsStats: ReturnType<typeof getDeckStats>;
   dueCardCount: number;
 
+  // Track Locking State
+  unlockedTracks: Record<string, boolean>;
+  isTrackUnlocked: (trackId: string) => boolean;
+  unlockTrack: (trackId: string) => void;
+
   // ── Legacy setters ──
   setMode: (mode: 'standard' | 'intensive') => void;
   setActiveView: (view: string) => void;
@@ -220,6 +225,39 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     }, 500);
     return () => clearTimeout(timeout);
   }, [learnerModel]);
+
+  // ── Track Locking State ──────────────────────────
+  const [unlockedTracks, setUnlockedTracks] = useState<Record<string, boolean>>(() => {
+    const saved = safeStorage.getItem<Record<string, boolean>>('germansurvival_unlocked_tracks');
+    return saved ?? { 'german-a1-ar': true };
+  });
+
+  const isTrackUnlocked = useCallback((trackId: string) => {
+    if (trackId === 'german-a1-ar') return true;
+    if (unlockedTracks[trackId]) return true;
+
+    // Check A1 progress for A2 unlock
+    if (trackId === 'german-a2-ar') {
+      const a1Completed = Object.keys(state.completedTasks).filter(k => k.startsWith('german-a1-ar') && state.completedTasks[k]).length;
+      return a1Completed >= 35 || learnerModel.cefrEstimate.overall !== 'A1';
+    }
+
+    // Check A2 progress for B1 unlock
+    if (trackId === 'german-b1-ar') {
+      const a2Completed = Object.keys(state.completedTasks).filter(k => k.startsWith('german-a2-ar') && state.completedTasks[k]).length;
+      return a2Completed >= 35 || (learnerModel.cefrEstimate.overall !== 'A1' && learnerModel.cefrEstimate.overall !== 'A2');
+    }
+
+    return false;
+  }, [unlockedTracks, state.completedTasks, learnerModel.cefrEstimate.overall]);
+
+  const unlockTrack = useCallback((trackId: string) => {
+    setUnlockedTracks(prev => {
+      const next = { ...prev, [trackId]: true };
+      safeStorage.setItem('germansurvival_unlocked_tracks', next);
+      return next;
+    });
+  }, []);
 
   // Sync username between state and learnerModel
   useEffect(() => {
@@ -538,6 +576,10 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
       watchedVideos,
       markVideoWatched,
       isVideoWatched,
+      // Track locking state
+      unlockedTracks,
+      isTrackUnlocked,
+      unlockTrack,
     }}>
       {children}
 
