@@ -19,7 +19,7 @@ export const CURRICULUM_DATA = {
             { type: "Read", title: "Deutsch Survival A1: Day 1 Pronunciation Notes and Letter Rules", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Watch", title: "Learn German with Anja: German Alphabet and Umlauts Made Easy", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Memorize", title: "Learn 15 basic greeting words (Hallo, Guten Tag, Tschüss, Auf Wiedersehen, Bitte, Danke)", duration: "30 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Listen", title: "Super Easy German #1: How Germans greet each other", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" },
+            { type: "Listen", title: "Super Easy German #1: How Germans greet each other", duration: "20 min", resourceType: "LISTENING", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
             { type: "Speak", title: "Practice spelling your full name, email address, and city out loud in German 5 times", duration: "15 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Quiz", title: "Complete Day 1 Alphabet and Greetings Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
           ],
@@ -68,7 +68,7 @@ export const CURRICULUM_DATA = {
           ],
           intensiveTasks: [
             { type: "Roleplay", title: "Simulate a phone call exchange asking for name, number, and age", duration: "35 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Writing", title: "Write 10 questions using each W-Frage word with correct V2 sentence structure", duration: "35 min", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" },
+            { type: "Writing", title: "Write 10 questions using each W-Frage word with correct V2 sentence structure", duration: "35 min", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
             { type: "Mobile App", title: "Anki deck review: Numbers and Question words", duration: "25 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Listening Drill", title: "Dictation exercise: Listen to 15 numbers audio and write them down", duration: "25 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
           ],
@@ -121,10 +121,10 @@ export const CURRICULUM_DATA = {
           focusSkill: "Vocabulary and Reading",
           objective: "Learn German plural rules (-e, -er, -en, -s, Umlaut) and family member vocabulary.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 6 - Plurals and Family Members", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
-            { type: "Watch", title: "Learn German with Anja: Family Tree and Plural Nouns", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
-            { type: "Memorize", title: "20 family words (Vater, Mutter, Eltern, Bruder, Schwester, Kind, Sohn, Tochter...)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=g9o6q5x8sRk" },
-            { type: "Read", title: "Deutsch Survival Platform A1 Short Story #1: Meine Familie", duration: "25 min", resourceType: "READING", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 6 - Plurals and Family Members", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Watch", title: "Learn German with Anja: Family Tree and Plural Nouns", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
+            { type: "Memorize", title: "20 family words (Vater, Mutter, Eltern, Bruder, Schwester, Kind, Sohn, Tochter...)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
+            { type: "Read", title: "Deutsch Survival Platform A1 Short Story #1: Meine Familie", duration: "25 min", resourceType: "READING", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
             { type: "Speak", title: "Describe your family tree out loud for 3 minutes", duration: "15 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Quiz", title: "Complete Day 6 Family and Plurals Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" }
           ],
@@ -168,16 +168,16 @@ export const CURRICULUM_DATA = {
           focusSkill: "Grammar Core",
           objective: "Understand direct objects and how masculine articles change in Accusative (der → den, ein → einen).",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 7 - Accusative Case Explained", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
-            { type: "Read", title: "Deutsch Survival A1: Accusative rules and sentence diagrams", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
-            { type: "Watch", title: "YourGermanTeacher: Accusative Case - Never make a mistake again!", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
-            { type: "Memorize", title: "15 common transitive verbs requiring Accusative (haben, brauchen, kaufen, suchen, trinken, essen...)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
-            { type: "Quiz", title: "Complete Day 8 Accusative Case Mini-Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" }
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 7 - Accusative Case Explained", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Read", title: "Deutsch Survival A1: Accusative rules and sentence diagrams", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Watch", title: "YourGermanTeacher: Accusative Case - Never make a mistake again!", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Memorize", title: "15 common transitive verbs requiring Accusative (haben, brauchen, kaufen, suchen, trinken, essen...)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Quiz", title: "Complete Day 8 Accusative Case Mini-Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 15 sentences using masculine, feminine, and neuter objects in Accusative", duration: "40 min", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
-            { type: "Shadowing", title: "Repeat Accusative sentence patterns out loud 25 times", duration: "30 min", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
-            { type: "Mobile App", title: "Seedlang Accusative Case Trainer - 40 questions", duration: "30 min", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
+            { type: "Writing", title: "Write 15 sentences using masculine, feminine, and neuter objects in Accusative", duration: "40 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Shadowing", title: "Repeat Accusative sentence patterns out loud 25 times", duration: "30 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Mobile App", title: "Seedlang Accusative Case Trainer - 40 questions", duration: "30 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Survival German", title: "Supermarket Survival: 'Ich brauche eine Tüte' / 'Ich suche den Reis'", duration: "20 min", link: "https://en.pons.com/translate/german-arabic/Supermarkt" }
           ],
           targetMetrics: { vocab: 15, listeningMinutes: 35, speakingMinutes: 15, writingTasks: 1 }
@@ -234,10 +234,10 @@ export const CURRICULUM_DATA = {
             { type: "Watch", title: "DW Nicos Weg: Episode 9 - Wie viel Uhr ist es?", duration: "20 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Memorize", title: "Days of week, months, prepositions of time (um 8 Uhr, am Montag, im Juli)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Speak", title: "Read out 12 random clock times in both official and informal formats", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Quiz", title: "Complete Day 11 Clock Times and Prepositions Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" }
+            { type: "Quiz", title: "Complete Day 11 Clock Times and Prepositions Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write down your daily routine schedule in German with exact times", duration: "40 min", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" },
+            { type: "Writing", title: "Write down your daily routine schedule in German with exact times", duration: "40 min", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
             { type: "Listening Drill", title: "Listen to train departure announcements audio and record times", duration: "30 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" },
             { type: "Mobile App", title: "Seedlang Time and Numbers Trainer", duration: "30 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Survival German", title: "Learn station phrase: 'Wann fährt der Zug nach Berlin ab?'", duration: "20 min", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" }
@@ -258,7 +258,7 @@ export const CURRICULUM_DATA = {
           ],
           intensiveTasks: [
             { type: "Writing", title: "Write 12 sentences with separable verbs, correctly placing prefixes at sentence end", duration: "45 min", link: "https://www.youtube.com/watch?v=RrfgbBp6ScI" },
-            { type: "Shadowing", title: "Shadow daily routine descriptions with separable verbs 3 times", duration: "30 min", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" },
+            { type: "Shadowing", title: "Shadow daily routine descriptions with separable verbs 3 times", duration: "30 min", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
             { type: "Mobile App", title: "Anki Separable Verbs Deck", duration: "25 min", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Survival German", title: "Formular ausfüllen (Filling forms): 'Ich fülle das Formular aus.'", duration: "20 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" }
           ],
@@ -270,16 +270,16 @@ export const CURRICULUM_DATA = {
           focusSkill: "Grammar and Possessions",
           objective: "Express ownership (mein Buch, meine Tasche, meinen Schlüssel) in Nominative and Accusative.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 12 - Possessive Articles", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=g9o6q5x8sRk" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 12 - Possessive Articles", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Watch", title: "DW Nicos Weg: Episode 10 - Das ist mein Pass!", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Memorize", title: "Possessive pronouns (mein, dein, sein, ihr, unser, euer, ihr) + 15 personal items", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=g9o6q5x8sRk" },
+            { type: "Memorize", title: "Possessive pronouns (mein, dein, sein, ihr, unser, euer, ihr) + 15 personal items", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Speak", title: "Point to 10 objects around you and declare ownership out loud", duration: "20 min", resourceType: "SPEAKING", link: "https://en.pons.com/translate/german-arabic" },
-            { type: "Quiz", title: "Complete Day 13 Possessive Articles Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=g9o6q5x8sRk" }
+            { type: "Quiz", title: "Complete Day 13 Possessive Articles Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" }
           ],
           intensiveTasks: [
             { type: "Writing", title: "Write 15 sentences describing items owned by you, your friends, and family", duration: "40 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
             { type: "Roleplay", title: "Simulate airport lost and found: 'Wo ist mein Reisepass? Das ist meine Tasche.'", duration: "35 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
-            { type: "Mobile App", title: "Seedlang Possessive Articles Drill", duration: "25 min", link: "https://www.youtube.com/watch?v=g9o6q5x8sRk" }
+            { type: "Mobile App", title: "Seedlang Possessive Articles Drill", duration: "25 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" }
           ],
           targetMetrics: { vocab: 15, listeningMinutes: 35, speakingMinutes: 20, writingTasks: 1 }
         },
@@ -291,11 +291,11 @@ export const CURRICULUM_DATA = {
           standardTasks: [
             { type: "Revision", title: "Consolidate Week 2 Hend notes and Deutsch Survival Platform summary charts", duration: "50 min", resourceType: "REVISION", link: "https://ankiweb.net/shared/info/2047595496" },
             { type: "Test", title: "Take Week 2 Interactive Assessment", duration: "45 min", resourceType: "TEST", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Smart Review", title: "Targeted review of weak Accusative or Separable verb questions", duration: "35 min", resourceType: "SMART_REVIEW", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
-            { type: "Speaking Mission", title: "Record a 3-minute vlog describing your typical day using separable verbs", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" }
+            { type: "Smart Review", title: "Targeted review of weak Accusative or Separable verb questions", duration: "35 min", resourceType: "SMART_REVIEW", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Speaking Mission", title: "Record a 3-minute vlog describing your typical day using separable verbs", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write a 150-word email to a friend detailing your weekend plans and grocery shopping", duration: "45 min", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
+            { type: "Writing", title: "Write a 150-word email to a friend detailing your weekend plans and grocery shopping", duration: "45 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Listening Marathon", title: "Watch DW Nicos Weg Episodes 11-20 compilation", duration: "45 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Mobile App", title: "Clear all pending SRS Anki reviews", duration: "30 min", link: "https://ankiweb.net/shared/info/2047595496" }
           ],
@@ -363,7 +363,7 @@ export const CURRICULUM_DATA = {
             { type: "Writing", title: "Write a detailed description of your dream apartment or WG room in Germany (120 words)", duration: "45 min", link: "https://en.pons.com/translate/german-arabic/Wohnung" },
             { type: "Shadowing", title: "Shadow apartment viewing walkthrough audio", duration: "30 min", link: "https://en.pons.com/translate/german-arabic/Wohnung" },
             { type: "Mobile App", title: "Anki Housing and Furniture Deck", duration: "25 min", link: "https://en.pons.com/translate/german-arabic/Wohnung" },
-            { type: "Practical Task", title: "Browse WG-Gesucht.de listings and decipher 5 real German rental ads", duration: "30 min", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" }
+            { type: "Practical Task", title: "Browse WG-Gesucht.de listings and decipher 5 real German rental ads", duration: "30 min", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 40, speakingMinutes: 15, writingTasks: 1 }
         },
@@ -416,8 +416,8 @@ export const CURRICULUM_DATA = {
           standardTasks: [
             { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 17 - Reporting Maintenance Issues", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Watch", title: "Learn German with Anja: Practical German for House Repair and Issues", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Memorize", title: "15 maintenance words (Heizung, Warmwasser, kaputt, reparieren, Hausmeister, WLAN...)", duration: "30 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
-            { type: "Speak", title: "Roleplay calling a Hausmeister: 'Die Heizung funktioniert nicht.'", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
+            { type: "Memorize", title: "15 maintenance words (Heizung, Warmwasser, kaputt, reparieren, Hausmeister, WLAN...)", duration: "30 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Speak", title: "Roleplay calling a Hausmeister: 'Die Heizung funktioniert nicht.'", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Quiz", title: "Complete Day 20 Housing Maintenance Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://en.pons.com/translate/german-arabic/Wohnung" }
           ],
           intensiveTasks: [
@@ -459,16 +459,16 @@ export const CURRICULUM_DATA = {
           focusSkill: "Grammar Core",
           objective: "Understand indirect objects and article changes in Dative (der/das → dem, die → der, plural → den + n).",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 18 - The Dative Case Demystified", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
-            { type: "Read", title: "Deutsch Survival A1: Dative case breakdown and color charts", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
-            { type: "Watch", title: "YourGermanTeacher: Dative Case in German - Complete Masterclass", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
-            { type: "Memorize", title: "15 core Dative verbs (helfen, danken, gehören, gefallen, passen, antworten...)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
-            { type: "Quiz", title: "Complete Day 22 Dative Case Basics Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" }
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 18 - The Dative Case Demystified", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
+            { type: "Read", title: "Deutsch Survival A1: Dative case breakdown and color charts", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
+            { type: "Watch", title: "YourGermanTeacher: Dative Case in German - Complete Masterclass", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
+            { type: "Memorize", title: "15 core Dative verbs (helfen, danken, gehören, gefallen, passen, antworten...)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
+            { type: "Quiz", title: "Complete Day 22 Dative Case Basics Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 15 sentences using Dative verbs (e.g. 'Ich helfe dem Mann', 'Das Buch gehört der Frau')", duration: "40 min", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
-            { type: "Shadowing", title: "Shadow Dative sentence transformations 25 times", duration: "30 min", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
-            { type: "Mobile App", title: "Seedlang Dative Case Trainer - 40 questions", duration: "30 min", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
+            { type: "Writing", title: "Write 15 sentences using Dative verbs (e.g. 'Ich helfe dem Mann', 'Das Buch gehört der Frau')", duration: "40 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
+            { type: "Shadowing", title: "Shadow Dative sentence transformations 25 times", duration: "30 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
+            { type: "Mobile App", title: "Seedlang Dative Case Trainer - 40 questions", duration: "30 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Survival German", title: "Asking help: 'Können Sie mir bitte helfen?'", duration: "20 min", link: "https://www.bahn.de/angebot/regio/deutschland-ticket" }
           ],
           targetMetrics: { vocab: 15, listeningMinutes: 35, speakingMinutes: 15, writingTasks: 1 }
@@ -479,16 +479,16 @@ export const CURRICULUM_DATA = {
           focusSkill: "Grammar and Conversation",
           objective: "Express indirect pronoun objects in conversation ('Wie geht es dir?' → 'Es geht mir gut').",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 19 - Dative Personal Pronouns", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 19 - Dative Personal Pronouns", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Watch", title: "DW Nicos Weg: Episode 13 - Wie geht es dir?", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Memorize", title: "Dative pronouns (mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen) + health and state phrases", duration: "30 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
-            { type: "Speak", title: "Practice asking and answering 'Wie geht es Ihnen/dir?' with 5 different emotional states", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
-            { type: "Quiz", title: "Complete Day 23 Dative Pronouns Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" }
+            { type: "Memorize", title: "Dative pronouns (mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen) + health and state phrases", duration: "30 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
+            { type: "Speak", title: "Practice asking and answering 'Wie geht es Ihnen/dir?' with 5 different emotional states", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Quiz", title: "Complete Day 23 Dative Pronouns Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 12 conversational exchanges using Dative personal pronouns", duration: "40 min", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
+            { type: "Writing", title: "Write 12 conversational exchanges using Dative personal pronouns", duration: "40 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Roleplay", title: "Roleplay greeting colleagues and asking how they feel", duration: "30 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Mobile App", title: "Anki Dative pronouns deck", duration: "25 min", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" }
+            { type: "Mobile App", title: "Anki Dative pronouns deck", duration: "25 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" }
           ],
           targetMetrics: { vocab: 15, listeningMinutes: 35, speakingMinutes: 20, writingTasks: 1 }
         },
@@ -498,15 +498,15 @@ export const CURRICULUM_DATA = {
           focusSkill: "Grammar Core",
           objective: "Memorize always-dative prepositions using mnemonic rule: 'Aus bei mit nach seit von zu - immer mit dem Dativ du!'",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 20 - Fixed Dative Prepositions", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
-            { type: "Watch", title: "Learn German with Anja: The Dative Preposition Song and Rule", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
-            { type: "Memorize", title: "7 Dative prepositions (aus, bei, mit, nach, seit, von, zu) + contractions (beim, zum, zur)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
-            { type: "Quiz", title: "Complete Day 24 Dative Prepositions Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" }
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 20 - Fixed Dative Prepositions", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
+            { type: "Watch", title: "Learn German with Anja: The Dative Preposition Song and Rule", duration: "20 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
+            { type: "Memorize", title: "7 Dative prepositions (aus, bei, mit, nach, seit, von, zu) + contractions (beim, zum, zur)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
+            { type: "Quiz", title: "Complete Day 24 Dative Prepositions Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write 14 sentences using every Dative preposition twice", duration: "40 min", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
-            { type: "Shadowing", title: "Recite the Dative preposition mnemonic out loud 20 times", duration: "25 min", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
-            { type: "Mobile App", title: "Seedlang Dative Preposition Trainer", duration: "30 min", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
+            { type: "Writing", title: "Write 14 sentences using every Dative preposition twice", duration: "40 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
+            { type: "Shadowing", title: "Recite the Dative preposition mnemonic out loud 20 times", duration: "25 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
+            { type: "Mobile App", title: "Seedlang Dative Preposition Trainer", duration: "30 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Survival German", title: "Daily commute: 'Ich fahre mit der U-Bahn zum Bahnhof.'", duration: "20 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" }
           ],
           targetMetrics: { vocab: 15, listeningMinutes: 30, speakingMinutes: 15, writingTasks: 1 }
@@ -537,15 +537,15 @@ export const CURRICULUM_DATA = {
           focusSkill: "Grammar Core",
           objective: "Understand 9 two-way prepositions (an, auf, hinter, in, neben, über, unter, vor, zwischen) answering 'Wo?' with Dative.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 22 - Two-Way Prepositions (Wo? + Dativ)", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 22 - Two-Way Prepositions (Wo? + Dativ)", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Watch", title: "YourGermanTeacher: Wechselpräpositionen Made Easy", duration: "25 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
             { type: "Memorize", title: "9 Wechselpräpositionen + spatial locations (im Supermarkt, auf dem Tisch, an der Haltestelle...)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
-            { type: "Quiz", title: "Complete Day 26 Two-Way Prepositions (Wo?) Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" }
+            { type: "Quiz", title: "Complete Day 26 Two-Way Prepositions (Wo?) Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Describe where 10 items in your room are located using 'in dem/im', 'auf dem', 'unter dem'", duration: "40 min", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
-            { type: "Shadowing", title: "Shadow spatial sentences 20 times", duration: "30 min", link: "https://www.youtube.com/watch?v=g9o6q5x8sRk" },
-            { type: "Mobile App", title: "Seedlang Two-Way Preposition Drill", duration: "25 min", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" }
+            { type: "Writing", title: "Describe where 10 items in your room are located using 'in dem/im', 'auf dem', 'unter dem'", duration: "40 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
+            { type: "Shadowing", title: "Shadow spatial sentences 20 times", duration: "30 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
+            { type: "Mobile App", title: "Seedlang Two-Way Preposition Drill", duration: "25 min", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" }
           ],
           targetMetrics: { vocab: 15, listeningMinutes: 35, speakingMinutes: 15, writingTasks: 1 }
         },
@@ -575,9 +575,9 @@ export const CURRICULUM_DATA = {
           focusSkill: "Full Assessment",
           objective: "Consolidate Dative case, Dative prepositions, directions, transportation, and complete Assessment 4.",
           standardTasks: [
-            { type: "Revision", title: "Consolidate Week 4 Dative summary and prepositions rule sheet", duration: "50 min", resourceType: "REVISION", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
+            { type: "Revision", title: "Consolidate Week 4 Dative summary and prepositions rule sheet", duration: "50 min", resourceType: "REVISION", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Test", title: "Take Week 4 Interactive Assessment", duration: "45 min", resourceType: "TEST", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Smart Review", title: "Review any flagged weak Dative preposition or direction questions", duration: "35 min", resourceType: "SMART_REVIEW", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
+            { type: "Smart Review", title: "Review any flagged weak Dative preposition or direction questions", duration: "35 min", resourceType: "SMART_REVIEW", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Speaking Mission", title: "Record a 3-minute video explaining directions from the airport to your student dormitory", duration: "20 min", resourceType: "SPEAKING", link: "https://www.schubert-verlag.de/aufgaben/index.htm" }
           ],
           intensiveTasks: [
@@ -620,7 +620,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Academic Communication",
           objective: "Address professors formally (Sehr geehrte Frau Prof. Dr. X), ask questions in lectures, request extensions.",
           standardTasks: [
-            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 23 - Formal Academic Email Writing", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" },
+            { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 23 - Formal Academic Email Writing", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
             { type: "Watch", title: "DW Nicos Weg: Episode 16 - An der Universität", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Memorize", title: "15 academic terms (Professor, Sprechstunde, Prüfung, Frist, Abgabe, Hausarbeit...)", duration: "30 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Writing", title: "Write a formal email to a professor requesting an appointment during office hours (Sprechstunde)", duration: "30 min", resourceType: "WRITING", link: "https://apps.ankiweb.net/" },
@@ -744,7 +744,7 @@ export const CURRICULUM_DATA = {
             { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 28 - Das Perfekt Tense Foundations", duration: "45 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Read", title: "Deutsch Survival A1: Perfekt tense formula and regular verb list", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Watch", title: "YourGermanTeacher: German Past Tense (Perfekt) Made Super Easy", duration: "30 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Memorize", title: "15 regular Partizip II forms (gemacht, gelernt, gekauft, gehört, gespielt...)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" },
+            { type: "Memorize", title: "15 regular Partizip II forms (gemacht, gelernt, gekauft, gehört, gespielt...)", duration: "35 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
             { type: "Quiz", title: "Complete Day 36 Perfekt Regular Verbs Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" }
           ],
           intensiveTasks: [
@@ -800,7 +800,7 @@ export const CURRICULUM_DATA = {
           standardTasks: [
             { type: "Watch", title: "Deutsch mit Hend: A1 Lesson 31 - Inseparable Prefix Verbs in Perfekt", duration: "40 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Watch", title: "DW Nicos Weg: Episode 19 - Ein schöner Tag", duration: "25 min", resourceType: "SECONDARY", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
-            { type: "Memorize", title: "15 inseparable prefix verbs and Partizip II forms", duration: "30 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
+            { type: "Memorize", title: "15 inseparable prefix verbs and Partizip II forms", duration: "30 min", resourceType: "VOCAB", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Quiz", title: "Complete Day 39 Inseparable Perfekt Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" }
           ],
           intensiveTasks: [
@@ -860,7 +860,7 @@ export const CURRICULUM_DATA = {
             { type: "Speaking Mission", title: "Record a 4-minute vlog reviewing your past month of German study in Perfekt", duration: "20 min", resourceType: "SPEAKING", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write a full 200-word essay about your life journey leading up to moving to Germany", duration: "45 min", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
+            { type: "Writing", title: "Write a full 200-word essay about your life journey leading up to moving to Germany", duration: "45 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Listening Marathon", title: "Watch DW Nicos Weg Episodes 51-60 compilation", duration: "45 min", link: "https://www.youtube.com/watch?v=4-eDoThe6qo" },
             { type: "Mobile App", title: "Clear all pending SRS Anki reviews", duration: "30 min", link: "https://ankiweb.net/shared/info/2047595496" }
           ],
@@ -925,10 +925,10 @@ export const CURRICULUM_DATA = {
             { type: "Quiz", title: "Complete Day 45 Ausländerbehörde Survival Quiz", duration: "15 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
           ],
           intensiveTasks: [
-            { type: "Document Check", title: "Draft a formal checklist cover letter submitting your visa extension documents", duration: "45 min", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
-            { type: "Shadowing", title: "Shadow immigration officer interview audio 3 times", duration: "30 min", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
+            { type: "Document Check", title: "Draft a formal checklist cover letter submitting your visa extension documents", duration: "45 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Shadowing", title: "Shadow immigration officer interview audio 3 times", duration: "30 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Mobile App", title: "Anki Visa and Official Law Deck", duration: "25 min", link: "https://ankiweb.net/shared/info/2047595496" },
-            { type: "Survival German", title: "Learn key line: 'Ich habe alle Unterlagen für meine Aufenthaltserlaubnis dabei.'", duration: "20 min", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" }
+            { type: "Survival German", title: "Learn key line: 'Ich habe alle Unterlagen für meine Aufenthaltserlaubnis dabei.'", duration: "20 min", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" }
           ],
           targetMetrics: { vocab: 20, listeningMinutes: 40, speakingMinutes: 20, writingTasks: 1 }
         },
@@ -993,9 +993,9 @@ export const CURRICULUM_DATA = {
           focusSkill: "Full Assessment",
           objective: "Review Week 7 bureaucracy, banking, insurance, subordinate clauses, comparatives, and complete Assessment 7.",
           standardTasks: [
-            { type: "Revision", title: "Consolidate official German bureaucracy phrasebook and Hend notes", duration: "50 min", resourceType: "REVISION", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
-            { type: "Test", title: "Take Week 7 Interactive Assessment", duration: "45 min", resourceType: "TEST", link: "https://www.youtube.com/watch?v=g9o6q5x8sRk" },
-            { type: "Smart Review", title: "Targeted review of weak 'weil' clause structure or official document terms", duration: "35 min", resourceType: "SMART_REVIEW", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" },
+            { type: "Revision", title: "Consolidate official German bureaucracy phrasebook and Hend notes", duration: "50 min", resourceType: "REVISION", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
+            { type: "Test", title: "Take Week 7 Interactive Assessment", duration: "45 min", resourceType: "TEST", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
+            { type: "Smart Review", title: "Targeted review of weak 'weil' clause structure or official document terms", duration: "35 min", resourceType: "SMART_REVIEW", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
             { type: "Speaking Mission", title: "Record a 4-minute simulated interview explaining why you chose your German university", duration: "20 min", resourceType: "SPEAKING", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" }
           ],
           intensiveTasks: [
@@ -1058,9 +1058,9 @@ export const CURRICULUM_DATA = {
           focusSkill: "Grammar Master Review",
           objective: "Review all 18 core A1 grammar topics (V2, Accusative, Dative, Modals, Separables, Perfekt, Prepositions, Weil).",
           standardTasks: [
-            { type: "Revision", title: "Complete Deutsch mit Hend A1 Master Grammar Review Sheet", duration: "60 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
-            { type: "Watch", title: "YourGermanTeacher: All German A1 Grammar in 60 Minutes", duration: "60 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
-            { type: "Quiz", title: "Complete Day 52 Master Grammar Comprehensive Test", duration: "30 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=g9o6q5x8sRk" }
+            { type: "Revision", title: "Complete Deutsch mit Hend A1 Master Grammar Review Sheet", duration: "60 min", resourceType: "PRIMARY", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Watch", title: "YourGermanTeacher: All German A1 Grammar in 60 Minutes", duration: "60 min", resourceType: "SUPPLEMENTARY", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
+            { type: "Quiz", title: "Complete Day 52 Master Grammar Comprehensive Test", duration: "30 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" }
           ],
           intensiveTasks: [
             { type: "Writing", title: "Write 18 example sentences-one for each core A1 grammar topic", duration: "50 min", link: "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf" },
@@ -1118,8 +1118,8 @@ export const CURRICULUM_DATA = {
             { type: "Quiz", title: "Complete Day 55 Real-World Scenarios Test", duration: "20 min", resourceType: "QUIZ", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" }
           ],
           intensiveTasks: [
-            { type: "Writing", title: "Write a 250-word final arrival reflection email in German", duration: "50 min", link: "https://www.youtube.com/watch?v=F3a7cI2g_sM" },
-            { type: "Shadowing", title: "Shadow real-world dialogue marathon 40 min", duration: "40 min", link: "https://www.youtube.com/watch?v=oV9gP4-g-e8" },
+            { type: "Writing", title: "Write a 250-word final arrival reflection email in German", duration: "50 min", link: "https://www.youtube.com/watch?v=WMvCXVorOsg" },
+            { type: "Shadowing", title: "Shadow real-world dialogue marathon 40 min", duration: "40 min", link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs" },
             { type: "Mobile App", title: "Final Anki SRS Deck maintenance", duration: "30 min", link: "https://ankiweb.net/shared/info/2047595496" }
           ],
           targetMetrics: { vocab: 0, listeningMinutes: 50, speakingMinutes: 40, writingTasks: 1 }
@@ -1130,7 +1130,7 @@ export const CURRICULUM_DATA = {
           focusSkill: "Graduation and Full Mastery",
           objective: "Complete the ultimate 56-Day Comprehensive Assessment, review progress metrics, and unlock your Germany Readiness Certificate!",
           standardTasks: [
-            { type: "Final Assessment", title: "Take Final 56-Day Comprehensive Mastery Assessment (100 Questions)", duration: "75 min", resourceType: "FINAL_TEST", link: "https://www.youtube.com/watch?v=e_0kU4M0d0U" },
+            { type: "Final Assessment", title: "Take Final 56-Day Comprehensive Mastery Assessment (100 Questions)", duration: "75 min", resourceType: "FINAL_TEST", link: "https://www.youtube.com/watch?v=OFSHdj_2FQA" },
             { type: "Dashboard Review", title: "Review overall study hours, total vocabulary mastered, streak, and weak areas", duration: "30 min", resourceType: "DASHBOARD", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" },
             { type: "Certificate", title: "Generate and view your interactive Germany Survival Readiness Badge!", duration: "15 min", resourceType: "CERTIFICATE", link: "https://www.youtube.com/watch?v=r94aqLUO0wo" }
           ],

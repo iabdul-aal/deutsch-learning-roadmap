@@ -19,7 +19,7 @@ import {
   Info, Youtube, FileText, Globe, Dumbbell,
 } from 'lucide-react';
 import { useApp } from '../context/AppContext';
-import { selectResourcesForSkill, CONTENT_DB, getYouTubeWatchUrl } from '../data/contentRanking';
+import { selectResourcesForSkill, CONTENT_DB, getYouTubeWatchUrl, getYouTubeEmbedUrl } from '../data/contentRanking';
 import type { ContentSource, SkillType } from '../data/contentRanking';
 import { masteryToCEFR } from '../engine/learnerModel';
 import type { NextAction, SkillKey, GoalTrack } from '../types/learner';
@@ -127,7 +127,7 @@ const NextBestActionCard: React.FC<{
 
         {/* Resource card */}
         {resource && (
-          <div className="bg-stone-800/60 border border-stone-700 rounded-2xl p-4 space-y-2">
+          <div className="bg-stone-800/60 border border-stone-700 rounded-2xl p-4 space-3">
             <div className="flex items-start gap-3">
               <ResourceTypeIcon source={resource} />
               <div className="flex-1 min-w-0">
@@ -135,18 +135,26 @@ const NextBestActionCard: React.FC<{
                 <p className="text-[11px] text-stone-400 mt-0.5">{resource.channelOrAuthor}</p>
               </div>
               <div className="flex items-center gap-1.5 shrink-0">
-                {resource.language === 'AR' && (
-                  <span className="text-[10px] bg-emerald-900/50 text-emerald-400 border border-emerald-800 px-1.5 py-0.5 rounded font-bold">
-                    AR
-                  </span>
-                )}
-                <span className="text-[10px] text-stone-500 font-mono">{resource.durationMin}m</span>
+                <span className="text-[10px] text-stone-400 font-mono">{resource.durationMin}m</span>
               </div>
             </div>
 
+            {/* Embedded YouTube video player */}
+            {resource.type === 'VIDEO' && resource.resourceId && (
+              <div className="rounded-xl overflow-hidden bg-stone-950 aspect-video w-full border border-stone-700 shadow-md my-2">
+                <iframe
+                  src={getYouTubeEmbedUrl(resource.resourceId)}
+                  className="w-full h-full border-0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  title={resource.title}
+                />
+              </div>
+            )}
+
             <button
               onClick={() => setShowReason(r => !r)}
-              className="flex items-center gap-1.5 text-[11px] text-amber-400 hover:text-amber-300 font-bold transition-colors"
+              className="flex items-center gap-1.5 text-[11px] text-amber-400 hover:text-amber-300 font-bold transition-colors pt-1"
             >
               <Info className="w-3 h-3" />
               Why this resource?
@@ -155,11 +163,9 @@ const NextBestActionCard: React.FC<{
 
             {showReason && (
               <div className="bg-stone-900/50 rounded-xl p-3 text-[11px] text-stone-400 leading-relaxed">
-                {resource.language === 'AR'
-                  ? 'Arabic-first instruction reduces cognitive load and accelerates understanding.'
-                  : resource.channelOrAuthor.includes('DW') || resource.channelOrAuthor.includes('Deutsche Welle')
-                    ? 'Deutsche Welle is an official, CEFR-verified public broadcaster resource.'
-                    : 'Top-ranked by view count, community recommendations, and content quality.'
+                {resource.channelOrAuthor.includes('DW') || resource.channelOrAuthor.includes('Deutsche Welle')
+                  ? 'Deutsche Welle is an official, CEFR-verified public broadcaster resource.'
+                  : 'Top-ranked by community recommendations, clarity, and pedagogical quality.'
                 }
                 {resource.viewsApprox
                   ? ` ${(resource.viewsApprox / 1000).toFixed(0)}K+ learners use this resource.`
@@ -177,7 +183,7 @@ const NextBestActionCard: React.FC<{
             className="flex-1 flex items-center justify-center gap-2 py-3.5 rounded-2xl bg-amber-500 hover:bg-amber-400 text-stone-950 font-black text-sm transition-all shadow-lg shadow-amber-900/30 active:scale-[0.98]"
           >
             <Play className="w-4 h-4 fill-current" />
-            Start Now
+            Start Session
           </button>
           {resource && (
             <a
@@ -187,7 +193,7 @@ const NextBestActionCard: React.FC<{
               className="flex items-center gap-1.5 px-4 py-3.5 rounded-2xl border border-stone-700 text-stone-300 hover:text-white hover:border-stone-500 text-sm font-bold transition-all"
             >
               <ExternalLink className="w-3.5 h-3.5" />
-              Open
+              Watch on YouTube
             </a>
           )}
         </div>
@@ -579,11 +585,11 @@ export const TodayDashboard: React.FC = () => {
           ))}
         </div>
         <button
-          onClick={() => setActiveView('trackers')}
+          onClick={() => setActiveView('assessments')}
           className="flex items-center gap-1.5 text-xs text-amber-700 hover:text-amber-600 font-bold transition-colors"
         >
           <TrendingUp className="w-3.5 h-3.5" />
-          View detailed analytics
+          View detailed analytics & tests
           <ArrowRight className="w-3 h-3" />
         </button>
       </div>
@@ -629,12 +635,12 @@ export const TodayDashboard: React.FC = () => {
       {/* Quick Nav */}
       <div className="grid grid-cols-3 sm:grid-cols-6 gap-2">
         {([
-          { view: 'vocabulary', label: 'SRS Cards',  icon: <Brain className="w-4 h-4" /> },
-          { view: 'grammar',    label: 'Grammar',    icon: <BookOpen className="w-4 h-4" /> },
-          { view: 'resources',  label: 'Resources',  icon: <Youtube className="w-4 h-4" /> },
-          { view: 'missions',   label: 'Practice',   icon: <Dumbbell className="w-4 h-4" /> },
-          { view: 'curriculum', label: 'Roadmap',    icon: <Target className="w-4 h-4" /> },
-          { view: 'trackers',   label: 'Progress',   icon: <BarChart2 className="w-4 h-4" /> },
+          { view: 'vocabulary',  label: 'Vocabulary', icon: <Brain className="w-4 h-4" /> },
+          { view: 'grammar',     label: 'Grammar',    icon: <BookOpen className="w-4 h-4" /> },
+          { view: 'resources',   label: 'Resources',  icon: <Youtube className="w-4 h-4" /> },
+          { view: 'missions',    label: 'Missions',   icon: <Dumbbell className="w-4 h-4" /> },
+          { view: 'curriculum',  label: 'Roadmap',    icon: <Target className="w-4 h-4" /> },
+          { view: 'assessments', label: 'Tests',      icon: <BarChart2 className="w-4 h-4" /> },
         ] as const).map(item => (
           <button
             key={item.view}

@@ -199,10 +199,17 @@ const TaskCard: React.FC<{
   const isWriting = task.type === 'Writing' || (task.type === 'Write');
   const isSpeaking = task.type === 'Speak' || task.type === 'Shadowing' || task.type === 'Roleplay' || task.type === 'AI Roleplay';
 
-  // Determine which video to embed
-  const embedVideoId = isVideo
-    ? (isFirstVideoTask ? (dayVideoId || 'WMvCXVorOsg') : (secondaryVideoId || 'WMvCXVorOsg'))
-    : undefined;
+  // Extract video ID from task.link if present, or fallback to verified day video ID
+  let embedVideoId: string | undefined = undefined;
+  if (isVideo) {
+    if (task.link && task.link.includes('v=')) {
+      const match = task.link.match(/v=([a-zA-Z0-9_-]{11})/);
+      if (match) embedVideoId = match[1];
+    }
+    if (!embedVideoId) {
+      embedVideoId = isFirstVideoTask ? (dayVideoId || 'WMvCXVorOsg') : (secondaryVideoId || 'WMvCXVorOsg');
+    }
+  }
 
   // EVERY task is expandable to show rich embedded content or attachments
   const hasExpandable = true;
