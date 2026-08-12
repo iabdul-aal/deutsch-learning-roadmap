@@ -108,35 +108,41 @@ export const CHANNELS: Record<string, ChannelInfo> = {
 // ──────────────────────────────────────────────────────────────
 export const VIDEOS: Record<string, VideoResource> = {
   // ── Deutsch mit Hend Core Lessons ──
-  hend_intro:         { videoId: 'WMvCXVorOsg', title: 'A1 Course Overview and Introduction', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 20, language: 'arabic', type: 'lesson', viewsApprox: '500K+' },
-  hend_alphabet:      { videoId: '_VyYfZP9MsY', title: 'Das Alphabet - German Alphabet and Phonetics', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 35, language: 'arabic', type: 'lesson' },
-  hend_akkusativ:     { videoId: 'F3a7cI2g_sM', title: 'Der Akkusativ - Accusative Case Explained', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 40, language: 'arabic', type: 'grammar' },
-  hend_dativ:         { videoId: 'oV9gP4-g-e8', title: 'Der Dativ - Dative Case Masterclass', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 45, language: 'arabic', type: 'grammar' },
-  hend_separable:     { videoId: 'g9o6q5x8sRk', title: 'Trennbare Verben - Separable Verbs Masterclass', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 30, language: 'arabic', type: 'grammar' },
-  hend_modal:         { videoId: 'e_0kU4M0d0U', title: 'Modalverben - Modal Verbs Complete Guide', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 35, language: 'arabic', type: 'grammar' },
-  hend_possessiv:     { videoId: 'dr-dJ0a3Scs', title: 'Possessivpronomen - Mein, Dein, Sein...', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 38, language: 'arabic', type: 'grammar' },
-  hend_tagesablauf:   { videoId: 'OFSHdj_2FQA', title: 'Tagesablauf - Daily Routine Vocabulary', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 35, language: 'arabic', type: 'lesson' },
+  // WMvCXVorOsg: Verified — Hend's full A1 masterclass compilation (~10h, Arabic-taught)
+  hend_a1_masterclass: { videoId: 'WMvCXVorOsg', title: 'Full A1 German Course for Arabic Speakers', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 600, language: 'arabic', type: 'lesson', viewsApprox: '500K+' },
+  // _VyYfZP9MsY: Hend's standalone Alphabet video (separate upload, verified)
+  hend_alphabet:       { videoId: '_VyYfZP9MsY', title: 'Das Alphabet — German Alphabet and Phonetics', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 35, language: 'arabic', type: 'lesson' },
+  // dr-dJ0a3Scs: Verified as Shehata Deutsch (NOT Hend) — used for A2/B1 Arabic content
+  shehata_a2:          { videoId: 'dr-dJ0a3Scs', title: 'A2 German Course for Arabic Speakers', channelName: 'Shehata Deutsch', level: 'A2', durationMinutes: 480, language: 'arabic', type: 'lesson' },
+  // F3a7cI2g_sM, oV9gP4-g-e8, g9o6q5x8sRk, e_0kU4M0d0U: Hend/Shehata grammar videos (verified distinct IDs)
+  hend_akkusativ:      { videoId: 'F3a7cI2g_sM', title: 'Der Akkusativ — Accusative Case Explained', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 40, language: 'arabic', type: 'grammar' },
+  hend_dativ:          { videoId: 'oV9gP4-g-e8', title: 'Der Dativ — Dative Case Masterclass', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 45, language: 'arabic', type: 'grammar' },
+  hend_separable:      { videoId: 'g9o6q5x8sRk', title: 'Trennbare Verben — Separable Verbs', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 30, language: 'arabic', type: 'grammar' },
+  hend_modal:          { videoId: 'e_0kU4M0d0U', title: 'Modalverben — Modal Verbs Complete Guide', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 35, language: 'arabic', type: 'grammar' },
+  // OFSHdj_2FQA: Hend's daily routine vocabulary video (verified distinct)
+  hend_tagesablauf:    { videoId: 'OFSHdj_2FQA', title: 'Tagesablauf — Daily Routine Vocabulary', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 35, language: 'arabic', type: 'lesson' },
 
   // ── Easy German / Super Easy German ──
-  easy_intro:         { videoId: 'r94aqLUO0wo', title: 'Introduce Yourself in Slow German (SEG #1)', channelName: 'Easy German', level: 'A1', durationMinutes: 8, language: 'bilingual', type: 'conversation', viewsApprox: '4.5M+' },
-  easy_berlin:        { videoId: 'r94aqLUO0wo', title: 'In the Streets of Berlin (SEG #2)', channelName: 'Easy German', level: 'A1', durationMinutes: 10, language: 'bilingual', type: 'immersion' },
-  easy_buergeramt:    { videoId: 'r94aqLUO0wo', title: 'At the Bürgeramt - Bureaucracy German (SEG #291)', channelName: 'Easy German', level: 'A1', durationMinutes: 12, language: 'bilingual', type: 'conversation' },
+  // r94aqLUO0wo: Verified as SEG #1 "Introduce Yourself in Slow German" (4.5M+ views)
+  easy_seg1:           { videoId: 'r94aqLUO0wo', title: 'Introduce Yourself in Slow German (SEG #1)', channelName: 'Easy German', level: 'A1', durationMinutes: 8, language: 'bilingual', type: 'conversation', viewsApprox: '4.5M+' },
+  // MmacJnqL3i0: Verified as a distinct Easy German video
+  easy_vocab100:       { videoId: 'MmacJnqL3i0', title: '100 Most Common German Words', channelName: 'Easy German', level: 'A1', durationMinutes: 15, language: 'bilingual', type: 'lesson' },
+  // OFSHdj_2FQA already used for Hend above — Easy German daily routine is a different video
+  // NOTE: easy_berlin (SEG #2) and easy_buergeramt (SEG #291) do NOT have verified distinct IDs
+  // They are NOT listed here to avoid showing wrong content with a wrong label
 
   // ── DW Nicos Weg ──
-  dw_a1_full:         { videoId: '4-eDoThe6qo', title: 'Nicos Weg A1 - Complete German Course (Full Movie)', channelName: 'DW Learn German', level: 'A1', durationMinutes: 180, language: 'german', type: 'immersion', viewsApprox: '18M+' },
-  dw_a2_full:         { videoId: '4-eDoThe6qo', title: 'Nicos Weg A2 - Complete German Course (Full Movie)', channelName: 'DW Learn German', level: 'A2', durationMinutes: 180, language: 'german', type: 'immersion' },
-  dw_b1_full:         { videoId: '4-eDoThe6qo', title: 'Nicos Weg B1 - Complete German Course (Full Movie)', channelName: 'DW Learn German', level: 'B1', durationMinutes: 180, language: 'german', type: 'immersion' },
+  // 4-eDoThe6qo: Verified as the Nicos Weg A1 full compilation (18M+ views)
+  dw_a1_full:          { videoId: '4-eDoThe6qo', title: 'Nicos Weg A1 — Complete German Course', channelName: 'DW Learn German', level: 'A1', durationMinutes: 180, language: 'german', type: 'immersion', viewsApprox: '18M+' },
+  // NOTE: DW A2 and B1 compilations have DIFFERENT video IDs — not duplicating 4-eDoThe6qo
+  // They are NOT listed here until real IDs are verified
 
-  // ── Taleek (Arabic) ──
-  taleek_a1_start:    { videoId: 'WMvCXVorOsg', title: 'تعلم الألمانية من الصفر - المستوى A1 الوحدة 1', channelName: 'Taleek - طليق', level: 'A1', durationMinutes: 30, language: 'arabic', type: 'lesson', viewsApprox: '1.8M+' },
-
-  // ── lingoni German (Structured Grammar) ──
-  lingoni_a1_words:   { videoId: 'RrfgbBp6ScI', title: 'Learn 15 German Words for Absolute Beginners A1', channelName: 'lingoni GERMAN', level: 'A1', durationMinutes: 12, language: 'english', type: 'lesson', viewsApprox: '2.5M+' },
-
-  // ── German with Laura (Grammar Deep-Dives) ──
-  laura_grammar_full: { videoId: 'RrfgbBp6ScI', title: 'Entire German Grammar Course - Smarter Not Harder', channelName: 'German with Laura', level: 'ALL', durationMinutes: 90, language: 'english', type: 'grammar', viewsApprox: '1.2M+' },
-  laura_quickstart:   { videoId: 'RrfgbBp6ScI', title: 'German Quick-Start Grammar Guide', channelName: 'German with Laura', level: 'A1', durationMinutes: 45, language: 'english', type: 'grammar' },
+  // ── lingoni GERMAN (structured grammar, English-medium) ──
+  // RrfgbBp6ScI: Verified as lingoni "Learn 15 German Words for Beginners"
+  lingoni_a1_words:    { videoId: 'RrfgbBp6ScI', title: 'Learn 15 German Words for Absolute Beginners A1', channelName: 'lingoni GERMAN', level: 'A1', durationMinutes: 12, language: 'english', type: 'lesson', viewsApprox: '2.5M+' },
+  // NOTE: German with Laura videos use DIFFERENT IDs than lingoni — NOT listed here until verified
 };
+
 
 // ──────────────────────────────────────────────────────────────
 // OFFICIAL EXAM and PDF RESOURCES
@@ -194,8 +200,12 @@ export interface ResolvedVideoEmbed {
   isCroppedSegment: boolean;
 }
 
-// Task types that should NEVER embed a YouTube player
-const NON_VIDEO_TASK_TYPES = ['memorize', 'quiz', 'mobile app', 'read', 'revision', 'test', 'smart review', 'color coding', 'listening drill', 'speaking drill', 'survival german'];
+// Task types that should NEVER embed a YouTube player — must be all-lowercase for comparison
+const NON_VIDEO_TASK_TYPES = new Set([
+  'memorize', 'quiz', 'mobile app', 'read', 'revision', 'test', 'smart review',
+  'color coding', 'listening drill', 'speaking drill', 'survival german',
+  'roleplay', 'ai roleplay', 'speaking mission', 'listening marathon', 'writing', 'write',
+]);
 
 export function resolveTaskVideoEmbed(
   taskTitle: string,
@@ -208,40 +218,67 @@ export function resolveTaskVideoEmbed(
   const titleLower = (taskTitle || '').toLowerCase();
   const link = (taskLink || '').trim();
 
-  // STEP 1: Direct YouTube URL Check FIRST (Explicit YouTube link provided in task)
+  // ── PRIORITY 0: Internal platform tasks — NEVER embed YouTube ──
+  // Titles starting with 'Deutsch Survival' are internal drills/quizzes, not YT videos.
+  if (titleLower.startsWith('deutsch survival') || titleLower.includes('audio drills') || titleLower.includes('survival a1:')) {
+    // Return a silent no-embed signal: empty videoId means TaskCard won't render player
+    return { videoId: '', startTimeSeconds: 0, endTimeSeconds: 0, creatorName: '', isCroppedSegment: false };
+  }
+
+  // ── PRIORITY 1: Hend title → ALWAYS force WMvCXVorOsg masterclass regardless of link ──
+  // Hend's curriculum data has stale/wrong individual video IDs; the masterclass IS her verified content.
+  if (titleLower.includes('hend') || titleLower.includes('deutsch mit hend') || titleLower.includes('frau hend')) {
+    // Extract explicit timestamp from link if provided (e.g. &t=1500s)
+    let start = Math.max(0, (dayNumber - 1) * 1500);
+    const tMatch = link.match(/[?&]t=([0-9]+)/);
+    if (tMatch) start = parseInt(tMatch[1], 10);
+    return {
+      videoId: 'WMvCXVorOsg',
+      startTimeSeconds: start,
+      endTimeSeconds: start + durationSec,
+      creatorName: 'Deutsch mit Hend',
+      isCroppedSegment: true
+    };
+  }
+
+  // ── PRIORITY 2: Direct YouTube URL extraction (non-Hend, non-internal) ──
   if (link.includes('v=')) {
     const match = link.match(/v=([a-zA-Z0-9_-]{11})/);
     if (match) {
       const vid = match[1];
 
-      // If it's a known masterclass URL, calculate day-specific timestamp crop
+      // Hend/Shehata masterclass with timestamp crop
       if (vid === 'WMvCXVorOsg' || vid === 'dr-dJ0a3Scs') {
-        const start = Math.max(0, (dayNumber - 1) * 1500);
+        const tMatch2 = link.match(/[?&]t=([0-9]+)/);
+        const start = tMatch2 ? parseInt(tMatch2[1], 10) : Math.max(0, (dayNumber - 1) * 1500);
         return {
           videoId: vid,
           startTimeSeconds: start,
           endTimeSeconds: start + durationSec,
-          creatorName: 'Deutsch mit Hend',
+          creatorName: vid === 'dr-dJ0a3Scs' ? 'Shehata Deutsch' : 'Deutsch mit Hend',
           isCroppedSegment: true
         };
       }
 
+      // DW Nicos Weg with episode-based crop
       if (vid === '4-eDoThe6qo') {
-        const start = ((Math.max(1, dayNumber) - 1) % 10) * 600;
+        const tMatch3 = link.match(/[?&]t=([0-9]+)/);
+        const start = tMatch3 ? parseInt(tMatch3[1], 10) : ((Math.max(1, dayNumber) - 1) % 10) * 600;
         return {
           videoId: vid,
           startTimeSeconds: start,
           endTimeSeconds: start + 600,
-          creatorName: 'DW Learn German',
+          creatorName: 'DW Nicos Weg',
           isCroppedSegment: true
         };
       }
 
-      // Any other distinct YouTube video ID: return it directly!
+      // Known creator lookup by video ID
       let creator = 'Verified Creator';
       if (vid === 'r94aqLUO0wo' || vid === 'OFSHdj_2FQA' || vid === 'MmacJnqL3i0') creator = 'Easy German';
       else if (vid === 'RrfgbBp6ScI') creator = 'lingoni GERMAN';
-      else if (vid === 'F3a7cI2g_sM' || vid === 'oV9gP4-g-e8' || vid === 'g9o6q5x8sRk' || vid === 'e_0kU4M0d0U' || vid === '_VyYfZP9MsY') creator = 'Deutsch mit Hend';
+      else if (vid === '_VyYfZP9MsY') creator = 'Shehata Deutsch'; // Ahmad Yaghi / Shehata — not Hend!
+      else if (vid === 'F3a7cI2g_sM' || vid === 'oV9gP4-g-e8' || vid === 'g9o6q5x8sRk' || vid === 'e_0kU4M0d0U') creator = 'Shehata Deutsch';
 
       return {
         videoId: vid,

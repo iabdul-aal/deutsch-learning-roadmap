@@ -20,6 +20,9 @@ export default {
       fontFamily: {
         sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
         arabic: ['Cairo', 'Noto Sans Arabic', 'sans-serif']
+      },
+      screens: {
+        xs: '475px',
       }
     },
   },

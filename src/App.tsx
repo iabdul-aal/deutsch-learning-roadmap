@@ -13,7 +13,7 @@ import { ResourcesView } from './components/ResourcesView';
 import { MissionsView } from './components/MissionsView';
 import { MobileAppsView } from './components/MobileAppsView';
 import { QuickTimerModal } from './components/QuickTimerModal';
-import { FloatingTimerWidget } from './components/FloatingTimerWidget';
+
 import { CommandPalette } from './components/CommandPalette';
 import { OnboardingFlow } from './components/OnboardingFlow';
 import { AVAILABLE_TRACKS } from './config/activeLanguageTrack';
@@ -133,7 +133,7 @@ const AppShell: React.FC = () => {
 
       <main
         id="main-content"
-        className="flex-1 min-w-0 p-4 sm:p-6 lg:p-8 space-y-6 max-w-7xl overflow-hidden"
+        className="flex-1 min-w-0 p-4 sm:p-6 lg:p-8 space-y-6 overflow-x-hidden"
         aria-label="Main content"
       >
         {/* Command bar header with Persistent Progress Bar and Timer */}
@@ -192,8 +192,7 @@ const AppShell: React.FC = () => {
         </ViewErrorBoundary>
       </main>
 
-      {/* Floating Timer Widget that moves with scroll size */}
-      <FloatingTimerWidget onOpenModal={() => setTimerModalOpen(true)} />
+
 
       {timerModalOpen && (
         <QuickTimerModal onClose={() => setTimerModalOpen(false)} />

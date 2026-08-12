@@ -95,11 +95,11 @@ export const QuickTimerModal: React.FC<QuickTimerModalProps> = ({ isOpen = true,
         </div>
 
         {/* Presets */}
-        <div className="flex justify-center gap-2">
+        <div className="flex flex-wrap justify-center gap-2">
           {[
-            { mins: 15, label: '15m' },
-            { mins: 25, label: '25m (Pomodoro)' },
-            { mins: 45, label: '45m Deep Work' },
+            { mins: 15, label: '15 min' },
+            { mins: 25, label: '25 min' },
+            { mins: 45, label: '45 min' },
           ].map(p => (
             <button
               key={p.mins}

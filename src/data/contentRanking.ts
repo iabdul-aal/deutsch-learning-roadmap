@@ -182,8 +182,8 @@ export const CONTENT_DB: ContentSource[] = [
   {
     id: 'hend_alphabet',
     type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: 'WMvCXVorOsg',
-    title: 'Das Alphabet and Phonetics - German Pronunciation',
+    resourceId: '_VyYfZP9MsY',
+    title: 'Das Alphabet und Phonetik - German Alphabet and Pronunciation',
     titleAR: 'الأبجدية الألمانية والنطق الصحيح',
     channelOrAuthor: 'Deutsch mit Hend',
     level: 'A1', skills: ['SPRECHEN', 'HOEREN'],
@@ -247,10 +247,11 @@ export const CONTENT_DB: ContentSource[] = [
     viewsApprox: 2_000_000, communityScore: 95, contentMatchScore: 99, pedagogyScore: 95,
   },
   {
+    // Hend A2: dr-dJ0a3Scs is Shehata's video — using Hend's YouTube channel page instead
     id: 'hend_a2_playlist',
-    type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: 'dr-dJ0a3Scs',
-    title: 'Deutsch mit Hend - Complete A2 Grammar Playlist',
+    type: 'INTERACTIVE', tier: 'PRIMARY',
+    resourceId: 'https://www.youtube.com/@FrauHendTaha/playlists',
+    title: 'Deutsch mit Hend - Complete A2 Grammar Playlist (YouTube)',
     titleAR: 'دورة الألمانية A2 مع هند - كاملة',
     channelOrAuthor: 'Deutsch mit Hend',
     level: 'A2', skills: ['GRAMMATIK', 'VOCAB', 'SCHREIBEN'],
@@ -258,10 +259,11 @@ export const CONTENT_DB: ContentSource[] = [
     viewsApprox: 1_200_000, communityScore: 93, contentMatchScore: 99, pedagogyScore: 94,
   },
   {
+    // Hend B1: dr-dJ0a3Scs is Shehata's video — using Hend's YouTube channel page instead
     id: 'hend_b1_playlist',
-    type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: 'dr-dJ0a3Scs',
-    title: 'Deutsch mit Hend - Complete B1 Grammar Playlist',
+    type: 'INTERACTIVE', tier: 'PRIMARY',
+    resourceId: 'https://www.youtube.com/@FrauHendTaha/playlists',
+    title: 'Deutsch mit Hend - Complete B1 Grammar Playlist (YouTube)',
     titleAR: 'دورة الألمانية B1 مع هند - كاملة',
     channelOrAuthor: 'Deutsch mit Hend',
     level: 'B1', skills: ['GRAMMATIK', 'VOCAB', 'SCHREIBEN'],
@@ -274,21 +276,23 @@ export const CONTENT_DB: ContentSource[] = [
   // Channel: @Taleek | Playlist: https://www.youtube.com/watch?v=WMvCXVorOsg
   // ─────────────────────────────────────────────────────────────
   {
+    // Taleek A1: r94aqLUO0wo is Easy German's video — using Taleek's channel page
     id: 'taleek_a1_start',
-    type: 'VIDEO', tier: 'SECONDARY',
-    resourceId: 'r94aqLUO0wo',
-    title: 'Learn German from Zero - A1 Unit 1 Lesson 1',
-    titleAR: 'تعلم الألمانية من الصفر - المستوى A1',
+    type: 'INTERACTIVE', tier: 'SECONDARY',
+    resourceId: 'https://www.youtube.com/@Taleek/videos',
+    title: 'Taleek - Learn German from Zero A1 (Arabic Channel)',
+    titleAR: 'تعلم الألمانية من الصفر - المستوى A1 - قناة طليق',
     channelOrAuthor: 'Taleek - طليق',
     level: 'A1', skills: ['GRAMMATIK', 'HOEREN', 'VOCAB'],
     language: 'AR', durationMin: 30,
     viewsApprox: 1_800_000, communityScore: 82, contentMatchScore: 90, pedagogyScore: 85,
   },
   {
+    // Taleek playlist: WMvCXVorOsg is Hend's video — using Taleek's channel page
     id: 'taleek_a1_playlist',
-    type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: 'WMvCXVorOsg',
-    title: 'Taleek German A1 Complete Course Playlist',
+    type: 'INTERACTIVE', tier: 'PRIMARY',
+    resourceId: 'https://www.youtube.com/@Taleek/playlists',
+    title: 'Taleek German A1 Complete Course Playlist (YouTube)',
     titleAR: 'دورة الألمانية A1 - طليق كاملة',
     channelOrAuthor: 'Taleek - طليق',
     level: 'A1', skills: ['GRAMMATIK', 'HOEREN', 'VOCAB'],
@@ -341,7 +345,8 @@ export const CONTENT_DB: ContentSource[] = [
     viewsApprox: 20_000_000, communityScore: 98, contentMatchScore: 92, pedagogyScore: 92,
   },
   {
-    id: 'OFSHdj_2FQA',
+    // Unique id for A2 playlist (was duplicate 'OFSHdj_2FQA')
+    id: 'easy_a2_playlist',
     type: 'VIDEO', tier: 'PRIMARY',
     resourceId: 'OFSHdj_2FQA',
     title: 'Easy German - A2 Level Playlist',
@@ -351,7 +356,8 @@ export const CONTENT_DB: ContentSource[] = [
     viewsApprox: 8_000_000, communityScore: 95, contentMatchScore: 90, pedagogyScore: 90,
   },
   {
-    id: 'OFSHdj_2FQA',
+    // Unique id for B1 playlist (was duplicate 'OFSHdj_2FQA')
+    id: 'easy_b1_playlist',
     type: 'VIDEO', tier: 'PRIMARY',
     resourceId: 'OFSHdj_2FQA',
     title: 'Easy German - B1 Level Playlist',
@@ -376,20 +382,22 @@ export const CONTENT_DB: ContentSource[] = [
     viewsApprox: 18_000_000, communityScore: 99, contentMatchScore: 98, pedagogyScore: 98,
   },
   {
+    // DW A2: OFSHdj_2FQA is an Easy German video — using DW Nicos Weg A2 web portal instead
     id: 'dw_a2_full_movie',
-    type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: 'OFSHdj_2FQA',
-    title: "Nicos Weg A2 - Complete German Course (Full Feature Film)",
+    type: 'INTERACTIVE', tier: 'PRIMARY',
+    resourceId: 'https://learngerman.dw.com/en/nicos-weg/s-55226553',
+    title: "Nicos Weg A2 - Complete German Course (DW Learn German Portal)",
     channelOrAuthor: 'DW Deutsche Welle',
     level: 'A2', skills: ['HOEREN', 'LESEN', 'GRAMMATIK'],
     language: 'DE', durationMin: 180,
     viewsApprox: 8_000_000, communityScore: 97, contentMatchScore: 97, pedagogyScore: 97,
   },
   {
+    // DW B1: MmacJnqL3i0 is an Easy German video — using DW Nicos Weg B1 web portal instead
     id: 'dw_b1_full_movie',
-    type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: 'MmacJnqL3i0',
-    title: "Nicos Weg B1 - Complete German Course (Full Feature Film)",
+    type: 'INTERACTIVE', tier: 'PRIMARY',
+    resourceId: 'https://learngerman.dw.com/en/nicos-weg/s-55226554',
+    title: "Nicos Weg B1 - Complete German Course (DW Learn German Portal)",
     channelOrAuthor: 'DW Deutsche Welle',
     level: 'B1', skills: ['HOEREN', 'LESEN', 'GRAMMATIK'],
     language: 'DE', durationMin: 180,
@@ -436,9 +444,10 @@ export const CONTENT_DB: ContentSource[] = [
   // Channel: @LearnGermanwithAnja | Playlist: https://www.youtube.com/watch?v=WMvCXVorOsg
   // ─────────────────────────────────────────────────────────────
   {
+    // Anja A1: RrfgbBp6ScI is lingoni's video — corrected to Anja's channel page
     id: 'anja_a1_course',
-    type: 'VIDEO', tier: 'SECONDARY',
-    resourceId: 'RrfgbBp6ScI',
+    type: 'INTERACTIVE', tier: 'SECONDARY',
+    resourceId: 'https://www.youtube.com/@LearnGermanwithAnja/playlists',
     title: 'German for Beginners A1 - Complete Free Course (Lessons 1-63)',
     channelOrAuthor: 'Learn German with Anja',
     level: 'A1', skills: ['GRAMMATIK', 'VOCAB', 'SCHREIBEN'],
@@ -447,13 +456,14 @@ export const CONTENT_DB: ContentSource[] = [
   },
 
   // ─────────────────────────────────────────────────────────────
-  // ⬛ German with Laura - Deep Grammar Analysis
+  // German with Laura - Deep Grammar Analysis
   // Channel: @GermanwithLaura
   // ─────────────────────────────────────────────────────────────
   {
+    // Laura grammar: RrfgbBp6ScI is lingoni's video — corrected to Laura's channel page
     id: 'laura_grammar_course',
-    type: 'VIDEO', tier: 'SECONDARY',
-    resourceId: 'RrfgbBp6ScI',
+    type: 'INTERACTIVE', tier: 'SECONDARY',
+    resourceId: 'https://www.youtube.com/@GermanwithLaura/videos',
     title: 'Entire German Grammar Course - Learn Smarter Not Harder',
     channelOrAuthor: 'German with Laura',
     level: 'ALL', skills: ['GRAMMATIK', 'SCHREIBEN'],
@@ -461,9 +471,10 @@ export const CONTENT_DB: ContentSource[] = [
     viewsApprox: 1_200_000, communityScore: 85, contentMatchScore: 95, pedagogyScore: 88,
   },
   {
+    // Laura quickstart: RrfgbBp6ScI is lingoni's video — corrected to Laura's channel page
     id: 'laura_quickstart',
-    type: 'VIDEO', tier: 'SUPPLEMENTARY',
-    resourceId: 'RrfgbBp6ScI',
+    type: 'INTERACTIVE', tier: 'SUPPLEMENTARY',
+    resourceId: 'https://www.youtube.com/@GermanwithLaura/videos',
     title: 'German Quick-Start Grammar Guide',
     channelOrAuthor: 'German with Laura',
     level: 'A1', skills: ['GRAMMATIK'],
@@ -485,10 +496,11 @@ export const CONTENT_DB: ContentSource[] = [
     viewsApprox: 0, communityScore: 100, contentMatchScore: 100, pedagogyScore: 100,
   },
   {
+    // Corrected: was same PDF URL as goethe_a1_pdf_modellsatz — now points to real exam portal
     id: 'goethe_a1_exam_page',
     type: 'INTERACTIVE', tier: 'PRIMARY',
-    resourceId: 'https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_modellsatz.pdf',
-    title: 'Goethe-Zertifikat A1 - Official Exam Training Portal',
+    resourceId: 'https://www.goethe.de/de/spr/kup/prf/prf/sd1.html',
+    title: 'Goethe-Zertifikat A1: Start Deutsch 1 - Official Exam Training Portal',
     channelOrAuthor: 'Goethe Institut',
     level: 'A1', skills: ['LESEN', 'HOEREN', 'SCHREIBEN', 'SPRECHEN'],
     language: 'DE',
@@ -563,21 +575,23 @@ export const CONTENT_DB: ContentSource[] = [
   // B1 playlist: https://www.youtube.com/watch?v=RrfgbBp6ScI
   // ─────────────────────────────────────────────────────────────
   {
+    // shehata_a1_intro: _VyYfZP9MsY is Hend's alphabet video — Shehata's A1 intro is dr-dJ0a3Scs
     id: 'shehata_a1_intro',
     type: 'VIDEO', tier: 'SECONDARY',
-    resourceId: '_VyYfZP9MsY',
-    title: 'A1 Lesson 1 - German Alphabet and Letters (from Zero)',
-    titleAR: 'تعلم الألمانية للمبتدئين - الحروف (الدرس الأول)',
+    resourceId: 'dr-dJ0a3Scs',
+    title: 'A1 Lesson 1 - German from Zero for Arabic Speakers',
+    titleAR: 'تعلم الألمانية للمبتدئين - الدرس الأول - مستر شحاته',
     channelOrAuthor: 'Shehata Deutsch',
     level: 'A1', skills: ['SPRECHEN', 'HOEREN', 'GRAMMATIK'],
     language: 'AR', durationMin: 30,
     viewsApprox: 380_000, communityScore: 85, contentMatchScore: 95, pedagogyScore: 90,
   },
   {
+    // shehata_a1_playlist: WMvCXVorOsg is Hend's video — corrected to Shehata's channel page
     id: 'shehata_a1_playlist',
-    type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: 'WMvCXVorOsg',
-    title: 'Shehata Deutsch - Complete A1 Course Playlist',
+    type: 'INTERACTIVE', tier: 'PRIMARY',
+    resourceId: 'https://www.youtube.com/@MohammadShehata-Official/playlists',
+    title: 'Shehata Deutsch - Complete A1 Course Playlist (YouTube)',
     titleAR: 'الألمانية مع مستر شحاته - دورة A1 كاملة',
     channelOrAuthor: 'Shehata Deutsch',
     level: 'A1', skills: ['GRAMMATIK', 'VOCAB', 'SCHREIBEN'],
@@ -585,10 +599,11 @@ export const CONTENT_DB: ContentSource[] = [
     viewsApprox: 1_500_000, communityScore: 84, contentMatchScore: 94, pedagogyScore: 89,
   },
   {
+    // shehata_a2_playlist: dr-dJ0a3Scs is Shehata's A1 intro — A2 playlist has no verified ID
     id: 'shehata_a2_playlist',
-    type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: 'dr-dJ0a3Scs',
-    title: 'Shehata Deutsch - Complete A2 Course Playlist',
+    type: 'INTERACTIVE', tier: 'PRIMARY',
+    resourceId: 'https://www.youtube.com/@MohammadShehata-Official/playlists',
+    title: 'Shehata Deutsch - Complete A2 Course Playlist (YouTube)',
     titleAR: 'الألمانية مع مستر شحاته - دورة A2 كاملة',
     channelOrAuthor: 'Shehata Deutsch',
     level: 'A2', skills: ['GRAMMATIK', 'VOCAB', 'SCHREIBEN'],
@@ -596,21 +611,11 @@ export const CONTENT_DB: ContentSource[] = [
     viewsApprox: 900_000, communityScore: 83, contentMatchScore: 93, pedagogyScore: 88,
   },
   {
-    id: 'shehata_b1_writing',
-    type: 'VIDEO', tier: 'SECONDARY',
-    resourceId: 'dr-dJ0a3Scs',
-    title: 'B1 Writing Course - Connectors and Conjunctions',
-    titleAR: 'كورس الكتابة B1 - الروابط في الجملة الألمانية',
-    channelOrAuthor: 'Shehata Deutsch',
-    level: 'B1', skills: ['SCHREIBEN', 'GRAMMATIK'],
-    language: 'AR', durationMin: 25,
-    viewsApprox: 120_000, communityScore: 82, contentMatchScore: 94, pedagogyScore: 88,
-  },
-  {
+    // shehata_b1_playlist: dr-dJ0a3Scs is A1 content — B1 playlist has no verified ID
     id: 'shehata_b1_playlist',
-    type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: 'dr-dJ0a3Scs',
-    title: 'Shehata Deutsch - Complete B1 Course Playlist',
+    type: 'INTERACTIVE', tier: 'PRIMARY',
+    resourceId: 'https://www.youtube.com/@MohammadShehata-Official/playlists',
+    title: 'Shehata Deutsch - Complete B1 Course Playlist (YouTube)',
     titleAR: 'الألمانية مع مستر شحاته - دورة B1 كاملة',
     channelOrAuthor: 'Shehata Deutsch',
     level: 'B1', skills: ['GRAMMATIK', 'SCHREIBEN', 'SPRECHEN'],
@@ -623,57 +628,52 @@ export const CONTENT_DB: ContentSource[] = [
   // Channel: @DeutschmitMira
   // ─────────────────────────────────────────────────────────────
   {
-    id: 'mira_pronunciation_1',
-    type: 'VIDEO', tier: 'SUPPLEMENTARY',
-    resourceId: 'WMvCXVorOsg',
-    title: 'German Pronunciation Course - Lesson 1 (Arabic)',
-    titleAR: 'كورس النطق باللغة الألمانية - الدرس الأول',
+    // Mira pronunciation: WMvCXVorOsg is Hend's video — corrected to Mira's channel page
+    // RrfgbBp6ScI is lingoni's video — both Mira entries now use her channel page
+    id: 'mira_pronunciation',
+    type: 'INTERACTIVE', tier: 'SUPPLEMENTARY',
+    resourceId: 'https://www.youtube.com/@DeutschmitMira/videos',
+    title: 'German Pronunciation Course for Arabic Speakers (Lessons 1-2)',
+    titleAR: 'كورس النطق باللغة الألمانية - مع ميرا',
     channelOrAuthor: 'Deutsch mit Mira',
-    level: 'A1', skills: ['SPRECHEN'],
+    level: 'A1', skills: ['SPRECHEN', 'AUSSPRACHE'],
     language: 'AR', durationMin: 25,
     viewsApprox: 350_000, communityScore: 80, contentMatchScore: 92, pedagogyScore: 84,
-  },
-  {
-    id: 'mira_pronunciation_2',
-    type: 'VIDEO', tier: 'SUPPLEMENTARY',
-    resourceId: 'RrfgbBp6ScI',
-    title: 'German Pronunciation Course - Lesson 2 (Arabic)',
-    titleAR: 'كورس النطق باللغة الألمانية - الدرس الثاني',
-    channelOrAuthor: 'Deutsch mit Mira',
-    level: 'A1', skills: ['SPRECHEN'],
-    language: 'AR', durationMin: 22,
-    viewsApprox: 280_000, communityScore: 79, contentMatchScore: 91, pedagogyScore: 83,
   },
 
   // ─────────────────────────────────────────────────────────────
   //  DW NICOS WEG - Verified Individual Episode IDs
   // ─────────────────────────────────────────────────────────────
   {
+    // ep1 hallo: 4-eDoThe6qo is the full A1 compilation, not ep1 specifically.
+    // Individual ep IDs not verified — linking to DW portal for the episode
     id: 'dw_ep1_hallo',
-    type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: '4-eDoThe6qo',
-    title: 'Nicos Weg - Folge 1: Hallo! (Greetings and Introductions)',
+    type: 'INTERACTIVE', tier: 'PRIMARY',
+    resourceId: 'https://learngerman.dw.com/en/nicos-weg/s-55226551',
+    title: "Nicos Weg - Folge 1: Hallo! (Greetings and Introductions)",
     channelOrAuthor: 'DW Deutsche Welle',
     level: 'A1', skills: ['HOEREN', 'SPRECHEN'],
     language: 'DE', durationMin: 8,
     viewsApprox: 3_000_000, communityScore: 99, contentMatchScore: 98, pedagogyScore: 99,
   },
   {
+    // ep2: same issue as ep1 — no distinct video ID verified
     id: 'dw_ep2_kein_problem',
-    type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: '4-eDoThe6qo',
-    title: 'Nicos Weg - Folge 2: Kein Problem! (Numbers and Help)',
+    type: 'INTERACTIVE', tier: 'PRIMARY',
+    resourceId: 'https://learngerman.dw.com/en/nicos-weg/s-55226551',
+    title: "Nicos Weg - Folge 2: Kein Problem! (Numbers and Help)",
     channelOrAuthor: 'DW Deutsche Welle',
     level: 'A1', skills: ['HOEREN', 'LESEN'],
     language: 'DE', durationMin: 8,
     viewsApprox: 1_500_000, communityScore: 97, contentMatchScore: 97, pedagogyScore: 97,
   },
   {
+    // Hallo Deutschschule: 4-eDoThe6qo is DW's compilation, not this channel's video
     id: 'dw_nicos_ep1_intro_lesson',
-    type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: '4-eDoThe6qo',
-    title: 'Deutsch für Anfänger - Sich vorstellen and Buchstabieren (A1)',
-    channelOrAuthor: 'Hallo Deutschschule',
+    type: 'INTERACTIVE', tier: 'PRIMARY',
+    resourceId: 'https://learngerman.dw.com/en/nicos-weg/s-55226551',
+    title: "Deutsch für Anfänger - Sich vorstellen und Buchstabieren (A1)",
+    channelOrAuthor: 'DW Deutsche Welle',
     level: 'A1', skills: ['SPRECHEN', 'HOEREN'],
     language: 'DE', durationMin: 15,
     viewsApprox: 3_200_000, communityScore: 88, contentMatchScore: 95, pedagogyScore: 90,
@@ -683,10 +683,12 @@ export const CONTENT_DB: ContentSource[] = [
   //  lingoni GERMAN - Verified Grammar-Specific Videos
   // ─────────────────────────────────────────────────────────────
   {
+    // lingoni grammar videos: all used RrfgbBp6ScI (the "15 words" video) — distinct IDs not verified
+    // Consolidated to lingoni channel page since individual video IDs differ from lingoni_a1_words
     id: 'lingoni_akkusativ',
-    type: 'VIDEO', tier: 'SECONDARY',
-    resourceId: 'RrfgbBp6ScI',
-    title: 'Accusative Case in German - Part 1: The Direct Object',
+    type: 'INTERACTIVE', tier: 'SECONDARY',
+    resourceId: 'https://www.youtube.com/@lingoniGERMAN/videos',
+    title: 'Accusative Case in German - Part 1: The Direct Object (lingoni)',
     channelOrAuthor: 'lingoni GERMAN',
     level: 'A1', skills: ['GRAMMATIK'],
     language: 'EN', durationMin: 15,
@@ -694,9 +696,9 @@ export const CONTENT_DB: ContentSource[] = [
   },
   {
     id: 'lingoni_perfekt',
-    type: 'VIDEO', tier: 'SECONDARY',
-    resourceId: 'RrfgbBp6ScI',
-    title: 'The Perfect Tense in German - Regular Verbs (Perfekt)',
+    type: 'INTERACTIVE', tier: 'SECONDARY',
+    resourceId: 'https://www.youtube.com/@lingoniGERMAN/videos',
+    title: 'The Perfect Tense in German - Regular Verbs (Perfekt) (lingoni)',
     channelOrAuthor: 'lingoni GERMAN',
     level: 'A2', skills: ['GRAMMATIK', 'SCHREIBEN'],
     language: 'EN', durationMin: 14,
@@ -704,9 +706,9 @@ export const CONTENT_DB: ContentSource[] = [
   },
   {
     id: 'lingoni_sentence_structure',
-    type: 'VIDEO', tier: 'SECONDARY',
-    resourceId: 'RrfgbBp6ScI',
-    title: 'German Sentence Structure - Verb Position in Main Clauses',
+    type: 'INTERACTIVE', tier: 'SECONDARY',
+    resourceId: 'https://www.youtube.com/@lingoniGERMAN/videos',
+    title: 'German Sentence Structure - Verb Position in Main Clauses (lingoni)',
     channelOrAuthor: 'lingoni GERMAN',
     level: 'A1', skills: ['GRAMMATIK', 'SCHREIBEN'],
     language: 'EN', durationMin: 12,
@@ -714,9 +716,9 @@ export const CONTENT_DB: ContentSource[] = [
   },
   {
     id: 'lingoni_separable_verbs',
-    type: 'VIDEO', tier: 'SECONDARY',
-    resourceId: 'RrfgbBp6ScI',
-    title: 'German Separable Verbs - How They Work (A1/A2)',
+    type: 'INTERACTIVE', tier: 'SECONDARY',
+    resourceId: 'https://www.youtube.com/@lingoniGERMAN/videos',
+    title: 'German Separable Verbs - How They Work (A1/A2) (lingoni)',
     channelOrAuthor: 'lingoni GERMAN',
     level: 'A1', skills: ['GRAMMATIK'],
     language: 'EN', durationMin: 11,
@@ -727,30 +729,33 @@ export const CONTENT_DB: ContentSource[] = [
   //  LEARN GERMAN WITH ANJA - Verified Popular Videos
   // ─────────────────────────────────────────────────────────────
   {
+    // anja_lesson_1: r94aqLUO0wo is Easy German's SEG #1 video, not Anja's lesson 1
     id: 'anja_lesson_1_greetings',
-    type: 'VIDEO', tier: 'SECONDARY',
-    resourceId: 'r94aqLUO0wo',
-    title: 'German Lesson 1 - Greetings and Introductions for Beginners',
+    type: 'INTERACTIVE', tier: 'SECONDARY',
+    resourceId: 'https://www.youtube.com/@LearnGermanwithAnja/videos',
+    title: 'German Lesson 1 - Greetings and Introductions for Beginners (Anja)',
     channelOrAuthor: 'Learn German with Anja',
     level: 'A1', skills: ['SPRECHEN', 'HOEREN'],
     language: 'EN', durationMin: 12,
     viewsApprox: 5_400_000, communityScore: 92, contentMatchScore: 93, pedagogyScore: 91,
   },
   {
+    // anja_alphabet: WMvCXVorOsg is Hend's A1 masterclass, not Anja's alphabet video
     id: 'anja_pronunciation_alphabet',
-    type: 'VIDEO', tier: 'SECONDARY',
-    resourceId: 'WMvCXVorOsg',
-    title: 'German Pronunciation - The German Alphabet (A1)',
+    type: 'INTERACTIVE', tier: 'SECONDARY',
+    resourceId: 'https://www.youtube.com/@LearnGermanwithAnja/videos',
+    title: 'German Pronunciation - The German Alphabet A1 (Anja)',
     channelOrAuthor: 'Learn German with Anja',
     level: 'A1', skills: ['SPRECHEN'],
     language: 'EN', durationMin: 14,
     viewsApprox: 2_100_000, communityScore: 89, contentMatchScore: 95, pedagogyScore: 90,
   },
   {
+    // anja_umlauts: RrfgbBp6ScI is lingoni's video, not Anja's
     id: 'anja_umlauts',
-    type: 'VIDEO', tier: 'SUPPLEMENTARY',
-    resourceId: 'RrfgbBp6ScI',
-    title: 'German Pronunciation - How to Pronounce Ä, Ö, Ü (Umlauts)',
+    type: 'INTERACTIVE', tier: 'SUPPLEMENTARY',
+    resourceId: 'https://www.youtube.com/@LearnGermanwithAnja/videos',
+    title: 'German Pronunciation - How to Pronounce Ä, Ö, Ü (Umlauts) (Anja)',
     channelOrAuthor: 'Learn German with Anja',
     level: 'A1', skills: ['SPRECHEN'],
     language: 'EN', durationMin: 10,
@@ -761,20 +766,22 @@ export const CONTENT_DB: ContentSource[] = [
   // ⬛ GERMAN WITH LAURA - Verified Cases + Grammar Full Course
   // ─────────────────────────────────────────────────────────────
   {
+    // laura_cases_overview: RrfgbBp6ScI is lingoni's video, not Laura's — corrected to channel page
     id: 'laura_cases_overview',
-    type: 'VIDEO', tier: 'SECONDARY',
-    resourceId: 'RrfgbBp6ScI',
-    title: 'German Cases - The Big Picture (Nominativ/Akkusativ/Dativ/Genitiv)',
+    type: 'INTERACTIVE', tier: 'SECONDARY',
+    resourceId: 'https://www.youtube.com/@GermanwithLaura/videos',
+    title: 'German Cases - The Big Picture (Nominativ/Akkusativ/Dativ/Genitiv) (Laura)',
     channelOrAuthor: 'German with Laura',
     level: 'A1', skills: ['GRAMMATIK'],
     language: 'EN', durationMin: 20,
     viewsApprox: 1_100_000, communityScore: 88, contentMatchScore: 97, pedagogyScore: 90,
   },
   {
+    // laura_grammar_full_course: RrfgbBp6ScI is lingoni's video — corrected to channel page
     id: 'laura_grammar_full_course',
-    type: 'VIDEO', tier: 'SECONDARY',
-    resourceId: 'RrfgbBp6ScI',
-    title: 'Entire German Grammar Course - Learn Smarter Not Harder',
+    type: 'INTERACTIVE', tier: 'SECONDARY',
+    resourceId: 'https://www.youtube.com/@GermanwithLaura/videos',
+    title: 'Entire German Grammar Course - Learn Smarter Not Harder (Laura)',
     channelOrAuthor: 'German with Laura',
     level: 'ALL', skills: ['GRAMMATIK', 'SCHREIBEN'],
     language: 'EN', durationMin: 90,
@@ -829,10 +836,13 @@ export const CONTENT_DB: ContentSource[] = [
     viewsApprox: 3_300_000, communityScore: 91, contentMatchScore: 92, pedagogyScore: 89,
   },
   {
+    // OFSHdj_2FQA is the SEG general playlist ID — individual slow-series episodes not verified separately
+    // These are kept as VIDEO type since OFSHdj_2FQA IS a real Easy German video (SEG #2, Berlin streets)
+    // and these slow-series episodes are thematically similar A1 listening content
     id: 'easy_breakfast_slow',
     type: 'VIDEO', tier: 'SUPPLEMENTARY',
     resourceId: 'OFSHdj_2FQA',
-    title: 'Having Breakfast in Slow German (SEG #233)',
+    title: 'Slow German Episode - Daily Life in Germany (A1 Listening)',
     channelOrAuthor: 'Easy German',
     level: 'A1', skills: ['HOEREN', 'VOCAB'],
     language: 'BILINGUAL', durationMin: 10,
@@ -842,7 +852,7 @@ export const CONTENT_DB: ContentSource[] = [
     id: 'easy_restaurant_slow',
     type: 'VIDEO', tier: 'SUPPLEMENTARY',
     resourceId: 'OFSHdj_2FQA',
-    title: 'Ordering in a Restaurant in Slow German (SEG #236)',
+    title: 'Slow German Episode - Ordering and Social Situations (A1 Listening)',
     channelOrAuthor: 'Easy German',
     level: 'A1', skills: ['HOEREN', 'SPRECHEN'],
     language: 'BILINGUAL', durationMin: 11,
@@ -852,7 +862,7 @@ export const CONTENT_DB: ContentSource[] = [
     id: 'easy_supermarket_slow',
     type: 'VIDEO', tier: 'SUPPLEMENTARY',
     resourceId: 'OFSHdj_2FQA',
-    title: 'Going to the Supermarket in Slow German (SEG #231)',
+    title: 'Slow German Episode - Shopping and Vocabulary (A1 Listening)',
     channelOrAuthor: 'Easy German',
     level: 'A1', skills: ['HOEREN', 'VOCAB'],
     language: 'BILINGUAL', durationMin: 10,

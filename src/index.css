@@ -306,7 +306,6 @@
   transition: all 0.15s ease;
   border: none;
   min-height: 38px;
-  white-space: nowrap;
 }
 
 .btn:active {
@@ -329,7 +328,6 @@
   cursor: pointer;
   transition: all 0.15s ease;
   min-height: 38px;
-  white-space: nowrap;
   box-shadow: 0 1px 3px rgba(245,158,11,0.3);
 }
 
@@ -564,13 +562,17 @@
   white-space: normal;
 }
 
-/* Minimum 44×44px touch target for interactive elements */
+/* Touch targets: only apply to real CTA/nav buttons, not inline icon controls */
 @media (pointer: coarse) {
-  button, [role="button"], a {
+  .btn,
+  .btn-amber,
+  .btn-primary,
+  .btn-dark,
+  .btn-ghost {
     min-height: 44px;
-    min-width: 44px;
   }
 }
+
 
 /* ==============================
    MOTION PREFERENCES
