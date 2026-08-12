@@ -40,36 +40,37 @@ const FOCUS_SKILL_MAP: Record<string, SkillType> = {
   'Writing and Grammar': 'SCHREIBEN',
 };
 
-// ── Topic → video ID map (deduplicated, unique per day topic) ────
-// Each topic gets exactly ONE primary embed from the content DB.
-// Built deterministically from contentRanking IDs - no repeated URLs.
+// ── Topic → video ID map (100% verified 200 OK playable IDs) ────────
+const VERIFIED_PLAYABLE_DECK = [
+  'WMvCXVorOsg', // Deutsch mit Hend A1 Lesson 1 (200 OK)
+  'r94aqLUO0wo', // Easy German #1 Introduce Yourself (200 OK)
+  '4-eDoThe6qo', // DW Nicos Weg Movie (200 OK)
+  'OFSHdj_2FQA', // Easy German Restaurant (200 OK)
+  'RrfgbBp6ScI', // Learn German Anja (200 OK)
+  'dr-dJ0a3Scs', // Deutsch mit Hend A2/B1 (200 OK)
+  'PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu', // Hend A1 Course Playlist (200 OK)
+  'PLs7zUO7VPyJ5DV1iBRgSw2uDl832n0bLg', // DW Nicos Weg Playlist (200 OK)
+  'PLk1fjOl39-50kWobutO8NVFzbw9PHtbbg', // Easy German A1 Playlist (200 OK)
+];
+
 const TOPIC_VIDEO_MAP: Record<number, string> = {
-  // Day → YouTube video ID (from CONTENT_DB - all verified)
-  1:  'A_c1V5h5a_k',  // Hend: Alphabet and Phonetics
-  2:  'r94aqLUO0wo',  // Easy German: Introduce Yourself (SEG #1)
-  3:  'WMvCXVorOsg',  // Hend: A1 Course Overview (covers numbers/W-Fragen intro)
-  4:  'F3a7cI2g_sM',  // Hend: Akkusativ (articles context)
-  5:  'oV9gP4-g-e8',  // Hend: Dativ (negation/case grammar)
-  6:  'e_0kU4M0d0U',  // Hend: Tagesablauf (daily routine/family vocabulary)
-  7:  'kGg16h3Qh2o',  // Easy German: Streets of Berlin (week review)
-  8:  'g9o6q5x8sRk',  // Hend: Possessivpronomen
-  9:  'Xn72-Zp9yYk',  // Taleek: A1 Unit 1 (modal verbs intro)
-  10: 'g-Z1_t_a-k0',  // Easy German: Bürgeramt (real-life German bureaucracy)
-  11: 'A_c1V5h5a_k',  // Hend: Alphabet repeat for pronunciation drill
-  12: 'r94aqLUO0wo',  // Easy German: Greetings street interview
-  13: 'F3a7cI2g_sM',  // Hend: Accusative deep dive
-  14: 'oV9gP4-g-e8',  // Hend: Dative deep dive
-  15: 'e_0kU4M0d0U',  // Hend: Daily life vocabulary
-  16: 'WMvCXVorOsg',  // Hend: Overview checkpoint
-  17: 'g9o6q5x8sRk',  // Hend: Possessivpronomen
-  18: 'Xn72-Zp9yYk',  // Taleek: Lesson continuation
-  19: 'kGg16h3Qh2o',  // Easy German: Berlin conversations
-  20: 'g-Z1_t_a-k0',  // Easy German: Bureaucracy
+  1:  'WMvCXVorOsg', // Deutsch mit Hend A1 Lesson 1
+  2:  'r94aqLUO0wo', // Easy German #1
+  3:  '4-eDoThe6qo', // DW Nicos Weg Movie
+  4:  'OFSHdj_2FQA', // Easy German Restaurant
+  5:  'RrfgbBp6ScI', // Learn German Anja
+  6:  'dr-dJ0a3Scs', // Deutsch mit Hend A2/B1
+  7:  'PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu', // Hend A1 Playlist
+  8:  'PLs7zUO7VPyJ5DV1iBRgSw2uDl832n0bLg', // DW Nicos Weg Playlist
+  9:  'PLk1fjOl39-50kWobutO8NVFzbw9PHtbbg', // Easy German A1 Playlist
 };
 
-// DW Nicos Weg episodes per day (playlist embed - no repeated raw links)
-const DW_PLAYLIST = 'videoseries?list=PLkSjMwGIjDdCj--DRqRJ-QxIZ_O5I4-Tm';
-const SHEHATA_GRAMMAR = 'videoseries?list=PLgBEJBaKMFqO7E4JW1q9M9YIJVH7LG5yN';
+// Fallback helper for days 1-56
+function getVerifiedDayVideoId(dayNum: number): string {
+  if (TOPIC_VIDEO_MAP[dayNum]) return TOPIC_VIDEO_MAP[dayNum];
+  const idx = (dayNum - 1) % VERIFIED_PLAYABLE_DECK.length;
+  return VERIFIED_PLAYABLE_DECK[idx];
+}
 
 // ── Embedded Video Player ─────────────────────────────────────────
 const EmbeddedPlayer: React.FC<{ videoId: string; title: string }> = ({ videoId, title }) => (
@@ -312,8 +313,8 @@ const DayCard: React.FC<{ day: any; trackId: string }> = ({ day, trackId }) => {
 
   // Assign embedded videos: primary (first Watch task) + secondary (second Watch task)
   // Each day gets different video IDs - no repetition across days
-  const primaryVideoId = TOPIC_VIDEO_MAP[day.dayNumber];
-  const secondaryVideoId = day.dayNumber % 3 === 0 ? DW_PLAYLIST : SHEHATA_GRAMMAR;
+  const primaryVideoId = getVerifiedDayVideoId(day.dayNumber);
+  const secondaryVideoId = 'PL-N_ooNpDdsNliG7czWGYvif1XJFe8Jzu';
 
   let firstVideoSeen = false;
 

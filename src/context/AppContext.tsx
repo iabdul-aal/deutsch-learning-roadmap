@@ -141,6 +141,7 @@ function migrateFromOldVersions(): Partial<AppState> {
 function sanitizeForStorage(state: AppState): Partial<AppState> {
   return {
     mode: state.mode,
+    activeView: state.activeView,
     currentTrackId: state.currentTrackId,
     completedTasks: state.completedTasks,
     completedDays: state.completedDays,
@@ -163,13 +164,24 @@ export function makeTaskId(trackId: string, dayNumber: number, taskIndex: number
 
 // ── Provider ─────────────────────────────────────────────────────
 export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  // Legacy state
+  // Legacy state with reload activeView persistence & hash support
   const [state, setState] = useState<AppState>(() => {
+    const hashView = typeof window !== 'undefined' ? window.location.hash.replace('#', '').trim() : '';
     const saved = safeStorage.getItem<AppState>(STORAGE_KEY);
-    if (saved) return { ...defaultState, ...saved };
+    const initialView = hashView || saved?.activeView || defaultState.activeView;
+    if (saved) return { ...defaultState, ...saved, activeView: initialView };
     const migrated = migrateFromOldVersions();
-    return { ...defaultState, ...migrated };
+    return { ...defaultState, ...migrated, activeView: initialView };
   });
+
+  // Sync activeView with window location hash
+  useEffect(() => {
+    if (typeof window !== 'undefined' && state.activeView) {
+      if (window.location.hash !== `#${state.activeView}`) {
+        window.history.replaceState(null, '', `#${state.activeView}`);
+      }
+    }
+  }, [state.activeView]);
 
   // Learner model (separate storage for clean separation)
   const [learnerModel, setLearnerModel] = useState<LearnerModel>(() => {
