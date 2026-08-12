@@ -109,7 +109,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 2 - Self Introduction and Personal Pronouns",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=G2xNRY1jMTk"
+              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
             },
             {
               "type": "Watch",
@@ -144,7 +144,7 @@ export const CURRICULUM_DATA = {
               "title": "Self-recording: Speak your 1-minute intro (Ich heiße..., ich komme aus..., ich wohne in...)",
               "duration": "15 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=Qzb82FdyzhM"
             },
             {
               "type": "Quiz",
@@ -198,14 +198,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 3 - Numbers and W-Fragen",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Episode 3 and 4 - Wie ist deine Telefonnummer?",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
             },
             {
               "type": "Memorize",
@@ -226,7 +226,7 @@ export const CURRICULUM_DATA = {
               "title": "Read out 10 phone numbers, postal codes, and prices in German",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=Qzb82FdyzhM"
             },
             {
               "type": "Quiz",
@@ -280,7 +280,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 4 - Articles and Noun Gender",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=9PpOBJa9Mvs"
+              "link": "https://www.youtube.com/watch?v=Ye3ehz49u8o"
             },
             {
               "type": "Read",
@@ -355,14 +355,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 5 - Negation (nicht vs kein)",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=NcswV-xuyMc"
+              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Episode 5 and 6 - Ist das dein Koffer?",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=n4HSidrjXmQ"
             },
             {
               "type": "Memorize",
@@ -383,7 +383,7 @@ export const CURRICULUM_DATA = {
               "title": "Answer 10 negative questions out loud ('Trinkst du Kaffee?' -> 'Nein, ich trinke keinen Kaffee')",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
             },
             {
               "type": "Quiz",
@@ -437,7 +437,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 6 - Plurals and Family Members",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=V8xl5tfDqL0"
+              "link": "https://www.youtube.com/watch?v=Jxq2uezZxks"
             },
             {
               "type": "Watch",
@@ -465,7 +465,7 @@ export const CURRICULUM_DATA = {
               "title": "Describe your family tree out loud for 3 minutes",
               "duration": "15 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=eFE-vWA-2H8"
             },
             {
               "type": "Quiz",
@@ -589,7 +589,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 7 - Accusative Case Explained",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=TJCDYVP-cDU"
+              "link": "https://www.youtube.com/watch?v=Qzb82FdyzhM"
             },
             {
               "type": "Read",
@@ -664,14 +664,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 8 - Food and Supermarket Vocabulary",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=3lBIxpJvuVU"
+              "link": "https://www.youtube.com/watch?v=K9hTQMvIps8"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Episode 7 and 8 - Im Supermarkt",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=eFE-vWA-2H8"
             },
             {
               "type": "Memorize",
@@ -692,7 +692,7 @@ export const CURRICULUM_DATA = {
               "title": "Roleplay ordering at a bakery: 'Ich hätte gerne zwei Brötchen, bitte.'",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.youtube.com/watch?v=TPvYYsr6KbE"
             },
             {
               "type": "Quiz",
@@ -746,7 +746,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 9 - Restaurant Dialogues and Polite Requests",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=ULGrZsZMhjQ"
+              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
             },
             {
               "type": "Watch",
@@ -767,14 +767,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch Survival A1: Restaurant dialogue audio track",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=TPvYYsr6KbE"
             },
             {
               "type": "Speak",
               "title": "Perform 3 restaurant roleplay missions (ordering, asking price, paying)",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
@@ -828,14 +828,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 10 - Time and Clock Times (Uhrzeit)",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=h8KMADeg384"
+              "link": "https://www.youtube.com/watch?v=eFE-vWA-2H8"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Episode 9 - Wie viel Uhr ist es?",
               "duration": "20 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=hEy6gGr94KA"
             },
             {
               "type": "Memorize",
@@ -903,7 +903,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 11 - Separable Verbs Masterclass",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=kURGW-rVkSA"
+              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
             },
             {
               "type": "Watch",
@@ -978,14 +978,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 12 - Possessive Articles",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=sBUR0Q9ZTN4"
+              "link": "https://www.youtube.com/watch?v=hEy6gGr94KA"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Episode 10 - Das ist mein Pass!",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Memorize",
@@ -999,7 +999,7 @@ export const CURRICULUM_DATA = {
               "title": "Point to 10 objects around you and declare ownership out loud",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
             },
             {
               "type": "Quiz",
@@ -1117,7 +1117,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 13 - Modal Verbs Part 1",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=VB3qqhCQ-dA"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Watch",
@@ -1185,14 +1185,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 14 - Dürfen and Sollen + Hausordnung",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=4gb1ORkPzOg"
+              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Episode 11 - Regeln und Verbote",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=Ye3ehz49u8o"
             },
             {
               "type": "Memorize",
@@ -1254,7 +1254,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 15 - Housing and Apartment Vocabulary",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=GJfGrDu5t5E"
+              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
             },
             {
               "type": "Read",
@@ -1329,14 +1329,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 16 - Writing Messages to Landlords",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
+              "link": "https://www.youtube.com/watch?v=Ye3ehz49u8o"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Episode 12 - Wohnungssuche",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=Jxq2uezZxks"
             },
             {
               "type": "Memorize",
@@ -1357,7 +1357,7 @@ export const CURRICULUM_DATA = {
               "title": "Practice 5 questions to ask during a viewing ('Sind die Nebenkosten inklusive?')",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=K9hTQMvIps8"
             },
             {
               "type": "Quiz",
@@ -1405,7 +1405,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - How to Survive Anmeldung in Germany",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=3lBIxpJvuVU"
+              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
             },
             {
               "type": "Read",
@@ -1426,14 +1426,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch Survival Platform Audio: Officer dialogue at Bürgeramt",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=K9hTQMvIps8"
             },
             {
               "type": "Speak",
               "title": "Roleplay Bürgeramt clerk interaction out loud 3 times",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
             },
             {
               "type": "Quiz",
@@ -1487,7 +1487,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 17 - Reporting Maintenance Issues",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=GJfGrDu5t5E"
+              "link": "https://www.youtube.com/watch?v=Jxq2uezZxks"
             },
             {
               "type": "Watch",
@@ -1508,7 +1508,7 @@ export const CURRICULUM_DATA = {
               "title": "Roleplay calling a Hausmeister: 'Die Heizung funktioniert nicht.'",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
             },
             {
               "type": "Quiz",
@@ -1626,7 +1626,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 18 - The Dative Case Demystified",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Oh4VKllZ-DQ"
+              "link": "https://www.youtube.com/watch?v=Qzb82FdyzhM"
             },
             {
               "type": "Read",
@@ -1701,14 +1701,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 19 - Dative Personal Pronouns",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Oh4VKllZ-DQ"
+              "link": "https://www.youtube.com/watch?v=K9hTQMvIps8"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Episode 13 - Wie geht es dir?",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=eFE-vWA-2H8"
             },
             {
               "type": "Memorize",
@@ -1722,7 +1722,7 @@ export const CURRICULUM_DATA = {
               "title": "Practice asking and answering 'Wie geht es Ihnen/dir?' with 5 different emotional states",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=hEy6gGr94KA"
             },
             {
               "type": "Quiz",
@@ -1770,7 +1770,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 20 - Fixed Dative Prepositions",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Oh4VKllZ-DQ"
+              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
             },
             {
               "type": "Watch",
@@ -1838,14 +1838,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 21 - Asking and Giving Directions",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=tiNSgqk2mKE"
+              "link": "https://www.youtube.com/watch?v=eFE-vWA-2H8"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Episode 14 - Wo ist die Post?",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=hEy6gGr94KA"
             },
             {
               "type": "Memorize",
@@ -1859,14 +1859,14 @@ export const CURRICULUM_DATA = {
               "title": "Super Easy German #18: Asking strangers for directions in Berlin",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Speak",
               "title": "Roleplay asking a pedestrian for directions to the train station out loud",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
             },
             {
               "type": "Quiz",
@@ -1914,7 +1914,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 22 - Two-Way Prepositions (Wo? + Dativ)",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Oh4VKllZ-DQ"
+              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
             },
             {
               "type": "Watch",
@@ -1976,14 +1976,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - Navigating German Trains and Stations",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=G2xNRY1jMTk"
+              "link": "https://www.youtube.com/watch?v=hEy6gGr94KA"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Episode 15 - Fahrkarten und Gleise",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Memorize",
@@ -2004,7 +2004,7 @@ export const CURRICULUM_DATA = {
               "title": "Practice buying a ticket at a ticket machine out loud",
               "duration": "15 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=Ye3ehz49u8o"
             },
             {
               "type": "Quiz",
@@ -2122,7 +2122,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - German University Vocabulary and Enrollment",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=3lBIxpJvuVU"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
@@ -2143,7 +2143,7 @@ export const CURRICULUM_DATA = {
               "title": "Roleplay enrolling at the International Office: 'Ich bin neuer Student und möchte mich immatrikulieren.'",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
             },
             {
               "type": "Quiz",
@@ -2191,14 +2191,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 23 - Formal Academic Email Writing",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=u01gZIaoJ0c"
+              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Episode 16 - An der Universität",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=Ye3ehz49u8o"
             },
             {
               "type": "Memorize",
@@ -2260,7 +2260,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 24 - Mensa and Library German",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=4rdJVDsepag"
+              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
             },
             {
               "type": "Watch",
@@ -2281,7 +2281,7 @@ export const CURRICULUM_DATA = {
               "title": "Roleplay ordering a student meal and asking for library card activation",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=n4HSidrjXmQ"
             },
             {
               "type": "Quiz",
@@ -2329,7 +2329,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 25 - Adjective Endings Demystified",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=VuCqbaBXiQs"
+              "link": "https://www.youtube.com/watch?v=Ye3ehz49u8o"
             },
             {
               "type": "Watch",
@@ -2391,14 +2391,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 26 - Scheduling Appointments",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=G2xNRY1jMTk"
+              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Episode 17 - Einen Termin machen",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=n4HSidrjXmQ"
             },
             {
               "type": "Memorize",
@@ -2412,7 +2412,7 @@ export const CURRICULUM_DATA = {
               "title": "Roleplay making a doctor or university appointment over the phone",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=K9hTQMvIps8"
             },
             {
               "type": "Quiz",
@@ -2460,7 +2460,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 27 - Health, Doctor and Pharmacy German",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=hoT-SPO8nWY"
+              "link": "https://www.youtube.com/watch?v=Jxq2uezZxks"
             },
             {
               "type": "Watch",
@@ -2481,7 +2481,7 @@ export const CURRICULUM_DATA = {
               "title": "Roleplay describing symptoms to a doctor: 'Ich habe seit zwei Tagen Kopfschmerzen.'",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
             },
             {
               "type": "Quiz",
@@ -2605,7 +2605,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 28 - Das Perfekt Tense Foundations",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=XGWgTRlftPg"
+              "link": "https://www.youtube.com/watch?v=Qzb82FdyzhM"
             },
             {
               "type": "Read",
@@ -2674,14 +2674,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 29 - Perfekt with SEIN vs HABEN",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=XGWgTRlftPg"
+              "link": "https://www.youtube.com/watch?v=K9hTQMvIps8"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Episode 18 - Was hast du gestern gemacht?",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=eFE-vWA-2H8"
             },
             {
               "type": "Memorize",
@@ -2742,7 +2742,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 30 - Top 25 Irregular Perfekt Verbs",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=XGWgTRlftPg"
+              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
             },
             {
               "type": "Watch",
@@ -2763,7 +2763,7 @@ export const CURRICULUM_DATA = {
               "title": "Recite the 20 irregular Partizip II triplets (infinitive -> present -> past) out loud",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=TPvYYsr6KbE"
             },
             {
               "type": "Quiz",
@@ -2811,14 +2811,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 31 - Inseparable Prefix Verbs in Perfekt",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=kURGW-rVkSA"
+              "link": "https://www.youtube.com/watch?v=eFE-vWA-2H8"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Episode 19 - Ein schöner Tag",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=hEy6gGr94KA"
             },
             {
               "type": "Memorize",
@@ -2873,7 +2873,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 32 - Storytelling and Transition Words in Perfekt",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=XGWgTRlftPg"
+              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
             },
             {
               "type": "Watch",
@@ -2942,7 +2942,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 33 - Präteritum of Sein and Haben",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=g0Zo17VXDAA"
+              "link": "https://www.youtube.com/watch?v=hEy6gGr94KA"
             },
             {
               "type": "Watch",
@@ -2963,7 +2963,7 @@ export const CURRICULUM_DATA = {
               "title": "Form 10 sentences describing past states: 'Ich war gestern sehr müde. Ich hatte keine Zeit.'",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
             },
             {
               "type": "Quiz",
@@ -3081,7 +3081,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - Opening a Bank Account in Germany",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=3lBIxpJvuVU"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
@@ -3102,7 +3102,7 @@ export const CURRICULUM_DATA = {
               "title": "Roleplay opening a Girokonto at a bank branch counter out loud",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
             },
             {
               "type": "Quiz",
@@ -3150,14 +3150,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - German Health Insurance Explained",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=G2xNRY1jMTk"
+              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Episode 20 - Bei der Versicherung",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=Ye3ehz49u8o"
             },
             {
               "type": "Memorize",
@@ -3219,7 +3219,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - Ausländerbehörde and Visa Extension Phrases",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=TZww485ncl8"
+              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
             },
             {
               "type": "Read",
@@ -3240,7 +3240,7 @@ export const CURRICULUM_DATA = {
               "title": "Roleplay visa appointment interview with an immigration officer out loud 3 times",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=n4HSidrjXmQ"
             },
             {
               "type": "Quiz",
@@ -3294,7 +3294,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - Post Office, Packages and SIM Cards",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=3lBIxpJvuVU"
+              "link": "https://www.youtube.com/watch?v=Ye3ehz49u8o"
             },
             {
               "type": "Watch",
@@ -3315,7 +3315,7 @@ export const CURRICULUM_DATA = {
               "title": "Roleplay buying postage stamps and registering a SIM card with ID out loud",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=Qzb82FdyzhM"
             },
             {
               "type": "Quiz",
@@ -3363,7 +3363,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 34 - Subordinate Clauses (Weil, Dass, Wenn)",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=koDbAgJ-lYo"
+              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
             },
             {
               "type": "Watch",
@@ -3425,14 +3425,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Lesson 35 - Comparatives and Superlatives",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=9PpOBJa9Mvs"
+              "link": "https://www.youtube.com/watch?v=Jxq2uezZxks"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Episode 21 - Das ist besser!",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=Qzb82FdyzhM"
             },
             {
               "type": "Memorize",
@@ -3557,7 +3557,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - Complete Airport and Arrival Masterclass",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=3lBIxpJvuVU"
+              "link": "https://www.youtube.com/watch?v=Qzb82FdyzhM"
             },
             {
               "type": "Read",
@@ -3578,7 +3578,7 @@ export const CURRICULUM_DATA = {
               "title": "Perform 3 complete airport roleplays out loud (passport officer, information desk, taxi driver)",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
             },
             {
               "type": "Quiz",
@@ -3626,14 +3626,14 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Special - Emergency German and Calling 112 / 110",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=3lBIxpJvuVU"
+              "link": "https://www.youtube.com/watch?v=K9hTQMvIps8"
             },
             {
               "type": "Watch",
               "title": "DW Nicos Weg: Episode 22 - Ein Notfall!",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=eFE-vWA-2H8"
             },
             {
               "type": "Memorize",
@@ -3654,7 +3654,7 @@ export const CURRICULUM_DATA = {
               "title": "Simulate a 112 emergency phone call stating location, event, injuries out loud",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=TPvYYsr6KbE"
             },
             {
               "type": "Quiz",
@@ -3702,7 +3702,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Deutsch mit Hend A1 Master Grammar Review Sheet",
               "duration": "60 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=9PpOBJa9Mvs"
+              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
             },
             {
               "type": "Watch",
@@ -3819,7 +3819,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch mit Hend: A1 Speaking Exam Preparation and Tips",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=TZww485ncl8"
+              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
             },
             {
               "type": "Watch",
@@ -3833,7 +3833,7 @@ export const CURRICULUM_DATA = {
               "title": "Perform full 15-minute simulated A1 Speaking Test out loud (all 3 parts)",
               "duration": "30 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Quiz",
@@ -3881,28 +3881,28 @@ export const CURRICULUM_DATA = {
               "title": "Scenario 1: Landing at Frankfurt Airport and Passport Control",
               "duration": "25 min",
               "resourceType": "ROLEPLAY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=hEy6gGr94KA"
             },
             {
               "type": "Roleplay",
               "title": "Scenario 2: Buying a train ticket to your uni town at DB counter",
               "duration": "25 min",
               "resourceType": "ROLEPLAY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Roleplay",
               "title": "Scenario 3: Meeting landlord, collecting keys, inspecting room",
               "duration": "25 min",
               "resourceType": "ROLEPLAY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
             },
             {
               "type": "Roleplay",
               "title": "Scenario 4: Supermarket shopping and buying SIM card at ALDI",
               "duration": "25 min",
               "resourceType": "ROLEPLAY",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
             },
             {
               "type": "Quiz",

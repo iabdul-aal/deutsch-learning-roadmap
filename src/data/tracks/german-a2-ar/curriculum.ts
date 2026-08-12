@@ -22,7 +22,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Subordinate Clauses with 'weil' (Expressing Reasons)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=BT1HhMcB8aw"
+              "link": "https://www.youtube.com/watch?v=aYHyfDlAzp8"
             },
             {
               "type": "Read",
@@ -86,7 +86,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Subordinate Clauses with 'dass' (Reporting & Opinions)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=BT1HhMcB8aw"
+              "link": "https://www.youtube.com/watch?v=cjF8atTt7IU"
             },
             {
               "type": "Read",
@@ -150,7 +150,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Conditional Clauses with 'wenn' (Conditions & Situations)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=-879HEkpaVU"
+              "link": "https://www.youtube.com/watch?v=Ks7KwIYksvs"
             },
             {
               "type": "Read",
@@ -214,7 +214,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Concessive Clauses with 'obwohl' (Contrast & Contradictions)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=V8tbWChLRjY"
+              "link": "https://www.youtube.com/watch?v=x7EYg9Z3a1o"
             },
             {
               "type": "Read",
@@ -278,7 +278,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Indirect Questions with 'ob' and W-Words (wo, wie, warum)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=1dBD8P9cCrA"
+              "link": "https://www.youtube.com/watch?v=aWy4cmh5o-Q"
             },
             {
               "type": "Read",
@@ -342,7 +342,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Sentence Structure: Main vs Subordinate Clause Word Order",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=BT1HhMcB8aw"
+              "link": "https://www.youtube.com/watch?v=Y4y-gKdIW68"
             },
             {
               "type": "Read",
@@ -406,7 +406,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Week 1 Review & Subordinate Clause Mastery Sprint",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=ZolR_4lAFuE"
+              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
             },
             {
               "type": "Read",
@@ -478,7 +478,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Dative Case Articles & Pronouns (dem, der, dem, den / mir, dir, ihm)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=uoEwlH9XgZ0"
+              "link": "https://www.youtube.com/watch?v=QrBBR3Ewd9E"
             },
             {
               "type": "Read",
@@ -542,7 +542,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Dative-Only Prepositions (aus, bei, mit, nach, seit, von, zu)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=FBcklEaE3rk"
+              "link": "https://www.youtube.com/watch?v=X7SrTCAGXg0"
             },
             {
               "type": "Read",
@@ -606,7 +606,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Two-Way Prepositions: Position (Wo? + Dative)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=auWRmuw_AcY"
+              "link": "https://www.youtube.com/watch?v=uLyJf8T9ezE"
             },
             {
               "type": "Read",
@@ -670,7 +670,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Two-Way Prepositions: Direction (Wohin? + Accusative)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=W8UrSt7VMWE"
+              "link": "https://www.youtube.com/watch?v=iw_NvlCMu9g"
             },
             {
               "type": "Read",
@@ -734,7 +734,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Position Verbs Pair 1: stehen vs stellen (Dative vs Accusative)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=auWRmuw_AcY"
+              "link": "https://www.youtube.com/watch?v=aeiu0jAdfPc"
             },
             {
               "type": "Read",
@@ -748,7 +748,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Position Verbs Pair 1: stehen vs stellen (Dative vs Accusative)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=auWRmuw_AcY"
+              "link": "https://www.youtube.com/watch?v=Ks7KwIYksvs"
             },
             {
               "type": "Memorize",
@@ -798,7 +798,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Position Verbs Pair 2: liegen/legen & sitzen/setzen",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=U_p72whCx7s"
+              "link": "https://www.youtube.com/watch?v=aYHyfDlAzp8"
             },
             {
               "type": "Read",
@@ -812,7 +812,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Position Verbs Pair 2: liegen/legen & sitzen/setzen",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+              "link": "https://www.youtube.com/watch?v=x7EYg9Z3a1o"
             },
             {
               "type": "Memorize",
@@ -862,7 +862,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Week 2 Review & Spatial Prepositions Mastery Sprint",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=uY73Yd99rVs"
+              "link": "https://www.youtube.com/watch?v=cjF8atTt7IU"
             },
             {
               "type": "Read",
@@ -934,7 +934,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Perfekt Tense Review: Regular Verbs with 'haben' (ge-...-t)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=cWFjOK9sfBw"
+              "link": "https://www.youtube.com/watch?v=Ks7KwIYksvs"
             },
             {
               "type": "Read",
@@ -998,7 +998,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Perfekt with Irregular Verbs & Vowel Shifts (gegangenen, gesprochen)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=alZfaPQZB_E"
+              "link": "https://www.youtube.com/watch?v=x7EYg9Z3a1o"
             },
             {
               "type": "Read",
@@ -1012,7 +1012,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Perfekt with Irregular Verbs & Vowel Shifts (gegangenen, gesprochen)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
             },
             {
               "type": "Memorize",
@@ -1062,7 +1062,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Haben vs Sein: Movement Verbs & State Changes in Perfekt",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=gpRP_1QphSA"
+              "link": "https://www.youtube.com/watch?v=aWy4cmh5o-Q"
             },
             {
               "type": "Read",
@@ -1076,7 +1076,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Haben vs Sein: Movement Verbs & State Changes in Perfekt",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.youtube.com/watch?v=QrBBR3Ewd9E"
             },
             {
               "type": "Memorize",
@@ -1126,7 +1126,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Perfekt with Separable Verbs (einkaufen -> eingekauft)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=wyNUkUqk0ws"
+              "link": "https://www.youtube.com/watch?v=Y4y-gKdIW68"
             },
             {
               "type": "Read",
@@ -1190,7 +1190,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Perfekt with Inseparable Verbs (verstehen -> verstanden, bezahlen)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=GbScAGByeJw"
+              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
             },
             {
               "type": "Read",
@@ -1254,7 +1254,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Narrative Past Speaking: Describing Yesterday & Last Weekend",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=QrBBR3Ewd9E"
             },
             {
               "type": "Read",
@@ -1268,7 +1268,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Narrative Past Speaking: Describing Yesterday & Last Weekend",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.youtube.com/watch?v=iw_NvlCMu9g"
             },
             {
               "type": "Memorize",
@@ -1318,7 +1318,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Week 3 Review & Perfekt Fluency Sprint",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=uig4bsalEFc"
+              "link": "https://www.youtube.com/watch?v=X7SrTCAGXg0"
             },
             {
               "type": "Read",
@@ -1390,7 +1390,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Simple Past of sein (war) & haben (hatte)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=UCxRsIz7qQ8"
+              "link": "https://www.youtube.com/watch?v=uLyJf8T9ezE"
             },
             {
               "type": "Read",
@@ -1454,7 +1454,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Simple Past of Modals: konnte (could) & musste (had to)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=J5FYjADg97c"
+              "link": "https://www.youtube.com/watch?v=iw_NvlCMu9g"
             },
             {
               "type": "Read",
@@ -1518,7 +1518,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Simple Past of Modals: wollte, sollte, durfte",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=J5FYjADg97c"
+              "link": "https://www.youtube.com/watch?v=aeiu0jAdfPc"
             },
             {
               "type": "Read",
@@ -1532,7 +1532,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Simple Past of Modals: wollte, sollte, durfte",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=J5FYjADg97c"
+              "link": "https://www.youtube.com/watch?v=Ks7KwIYksvs"
             },
             {
               "type": "Memorize",
@@ -1582,7 +1582,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Perfekt vs Präteritum: Spoken vs Written Past Rules",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=PLHxKBjqfBE"
+              "link": "https://www.youtube.com/watch?v=aYHyfDlAzp8"
             },
             {
               "type": "Read",
@@ -1646,7 +1646,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Past Obligations in Conversations: Discussing Past Tasks",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=cjF8atTt7IU"
             },
             {
               "type": "Read",
@@ -1660,7 +1660,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Past Obligations in Conversations: Discussing Past Tasks",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+              "link": "https://www.youtube.com/watch?v=aWy4cmh5o-Q"
             },
             {
               "type": "Memorize",
@@ -1710,7 +1710,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Writing a Past Incident Report / Doctor's Absence Note",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=FaGCvb4hgC8"
+              "link": "https://www.youtube.com/watch?v=Ks7KwIYksvs"
             },
             {
               "type": "Read",
@@ -1774,7 +1774,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Week 4 Review & Past Tense Mastery Sprint",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=YCN3UNhPMfU"
+              "link": "https://www.youtube.com/watch?v=x7EYg9Z3a1o"
             },
             {
               "type": "Read",
@@ -1846,7 +1846,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Reflexive Verbs with Accusative (sich freuen, sich duschen)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=cNIjfe9X4_A"
+              "link": "https://www.youtube.com/watch?v=aWy4cmh5o-Q"
             },
             {
               "type": "Read",
@@ -1910,7 +1910,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Reflexive Verbs with Dative (sich etwas wünschen, sich die Hände waschen)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=EUWbB-PEd_c"
+              "link": "https://www.youtube.com/watch?v=Y4y-gKdIW68"
             },
             {
               "type": "Read",
@@ -1974,7 +1974,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Adjective Endings after Definite Articles (der alte Tisch, die neue Tasche)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=exwewlcw8UY"
+              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
             },
             {
               "type": "Read",
@@ -2038,7 +2038,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Adjective Endings after Indefinite Articles (ein alter Tisch, eine neue Tasche)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=BnAGTdwoMJs"
+              "link": "https://www.youtube.com/watch?v=QrBBR3Ewd9E"
             },
             {
               "type": "Read",
@@ -2052,7 +2052,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Adjective Endings after Indefinite Articles (ein alter Tisch, eine neue Tasche)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.youtube.com/watch?v=iw_NvlCMu9g"
             },
             {
               "type": "Memorize",
@@ -2102,7 +2102,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Adjective Endings in Accusative & Dative Cases",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=uWMR5mymHII"
+              "link": "https://www.youtube.com/watch?v=X7SrTCAGXg0"
             },
             {
               "type": "Read",
@@ -2166,7 +2166,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Describing Clothes, Weather & People in Detail",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=uLyJf8T9ezE"
             },
             {
               "type": "Read",
@@ -2180,7 +2180,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Describing Clothes, Weather & People in Detail",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+              "link": "https://www.youtube.com/watch?v=aYHyfDlAzp8"
             },
             {
               "type": "Memorize",
@@ -2230,7 +2230,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Week 5 Review & Adjective Declension Mastery Sprint",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=kar18ZqahcE"
+              "link": "https://www.youtube.com/watch?v=iw_NvlCMu9g"
             },
             {
               "type": "Read",
@@ -2302,7 +2302,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Comparative of Adjectives (schneller, größer, besser, mehr)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=wXiD0FdON7k"
+              "link": "https://www.youtube.com/watch?v=aeiu0jAdfPc"
             },
             {
               "type": "Read",
@@ -2366,7 +2366,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Superlative of Adjectives (am schnellsten, am größten, am besten)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=K1Rs793CjqE"
+              "link": "https://www.youtube.com/watch?v=aYHyfDlAzp8"
             },
             {
               "type": "Read",
@@ -2380,7 +2380,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Superlative of Adjectives (am schnellsten, am größten, am besten)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=x7EYg9Z3a1o"
             },
             {
               "type": "Memorize",
@@ -2430,7 +2430,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Comparing Apartments & Making Choices (Shopping Scenario)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.youtube.com/watch?v=cjF8atTt7IU"
             },
             {
               "type": "Read",
@@ -2444,7 +2444,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Comparing Apartments & Making Choices (Shopping Scenario)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+              "link": "https://www.youtube.com/watch?v=aWy4cmh5o-Q"
             },
             {
               "type": "Memorize",
@@ -2494,7 +2494,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Genitive Case Intro: Possessive & Prepositions (wegen, während)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=oskcXcv3_1w"
+              "link": "https://www.youtube.com/watch?v=Ks7KwIYksvs"
             },
             {
               "type": "Read",
@@ -2558,7 +2558,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Expressing Possession: Genitive vs 'von' + Dative in Spoken German",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=KzCTxjEUaMg"
+              "link": "https://www.youtube.com/watch?v=x7EYg9Z3a1o"
             },
             {
               "type": "Read",
@@ -2622,7 +2622,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Workplace German: Office Vocabulary, Emails & Phone Appointments",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=koIblhg4Ucs"
+              "link": "https://www.youtube.com/watch?v=aWy4cmh5o-Q"
             },
             {
               "type": "Read",
@@ -2636,7 +2636,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Workplace German: Office Vocabulary, Emails & Phone Appointments",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.youtube.com/watch?v=QrBBR3Ewd9E"
             },
             {
               "type": "Memorize",
@@ -2686,7 +2686,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Week 6 Review & Comparison Mastery Sprint",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=tEV1vUGbDoQ"
+              "link": "https://www.youtube.com/watch?v=Y4y-gKdIW68"
             },
             {
               "type": "Read",
@@ -2758,7 +2758,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Konjunktiv II Intro: hätte (would have) & wäre (would be)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=tSgfnvDhPqs"
+              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
             },
             {
               "type": "Read",
@@ -2822,7 +2822,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Konjunktiv II with würde + Infinitive (Ich würde gerne...)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=tSgfnvDhPqs"
+              "link": "https://www.youtube.com/watch?v=QrBBR3Ewd9E"
             },
             {
               "type": "Read",
@@ -2836,7 +2836,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Konjunktiv II with würde + Infinitive (Ich würde gerne...)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=iw_NvlCMu9g"
             },
             {
               "type": "Memorize",
@@ -2886,7 +2886,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Polite Requests in German (Könnten Sie bitte..., Hätten Sie Zeit?)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=X7SrTCAGXg0"
             },
             {
               "type": "Read",
@@ -2900,7 +2900,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Polite Requests in German (Könnten Sie bitte..., Hätten Sie Zeit?)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.youtube.com/watch?v=aeiu0jAdfPc"
             },
             {
               "type": "Memorize",
@@ -2950,7 +2950,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Hypothetical Wishes & Dreams (Wenn ich Zeit hätte...)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=fvALt7eKK14"
+              "link": "https://www.youtube.com/watch?v=uLyJf8T9ezE"
             },
             {
               "type": "Read",
@@ -2964,7 +2964,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Hypothetical Wishes & Dreams (Wenn ich Zeit hätte...)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=tSgfnvDhPqs"
+              "link": "https://www.youtube.com/watch?v=aYHyfDlAzp8"
             },
             {
               "type": "Memorize",
@@ -3014,7 +3014,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Doctor Visit & Medical Scenarios (Beim Arzt, Termine vereinbaren)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=JybuldB6q5M"
+              "link": "https://www.youtube.com/watch?v=iw_NvlCMu9g"
             },
             {
               "type": "Read",
@@ -3028,7 +3028,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Doctor Visit & Medical Scenarios (Beim Arzt, Termine vereinbaren)",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+              "link": "https://www.youtube.com/watch?v=cjF8atTt7IU"
             },
             {
               "type": "Memorize",
@@ -3078,7 +3078,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Bürgeramt & Registration Scenarios (Anmeldung, Formular ausfüllen)",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=aZTbnXzTsV4"
+              "link": "https://www.youtube.com/watch?v=aeiu0jAdfPc"
             },
             {
               "type": "Read",
@@ -3142,7 +3142,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Week 7 Review & Konjunktiv II Mastery Sprint",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=uig4bsalEFc"
+              "link": "https://www.youtube.com/watch?v=aYHyfDlAzp8"
             },
             {
               "type": "Read",
@@ -3214,7 +3214,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Goethe A2 Hören Sprint: Listening Comprehension Parts 1-3",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=8RvFX5vZJIA"
+              "link": "https://www.youtube.com/watch?v=cjF8atTt7IU"
             },
             {
               "type": "Read",
@@ -3278,7 +3278,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Goethe A2 Lesen Sprint: Reading Notices, Emails & Articles",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Igz1nQKMiu0"
+              "link": "https://www.youtube.com/watch?v=Ks7KwIYksvs"
             },
             {
               "type": "Read",
@@ -3342,7 +3342,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Goethe A2 Schreiben Sprint: Writing Formal Emails & Invitations",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=Igz1nQKMiu0"
+              "link": "https://www.youtube.com/watch?v=x7EYg9Z3a1o"
             },
             {
               "type": "Read",
@@ -3356,7 +3356,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Goethe A2 Schreiben Sprint: Writing Formal Emails & Invitations",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
             },
             {
               "type": "Memorize",
@@ -3406,7 +3406,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Goethe A2 Sprechen Part 1 & 2: Personal Questions & Experience",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=aWy4cmh5o-Q"
             },
             {
               "type": "Read",
@@ -3420,7 +3420,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Supplementary Video & Practical Examples: Goethe A2 Sprechen Part 1 & 2: Personal Questions & Experience",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.youtube.com/watch?v=QrBBR3Ewd9E"
             },
             {
               "type": "Memorize",
@@ -3470,7 +3470,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Goethe A2 Sprechen Part 3: Planning an Event Together with Partner",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=Y4y-gKdIW68"
             },
             {
               "type": "Read",
@@ -3534,7 +3534,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: Full Goethe A2 Mock Exam Simulation Sprint",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=MyYW4_l4Ss8"
+              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
             },
             {
               "type": "Read",
@@ -3598,7 +3598,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Primary Lesson: German A2 Graduation Day: Progress Review & B1 Transition Plan",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=DnewKMVyflE"
+              "link": "https://www.youtube.com/watch?v=QrBBR3Ewd9E"
             },
             {
               "type": "Read",
