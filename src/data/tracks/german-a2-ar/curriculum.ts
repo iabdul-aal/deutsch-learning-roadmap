@@ -19,24 +19,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Alphabet & Phonetics - Primary Lesson: Subordinate Clauses with 'weil' (Expressing Reasons)",
+              "title": "Shehata Deutsch: Nebensätze mit weil - Reason Clauses Masterclass",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=jiV90WdUkjw"
             },
             {
               "type": "Read",
-              "title": "Grammar Notes & Rule Summary: Subordinate Clauses with 'weil' (Expressing Reasons)",
+              "title": "Deutsch mit Hend: A2 - Nebensätze mit Weil und Dass",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
             },
             {
               "type": "Watch",
-              "title": "Easy German: How Germans Speak & Alphabet - Supplementary Video & Practical Examples: Subordinate Clauses with 'weil' (Expressing Reasons)",
+              "title": "DW Nicos Weg: Giving Reasons with weil in Real Conversation",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
             },
             {
               "type": "Memorize",
@@ -83,24 +83,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Hallo Nico - First Greetings & Introductions - Primary Lesson: Subordinate Clauses with 'dass' (Reporting & Opinions)",
+              "title": "Deutsch mit Hend: A2 - Dass-Sätze und Reporting in German",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Basic Greetings & Introduction - Grammar Notes & Rule Summary: Subordinate Clauses with 'dass' (Reporting & Opinions)",
+              "title": "lingoni GERMAN: dass-Clauses in German A2 Grammar Guide",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: 10 German Greetings You Must Know - Supplementary Video & Practical Examples: Subordinate Clauses with 'dass' (Reporting & Opinions)",
+              "title": "Easy German #168: Saying What You Think in German",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Memorize",
@@ -147,24 +147,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Verb Conjugation & Sein/Haben - Primary Lesson: Conditional Clauses with 'wenn' (Conditions & Situations)",
+              "title": "Deutsch mit Hend: A2 - Wenn-Sätze auf Arabisch",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
+              "link": "https://www.youtube.com/watch?v=aWy4cmh5o-Q"
             },
             {
               "type": "Read",
-              "title": "lingoni GERMAN: Regular & Irregular Verb Conjugation - Grammar Notes & Rule Summary: Conditional Clauses with 'wenn' (Conditions & Situations)",
+              "title": "lingoni GERMAN: wenn-Clauses Temporal and Conditional in A2",
               "duration": "25 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Conjugation Mastery for Beginners - Supplementary Video & Practical Examples: Conditional Clauses with 'wenn' (Conditions & Situations)",
+              "title": "Easy German #180: When and If in German - wenn and als",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Memorize",
@@ -211,24 +211,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "German with Laura: Der, Die, Das Gender Rules & Endings - Primary Lesson: Concessive Clauses with 'obwohl' (Contrast & Contradictions)",
+              "title": "Shehata Deutsch: Obwohl Trotzdem Zwar aber - Contrast Connectors",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=jiV90WdUkjw"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Definite and Indefinite Articles - Grammar Notes & Rule Summary: Concessive Clauses with 'obwohl' (Contrast & Contradictions)",
+              "title": "DW Nicos Weg: Contrast Sentences in German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
+              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
             },
             {
               "type": "Watch",
-              "title": "Easy German #120: How Germans Guess Word Genders - Supplementary Video & Practical Examples: Concessive Clauses with 'obwohl' (Contrast & Contradictions)",
+              "title": "Easy German #170: Unexpected Things in German - obwohl",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Memorize",
@@ -275,24 +275,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Akkusativ Case Explained Simply - Words (wo, wie, warum)",
+              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=n4HSidrjXmQ"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
-              "title": "Shehata Deutsch: Akkusativ vs Nominativ Direct Comparison - Words (wo, wie, warum)",
+              "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: German Direct Objects & Accusative - Words (wo, wie, warum)",
+              "title": "Learn German with Anja: Grammar Made Simple",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
             },
             {
               "type": "Memorize",
@@ -339,24 +339,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Der Dativ & Prepositions Masterclass - Primary Lesson: Sentence Structure: Main vs Subordinate Clause Word Order",
+              "title": "Shehata Deutsch: German Grammar Masterclass",
               "duration": "35 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Dativ Case & Verbs - Grammar Notes & Rule Summary: Sentence Structure: Main vs Subordinate Clause Word Order",
+              "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Watch",
-              "title": "Easy German #250: Dative Verbs in Action - Supplementary Video & Practical Examples: Sentence Structure: Main vs Subordinate Clause Word Order",
+              "title": "Learn German with Anja: Grammar Made Simple",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
             },
             {
               "type": "Memorize",
@@ -403,24 +403,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Modal Verbs (können, müssen, wollen) - Primary Lesson: Week 1 Review & Subordinate Clause Mastery Sprint",
+              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Modalverben & Word Order - Grammar Notes & Rule Summary: Week 1 Review & Subordinate Clause Mastery Sprint",
+              "title": "Shehata Deutsch: Grammar for Arabic Speakers",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: How to Use Modal Verbs Correctly - Supplementary Video & Practical Examples: Week 1 Review & Subordinate Clause Mastery Sprint",
+              "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Memorize",
@@ -475,24 +475,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Das Perfekt (haben vs sein) - Primary Lesson: Dative Case Articles & Pronouns (dem, der, dem, den / mir, dir, ihm)",
+              "title": "Deutsch mit Hend: German Personal Pronouns - ich du er sie wir ihr sie",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=TPvYYsr6KbE"
+              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
             },
             {
               "type": "Read",
-              "title": "Shehata Deutsch: Past Tense Mastery (Perfekt & Partizip II) - Grammar Notes & Rule Summary: Dative Case Articles & Pronouns (dem, der, dem, den / mir, dir, ihm)",
+              "title": "lingoni GERMAN: German Personal Pronouns Complete Guide",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=5YtHNczWwAw"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Talking About Yesterday in Perfekt - Supplementary Video & Practical Examples: Dative Case Articles & Pronouns (dem, der, dem, den / mir, dir, ihm)",
+              "title": "Easy German: Pronouns in German Daily Conversation",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Memorize",
@@ -539,24 +539,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Subordinate Clauses with Weil & Dass - Only Prepositions (aus, bei, mit, nach, seit, von, zu)",
+              "title": "Shehata Deutsch: Der Dativ - Indirect Objects & Prepositions Masterclass",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Nebensätze & Verb-at-the-End Rule - Only Prepositions (aus, bei, mit, nach, seit, von, zu)",
+              "title": "Deutsch mit Hend: Dativ Case المفعول به غير المباشر",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
+              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Weil, Dass, Obwohl & Wenn Demystified - Only Prepositions (aus, bei, mit, nach, seit, von, zu)",
+              "title": "German with Laura: Dative Prepositions in German",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=jiV90WdUkjw"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -603,21 +603,21 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Alphabet & Phonetics - Way Prepositions: Position (Wo? + Dative)",
+              "title": "Deutsch mit Hend: Dativ Case - المفعول به غير المباشر",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
             },
             {
               "type": "Read",
-              "title": "Grammar Notes & Rule Summary: Two-Way Prepositions: Position (Wo? + Dative)",
+              "title": "Deutsch mit Hend: Dativ Case المفعول به غير المباشر",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
             },
             {
               "type": "Watch",
-              "title": "Easy German: How Germans Speak & Alphabet - Way Prepositions: Position (Wo? + Dative)",
+              "title": "Easy German #250: Dative Case in Real German Conversations",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
@@ -667,24 +667,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Hallo Nico - First Greetings & Introductions - Way Prepositions: Direction (Wohin? + Accusative)",
+              "title": "Deutsch mit Hend: Wechselpräpositionen in German - Location & Direction",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=eLQbQcMUGXw"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Basic Greetings & Introduction - Way Prepositions: Direction (Wohin? + Accusative)",
+              "title": "Shehata Deutsch: German Prepositions for Arabic Speakers",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: 10 German Greetings You Must Know - Way Prepositions: Direction (Wohin? + Accusative)",
+              "title": "German with Laura: Dative vs Accusative Prepositions",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -731,24 +731,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Verb Conjugation & Sein/Haben - Primary Lesson: Position Verbs Pair 1: stehen vs stellen (Dative vs Accusative)",
+              "title": "Deutsch mit Hend: Dativ Case - المفعول به غير المباشر",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
+              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
             },
             {
               "type": "Read",
-              "title": "lingoni GERMAN: Regular & Irregular Verb Conjugation - Grammar Notes & Rule Summary: Position Verbs Pair 1: stehen vs stellen (Dative vs Accusative)",
+              "title": "Deutsch mit Hend: Dativ Case المفعول به غير المباشر",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Conjugation Mastery for Beginners - Supplementary Video & Practical Examples: Position Verbs Pair 1: stehen vs stellen (Dative vs Accusative)",
+              "title": "Easy German #250: Dative Case in Real German Conversations",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Memorize",
@@ -795,24 +795,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "German with Laura: Der, Die, Das Gender Rules & Endings - Primary Lesson: Position Verbs Pair 2: liegen/legen & sitzen/setzen",
+              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Definite and Indefinite Articles - Grammar Notes & Rule Summary: Position Verbs Pair 2: liegen/legen & sitzen/setzen",
+              "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Watch",
-              "title": "Easy German #120: How Germans Guess Word Genders - Supplementary Video & Practical Examples: Position Verbs Pair 2: liegen/legen & sitzen/setzen",
+              "title": "Learn German with Anja: Grammar Made Simple",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
             },
             {
               "type": "Memorize",
@@ -859,21 +859,21 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Akkusativ Case Explained Simply - Primary Lesson: Week 2 Review & Spatial Prepositions Mastery Sprint",
+              "title": "Deutsch mit Hend: Wechselpräpositionen in German - Location & Direction",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=n4HSidrjXmQ"
+              "link": "https://www.youtube.com/watch?v=eLQbQcMUGXw"
             },
             {
               "type": "Read",
-              "title": "Shehata Deutsch: Akkusativ vs Nominativ Direct Comparison - Grammar Notes & Rule Summary: Week 2 Review & Spatial Prepositions Mastery Sprint",
+              "title": "Shehata Deutsch: German Prepositions for Arabic Speakers",
               "duration": "25 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: German Direct Objects & Accusative - Supplementary Video & Practical Examples: Week 2 Review & Spatial Prepositions Mastery Sprint",
+              "title": "German with Laura: Dative vs Accusative Prepositions",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
@@ -931,21 +931,21 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Der Dativ & Prepositions Masterclass - t)",
+              "title": "Deutsch mit Hend: Das Perfekt - haben oder sein? الماضي في الألمانية",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=TPvYYsr6KbE"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Dativ Case & Verbs - t)",
+              "title": "Shehata Deutsch: Perfekt Tense Mastery - All Verb Forms",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
+              "link": "https://www.youtube.com/watch?v=5YtHNczWwAw"
             },
             {
               "type": "Watch",
-              "title": "Easy German #250: Dative Verbs in Action - t)",
+              "title": "Easy German #310: Talking About Your Weekend in German",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
@@ -995,24 +995,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Modal Verbs (können, müssen, wollen) - Primary Lesson: Perfekt with Irregular Verbs & Vowel Shifts (gegangenen, gesprochen)",
+              "title": "Deutsch mit Hend: Das Perfekt - haben oder sein? الماضي في الألمانية",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=TPvYYsr6KbE"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Modalverben & Word Order - Grammar Notes & Rule Summary: Perfekt with Irregular Verbs & Vowel Shifts (gegangenen, gesprochen)",
+              "title": "lingoni GERMAN: German Perfekt Tense Complete Guide",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: How to Use Modal Verbs Correctly - Supplementary Video & Practical Examples: Perfekt with Irregular Verbs & Vowel Shifts (gegangenen, gesprochen)",
+              "title": "DW Nicos Weg: What Did Nico Do Yesterday - Perfekt",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Memorize",
@@ -1059,24 +1059,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Das Perfekt (haben vs sein) - Primary Lesson: Haben vs Sein: Movement Verbs & State Changes in Perfekt",
+              "title": "Shehata Deutsch: Perfekt Tense - Regular & Irregular Verbs Mastery",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=TPvYYsr6KbE"
+              "link": "https://www.youtube.com/watch?v=5YtHNczWwAw"
             },
             {
               "type": "Read",
-              "title": "Shehata Deutsch: Past Tense Mastery (Perfekt & Partizip II) - Grammar Notes & Rule Summary: Haben vs Sein: Movement Verbs & State Changes in Perfekt",
+              "title": "Shehata Deutsch: Perfekt Tense Mastery - All Verb Forms",
               "duration": "25 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=5YtHNczWwAw"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Talking About Yesterday in Perfekt - Supplementary Video & Practical Examples: Haben vs Sein: Movement Verbs & State Changes in Perfekt",
+              "title": "DW Nicos Weg: What Did Nico Do Yesterday - Perfekt",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Memorize",
@@ -1123,24 +1123,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Subordinate Clauses with Weil & Dass - > eingekauft)",
+              "title": "Deutsch mit Hend: Trennbare Verben - Separable Verbs Complete Guide",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=eFE-vWA-2H8"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Nebensätze & Verb-at-the-End Rule - > eingekauft)",
+              "title": "Shehata Deutsch: Separable Verbs for Arabic Speakers",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Weil, Dass, Obwohl & Wenn Demystified - > eingekauft)",
+              "title": "Easy German #156: Separable Verbs in Natural German Speech",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=jiV90WdUkjw"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Memorize",
@@ -1187,24 +1187,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Alphabet & Phonetics - > verstanden, bezahlen)",
+              "title": "Deutsch mit Hend: Trennbare Verben - Separable Verbs Complete Guide",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=eFE-vWA-2H8"
             },
             {
               "type": "Read",
-              "title": "Grammar Notes & Rule Summary: Perfekt with Inseparable Verbs (verstehen -> verstanden, bezahlen)",
+              "title": "Shehata Deutsch: Separable Verbs for Arabic Speakers",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Watch",
-              "title": "Easy German: How Germans Speak & Alphabet - > verstanden, bezahlen)",
+              "title": "German with Laura: Using Separable Verbs in Sentences",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -1251,21 +1251,21 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Hallo Nico - First Greetings & Introductions - Primary Lesson: Narrative Past Speaking: Describing Yesterday & Last Weekend",
+              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Basic Greetings & Introduction - Grammar Notes & Rule Summary: Narrative Past Speaking: Describing Yesterday & Last Weekend",
+              "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: 10 German Greetings You Must Know - Supplementary Video & Practical Examples: Narrative Past Speaking: Describing Yesterday & Last Weekend",
+              "title": "Learn German with Anja: Grammar Made Simple",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
@@ -1315,24 +1315,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Verb Conjugation & Sein/Haben - Primary Lesson: Week 3 Review & Perfekt Fluency Sprint",
+              "title": "Deutsch mit Hend: Das Perfekt - haben oder sein? الماضي في الألمانية",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
+              "link": "https://www.youtube.com/watch?v=TPvYYsr6KbE"
             },
             {
               "type": "Read",
-              "title": "lingoni GERMAN: Regular & Irregular Verb Conjugation - Grammar Notes & Rule Summary: Week 3 Review & Perfekt Fluency Sprint",
+              "title": "Shehata Deutsch: Perfekt Tense Mastery - All Verb Forms",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=5YtHNczWwAw"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Conjugation Mastery for Beginners - Supplementary Video & Practical Examples: Week 3 Review & Perfekt Fluency Sprint",
+              "title": "DW Nicos Weg: What Did Nico Do Yesterday - Perfekt",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Memorize",
@@ -1387,24 +1387,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "German with Laura: Der, Die, Das Gender Rules & Endings - Primary Lesson: Simple Past of sein (war) & haben (hatte)",
+              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Definite and Indefinite Articles - Grammar Notes & Rule Summary: Simple Past of sein (war) & haben (hatte)",
+              "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Watch",
-              "title": "Easy German #120: How Germans Guess Word Genders - Supplementary Video & Practical Examples: Simple Past of sein (war) & haben (hatte)",
+              "title": "Easy German: Natural German in Context",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Memorize",
@@ -1451,24 +1451,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Akkusativ Case Explained Simply - Primary Lesson: Simple Past of Modals: konnte (could) & musste (had to)",
+              "title": "Deutsch mit Hend: Modalverben - كان ومشتقاتها في الألمانية",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=n4HSidrjXmQ"
+              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
             },
             {
               "type": "Read",
-              "title": "Shehata Deutsch: Akkusativ vs Nominativ Direct Comparison - Grammar Notes & Rule Summary: Simple Past of Modals: konnte (could) & musste (had to)",
+              "title": "lingoni GERMAN: German Modal Verbs Complete Guide",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: German Direct Objects & Accusative - Supplementary Video & Practical Examples: Simple Past of Modals: konnte (could) & musste (had to)",
+              "title": "Shehata Deutsch: Modal Verbs for Arabic Speakers",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Memorize",
@@ -1515,24 +1515,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Der Dativ & Prepositions Masterclass - Primary Lesson: Simple Past of Modals: wollte, sollte, durfte",
+              "title": "Deutsch mit Hend: Modalverben - كان ومشتقاتها في الألمانية",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Dativ Case & Verbs - Grammar Notes & Rule Summary: Simple Past of Modals: wollte, sollte, durfte",
+              "title": "Deutsch mit Hend: Modalverben - كان ومشتقاتها في الألمانية",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
+              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
             },
             {
               "type": "Watch",
-              "title": "Easy German #250: Dative Verbs in Action - Supplementary Video & Practical Examples: Simple Past of Modals: wollte, sollte, durfte",
+              "title": "Shehata Deutsch: Modal Verbs for Arabic Speakers",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Memorize",
@@ -1579,24 +1579,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Modal Verbs (können, müssen, wollen) - Primary Lesson: Perfekt vs Präteritum: Spoken vs Written Past Rules",
+              "title": "Deutsch mit Hend: Das Perfekt - haben oder sein? الماضي في الألمانية",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=TPvYYsr6KbE"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Modalverben & Word Order - Grammar Notes & Rule Summary: Perfekt vs Präteritum: Spoken vs Written Past Rules",
+              "title": "Shehata Deutsch: Perfekt Tense Mastery - All Verb Forms",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
+              "link": "https://www.youtube.com/watch?v=5YtHNczWwAw"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: How to Use Modal Verbs Correctly - Supplementary Video & Practical Examples: Perfekt vs Präteritum: Spoken vs Written Past Rules",
+              "title": "DW Nicos Weg: What Did Nico Do Yesterday - Perfekt",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Memorize",
@@ -1643,24 +1643,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Das Perfekt (haben vs sein) - Primary Lesson: Past Obligations in Conversations: Discussing Past Tasks",
+              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=TPvYYsr6KbE"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
-              "title": "Shehata Deutsch: Past Tense Mastery (Perfekt & Partizip II) - Grammar Notes & Rule Summary: Past Obligations in Conversations: Discussing Past Tasks",
+              "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=5YtHNczWwAw"
+              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Talking About Yesterday in Perfekt - Supplementary Video & Practical Examples: Past Obligations in Conversations: Discussing Past Tasks",
+              "title": "Learn German with Anja: Grammar Made Simple",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
             },
             {
               "type": "Memorize",
@@ -1707,24 +1707,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Subordinate Clauses with Weil & Dass - Primary Lesson: Writing a Past Incident Report / Doctor's Absence Note",
+              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Nebensätze & Verb-at-the-End Rule - Grammar Notes & Rule Summary: Writing a Past Incident Report / Doctor's Absence Note",
+              "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
+              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Weil, Dass, Obwohl & Wenn Demystified - Supplementary Video & Practical Examples: Writing a Past Incident Report / Doctor's Absence Note",
+              "title": "Learn German with Anja: Grammar Made Simple",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=jiV90WdUkjw"
+              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
             },
             {
               "type": "Memorize",
@@ -1771,21 +1771,21 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Alphabet & Phonetics - Primary Lesson: Week 4 Review & Past Tense Mastery Sprint",
+              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
               "duration": "35 min",
               "resourceType": "PRIMARY",
               "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
-              "title": "Grammar Notes & Rule Summary: Week 4 Review & Past Tense Mastery Sprint",
+              "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Watch",
-              "title": "Easy German: How Germans Speak & Alphabet - Supplementary Video & Practical Examples: Week 4 Review & Past Tense Mastery Sprint",
+              "title": "Easy German: Natural German in Context",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
@@ -1843,24 +1843,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Hallo Nico - First Greetings & Introductions - Primary Lesson: Reflexive Verbs with Accusative (sich freuen, sich duschen)",
+              "title": "Deutsch mit Hend: A2 - Reflexive Verbs sich waschen sich freuen",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=Ks7KwIYksvs"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Basic Greetings & Introduction - Grammar Notes & Rule Summary: Reflexive Verbs with Accusative (sich freuen, sich duschen)",
+              "title": "lingoni GERMAN: Reflexive Verbs in German Grammar Guide",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: 10 German Greetings You Must Know - Supplementary Video & Practical Examples: Reflexive Verbs with Accusative (sich freuen, sich duschen)",
+              "title": "Easy German #89: Reflexive Verbs in Daily German Life",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Memorize",
@@ -1907,24 +1907,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Verb Conjugation & Sein/Haben - Primary Lesson: Reflexive Verbs with Dative (sich etwas wünschen, sich die Hände waschen)",
+              "title": "Shehata Deutsch: Der Dativ - Indirect Objects & Prepositions Masterclass",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Read",
-              "title": "lingoni GERMAN: Regular & Irregular Verb Conjugation - Grammar Notes & Rule Summary: Reflexive Verbs with Dative (sich etwas wünschen, sich die Hände waschen)",
+              "title": "Deutsch mit Hend: Dativ Case المفعول به غير المباشر",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Conjugation Mastery for Beginners - Supplementary Video & Practical Examples: Reflexive Verbs with Dative (sich etwas wünschen, sich die Hände waschen)",
+              "title": "German with Laura: Dative Prepositions in German",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -1971,21 +1971,21 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "German with Laura: Der, Die, Das Gender Rules & Endings - Primary Lesson: Adjective Endings after Definite Articles (der alte Tisch, die neue Tasche)",
+              "title": "Deutsch mit Hend: Definite & Indefinite Articles in German",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Definite and Indefinite Articles - Grammar Notes & Rule Summary: Adjective Endings after Definite Articles (der alte Tisch, die neue Tasche)",
+              "title": "Deutsch mit Hend: Definite & Indefinite Articles in German",
               "duration": "25 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
             },
             {
               "type": "Watch",
-              "title": "Easy German #120: How Germans Guess Word Genders - Supplementary Video & Practical Examples: Adjective Endings after Definite Articles (der alte Tisch, die neue Tasche)",
+              "title": "Easy German #120: How Germans Know a Word's Gender",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
@@ -2035,24 +2035,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Akkusativ Case Explained Simply - Primary Lesson: Adjective Endings after Indefinite Articles (ein alter Tisch, eine neue Tasche)",
+              "title": "Deutsch mit Hend: Definite & Indefinite Articles in German",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=n4HSidrjXmQ"
+              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
             },
             {
               "type": "Read",
-              "title": "Shehata Deutsch: Akkusativ vs Nominativ Direct Comparison - Grammar Notes & Rule Summary: Adjective Endings after Indefinite Articles (ein alter Tisch, eine neue Tasche)",
+              "title": "Deutsch mit Hend: Definite & Indefinite Articles in German",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: German Direct Objects & Accusative - Supplementary Video & Practical Examples: Adjective Endings after Indefinite Articles (ein alter Tisch, eine neue Tasche)",
+              "title": "Easy German #120: How Germans Know a Word's Gender",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
             },
             {
               "type": "Memorize",
@@ -2099,21 +2099,21 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Der Dativ & Prepositions Masterclass - Primary Lesson: Adjective Endings in Accusative & Dative Cases",
+              "title": "Deutsch mit Hend: Dativ Case - المفعول به غير المباشر",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Dativ Case & Verbs - Grammar Notes & Rule Summary: Adjective Endings in Accusative & Dative Cases",
+              "title": "Deutsch mit Hend: Dativ Case المفعول به غير المباشر",
               "duration": "25 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
             },
             {
               "type": "Watch",
-              "title": "Easy German #250: Dative Verbs in Action - Supplementary Video & Practical Examples: Adjective Endings in Accusative & Dative Cases",
+              "title": "Easy German #250: Dative Case in Real German Conversations",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
@@ -2163,24 +2163,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Modal Verbs (können, müssen, wollen) - Primary Lesson: Describing Clothes, Weather & People in Detail",
+              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Modalverben & Word Order - Grammar Notes & Rule Summary: Describing Clothes, Weather & People in Detail",
+              "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: How to Use Modal Verbs Correctly - Supplementary Video & Practical Examples: Describing Clothes, Weather & People in Detail",
+              "title": "Learn German with Anja: Grammar Made Simple",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
             },
             {
               "type": "Memorize",
@@ -2227,24 +2227,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Das Perfekt (haben vs sein) - Primary Lesson: Week 5 Review & Adjective Declension Mastery Sprint",
+              "title": "Deutsch mit Hend: A2 - Adjektivdeklination nach bestimmtem Artikel",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=TPvYYsr6KbE"
+              "link": "https://www.youtube.com/watch?v=Y4y-gKdIW68"
             },
             {
               "type": "Read",
-              "title": "Shehata Deutsch: Past Tense Mastery (Perfekt & Partizip II) - Grammar Notes & Rule Summary: Week 5 Review & Adjective Declension Mastery Sprint",
+              "title": "Shehata Deutsch: Adjective Endings After der die das ein eine",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=5YtHNczWwAw"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Talking About Yesterday in Perfekt - Supplementary Video & Practical Examples: Week 5 Review & Adjective Declension Mastery Sprint",
+              "title": "lingoni GERMAN: A2 Adjective Endings Complete Reference",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -2299,24 +2299,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Subordinate Clauses with Weil & Dass - Primary Lesson: Comparative of Adjectives (schneller, größer, besser, mehr)",
+              "title": "Deutsch mit Hend: A2 - Komparativ und Superlativ in German",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=aWy4cmh5o-Q"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Nebensätze & Verb-at-the-End Rule - Grammar Notes & Rule Summary: Comparative of Adjectives (schneller, größer, besser, mehr)",
+              "title": "lingoni GERMAN: Comparative and Superlative in German A2",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Weil, Dass, Obwohl & Wenn Demystified - Supplementary Video & Practical Examples: Comparative of Adjectives (schneller, größer, besser, mehr)",
+              "title": "Easy German #112: Comparing Things on the Street in Germany",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=jiV90WdUkjw"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Memorize",
@@ -2363,21 +2363,21 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Alphabet & Phonetics - Primary Lesson: Superlative of Adjectives (am schnellsten, am größten, am besten)",
+              "title": "Deutsch mit Hend: A2 - Komparativ und Superlativ in German",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=aWy4cmh5o-Q"
             },
             {
               "type": "Read",
-              "title": "Grammar Notes & Rule Summary: Superlative of Adjectives (am schnellsten, am größten, am besten)",
+              "title": "lingoni GERMAN: Comparative and Superlative in German A2",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Watch",
-              "title": "Easy German: How Germans Speak & Alphabet - Supplementary Video & Practical Examples: Superlative of Adjectives (am schnellsten, am größten, am besten)",
+              "title": "Easy German #112: Comparing Things on the Street in Germany",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
@@ -2427,21 +2427,21 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Hallo Nico - First Greetings & Introductions - Primary Lesson: Comparing Apartments & Making Choices (Shopping Scenario)",
+              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Basic Greetings & Introduction - Grammar Notes & Rule Summary: Comparing Apartments & Making Choices (Shopping Scenario)",
+              "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: 10 German Greetings You Must Know - Supplementary Video & Practical Examples: Comparing Apartments & Making Choices (Shopping Scenario)",
+              "title": "Learn German with Anja: Grammar Made Simple",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
@@ -2491,24 +2491,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Verb Conjugation & Sein/Haben - Primary Lesson: Genitive Case Intro: Possessive & Prepositions (wegen, während)",
+              "title": "Deutsch mit Hend: Possessive Pronouns mein dein sein ihr",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
+              "link": "https://www.youtube.com/watch?v=Qzb82FdyzhM"
             },
             {
               "type": "Read",
-              "title": "lingoni GERMAN: Regular & Irregular Verb Conjugation - Grammar Notes & Rule Summary: Genitive Case Intro: Possessive & Prepositions (wegen, während)",
+              "title": "lingoni GERMAN: German Possessive Pronouns All Cases",
               "duration": "25 min",
               "resourceType": "SECONDARY",
               "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Conjugation Mastery for Beginners - Supplementary Video & Practical Examples: Genitive Case Intro: Possessive & Prepositions (wegen, während)",
+              "title": "Easy German: Talking About What Belongs to Whom",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Memorize",
@@ -2555,24 +2555,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "German with Laura: Der, Die, Das Gender Rules & Endings - Primary Lesson: Expressing Possession: Genitive vs 'von' + Dative in Spoken German",
+              "title": "Shehata Deutsch: Der Dativ - Indirect Objects & Prepositions Masterclass",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Definite and Indefinite Articles - Grammar Notes & Rule Summary: Expressing Possession: Genitive vs 'von' + Dative in Spoken German",
+              "title": "Deutsch mit Hend: Dativ Case المفعول به غير المباشر",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
+              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
             },
             {
               "type": "Watch",
-              "title": "Easy German #120: How Germans Guess Word Genders - Supplementary Video & Practical Examples: Expressing Possession: Genitive vs 'von' + Dative in Spoken German",
+              "title": "Easy German #250: Dative Case in Real German Conversations",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Memorize",
@@ -2619,24 +2619,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Akkusativ Case Explained Simply - Primary Lesson: Workplace German: Office Vocabulary, Emails & Phone Appointments",
+              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=n4HSidrjXmQ"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
-              "title": "Shehata Deutsch: Akkusativ vs Nominativ Direct Comparison - Grammar Notes & Rule Summary: Workplace German: Office Vocabulary, Emails & Phone Appointments",
+              "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: German Direct Objects & Accusative - Supplementary Video & Practical Examples: Workplace German: Office Vocabulary, Emails & Phone Appointments",
+              "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Memorize",
@@ -2683,24 +2683,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Der Dativ & Prepositions Masterclass - Primary Lesson: Week 6 Review & Comparison Mastery Sprint",
+              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Dativ Case & Verbs - Grammar Notes & Rule Summary: Week 6 Review & Comparison Mastery Sprint",
+              "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
+              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
             },
             {
               "type": "Watch",
-              "title": "Easy German #250: Dative Verbs in Action - Supplementary Video & Practical Examples: Week 6 Review & Comparison Mastery Sprint",
+              "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Memorize",
@@ -2755,24 +2755,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Modal Verbs (können, müssen, wollen) - Primary Lesson: Konjunktiv II Intro: hätte (would have) & wäre (would be)",
+              "title": "Shehata Deutsch: Konjunktiv II - Wishes Politeness & Hypotheticals",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Modalverben & Word Order - Grammar Notes & Rule Summary: Konjunktiv II Intro: hätte (would have) & wäre (would be)",
+              "title": "Deutsch mit Hend: B1 - Konjunktiv II würde Formen",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
+              "link": "https://www.youtube.com/watch?v=VUcAEwtX3rU"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: How to Use Modal Verbs Correctly - Supplementary Video & Practical Examples: Konjunktiv II Intro: hätte (would have) & wäre (would be)",
+              "title": "Easy German #380: Konjunktiv II in Real German Conversations",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Memorize",
@@ -2819,24 +2819,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Das Perfekt (haben vs sein) - Primary Lesson: Konjunktiv II with würde + Infinitive (Ich würde gerne...)",
+              "title": "Deutsch mit Hend: A2/B1 - Infinitiv mit zu & um...zu Konstruktionen",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=TPvYYsr6KbE"
+              "link": "https://www.youtube.com/watch?v=aeiu0jAdfPc"
             },
             {
               "type": "Read",
-              "title": "Shehata Deutsch: Past Tense Mastery (Perfekt & Partizip II) - Grammar Notes & Rule Summary: Konjunktiv II with würde + Infinitive (Ich würde gerne...)",
+              "title": "lingoni GERMAN: Infinitive with zu - German Grammar Guide",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=5YtHNczWwAw"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Talking About Yesterday in Perfekt - Supplementary Video & Practical Examples: Konjunktiv II with würde + Infinitive (Ich würde gerne...)",
+              "title": "German with Laura: um...zu ohne...zu anstatt...zu in German",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -2883,24 +2883,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Subordinate Clauses with Weil & Dass - Primary Lesson: Polite Requests in German (Könnten Sie bitte..., Hätten Sie Zeit?)",
+              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Nebensätze & Verb-at-the-End Rule - Grammar Notes & Rule Summary: Polite Requests in German (Könnten Sie bitte..., Hätten Sie Zeit?)",
+              "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Weil, Dass, Obwohl & Wenn Demystified - Supplementary Video & Practical Examples: Polite Requests in German (Könnten Sie bitte..., Hätten Sie Zeit?)",
+              "title": "Learn German with Anja: Grammar Made Simple",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=jiV90WdUkjw"
+              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
             },
             {
               "type": "Memorize",
@@ -2947,21 +2947,21 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Alphabet & Phonetics - Primary Lesson: Hypothetical Wishes & Dreams (Wenn ich Zeit hätte...)",
+              "title": "Shehata Deutsch: Wenn-Sätze - Conditional & Temporal Clauses",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=jiV90WdUkjw"
             },
             {
               "type": "Read",
-              "title": "Grammar Notes & Rule Summary: Hypothetical Wishes & Dreams (Wenn ich Zeit hätte...)",
+              "title": "DW Nicos Weg: Conditional Sentences in German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
             },
             {
               "type": "Watch",
-              "title": "Easy German: How Germans Speak & Alphabet - Supplementary Video & Practical Examples: Hypothetical Wishes & Dreams (Wenn ich Zeit hätte...)",
+              "title": "Easy German #180: When and If in German - wenn and als",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
@@ -3011,21 +3011,21 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Hallo Nico - First Greetings & Introductions - Primary Lesson: Doctor Visit & Medical Scenarios (Beim Arzt, Termine vereinbaren)",
+              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Basic Greetings & Introduction - Grammar Notes & Rule Summary: Doctor Visit & Medical Scenarios (Beim Arzt, Termine vereinbaren)",
+              "title": "Shehata Deutsch: Grammar for Arabic Speakers",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: 10 German Greetings You Must Know - Supplementary Video & Practical Examples: Doctor Visit & Medical Scenarios (Beim Arzt, Termine vereinbaren)",
+              "title": "Learn German with Anja: Grammar Made Simple",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
@@ -3075,24 +3075,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Verb Conjugation & Sein/Haben - Primary Lesson: Bürgeramt & Registration Scenarios (Anmeldung, Formular ausfüllen)",
+              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=X5i-G5NsoWo"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
-              "title": "lingoni GERMAN: Regular & Irregular Verb Conjugation - Grammar Notes & Rule Summary: Bürgeramt & Registration Scenarios (Anmeldung, Formular ausfüllen)",
+              "title": "Shehata Deutsch: Grammar for Arabic Speakers",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Conjugation Mastery for Beginners - Supplementary Video & Practical Examples: Bürgeramt & Registration Scenarios (Anmeldung, Formular ausfüllen)",
+              "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Memorize",
@@ -3139,24 +3139,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "German with Laura: Der, Die, Das Gender Rules & Endings - Primary Lesson: Week 7 Review & Konjunktiv II Mastery Sprint",
+              "title": "Deutsch mit Hend: B1 - Konjunktiv II würde hätte wäre",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=VUcAEwtX3rU"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Definite and Indefinite Articles - Grammar Notes & Rule Summary: Week 7 Review & Konjunktiv II Mastery Sprint",
+              "title": "Deutsch mit Hend: B1 - Konjunktiv II würde Formen",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
+              "link": "https://www.youtube.com/watch?v=VUcAEwtX3rU"
             },
             {
               "type": "Watch",
-              "title": "Easy German #120: How Germans Guess Word Genders - Supplementary Video & Practical Examples: Week 7 Review & Konjunktiv II Mastery Sprint",
+              "title": "German with Laura: Hypothetical German - Konjunktiv II",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Memorize",
@@ -3211,24 +3211,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Akkusativ Case Explained Simply - 3",
+              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=n4HSidrjXmQ"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
-              "title": "Shehata Deutsch: Akkusativ vs Nominativ Direct Comparison - 3",
+              "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: German Direct Objects & Accusative - 3",
+              "title": "Easy German: Natural German in Context",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
             },
             {
               "type": "Memorize",
@@ -3275,24 +3275,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Der Dativ & Prepositions Masterclass - Primary Lesson: Goethe A2 Lesen Sprint: Reading Notices, Emails & Articles",
+              "title": "German with Laura: Der Die Das - Complete German Gender Rules & Patterns",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
+              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Dativ Case & Verbs - Grammar Notes & Rule Summary: Goethe A2 Lesen Sprint: Reading Notices, Emails & Articles",
+              "title": "Deutsch mit Hend: Definite & Indefinite Articles in German",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=aKihh7_t9_M"
+              "link": "https://www.youtube.com/watch?v=OQ9GZ1eepq4"
             },
             {
               "type": "Watch",
-              "title": "Easy German #250: Dative Verbs in Action - Supplementary Video & Practical Examples: Goethe A2 Lesen Sprint: Reading Notices, Emails & Articles",
+              "title": "Easy German #120: How Germans Know a Word's Gender",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
+              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
             },
             {
               "type": "Memorize",
@@ -3339,24 +3339,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Modal Verbs (können, müssen, wollen) - Primary Lesson: Goethe A2 Schreiben Sprint: Writing Formal Emails & Invitations",
+              "title": "Shehata Deutsch: German Grammar Masterclass",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Modalverben & Word Order - Grammar Notes & Rule Summary: Goethe A2 Schreiben Sprint: Writing Formal Emails & Invitations",
+              "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=W-4q6YeeOmo"
+              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
             },
             {
               "type": "Watch",
-              "title": "lingoni GERMAN: How to Use Modal Verbs Correctly - Supplementary Video & Practical Examples: Goethe A2 Schreiben Sprint: Writing Formal Emails & Invitations",
+              "title": "Learn German with Anja: Grammar Made Simple",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
             },
             {
               "type": "Memorize",
@@ -3403,24 +3403,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: Das Perfekt (haben vs sein) - Primary Lesson: Goethe A2 Sprechen Part 1 & 2: Personal Questions & Experience",
+              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=TPvYYsr6KbE"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
-              "title": "Shehata Deutsch: Past Tense Mastery (Perfekt & Partizip II) - Grammar Notes & Rule Summary: Goethe A2 Sprechen Part 1 & 2: Personal Questions & Experience",
+              "title": "Shehata Deutsch: Grammar for Arabic Speakers",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=5YtHNczWwAw"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Talking About Yesterday in Perfekt - Supplementary Video & Practical Examples: Goethe A2 Sprechen Part 1 & 2: Personal Questions & Experience",
+              "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Memorize",
@@ -3467,24 +3467,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Subordinate Clauses with Weil & Dass - Primary Lesson: Goethe A2 Sprechen Part 3: Planning an Event Together with Partner",
+              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=4NQvZgUs_N8"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Nebensätze & Verb-at-the-End Rule - Grammar Notes & Rule Summary: Goethe A2 Sprechen Part 3: Planning an Event Together with Partner",
+              "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=kE3WbXzKLo4"
+              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
             },
             {
               "type": "Watch",
-              "title": "Shehata Deutsch: Weil, Dass, Obwohl & Wenn Demystified - Supplementary Video & Practical Examples: Goethe A2 Sprechen Part 3: Planning an Event Together with Partner",
+              "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=jiV90WdUkjw"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Memorize",
@@ -3531,21 +3531,21 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "Deutsch mit Hend: German Alphabet & Phonetics - Primary Lesson: Full Goethe A2 Mock Exam Simulation Sprint",
+              "title": "Shehata Deutsch: German Grammar Masterclass",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Read",
-              "title": "Grammar Notes & Rule Summary: Full Goethe A2 Mock Exam Simulation Sprint",
+              "title": "Learn German with Anja: Clear Grammar Explanations",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
             },
             {
               "type": "Watch",
-              "title": "Easy German: How Germans Speak & Alphabet - Supplementary Video & Practical Examples: Full Goethe A2 Mock Exam Simulation Sprint",
+              "title": "Easy German: Natural German in Context",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
               "link": "https://www.youtube.com/watch?v=_mS0EV3laEk"
@@ -3595,24 +3595,24 @@ export const CURRICULUM_DATA_A2 = {
           "standardTasks": [
             {
               "type": "Watch",
-              "title": "DW Nicos Weg: Hallo Nico - First Greetings & Introductions - Primary Lesson: German A2 Graduation Day: Progress Review & B1 Transition Plan",
+              "title": "Deutsch mit Hend: German Grammar Explained for Arabic Speakers",
               "duration": "35 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Read",
-              "title": "Deutsch mit Hend: Basic Greetings & Introduction - Grammar Notes & Rule Summary: German A2 Graduation Day: Progress Review & B1 Transition Plan",
+              "title": "Shehata Deutsch: Grammar for Arabic Speakers",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=Vh1R2_w0SJ0"
+              "link": "https://www.youtube.com/watch?v=w9IudPRz2xk"
             },
             {
               "type": "Watch",
-              "title": "Learn German with Anja: 10 German Greetings You Must Know - Supplementary Video & Practical Examples: German A2 Graduation Day: Progress Review & B1 Transition Plan",
+              "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=s-e4cXgmEy4"
+              "link": "https://www.youtube.com/watch?v=249XquZInDk"
             },
             {
               "type": "Memorize",

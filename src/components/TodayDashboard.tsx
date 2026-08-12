@@ -14,7 +14,7 @@
 import React, { useMemo, useState, useCallback } from 'react';
 import {
   Zap, Brain, Headphones, Mic, PenLine, BookOpen, Star,
-  ArrowRight, Clock, BarChart2, Target, ChevronDown, ChevronUp,
+  Clock, BarChart2, Target, ChevronDown, ChevronUp,
   Play, ExternalLink, Flame, TrendingUp, CheckCircle2,
   Info, Youtube, FileText, Globe, Dumbbell,
 } from 'lucide-react';
@@ -308,7 +308,6 @@ const StackItem: React.FC<{
               onClick={handleStart}
               className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-amber-500 text-stone-950 text-xs font-black hover:bg-amber-400 transition-all"
             >
-              <ArrowRight className="w-3 h-3" />
               Go to Section
             </button>
             {resource && (
@@ -568,7 +567,7 @@ export const TodayDashboard: React.FC = () => {
             <div>
               <p className="text-[11px] font-bold text-stone-600 mb-1">How today is built</p>
               <p className="text-[11px] text-stone-500 leading-relaxed">
-                You listen and read first, then grammar, then speak or write — same order you learned Arabic as a child.
+                You listen and read first, then grammar, then speak or write. This mirrors how you learned Arabic as a child.
                 Word reviews always come first while your memory is freshest.
               </p>
             </div>
@@ -595,8 +594,7 @@ export const TodayDashboard: React.FC = () => {
           className="flex items-center gap-1.5 text-xs text-amber-700 hover:text-amber-600 font-bold transition-colors"
         >
           <TrendingUp className="w-3.5 h-3.5" />
-          See full progress & take a test
-          <ArrowRight className="w-3 h-3" />
+          View full progress and take a test
         </button>
       </div>
 
@@ -667,7 +665,7 @@ export const TodayDashboard: React.FC = () => {
             onClick={() => setActiveView('resources')}
             className="text-xs text-amber-700 hover:text-amber-600 font-bold flex items-center gap-1 transition-colors"
           >
-            See all <ArrowRight className="w-3 h-3" />
+            See all
           </button>
         </div>
         {(() => {

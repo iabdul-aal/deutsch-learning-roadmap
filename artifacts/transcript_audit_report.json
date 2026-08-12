@@ -1,0 +1,86 @@
+[
+  {
+    "videoId": "4-eDoThe6qo",
+    "transcriptAvailable": true,
+    "snippetCount": 1875,
+    "sample": "\u2013 Good morning, Mr. M\u00fcller, how are you? \u2013 Good morning, Ms. Schneider. Fine, thank you. And you? \u2013 Good morning, Mr. M\u00fcller, how are you? \u2013 Good morn",
+    "error": null
+  },
+  {
+    "videoId": "F3a7cI2g_sM",
+    "transcriptAvailable": false,
+    "snippetCount": 0,
+    "sample": "",
+    "error": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=F3a7cI2g_sM! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!"
+  },
+  {
+    "videoId": "MmacJnqL3i0",
+    "transcriptAvailable": false,
+    "snippetCount": 0,
+    "sample": "",
+    "error": "No transcript found for requested languages"
+  },
+  {
+    "videoId": "OFSHdj_2FQA",
+    "transcriptAvailable": false,
+    "snippetCount": 0,
+    "sample": "",
+    "error": "No transcript found for requested languages"
+  },
+  {
+    "videoId": "RrfgbBp6ScI",
+    "transcriptAvailable": false,
+    "snippetCount": 0,
+    "sample": "",
+    "error": "No transcript found for requested languages"
+  },
+  {
+    "videoId": "WMvCXVorOsg",
+    "transcriptAvailable": false,
+    "snippetCount": 0,
+    "sample": "",
+    "error": "Subtitles disabled on video"
+  },
+  {
+    "videoId": "_VyYfZP9MsY",
+    "transcriptAvailable": false,
+    "snippetCount": 0,
+    "sample": "",
+    "error": "Subtitles disabled on video"
+  },
+  {
+    "videoId": "dr-dJ0a3Scs",
+    "transcriptAvailable": true,
+    "snippetCount": 137,
+    "sample": "Lesson 1 German for Beginners A1 Hello. Good day. My name is Anna Mayer. What's your name? My name is Eymen Demir.",
+    "error": null
+  },
+  {
+    "videoId": "e_0kU4M0d0U",
+    "transcriptAvailable": false,
+    "snippetCount": 0,
+    "sample": "",
+    "error": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=e_0kU4M0d0U! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!"
+  },
+  {
+    "videoId": "g9o6q5x8sRk",
+    "transcriptAvailable": false,
+    "snippetCount": 0,
+    "sample": "",
+    "error": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=g9o6q5x8sRk! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!"
+  },
+  {
+    "videoId": "oV9gP4-g-e8",
+    "transcriptAvailable": false,
+    "snippetCount": 0,
+    "sample": "",
+    "error": "\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=oV9gP4-g-e8! This is most likely caused by:\n\nThe video is no longer available\n\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!"
+  },
+  {
+    "videoId": "r94aqLUO0wo",
+    "transcriptAvailable": true,
+    "snippetCount": 23,
+    "sample": "hello loiter das is bonzer Noah Syria Zuppa easy German das is zu alpha thus yireh touch Leonin can lose kids where is toss toss East",
+    "error": null
+  }
+]

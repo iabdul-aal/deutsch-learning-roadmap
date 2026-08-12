@@ -3,9 +3,9 @@ import { useApp } from '../context/AppContext';
 import { AVAILABLE_TRACKS } from '../config/activeLanguageTrack';
 import {
   Flame, Clock, LayoutDashboard, Calendar,
-  Compass, Volume2, BookOpen, FileText, BarChart3,
-  CheckCircle2, Bookmark, Smartphone, RotateCcw,
-  ChevronDown, Menu, X, Globe, Sparkles, Trophy
+  BookOpen, FileText,
+  CheckCircle2, Bookmark, RotateCcw,
+  Menu, X, Globe, Trophy, Lock
 } from 'lucide-react';
 
 interface SidebarProps {
@@ -78,54 +78,6 @@ export const Sidebar: React.FC<SidebarProps> = ({ onOpenTimer }) => {
             </div>
           </div>
         </button>
-
-        {/* Level Selector */}
-        <div className="relative">
-          <button
-            onClick={() => setTrackDropdownOpen(d => !d)}
-            className="w-full flex items-center justify-between px-3 py-2 rounded-lg bg-white/8 hover:bg-white/12 border border-white/12 text-sm font-semibold text-white/90 transition-all"
-          >
-            <div className="flex items-center gap-2 min-w-0">
-              <Sparkles className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-              <span className="truncate text-xs font-bold text-white">{currentTrack.shortName || currentTrack.name}</span>
-            </div>
-            <ChevronDown className={`w-3.5 h-3.5 text-white/40 shrink-0 transition-transform ${trackDropdownOpen ? 'rotate-180' : ''}`} />
-          </button>
-
-          {trackDropdownOpen && (
-            <div className="absolute left-0 right-0 mt-1 bg-[#1a1a22] border border-white/15 rounded-xl shadow-xl z-50 overflow-hidden">
-              {AVAILABLE_TRACKS.map((track) => {
-                const unlocked = isTrackUnlocked(track.id);
-                return (
-                  <button
-                    key={track.id}
-                    onClick={() => handleTrackSelect(track)}
-                    className={`w-full flex items-center justify-between px-3 py-2.5 text-left text-xs transition-all ${
-                      currentTrackId === track.id
-                        ? 'bg-amber-500/20 text-amber-300 font-bold'
-                        : unlocked
-                        ? 'text-white/80 hover:bg-white/8 hover:text-white'
-                        : 'text-white/40 bg-white/3 hover:bg-white/6'
-                    }`}
-                  >
-                    <div className="flex items-center gap-1.5 truncate pr-1">
-                      {!unlocked && <Lock className="w-3 h-3 text-rose-400 shrink-0" />}
-                      <span className="truncate">{track.name}</span>
-                    </div>
-                    <span className={`px-1.5 py-0.5 rounded text-[9px] font-black shrink-0 ${
-                      !unlocked ? 'bg-rose-500/20 text-rose-300 border border-rose-500/30' :
-                      track.level === 'A1' ? 'bg-amber-500/30 text-amber-300' :
-                      track.level === 'A2' ? 'bg-indigo-500/30 text-indigo-300' :
-                      'bg-emerald-500/30 text-emerald-300'
-                    }`}>
-                      {unlocked ? track.level : 'LOCKED'}
-                    </span>
-                  </button>
-                );
-              })}
-            </div>
-          )}
-        </div>
       </div>
 
       {/* ── Navigation ── */}
@@ -264,9 +216,9 @@ export const Sidebar: React.FC<SidebarProps> = ({ onOpenTimer }) => {
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm animate-in fade-in duration-200">
           <div className="bg-[#18181f] border border-amber-500/30 rounded-2xl p-6 max-w-md w-full shadow-2xl text-white space-y-4">
             <div className="flex items-center gap-3 text-amber-400">
-              <Sparkles className="w-5 h-5 shrink-0" />
+              <Lock className="w-5 h-5 shrink-0" />
               <div>
-                <h3 className="text-base font-bold">Track Locked 🔒 ({lockedTrackToUnlock.level})</h3>
+                <h3 className="text-base font-bold">Track Locked ({lockedTrackToUnlock.level})</h3>
                 <p className="text-xs text-white/60 font-sans">Progressive CEFR Level Requirement</p>
               </div>
             </div>
@@ -288,7 +240,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ onOpenTimer }) => {
                 }}
                 className="flex-1 py-2.5 px-4 rounded-xl bg-[#b68c61] hover:bg-[#855f39] text-white dark:bg-amber-500 dark:hover:bg-amber-400 dark:text-stone-950 font-bold text-xs transition-all shadow-lg flex items-center justify-center gap-1.5 active:scale-95"
               >
-                <span>Fast-Track & Unlock Level 🔓</span>
+                <span>Unlock Level {lockedTrackToUnlock.level}</span>
               </button>
               <button
                 onClick={() => setLockedTrackToUnlock(null)}
