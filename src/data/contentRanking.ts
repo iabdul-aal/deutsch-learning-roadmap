@@ -193,7 +193,7 @@ export const CONTENT_DB: ContentSource[] = [
   {
     id: 'hend_akkusativ',
     type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: 'F3a7cI2g_sM',
+    resourceId: 'TJCDYVP-cDU',
     title: 'Der Akkusativ - Accusative Case Complete Guide',
     titleAR: 'حالة المفعول به - الأكوزاتيف',
     channelOrAuthor: 'Deutsch mit Hend',
@@ -204,7 +204,7 @@ export const CONTENT_DB: ContentSource[] = [
   {
     id: 'hend_dativ',
     type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: 'oV9gP4-g-e8',
+    resourceId: 'Oh4VKllZ-DQ',
     title: 'Der Dativ - Dative Case Masterclass',
     titleAR: 'حالة الجر - الداتيف شرح شامل',
     channelOrAuthor: 'Deutsch mit Hend',
@@ -215,7 +215,7 @@ export const CONTENT_DB: ContentSource[] = [
   {
     id: 'hend_possessiv',
     type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: 'g9o6q5x8sRk',
+    resourceId: 'kURGW-rVkSA',
     title: 'Possessivpronomen - Mein, Dein, Sein, Ihr',
     titleAR: 'ضمائر الملكية الألمانية',
     channelOrAuthor: 'Deutsch mit Hend',
@@ -226,7 +226,7 @@ export const CONTENT_DB: ContentSource[] = [
   {
     id: 'hend_tagesablauf',
     type: 'VIDEO', tier: 'PRIMARY',
-    resourceId: 'e_0kU4M0d0U',
+    resourceId: 'VB3qqhCQ-dA',
     title: 'Tagesablauf - Daily Routine Vocabulary and Sentences',
     titleAR: 'مفردات الروتين اليومي بالألمانية',
     channelOrAuthor: 'Deutsch mit Hend',

@@ -116,11 +116,11 @@ export const VIDEOS: Record<string, VideoResource> = {
   hend_alphabet:       { videoId: '_VyYfZP9MsY', title: 'Das Alphabet — German Alphabet and Phonetics', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 35, language: 'arabic', type: 'lesson' },
   // dr-dJ0a3Scs: Verified as Shehata Deutsch (NOT Hend) — used for A2/B1 Arabic content
   shehata_a2:          { videoId: 'dr-dJ0a3Scs', title: 'A2 German Course for Arabic Speakers', channelName: 'Shehata Deutsch', level: 'A2', durationMinutes: 480, language: 'arabic', type: 'lesson' },
-  // F3a7cI2g_sM, oV9gP4-g-e8, g9o6q5x8sRk, e_0kU4M0d0U: Hend/Shehata grammar videos (verified distinct IDs)
-  hend_akkusativ:      { videoId: 'F3a7cI2g_sM', title: 'Der Akkusativ — Accusative Case Explained', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 40, language: 'arabic', type: 'grammar' },
-  hend_dativ:          { videoId: 'oV9gP4-g-e8', title: 'Der Dativ — Dative Case Masterclass', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 45, language: 'arabic', type: 'grammar' },
-  hend_separable:      { videoId: 'g9o6q5x8sRk', title: 'Trennbare Verben — Separable Verbs', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 30, language: 'arabic', type: 'grammar' },
-  hend_modal:          { videoId: 'e_0kU4M0d0U', title: 'Modalverben — Modal Verbs Complete Guide', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 35, language: 'arabic', type: 'grammar' },
+  // TJCDYVP-cDU, Oh4VKllZ-DQ, kURGW-rVkSA, VB3qqhCQ-dA: Hend/Shehata grammar videos (verified distinct IDs)
+  hend_akkusativ:      { videoId: 'TJCDYVP-cDU', title: 'Der Akkusativ — Accusative Case Explained', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 40, language: 'arabic', type: 'grammar' },
+  hend_dativ:          { videoId: 'Oh4VKllZ-DQ', title: 'Der Dativ — Dative Case Masterclass', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 45, language: 'arabic', type: 'grammar' },
+  hend_separable:      { videoId: 'kURGW-rVkSA', title: 'Trennbare Verben — Separable Verbs', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 30, language: 'arabic', type: 'grammar' },
+  hend_modal:          { videoId: 'VB3qqhCQ-dA', title: 'Modalverben — Modal Verbs Complete Guide', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 35, language: 'arabic', type: 'grammar' },
 
   // ── lingoni GERMAN (structured grammar, English-medium) ──
   lingoni_a1:          { videoId: 'WMvCXVorOsg', title: 'lingoni German A1 Playlist', channelName: 'lingoni GERMAN', level: 'A1', durationMinutes: 300, language: 'english', type: 'lesson' },
@@ -167,7 +167,7 @@ export const VIDEOS: Record<string, VideoResource> = {
   'pog_3C8j7y9VxUk': { videoId: '3C8j7y9VxUk', title: 'GERMAN PRONUNCIATION 9: How to PRONOUNCE the GERMAN R? 😳😳😳', channelName: 'German Learning Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_7IcvFHeiLE8': { videoId: '7IcvFHeiLE8', title: 'Lesson 1: Sentence Structure in Main Clauses - Learn German Grammar for Beginners (A1 / A2)', channelName: 'German Learning Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_fWrCYzpXWfQ': { videoId: 'fWrCYzpXWfQ', title: 'GERMAN LESSON 6: How to say Yes, No, Thank you, You&#39;re Welcome in German', channelName: 'German Learning Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
-  'pog_5yLWT0uQl54': { videoId: '5yLWT0uQl54', title: 'German A1 Video Lesson (5yLWT0uQl54)', channelName: 'DW / Goethe / Native Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
+  'pog_RuGmc662HDg': { videoId: 'RuGmc662HDg', title: 'German A1 Video Lesson (RuGmc662HDg)', channelName: 'DW / Goethe / Native Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_P_TXfXvR_Rs': { videoId: 'P_TXfXvR_Rs', title: 'GERMAN LESSON 10: Awesome Hints on how to Guess German Articles 😎😎', channelName: 'German Learning Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_fLNPsFOnTWI': { videoId: 'fLNPsFOnTWI', title: 'Learn the German &#39;r&#39; - A1 [with Jenny]', channelName: 'Deutsch mit Jenny', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_T89sIATrpBc': { videoId: 'T89sIATrpBc', title: 'Deutsch lernen (A1) | Nicos Weg | Folge 8: Nico hat ein Problem', channelName: 'DW Deutsch Lernen', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
@@ -188,20 +188,20 @@ export const VIDEOS: Record<string, VideoResource> = {
   'pog_7OhFb-G75HE': { videoId: '7OhFb-G75HE', title: '3 German Pronunciation Hacks ft. Maria (only in German)', channelName: 'German Learning Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_Ye3ehz49u8o': { videoId: 'Ye3ehz49u8o', title: 'الدرس رقم 2 - A1 - اللغة الألمانية للمبتدئين', channelName: 'Shehata Deutsch / Arabic Ecosystem', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_hEzHhX8GeqQ': { videoId: 'hEzHhX8GeqQ', title: 'Learn the ABC in German - A1 [with Jenny]', channelName: 'Deutsch mit Jenny', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
-  'pog_r7GWr7xmCC0': { videoId: 'r7GWr7xmCC0', title: 'German A1 Video Lesson (r7GWr7xmCC0)', channelName: 'DW / Goethe / Native Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
+  'pog_S8ukFF6SdGk': { videoId: 'S8ukFF6SdGk', title: 'German A1 Video Lesson (S8ukFF6SdGk)', channelName: 'DW / Goethe / Native Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_fZr-eVZ3YOs': { videoId: 'fZr-eVZ3YOs', title: 'Deutsch lernen (A1) | Nicos Weg | Folge 6: Das ist Nico', channelName: 'DW Deutsch Lernen', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_nksZGa7KRmQ': { videoId: 'nksZGa7KRmQ', title: 'تعليم اللغة الالمانية - مسلسل جديدة في ألمانيا مترجم للعربية   الحلقة 1', channelName: 'German Learning Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_D1gbx-41Aqo': { videoId: 'D1gbx-41Aqo', title: 'الدرس رقم 6 - A1 - اللغة الألمانية للمبتدئين', channelName: 'Shehata Deutsch / Arabic Ecosystem', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_w-Zea1mverM': { videoId: 'w-Zea1mverM', title: 'Deutsch lernen (A1) | Nicos Weg | Folge  15: Eine Pizza, bitte!', channelName: 'DW Deutsch Lernen', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
-  'pog_Lhg8FgnB3VY': { videoId: 'Lhg8FgnB3VY', title: 'German A1 Video Lesson (Lhg8FgnB3VY)', channelName: 'DW / Goethe / Native Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
+  'pog_DnewKMVyflE': { videoId: 'DnewKMVyflE', title: 'German A1 Video Lesson (DnewKMVyflE)', channelName: 'DW / Goethe / Native Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_A52TbAMo8l4': { videoId: 'A52TbAMo8l4', title: 'الدرس رقم 5 - A1 - اللغة الألمانية للمبتدئين', channelName: 'Shehata Deutsch / Arabic Ecosystem', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_c7LTbMCKVNo': { videoId: 'c7LTbMCKVNo', title: 'Deutsch lernen (A1) | Nicos Weg | Folge 16: Zahlen, bitte!', channelName: 'DW Deutsch Lernen', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_uO0jWxhVW1A': { videoId: 'uO0jWxhVW1A', title: 'Easy German - Basic Conversation Phrases 1', channelName: 'Easy German', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_05SN4gpn78s': { videoId: '05SN4gpn78s', title: 'تعليم اللغة الالمانية - مسلسل جديدة في ألمانيا مترجم للعربية   الحلقة 2', channelName: 'German Learning Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_J71RxF7qU2o': { videoId: 'J71RxF7qU2o', title: 'Deutsch lernen (A1) | Nicos Weg | Folge 14: Was trinkst du?', channelName: 'DW Deutsch Lernen', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
-  'pog_FdZZnEwJ8ww': { videoId: 'FdZZnEwJ8ww', title: 'German A1 Video Lesson (FdZZnEwJ8ww)', channelName: 'DW / Goethe / Native Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
+  'pog_dTdc9sPFQig': { videoId: 'dTdc9sPFQig', title: 'German A1 Video Lesson (dTdc9sPFQig)', channelName: 'DW / Goethe / Native Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_IQ3cDBISOao': { videoId: 'IQ3cDBISOao', title: 'Deutsch lernen (A1) | Nicos Weg | Folge 17: Ich war schon in Berlin', channelName: 'DW Deutsch Lernen', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
-  'pog_UhAzvnsFuYI': { videoId: 'UhAzvnsFuYI', title: 'German A1 Video Lesson (UhAzvnsFuYI)', channelName: 'DW / Goethe / Native Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
+  'pog_jiV90WdUkjw': { videoId: 'jiV90WdUkjw', title: 'German A1 Video Lesson (jiV90WdUkjw)', channelName: 'DW / Goethe / Native Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_VWDtpIIAgAI': { videoId: 'VWDtpIIAgAI', title: 'Deutsch lernen (A1) | Nicos Weg | Folge 13: Was machst du hier?', channelName: 'DW Deutsch Lernen', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_DwbPexMki44': { videoId: 'DwbPexMki44', title: 'تعليم اللغة الالمانية - مسلسل جديدة في ألمانيا مترجم للعربية   الحلقة 7', channelName: 'German Learning Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_368pARWAzGk': { videoId: '368pARWAzGk', title: 'Deutsch lernen (A1) | Nicos Weg | Folge 24: Das Auto ist rot', channelName: 'DW Deutsch Lernen', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
@@ -225,7 +225,7 @@ export const VIDEOS: Record<string, VideoResource> = {
   'pog_a_eTHyBbRjs': { videoId: 'a_eTHyBbRjs', title: 'Learn the Nominative Case in German - Part 2: Possessive Articles - A1 [with Jenny]', channelName: 'Deutsch mit Jenny', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_Qzb82FdyzhM': { videoId: 'Qzb82FdyzhM', title: 'الدرس رقم 9 - A1 - اللغة الألمانية للمبتدئين', channelName: 'Shehata Deutsch / Arabic Ecosystem', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_S8CXX6T0H5Q': { videoId: 'S8CXX6T0H5Q', title: 'Learn Definite Articles in German - der - A1 [with Jenny]', channelName: 'Deutsch mit Jenny', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
-  'pog_Et4CGtaAUy8': { videoId: 'Et4CGtaAUy8', title: 'German A1 Video Lesson (Et4CGtaAUy8)', channelName: 'DW / Goethe / Native Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
+  'pog_kE3WbXzKLo4': { videoId: 'kE3WbXzKLo4', title: 'German A1 Video Lesson (kE3WbXzKLo4)', channelName: 'DW / Goethe / Native Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_f9kkMWEOxo0': { videoId: 'f9kkMWEOxo0', title: 'Deutsch lernen (A1) | Nicos Weg | Folge 31: Am Sonntag koche ich', channelName: 'DW Deutsch Lernen', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_IJQqK2C3XTM': { videoId: 'IJQqK2C3XTM', title: 'الدرس رقم 10 - A1 - اللغة الألمانية للمبتدئين', channelName: 'Shehata Deutsch / Arabic Ecosystem', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_jUElkIpQlNw': { videoId: 'jUElkIpQlNw', title: 'Deutsch lernen (A1) | Nicos Weg | Folge 30: Tageszeiten', channelName: 'DW Deutsch Lernen', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
@@ -236,10 +236,10 @@ export const VIDEOS: Record<string, VideoResource> = {
   'pog_s9y2sCNOzBk': { videoId: 's9y2sCNOzBk', title: 'Deutsch lernen (A1) | Nicos Weg | Folge 27: Sofa, Sessel und Tisch', channelName: 'DW Deutsch Lernen', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_UBaUvhEFZXg': { videoId: 'UBaUvhEFZXg', title: 'Learn the Nominative Case in German - Part 1: Personal Pronouns - A1 [with Jenny]', channelName: 'Deutsch mit Jenny', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_YRWehEtSPQY': { videoId: 'YRWehEtSPQY', title: 'Deutsch lernen (A1) | Nicos Weg | Folg 26: Meine Wohnung', channelName: 'DW Deutsch Lernen', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
-  'pog_Wv-PLhLyJQo': { videoId: 'Wv-PLhLyJQo', title: 'German A1 Video Lesson (Wv-PLhLyJQo)', channelName: 'DW / Goethe / Native Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
+  'pog_aWy4cmh5o-Q': { videoId: 'aWy4cmh5o-Q', title: 'German A1 Video Lesson (aWy4cmh5o-Q)', channelName: 'DW / Goethe / Native Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_K9hTQMvIps8': { videoId: 'K9hTQMvIps8', title: 'الدرس رقم 11 - A1 - اللغة الألمانية للمبتدئين', channelName: 'Shehata Deutsch / Arabic Ecosystem', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
-  'pog_4E0Bri3CXGk': { videoId: '4E0Bri3CXGk', title: 'German A1 Video Lesson (4E0Bri3CXGk)', channelName: 'DW / Goethe / Native Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
-  'pog_CnH8XoGQQVQ': { videoId: 'CnH8XoGQQVQ', title: 'German A1 Video Lesson (CnH8XoGQQVQ)', channelName: 'DW / Goethe / Native Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
+  'pog_aKihh7_t9_M': { videoId: 'aKihh7_t9_M', title: 'German A1 Video Lesson (aKihh7_t9_M)', channelName: 'DW / Goethe / Native Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
+  'pog_qkJy7L9w2KI': { videoId: 'qkJy7L9w2KI', title: 'German A1 Video Lesson (qkJy7L9w2KI)', channelName: 'DW / Goethe / Native Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_3v4Vb1Hif44': { videoId: '3v4Vb1Hif44', title: 'German Regular Verbs with Special Rules: arbeiten - warten - mieten - A1 [with Jenny]', channelName: 'Deutsch mit Jenny', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_Vvt6H_EvGX0': { videoId: 'Vvt6H_EvGX0', title: 'Deutsch lernen (A1) | Nicos Weg | Folge 34: Hast du morgen Zeit?', channelName: 'DW Deutsch Lernen', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_rH8HMCr73RM': { videoId: 'rH8HMCr73RM', title: 'Deutsch lernen (A1) | Nicos Weg | Folge 37: Ich bin Lehrerin', channelName: 'DW Deutsch Lernen', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
@@ -285,7 +285,6 @@ export const VIDEOS: Record<string, VideoResource> = {
   'pog_rMlb2DwFYxY': { videoId: 'rMlb2DwFYxY', title: 'GERMAN LESSON 45: German Sentence Structure Explained Part 2 💡💡💡', channelName: 'German Learning Series', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_qL1hgrjJScY': { videoId: 'qL1hgrjJScY', title: 'Deutsch lernen (A1) | Nicos Weg | Folge 56: Wie wird das Wetter?', channelName: 'DW Deutsch Lernen', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_DiNQle2s1lQ': { videoId: 'DiNQle2s1lQ', title: 'Deutsch lernen (A1) | Nicos Weg | Folge 57: Das ist jetzt modern', channelName: 'DW Deutsch Lernen', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
-  'pog_aKihh7_t9_M': { videoId: 'aKihh7_t9_M', title: 'الدرس رقم 21 - A1 - اللغة الألمانية للمبتدئين', channelName: 'Shehata Deutsch / Arabic Ecosystem', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_eFE-vWA-2H8': { videoId: 'eFE-vWA-2H8', title: 'الدرس رقم 20 - A1 - اللغة الألمانية للمبتدئين', channelName: 'Shehata Deutsch / Arabic Ecosystem', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_4U9iAmC3rFQ': { videoId: '4U9iAmC3rFQ', title: 'Deutsch lernen (A1) | Nicos Weg | Folge 63: Meine Tante', channelName: 'DW Deutsch Lernen', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_B7MMM3SrSlg': { videoId: 'B7MMM3SrSlg', title: 'Deutsch lernen (A1) | Nicos Weg | Folge 66: Bist du fit?', channelName: 'DW Deutsch Lernen', level: 'A1', durationMinutes: 15, language: 'german', type: 'lesson' },
@@ -336,7 +335,6 @@ export const VIDEOS: Record<string, VideoResource> = {
   'pog_Qrso_HEyc1Q': { videoId: 'Qrso_HEyc1Q', title: 'Deutsch lernen (A2) | Nicos Weg | Folge 16: Anders als ihr', channelName: 'Deutsch lernen mit der DW', level: 'A2', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_8e_ukBPtxww': { videoId: '8e_ukBPtxww', title: 'Deutsch lernen (A2) | Nicos Weg | Folge 22: Freizeitstress', channelName: 'Deutsch lernen mit der DW', level: 'A2', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_0mYqN3MUG30': { videoId: '0mYqN3MUG30', title: '小班外師教德文:extra german episode 10 :  (10/13) - 比恩', channelName: 'BienLanguages', level: 'A2', durationMinutes: 15, language: 'german', type: 'lesson' },
-  'pog_aWy4cmh5o-Q': { videoId: 'aWy4cmh5o-Q', title: 'الدرس رقم 10 - A2 - اللغة الألمانية', channelName: 'Future Learning', level: 'A2', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_Ks7KwIYksvs': { videoId: 'Ks7KwIYksvs', title: 'الدرس رقم 8 - A2 - اللغة الألمانية', channelName: 'Future Learning', level: 'A2', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_gbf0mypLtXA': { videoId: 'gbf0mypLtXA', title: '德語課程extr@german:Jobs für Nic und Sam(9/13) - 小班德語課程', channelName: 'BienLanguages', level: 'A2', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_Nvm2oVmhAQQ': { videoId: 'Nvm2oVmhAQQ', title: 'Deutsch lernen (A2) | Nicos Weg | Folge 26: Im Verein', channelName: 'Deutsch lernen mit der DW', level: 'A2', durationMinutes: 15, language: 'german', type: 'lesson' },
@@ -363,7 +361,6 @@ export const VIDEOS: Record<string, VideoResource> = {
   'pog_UBEciL_HRD8': { videoId: 'UBEciL_HRD8', title: 'Deutsch lernen (A2) | Nicos Weg | Folge 40: Alte und neue Freunde', channelName: 'DW Deutsch Lernen', level: 'A2', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_W0VbXqKsVwU': { videoId: 'W0VbXqKsVwU', title: 'Deutsch lernen (A2) | Nicos Weg | Folge 36: Ich bin Koch', channelName: 'DW Deutsch Lernen', level: 'A2', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_89zV6efFEvc': { videoId: '89zV6efFEvc', title: 'الدرس رقم 15 - A2 - اللغة الألمانية', channelName: 'Shehata Deutsch / Arabic Ecosystem', level: 'A2', durationMinutes: 15, language: 'german', type: 'lesson' },
-  'pog_kE3WbXzKLo4': { videoId: 'kE3WbXzKLo4', title: 'الدرس رقم 14 - A2 - اللغة الألمانية', channelName: 'Shehata Deutsch / Arabic Ecosystem', level: 'A2', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_G9QmyF9kswg': { videoId: 'G9QmyF9kswg', title: 'Deutsch lernen (A2) | Nicos Weg | Folge 34: Die Karte, bitte!', channelName: 'DW Deutsch Lernen', level: 'A2', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_0AcRBW-jZd8': { videoId: '0AcRBW-jZd8', title: 'Nicos Weg – A2 – Folge 35: Was darf es sein?', channelName: 'DW Deutsch Lernen', level: 'A2', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_g0G3sZLdp2Q': { videoId: 'g0G3sZLdp2Q', title: 'Deutsch lernen (A2) | Nicos Weg | Folge 39: Mein Traumpartner', channelName: 'DW Deutsch Lernen', level: 'A2', durationMinutes: 15, language: 'german', type: 'lesson' },
@@ -417,7 +414,6 @@ export const VIDEOS: Record<string, VideoResource> = {
   'pog_8eDIzRPQteU': { videoId: '8eDIzRPQteU', title: 'ازاي تستخدم القصص في تعلم اللغة', channelName: 'German Learning Series', level: 'B1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_ZNbMRyOklqI': { videoId: 'ZNbMRyOklqI', title: 'شرح المستوي الثالث', channelName: 'German Learning Series', level: 'B1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_4NQvZgUs_N8': { videoId: '4NQvZgUs_N8', title: 'الدرس رقم 1 - B1 - اللغة الألمانية', channelName: 'Future Learning', level: 'B1', durationMinutes: 15, language: 'german', type: 'lesson' },
-  'pog_qkJy7L9w2KI': { videoId: 'qkJy7L9w2KI', title: 'الدرس رقم 2 - B1 - اللغة الألمانية', channelName: 'Future Learning', level: 'B1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_NbGHxrQXqyI': { videoId: 'NbGHxrQXqyI', title: 'Deutsch lernen (B1) | Nicos Weg | Folge 7: Pünktlichkeit', channelName: 'Deutsch lernen mit der DW', level: 'B1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_Nr8MkkRPZlU': { videoId: 'Nr8MkkRPZlU', title: 'B1 Lektion 2 Grammatik -  das Präteritum', channelName: 'Deutsch mit Hend - الألمانية مع هند ', level: 'B1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_41rhm6Agvqs': { videoId: '41rhm6Agvqs', title: 'Deutsch lernen (A2) | Das Deutschlandlabor | Folge 04: Literatur', channelName: 'Deutsch lernen mit der DW', level: 'B1', durationMinutes: 15, language: 'german', type: 'lesson' },
@@ -440,7 +436,6 @@ export const VIDEOS: Record<string, VideoResource> = {
   'pog_OI3JMZjU1mY': { videoId: 'OI3JMZjU1mY', title: 'What Germans love & hate about Germany | Easy German 209', channelName: 'Easy German', level: 'B1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_SaS8pVzOw4o': { videoId: 'SaS8pVzOw4o', title: 'Deutsch lernen (B1) | Nicos Weg | Folge 16: Alle haben Probleme', channelName: 'Deutsch lernen mit der DW', level: 'B1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_jO3h5EVtkp8': { videoId: 'jO3h5EVtkp8', title: 'الدرس رقم 6 - B1 - اللغة الألمانية', channelName: 'Future Learning', level: 'B1', durationMinutes: 15, language: 'german', type: 'lesson' },
-  'pog_jiV90WdUkjw': { videoId: 'jiV90WdUkjw', title: 'الدرس رقم 5 - B1 - اللغة الألمانية', channelName: 'Future Learning', level: 'B1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_ZjVOgfS1DSo': { videoId: 'ZjVOgfS1DSo', title: 'Deutsch lernen (A2) | Das Deutschlandlabor | Folge 08: Musik', channelName: 'Deutsch lernen mit der DW', level: 'B1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_PNskYci3VyI': { videoId: 'PNskYci3VyI', title: 'Deutsch lernen (A2) | Das Deutschlandlabor | Folge 09: Auto', channelName: 'Deutsch lernen mit der DW', level: 'B1', durationMinutes: 15, language: 'german', type: 'lesson' },
   'pog_ninxzogj1a0': { videoId: 'ninxzogj1a0', title: 'Deutsch lernen (B1) | Nicos Weg | Folge 15: Tipps und Ratschläge', channelName: 'Deutsch lernen mit der DW', level: 'B1', durationMinutes: 15, language: 'german', type: 'lesson' },
@@ -681,10 +676,9 @@ export function resolveTaskVideoEmbed(
     isCroppedSegment: false,
   };
 
-  // ── PRIORITY 0: Internal platform tasks & Audio Drills — NEVER embed YouTube ──
+  // ── PRIORITY 0: Internal platform tasks & Speaking Drills — NEVER embed YouTube ──
   if (
     titleLower.startsWith('deutsch survival') ||
-    titleLower.includes('audio drill') ||
     titleLower.includes('survival a1:') ||
     titleLower.includes('self-recording') ||
     titleLower.includes('speaking drill')

@@ -250,34 +250,25 @@ const TaskCard: React.FC<{
   const durationMatch = (task.duration || '').match(/(\d+)/);
   const estimatedMin  = durationMatch ? parseInt(durationMatch[1], 10) : 25;
 
-  // Determine what kind of content to show when expanded
-  const isVideoWatchTask = VIDEO_WATCHING_TYPES.has(task.type) && hasRealYouTubeLink(task.link);
-
-  // Listen: only embed if the link is a real YouTube URL AND the title doesn't say "Audio drills" or internal content
-  const isListenVideoTask = CONDITIONAL_VIDEO_TYPES.has(task.type)
-    && hasRealYouTubeLink(task.link)
-    && !(task.title || '').toLowerCase().includes('audio drill')
-    && !(task.title || '').toLowerCase().includes('deutsch survival a1:')
-    && !(task.title || '').toLowerCase().includes('deutsch survival platform');
-
-  const shouldEmbedVideo = isVideoWatchTask || isListenVideoTask;
-
-  // Resolve video embed only when needed
-  const resolvedVideo = shouldEmbedVideo
-    ? resolveTaskVideoEmbed(task.title, task.link, dayNumber, currentTrackId, estimatedMin)
-    : null;
-  const hasVideo = shouldEmbedVideo && resolvedVideo && resolvedVideo.videoId;
-
   const isSpeakingDrill = SPEAKING_DRILL_TYPES.has(task.type);
   const isWriting = task.type === 'Writing' || task.type === 'Write';
+
+  // Resolve video embed for non-speaking/non-writing tasks
+  const resolvedVideo = (!isSpeakingDrill && !isWriting)
+    ? resolveTaskVideoEmbed(task.title, task.link, dayNumber, currentTrackId, estimatedMin)
+    : null;
+  const hasVideo = Boolean(resolvedVideo && resolvedVideo.videoId);
+
   const isAudioDrill = (task.title || '').toLowerCase().includes('audio drill')
     || (task.title || '').toLowerCase().includes('deutsch survival a1:');
 
-  // Tasks that are purely internal activities — show an info card instead of a video or external link
-  const isInternalActivity = isAudioDrill || ['Survival German', 'Color Coding', 'Smart Review', 'Revision', 'Test', 'Listening Marathon'].includes(task.type);
+  // Internal activity card shown ONLY if there is no video embed and no interactive drill
+  const isInternalActivity = !hasVideo && !isSpeakingDrill && !isWriting && (
+    isAudioDrill || ['Survival German', 'Color Coding', 'Smart Review', 'Revision', 'Test'].includes(task.type)
+  );
 
-  // External resource link card should ONLY be shown for non-video tasks that are NOT self-contained drills
-  const showResourceLink = !hasVideo && !isSpeakingDrill && !isInternalActivity && Boolean(task.link);
+  // External resource link card shown ONLY for non-video, non-drill tasks with an external link
+  const showResourceLink = !hasVideo && !isSpeakingDrill && !isWriting && !isInternalActivity && Boolean(task.link);
 
   return (
     <div

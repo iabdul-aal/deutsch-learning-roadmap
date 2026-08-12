@@ -285,7 +285,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
@@ -349,7 +349,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
@@ -420,7 +420,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -805,7 +805,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
@@ -1012,7 +1012,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "DW Nicos Weg: What Did Nico Do Yesterday - Perfekt",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -1076,7 +1076,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "DW Nicos Weg: What Did Nico Do Yesterday - Perfekt",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -1332,7 +1332,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "DW Nicos Weg: What Did Nico Do Yesterday - Perfekt",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -1397,7 +1397,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
@@ -1596,7 +1596,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "DW Nicos Weg: What Did Nico Do Yesterday - Perfekt",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -1781,7 +1781,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
@@ -1988,7 +1988,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German #120: How Germans Know a Word's Gender",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -2052,7 +2052,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German #120: How Germans Know a Word's Gender",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -2173,7 +2173,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
@@ -2437,7 +2437,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
@@ -2636,7 +2636,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -2700,7 +2700,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -2893,7 +2893,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
@@ -3092,7 +3092,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -3221,7 +3221,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
@@ -3292,7 +3292,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "Easy German #120: How Germans Know a Word's Gender",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -3420,7 +3420,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -3484,7 +3484,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -3612,7 +3612,7 @@ export const CURRICULUM_DATA_A2 = {
               "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",

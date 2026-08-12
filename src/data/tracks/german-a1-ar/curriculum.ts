@@ -27,7 +27,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: First Words & German Sound Patterns",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
@@ -70,7 +70,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "DW Nicos Weg: Listening to Native German from Day One",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Writing",
@@ -123,7 +123,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German: How to Introduce Yourself in Germany",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -137,7 +137,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German #45: First Conversations in Germany",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Speak",
@@ -165,7 +165,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German #45: First Conversations in Germany",
               "duration": "35 min",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -205,7 +205,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Numbers and Prices in Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -219,7 +219,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Asking About Phone Numbers & Prices in Context",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Speak",
@@ -259,7 +259,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Drill",
               "title": "DW Nicos Weg: Asking About Phone Numbers & Prices in Context",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             }
           ],
           "targetMetrics": {
@@ -376,7 +376,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Polite Refusals & Negative Sentences in Context",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Speak",
@@ -486,7 +486,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "DW Nicos Weg: Talking About Multiple Things - Plurals",
               "duration": "35 min",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -596,7 +596,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
@@ -713,7 +713,7 @@ export const CURRICULUM_DATA = {
               "type": "Roleplay",
               "title": "Easy German: Native Speed Conversations",
               "duration": "35 min",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -945,7 +945,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "DW Nicos Weg: Daily Schedule with Separable Verbs in Context",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -1117,7 +1117,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Modal Verbs können müssen wollen in Real Conversation",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
@@ -1227,7 +1227,7 @@ export const CURRICULUM_DATA = {
               "type": "Roleplay",
               "title": "DW Nicos Weg: Rules and Permissions - Modal Verbs in Context",
               "duration": "35 min",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -1372,7 +1372,7 @@ export const CURRICULUM_DATA = {
               "type": "Roleplay",
               "title": "Easy German: Native Speed Conversations",
               "duration": "40 min",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Writing",
@@ -1529,7 +1529,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German: Native Speed Conversations",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -1626,7 +1626,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Hallo! First Greetings & Introductions in German",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Read",
@@ -1668,7 +1668,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German #45: First Conversations in Germany",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -1805,7 +1805,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "DW Nicos Weg: Giving Directions with Dativ Prepositions",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -1949,7 +1949,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "DW Nicos Weg: Giving Directions with Dativ Prepositions",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -2129,7 +2129,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -2267,7 +2267,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German: Native Speed Conversations",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -2433,7 +2433,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German: Native Speed Conversations",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -2605,7 +2605,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Hallo! First Greetings & Introductions in German",
               "duration": "45 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Read",
@@ -2647,7 +2647,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German #45: First Conversations in Germany",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -2784,7 +2784,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "DW Nicos Weg: What Did You Do Yesterday? Perfekt in Context",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -2846,7 +2846,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "DW Nicos Weg: Daily Schedule with Separable Verbs in Context",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -3088,7 +3088,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -3261,7 +3261,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German: Native Speed Conversations",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -3301,7 +3301,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German: Native Speed Conversations",
               "duration": "20 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -3460,7 +3460,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "DW Nicos Weg: Comparing Apartments Prices and Options",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -3564,7 +3564,7 @@ export const CURRICULUM_DATA = {
               "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -3764,7 +3764,7 @@ export const CURRICULUM_DATA = {
               "title": "Easy German: Native Speed Conversations",
               "duration": "45 min",
               "resourceType": "LISTENING",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Read",
@@ -3792,7 +3792,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German: Native Speed Conversations",
               "duration": "35 min",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",
@@ -3923,7 +3923,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Easy German: Native Speed Conversations",
               "duration": "40 min",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Mobile App",

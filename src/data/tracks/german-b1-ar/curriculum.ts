@@ -36,7 +36,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #120: How Germans Know a Word's Gender",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -292,7 +292,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "Easy German #120: How Germans Know a Word's Gender",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=d_k6f6jGk8s"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -1062,7 +1062,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "DW Nicos Weg: Modal Verbs können müssen wollen in Real Conversation",
               "duration": "40 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Read",
@@ -1525,7 +1525,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
@@ -1653,7 +1653,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
@@ -1924,7 +1924,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "DW Nicos Weg: Negative Sentences in Everyday German",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -2629,7 +2629,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
@@ -2700,7 +2700,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -2765,7 +2765,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
@@ -2900,7 +2900,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -2964,7 +2964,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -3028,7 +3028,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -3092,7 +3092,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -3156,7 +3156,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -3221,7 +3221,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "DW Nicos Weg: Grammar in Real German Context",
               "duration": "30 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Watch",
@@ -3356,7 +3356,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -3420,7 +3420,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -3484,7 +3484,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -3512,7 +3512,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Goethe B1 Sprechen Part 2 & 3: Presentation & Discussion",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=YggtVH9BoSE"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             }
           ],
           "targetMetrics": {
@@ -3548,7 +3548,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
@@ -3576,7 +3576,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Full Goethe / TELC B1 Mock Exam Simulation Sprint",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=YggtVH9BoSE"
+              "link": "https://www.youtube.com/watch?v=Yrjgjh26FoE"
             }
           ],
           "targetMetrics": {
@@ -3612,7 +3612,7 @@ export const CURRICULUM_DATA_B1 = {
               "title": "DW Nicos Weg: Grammar in Daily German Life",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=249XquZInDk"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
             },
             {
               "type": "Memorize",
