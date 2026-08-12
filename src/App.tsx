@@ -15,7 +15,8 @@ import { MobileAppsView } from './components/MobileAppsView';
 import { QuickTimerModal } from './components/QuickTimerModal';
 import { CommandPalette } from './components/CommandPalette';
 import { OnboardingFlow } from './components/OnboardingFlow';
-import { Search, Command } from 'lucide-react';
+import { AVAILABLE_TRACKS } from './config/activeLanguageTrack';
+import { Search, Command, Clock } from 'lucide-react';
 
 // ── Error Boundaries ──────────────────────────────────────────────
 
@@ -94,9 +95,13 @@ class ViewErrorBoundary extends React.Component<BoundaryProps, { hasError: boole
  * returns before useEffect/useState calls.
  */
 const AppShell: React.FC = () => {
-  const { activeView, learnerModel } = useApp();
+  const { activeView, learnerModel, currentTrackId, completedTasks, totalTaskCount } = useApp();
   const [timerModalOpen, setTimerModalOpen]       = useState(false);
   const [commandPaletteOpen, setCommandPaletteOpen] = useState(false);
+
+  const completedCount = Object.values(completedTasks).filter(Boolean).length;
+  const progressPercent = Math.min(100, Math.round((completedCount / Math.max(totalTaskCount, 1)) * 100));
+  const currentTrack = AVAILABLE_TRACKS.find(t => t.id === currentTrackId) || AVAILABLE_TRACKS[0];
 
   useEffect(() => {
     const open = () => setCommandPaletteOpen(true);
@@ -130,30 +135,54 @@ const AppShell: React.FC = () => {
         className="flex-1 min-w-0 p-4 sm:p-6 lg:p-8 space-y-6 max-w-7xl"
         aria-label="Main content"
       >
-        {/* Command bar header */}
-        <div className="hidden sm:flex items-center justify-between p-3 rounded-lg bg-white border border-stone-200 shadow-sm">
-          <div className="flex items-center gap-2 text-xs text-stone-500 font-medium">
-            <span className="font-bold text-stone-900">Deutsch Learning OS</span>
+        {/* Command bar header with Persistent Progress Bar and Timer */}
+        <div className="hidden sm:flex items-center justify-between p-3 rounded-xl bg-white border border-stone-200 shadow-xs gap-4">
+          <div className="flex items-center gap-2 text-xs text-stone-500 font-medium shrink-0">
+            <span className="font-bold text-stone-900">Deutsch OS</span>
             <span>/</span>
             <span className="text-amber-600 font-black uppercase text-[11px] tracking-wide">
-              {learnerModel.cefrEstimate?.overall ?? 'A1'}
+              {currentTrack.shortName || currentTrack.name}
             </span>
             <span>/</span>
-            <span className="capitalize text-amber-800 font-bold">
+            <span className="capitalize text-stone-700 font-bold">
               {activeView.replace(/_/g, ' ')}
             </span>
           </div>
 
-          <button
-            onClick={() => setCommandPaletteOpen(true)}
-            className="flex items-center gap-3 px-3 py-1.5 rounded-md bg-stone-100 hover:bg-stone-200 text-stone-600 border border-stone-300 text-xs transition-all"
-          >
-            <Search className="w-3.5 h-3.5 text-stone-400" />
-            <span>Search or jump to...</span>
-            <kbd className="px-1.5 py-0.5 rounded bg-white text-stone-500 text-[10px] font-mono border border-stone-300 flex items-center gap-0.5">
-              <Command className="w-3 h-3" /> K
-            </kbd>
-          </button>
+          <div className="flex items-center gap-3 shrink-0">
+            {/* Global Persistent Progress Bar */}
+            <div className="flex items-center gap-2 bg-stone-50 border border-stone-200 px-3 py-1.5 rounded-lg">
+              <span className="text-[10px] font-black text-stone-400 uppercase tracking-wider">{currentTrack.level}</span>
+              <div className="w-24 sm:w-32 h-2 rounded-full bg-stone-200 overflow-hidden">
+                <div
+                  className="h-full bg-amber-500 rounded-full transition-all duration-500"
+                  style={{ width: `${progressPercent}%` }}
+                />
+              </div>
+              <span className="text-xs font-mono font-bold text-amber-700">{progressPercent}%</span>
+            </div>
+
+            {/* Global Persistent Timer Button */}
+            <button
+              onClick={() => setTimerModalOpen(true)}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-stone-900 hover:bg-amber-600 text-white text-xs font-bold transition-all shadow-xs shrink-0"
+              title="Open Study Session Timer"
+            >
+              <Clock className="w-3.5 h-3.5 text-amber-400" />
+              <span>Timer</span>
+            </button>
+
+            {/* Command Palette Search */}
+            <button
+              onClick={() => setCommandPaletteOpen(true)}
+              className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-600 border border-stone-300 text-xs transition-all shrink-0"
+            >
+              <Search className="w-3.5 h-3.5 text-stone-400" />
+              <kbd className="px-1.5 py-0.5 rounded bg-white text-stone-500 text-[10px] font-mono border border-stone-300 flex items-center gap-0.5">
+                <Command className="w-3 h-3" /> K
+              </kbd>
+            </button>
+          </div>
         </div>
 
         {/* Dynamic view */}
