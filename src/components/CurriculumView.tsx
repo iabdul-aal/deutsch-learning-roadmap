@@ -192,10 +192,10 @@ const SpeakingDrillCard: React.FC<{ title: string }> = ({ title }) => {
 
 // ── Lesson Resource Attachment Card ────────────────────────────────
 const TaskResourceCard: React.FC<{ task: any; dayNumber?: number }> = ({ task, dayNumber = 1 }) => {
-  let link = task.link;
-  const isGeneric = !link || link.includes('WMvCXVorOsg') || link.includes('4-eDoThe6qo') || link.includes('bahn.de') || link.includes('ankiweb.net/shared/info/2047595496');
+  let link = (task.link || '').trim();
 
-  if (isGeneric) {
+  // Only fall back to external learning portals if link is missing or an invalid placeholder
+  if (!link || link.includes('NO_LINK') || link.includes('bahn.de')) {
     if (task.type === 'Quiz') {
       link = 'https://www.schubert-verlag.de/aufgaben/index.htm';
     } else if (task.type === 'Read') {
@@ -204,8 +204,6 @@ const TaskResourceCard: React.FC<{ task: any; dayNumber?: number }> = ({ task, d
       link = 'https://apps.ankiweb.net/';
     } else if (task.type === 'Writing') {
       link = 'https://www.deutschakademie.de/online-deutschkurs/App#user/exercises';
-    } else if (task.type === 'Speak' || task.type === 'Shadowing' || task.type === 'Roleplay') {
-      link = `https://www.youtube.com/watch?v=${getVerifiedDayVideoId(dayNumber)}`;
     } else {
       link = 'https://en.pons.com/translate/german-arabic';
     }
@@ -222,11 +220,11 @@ const TaskResourceCard: React.FC<{ task: any; dayNumber?: number }> = ({ task, d
         className="flex items-center justify-between p-2.5 rounded-lg bg-white border border-stone-200 hover:border-amber-400 text-xs font-bold text-stone-800 transition-all shadow-xs group"
       >
         <span className="truncate pr-2">
-          {task.type === 'Quiz' ? 'Open Schubert Verlag Practice Exercises' :
+          {link.includes('youtube.com') || link.includes('youtu.be') ? 'Open Video Lesson on YouTube ↗' :
+           task.type === 'Quiz' ? 'Open Schubert Verlag Practice Exercises' :
            task.type === 'Read' ? 'Open DW Nicos Weg Interactive Module' :
            task.type === 'Memorize' || task.type === 'Mobile App' ? 'Open Anki German A1 Deck' :
            task.type === 'Writing' ? 'Open DeutschAkademie Writing Trainer' :
-           task.type === 'Speak' || task.type === 'Shadowing' ? 'Open YouTube Practice Video' :
            'Open Reference Dictionary (PONS)'}
         </span>
         <ExternalLink className="w-3.5 h-3.5 text-amber-600 group-hover:translate-x-0.5 transition-transform shrink-0" />
@@ -251,7 +249,7 @@ const TaskCard: React.FC<{
 
   const meta = getTaskMeta(task.type);
   const Icon = meta.icon;
-  const isVideo = task.type === 'Watch' || task.type === 'Listen';
+  const isVideo = task.type === 'Watch' || task.type === 'Listen' || task.type === 'Speak' || task.type === 'Shadowing' || Boolean(task.link && task.link.includes('v='));
   const isWriting = task.type === 'Writing' || (task.type === 'Write');
   const isSpeaking = task.type === 'Speak' || task.type === 'Shadowing' || task.type === 'Roleplay' || task.type === 'AI Roleplay';
 

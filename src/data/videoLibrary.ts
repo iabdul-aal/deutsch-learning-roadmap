@@ -232,9 +232,15 @@ export function resolveTaskVideoEmbed(
     };
   }
 
-  // 3. lingoni GERMAN detection
-  if (titleLower.includes('lingoni') || titleLower.includes('jenny')) {
-    return { videoId: 'RrfgbBp6ScI', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'lingoni GERMAN', isCroppedSegment: false };
+  // 3. lingoni GERMAN / YourGermanTeacher / Anja detection
+  if (titleLower.includes('lingoni') || titleLower.includes('jenny') || titleLower.includes('yourgermanteacher')) {
+    return { videoId: 'RrfgbBp6ScI', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'lingoni / YourGermanTeacher', isCroppedSegment: false };
+  }
+  if (titleLower.includes('anja') || titleLower.includes('learn german with anja')) {
+    return { videoId: 'WMvCXVorOsg', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Learn German with Anja', isCroppedSegment: false };
+  }
+  if (titleLower.includes('shehata')) {
+    return { videoId: 'dr-dJ0a3Scs', startTimeSeconds: 0, endTimeSeconds: durationSec, creatorName: 'Shehata Deutsch', isCroppedSegment: false };
   }
 
   // 4. Specific topic videos

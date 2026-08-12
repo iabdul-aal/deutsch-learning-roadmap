@@ -34,7 +34,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: German Alphabet and Umlauts Made Easy",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=_VyYfZP9MsY"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Memorize",
@@ -62,7 +62,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 1 Alphabet and Greetings Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=_VyYfZP9MsY"
             }
           ],
           "intensiveTasks": [
@@ -165,7 +165,7 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Shadow Nico's introductory dialogue in Nicos Weg Ep 1-3",
               "duration": "35 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=600s"
             },
             {
               "type": "Mobile App",
@@ -226,7 +226,7 @@ export const CURRICULUM_DATA = {
               "title": "Read out 10 phone numbers, postal codes, and prices in German",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=3000s"
             },
             {
               "type": "Quiz",
@@ -369,7 +369,7 @@ export const CURRICULUM_DATA = {
               "title": "15 opposites and negation vocabulary (gut/schlecht, groß/klein, kein Geld, nicht müde)",
               "duration": "30 min",
               "resourceType": "VOCAB",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=6000s"
             },
             {
               "type": "Listen",
@@ -390,7 +390,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 5 Negation Mastery Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=6000s"
             }
           ],
           "intensiveTasks": [
@@ -410,7 +410,7 @@ export const CURRICULUM_DATA = {
               "type": "Mobile App",
               "title": "Anki Deck: A1 Negation and Opposite adjectives",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=6000s"
             },
             {
               "type": "Speaking Drill",
@@ -444,7 +444,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Family Tree and Plural Nouns",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Memorize",
@@ -472,7 +472,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 6 Family and Plurals Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=7500s"
             }
           ],
           "intensiveTasks": [
@@ -486,13 +486,13 @@ export const CURRICULUM_DATA = {
               "type": "Shadowing",
               "title": "Read and shadow the story 'Meine Familie' 3 times focusing on sentence rhythm",
               "duration": "35 min",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=7500s"
             },
             {
               "type": "Mobile App",
               "title": "Anki family and plural vocabulary review",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=7500s"
             },
             {
               "type": "Survival German",
@@ -554,7 +554,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Marathon",
               "title": "Watch Nicos Weg Episodes 1-10 compilation back-to-back",
               "duration": "45 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=3600s"
             },
             {
               "type": "Mobile App",
@@ -596,7 +596,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch Survival A1: Accusative rules and sentence diagrams",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=10500s"
             },
             {
               "type": "Watch",
@@ -610,14 +610,14 @@ export const CURRICULUM_DATA = {
               "title": "15 common transitive verbs requiring Accusative (haben, brauchen, kaufen, suchen, trinken, essen...)",
               "duration": "35 min",
               "resourceType": "VOCAB",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=10500s"
             },
             {
               "type": "Quiz",
               "title": "Complete Day 8 Accusative Case Mini-Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=10500s"
             }
           ],
           "intensiveTasks": [
@@ -625,19 +625,19 @@ export const CURRICULUM_DATA = {
               "type": "Writing",
               "title": "Write 15 sentences using masculine, feminine, and neuter objects in Accusative",
               "duration": "40 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=10500s"
             },
             {
               "type": "Shadowing",
               "title": "Repeat Accusative sentence patterns out loud 25 times",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=10500s"
             },
             {
               "type": "Mobile App",
               "title": "Seedlang Accusative Case Trainer - 40 questions",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=10500s"
             },
             {
               "type": "Survival German",
@@ -753,7 +753,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: How to order food like a native in Germany",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Memorize",
@@ -842,21 +842,21 @@ export const CURRICULUM_DATA = {
               "title": "Days of week, months, prepositions of time (um 8 Uhr, am Montag, im Juli)",
               "duration": "35 min",
               "resourceType": "VOCAB",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=15000s"
             },
             {
               "type": "Speak",
               "title": "Read out 12 random clock times in both official and informal formats",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=15000s"
             },
             {
               "type": "Quiz",
               "title": "Complete Day 11 Clock Times and Prepositions Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=15000s"
             }
           ],
           "intensiveTasks": [
@@ -910,14 +910,14 @@ export const CURRICULUM_DATA = {
               "title": "YourGermanTeacher: Separable Verbs in German - Explained Simply",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
               "title": "15 separable verbs (einkaufen, anrufen, aufstehen, mitkommen, anfangen, ausfüllen...)",
               "duration": "35 min",
               "resourceType": "VOCAB",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
             },
             {
               "type": "Listen",
@@ -931,7 +931,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 12 Separable Verbs Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
             }
           ],
           "intensiveTasks": [
@@ -939,19 +939,19 @@ export const CURRICULUM_DATA = {
               "type": "Writing",
               "title": "Write 12 sentences with separable verbs, correctly placing prefixes at sentence end",
               "duration": "45 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
             },
             {
               "type": "Shadowing",
               "title": "Shadow daily routine descriptions with separable verbs 3 times",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
             },
             {
               "type": "Mobile App",
               "title": "Anki Separable Verbs Deck",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
             },
             {
               "type": "Survival German",
@@ -1061,14 +1061,14 @@ export const CURRICULUM_DATA = {
               "title": "Targeted review of weak Accusative or Separable verb questions",
               "duration": "35 min",
               "resourceType": "SMART_REVIEW",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
             },
             {
               "type": "Speaking Mission",
               "title": "Record a 3-minute vlog describing your typical day using separable verbs",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
             }
           ],
           "intensiveTasks": [
@@ -1082,7 +1082,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Marathon",
               "title": "Watch DW Nicos Weg Episodes 11-20 compilation",
               "duration": "45 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=1800s"
             },
             {
               "type": "Mobile App",
@@ -1138,7 +1138,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 15 Modal Verbs Mini-Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
             }
           ],
           "intensiveTasks": [
@@ -1146,19 +1146,19 @@ export const CURRICULUM_DATA = {
               "type": "Writing",
               "title": "Write 15 sentences expressing obligations, abilities, and desires using modal verbs",
               "duration": "40 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
             },
             {
               "type": "Shadowing",
               "title": "Shadow modal verb sentence patterns 20 times",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
             },
             {
               "type": "Mobile App",
               "title": "Seedlang Modal Verbs Trainer",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
             },
             {
               "type": "Survival German",
@@ -1213,7 +1213,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 16 Rules and Modal Verbs Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
             }
           ],
           "intensiveTasks": [
@@ -1494,7 +1494,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Practical German for House Repair and Issues",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Memorize",
@@ -1633,28 +1633,28 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch Survival A1: Dative case breakdown and color charts",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             },
             {
               "type": "Watch",
               "title": "YourGermanTeacher: Dative Case in German - Complete Masterclass",
               "duration": "30 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
             },
             {
               "type": "Memorize",
               "title": "15 core Dative verbs (helfen, danken, gehören, gefallen, passen, antworten...)",
               "duration": "35 min",
               "resourceType": "VOCAB",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             },
             {
               "type": "Quiz",
               "title": "Complete Day 22 Dative Case Basics Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             }
           ],
           "intensiveTasks": [
@@ -1662,19 +1662,19 @@ export const CURRICULUM_DATA = {
               "type": "Writing",
               "title": "Write 15 sentences using Dative verbs (e.g. 'Ich helfe dem Mann', 'Das Buch gehört der Frau')",
               "duration": "40 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             },
             {
               "type": "Shadowing",
               "title": "Shadow Dative sentence transformations 25 times",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             },
             {
               "type": "Mobile App",
               "title": "Seedlang Dative Case Trainer - 40 questions",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             },
             {
               "type": "Survival German",
@@ -1715,7 +1715,7 @@ export const CURRICULUM_DATA = {
               "title": "Dative pronouns (mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen) + health and state phrases",
               "duration": "30 min",
               "resourceType": "VOCAB",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             },
             {
               "type": "Speak",
@@ -1729,7 +1729,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 23 Dative Pronouns Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             }
           ],
           "intensiveTasks": [
@@ -1737,7 +1737,7 @@ export const CURRICULUM_DATA = {
               "type": "Writing",
               "title": "Write 12 conversational exchanges using Dative personal pronouns",
               "duration": "40 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             },
             {
               "type": "Roleplay",
@@ -1749,7 +1749,7 @@ export const CURRICULUM_DATA = {
               "type": "Mobile App",
               "title": "Anki Dative pronouns deck",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             }
           ],
           "targetMetrics": {
@@ -1777,21 +1777,21 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: The Dative Preposition Song and Rule",
               "duration": "20 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Memorize",
               "title": "7 Dative prepositions (aus, bei, mit, nach, seit, von, zu) + contractions (beim, zum, zur)",
               "duration": "35 min",
               "resourceType": "VOCAB",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             },
             {
               "type": "Quiz",
               "title": "Complete Day 24 Dative Prepositions Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             }
           ],
           "intensiveTasks": [
@@ -1799,19 +1799,19 @@ export const CURRICULUM_DATA = {
               "type": "Writing",
               "title": "Write 14 sentences using every Dative preposition twice",
               "duration": "40 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             },
             {
               "type": "Shadowing",
               "title": "Recite the Dative preposition mnemonic out loud 20 times",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             },
             {
               "type": "Mobile App",
               "title": "Seedlang Dative Preposition Trainer",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             },
             {
               "type": "Survival German",
@@ -1935,7 +1935,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 26 Two-Way Prepositions (Wo?) Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=37500s"
             }
           ],
           "intensiveTasks": [
@@ -2052,7 +2052,7 @@ export const CURRICULUM_DATA = {
               "title": "Consolidate Week 4 Dative summary and prepositions rule sheet",
               "duration": "50 min",
               "resourceType": "REVISION",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             },
             {
               "type": "Test",
@@ -2066,7 +2066,7 @@ export const CURRICULUM_DATA = {
               "title": "Review any flagged weak Dative preposition or direction questions",
               "duration": "35 min",
               "resourceType": "SMART_REVIEW",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             },
             {
               "type": "Speaking Mission",
@@ -2087,7 +2087,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Marathon",
               "title": "Watch DW Nicos Weg Episodes 31-40 compilation",
               "duration": "45 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=4200s"
             },
             {
               "type": "Mobile App",
@@ -2467,7 +2467,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Going to the Doctor in Germany",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Memorize",
@@ -2570,7 +2570,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Marathon",
               "title": "Watch DW Nicos Weg Episodes 41-50 compilation",
               "duration": "45 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=2400s"
             },
             {
               "type": "Mobile App",
@@ -2612,7 +2612,7 @@ export const CURRICULUM_DATA = {
               "title": "Deutsch Survival A1: Perfekt tense formula and regular verb list",
               "duration": "25 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=52500s"
             },
             {
               "type": "Watch",
@@ -2633,7 +2633,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 36 Perfekt Regular Verbs Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=52500s"
             }
           ],
           "intensiveTasks": [
@@ -2641,7 +2641,7 @@ export const CURRICULUM_DATA = {
               "type": "Writing",
               "title": "Write 15 sentences describing what you did yesterday using regular Perfekt verbs",
               "duration": "40 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=52500s"
             },
             {
               "type": "Shadowing",
@@ -2653,7 +2653,7 @@ export const CURRICULUM_DATA = {
               "type": "Mobile App",
               "title": "Seedlang Perfekt Tense Trainer - 40 questions",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=52500s"
             }
           ],
           "targetMetrics": {
@@ -2695,7 +2695,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 37 Perfekt with Sein Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=54000s"
             }
           ],
           "intensiveTasks": [
@@ -2703,7 +2703,7 @@ export const CURRICULUM_DATA = {
               "type": "Writing",
               "title": "Write 15 sentences detailing a past trip or journey using 'sein' in Perfekt",
               "duration": "40 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=54000s"
             },
             {
               "type": "Shadowing",
@@ -2715,7 +2715,7 @@ export const CURRICULUM_DATA = {
               "type": "Mobile App",
               "title": "Anki Haben vs Sein Perfekt Deck",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=54000s"
             },
             {
               "type": "Survival German",
@@ -2749,7 +2749,7 @@ export const CURRICULUM_DATA = {
               "title": "Learn German with Anja: Top Irregular German Past Tense Verbs",
               "duration": "25 min",
               "resourceType": "SUPPLEMENTARY",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
             },
             {
               "type": "Memorize",
@@ -2770,7 +2770,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 38 Irregular Perfekt Verbs Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=55500s"
             }
           ],
           "intensiveTasks": [
@@ -2778,7 +2778,7 @@ export const CURRICULUM_DATA = {
               "type": "Writing",
               "title": "Write a 150-word journal entry about your past weekend using irregular Perfekt verbs",
               "duration": "45 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=55500s"
             },
             {
               "type": "Shadowing",
@@ -2832,7 +2832,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Day 39 Inseparable Perfekt Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
             }
           ],
           "intensiveTasks": [
@@ -2852,7 +2852,7 @@ export const CURRICULUM_DATA = {
               "type": "Mobile App",
               "title": "Anki Inseparable Verbs Deck",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
             }
           ],
           "targetMetrics": {
@@ -2894,14 +2894,14 @@ export const CURRICULUM_DATA = {
               "title": "Narrate your past week out loud for 3 minutes without looking at notes",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://learngerman.dw.com/en/nicos-weg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=58500s"
             },
             {
               "type": "Quiz",
               "title": "Complete Day 40 Perfekt Storytelling Quiz",
               "duration": "15 min",
               "resourceType": "QUIZ",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=58500s"
             }
           ],
           "intensiveTasks": [
@@ -3011,7 +3011,7 @@ export const CURRICULUM_DATA = {
               "title": "Consolidate Week 6 Perfekt verb master lists and Hend notes",
               "duration": "50 min",
               "resourceType": "REVISION",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=61500s"
             },
             {
               "type": "Test",
@@ -3025,14 +3025,14 @@ export const CURRICULUM_DATA = {
               "title": "Review any flagged weak Perfekt auxiliary or Partizip II questions",
               "duration": "35 min",
               "resourceType": "SMART_REVIEW",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=61500s"
             },
             {
               "type": "Speaking Mission",
               "title": "Record a 4-minute vlog reviewing your past month of German study in Perfekt",
               "duration": "20 min",
               "resourceType": "SPEAKING",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=61500s"
             }
           ],
           "intensiveTasks": [
@@ -3046,7 +3046,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Marathon",
               "title": "Watch DW Nicos Weg Episodes 51-60 compilation",
               "duration": "45 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=600s"
             },
             {
               "type": "Mobile App",
@@ -3522,7 +3522,7 @@ export const CURRICULUM_DATA = {
               "type": "Listening Marathon",
               "title": "Watch DW Nicos Weg Episodes 61-70 compilation",
               "duration": "45 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=4800s"
             },
             {
               "type": "Mobile App",
@@ -3702,7 +3702,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete Deutsch mit Hend A1 Master Grammar Review Sheet",
               "duration": "60 min",
               "resourceType": "PRIMARY",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg&t=76500s"
             },
             {
               "type": "Watch",
@@ -3757,7 +3757,7 @@ export const CURRICULUM_DATA = {
               "title": "Complete DW Nicos Weg A1 End-of-Course Final Test",
               "duration": "60 min",
               "resourceType": "SECONDARY",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo&t=1200s"
             },
             {
               "type": "Listen",

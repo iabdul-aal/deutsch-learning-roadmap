@@ -256,7 +256,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Expressing Possession in Formal & Academic Writing",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=4500s"
             }
           ],
           "targetMetrics": {
@@ -384,7 +384,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Genitive vs Dative ('von' + Dative in Spoken German)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             }
           ],
           "targetMetrics": {
@@ -448,7 +448,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Week 1 Review & Genitive Case Mastery Sprint",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=9000s"
             }
           ],
           "targetMetrics": {
@@ -648,7 +648,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Relative Clauses in Dative (der Kollege, dem ich helfe...)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             }
           ],
           "targetMetrics": {
@@ -712,7 +712,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Relative Clauses in Genitive (der Autor, dessen Buch...)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=15000s"
             }
           ],
           "targetMetrics": {
@@ -904,7 +904,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Week 2 Review & Relative Clauses Mastery Sprint",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=19500s"
             }
           ],
           "targetMetrics": {
@@ -1104,7 +1104,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Passive Voice with Modal Verbs (muss gemacht werden / kann gelöst werden)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
             }
           ],
           "targetMetrics": {
@@ -1168,7 +1168,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Agent vs Instrument in Passive (von + Dativ vs durch + Akkusativ)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=F3a7cI2g_sM"
             }
           ],
           "targetMetrics": {
@@ -1360,7 +1360,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Week 3 Review & Passive Voice Mastery Sprint",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=30000s"
             }
           ],
           "targetMetrics": {
@@ -1624,7 +1624,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Negative Infinitive Clauses with 'ohne...zu' (without doing)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=36000s"
             }
           ],
           "targetMetrics": {
@@ -1752,7 +1752,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Combining Infinitive Clauses in Essays & Formal Letters",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=39000s"
             }
           ],
           "targetMetrics": {
@@ -2016,7 +2016,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Alternatives & Contrast: 'entweder...oder' vs 'zwar...aber'",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=45000s"
             }
           ],
           "targetMetrics": {
@@ -2144,7 +2144,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Modal Subordinate Clauses with 'indem' & 'dadurch, dass'",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
             }
           ],
           "targetMetrics": {
@@ -2272,7 +2272,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Week 5 Review & Two-Part Conjunctions Mastery Sprint",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=51000s"
             }
           ],
           "targetMetrics": {
@@ -2536,7 +2536,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Causal & Consecutive Clauses: da vs weil, folglich, deshalb",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=57000s"
             }
           ],
           "targetMetrics": {
@@ -2728,7 +2728,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Week 6 Review & Advanced B1 Grammar Mastery Sprint",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=61500s"
             }
           ],
           "targetMetrics": {
@@ -2992,7 +2992,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Expressing Opinions & Debating Politely (Meiner Meinung nach...)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=67500s"
             }
           ],
           "targetMetrics": {
@@ -3120,7 +3120,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Medical & Health Scenarios at B1 Level (Beim Arzt & Apotheke)",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=70500s"
             }
           ],
           "targetMetrics": {
@@ -3256,7 +3256,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Goethe B1 Hören Sprint: Listening Comprehension Parts 1-4",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=73500s"
             }
           ],
           "targetMetrics": {
@@ -3512,7 +3512,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: Goethe B1 Sprechen Part 2 & 3: Presentation & Discussion",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=79500s"
             }
           ],
           "targetMetrics": {
@@ -3640,7 +3640,7 @@ export const CURRICULUM_DATA_B1 = {
               "type": "Speak",
               "title": "B1 Speaking & Presentation Drill: German B1 Graduation Day: Progress Review & B2 Academic Preparation",
               "duration": "30 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=82500s"
             }
           ],
           "targetMetrics": {

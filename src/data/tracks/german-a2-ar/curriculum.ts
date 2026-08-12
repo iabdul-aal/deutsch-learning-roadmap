@@ -320,7 +320,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Indirect Questions with 'ob' and W-Words (wo, wie, warum)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=6000s"
             }
           ],
           "targetMetrics": {
@@ -448,7 +448,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Week 1 Review & Subordinate Clause Mastery Sprint",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=9000s"
             }
           ],
           "targetMetrics": {
@@ -520,7 +520,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Dative Case Articles & Pronouns (dem, der, dem, den / mir, dir, ihm)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             }
           ],
           "targetMetrics": {
@@ -584,7 +584,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Dative-Only Prepositions (aus, bei, mit, nach, seit, von, zu)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             }
           ],
           "targetMetrics": {
@@ -648,7 +648,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Two-Way Prepositions: Position (Wo? + Dative)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             }
           ],
           "targetMetrics": {
@@ -712,7 +712,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Two-Way Prepositions: Direction (Wohin? + Accusative)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=15000s"
             }
           ],
           "targetMetrics": {
@@ -776,7 +776,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Position Verbs Pair 1: stehen vs stellen (Dative vs Accusative)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             }
           ],
           "targetMetrics": {
@@ -904,7 +904,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Week 2 Review & Spatial Prepositions Mastery Sprint",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=19500s"
             }
           ],
           "targetMetrics": {
@@ -1168,7 +1168,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Perfekt with Separable Verbs (einkaufen -> eingekauft)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
             }
           ],
           "targetMetrics": {
@@ -1232,7 +1232,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Perfekt with Inseparable Verbs (verstehen -> verstanden, bezahlen)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=MmacJnqL3i0"
+              "link": "https://www.youtube.com/watch?v=g9o6q5x8sRk"
             }
           ],
           "targetMetrics": {
@@ -1360,7 +1360,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Week 3 Review & Perfekt Fluency Sprint",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=30000s"
             }
           ],
           "targetMetrics": {
@@ -1496,7 +1496,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Simple Past of Modals: konnte (could) & musste (had to)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
             }
           ],
           "targetMetrics": {
@@ -1560,7 +1560,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Simple Past of Modals: wollte, sollte, durfte",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=OFSHdj_2FQA"
+              "link": "https://www.youtube.com/watch?v=e_0kU4M0d0U"
             }
           ],
           "targetMetrics": {
@@ -1624,7 +1624,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Perfekt vs Präteritum: Spoken vs Written Past Rules",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=36000s"
             }
           ],
           "targetMetrics": {
@@ -1752,7 +1752,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Writing a Past Incident Report / Doctor's Absence Note",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=39000s"
             }
           ],
           "targetMetrics": {
@@ -1952,7 +1952,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Reflexive Verbs with Dative (sich etwas wünschen, sich die Hände waschen)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=r94aqLUO0wo"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             }
           ],
           "targetMetrics": {
@@ -2016,7 +2016,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Adjective Endings after Definite Articles (der alte Tisch, die neue Tasche)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=WMvCXVorOsg"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=45000s"
             }
           ],
           "targetMetrics": {
@@ -2144,7 +2144,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Adjective Endings in Accusative & Dative Cases",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             }
           ],
           "targetMetrics": {
@@ -2272,7 +2272,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Week 5 Review & Adjective Declension Mastery Sprint",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=51000s"
             }
           ],
           "targetMetrics": {
@@ -2536,7 +2536,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Genitive Case Intro: Possessive & Prepositions (wegen, während)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=57000s"
             }
           ],
           "targetMetrics": {
@@ -2600,7 +2600,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Expressing Possession: Genitive vs 'von' + Dative in Spoken German",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=RrfgbBp6ScI"
+              "link": "https://www.youtube.com/watch?v=oV9gP4-g-e8"
             }
           ],
           "targetMetrics": {
@@ -2728,7 +2728,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Week 6 Review & Comparison Mastery Sprint",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=61500s"
             }
           ],
           "targetMetrics": {
@@ -2992,7 +2992,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Hypothetical Wishes & Dreams (Wenn ich Zeit hätte...)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=67500s"
             }
           ],
           "targetMetrics": {
@@ -3120,7 +3120,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Bürgeramt & Registration Scenarios (Anmeldung, Formular ausfüllen)",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=70500s"
             }
           ],
           "targetMetrics": {
@@ -3256,7 +3256,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Goethe A2 Hören Sprint: Listening Comprehension Parts 1-3",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=73500s"
             }
           ],
           "targetMetrics": {
@@ -3512,7 +3512,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: Goethe A2 Sprechen Part 3: Planning an Event Together with Partner",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=79500s"
             }
           ],
           "targetMetrics": {
@@ -3640,7 +3640,7 @@ export const CURRICULUM_DATA_A2 = {
               "type": "Speak",
               "title": "Speaking & Shadowing Drill: German A2 Graduation Day: Progress Review & B1 Transition Plan",
               "duration": "25 min",
-              "link": "https://www.youtube.com/watch?v=4-eDoThe6qo"
+              "link": "https://www.youtube.com/watch?v=dr-dJ0a3Scs&t=82500s"
             }
           ],
           "targetMetrics": {
