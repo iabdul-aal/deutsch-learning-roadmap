@@ -110,6 +110,8 @@ export const VIDEOS: Record<string, VideoResource> = {
   // ── Deutsch mit Hend Core Lessons ──
   // WMvCXVorOsg: Verified — Hend's full A1 masterclass compilation (~10h, Arabic-taught)
   hend_a1_masterclass: { videoId: 'WMvCXVorOsg', title: 'Full A1 German Course for Arabic Speakers', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 600, language: 'arabic', type: 'lesson', viewsApprox: '500K+' },
+  // UuDS2hFTwtc: Hend's German Basics Part 2 (أساسيات اللغة الألمانية - الجزء الثاني)
+  hend_basics_part2:   { videoId: 'UuDS2hFTwtc', title: 'أساسيات اللغة الألمانية - الجزء الثاني (German Basics Part 2)', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 45, language: 'arabic', type: 'lesson' },
   // _VyYfZP9MsY: Hend's standalone Alphabet video (separate upload, verified)
   hend_alphabet:       { videoId: '_VyYfZP9MsY', title: 'Das Alphabet — German Alphabet and Phonetics', channelName: 'Deutsch mit Hend', level: 'A1', durationMinutes: 35, language: 'arabic', type: 'lesson' },
   // dr-dJ0a3Scs: Verified as Shehata Deutsch (NOT Hend) — used for A2/B1 Arabic content

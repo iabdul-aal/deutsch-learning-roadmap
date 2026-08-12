@@ -18,6 +18,19 @@ export const RESOURCES_DATA_A2: ResourceDatabase = {
       link: "https://www.youtube.com/watch?v=dr-dJ0a3Scs"
     },
     {
+      id: "res-a2-piece-of-german",
+      title: "Piece of German - Step by Step A2 Day-by-Day Learning Plan",
+      creator: "Piece of German",
+      language: "English / German",
+      skill: "Structured A2 Day-by-Day Guided Curriculum",
+      level: "A2 (Intermediate Beginner)",
+      duration: "Self-Paced Daily Plan (1-3h/day)",
+      priority: "HIGH VALUE",
+      whySelected: "Structured A2 daily roadmap guiding learners step-by-step through intermediate grammar, Perfekt tense, Wechselpräpositionen, and conversational drills.",
+      sourceCommunity: "Global German Learners",
+      link: "https://www.pieceofgerman.com/a2-1"
+    },
+    {
       id: "res-a2-goethe-official",
       title: "Goethe-Zertifikat A2: Official Practice Sets & Exam Papers",
       creator: "Goethe-Institut",

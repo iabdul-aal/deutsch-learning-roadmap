@@ -36,6 +36,32 @@ export const RESOURCES_DATA: ResourceDatabase = {
       link: "https://www.youtube.com/watch?v=WMvCXVorOsg"
     },
     {
+      id: "res-hend-lesson2",
+      title: "Deutsch mit Hend - German Basics Part 2 (أساسيات اللغة الألمانية - الجزء الثاني)",
+      creator: "Frau Hend Taha (@FrauHendTaha)",
+      language: "Arabic / German",
+      skill: "A1 Basics & Pronunciation Deep Dive",
+      level: "A1 (Beginner)",
+      duration: "Lesson 2 Video Series",
+      priority: "CORE",
+      whySelected: "Direct continuation of Hend's A1 course covering German phonetics, basic conversation structures, and foundational vocabulary.",
+      sourceCommunity: "Arabic Ecosystem (Egypt / MENA)",
+      link: "https://www.youtube.com/watch?v=UuDS2hFTwtc"
+    },
+    {
+      id: "res-piece-of-german-a1",
+      title: "Piece of German - Step by Step A1 Day-by-Day Learning Plan",
+      creator: "Piece of German",
+      language: "English / German",
+      skill: "Structured Day-by-Day Guided Curriculum",
+      level: "A1 (Beginner)",
+      duration: "Self-Paced Daily Plan (1-3h/day)",
+      priority: "HIGH VALUE",
+      whySelected: "Comprehensive day-by-day structured learning path for German A1, providing step-by-step guidance, drills, and daily progress milestones.",
+      sourceCommunity: "Global German Learners",
+      link: "https://www.pieceofgerman.com/a1-1"
+    },
+    {
       id: "res-goethe-a1-official",
       title: "Goethe-Zertifikat A1: Start Deutsch 1 Official Practice Sets & Audio",
       creator: "Goethe-Institut",
